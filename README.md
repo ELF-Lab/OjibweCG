@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Ojibwe Constraint Grammar
 
 Welcome! This repository hosts the Ojibwe constraint grammar project.
@@ -29,3 +30,6 @@ This page is mainly an index to the repository and to the documentation. Linguis
 - [NOT COMPLETE] [`05_work_in_progress.md`](documentation/05_work_in_progress.md) – shows what are the main next steps and current limitations of the project
 - [NOT COMPLETE] [`06_references_and_credits.md`](documentation/06_references_and_credits.md) – summary of references and contributions to the project
 
+=======
+# CPSC330
+>>>>>>> 7e69ba6 (first commit)

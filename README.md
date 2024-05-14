@@ -32,4 +32,8 @@ This page is mainly an index to the repository and to the documentation. Linguis
 
 =======
 # CPSC330
+<<<<<<< HEAD
 >>>>>>> 7e69ba6 (first commit)
+=======
+# CPSC330
+>>>>>>> 7552c9f (first commit)

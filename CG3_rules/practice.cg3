@@ -17,8 +17,18 @@ LIST SET_X = X ;
 LIST SET_Y = Y ;
 LIST SET_Z = Z ;
 LIST PUNCT = "." ;
+LIST @SET_F = F ;
+
+
 
 SECTION
+# add tag F, on (TARGET) words have tag A, if next word (1) has tag X
+ADD:rule6 @SET_F TARGET SET_A IF (1 SET_X) ;
+
+# add tag G, on words (TARGET) have tag X, NO condition (NO IF)
+# MAP or ADD command must have TARGET set
+MAP:rule7 (G) TARGET (X); 
+
 # select (prefer) tag C, D, E if next word has tag X
 SELECT:rule1 (C D E) IF (1 (X)) ;
 
@@ -28,7 +38,7 @@ REMOVE:rule2 SET_B IF (1 SET_Y) ;
 # because `(value)` is the same as `var_name`
 # value should be inside bracket
 # rule2 is the same as
-# REMOVE:rule2 (B) IF (1 (Y)) ;
+REMOVE:rule2 (B) IF (1 (Y)) ;
 
 # remove lemma "word_1_2" if next word (1) has tag X
 REMOVE:rule3 ("word_1_2") IF (1 (X));
@@ -38,3 +48,4 @@ REMOVE:rule4 (E) IF (1* (Z));
 
 # remove tag W if any word before and after (*) has tag A
 REMOVE:rule5 (W) IF (* (A));
+

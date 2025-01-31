@@ -1,4 +1,4 @@
 [General]
 input_files=# One file per line.\n# Use absolute paths.\n
 input_pipe="# Enter the path to either a single program or a whole chain separated with | that the input text or files can be sent through - or just have the chain provide input some other way.\n# A line break will be treated as a |\n# Only a single process is created, through which all text and files are sent sequentially.\n# On Linux and OS X, this is started via /bin/sh -c\n# On Windows this is started via cmd.exe /D /Q /C\n/usr/bin/cg-conv\n"
-input_text=\"<word1>\"\n\t\"word_1_1\" A B \n\t\"word_1_2\" A C\n\t\"word_1_3\" A D\n\t\"word_1_4\" A E\n\"<word2>\"\n\t\"word_2_1\" X Y\n\t\"word_2_2\" Z T\n\"<word3>\"\n\t\"word_3_1\" \n\"<word4>\"\n\t\"word_4_1\" \n\"<word5>\"\n\t\"word_5_1\" X Y Z\n\t\"word_5_2\" W X Y Z\n\n\"<.>\"\n
+input_text=\"<word1>\"\n\t\"word_1_1\" A B \n\t\"word_1_2\" A C\n\t\"word_1_3\" A D\n\t\"word_1_4\" A E\n\"<word2>\"\n\t\"word_2_1\" X Y\n\t\"word_2_2\" Z T\n\"<word3>\"\n\t\"word_3_1\" \n\"<word4>\"\n\t\"word_4_1\" \n\"<word5>\"\n\t\"word_5_1\" X Y Z\n\t\"word_5_2\" W X Y Z\n\t\"word_5_3\" T\n\"<.>\"\n

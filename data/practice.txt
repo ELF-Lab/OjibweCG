@@ -1,0 +1,17 @@
+"<word1>"
+	"word_1_1" A B 
+	"word_1_2" A C
+	"word_1_3" A D
+	"word_1_4" A E
+"<word2>"
+	"word_2_1" X Y
+	"word_2_2" Z T
+"<word3>"
+	"word_3_1" 
+"<word4>"
+	"word_4_1" 
+"<word5>"
+	"word_5_1" X Y Z
+	"word_5_2" W X Y Z
+	"word_5_3" T
+"<.>"

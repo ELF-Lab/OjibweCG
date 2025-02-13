@@ -169,6 +169,6 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
-data/verbs/VAI_IMP.csv:Zone.Identifier
-data/verbs/VTA_CNJ.csv:Zone.Identifier
-data/verbs/VTA_IND.csv:Zone.Identifier
+data/verbs/*Zone.Identifier
+data/CG3_rules/*Zone.Identifier
+

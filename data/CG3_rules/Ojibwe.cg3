@@ -6,9 +6,7 @@
 # http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
 
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
-#  "<owaabamaan>"
-# 	"waabam" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
-#  	"waabam" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+
 
 DELIMITERS = "<.>" ;
 
@@ -27,16 +25,19 @@ LIST ObvPl = ObvPl ;
 SECTION
 # If there is a Singular Proximate Noun to the left of verb, 
 # the verb should has Singular Prox Subject tag
-SELECT (VTA 3SgProxSubj) IF ((-1 (NA ProxSg)) OR (-2 (NA ProxSg))) ;
+SELECT:rule_vta_1 (VTA 3SgProxSubj) IF ((-1 (NA ProxSg)) OR (-2 (NA ProxSg))) ;
 
 # If there is a Plural Proximate Noun to the left of verb, 
 # the verb should has Plural Prox Subject tag
-SELECT (VTA 3PlProxSubj) IF ((-1 (NA ProxPl)) OR (-2 (NA ProxPl))) ;
+SELECT:rule_vta_2 (VTA 3PlProxSubj) IF ((-1 (NA ProxPl)) OR (-2 (NA ProxPl))) ;
 
 # If there is a Singular Obviative Noun to the left of verb, 
 # the verb should has Singular Obv Object tag
-SELECT (VTA 3SgObvObj) IF ((-1 (NA ObvSg)) OR (-2 (NA ObvSg))) ;
+SELECT:rule_vta_3 (VTA 3SgObvObj) IF ((-1* (NA ObvSg)) OR (1* (NA ObvSg)) );
 
 # If there is a Singular Obviative Noun to the left of verb, 
 # the verb should has Singular Obviative Object tag
-SELECT (VTA 3PlObvObj) IF ((-1 (NA ObvPl)) OR (-2 (NA ObvPl))) ;
+SELECT:rule_vta_4 (VTA 3PlObvObj) IF ((-1 (NA ObvPl)) OR (-2 (NA ObvPl))) ;
+
+# Select 3SgProx Object if there's a Animate Proximate Singular around
+SELECT:rule_vta_5 (VTA 3SgProxObj) IF ((-1* (NA ProxSg)) OR (1* (NA ProxSg)) );

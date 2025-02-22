@@ -48,4 +48,14 @@ SELECT:vta_rule_7 (VTA 3SgProxObj) IF ((-1* (NA ProxSg)) OR (1* (NA ProxSg)));
 
 SELECT:vta_rule_8 (VTA 3PlProxObj) IF ((-1* (NA ProxPl)) OR (1* (NA ProxPl)));
 
+# VTI verbs
+SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
 
+SELECT:vti_rule_2 (VTI 0SgObj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
+
+
+
+# this rule is uncertain to solve?
+SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* (NID Pl)) OR (1* (NID Pl)));
+
+SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* (NID Sg)) OR (1* (NID Sg)));

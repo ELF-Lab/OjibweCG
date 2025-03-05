@@ -53,9 +53,12 @@ SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
 
 SELECT:vti_rule_2 (VTI 0SgObj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
 
-
-
 # this rule is uncertain to solve?
 SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* (NID Pl)) OR (1* (NID Pl)));
 
 SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* (NID Sg)) OR (1* (NID Sg)));
+
+# VAI rules
+SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* (NA ObvPl)) OR (1* (NA ObvPl)));
+
+SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* (NA ObvSg)) OR (1* (NA ObvSg)));

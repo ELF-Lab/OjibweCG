@@ -62,3 +62,11 @@ SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* (NID Sg)) OR (1* (NID Sg)));
 SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* (NA ObvPl)) OR (1* (NA ObvPl)));
 
 SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* (NA ObvSg)) OR (1* (NA ObvSg)));
+
+# VAIO rules
+# placeholder
+
+# VII rules
+SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
+
+SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));

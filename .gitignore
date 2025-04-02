@@ -175,3 +175,4 @@ data/CG3_rules/*Zone.Identifier
 data/fst/*:Zone.Identifier
 data/fst/old/ojibwe.att
 data/parallel_data/*.Identifier
+data/parallel_data/raw/*Zone.Identifier

@@ -177,3 +177,4 @@ data/fst/old/*
 data/parallel_data/*.Identifier
 data/parallel_data/raw/*Zone.Identifier
 data/fst/ojibwe.fomabin
+data/CG3_rules/old/*

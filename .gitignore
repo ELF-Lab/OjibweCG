@@ -173,6 +173,7 @@ data/verbs/*Zone.Identifier
 data/CG3_rules/*Zone.Identifier
 
 data/fst/*:Zone.Identifier
-data/fst/old/ojibwe.att
+data/fst/old/*
 data/parallel_data/*.Identifier
 data/parallel_data/raw/*Zone.Identifier
+data/fst/ojibwe.fomabin

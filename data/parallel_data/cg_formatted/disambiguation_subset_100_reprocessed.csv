@@ -1,0 +1,3059 @@
+Ojibwe,English,Words w/ Ambiguity,Pre-disambiguation CG Output,Expected CG Output,Notes
+Mitaabik dazhwegisidoon ji-baateg.,Spread it there on the rock to dry.,"""<dazhwegisidoon>""
+	""dazhwegisidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""dazhwegisidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<ji-baateg>""
+	""baate"" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	""baate"" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	""baate"" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	""baate"" PVTense/ga VII Cnj Pos Neu 0PlSubj","""<mitaabik>""
+	""mitaabik"" ADVLoc
+""<dazhwegisidoon>""
+	""dazhwegisidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""dazhwegisidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<ji-baateg>""
+	""baate"" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	""baate"" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	""baate"" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	""baate"" PVTense/ga VII Cnj Pos Neu 0PlSubj
+""<.>""
+","""<mitaabik>""
+	""mitaabik"" ADVLoc
+""<dazhwegisidoon>""
+	""dazhwegisidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""dazhwegisidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<ji-baateg>""
+	""baate"" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	""baate"" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	""baate"" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	""baate"" PVTense/ga VII Cnj Pos Neu 0PlSubj
+""<.>""
+",
+Ogii-nookwezwaan a'aw mindimooyenh ini gaa-...  maanamanji'onid.,The old lady smudged that person who was feeling ill.,"""<ogii-nookwezwaan>""
+	""nookwez"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""nookwezwi"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""nookwez"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""nookwezwi"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<maanamanji'onid>""
+	""maanamanji'o"" VAI Cnj Pos Neu 3PlObvSubj
+	""maanamanji'o"" VAI Cnj Pos Neu 3SgObvSubj","""<ogii-nookwezwaan>""
+	""nookwez"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""nookwezwi"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""nookwez"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""nookwezwi"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<a'aw>""
+	""a'aw"" PRONDem
+	""a'aw"" PRONDem NA ProxSg
+""<mindimooyenh>""
+	""mindimooyenh"" NA ProxSg
+""<ini>""
+	""ini"" PRONDem NI Pl
+	""ini"" PRONDem NA ObvSg
+	""ini"" PRONDem NA ObvPl
+""<gaa-...>""
+
+""<maanamanji'onid>""
+	""maanamanji'o"" VAI Cnj Pos Neu 3PlObvSubj
+	""maanamanji'o"" VAI Cnj Pos Neu 3SgObvSubj
+""<.>""
+","""<ogii-nookwezwaan>""
+	""nookwez"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""nookwezwi"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""nookwez"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""nookwezwi"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<a'aw>""
+	""a'aw"" PRONDem
+""<mindimooyenh>""
+	""mindimooyenh"" NA ProxSg
+""<ini>""
+
+""<gaa-..>""
+
+""<.>""
+
+""<maanamanji'onid>""
+	""maanamanji'o"" VAI Cnj Pos Neu 3PlObvSubj
+	""maanamanji'o"" VAI Cnj Pos Neu 3SgObvSubj
+""<.>""
+",
+Onzaam niibowa oginigawinaan 'i wiisagad imaa g... iwe gii-naboobiiked.,She put in too much pepper when she made soup.,"""<oginigawinaan>""
+	""ginigawin"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""ginigawin"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""ginigawinan"" VTI Ind Pos Neu 3SgProxSubj 0SgObj","""<onzaam>""
+	""onzaam"" ADVQnt
+""<niibowa>""
+	""niibowa"" ADVQnt
+""<oginigawinaan>""
+	""ginigawin"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""ginigawin"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""ginigawinan"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<'i>""
+
+""<wiisagad>""
+	""wiisagad"" NI Sg
+""<imaa>""
+	""imaa"" ADVLoc
+""<g...>""
+
+""<iwe>""
+	""iwe"" PRONDem NI Sg
+""<gii-naboobiiked>""
+	""naboobiike"" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+","""<onzaam>""
+	""onzaam"" ADVQnt
+""<niibowa>""
+	""niibowa"" ADVQnt
+""<oginigawinaan>""
+	""ginigawin"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""ginigawin"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""ginigawinan"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<'i>""
+
+""<wiisagad>""
+	""wiisagad"" NI Sg
+""<imaa>""
+	""imaa"" ADVLoc
+""<g..>""
+
+""<.>""
+
+""<iwe>""
+
+""<gii-naboobiiked>""
+	""naboobiike"" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+",
+Ningii-wanitoon niwaazakonebijigan wii-aabajitooyaan wii-waaswaayaan.,I've lost the flashlight I wanted to use torching.,"""<wii-aabajitooyaan>""
+	""aabajitoon"" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	""aabajitoon"" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0SgObj","""<ningii-wanitoon>""
+	""wanitoon"" PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
+""<niwaazakonebijigan>""
+	""waazakonebijigan"" NI Sg 1SgPoss
+""<wii-aabajitooyaan>""
+	""aabajitoon"" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	""aabajitoon"" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0SgObj
+""<wii-waaswaayaan>""
+	""waaswaa"" PVTense/wii VAI Cnj Pos Neu 1SgSubj
+""<.>""
+","""<ningii-wanitoon>""
+	""wanitoon"" PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
+""<niwaazakonebijigan>""
+	""waazakonebijigan"" NI Sg 1SgPoss
+""<wii-aabajitooyaan>""
+	""aabajitoon"" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	""aabajitoon"" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0SgObj
+""<wii-waaswaayaan>""
+	""waaswaa"" PVTense/wii VAI Cnj Pos Neu 1SgSubj
+""<.>""
+",
+Awiya ogii'-ondamishkaan miiziiwigamig. Ingii-paabii'aa ji-giizhiitaad,Someone was occupying the bathroom. I waited for h/ to finish.,"""<ji-giizhiitaad>""
+	""giizhiitaa"" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	""giizhiitaa"" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj","""<awiya>""
+	""awiya"" PRONIndf
+""<ogii'-ondamishkaan>""
+	""ondamishkan"" PVTense/gii' VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<miiziiwigamig>""
+	""miiziiwigamig"" NI Sg
+""<.>""
+
+""<ingii-paabii'aa>""
+	""baabii'"" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+""<ji-giizhiitaad>""
+	""giizhiitaa"" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	""giizhiitaa"" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj","""<awiya>""
+	""awiya"" PRONIndf
+""<ogii'-ondamishkaan>""
+	""ondamishkan"" PVTense/gii' VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<miiziiwigamig>""
+	""miiziiwigamig"" NI Sg
+""<.>""
+
+""<ingii-paabii'aa>""
+	""baabii'"" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+""<ji-giizhiitaad>""
+	""giizhiitaa"" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	""giizhiitaa"" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj",
+Debinaak odizhitoon gaa-ozhitood wiigwaasinaagan.,She's  making that birch bark basket in a rough way.,"""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan
+""<gaa-ozhitood>""
+	""ozhitoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""ozhitoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj","""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan
+""<odizhitoon>""
+	""izhitoon"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<gaa-ozhitood>""
+	""ozhitoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""ozhitoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<wiigwaasinaagan>""
+	""wiigwaasinaagan"" NI Sg
+""<.>""
+","""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan
+""<odizhitoon>""
+	""izhitoon"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<gaa-ozhitood>""
+	""ozhitoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""ozhitoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<wiigwaasinaagan>""
+	""wiigwaasinaagan"" NI Sg
+""<.>""
+",
+Gagwe-minotoon iwe zhiiwaagamizigan wezhitooyin.,Try and make the syrup you're making good.,"""<gagwe-minotoon>""
+	""minotoon"" PVLex/gagwe VTI Imp Sim 2SgSubj 0SgObj
+	""minotoon"" PVLex/gagwe VTI Imp Sim 2SgSubj 0PlObj","""<gagwe-minotoon>""
+	""minotoon"" PVLex/gagwe VTI Imp Sim 2SgSubj 0SgObj
+	""minotoon"" PVLex/gagwe VTI Imp Sim 2SgSubj 0PlObj
+""<iwe>""
+	""iwe"" PRONDem NI Sg
+""<zhiiwaagamizigan>""
+	""zhiiwaagamizigan"" NI Sg
+""<wezhitooyin>""
+
+""<.>""
+","""<gagwe-minotoon>""
+	""minotoon"" PVLex/gagwe VTI Imp Sim 2SgSubj 0SgObj
+	""minotoon"" PVLex/gagwe VTI Imp Sim 2SgSubj 0PlObj
+""<iwe>""
+
+""<zhiiwaagamizigan>""
+	""zhiiwaagamizigan"" NI Sg
+""<wezhitooyin>""
+
+""<.>""
+",
+Zhingaatesidoon gimanoominim ji-bengwashkising.,Spread out your rice so it can get dry.,"""<zhingaatesidoon>""
+	""zhingaatesidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""zhingaatesidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<ji-bengwashkising>""
+	""bengwashkisin"" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	""bengwashkisin"" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	""bengwashkisin"" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	""bengwashkisin"" PVTense/ga VII Cnj Pos Neu 0PlSubj","""<zhingaatesidoon>""
+	""zhingaatesidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""zhingaatesidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<gimanoominim>""
+	""manoomin"" NI Poss Sg 2SgPoss
+""<ji-bengwashkising>""
+	""bengwashkisin"" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	""bengwashkisin"" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	""bengwashkisin"" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	""bengwashkisin"" PVTense/ga VII Cnj Pos Neu 0PlSubj
+""<.>""
+","""<zhingaatesidoon>""
+	""zhingaatesidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""zhingaatesidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<gimanoominim>""
+	""manoomin"" NI Poss Sg 2SgPoss
+""<ji-bengwashkising>""
+	""bengwashkisin"" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	""bengwashkisin"" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	""bengwashkisin"" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	""bengwashkisin"" PVTense/ga VII Cnj Pos Neu 0PlSubj
+""<.>""
+",
+Ogii-minwaabandaanaawaa gaa-waabandamowaad iwe gichi-mandaamini-gitigaan.,They liked the huge cornfield they saw.,"""<gaa-waabandamowaad>""
+	""waabandan"" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0PlObj
+	""waabandan"" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0SgObj
+""<gichi-mandaamini-gitigaan>""
+	""PNLex/gichi"" mandaamini-gitigaan NI Sg
+	""PNLex/chi"" mandaamini-gitigaan NI Sg 2SgPoss","""<ogii-minwaabandaanaawaa>""
+	""minwaabandan"" PVTense/gii VTI Ind Pos Neu 3PlProxSubj 0SgObj
+""<gaa-waabandamowaad>""
+	""waabandan"" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0PlObj
+	""waabandan"" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0SgObj
+""<iwe>""
+	""iwe"" PRONDem NI Sg
+""<gichi-mandaamini-gitigaan>""
+	""mandaamini-gitigaan"" PNLex/gichi NI Sg
+	""mandaamini-gitigaan"" PNLex/chi NI Sg 2SgPoss
+""<.>""
+","""<ogii-minwaabandaanaawaa>""
+	""minwaabandan"" PVTense/gii VTI Ind Pos Neu 3PlProxSubj 0SgObj
+""<gaa-waabandamowaad>""
+	""waabandan"" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0PlObj
+	""waabandan"" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0SgObj
+""<iwe>""
+
+""<gichi-mandaamini-gitigaan>""
+	""PNLex/gichi"" mandaamini-gitigaan NI Sg
+	""PNLex/chi"" mandaamini-gitigaan NI Sg 2SgPoss
+""<.>""
+",
+Giinitamawind ina giga-o-bawa'aamin manoomin.,Is it our turn to go knock rice?,"""<giga-o-bawa'aamin>""
+	""PVDir/o"" PVTense/ga bawa'an VTI Ind Pos Neu InclSubj 0SgObj
+	""PVDir/o"" PVTense/ga bawa'an VTI Ind Pos Neu InclSubj 0PlObj
+	""PVDir/o"" PVTense/ga bawa'am VAI Ind Pos Neu InclSubj","""<giinitamawind>""
+	""giinitamawind"" PRONPer
+""<ina>""
+	""ina"" PCDisc
+""<giga-o-bawa'aamin>""
+	""bawa'an"" PVTense/ga PVDir/o VTI Ind Pos Neu InclSubj 0SgObj
+	""bawa'an"" PVTense/ga PVDir/o VTI Ind Pos Neu InclSubj 0PlObj
+	""bawa'am"" PVTense/ga PVDir/o VAI Ind Pos Neu InclSubj
+""<manoomin>""
+	""manoomin"" NI Sg
+""<.>""
+","""<giinitamawind>""
+	""giinitamawind"" PRONPer
+""<ina>""
+	""ina"" PCDisc
+""<giga-o-bawa'aamin>""
+	""PVDir/o"" PVTense/ga bawa'an VTI Ind Pos Neu InclSubj 0SgObj
+	""PVDir/o"" PVTense/ga bawa'an VTI Ind Pos Neu InclSubj 0PlObj
+	""PVDir/o"" PVTense/ga bawa'am VAI Ind Pos Neu InclSubj
+""<manoomin>""
+	""manoomin"" NI Sg
+""<.>""
+",
+Gabe-niibin niimi'iding niwii-izhaa.,I'm going to go to pow-wows all summer.,"""<gabe-niibin>""
+	""niibin"" PVLex/gabe VII Ind Pos Neu 0SgSubj
+	""gabe-niibin"" ADVTmp
+""<niimi'iding>""
+	""niimi'"" VTA Recip/di VAI Cnj Pos Neu XSubj XObj
+	""niimi'idiwag"" VAI Cnj Pos Neu XSubj XObj","""<gabe-niibin>""
+	""niibin"" PVLex/gabe VII Ind Pos Neu 0SgSubj
+	""gabe-niibin"" ADVTmp
+""<niimi'iding>""
+	""niimi'"" VTA Recip/di VAI Cnj Pos Neu XSubj XObj
+	""niimi'idiwag"" VAI Cnj Pos Neu XSubj XObj
+""<niwii-izhaa>""
+	""izhaa"" PVTense/wii VAI Ind Pos Neu 1SgSubj
+""<.>""
+","""<gabe-niibin>""
+	""niibin"" PVLex/gabe VII Ind Pos Neu 0SgSubj
+	""gabe-niibin"" ADVTmp
+""<niimi'iding>""
+	""niimi'"" VTA Recip/di VAI Cnj Pos Neu XSubj XObj
+	""niimi'idiwag"" VAI Cnj Pos Neu XSubj XObj
+""<niwii-izhaa>""
+	""izhaa"" PVTense/wii VAI Ind Pos Neu 1SgSubj
+""<.>""
+",
+Ningaabii'anong ondwewidamoog animikiig gii-bimwewidamowaad.,The Thunderbirds come from the west as they go by us.,"""<ningaabii'anong>""
+	""ningaabii'an"" NI Loc
+	""ningaabii'anong"" ADVLoc","""<ningaabii'anong>""
+	""ningaabii'an"" NI Loc
+	""ningaabii'anong"" ADVLoc
+""<ondwewidamoog>""
+	""ondwewidam"" VAI Ind Pos Neu 3PlProxSubj
+""<animikiig>""
+	""animikii"" NA ProxPl
+""<gii-bimwewidamowaad>""
+
+""<.>""
+","""<ningaabii'anong>""
+	""ningaabii'an"" NI Loc
+	""ningaabii'anong"" ADVLoc
+""<ondwewidamoog>""
+	""ondwewidam"" VAI Ind Pos Neu 3PlProxSubj
+""<animikiig>""
+	""animikii"" NA ProxPl
+""<gii-bimwewidamowaad>""
+
+""<.>""
+",
+Nimisenh ko ingii-wiindamaag wiin iidog gii-kaandakii'ige gii-... gii-manoominikewaad.,My sister told me that she was the one who poled (the boat) when they were ricing.,"""<wiin>""
+	""iiw"" NAD ObvPl 3SgProxPoss
+	""iiw"" NAD ObvSg 3SgProxPoss
+	""wiin"" PRONPer
+	""wiin"" PCDisc","""<nimisenh>""
+	""miseny"" NAD ProxSg 1SgPoss
+""<ko>""
+	""ko"" PCAsp
+""<ingii-wiindamaag>""
+	""wiindamaw"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 1SgObj
+""<wiin>""
+	""iiw"" NAD ObvPl 3SgProxPoss
+	""iiw"" NAD ObvSg 3SgProxPoss
+	""wiin"" PRONPer
+	""wiin"" PCDisc
+""<iidog>""
+	""iidog"" PCAsp
+""<gii-kaandakii'ige>""
+	""gaandakii'ige"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<gii-...>""
+
+""<gii-manoominikewaad>""
+	""manoominike"" PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
+""<.>""
+","""<nimisenh>""
+	""miseny"" NAD ProxSg 1SgPoss
+""<ko>""
+	""ko"" PCAsp
+""<ingii-wiindamaag>""
+	""wiindamaw"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 1SgObj
+""<wiin>""
+	""iiw"" NAD ObvPl 3SgProxPoss
+	""iiw"" NAD ObvSg 3SgProxPoss
+	""wiin"" PRONPer
+	""wiin"" PCDisc
+""<iidog>""
+	""iidog"" PCAsp
+""<gii-kaandakii'ige>""
+	""gaandakii'ige"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<gii-..>""
+
+""<.>""
+
+""<gii-manoominikewaad>""
+	""manoominike"" PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
+""<.>""
+",
+Mii imaa ogijayi'ii odaabaaning a goon abid.,There is snow on top of the car.,"""<odaabaaning>""
+	""odaabaan"" NA Loc
+	""odaabaan"" NI Loc","""<mii>""
+	""mii"" ADVPred
+""<imaa>""
+	""imaa"" ADVLoc
+""<ogijayi'ii>""
+	""ogijayi'ii"" ADVLoc
+""<odaabaaning>""
+	""odaabaan"" NA Loc
+	""odaabaan"" NI Loc
+""<a>""
+
+""<goon>""
+	""goon"" NA ProxSg
+""<abid>""
+	""abi"" VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+","""<mii>""
+	""mii"" ADVPred
+""<imaa>""
+	""imaa"" ADVLoc
+""<ogijayi'ii>""
+	""ogijayi'ii"" ADVLoc
+""<odaabaaning>""
+	""odaabaan"" NA Loc
+	""odaabaan"" NI Loc
+""<a>""
+
+""<goon>""
+	""goon"" NA ProxSg
+""<abid>""
+	""abi"" VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+",
+Mina' a'awe noondayaabaagwed.,Give the one who's thirsty a drink.,"""<mina'>""
+	""mina'"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""mina'"" VTA Imp Sim 2SgSubj 3PlProxObj","""<mina'>""
+	""mina'"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""mina'"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<a'awe>""
+	""a'awe"" PRONDem
+	""a'awe"" PRONDem NA ProxSg
+""<noondayaabaagwed>""
+
+""<.>""
+","""<mina'>""
+	""mina'"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""mina'"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<a'awe>""
+	""a'awe"" PRONDem
+""<noondayaabaagwed>""
+
+""<.>""
+",
+Namanj gaa-izhinamogwen iwidi agwajiing wa'awe gaa-piindigeyaanimizid.,I don't know what the one who came inside scared saw outside.,"""<gaa-izhinamogwen>""
+	""izhinan"" PVSub/gaa VTI Cnj Pos Dub 3SgProxSubj 0PlObj
+	""izhinan"" PVSub/gaa VTI Cnj Pos Dub 3SgProxSubj 0SgObj","""<namanj>""
+	""namanj"" ADVDub
+""<gaa-izhinamogwen>""
+	""izhinan"" PVSub/gaa VTI Cnj Pos Dub 3SgProxSubj 0PlObj
+	""izhinan"" PVSub/gaa VTI Cnj Pos Dub 3SgProxSubj 0SgObj
+""<iwidi>""
+	""iwidi"" ADVLoc
+""<agwajiing>""
+	""agwajiing"" ADVLoc
+""<wa'awe>""
+	""wa'awe"" PRONDem
+	""wa'awe"" PRONDem NA ProxSg
+""<gaa-piindigeyaanimizid>""
+	""biindigeyaanimizi"" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+","""<namanj>""
+	""namanj"" ADVDub
+""<gaa-izhinamogwen>""
+	""izhinan"" PVSub/gaa VTI Cnj Pos Dub 3SgProxSubj 0PlObj
+	""izhinan"" PVSub/gaa VTI Cnj Pos Dub 3SgProxSubj 0SgObj
+""<iwidi>""
+	""iwidi"" ADVLoc
+""<agwajiing>""
+	""agwajiing"" ADVLoc
+""<wa'awe>""
+	""wa'awe"" PRONDem
+""<gaa-piindigeyaanimizid>""
+	""biindigeyaanimizi"" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+",
+Mii iniw en... enokiitawaad waabishkiiwenid gaa-oshki-bagamised.,He's working for that whiteman who just arrived.,"""<waabishkiiwenid>""
+	""waabishkiiwe"" VAI Cnj Pos Neu 3PlObvSubj
+	""waabishkiiwe"" VAI Cnj Pos Neu 3SgObvSubj
+""<gaa-oshki-bagamised>""
+	""PVLex/oshki"" PVSub/gaa bagamise VAI Cnj Pos Neu 3SgProxSubj
+	""PVLex/oshki"" PVTense/gii bagamise VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead","""<mii>""
+	""mii"" ADVPred
+""<iniw>""
+	""iniw"" PRONDem
+	""iniw"" PRONDem NI Pl
+	""iniw"" PRONDem NA ObvSg
+	""iniw"" PRONDem NA ObvPl
+""<en...>""
+
+""<enokiitawaad>""
+
+""<waabishkiiwenid>""
+	""waabishkiiwe"" VAI Cnj Pos Neu 3PlObvSubj
+	""waabishkiiwe"" VAI Cnj Pos Neu 3SgObvSubj
+""<gaa-oshki-bagamised>""
+	""bagamise"" PVSub/gaa PVLex/oshki VAI Cnj Pos Neu 3SgProxSubj
+	""bagamise"" PVTense/gii PVLex/oshki VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+","""<mii>""
+	""mii"" ADVPred
+""<iniw>""
+	""iniw"" PRONDem
+""<en..>""
+
+""<.>""
+
+""<enokiitawaad>""
+
+""<waabishkiiwenid>""
+	""waabishkiiwe"" VAI Cnj Pos Neu 3PlObvSubj
+	""waabishkiiwe"" VAI Cnj Pos Neu 3SgObvSubj
+""<gaa-oshki-bagamised>""
+	""PVLex/oshki"" PVSub/gaa bagamise VAI Cnj Pos Neu 3SgProxSubj
+	""PVLex/oshki"" PVTense/gii bagamise VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+",
+Gaa-naningowed igo naa 'a nebaad. Ganabaj maanaabandam.,The sleeper is whimpering and sobbing. I think he's having a bad dream.,"""<gaa-naningowed>""
+	""naningowe"" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	""naningowe"" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead","""<gaa-naningowed>""
+	""naningowe"" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	""naningowe"" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<igo>""
+	""igo"" PCEmph
+""<naa>""
+	""naa"" PCEmph
+""<'a>""
+	""'a"" PRONDem
+	""'a"" PRONDem NA ProxSg
+""<nebaad>""
+	""nibaa"" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+
+""<ganabaj>""
+	""ganabaj"" ADVMan
+""<maanaabandam>""
+	""maanaabandam"" VAI Ind Pos Neu 3SgProxSubj
+""<.>""
+","""<gaa-naningowed>""
+	""naningowe"" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	""naningowe"" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<igo>""
+	""igo"" PCEmph
+""<naa>""
+	""naa"" PCEmph
+""<'a>""
+	""'a"" PRONDem
+""<nebaad>""
+	""nibaa"" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+
+""<ganabaj>""
+	""ganabaj"" ADVMan
+""<maanaabandam>""
+	""maanaabandam"" VAI Ind Pos Neu 3SgProxSubj
+""<.>""
+",
+Aaniin enaabadak o'owe zhaabonigan. / Mii owe ayaabajitoowaan gii-zhingibinagwaa amikwayaanag.,What is this needle used for? / This is the one I use for putting beaver hides on hoops.,"""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter","""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter
+""<enaabadak>""
+	""inaabadad"" VII Pcp Pos Neu 0SgSubj 0SgHead
+""<o'owe>""
+	""o'owe"" PRONDem
+	""o'owe"" PRONDem NI Sg
+""<zhaabonigan>""
+	""zhaabonigan"" NI Sg
+""<.>""
+
+""</>""
+
+""<mii>""
+	""mii"" ADVPred
+""<owe>""
+	""owe"" PRONDem
+	""owe"" PRONDem NI Sg
+""<ayaabajitoowaan>""
+
+""<gii-zhingibinagwaa>""
+
+""<amikwayaanag>""
+	""amikwayaan"" NA ProxPl
+""<.>""
+","""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter
+""<enaabadak>""
+	""inaabadad"" VII Pcp Pos Neu 0SgSubj 0SgHead
+""<o'owe>""
+	""o'owe"" PRONDem
+""<zhaabonigan>""
+	""zhaabonigan"" NI Sg
+""<.>""
+
+""</>""
+
+""<mii>""
+	""mii"" ADVPred
+""<owe>""
+	""owe"" PRONDem
+""<ayaabajitoowaan>""
+
+""<gii-zhingibinagwaa>""
+
+""<amikwayaanag>""
+	""amikwayaan"" NA ProxPl
+""<.>""
+",
+Gego gakina zaagijibinaaken zhooniyaa izhaayan zhooniyaawigamigong. Ishkonamawishin.,Don't take out all the money if you go to the bank. Leave me some!,"""<zaagijibinaaken>""
+	""zaagijibizh"" VTA Imp Prb 2SgSubj 3PlProxObj
+	""zaagijibizh"" VTA Imp Prb 2SgSubj 3SgProxObj
+""<zhooniyaa>""
+	""zhooniyaa"" NA ProxSg
+	""zhooniyaa"" NI Sg","""<gego>""
+	""gego"" ADVNeg
+""<gakina>""
+	""gakina"" ADVQnt
+""<zaagijibinaaken>""
+	""zaagijibizh"" VTA Imp Prb 2SgSubj 3PlProxObj
+	""zaagijibizh"" VTA Imp Prb 2SgSubj 3SgProxObj
+""<zhooniyaa>""
+	""zhooniyaa"" NA ProxSg
+	""zhooniyaa"" NI Sg
+""<izhaayan>""
+	""izhaa"" VAI Cnj Pos Neu 2SgSubj
+""<zhooniyaawigamigong>""
+	""zhooniyaawigamig"" NI Loc
+""<.>""
+
+""<ishkonamawishin>""
+	""ishkonamaw"" VTA Imp Sim 2SgSubj 1SgObj
+""<.>""
+","""<gego>""
+	""gego"" ADVNeg
+""<gakina>""
+	""gakina"" ADVQnt
+""<zaagijibinaaken>""
+	""zaagijibizh"" VTA Imp Prb 2SgSubj 3PlProxObj
+	""zaagijibizh"" VTA Imp Prb 2SgSubj 3SgProxObj
+""<zhooniyaa>""
+	""zhooniyaa"" NA ProxSg
+	""zhooniyaa"" NI Sg
+""<izhaayan>""
+	""izhaa"" VAI Cnj Pos Neu 2SgSubj
+""<zhooniyaawigamigong>""
+	""zhooniyaawigamig"" NI Loc
+""<.>""
+
+""<ishkonamawishin>""
+	""ishkonamaw"" VTA Imp Sim 2SgSubj 1SgObj
+""<.>""
+",
+Gikinawaajibii'an indaga owe gaa-ozhibii'igaadeg.,Please copy what was written.,"""<gikinawaajibii'an>""
+	""gikinawaajibii'an"" VTI Imp Sim 2SgSubj 0SgObj
+	""gikinawaajibii'an"" VTI Imp Sim 2SgSubj 0PlObj
+""<gaa-ozhibii'igaadeg>""
+	""ozhibii'igaade"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""ozhibii'igaade"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ozhibii'igaade"" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead","""<gikinawaajibii'an>""
+	""gikinawaajibii'an"" VTI Imp Sim 2SgSubj 0SgObj
+	""gikinawaajibii'an"" VTI Imp Sim 2SgSubj 0PlObj
+""<indaga>""
+	""indaga"" PCDisc
+""<owe>""
+	""owe"" PRONDem
+	""owe"" PRONDem NI Sg
+""<gaa-ozhibii'igaadeg>""
+	""ozhibii'igaade"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""ozhibii'igaade"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ozhibii'igaade"" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+""<.>""
+","""<gikinawaajibii'an>""
+	""gikinawaajibii'an"" VTI Imp Sim 2SgSubj 0SgObj
+	""gikinawaajibii'an"" VTI Imp Sim 2SgSubj 0PlObj
+""<indaga>""
+	""indaga"" PCDisc
+""<owe>""
+	""owe"" PRONDem
+""<gaa-ozhibii'igaadeg>""
+	""ozhibii'igaade"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""ozhibii'igaade"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ozhibii'igaade"" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+""<.>""
+",
+Ogiji-nibewin daningwaamo bizhiins.,A cat is sleeping on the bed.,"""<ogiji-nibewin>""
+	""PNLex/ogiji"" nibewin NI Sg
+	""ogiji-nibewin"" ADVLoc","""<ogiji-nibewin>""
+	""nibewin"" PNLex/ogiji NI Sg
+	""ogiji-nibewin"" ADVLoc
+""<daningwaamo>""
+	""daningwaamo"" VAI Ind Pos Neu 3SgProxSubj
+""<bizhiins>""
+	""bizhiins"" NA ProxSg
+""<.>""
+","""<ogiji-nibewin>""
+	""PNLex/ogiji"" nibewin NI Sg
+	""ogiji-nibewin"" ADVLoc
+""<daningwaamo>""
+	""daningwaamo"" VAI Ind Pos Neu 3SgProxSubj
+""<bizhiins>""
+	""bizhiins"" NA ProxSg
+""<.>""
+",
+Makadewinaagod debinaagok odooshkidaabaan awe niijikiwenh.,From here my brother's new car looks black.,"""<niijikiwenh>""
+	""iijikiwenhy"" NAD ProxSg 1SgPoss
+	""iijikiweny"" NAD ProxSg 1SgPoss","""<makadewinaagod>""
+
+""<debinaagok>""
+
+""<odooshkidaabaan>""
+	""oshkidaabaan"" NI Sg 3SgProxPoss
+""<awe>""
+	""awe"" PRONDem NA ProxSg
+""<niijikiwenh>""
+	""iijikiwenhy"" NAD ProxSg 1SgPoss
+	""iijikiweny"" NAD ProxSg 1SgPoss
+""<.>""
+","""<makadewinaagod>""
+
+""<debinaagok>""
+
+""<odooshkidaabaan>""
+	""oshkidaabaan"" NI Sg 3SgProxPoss
+""<awe>""
+
+""<niijikiwenh>""
+	""iijikiwenhy"" NAD ProxSg 1SgPoss
+	""iijikiweny"" NAD ProxSg 1SgPoss
+""<.>""
+",
+Ogii'-ondamiikawaan odoodaabaanan gaa-onji-bezikaad zhebaa ningozis.,My son was busy working on his car and that's why he got here late this morning.,"""<ogii'-ondamiikawaan>""
+	""ondamiikaw"" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""ondamiikaw"" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<odoodaabaanan>""
+	""odaabaan"" NI Pl 3SgProxPoss
+	""odaabaan"" NA ObvPl 3SgProxPoss
+	""odaabaan"" NA ObvSg 3SgProxPoss
+""<gaa-onji-bezikaad>""
+	""PVRel/onji"" PVSub/gaa bezikaa VAI Cnj Pos Neu 3SgProxSubj
+	""PVRel/onji"" PVTense/gii bezikaa VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead","""<ogii'-ondamiikawaan>""
+	""ondamiikaw"" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""ondamiikaw"" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<odoodaabaanan>""
+	""odaabaan"" NI Pl 3SgProxPoss
+	""odaabaan"" NA ObvPl 3SgProxPoss
+	""odaabaan"" NA ObvSg 3SgProxPoss
+""<gaa-onji-bezikaad>""
+	""bezikaa"" PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+	""bezikaa"" PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<zhebaa>""
+	""zhebaa"" ADVTmp
+""<ningozis>""
+	""gozis"" NAD ProxSg 1SgPoss
+""<.>""
+","""<ogii'-ondamiikawaan>""
+	""ondamiikaw"" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""ondamiikaw"" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<odoodaabaanan>""
+	""odaabaan"" NI Pl 3SgProxPoss
+	""odaabaan"" NA ObvPl 3SgProxPoss
+	""odaabaan"" NA ObvSg 3SgProxPoss
+""<gaa-onji-bezikaad>""
+	""PVRel/onji"" PVSub/gaa bezikaa VAI Cnj Pos Neu 3SgProxSubj
+	""PVRel/onji"" PVTense/gii bezikaa VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<zhebaa>""
+	""zhebaa"" ADVTmp
+""<ningozis>""
+	""gozis"" NAD ProxSg 1SgPoss
+""<.>""
+",
+Dibishkoo go naa ezhi'aad iniwen bakwezhiganan ezhichigeyaan.,She makes the bread the same way I do it.,"""<bakwezhiganan>""
+	""bakwezhigan"" NA ObvPl
+	""bakwezhigan"" NA ObvSg","""<dibishkoo>""
+	""dibishkoo"" ADVMan
+""<go>""
+	""go"" PCDisc
+""<naa>""
+	""naa"" PCEmph
+""<ezhi'aad>""
+
+""<iniwen>""
+	""iniwen"" PRONDem
+	""iniwen"" PRONDem NI Pl
+""<bakwezhiganan>""
+	""bakwezhigan"" NA ObvPl
+	""bakwezhigan"" NA ObvSg
+""<ezhichigeyaan>""
+
+""<.>""
+","""<dibishkoo>""
+	""dibishkoo"" ADVMan
+""<go>""
+	""go"" PCDisc
+""<naa>""
+	""naa"" PCEmph
+""<ezhi'aad>""
+
+""<iniwen>""
+	""iniwen"" PRONDem
+""<bakwezhiganan>""
+	""bakwezhigan"" NA ObvPl
+	""bakwezhigan"" NA ObvSg
+""<ezhichigeyaan>""
+
+""<.>""
+",
+Niibowa gii-izhise gii-nanaa'itood ojiimaan.,It cost him a lot to fix his boat.,"""<gii-izhise>""
+	""izhise"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+	""izhise"" PVTense/gii VII Ind Pos Neu 0SgSubj
+""<gii-nanaa'itood>""
+	""nanaa'itoon"" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""nanaa'itoon"" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj","""<niibowa>""
+	""niibowa"" ADVQnt
+""<gii-izhise>""
+	""izhise"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+	""izhise"" PVTense/gii VII Ind Pos Neu 0SgSubj
+""<gii-nanaa'itood>""
+	""nanaa'itoon"" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""nanaa'itoon"" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<ojiimaan>""
+	""jiimaan"" NI Sg 3SgProxPoss
+""<.>""
+","""<niibowa>""
+	""niibowa"" ADVQnt
+""<gii-izhise>""
+	""izhise"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+	""izhise"" PVTense/gii VII Ind Pos Neu 0SgSubj
+""<gii-nanaa'itood>""
+	""nanaa'itoon"" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""nanaa'itoon"" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<ojiimaan>""
+	""jiimaan"" NI Sg 3SgProxPoss
+""<.>""
+",
+Gaawiin ganage gii-pi-izhaasiin.,He really didn't come.,"""<gii-pi-izhaasiin>""
+	""bi-izhaa"" PVTense/gii VAI Ind Neg Neu 3SgProxSubj
+	""PVDir/bi"" PVTense/gii izhaa VAI Ind Neg Neu 3SgProxSubj","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<ganage>""
+	""ganage"" ADVMan
+""<gii-pi-izhaasiin>""
+	""bi-izhaa"" PVTense/gii VAI Ind Neg Neu 3SgProxSubj
+	""izhaa"" PVTense/gii PVDir/bi VAI Ind Neg Neu 3SgProxSubj
+""<.>""
+","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<ganage>""
+	""ganage"" ADVMan
+""<gii-pi-izhaasiin>""
+	""bi-izhaa"" PVTense/gii VAI Ind Neg Neu 3SgProxSubj
+	""PVDir/bi"" PVTense/gii izhaa VAI Ind Neg Neu 3SgProxSubj
+""<.>""
+",
+Naajigwaazh gigaanda'igwaason gaa-gii-pishigonad anaamidoopowinaak. Mitig aabajitoon ji-naajigwaanad.,Rake out the thimble you dropped under the table. Use a stick to rake it out with.,"""<naajigwaazh>""
+	""naajigwaazh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""naajigwaazh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<gigaanda'igwaason>""
+	""gaanda'igwaason"" NA ProxSg 2SgPoss
+	""gaanda'igwaason"" NI Sg 2SgPoss
+""<mitig>""
+	""mitig"" NA ProxSg
+	""mitig"" NI Sg
+""<aabajitoon>""
+	""aabajitoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""aabajitoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<ji-naajigwaanad>""
+	""naajigwaazh"" PVTense/daa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	""naajigwaazh"" PVTense/ga VTA Cnj Pos Neu 2SgSubj 3SgProxObj","""<naajigwaazh>""
+	""naajigwaazh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""naajigwaazh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<gigaanda'igwaason>""
+	""gaanda'igwaason"" NA ProxSg 2SgPoss
+	""gaanda'igwaason"" NI Sg 2SgPoss
+""<gaa-gii-pishigonad>""
+	""bishigon"" PVSub/gaa PVTense/gii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+""<anaamidoopowinaak>""
+	""anaamidoopowinaak"" ADVLoc
+""<.>""
+
+""<mitig>""
+	""mitig"" NA ProxSg
+	""mitig"" NI Sg
+""<aabajitoon>""
+	""aabajitoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""aabajitoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<ji-naajigwaanad>""
+	""naajigwaazh"" PVTense/daa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	""naajigwaazh"" PVTense/ga VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+""<.>""
+","""<naajigwaazh>""
+	""naajigwaazh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""naajigwaazh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<gigaanda'igwaason>""
+	""gaanda'igwaason"" NA ProxSg 2SgPoss
+	""gaanda'igwaason"" NI Sg 2SgPoss
+""<gaa-gii-pishigonad>""
+	""PVTense/gii"" PVSub/gaa bishigon VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+""<anaamidoopowinaak>""
+	""anaamidoopowinaak"" ADVLoc
+""<.>""
+
+""<mitig>""
+	""mitig"" NA ProxSg
+	""mitig"" NI Sg
+""<aabajitoon>""
+	""aabajitoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""aabajitoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<ji-naajigwaanad>""
+	""naajigwaazh"" PVTense/daa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	""naajigwaazh"" PVTense/ga VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+""<.>""
+",
+Ningii'-wiindamawaa noozhis Jason apane ji-niimasemaawed.,I've told my grandson Jason to always carry his tobacco with him.,"""<ji-niimasemaawed>""
+	""niimasemaawe"" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	""niimasemaawe"" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj","""<ningii'-wiindamawaa>""
+	""wiindamaw"" PVTense/gii' VTA Ind Pos Neu 1SgSubj 3SgProxObj
+""<noozhis>""
+	""oozhis"" NAD ProxSg 1SgPoss
+""<jason>""
+
+""<apane>""
+	""apane"" ADVTmp
+""<ji-niimasemaawed>""
+	""niimasemaawe"" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	""niimasemaawe"" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+","""<ningii'-wiindamawaa>""
+	""wiindamaw"" PVTense/gii' VTA Ind Pos Neu 1SgSubj 3SgProxObj
+""<noozhis>""
+	""oozhis"" NAD ProxSg 1SgPoss
+""<jason>""
+
+""<apane>""
+	""apane"" ADVTmp
+""<ji-niimasemaawed>""
+	""niimasemaawe"" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	""niimasemaawe"" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+",
+Bashagikodan 'i mitigoons.,Peel that stick.,"""<mitigoons>""
+	""mitigoons"" NI Sg
+	""mitig"" NI Dim Sg
+	""mitig"" NA Dim ProxSg","""<bashagikodan>""
+
+""<'i>""
+
+""<mitigoons>""
+	""mitigoons"" NI Sg
+	""mitig"" NI Dim Sg
+	""mitig"" NA Dim ProxSg
+""<.>""
+","""<bashagikodan>""
+
+""<'i>""
+
+""<mitigoons>""
+	""mitigoons"" NI Sg
+	""mitig"" NI Dim Sg
+	""mitig"" NA Dim ProxSg
+""<.>""
+",
+Gaa-gigibagiziwaad mitigoog binaakwiiwag gii-ani-ishpi-dagwaagig.,The leaves fall off the trees that have them towards late fall.,"""<gii-ani-ishpi-dagwaagig>""
+	""PVDir/ani"" PVTense/gii ishpi-dagwaagin VII Cnj Pos Neu 0SgSubj
+	""PVDir/ani"" PVTense/gii PVLex/ishpi dagwaagin VII Cnj Pos Neu 0SgSubj
+	""PVDir/ani"" PVTense/gii ishpi-dagwaagin VII Cnj Pos Neu 0PlSubj
+	""PVDir/ani"" PVTense/gii PVLex/ishpi dagwaagin VII Cnj Pos Neu 0PlSubj","""<gaa-gigibagiziwaad>""
+	""gigibagizi"" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+""<mitigoog>""
+	""mitig"" NA ProxPl
+""<binaakwiiwag>""
+	""binaakwii"" VAI Ind Pos Neu 3PlProxSubj
+""<gii-ani-ishpi-dagwaagig>""
+	""ishpi-dagwaagin"" PVTense/gii PVDir/ani VII Cnj Pos Neu 0SgSubj
+	""dagwaagin"" PVTense/gii PVDir/ani PVLex/ishpi VII Cnj Pos Neu 0SgSubj
+	""ishpi-dagwaagin"" PVTense/gii PVDir/ani VII Cnj Pos Neu 0PlSubj
+	""dagwaagin"" PVTense/gii PVDir/ani PVLex/ishpi VII Cnj Pos Neu 0PlSubj
+""<.>""
+","""<gaa-gigibagiziwaad>""
+	""gigibagizi"" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+""<mitigoog>""
+	""mitig"" NA ProxPl
+""<binaakwiiwag>""
+	""binaakwii"" VAI Ind Pos Neu 3PlProxSubj
+""<gii-ani-ishpi-dagwaagig>""
+	""PVDir/ani"" PVTense/gii ishpi-dagwaagin VII Cnj Pos Neu 0SgSubj
+	""PVDir/ani"" PVTense/gii PVLex/ishpi dagwaagin VII Cnj Pos Neu 0SgSubj
+	""PVDir/ani"" PVTense/gii ishpi-dagwaagin VII Cnj Pos Neu 0PlSubj
+	""PVDir/ani"" PVTense/gii PVLex/ishpi dagwaagin VII Cnj Pos Neu 0PlSubj
+""<.>""
+",
+Megwaa bimosed a'aw inini gaa-izhi-gawised.,When that man was walking he fell down.,"""<gaa-izhi-gawised>""
+	""PVRel/izhi"" PVSub/gaa gawise VAI Cnj Pos Neu 3SgProxSubj
+	""PVRel/izhi"" PVTense/gii gawise VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead","""<megwaa>""
+	""megwaa"" ADVTmp
+""<bimosed>""
+	""bimose"" VAI Cnj Pos Neu 3SgProxSubj
+""<a'aw>""
+	""a'aw"" PRONDem
+	""a'aw"" PRONDem NA ProxSg
+""<inini>""
+	""inini"" NA ProxSg
+""<gaa-izhi-gawised>""
+	""gawise"" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 3SgProxSubj
+	""gawise"" PVTense/gii PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+","""<megwaa>""
+	""megwaa"" ADVTmp
+""<bimosed>""
+	""bimose"" VAI Cnj Pos Neu 3SgProxSubj
+""<a'aw>""
+	""a'aw"" PRONDem
+""<inini>""
+	""inini"" NA ProxSg
+""<gaa-izhi-gawised>""
+	""PVRel/izhi"" PVSub/gaa gawise VAI Cnj Pos Neu 3SgProxSubj
+	""PVRel/izhi"" PVTense/gii gawise VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+",
+Agaamakiing gii-izhinizha'waa ingos ji-o-miigaazod.,They sent my son overseas to go fight.,"""<gii-izhinizha'waa>""
+	""izhinizha'wi"" PVTense/gii VTA Ind Pos Neu XSubj 3SgProxObj
+	""izhinizha'"" PVTense/gii VTA Ind Pos Neu XSubj 3SgProxObj
+""<ji-o-miigaazod>""
+	""PVDir/o"" PVTense/daa miigaazo VAI Cnj Pos Neu 3SgProxSubj
+	""PVDir/o"" PVTense/ga miigaazo VAI Cnj Pos Neu 3SgProxSubj","""<agaamakiing>""
+	""agaamakiing"" ADVLoc
+""<gii-izhinizha'waa>""
+	""izhinizha'wi"" PVTense/gii VTA Ind Pos Neu XSubj 3SgProxObj
+	""izhinizha'"" PVTense/gii VTA Ind Pos Neu XSubj 3SgProxObj
+""<ingos>""
+	""gos"" NAD ProxSg 1SgPoss
+""<ji-o-miigaazod>""
+	""miigaazo"" PVTense/daa PVDir/o VAI Cnj Pos Neu 3SgProxSubj
+	""miigaazo"" PVTense/ga PVDir/o VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+","""<agaamakiing>""
+	""agaamakiing"" ADVLoc
+""<gii-izhinizha'waa>""
+	""izhinizha'wi"" PVTense/gii VTA Ind Pos Neu XSubj 3SgProxObj
+	""izhinizha'"" PVTense/gii VTA Ind Pos Neu XSubj 3SgProxObj
+""<ingos>""
+	""gos"" NAD ProxSg 1SgPoss
+""<ji-o-miigaazod>""
+	""PVDir/o"" PVTense/daa miigaazo VAI Cnj Pos Neu 3SgProxSubj
+	""PVDir/o"" PVTense/ga miigaazo VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+",
+Gego bizikenimaaken. Mii go baapiisikaad biinish igo omaa ji-bi-dagoshing.,Don't worry about him. He's making his way over here. He'll be here in time.,"""<ji-bi-dagoshing>""
+	""PVDir/bi"" PVTense/daa dagoshin VAI Cnj Pos Neu 3SgProxSubj
+	""PVDir/bi"" PVTense/ga dagoshin VAI Cnj Pos Neu 3SgProxSubj","""<gego>""
+	""gego"" ADVNeg
+""<bizikenimaaken>""
+
+""<.>""
+
+""<mii>""
+	""mii"" ADVPred
+""<go>""
+	""go"" PCDisc
+""<baapiisikaad>""
+
+""<biinish>""
+	""biinish"" ADVGram
+""<igo>""
+	""igo"" PCEmph
+""<omaa>""
+	""omaa"" ADVLoc
+""<ji-bi-dagoshing>""
+	""dagoshin"" PVTense/daa PVDir/bi VAI Cnj Pos Neu 3SgProxSubj
+	""dagoshin"" PVTense/ga PVDir/bi VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+","""<gego>""
+	""gego"" ADVNeg
+""<bizikenimaaken>""
+
+""<.>""
+
+""<mii>""
+	""mii"" ADVPred
+""<go>""
+	""go"" PCDisc
+""<baapiisikaad>""
+
+""<biinish>""
+	""biinish"" ADVGram
+""<igo>""
+	""igo"" PCEmph
+""<omaa>""
+	""omaa"" ADVLoc
+""<ji-bi-dagoshing>""
+	""PVDir/bi"" PVTense/daa dagoshin VAI Cnj Pos Neu 3SgProxSubj
+	""PVDir/bi"" PVTense/ga dagoshin VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+",
+Gaawiin memwech gidaa-gagwejimisii aandi waa'-wiisiniyang. Giin igo enendaman.,You don't have to ask me where we are going to go eat. It's up to you!,"""<giin>""
+	""giin"" PRONPer
+	""iiw"" NAD ObvPl 2SgPoss
+	""iiw"" NAD ObvSg 2SgPoss","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<memwech>""
+	""memwech"" ADVMan
+""<gidaa-gagwejimisii>""
+	""gagwejim"" PVTense/daa VTA Ind Neg Neu 2SgSubj 1SgObj
+""<aandi>""
+	""aandi"" ADVInter
+""<waa'-wiisiniyang>""
+
+""<.>""
+
+""<giin>""
+	""giin"" PRONPer
+	""iiw"" NAD ObvPl 2SgPoss
+	""iiw"" NAD ObvSg 2SgPoss
+""<igo>""
+	""igo"" PCEmph
+""<enendaman>""
+
+""<.>""
+","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<memwech>""
+	""memwech"" ADVMan
+""<gidaa-gagwejimisii>""
+	""gagwejim"" PVTense/daa VTA Ind Neg Neu 2SgSubj 1SgObj
+""<aandi>""
+	""aandi"" ADVInter
+""<waa'-wiisiniyang>""
+
+""<.>""
+
+""<giin>""
+	""giin"" PRONPer
+	""iiw"" NAD ObvPl 2SgPoss
+	""iiw"" NAD ObvSg 2SgPoss
+""<igo>""
+	""igo"" PCEmph
+""<enendaman>""
+
+""<.>""
+",
+Gabe-onaagosh owaazakonendamowaan iniwen nenaa'idaabaanikenid.,All evening he's holding a light for the guy who's working on his car.,"""<owaazakonendamowaan>""
+	""waazakonendamaw"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""waazakonendamaw"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj","""<gabe-onaagosh>""
+	""gabe-onaagosh"" ADVTmp
+""<owaazakonendamowaan>""
+	""waazakonendamaw"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""waazakonendamaw"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iniwen>""
+	""iniwen"" PRONDem
+	""iniwen"" PRONDem NI Pl
+""<nenaa'idaabaanikenid>""
+
+""<.>""
+","""<gabe-onaagosh>""
+	""gabe-onaagosh"" ADVTmp
+""<owaazakonendamowaan>""
+	""waazakonendamaw"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""waazakonendamaw"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iniwen>""
+	""iniwen"" PRONDem
+""<nenaa'idaabaanikenid>""
+
+""<.>""
+",
+Aaba'amaw omakizineyaabiin gaa-bwaanawichiged,Untie the disabled one's shoes for her.,"""<aaba'amaw>""
+	""aaba'amaw"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""aaba'amaw"" VTA Imp Sim 2SgSubj 3PlProxObj","""<aaba'amaw>""
+	""aaba'amaw"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""aaba'amaw"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<omakizineyaabiin>""
+	""makizineyaab"" NI Pl 3SgProxPoss
+""<gaa-bwaanawichiged>""
+	""bwaanawichige"" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj","""<aaba'amaw>""
+	""aaba'amaw"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""aaba'amaw"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<omakizineyaabiin>""
+	""makizineyaab"" NI Pl 3SgProxPoss
+""<gaa-bwaanawichiged>""
+	""bwaanawichige"" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj",
+Bebangii eta gii'-ashamaawag gii-ando-wiisiniwaad iwidi gaa-dazhi-ashanding.,They each got feed only a little when they went to eat at the food shelter.,"""<gaa-dazhi-ashanding>""
+	""PVRel/dazhi"" PVSub/gaa asham VTA Recip/di VAI Cnj Pos Neu XSubj XObj
+	""PVRel/dazhi"" PVSub/gaa ashandiwag VAI Cnj Pos Neu XSubj XObj","""<bebangii>""
+	""bebangii"" ADVQnt
+""<eta>""
+	""eta"" AVDDeg
+""<gii'-ashamaawag>""
+	""asham"" PVTense/gii' VTA Ind Pos Neu XSubj 3PlProxObj
+""<gii-ando-wiisiniwaad>""
+	""wiisini"" PVTense/gii PVLex/ando VAI Cnj Pos Neu 3PlProxSubj
+""<iwidi>""
+	""iwidi"" ADVLoc
+""<gaa-dazhi-ashanding>""
+	""asham"" PVSub/gaa PVRel/dazhi VTA Recip/di VAI Cnj Pos Neu XSubj XObj
+	""ashandiwag"" PVSub/gaa PVRel/dazhi VAI Cnj Pos Neu XSubj XObj
+""<.>""
+","""<bebangii>""
+	""bebangii"" ADVQnt
+""<eta>""
+	""eta"" AVDDeg
+""<gii'-ashamaawag>""
+	""asham"" PVTense/gii' VTA Ind Pos Neu XSubj 3PlProxObj
+""<gii-ando-wiisiniwaad>""
+	""PVLex/ando"" PVTense/gii wiisini VAI Cnj Pos Neu 3PlProxSubj
+""<iwidi>""
+	""iwidi"" ADVLoc
+""<gaa-dazhi-ashanding>""
+	""PVRel/dazhi"" PVSub/gaa asham VTA Recip/di VAI Cnj Pos Neu XSubj XObj
+	""PVRel/dazhi"" PVSub/gaa ashandiwag VAI Cnj Pos Neu XSubj XObj
+""<.>""
+",
+Obwaamaan ji-manisaagod odawemaan.,He refused to cut wood for his sister.,"""<obwaamaan>""
+	""bwaam"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bwaam"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ji-manisaagod>""
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+""<odawemaan>""
+	""dawemaaw"" NAD ObvPl 3SgProxPoss
+	""dawemaa"" NAD ObvPl 3SgProxPoss
+	""dawemaaw"" NAD ObvSg 3SgProxPoss
+	""dawemaa"" NAD ObvSg 3SgProxPoss","""<obwaamaan>""
+	""bwaam"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bwaam"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ji-manisaagod>""
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+""<odawemaan>""
+	""dawemaaw"" NAD ObvPl 3SgProxPoss
+	""dawemaa"" NAD ObvPl 3SgProxPoss
+	""dawemaaw"" NAD ObvSg 3SgProxPoss
+	""dawemaa"" NAD ObvSg 3SgProxPoss
+""<.>""
+","""<obwaamaan>""
+	""bwaam"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bwaam"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ji-manisaagod>""
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	""manisaw"" PVTense/daa VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+	""manisaw"" PVTense/ga VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+""<odawemaan>""
+	""dawemaaw"" NAD ObvPl 3SgProxPoss
+	""dawemaa"" NAD ObvPl 3SgProxPoss
+	""dawemaaw"" NAD ObvSg 3SgProxPoss
+	""dawemaa"" NAD ObvSg 3SgProxPoss
+""<.>""
+",
+Debinaak igo ningii-chiishada'ige.,I just swept up any old way.,"""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan","""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan
+""<igo>""
+	""igo"" PCEmph
+""<ningii-chiishada'ige>""
+	""jiishada'ige"" PVTense/gii VAI Ind Pos Neu 1SgSubj
+""<.>""
+","""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan
+""<igo>""
+	""igo"" PCEmph
+""<ningii-chiishada'ige>""
+	""jiishada'ige"" PVTense/gii VAI Ind Pos Neu 1SgSubj
+""<.>""
+",
+Gidatoon ina ziinzibaakwad imaa ginitiiming.,Do you put sugar in your tea?,"""<gidatoon>""
+	""ataw"" VTA Ind Pos Neu 1SgSubj 2SgObj
+	""atoono"" VAI Ind Pos Neu 2SgSubj
+	""atoon"" VTI Ind Pos Neu 2SgSubj 0SgObj","""<gidatoon>""
+	""ataw"" VTA Ind Pos Neu 1SgSubj 2SgObj
+	""atoono"" VAI Ind Pos Neu 2SgSubj
+	""atoon"" VTI Ind Pos Neu 2SgSubj 0SgObj
+""<ina>""
+	""ina"" PCDisc
+""<ziinzibaakwad>""
+	""ziinzibaakwad"" NI Sg
+""<imaa>""
+	""imaa"" ADVLoc
+""<ginitiiming>""
+	""nitii"" NI Poss Loc 2SgPoss
+""<.>""
+","""<gidatoon>""
+	""ataw"" VTA Ind Pos Neu 1SgSubj 2SgObj
+	""atoono"" VAI Ind Pos Neu 2SgSubj
+	""atoon"" VTI Ind Pos Neu 2SgSubj 0SgObj
+""<ina>""
+	""ina"" PCDisc
+""<ziinzibaakwad>""
+	""ziinzibaakwad"" NI Sg
+""<imaa>""
+	""imaa"" ADVLoc
+""<ginitiiming>""
+	""nitii"" NI Poss Loc 2SgPoss
+""<.>""
+",
+Mii igo ezhi-niiskikaad 'aw animosh miginaad ini makwan.,That dog's hair stood up as he barked at the bear.,"""<miginaad>""
+	""migizh"" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""migizh"" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+""<makwan>""
+	""makwa"" NA ObvPl
+	""makwa"" NA ObvSg","""<mii>""
+	""mii"" ADVPred
+""<igo>""
+	""igo"" PCEmph
+""<ezhi-niiskikaad>""
+	""niiskikaa"" PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<'aw>""
+	""'aw"" PRONDem
+	""'aw"" PRONDem NA ProxSg
+""<animosh>""
+	""animosh"" NA ProxSg
+""<miginaad>""
+	""migizh"" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""migizh"" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+""<ini>""
+	""ini"" PRONDem NI Pl
+	""ini"" PRONDem NA ObvSg
+	""ini"" PRONDem NA ObvPl
+""<makwan>""
+	""makwa"" NA ObvPl
+	""makwa"" NA ObvSg
+""<.>""
+","""<mii>""
+	""mii"" ADVPred
+""<igo>""
+	""igo"" PCEmph
+""<ezhi-niiskikaad>""
+	""niiskikaa"" PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<'aw>""
+	""'aw"" PRONDem
+""<animosh>""
+	""animosh"" NA ProxSg
+""<miginaad>""
+	""migizh"" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""migizh"" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+""<ini>""
+
+""<makwan>""
+	""makwa"" NA ObvPl
+	""makwa"" NA ObvSg
+""<.>""
+",
+Aaniin ezhiigak.,What's it like? (of cloth or paper),"""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter","""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter
+""<ezhiigak>""
+	""izhiigad"" VII Pcp Pos Neu 0SgSubj 0SgHead
+""<.>""
+","""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter
+""<ezhiigak>""
+	""izhiigad"" VII Pcp Pos Neu 0SgSubj 0SgHead
+""<.>""
+",
+Baapaawin 'a goon maa gibabiinzikawaaganing.,You should brush the snow off your coat.,"""<baapaawin>""
+	""baapaawin"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""baapaawin"" VTA Imp Sim 2SgSubj 3PlProxObj","""<baapaawin>""
+	""baapaawin"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""baapaawin"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<'a>""
+	""'a"" PRONDem
+	""'a"" PRONDem NA ProxSg
+""<goon>""
+	""goon"" NA ProxSg
+""<maa>""
+
+""<gibabiinzikawaaganing>""
+	""babiinzikawaagan"" NI Loc 2SgPoss
+""<.>""
+","""<baapaawin>""
+	""baapaawin"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""baapaawin"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<'a>""
+	""'a"" PRONDem
+""<goon>""
+	""goon"" NA ProxSg
+""<maa>""
+
+""<gibabiinzikawaaganing>""
+	""babiinzikawaagan"" NI Loc 2SgPoss
+""<.>""
+",
+Agwaawebinan gigiishka'isaanan biinji-naabikwaanensiwi-jiimaaning gaa-ategin.,Throw ashore your cut firewood that's in the boat.,"""<agwaawebinan>""
+	""agwaawebinan"" VTI Imp Sim 2SgSubj 0SgObj
+	""agwaawebinan"" VTI Imp Sim 2SgSubj 0PlObj
+""<gaa-ategin>""
+	""ate"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ate"" PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead","""<agwaawebinan>""
+	""agwaawebinan"" VTI Imp Sim 2SgSubj 0SgObj
+	""agwaawebinan"" VTI Imp Sim 2SgSubj 0PlObj
+""<gigiishka'isaanan>""
+	""giishka'isaan"" NI Pl 2SgPoss
+""<biinji-naabikwaanensiwi-jiimaaning>""
+	""naabikwaanensiwi-jiimaan"" PNLex/biinji NI Loc
+""<gaa-ategin>""
+	""ate"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ate"" PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead
+""<.>""
+","""<agwaawebinan>""
+	""agwaawebinan"" VTI Imp Sim 2SgSubj 0SgObj
+	""agwaawebinan"" VTI Imp Sim 2SgSubj 0PlObj
+""<gigiishka'isaanan>""
+	""giishka'isaan"" NI Pl 2SgPoss
+""<biinji-naabikwaanensiwi-jiimaaning>""
+	""PNLex/biinji"" naabikwaanensiwi-jiimaan NI Loc
+""<gaa-ategin>""
+	""ate"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ate"" PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead
+""<.>""
+",
+Zinigojiibizh giday. Andookomaazh.,Rub your dog's belly. Check it for bugs.,"""<zinigojiibizh>""
+	""zinigojiibizh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""zinigojiibizh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<andookomaazh>""
+	""andookomaazh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""andookomaazh"" VTA Imp Sim 2SgSubj 3PlProxObj","""<zinigojiibizh>""
+	""zinigojiibizh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""zinigojiibizh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<giday>""
+	""day"" NAD ProxSg 2SgPoss
+""<.>""
+
+""<andookomaazh>""
+	""andookomaazh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""andookomaazh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<.>""
+","""<zinigojiibizh>""
+	""zinigojiibizh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""zinigojiibizh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<giday>""
+	""day"" NAD ProxSg 2SgPoss
+""<.>""
+
+""<andookomaazh>""
+	""andookomaazh"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""andookomaazh"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<.>""
+",
+Mii 'i zhigwa aabito-diba'igan gaa-ako-bimwewebizod.,It's been half an hour now since we heard him go by.,"""<gaa-ako-bimwewebizod>""
+	""PVRel/ako"" PVSub/gaa bimwewebizo VAI Cnj Pos Neu 3SgProxSubj
+	""PVRel/ako"" PVTense/gii bimwewebizo VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead","""<mii>""
+	""mii"" ADVPred
+""<'i>""
+
+""<zhigwa>""
+	""zhigwa"" ADVTmp
+""<aabito-diba'igan>""
+
+""<gaa-ako-bimwewebizod>""
+	""bimwewebizo"" PVSub/gaa PVRel/ako VAI Cnj Pos Neu 3SgProxSubj
+	""bimwewebizo"" PVTense/gii PVRel/ako VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+","""<mii>""
+	""mii"" ADVPred
+""<'i>""
+
+""<zhigwa>""
+	""zhigwa"" ADVTmp
+""<aabito-diba'igan>""
+
+""<gaa-ako-bimwewebizod>""
+	""PVRel/ako"" PVSub/gaa bimwewebizo VAI Cnj Pos Neu 3SgProxSubj
+	""PVRel/ako"" PVTense/gii bimwewebizo VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+",
+Aapiji ozaagi'aan ookomisan.,She really loves her grandma.,"""<ozaagi'aan>""
+	""zaagi'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""zaagi'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ookomisan>""
+	""ookomis"" NAD ObvPl 3SgProxPoss
+	""ookomis"" NAD ObvSg 3SgProxPoss","""<aapiji>""
+	""aapiji"" AVDDeg
+""<ozaagi'aan>""
+	""zaagi'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""zaagi'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ookomisan>""
+	""ookomis"" NAD ObvPl 3SgProxPoss
+	""ookomis"" NAD ObvSg 3SgProxPoss
+""<.>""
+","""<aapiji>""
+	""aapiji"" AVDDeg
+""<ozaagi'aan>""
+	""zaagi'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""zaagi'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ookomisan>""
+	""ookomis"" NAD ObvPl 3SgProxPoss
+	""ookomis"" NAD ObvSg 3SgProxPoss
+""<.>""
+",
+Omashkikiikaadaan i'iw ogidig gaa-bishagisidood.,He's putting medicine on the knee he skinned.,"""<gaa-bishagisidood>""
+	""bishagisidoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""bishagisidoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj","""<omashkikiikaadaan>""
+	""mashkikiikaadan"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<i'iw>""
+	""i'iw"" PRONDem
+	""i'iw"" PRONDem NI Sg
+""<ogidig>""
+	""gidigw"" NID Sg 3SgProxPoss
+""<gaa-bishagisidood>""
+	""bishagisidoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""bishagisidoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<.>""
+","""<omashkikiikaadaan>""
+	""mashkikiikaadan"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<i'iw>""
+	""i'iw"" PRONDem
+""<ogidig>""
+	""gidigw"" NID Sg 3SgProxPoss
+""<gaa-bishagisidood>""
+	""bishagisidoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""bishagisidoon"" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<.>""
+",
+Igiw bagitejii'igewininiwag ogii-aabiinji'aawaan iniw gaa-pi-mawine'ogowaad gii-pi-ataagowaad.,The baseball team overwhelmed the challengers who came to play with them.,"""<ogii-aabiinji'aawaan>""
+	""aabiinji'"" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	""aabiinji'"" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+""<gii-pi-ataagowaad>""
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 3PlObvSubj 3PlProxObj
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 3SgObvSubj 3PlProxObj
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 0PlSubj 3PlProxObj
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 0SgSubj 3PlProxObj","""<igiw>""
+	""igiw"" PRONDem
+	""igiw"" PRONDem NA ProxPl
+""<bagitejii'igewininiwag>""
+	""bagitejii'igewinini"" NA ProxPl
+""<ogii-aabiinji'aawaan>""
+	""aabiinji'"" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	""aabiinji'"" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+""<iniw>""
+	""iniw"" PRONDem
+	""iniw"" PRONDem NI Pl
+	""iniw"" PRONDem NA ObvSg
+	""iniw"" PRONDem NA ObvPl
+""<gaa-pi-mawine'ogowaad>""
+
+""<gii-pi-ataagowaad>""
+	""ataw"" PVTense/gii PVDir/bi VTA Cnj Pos Neu 3PlObvSubj 3PlProxObj
+	""ataw"" PVTense/gii PVDir/bi VTA Cnj Pos Neu 3SgObvSubj 3PlProxObj
+	""ataw"" PVTense/gii PVDir/bi VTA Cnj Pos Neu 0PlSubj 3PlProxObj
+	""ataw"" PVTense/gii PVDir/bi VTA Cnj Pos Neu 0SgSubj 3PlProxObj
+""<.>""
+","""<igiw>""
+	""igiw"" PRONDem
+""<bagitejii'igewininiwag>""
+	""bagitejii'igewinini"" NA ProxPl
+""<ogii-aabiinji'aawaan>""
+	""aabiinji'"" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	""aabiinji'"" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+""<iniw>""
+	""iniw"" PRONDem
+""<gaa-pi-mawine'ogowaad>""
+
+""<gii-pi-ataagowaad>""
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 3PlObvSubj 3PlProxObj
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 3SgObvSubj 3PlProxObj
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 0PlSubj 3PlProxObj
+	""PVDir/bi"" PVTense/gii ataw VTA Cnj Pos Neu 0SgSubj 3PlProxObj
+""<.>""
+",
+Eyiidawininj ogigishkaanan didibininjiibizonan.,She's wearing rings on both hands.,"""<ogigishkaanan>""
+	""gigishkan"" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	""gigishkan"" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	""gigishkan"" VTI Ind Pos Neu 3SgProxSubj 0PlObj","""<eyiidawininj>""
+	""eyiidawininj"" ADVLoc
+""<ogigishkaanan>""
+	""gigishkan"" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	""gigishkan"" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	""gigishkan"" VTI Ind Pos Neu 3SgProxSubj 0PlObj
+""<didibininjiibizonan>""
+	""didibininjiibizon"" NI Pl
+""<.>""
+","""<eyiidawininj>""
+	""eyiidawininj"" ADVLoc
+""<ogigishkaanan>""
+	""gigishkan"" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	""gigishkan"" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	""gigishkan"" VTI Ind Pos Neu 3SgProxSubj 0PlObj
+""<didibininjiibizonan>""
+	""didibininjiibizon"" NI Pl
+""<.>""
+",
+Nimiikinji'ig onjida wenji-doodang.,He's doing that just to badger me.,"""<wenji-doodang>""
+	""doodam"" PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	""doodam"" PVRel/onji VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead","""<nimiikinji'ig>""
+	""miikinji'"" VTA Ind Pos Neu 3SgProxSubj 1SgObj
+""<onjida>""
+	""onjida"" ADVMan
+""<wenji-doodang>""
+	""doodam"" PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	""doodam"" PVRel/onji VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+""<.>""
+","""<nimiikinji'ig>""
+	""miikinji'"" VTA Ind Pos Neu 3SgProxSubj 1SgObj
+""<onjida>""
+	""onjida"" ADVMan
+""<wenji-doodang>""
+	""doodam"" PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	""doodam"" PVRel/onji VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+""<.>""
+",
+Ogii-pajiishkizhaanan ini biiwaabikoonsan wii-saangwewemagoodeked.,She cut the tin into pointed pieces to make a jingle dress.,"""<ogii-pajiishkizhaanan>""
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
+""<biiwaabikoonsan>""
+	""biiwaabik"" NI Dim Pl
+	""biiwaabikoons"" NI Pl","""<ogii-pajiishkizhaanan>""
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
+""<ini>""
+	""ini"" PRONDem NI Pl
+	""ini"" PRONDem NA ObvSg
+	""ini"" PRONDem NA ObvPl
+""<biiwaabikoonsan>""
+	""biiwaabik"" NI Dim Pl
+	""biiwaabikoons"" NI Pl
+""<wii-saangwewemagoodeked>""
+
+""<.>""
+","""<ogii-pajiishkizhaanan>""
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	""bajiishkizhan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
+""<ini>""
+
+""<biiwaabikoonsan>""
+	""biiwaabik"" NI Dim Pl
+	""biiwaabikoons"" NI Pl
+""<wii-saangwewemagoodeked>""
+
+""<.>""
+",
+Ogii-angozhwaan aana-gii-paanizhwaad iniw ogaawan.,He cut up that walleye when he was trying to filet it so there was nothing left.,"""<ogaawan>""
+	""ogaa"" NA ObvPl
+	""ogaa"" NA ObvSg","""<ogii-angozhwaan>""
+
+""<aana-gii-paanizhwaad>""
+
+""<iniw>""
+	""iniw"" PRONDem
+	""iniw"" PRONDem NI Pl
+	""iniw"" PRONDem NA ObvSg
+	""iniw"" PRONDem NA ObvPl
+""<ogaawan>""
+	""ogaa"" NA ObvPl
+	""ogaa"" NA ObvSg
+""<.>""
+","""<ogii-angozhwaan>""
+
+""<aana-gii-paanizhwaad>""
+
+""<iniw>""
+	""iniw"" PRONDem
+""<ogaawan>""
+	""ogaa"" NA ObvPl
+	""ogaa"" NA ObvSg
+""<.>""
+",
+Ani-gashkiidibikak gidaa-gibiiga'aanaan giwaasechiganan.,As it gets dark you should close the curtains on the windows.,"""<ani-gashkiidibikak>""
+	""gashkiidibikad"" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	""gashkiidibikad"" PVDir/ani VII Cnj Pos Neu 0PlSubj","""<ani-gashkiidibikak>""
+	""gashkiidibikad"" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	""gashkiidibikad"" PVDir/ani VII Cnj Pos Neu 0PlSubj
+""<gidaa-gibiiga'aanaan>""
+
+""<giwaasechiganan>""
+	""waasechigan"" NI Pl 2SgPoss
+""<.>""
+","""<ani-gashkiidibikak>""
+	""gashkiidibikad"" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	""gashkiidibikad"" PVDir/ani VII Cnj Pos Neu 0PlSubj
+""<gidaa-gibiiga'aanaan>""
+
+""<giwaasechiganan>""
+	""waasechigan"" NI Pl 2SgPoss
+""<.>""
+",
+Wiin obimibizoni'aan iniw daashkiboojiganan.,He is operating the sawmill.,"""<wiin>""
+	""iiw"" NAD ObvPl 3SgProxPoss
+	""iiw"" NAD ObvSg 3SgProxPoss
+	""wiin"" PRONPer
+	""wiin"" PCDisc
+""<obimibizoni'aan>""
+	""bimibizoni'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizoni'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<daashkiboojiganan>""
+	""daashkiboojigan"" NA ObvPl
+	""daashkiboojigan"" NA ObvSg","""<wiin>""
+	""iiw"" NAD ObvPl 3SgProxPoss
+	""iiw"" NAD ObvSg 3SgProxPoss
+	""wiin"" PRONPer
+	""wiin"" PCDisc
+""<obimibizoni'aan>""
+	""bimibizoni'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizoni'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iniw>""
+	""iniw"" PRONDem
+	""iniw"" PRONDem NI Pl
+	""iniw"" PRONDem NA ObvSg
+	""iniw"" PRONDem NA ObvPl
+""<daashkiboojiganan>""
+	""daashkiboojigan"" NA ObvPl
+	""daashkiboojigan"" NA ObvSg
+""<.>""
+","""<wiin>""
+	""iiw"" NAD ObvPl 3SgProxPoss
+	""iiw"" NAD ObvSg 3SgProxPoss
+	""wiin"" PRONPer
+	""wiin"" PCDisc
+""<obimibizoni'aan>""
+	""bimibizoni'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizoni'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iniw>""
+	""iniw"" PRONDem
+""<daashkiboojiganan>""
+	""daashkiboojigan"" NA ObvPl
+	""daashkiboojigan"" NA ObvSg
+""<.>""
+",
+Manaaji' giditibaagiwebishkigan.,Go easy on your bike.,"""<manaaji'>""
+	""manaaji'"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""manaaji'"" VTA Imp Sim 2SgSubj 3PlProxObj","""<manaaji'>""
+	""manaaji'"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""manaaji'"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<giditibaagiwebishkigan>""
+	""ditibaagiwebishkigan"" NA ProxSg 2SgPoss
+""<.>""
+","""<manaaji'>""
+	""manaaji'"" VTA Imp Sim 2SgSubj 3SgProxObj
+	""manaaji'"" VTA Imp Sim 2SgSubj 3PlProxObj
+""<giditibaagiwebishkigan>""
+	""ditibaagiwebishkigan"" NA ProxSg 2SgPoss
+""<.>""
+",
+Indaga dawinamaw 'iw desa'on aw niningwan. Mii imaa ge-izhi-bagidoomaad iniw waawaashkeshiwan.,Please clear off the platform for my son-in-law to set down the deer he's bring in on his back.,"""<niningwan>""
+	""ningwano"" VAI Ind Pos Neu 1SgSubj
+	""ningwan"" NAD ProxSg 1SgPoss
+""<waawaashkeshiwan>""
+	""waawaashkeshi"" NA ObvPl
+	""waawaashkeshi"" NA ObvSg","""<indaga>""
+	""indaga"" PCDisc
+""<dawinamaw>""
+
+""<'iw>""
+	""'iw"" PRONDem NI Sg
+""<desa'on>""
+	""desa'on"" NI Sg
+""<aw>""
+	""aw"" PRONDem
+	""aw"" PRONDem NA ProxSg
+""<niningwan>""
+	""ningwano"" VAI Ind Pos Neu 1SgSubj
+	""ningwan"" NAD ProxSg 1SgPoss
+""<.>""
+
+""<mii>""
+	""mii"" ADVPred
+""<imaa>""
+	""imaa"" ADVLoc
+""<ge-izhi-bagidoomaad>""
+
+""<iniw>""
+	""iniw"" PRONDem
+	""iniw"" PRONDem NI Pl
+	""iniw"" PRONDem NA ObvSg
+	""iniw"" PRONDem NA ObvPl
+""<waawaashkeshiwan>""
+	""waawaashkeshi"" NA ObvPl
+	""waawaashkeshi"" NA ObvSg
+""<.>""
+","""<indaga>""
+	""indaga"" PCDisc
+""<dawinamaw>""
+
+""<'iw>""
+
+""<desa'on>""
+	""desa'on"" NI Sg
+""<aw>""
+	""aw"" PRONDem
+""<niningwan>""
+	""ningwano"" VAI Ind Pos Neu 1SgSubj
+	""ningwan"" NAD ProxSg 1SgPoss
+""<.>""
+
+""<mii>""
+	""mii"" ADVPred
+""<imaa>""
+	""imaa"" ADVLoc
+""<ge-izhi-bagidoomaad>""
+
+""<iniw>""
+	""iniw"" PRONDem
+""<waawaashkeshiwan>""
+	""waawaashkeshi"" NA ObvPl
+	""waawaashkeshi"" NA ObvSg
+""<.>""
+",
+Mishawaagonag odizhiweba'aan bikwaakwadoons.,He hit his (golf)ball right out on a field of snow,"""<bikwaakwadoons>""
+	""bikwaakwadoons"" NI Sg
+	""bikwaakwad"" NI Dim Sg","""<mishawaagonag>""
+	""mishawaagonag"" ADVLoc
+""<odizhiweba'aan>""
+	""izhiweba'an"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<bikwaakwadoons>""
+	""bikwaakwadoons"" NI Sg
+	""bikwaakwad"" NI Dim Sg
+""<.>""
+","""<mishawaagonag>""
+	""mishawaagonag"" ADVLoc
+""<odizhiweba'aan>""
+	""izhiweba'an"" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<bikwaakwadoons>""
+	""bikwaakwadoons"" NI Sg
+	""bikwaakwad"" NI Dim Sg
+""<.>""
+",
+Aabitoobii 'i mazhoominaaboo imaa omoodayaabikong.,That bottle is half full with wine.,"""<aabitoobii>""
+	""aabitoobii"" VAI Ind Pos Neu 3SgProxSubj
+	""aabitoobii"" VII Ind Pos Neu 0SgSubj","""<aabitoobii>""
+	""aabitoobii"" VAI Ind Pos Neu 3SgProxSubj
+	""aabitoobii"" VII Ind Pos Neu 0SgSubj
+""<'i>""
+
+""<mazhoominaaboo>""
+	""mazhoominaaboo"" NI Sg
+""<imaa>""
+	""imaa"" ADVLoc
+""<omoodayaabikong>""
+	""omoodayaabik"" NI Loc
+""<.>""
+","""<aabitoobii>""
+	""aabitoobii"" VAI Ind Pos Neu 3SgProxSubj
+	""aabitoobii"" VII Ind Pos Neu 0SgSubj
+""<'i>""
+
+""<mazhoominaaboo>""
+	""mazhoominaaboo"" NI Sg
+""<imaa>""
+	""imaa"" ADVLoc
+""<omoodayaabikong>""
+	""omoodayaabik"" NI Loc
+""<.>""
+",
+Weweni ogii-oninaan iniw waabiganan.,He carefully shaped the clay.,"""<ogii-oninaan>""
+	""onin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""onin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""oninan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<waabiganan>""
+	""waabigan"" NA ObvPl
+	""waabigan"" NA ObvSg","""<weweni>""
+	""weweni"" ADVMan
+""<ogii-oninaan>""
+	""onin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""onin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""oninan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<iniw>""
+	""iniw"" PRONDem
+	""iniw"" PRONDem NI Pl
+	""iniw"" PRONDem NA ObvSg
+	""iniw"" PRONDem NA ObvPl
+""<waabiganan>""
+	""waabigan"" NA ObvPl
+	""waabigan"" NA ObvSg
+""<.>""
+","""<weweni>""
+	""weweni"" ADVMan
+""<ogii-oninaan>""
+	""onin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""onin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""oninan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<iniw>""
+	""iniw"" PRONDem
+""<waabiganan>""
+	""waabigan"" NA ObvPl
+	""waabigan"" NA ObvSg
+""<.>""
+",
+Bizaanad agwajiing. Gaawiin noodinzinoon.,It's pretty still outside. There's no wind blowing.,"""<noodinzinoon>""
+	""noodin"" VII Ind Neg Neu 0PlSubj
+	""noodin"" VII Ind Neg Neu 0SgSubj","""<bizaanad>""
+	""bizaanad"" VII Ind Pos Neu 0SgSubj
+""<agwajiing>""
+	""agwajiing"" ADVLoc
+""<.>""
+
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<noodinzinoon>""
+	""noodin"" VII Ind Neg Neu 0PlSubj
+	""noodin"" VII Ind Neg Neu 0SgSubj
+""<.>""
+","""<bizaanad>""
+	""bizaanad"" VII Ind Pos Neu 0SgSubj
+""<agwajiing>""
+	""agwajiing"" ADVLoc
+""<.>""
+
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<noodinzinoon>""
+	""noodin"" VII Ind Neg Neu 0PlSubj
+	""noodin"" VII Ind Neg Neu 0SgSubj
+""<.>""
+",
+Anaami-nibaagan ko ndatoonan nimakizinan.,I usually put my shoes under the bed.,"""<anaami-nibaagan>""
+	""PNLex/anaami"" nibaagan NI Sg
+	""anaami-nibaagan"" ADVLoc","""<anaami-nibaagan>""
+	""nibaagan"" PNLex/anaami NI Sg
+	""anaami-nibaagan"" ADVLoc
+""<ko>""
+	""ko"" PCAsp
+""<ndatoonan>""
+	""atoon"" VTI Ind Pos Neu 1SgSubj 0PlObj
+""<nimakizinan>""
+	""makizin"" NI Pl 1SgPoss
+""<.>""
+","""<anaami-nibaagan>""
+	""PNLex/anaami"" nibaagan NI Sg
+	""anaami-nibaagan"" ADVLoc
+""<ko>""
+	""ko"" PCAsp
+""<ndatoonan>""
+	""atoon"" VTI Ind Pos Neu 1SgSubj 0PlObj
+""<nimakizinan>""
+	""makizin"" NI Pl 1SgPoss
+""<.>""
+",
+Niizho-mininj gii'-maajiigi noongom gaa-biboong noozhis Dana.,My grandchild Dana grew two inches this winter.,"""<gaa-biboong>""
+	""biboon"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""biboon"" PVSub/gaa VII Cnj Pos Neu 0PlSubj","""<niizho-mininj>""
+	""niizho-mininj"" NUM
+""<gii'-maajiigi>""
+	""maajiigi"" PVTense/gii' VAI Ind Pos Neu 3SgProxSubj
+""<noongom>""
+	""noongom"" ADVTmp
+""<gaa-biboong>""
+	""biboon"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""biboon"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+""<noozhis>""
+	""oozhis"" NAD ProxSg 1SgPoss
+""<dana>""
+
+""<.>""
+","""<niizho-mininj>""
+	""niizho-mininj"" NUM
+""<gii'-maajiigi>""
+	""maajiigi"" PVTense/gii' VAI Ind Pos Neu 3SgProxSubj
+""<noongom>""
+	""noongom"" ADVTmp
+""<gaa-biboong>""
+	""biboon"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""biboon"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+""<noozhis>""
+	""oozhis"" NAD ProxSg 1SgPoss
+""<dana>""
+
+""<.>""
+",
+Gii-wakewizi 'a nabagisag aana-gii-sagaakwa'wag.,The board that I nailed on was weak.,"""<aana-gii-sagaakwa'wag>""
+	""PVTense/gii"" PVTense/aana zagaakwa'wi VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	""PVTense/gii"" PVTense/aana zagaakwa' VTA Cnj Pos Neu 1SgSubj 3SgProxObj","""<gii-wakewizi>""
+	""wakewizi"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<'a>""
+	""'a"" PRONDem
+	""'a"" PRONDem NA ProxSg
+""<nabagisag>""
+	""nabagisag"" NA ProxSg
+""<aana-gii-sagaakwa'wag>""
+	""zagaakwa'wi"" PVTense/aana PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	""zagaakwa'"" PVTense/aana PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+""<.>""
+","""<gii-wakewizi>""
+	""wakewizi"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<'a>""
+	""'a"" PRONDem
+""<nabagisag>""
+	""nabagisag"" NA ProxSg
+""<aana-gii-sagaakwa'wag>""
+	""PVTense/gii"" PVTense/aana zagaakwa'wi VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	""PVTense/gii"" PVTense/aana zagaakwa' VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+""<.>""
+",
+Gidaana-wii-kanoonin miinawaa. Gaawiin anokiimagasinoon ningiigidoo-biiwaabikoons. Ganabaj gii-kidiskaabiiginigaade.,I was going to call you again. My phone isn't working. I think it's disconnected.,"""<anokiimagasinoon>""
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0PlSubj
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0SgSubj","""<gidaana-wii-kanoonin>""
+	""ganoozh"" PVTense/aana PVTense/wii VTA Ind Pos Neu 1SgSubj 2SgObj
+""<miinawaa>""
+	""miinawaa"" ADVConj
+""<.>""
+
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<anokiimagasinoon>""
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0PlSubj
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0SgSubj
+""<ningiigidoo-biiwaabikoons>""
+	""giigidoo-biiwaabikoons"" NI Sg 1SgPoss
+""<.>""
+
+""<ganabaj>""
+	""ganabaj"" ADVMan
+""<gii-kidiskaabiiginigaade>""
+	""gidiskaabiiginigaade"" PVTense/gii VII Ind Pos Neu 0SgSubj
+""<.>""
+","""<gidaana-wii-kanoonin>""
+	""PVTense/wii"" PVTense/aana ganoozh VTA Ind Pos Neu 1SgSubj 2SgObj
+""<miinawaa>""
+	""miinawaa"" ADVConj
+""<.>""
+
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<anokiimagasinoon>""
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0PlSubj
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0SgSubj
+""<ningiigidoo-biiwaabikoons>""
+	""giigidoo-biiwaabikoons"" NI Sg 1SgPoss
+""<.>""
+
+""<ganabaj>""
+	""ganabaj"" ADVMan
+""<gii-kidiskaabiiginigaade>""
+	""gidiskaabiiginigaade"" PVTense/gii VII Ind Pos Neu 0SgSubj
+""<.>""
+",
+Gaawiin indaa-biinjwebinigetamawaasii awe gegiibaadendang aana-wii-shooniyaawininiiwid.,I will not vote for that crazy-thinking person who is running for treasurer.,"""<gegiibaadendang>""
+	""gagiibaadendam"" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	""gagiibaadendam"" VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<indaa-biinjwebinigetamawaasii>""
+	""biinjwebinigetamaw"" PVTense/daa VTA Ind Neg Neu 1SgSubj 3SgProxObj
+""<awe>""
+	""awe"" PRONDem NA ProxSg
+""<gegiibaadendang>""
+	""gagiibaadendam"" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	""gagiibaadendam"" VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+""<aana-wii-shooniyaawininiiwid>""
+	""zhooniyaawininiiwi"" PVTense/aana PVTense/wii VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<indaa-biinjwebinigetamawaasii>""
+	""biinjwebinigetamaw"" PVTense/daa VTA Ind Neg Neu 1SgSubj 3SgProxObj
+""<awe>""
+
+""<gegiibaadendang>""
+	""gagiibaadendam"" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	""gagiibaadendam"" VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+""<aana-wii-shooniyaawininiiwid>""
+	""PVTense/wii"" PVTense/aana zhooniyaawininiiwi VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+",
+Gii-pi-anoonaa ji-o-ganawendaawasod awe niwiijiiwaagan.,They came and hired my partner to go babysit.,"""<ji-o-ganawendaawasod>""
+	""PVDir/o"" PVTense/daa ganawendaawaso VAI Cnj Pos Neu 3SgProxSubj
+	""PVDir/o"" PVTense/ga ganawendaawaso VAI Cnj Pos Neu 3SgProxSubj","""<gii-pi-anoonaa>""
+	""anoozh"" PVTense/gii PVDir/bi VTA Ind Pos Neu XSubj 3SgProxObj
+""<ji-o-ganawendaawasod>""
+	""ganawendaawaso"" PVTense/daa PVDir/o VAI Cnj Pos Neu 3SgProxSubj
+	""ganawendaawaso"" PVTense/ga PVDir/o VAI Cnj Pos Neu 3SgProxSubj
+""<awe>""
+	""awe"" PRONDem NA ProxSg
+""<niwiijiiwaagan>""
+	""wiijiiwaagan"" NA ProxSg 1SgPoss
+""<.>""
+","""<gii-pi-anoonaa>""
+	""PVDir/bi"" PVTense/gii anoozh VTA Ind Pos Neu XSubj 3SgProxObj
+""<ji-o-ganawendaawasod>""
+	""PVDir/o"" PVTense/daa ganawendaawaso VAI Cnj Pos Neu 3SgProxSubj
+	""PVDir/o"" PVTense/ga ganawendaawaso VAI Cnj Pos Neu 3SgProxSubj
+""<awe>""
+
+""<niwiijiiwaagan>""
+	""wiijiiwaagan"" NA ProxSg 1SgPoss
+""<.>""
+",
+Onzaamiinowag awesiinyag noopimiing. Gaye giin gidaa-andawenjige.,There's a lot of animals in the woods. You too should go hunting.,"""<giin>""
+	""giin"" PRONPer
+	""iiw"" NAD ObvPl 2SgPoss
+	""iiw"" NAD ObvSg 2SgPoss","""<onzaamiinowag>""
+	""onzaamiino"" VAI Ind Pos Neu 3PlProxSubj
+""<awesiinyag>""
+	""awesiinh"" NA ProxPl
+""<noopimiing>""
+	""noopimiing"" ADVLoc
+""<.>""
+
+""<gaye>""
+	""gaye"" ADVConj
+""<giin>""
+	""giin"" PRONPer
+	""iiw"" NAD ObvPl 2SgPoss
+	""iiw"" NAD ObvSg 2SgPoss
+""<gidaa-andawenjige>""
+	""andawenjige"" PVTense/daa VAI Ind Pos Neu 2SgSubj
+""<.>""
+","""<onzaamiinowag>""
+	""onzaamiino"" VAI Ind Pos Neu 3PlProxSubj
+""<awesiinyag>""
+	""awesiinh"" NA ProxPl
+""<noopimiing>""
+	""noopimiing"" ADVLoc
+""<.>""
+
+""<gaye>""
+	""gaye"" ADVConj
+""<giin>""
+	""giin"" PRONPer
+	""iiw"" NAD ObvPl 2SgPoss
+	""iiw"" NAD ObvSg 2SgPoss
+""<gidaa-andawenjige>""
+	""andawenjige"" PVTense/daa VAI Ind Pos Neu 2SgSubj
+""<.>""
+",
+Wii-aabawaamagad iidog waabang.,It's going to be warm tomorrow.,"""<waabang>""
+	""waaban"" VII Cnj Pos Neu 0SgSubj
+	""waaban"" VII Cnj Pos Neu 0PlSubj","""<wii-aabawaamagad>""
+	""aabawaa"" PVTense/wii VII Aug/magad VII Ind Pos Neu 0SgSubj
+""<iidog>""
+	""iidog"" PCAsp
+""<waabang>""
+	""waaban"" VII Cnj Pos Neu 0SgSubj
+	""waaban"" VII Cnj Pos Neu 0PlSubj
+""<.>""
+","""<wii-aabawaamagad>""
+	""aabawaa"" PVTense/wii VII Aug/magad VII Ind Pos Neu 0SgSubj
+""<iidog>""
+	""iidog"" PCAsp
+""<waabang>""
+	""waaban"" VII Cnj Pos Neu 0SgSubj
+	""waaban"" VII Cnj Pos Neu 0PlSubj
+""<.>""
+",
+Owiidanokiimaan iniwen ininiwan.,He's working with that man.,"""<owiidanokiimaan>""
+	""wiidanokiim"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""wiidanokiim"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ininiwan>""
+	""inini"" NA ObvPl
+	""inini"" NA ObvSg","""<owiidanokiimaan>""
+	""wiidanokiim"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""wiidanokiim"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iniwen>""
+	""iniwen"" PRONDem
+	""iniwen"" PRONDem NI Pl
+""<ininiwan>""
+	""inini"" NA ObvPl
+	""inini"" NA ObvSg
+""<.>""
+","""<owiidanokiimaan>""
+	""wiidanokiim"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""wiidanokiim"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iniwen>""
+	""iniwen"" PRONDem
+""<ininiwan>""
+	""inini"" NA ObvPl
+	""inini"" NA ObvSg
+""<.>""
+",
+Ogii-piisibidoon 'i mazina'igan.,He shredded the document.,"""<mazina'igan>""
+	""mazina'igan"" NA ProxSg
+	""mazina'igan"" NI Sg","""<ogii-piisibidoon>""
+	""biisibidoon"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<'i>""
+
+""<mazina'igan>""
+	""mazina'igan"" NA ProxSg
+	""mazina'igan"" NI Sg
+""<.>""
+","""<ogii-piisibidoon>""
+	""biisibidoon"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<'i>""
+
+""<mazina'igan>""
+	""mazina'igan"" NA ProxSg
+	""mazina'igan"" NI Sg
+""<.>""
+",
+Gagwejiiwaazoowinini wa'awe gaa-dagoshing. Niibiwa daso-biboon gii-kagwejiiwaazo.,This is the wrestler that just got home. He's been wrestling for years.,"""<daso-biboon>""
+	""biboon"" PVRel/daso VII Ind Pos Neu 0SgSubj
+	""daso-biboon"" NUM","""<gagwejiiwaazoowinini>""
+	""gagwejiiwaazoowinini"" NA ProxSg
+""<wa'awe>""
+	""wa'awe"" PRONDem
+	""wa'awe"" PRONDem NA ProxSg
+""<gaa-dagoshing>""
+	""dagoshin"" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+
+""<niibiwa>""
+	""niibiwa"" ADVQnt
+""<daso-biboon>""
+	""biboon"" PVRel/daso VII Ind Pos Neu 0SgSubj
+	""daso-biboon"" NUM
+""<gii-kagwejiiwaazo>""
+	""gagwejiiwaazo"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<.>""
+","""<gagwejiiwaazoowinini>""
+	""gagwejiiwaazoowinini"" NA ProxSg
+""<wa'awe>""
+	""wa'awe"" PRONDem
+""<gaa-dagoshing>""
+	""dagoshin"" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+""<.>""
+
+""<niibiwa>""
+	""niibiwa"" ADVQnt
+""<daso-biboon>""
+	""biboon"" PVRel/daso VII Ind Pos Neu 0SgSubj
+	""daso-biboon"" NUM
+""<gii-kagwejiiwaazo>""
+	""gagwejiiwaazo"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<.>""
+",
+Indaga o-waabandandaa mii 'iw gii-maadaakideg 'i gichi-... gichi-mashkosiw.,Let's go look at the hayfield. It's starting to burn.,"""<gii-maadaakideg>""
+	""maadaakide"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""maadaakide"" PVTense/gii VII Cnj Pos Neu 0PlSubj
+""<gichi-mashkosiw>""
+	""PNLex/gichi"" mashkosiw NI Sg
+	""PNLex/chi"" mashkosiw NI Sg 2SgPoss","""<indaga>""
+	""indaga"" PCDisc
+""<o-waabandandaa>""
+	""waabandan"" PVDir/o VTI Imp Sim InclSubj 0SgObj
+""<mii>""
+	""mii"" ADVPred
+""<'iw>""
+	""'iw"" PRONDem NI Sg
+""<gii-maadaakideg>""
+	""maadaakide"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""maadaakide"" PVTense/gii VII Cnj Pos Neu 0PlSubj
+""<'i>""
+
+""<gichi-...>""
+
+""<gichi-mashkosiw>""
+	""mashkosiw"" PNLex/gichi NI Sg
+	""mashkosiw"" PNLex/chi NI Sg 2SgPoss
+""<.>""
+","""<indaga>""
+	""indaga"" PCDisc
+""<o-waabandandaa>""
+	""waabandan"" PVDir/o VTI Imp Sim InclSubj 0SgObj
+""<mii>""
+	""mii"" ADVPred
+""<'iw>""
+
+""<gii-maadaakideg>""
+	""maadaakide"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""maadaakide"" PVTense/gii VII Cnj Pos Neu 0PlSubj
+""<'i>""
+
+""<gichi-..>""
+
+""<.>""
+
+""<gichi-mashkosiw>""
+	""PNLex/gichi"" mashkosiw NI Sg
+	""PNLex/chi"" mashkosiw NI Sg 2SgPoss
+""<.>""
+",
+Ogii-pimijishimaan odasabiin awe gaa-'o-bagida'waad.,The one who went to set nets set them sideways.,"""<odasabiin>""
+	""odasabii"" VAI Imp Sim 2SgSubj
+	""asab"" NA ObvSg 3SgProxPoss
+	""asab"" NA ObvPl 3SgProxPoss","""<ogii-pimijishimaan>""
+
+""<odasabiin>""
+	""odasabii"" VAI Imp Sim 2SgSubj
+	""asab"" NA ObvSg 3SgProxPoss
+	""asab"" NA ObvPl 3SgProxPoss
+""<awe>""
+	""awe"" PRONDem NA ProxSg
+""<gaa-'o-bagida'waad>""
+
+""<.>""
+","""<ogii-pimijishimaan>""
+
+""<odasabiin>""
+	""odasabii"" VAI Imp Sim 2SgSubj
+	""asab"" NA ObvSg 3SgProxPoss
+	""asab"" NA ObvPl 3SgProxPoss
+""<awe>""
+
+""<gaa-'o-bagida'waad>""
+
+""<.>""
+",
+Gii-maazhi-giizhigad bijiinaago gaa-onji-bwaanawitooyaan ji-gopiiyaan.,It was a bad day yesterday and that's why I didn't go out in the woods.,"""<gii-maazhi-giizhigad>""
+	""maazhi-giizhigad"" PVTense/gii VII Ind Pos Neu 0SgSubj
+	""PVLex/maazhi"" PVTense/gii giizhigad VII Ind Pos Neu 0SgSubj
+""<gaa-onji-bwaanawitooyaan>""
+	""PVRel/onji"" PVSub/gaa bwaanawitoon VTI Cnj Pos Neu 1SgSubj 0PlObj
+	""PVRel/onji"" PVSub/gaa bwaanawitoon VTI Cnj Pos Neu 1SgSubj 0SgObj
+""<ji-gopiiyaan>""
+	""gopii"" PVTense/daa VAI Cnj Pos Neu 1SgSubj
+	""gopii"" PVTense/ga VAI Cnj Pos Neu 1SgSubj","""<gii-maazhi-giizhigad>""
+	""maazhi-giizhigad"" PVTense/gii VII Ind Pos Neu 0SgSubj
+	""giizhigad"" PVTense/gii PVLex/maazhi VII Ind Pos Neu 0SgSubj
+""<bijiinaago>""
+	""bijiinaago"" ADVTmp
+""<gaa-onji-bwaanawitooyaan>""
+	""bwaanawitoon"" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 1SgSubj 0PlObj
+	""bwaanawitoon"" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 1SgSubj 0SgObj
+""<ji-gopiiyaan>""
+	""gopii"" PVTense/daa VAI Cnj Pos Neu 1SgSubj
+	""gopii"" PVTense/ga VAI Cnj Pos Neu 1SgSubj
+""<.>""
+","""<gii-maazhi-giizhigad>""
+	""maazhi-giizhigad"" PVTense/gii VII Ind Pos Neu 0SgSubj
+	""PVLex/maazhi"" PVTense/gii giizhigad VII Ind Pos Neu 0SgSubj
+""<bijiinaago>""
+	""bijiinaago"" ADVTmp
+""<gaa-onji-bwaanawitooyaan>""
+	""PVRel/onji"" PVSub/gaa bwaanawitoon VTI Cnj Pos Neu 1SgSubj 0PlObj
+	""PVRel/onji"" PVSub/gaa bwaanawitoon VTI Cnj Pos Neu 1SgSubj 0SgObj
+""<ji-gopiiyaan>""
+	""gopii"" PVTense/daa VAI Cnj Pos Neu 1SgSubj
+	""gopii"" PVTense/ga VAI Cnj Pos Neu 1SgSubj
+""<.>""
+",
+Indigo naa gaye gaa-zhiibiigishkaad gii-chaagideg ezhimaandang.,He thinks he smelled rubber burning.,"""<gii-chaagideg>""
+	""jaagide"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""jaagide"" PVTense/gii VII Cnj Pos Neu 0PlSubj","""<indigo>""
+	""indigo"" ADVMan
+""<naa>""
+	""naa"" PCEmph
+""<gaye>""
+	""gaye"" ADVConj
+""<gaa-zhiibiigishkaad>""
+
+""<gii-chaagideg>""
+	""jaagide"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""jaagide"" PVTense/gii VII Cnj Pos Neu 0PlSubj
+""<ezhimaandang>""
+
+""<.>""
+","""<indigo>""
+	""indigo"" ADVMan
+""<naa>""
+	""naa"" PCEmph
+""<gaye>""
+	""gaye"" ADVConj
+""<gaa-zhiibiigishkaad>""
+
+""<gii-chaagideg>""
+	""jaagide"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""jaagide"" PVTense/gii VII Cnj Pos Neu 0PlSubj
+""<ezhimaandang>""
+
+""<.>""
+",
+Ogii-kwekinaan aana-gii-nanaa'isijigaadenig 'i waasechiganaabik.,He turned around the glass pane they had set.,"""<ogii-kwekinaan>""
+	""gwekin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""gwekin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""gwekinan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj","""<ogii-kwekinaan>""
+	""gwekin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""gwekin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""gwekinan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<aana-gii-nanaa'isijigaadenig>""
+
+""<'i>""
+
+""<waasechiganaabik>""
+	""waasechiganaabik"" NI Sg
+""<.>""
+","""<ogii-kwekinaan>""
+	""gwekin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""gwekin"" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	""gwekinan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<aana-gii-nanaa'isijigaadenig>""
+
+""<'i>""
+
+""<waasechiganaabik>""
+	""waasechiganaabik"" NI Sg
+""<.>""
+",
+Manidoo-giizisoons gii-oshkagoojin awasi-dibikong.,It was the new moon of January the other night.,"""<manidoo-giizisoons>""
+	""manidoo-giizisoons"" NA ProxSg
+	""manidoo-giizis"" NA Dim ProxSg
+""<awasi-dibikong>""
+	""awasi-dibikong"" ADVTmp
+	""dibikong"" PVLex/awasi ADVTmp","""<manidoo-giizisoons>""
+	""manidoo-giizisoons"" NA ProxSg
+	""manidoo-giizis"" NA Dim ProxSg
+""<gii-oshkagoojin>""
+	""oshkagoojin"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<awasi-dibikong>""
+	""awasi-dibikong"" ADVTmp
+	""dibikong"" PVLex/awasi ADVTmp
+""<.>""
+","""<manidoo-giizisoons>""
+	""manidoo-giizisoons"" NA ProxSg
+	""manidoo-giizis"" NA Dim ProxSg
+""<gii-oshkagoojin>""
+	""oshkagoojin"" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+""<awasi-dibikong>""
+	""awasi-dibikong"" ADVTmp
+	""dibikong"" PVLex/awasi ADVTmp
+""<.>""
+",
+Biizikan ginamekwaanakizinan. Nibiiwashkosiwagaa agwajiing.,Put on your rubber boots. The grass outside is wet.,"""<biizikan>""
+	""biizikan"" VTI Imp Sim 2SgSubj 0SgObj
+	""biizikan"" VTI Imp Sim 2SgSubj 0PlObj","""<biizikan>""
+	""biizikan"" VTI Imp Sim 2SgSubj 0SgObj
+	""biizikan"" VTI Imp Sim 2SgSubj 0PlObj
+""<ginamekwaanakizinan>""
+	""namekwaanakizin"" NI Pl 2SgPoss
+""<.>""
+
+""<nibiiwashkosiwagaa>""
+	""nibiiwashkosiwagaa"" VII Ind Pos Neu 0SgSubj
+""<agwajiing>""
+	""agwajiing"" ADVLoc
+""<.>""
+","""<biizikan>""
+	""biizikan"" VTI Imp Sim 2SgSubj 0SgObj
+	""biizikan"" VTI Imp Sim 2SgSubj 0PlObj
+""<ginamekwaanakizinan>""
+	""namekwaanakizin"" NI Pl 2SgPoss
+""<.>""
+
+""<nibiiwashkosiwagaa>""
+	""nibiiwashkosiwagaa"" VII Ind Pos Neu 0SgSubj
+""<agwajiing>""
+	""agwajiing"" ADVLoc
+""<.>""
+",
+Debinaak igo Anangookwe izhichige.,Anangookwe does things any old way.,"""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan","""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan
+""<igo>""
+	""igo"" PCEmph
+""<anangookwe>""
+
+""<izhichige>""
+	""izhichige"" VAI Ind Pos Neu 3SgProxSubj
+""<.>""
+","""<debinaak>""
+	""debinaw"" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	""debinaak"" ADVMan
+""<igo>""
+	""igo"" PCEmph
+""<anangookwe>""
+
+""<izhichige>""
+	""izhichige"" VAI Ind Pos Neu 3SgProxSubj
+""<.>""
+",
+Obwaanawi'aan ji-bakonaad waaboozoon; onzaam okanaapinewininjii.,She's not able to skin a rabbit because of the arthritis in her hands.,"""<obwaanawi'aan>""
+	""bwaanawi'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bwaanawi'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ji-bakonaad>""
+	""bakon"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bakon"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bakon"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""bakon"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj","""<obwaanawi'aan>""
+	""bwaanawi'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bwaanawi'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ji-bakonaad>""
+	""bakon"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bakon"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bakon"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""bakon"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+""<waaboozoon;>""
+
+""<onzaam>""
+	""onzaam"" ADVQnt
+""<okanaapinewininjii>""
+
+""<.>""
+","""<obwaanawi'aan>""
+	""bwaanawi'"" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""bwaanawi'"" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<ji-bakonaad>""
+	""bakon"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bakon"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bakon"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""bakon"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+""<waaboozoon;>""
+
+""<onzaam>""
+	""onzaam"" ADVQnt
+""<okanaapinewininjii>""
+
+""<.>""
+",
+Weweni mamoon. Aapiji ozhaashadamon.,Take it easy. The road is very slippery.,"""<mamoon>""
+	""mamoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""mamoon"" VTI Imp Sim 2SgSubj 0PlObj","""<weweni>""
+	""weweni"" ADVMan
+""<mamoon>""
+	""mamoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""mamoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<.>""
+
+""<aapiji>""
+	""aapiji"" AVDDeg
+""<ozhaashadamon>""
+	""ozhaashadamon"" VII Ind Pos Neu 0SgSubj
+""<.>""
+","""<weweni>""
+	""weweni"" ADVMan
+""<mamoon>""
+	""mamoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""mamoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<.>""
+
+""<aapiji>""
+	""aapiji"" AVDDeg
+""<ozhaashadamon>""
+	""ozhaashadamon"" VII Ind Pos Neu 0SgSubj
+""<.>""
+",
+Gaawiin obagidinaasii' oniijaanisa' ji-niibaashkaanid.,She doesn't let her children be out at night.,"""<ji-niibaashkaanid>""
+	""niibaashkaa"" PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	""niibaashkaa"" PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	""niibaashkaa"" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	""niibaashkaa"" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<obagidinaasii'>""
+	""bagidin"" VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+""<oniijaanisa'>""
+	""niijaanis"" NAD ObvPl 3SgProxPoss
+""<ji-niibaashkaanid>""
+	""niibaashkaa"" PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	""niibaashkaa"" PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	""niibaashkaa"" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	""niibaashkaa"" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+""<.>""
+","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<obagidinaasii'>""
+	""bagidin"" VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+""<oniijaanisa'>""
+	""niijaanis"" NAD ObvPl 3SgProxPoss
+""<ji-niibaashkaanid>""
+	""niibaashkaa"" PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	""niibaashkaa"" PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	""niibaashkaa"" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	""niibaashkaa"" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+""<.>""
+",
+Owii-madwe'waan iidog odewe'iganiman awaswaabang.,He's going to pound on his drum and sing the day after tomorrow.,"""<owii-madwe'waan>""
+	""madwe'"" PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""madwe'"" PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<odewe'iganiman>""
+	""dewe'igan"" NA Poss ObvSg 3SgProxPoss
+	""dewe'igan"" NA Poss ObvPl 3SgProxPoss","""<owii-madwe'waan>""
+	""madwe'"" PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""madwe'"" PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iidog>""
+	""iidog"" PCAsp
+""<odewe'iganiman>""
+	""dewe'igan"" NA Poss ObvSg 3SgProxPoss
+	""dewe'igan"" NA Poss ObvPl 3SgProxPoss
+""<awaswaabang>""
+	""awaswaabang"" ADVTmp
+""<.>""
+","""<owii-madwe'waan>""
+	""madwe'"" PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	""madwe'"" PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+""<iidog>""
+	""iidog"" PCAsp
+""<odewe'iganiman>""
+	""dewe'igan"" NA Poss ObvSg 3SgProxPoss
+	""dewe'igan"" NA Poss ObvPl 3SgProxPoss
+""<awaswaabang>""
+	""awaswaabang"" ADVTmp
+""<.>""
+",
+Ogii-minwaabandaan iwe mazina'igan gaa-pi-miinind gii-ozhibii'igaadeg imaa waa-inaakonigewaad.,He approved what he saw of the proposed rules he was given that they were going to decide on.,"""<mazina'igan>""
+	""mazina'igan"" NA ProxSg
+	""mazina'igan"" NI Sg
+""<gii-ozhibii'igaadeg>""
+	""ozhibii'igaade"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""ozhibii'igaade"" PVTense/gii VII Cnj Pos Neu 0PlSubj","""<ogii-minwaabandaan>""
+	""minwaabandan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<iwe>""
+	""iwe"" PRONDem NI Sg
+""<mazina'igan>""
+	""mazina'igan"" NA ProxSg
+	""mazina'igan"" NI Sg
+""<gaa-pi-miinind>""
+
+""<gii-ozhibii'igaadeg>""
+	""ozhibii'igaade"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""ozhibii'igaade"" PVTense/gii VII Cnj Pos Neu 0PlSubj
+""<imaa>""
+	""imaa"" ADVLoc
+""<waa-inaakonigewaad>""
+
+""<.>""
+","""<ogii-minwaabandaan>""
+	""minwaabandan"" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+""<iwe>""
+
+""<mazina'igan>""
+	""mazina'igan"" NA ProxSg
+	""mazina'igan"" NI Sg
+""<gaa-pi-miinind>""
+
+""<gii-ozhibii'igaadeg>""
+	""ozhibii'igaade"" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	""ozhibii'igaade"" PVTense/gii VII Cnj Pos Neu 0PlSubj
+""<imaa>""
+	""imaa"" ADVLoc
+""<waa-inaakonigewaad>""
+
+""<.>""
+",
+Anishinaabewanjigewag geyaabi gaa-onji-mino-ayaawaad.,They eat traditional food so that's why they're are still healthy.,"""<gaa-onji-mino-ayaawaad>""
+	""PVRel/onji"" PVSub/gaa PVLex/mino ayaaw VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""PVRel/onji"" PVSub/gaa PVLex/mino ayaaw VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""PVRel/onji"" PVSub/gaa mino-ayaa VAI Cnj Pos Neu 3PlProxSubj
+	""PVRel/onji"" PVSub/gaa PVLex/mino ayaa VAI Cnj Pos Neu 3PlProxSubj","""<anishinaabewanjigewag>""
+	""anishinaabewanjige"" VAI Ind Pos Neu 3PlProxSubj
+""<geyaabi>""
+	""geyaabi"" ADVTmp
+""<gaa-onji-mino-ayaawaad>""
+	""ayaaw"" PVSub/gaa PVRel/onji PVLex/mino VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""ayaaw"" PVSub/gaa PVRel/onji PVLex/mino VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""mino-ayaa"" PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3PlProxSubj
+	""ayaa"" PVSub/gaa PVRel/onji PVLex/mino VAI Cnj Pos Neu 3PlProxSubj
+""<.>""
+","""<anishinaabewanjigewag>""
+	""anishinaabewanjige"" VAI Ind Pos Neu 3PlProxSubj
+""<geyaabi>""
+	""geyaabi"" ADVTmp
+""<gaa-onji-mino-ayaawaad>""
+	""PVRel/onji"" PVSub/gaa PVLex/mino ayaaw VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""PVRel/onji"" PVSub/gaa PVLex/mino ayaaw VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""PVRel/onji"" PVSub/gaa mino-ayaa VAI Cnj Pos Neu 3PlProxSubj
+	""PVRel/onji"" PVSub/gaa PVLex/mino ayaa VAI Cnj Pos Neu 3PlProxSubj
+""<.>""
+",
+Mii go ge ezhi-zikwaadang waasikwa'ang iniw omakizinan.,He is also spit-shining his shoes.,"""<waasikwa'ang>""
+	""waasikwa'an"" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""waasikwa'an"" VTI Cnj Pos Neu 3SgProxSubj 0PlObj","""<mii>""
+	""mii"" ADVPred
+""<go>""
+	""go"" PCDisc
+""<ge>""
+	""ge"" ADVConj
+""<ezhi-zikwaadang>""
+
+""<waasikwa'ang>""
+	""waasikwa'an"" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""waasikwa'an"" VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<iniw>""
+	""iniw"" PRONDem
+	""iniw"" PRONDem NI Pl
+	""iniw"" PRONDem NA ObvSg
+	""iniw"" PRONDem NA ObvPl
+""<omakizinan>""
+	""makizin"" NI Pl 3SgProxPoss
+""<.>""
+","""<mii>""
+	""mii"" ADVPred
+""<go>""
+	""go"" PCDisc
+""<ge>""
+	""ge"" ADVConj
+""<ezhi-zikwaadang>""
+
+""<waasikwa'ang>""
+	""waasikwa'an"" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""waasikwa'an"" VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<iniw>""
+	""iniw"" PRONDem
+""<omakizinan>""
+	""makizin"" NI Pl 3SgProxPoss
+""<.>""
+",
+Gabe-dibik gii-ondendiwag igiw gaa-waaswaawaad.,The torchers were gone all night.,"""<gabe-dibik>""
+	""gabe-dibik"" ADVTmp
+	""dibik"" PVLex/gabe ADVTmp","""<gabe-dibik>""
+	""gabe-dibik"" ADVTmp
+	""dibik"" PVLex/gabe ADVTmp
+""<gii-ondendiwag>""
+	""ondendi"" PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+""<igiw>""
+	""igiw"" PRONDem
+	""igiw"" PRONDem NA ProxPl
+""<gaa-waaswaawaad>""
+	""waaswaa"" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+""<.>""
+","""<gabe-dibik>""
+	""gabe-dibik"" ADVTmp
+	""dibik"" PVLex/gabe ADVTmp
+""<gii-ondendiwag>""
+	""ondendi"" PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+""<igiw>""
+	""igiw"" PRONDem
+""<gaa-waaswaawaad>""
+	""waaswaa"" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+""<.>""
+",
+Niigaan ani-maajaan. Booch giga-adimigoo.,Just go ahead. We'll catch up to you anyway.,"""<giga-adimigoo>""
+	""adim"" PVTense/ga VTA Ind Pos Neu XSubj 2SgObj
+	""adim"" PVTense/ga VTA Ind Pos Neu ExclSubj 2SgObj","""<niigaan>""
+	""niigaan"" ADVLoc
+""<ani-maajaan>""
+	""maajaa"" PVDir/ani VAI Imp Sim 2SgSubj
+""<.>""
+
+""<booch>""
+	""booch"" ADVMan
+""<giga-adimigoo>""
+	""adim"" PVTense/ga VTA Ind Pos Neu XSubj 2SgObj
+	""adim"" PVTense/ga VTA Ind Pos Neu ExclSubj 2SgObj
+""<.>""
+","""<niigaan>""
+	""niigaan"" ADVLoc
+""<ani-maajaan>""
+	""maajaa"" PVDir/ani VAI Imp Sim 2SgSubj
+""<.>""
+
+""<booch>""
+	""booch"" ADVMan
+""<giga-adimigoo>""
+	""adim"" PVTense/ga VTA Ind Pos Neu XSubj 2SgObj
+	""adim"" PVTense/ga VTA Ind Pos Neu ExclSubj 2SgObj
+""<.>""
+",
+Gii-shiigosin giziibiiga'igani-makakosag omaa gaa-ayateg.,The washtub that's been sitting here for a long time finally emptied.,"""<gaa-ayateg>""
+	""ayate"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""ayate"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ayate"" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead","""<gii-shiigosin>""
+
+""<giziibiiga'igani-makakosag>""
+	""giziibiiga'igani-makakosag"" NI Sg
+""<omaa>""
+	""omaa"" ADVLoc
+""<gaa-ayateg>""
+	""ayate"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""ayate"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ayate"" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+""<.>""
+","""<gii-shiigosin>""
+
+""<giziibiiga'igani-makakosag>""
+	""giziibiiga'igani-makakosag"" NI Sg
+""<omaa>""
+	""omaa"" ADVLoc
+""<gaa-ayateg>""
+	""ayate"" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	""ayate"" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	""ayate"" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+""<.>""
+",
+Maamawi anokiiwag. Geget aapiji mashkawiziiwag enigoonsag.,They all work together. Ants are certainly very strong.,"""<enigoonsag>""
+	""enigoo"" NA Dim ProxPl
+	""enigoons"" NA ProxPl","""<maamawi>""
+	""maamawi"" ADVMan
+""<anokiiwag>""
+	""anokii"" VAI Ind Pos Neu 3PlProxSubj
+""<.>""
+
+""<geget>""
+	""geget"" ADVMan
+""<aapiji>""
+	""aapiji"" AVDDeg
+""<mashkawiziiwag>""
+	""mashkawizii"" VAI Ind Pos Neu 3PlProxSubj
+""<enigoonsag>""
+	""enigoo"" NA Dim ProxPl
+	""enigoons"" NA ProxPl
+""<.>""
+","""<maamawi>""
+	""maamawi"" ADVMan
+""<anokiiwag>""
+	""anokii"" VAI Ind Pos Neu 3PlProxSubj
+""<.>""
+
+""<geget>""
+	""geget"" ADVMan
+""<aapiji>""
+	""aapiji"" AVDDeg
+""<mashkawiziiwag>""
+	""mashkawizii"" VAI Ind Pos Neu 3PlProxSubj
+""<enigoonsag>""
+	""enigoo"" NA Dim ProxPl
+	""enigoons"" NA ProxPl
+""<.>""
+",
+Omaa bi-ina'oodoon.,Paddle this way.,"""<bi-ina'oodoon>""
+	""ina'oodoo"" PVDir/bi VAI Imp Sim 2SgSubj
+	""ina'oodoon"" PVDir/bi VTI Imp Sim 2SgSubj 0SgObj
+	""ina'oodoon"" PVDir/bi VTI Imp Sim 2SgSubj 0PlObj","""<omaa>""
+	""omaa"" ADVLoc
+""<bi-ina'oodoon>""
+	""ina'oodoo"" PVDir/bi VAI Imp Sim 2SgSubj
+	""ina'oodoon"" PVDir/bi VTI Imp Sim 2SgSubj 0SgObj
+	""ina'oodoon"" PVDir/bi VTI Imp Sim 2SgSubj 0PlObj
+""<.>""
+","""<omaa>""
+	""omaa"" ADVLoc
+""<bi-ina'oodoon>""
+	""ina'oodoo"" PVDir/bi VAI Imp Sim 2SgSubj
+	""ina'oodoon"" PVDir/bi VTI Imp Sim 2SgSubj 0SgObj
+	""ina'oodoon"" PVDir/bi VTI Imp Sim 2SgSubj 0PlObj
+""<.>""
+",
+Agwanaatesidoon gimawinzwaanan jibwaa-baashkijiidegin.,Put your blueberries in the shade before they burst open from the sun.,"""<agwanaatesidoon>""
+	""agwanaatesidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""agwanaatesidoon"" VTI Imp Sim 2SgSubj 0PlObj","""<agwanaatesidoon>""
+	""agwanaatesidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""agwanaatesidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<gimawinzwaanan>""
+	""mawinzwaan"" NI Pl 2SgPoss
+""<jibwaa-baashkijiidegin>""
+	""baashkijiide"" PVTense/jibwaa VII Cnj Pos Neu 0PlSubj
+""<.>""
+","""<agwanaatesidoon>""
+	""agwanaatesidoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""agwanaatesidoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<gimawinzwaanan>""
+	""mawinzwaan"" NI Pl 2SgPoss
+""<jibwaa-baashkijiidegin>""
+	""baashkijiide"" PVTense/jibwaa VII Cnj Pos Neu 0PlSubj
+""<.>""
+",
+Aaniin enendaagozid.,What do people think of h/? How is s/he regarded?,"""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter","""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter
+""<enendaagozid>""
+	""inendaagozi"" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+","""<aaniin>""
+	""aaniin"" PCInterj
+	""aaniin"" ADVInter
+""<enendaagozid>""
+	""inendaagozi"" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+""<.>""
+",
+Gaawiin geyaabi ogashki'aasiin ji-bimibizo'aad odaabaanan; onzaam gaawiin zaabaabisii.,He's not able to drive a car anymore because he can't see very well.,"""<ogashki'aasiin>""
+	""gashki'"" VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+	""gashki'"" VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
+""<ji-bimibizo'aad>""
+	""bimibizo'"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizo'"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizo'"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""bimibizo'"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<geyaabi>""
+	""geyaabi"" ADVTmp
+""<ogashki'aasiin>""
+	""gashki'"" VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+	""gashki'"" VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
+""<ji-bimibizo'aad>""
+	""bimibizo'"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizo'"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizo'"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""bimibizo'"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+""<odaabaanan;>""
+
+""<onzaam>""
+	""onzaam"" ADVQnt
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<zaabaabisii>""
+
+""<.>""
+","""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<geyaabi>""
+	""geyaabi"" ADVTmp
+""<ogashki'aasiin>""
+	""gashki'"" VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+	""gashki'"" VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
+""<ji-bimibizo'aad>""
+	""bimibizo'"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizo'"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	""bimibizo'"" PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	""bimibizo'"" PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+""<odaabaanan;>""
+
+""<onzaam>""
+	""onzaam"" ADVQnt
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<zaabaabisii>""
+
+""<.>""
+",
+Mii 'iw zhaangaso-diba'iganeg ji-madwesidood 'iw godotaagan.,At nine o'clock he's going to ring the bell.,"""<zhaangaso-diba'iganeg>""
+	""zhaangaso-diba'igane"" VII Cnj Pos Neu 0SgSubj
+	""diba'igane"" PVQnt/zhaangaso VII Cnj Pos Neu 0SgSubj
+	""zhaangaso-diba'igane"" VII Cnj Pos Neu 0PlSubj
+	""diba'igane"" PVQnt/zhaangaso VII Cnj Pos Neu 0PlSubj
+""<ji-madwesidood>""
+	""madwesidoon"" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""madwesidoon"" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""madwesidoon"" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	""madwesidoon"" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0PlObj","""<mii>""
+	""mii"" ADVPred
+""<'iw>""
+	""'iw"" PRONDem NI Sg
+""<zhaangaso-diba'iganeg>""
+	""zhaangaso-diba'igane"" VII Cnj Pos Neu 0SgSubj
+	""diba'igane"" PVQnt/zhaangaso VII Cnj Pos Neu 0SgSubj
+	""zhaangaso-diba'igane"" VII Cnj Pos Neu 0PlSubj
+	""diba'igane"" PVQnt/zhaangaso VII Cnj Pos Neu 0PlSubj
+""<ji-madwesidood>""
+	""madwesidoon"" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""madwesidoon"" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""madwesidoon"" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	""madwesidoon"" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<'iw>""
+	""'iw"" PRONDem NI Sg
+""<godotaagan>""
+	""godotaagan"" NI Sg
+""<.>""
+","""<mii>""
+	""mii"" ADVPred
+""<'iw>""
+
+""<zhaangaso-diba'iganeg>""
+	""zhaangaso-diba'igane"" VII Cnj Pos Neu 0SgSubj
+	""diba'igane"" PVQnt/zhaangaso VII Cnj Pos Neu 0SgSubj
+	""zhaangaso-diba'igane"" VII Cnj Pos Neu 0PlSubj
+	""diba'igane"" PVQnt/zhaangaso VII Cnj Pos Neu 0PlSubj
+""<ji-madwesidood>""
+	""madwesidoon"" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""madwesidoon"" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	""madwesidoon"" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	""madwesidoon"" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+""<'iw>""
+
+""<godotaagan>""
+	""godotaagan"" NI Sg
+""<.>""
+",
+Aabitooshkinatoon iwe asabiiwazh.,Fill that burlap sack halfway.,"""<aabitooshkinatoon>""
+	""aabitooshkinatoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""aabitooshkinatoon"" VTI Imp Sim 2SgSubj 0PlObj","""<aabitooshkinatoon>""
+	""aabitooshkinatoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""aabitooshkinatoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<iwe>""
+	""iwe"" PRONDem NI Sg
+""<asabiiwazh>""
+	""asabiiwazh"" NI Sg
+""<.>""
+","""<aabitooshkinatoon>""
+	""aabitooshkinatoon"" VTI Imp Sim 2SgSubj 0SgObj
+	""aabitooshkinatoon"" VTI Imp Sim 2SgSubj 0PlObj
+""<iwe>""
+
+""<asabiiwazh>""
+	""asabiiwazh"" NI Sg
+""<.>""
+",
+Ogii-agwaawen iwe maawandoogwaason gaa-kiizhiikang.,She put the quilt she finished up on display.,"""<maawandoogwaason>""
+	""maawandoogwaaso"" VAI Imp Sim 2SgSubj
+	""maawandoogwaason"" NI Sg","""<ogii-agwaawen>""
+
+""<iwe>""
+	""iwe"" PRONDem NI Sg
+""<maawandoogwaason>""
+	""maawandoogwaaso"" VAI Imp Sim 2SgSubj
+	""maawandoogwaason"" NI Sg
+""<gaa-kiizhiikang>""
+
+""<.>""
+","""<ogii-agwaawen>""
+
+""<iwe>""
+
+""<maawandoogwaason>""
+	""maawandoogwaaso"" VAI Imp Sim 2SgSubj
+	""maawandoogwaason"" NI Sg
+""<gaa-kiizhiikang>""
+
+""<.>""
+",
+Gidaana-wii-kanoonin miinawaa. Gaawiin anokiimagasinoon ningiigidoo-biiwaabikoons. Ganabaj gii-kidiskaabiiginigaade.,I was going to call you again. My phone isn't working. I think it's disconnected.,"""<anokiimagasinoon>""
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0PlSubj
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0SgSubj","""<gidaana-wii-kanoonin>""
+	""ganoozh"" PVTense/aana PVTense/wii VTA Ind Pos Neu 1SgSubj 2SgObj
+""<miinawaa>""
+	""miinawaa"" ADVConj
+""<.>""
+
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<anokiimagasinoon>""
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0PlSubj
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0SgSubj
+""<ningiigidoo-biiwaabikoons>""
+	""giigidoo-biiwaabikoons"" NI Sg 1SgPoss
+""<.>""
+
+""<ganabaj>""
+	""ganabaj"" ADVMan
+""<gii-kidiskaabiiginigaade>""
+	""gidiskaabiiginigaade"" PVTense/gii VII Ind Pos Neu 0SgSubj
+""<.>""
+","""<gidaana-wii-kanoonin>""
+	""PVTense/wii"" PVTense/aana ganoozh VTA Ind Pos Neu 1SgSubj 2SgObj
+""<miinawaa>""
+	""miinawaa"" ADVConj
+""<.>""
+
+""<gaawiin>""
+	""gaawiin"" ADVNeg
+""<anokiimagasinoon>""
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0PlSubj
+	""anokii"" VAI Der/magad VII Ind Neg Neu 0SgSubj
+""<ningiigidoo-biiwaabikoons>""
+	""giigidoo-biiwaabikoons"" NI Sg 1SgPoss
+""<.>""
+
+""<ganabaj>""
+	""ganabaj"" ADVMan
+""<gii-kidiskaabiiginigaade>""
+	""gidiskaabiiginigaade"" PVTense/gii VII Ind Pos Neu 0SgSubj
+""<.>""
+",

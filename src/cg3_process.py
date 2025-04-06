@@ -89,7 +89,7 @@ def objiwe_sentence_to_cg3_format(ojibwe_sentence:str, fst:Fst) -> str:
     """Convert an Ojibwe sentence to cg3 input format """
     output = "" 
     tokens = tokenize(ojibwe_sentence=ojibwe_sentence)
-    print("Tokens =", tokens)
+    # print("Tokens =", tokens)
     sentence_fst_outputs = fst_parse_sentence(input_words=tokens, fst_parser=fst)
     output = "\n".join([fst_output_to_cg3_format(fst_item=item)
                         for item in sentence_fst_outputs

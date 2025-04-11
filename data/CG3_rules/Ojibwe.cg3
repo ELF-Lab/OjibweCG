@@ -22,6 +22,7 @@ LIST ProxPl = ProxPl ;
 LIST ObvSg = ObvSg ;
 LIST ObvPl = ObvPl ;
 SET NA_NAD = (NA) OR (NAD) ;
+SET NI_NID = (NI) OR (NID) ; 
 
 SECTION
 # If there is a Singular Proximate Noun to the left of verb, 
@@ -50,14 +51,18 @@ SELECT:vta_rule_7 (VTA 3SgProxObj) IF ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (
 SELECT:vta_rule_8 (VTA 3PlProxObj) IF ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
 
 # VTI verbs
-SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
+# SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
+SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
 
-SELECT:vti_rule_2 (VTI 0SgObj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
+# SELECT:vti_rule_2 (VTI 0SgObj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
+SELECT:vti_rule_2 (VTI 0SgObj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
 
 # this rule is uncertain to solve?
-SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* (NID Pl)) OR (1* (NID Pl)));
+# SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* (NID Pl)) OR (1* (NID Pl)));
+SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
 
-SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* (NID Sg)) OR (1* (NID Sg)));
+# SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* (NID Sg)) OR (1* (NID Sg)));
+SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
 
 # VAI rules
 SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (ObvPl)));
@@ -65,9 +70,20 @@ SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (O
 SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg)));
 
 # VAIO rules
-# placeholder
+# Select 0-Plural Object, if there's a NI Pl noun around
+# SELECT:vaio_rule_1 (VAIO 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
+SELECT:vaio_rule_1 (VAIO 0PlObj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
+
+# Select 0-Singular Object, if there's a NI Sg noun around
+# SELECT:vaio_rule_2 (VAIO 0SgObj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
+SELECT:vaio_rule_2 (VAIO 0SgObj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
+
+# Remove VAIO tag if no NI/NID noun nearby
+REMOVE:vaio_rule_3 (VAIO) IF (NOT (-1* NI_NID) OR (1* NI_NID)) ;
 
 # VII rules
-SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
+# SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
+SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
 
-SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
+# SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
+SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));

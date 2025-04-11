@@ -25,6 +25,9 @@ SET NA_NAD = (NA) OR (NAD) ;
 SET NI_NID = (NI) OR (NID) ; 
 
 SECTION
+
+### Verbs - Rules to handle ambiguity of verbs ###
+## VTA rules
 # If there is a Singular Proximate Noun to the left of verb, 
 # the verb should has Singular Prox Subject tag
 SELECT:vta_rule_1 (VTA 3SgProxSubj) IF ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg))) ;
@@ -50,7 +53,7 @@ SELECT:vta_rule_7 (VTA 3SgProxObj) IF ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (
 
 SELECT:vta_rule_8 (VTA 3PlProxObj) IF ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
 
-# VTI verbs
+## VTI verbs
 # SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
 SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
 
@@ -64,12 +67,12 @@ SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl))
 # SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* (NID Sg)) OR (1* (NID Sg)));
 SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
 
-# VAI rules
+## VAI rules
 SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (ObvPl)));
 
 SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg)));
 
-# VAIO rules
+## VAIO rules
 # Select 0-Plural Object, if there's a NI Pl noun around
 # SELECT:vaio_rule_1 (VAIO 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
 SELECT:vaio_rule_1 (VAIO 0PlObj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
@@ -81,9 +84,56 @@ SELECT:vaio_rule_2 (VAIO 0SgObj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
 # Remove VAIO tag if no NI/NID noun nearby
 REMOVE:vaio_rule_3 (VAIO) IF (NOT (-1* NI_NID) OR (1* NI_NID)) ;
 
-# VII rules
+## VII rules
 # SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
 SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
 
 # SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
 SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
+
+### Nouns - Rules to handle ambiguity of verbs ###
+## Nouns related to VTA
+SELECT:noun_vta_rule_1 NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
+
+SELECT:noun_vta_rule_2 NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
+
+SELECT:noun_vta_rule_3 NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
+
+SELECT:noun_vta_rule_4 NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
+
+# If there is a Singular Obviative Noun to the left of verb, 
+# the verb should has Singular Obv Object tag
+SELECT:noun_vta_rule_5 NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
+
+SELECT:noun_vta_rule_6 NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
+
+SELECT:noun_vta_rule_7 NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
+
+SELECT:noun_vta_rule_8 NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
+
+## Nouns related to VTI
+# SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
+SELECT:noun_vti_rule_1 NI_NID + (Pl) IF ((-1* (VTI 0PlObj)) OR (1* (VTI 0PlObj)));
+
+SELECT:noun_vti_rule_2 NI_NID + (Sg) IF ((-1* (VTI 0SgObj)) OR (1* (VTI 0SgObj)));
+
+SELECT:noun_vti_rule_3 NI_NID + (Pl) IF ((-1* (VTI 3PlObvSubj)) OR (1* (VTI 3PlObvSubj)));
+
+SELECT:noun_vti_rule_4 NI_NID + (Sg) IF ((-1* (VTI 3SgObvSubj)) OR (1* (VTI 3SgObvSubj)));
+
+## Nouns related to VAI
+SELECT:noun_vai_rule_1 NA_NAD + (ObvPl) IF ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
+
+SELECT:noun_vai_rule_2 NA_NAD + (ObvSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+
+## Nouns related to VAI-O
+# Select 0-Plural Object, if there's a NI Pl noun around
+SELECT:noun_vaio_rule_1 NI_NID + (Pl) IF ((-1* (VAIO 0PlObj)) OR (1* (VAIO 0PlObj)));
+
+# Select 0-Singular Object, if there's a NI Sg noun around
+SELECT:noun_vaio_rule_2 NI_NID + (Sg) IF ((-1* (VAIO 0SgObj)) OR (1* (VAIO 0SgObj)));
+
+## Nouns related to VII
+SELECT:vii_rule_1 NI_NID + (Pl) IF ((-1* (VII 0PlSubj)) OR (1* (VII 0PlSubj)));
+
+SELECT:vii_rule_2 NI_NID + (Sg) IF ((-1* (VII 0SgSubj)) OR (1* (VII 0SgSubj)));

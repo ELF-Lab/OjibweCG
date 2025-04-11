@@ -21,6 +21,8 @@ LIST ProxSg = ProxSg ;
 LIST ProxPl = ProxPl ;
 LIST ObvSg = ObvSg ;
 LIST ObvPl = ObvPl ;
+LIST @SUBJ = @SUBJ ;
+LIST @OBJ = @OBJ ;
 SET NA_NAD = (NA) OR (NAD) ;
 SET NI_NID = (NI) OR (NID) ; 
 
@@ -72,6 +74,10 @@ SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (O
 
 SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg)));
 
+SELECT:vai_rule_3 (VAI 3PlProxSubj) IF ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
+
+SELECT:vai_rule_4 (VAI 3SgProxSubj) IF ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
+
 ## VAIO rules
 # Select 0-Plural Object, if there's a NI Pl noun around
 # SELECT:vaio_rule_1 (VAIO 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
@@ -90,6 +96,11 @@ SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
 
 # SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
 SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
+
+SELECT:vii_rule_3 (VII 0PlObvSubj) IF ((-1* NI_NID + (ObvPl)) OR (1* NI_NID + (ObvPl)));
+
+SELECT:vii_rule_4 (VII 0SgObvSubj) IF ((-1* NI_NID + (ObvSg)) OR (1* NI_NID + (ObvSg)));
+
 
 ### Nouns - Rules to handle ambiguity of verbs ###
 ## Nouns related to VTA
@@ -137,3 +148,27 @@ SELECT:noun_vaio_rule_2 NI_NID + (Sg) IF ((-1* (VAIO 0SgObj)) OR (1* (VAIO 0SgOb
 SELECT:vii_rule_1 NI_NID + (Pl) IF ((-1* (VII 0PlSubj)) OR (1* (VII 0PlSubj)));
 
 SELECT:vii_rule_2 NI_NID + (Sg) IF ((-1* (VII 0SgSubj)) OR (1* (VII 0SgSubj)));
+
+
+### Nouns - Rules to assign Subject / Object to Nouns ###
+## Nouns related to VTA
+# add tag F, on (TARGET) words have tag A, if next word (1) has tag X
+# ADD:rule6 @SET_F TARGET SET_A IF (1 SET_X) ;
+
+# ADD:noun_obj_vta_rule_7 @OBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
+
+ADD:noun_subj_vta_rule_1 @SUBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
+
+ADD:noun_subj_vta_rule_2 @SUBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
+
+ADD:noun_subj_vta_rule_3 @SUBJ TARGET NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
+
+ADD:noun_subj_vta_rule_4 @SUBJ TARGET NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
+
+ADD:noun_obj_vta_rule_5 @OBJ TARGET NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
+
+ADD:noun_obj_vta_rule_6 @OBJ TARGET NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
+
+ADD:noun_obj_vta_rule_7 @OBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
+
+ADD:noun_obj_vta_rule_8 @OBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));

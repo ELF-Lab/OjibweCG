@@ -105,7 +105,7 @@ def is_cg3_available() -> bool:
 
 def cg3_process_text(input_text:str, cg3_grammar_filepath:str) -> str:
     """Call CG3 parser to process input text, using a custom cg3 rules file """
-    command = ["cg3", "-g", cg3_grammar_filepath]  
+    command = ["cg3", "--grammar", cg3_grammar_filepath]  
     process = subprocess.Popen(command, 
                                stdin=subprocess.PIPE,
                                stdout=subprocess.PIPE,

@@ -70,9 +70,10 @@ SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl))
 SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
 
 ## VAI rules
-SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (ObvPl)));
+## Obviative Singular / Plural is inherently ambiguous -> will not disambiguate them
+# SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (ObvPl)));
 
-SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg)));
+# SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg)));
 
 SELECT:vai_rule_3 (VAI 3PlProxSubj) IF ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
 
@@ -133,9 +134,10 @@ SELECT:noun_vti_rule_3 NI_NID + (Pl) IF ((-1* (VTI 3PlObvSubj)) OR (1* (VTI 3PlO
 SELECT:noun_vti_rule_4 NI_NID + (Sg) IF ((-1* (VTI 3SgObvSubj)) OR (1* (VTI 3SgObvSubj)));
 
 ## Nouns related to VAI
-SELECT:noun_vai_rule_1 NA_NAD + (ObvPl) IF ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
+## Obviative Singular / Plural is inherently ambiguous -> will not disambiguate them
+# SELECT:noun_vai_rule_1 NA_NAD + (ObvPl) IF ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
 
-SELECT:noun_vai_rule_2 NA_NAD + (ObvSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+# SELECT:noun_vai_rule_2 NA_NAD + (ObvSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
 
 ## Nouns related to VAI-O
 # Select 0-Plural Object, if there's a NI Pl noun around
@@ -172,3 +174,36 @@ ADD:noun_obj_vta_rule_6 @OBJ TARGET NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvObj)) O
 ADD:noun_obj_vta_rule_7 @OBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
 
 ADD:noun_obj_vta_rule_8 @OBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
+
+### Dependency Nouns - Rules to assign Verb - Noun dependency (parent - child) ###
+## VAT - NOUN dependency
+SETPARENT:vta_dep_rule_7 (NA ProxSg) TO ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj))) ;
+
+SETPARENT:vta_dep_rule_1 NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
+
+SETPARENT:vta_dep_rule_2 NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
+
+SETPARENT:vta_dep_rule_3 NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
+
+SETPARENT:vta_dep_rule_4 NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
+
+SETPARENT:vta_dep_rule_5 NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
+
+SETPARENT:vta_dep_rule_6 NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
+
+SETPARENT:vta_dep_rule_7 NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
+
+SETPARENT:vta_dep_rule_8 NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
+
+## VAI - NOUN dependency
+SETPARENT:vai_dep_rule_1 NA_NAD + (ObvPl) TO ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
+
+SETPARENT:vai_dep_rule_2 NA_NAD + (ObvSg) TO ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+
+SETPARENT:vai_dep_rule_3 (VAI 3PlProxSubj) TO ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
+
+SETPARENT:vai_dep_rule_4 (VAI 3SgProxSubj) TO ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
+
+### Dependency, Demonstrative Pronoun rules
+SETPARENT:dem_pronoun_dep_rule_1 (PRONDem NA) TO (1 NA_NAD) ; 
+SETPARENT:dem_pronoun_dep_rule_2 (PRONDem NI) TO (1 NI_NID) ; 

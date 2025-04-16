@@ -21,6 +21,11 @@ LIST ProxSg = ProxSg ;
 LIST ProxPl = ProxPl ;
 LIST ObvSg = ObvSg ;
 LIST ObvPl = ObvPl ;
+
+# LIST RELATION_VERB_NOUN = Dep_V_N ; 
+LIST Dep_Subject = Dep_Subj_V ;
+LIST Dep_Object = Dep_Obj_V ; 
+LIST Dep_Demonstrative = Dep_Dem_N ; 
 LIST @SUBJ = @SUBJ ;
 LIST @OBJ = @OBJ ;
 SET NA_NAD = (NA) OR (NAD) ;
@@ -139,6 +144,11 @@ SELECT:noun_vti_rule_4 NI_NID + (Sg) IF ((-1* (VTI 3SgObvSubj)) OR (1* (VTI 3SgO
 
 # SELECT:noun_vai_rule_2 NA_NAD + (ObvSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
 
+SELECT:noun_vai_rule_3 NA_NAD + (ProxPl) IF ((-1* (VAI 3PlProxSubj)) OR (1* (VAI 3PlProxSubj)));
+
+SELECT:noun_vai_rule_4 NA_NAD + (ProxSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgProxSubj)));
+
+
 ## Nouns related to VAI-O
 # Select 0-Plural Object, if there's a NI Pl noun around
 SELECT:noun_vaio_rule_1 NI_NID + (Pl) IF ((-1* (VAIO 0PlObj)) OR (1* (VAIO 0PlObj)));
@@ -175,35 +185,69 @@ ADD:noun_obj_vta_rule_7 @OBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj))
 
 ADD:noun_obj_vta_rule_8 @OBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
 
+## Nouns related to VAI
+ADD:noun_subj_vai_rule_1 @SUBJ TARGET NA_NAD + (ObvPl) IF ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
+
+ADD:noun_subj_vai_rule_2 @SUBJ TARGET NA_NAD + (ObvSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+
+ADD:noun_subj_vai_rule_3 @SUBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VAI 3PlProxSubj)) OR (1* (VAI 3PlProxSubj)));
+
+ADD:noun_subj_vai_rule_4 @SUBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgProxSubj)));
+
+
 ### Dependency Nouns - Rules to assign Verb - Noun dependency (parent - child) ###
 ## VAT - NOUN dependency
-SETPARENT:vta_dep_rule_7 (NA ProxSg) TO ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj))) ;
+# SETPARENT:vta_dep_rule_1 NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
 
-SETPARENT:vta_dep_rule_1 NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
+# SETPARENT:vta_dep_rule_2 NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
 
-SETPARENT:vta_dep_rule_2 NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
+# SETPARENT:vta_dep_rule_3 NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
 
-SETPARENT:vta_dep_rule_3 NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
+# SETPARENT:vta_dep_rule_4 NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
 
-SETPARENT:vta_dep_rule_4 NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
+# SETPARENT:vta_dep_rule_5 NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
 
-SETPARENT:vta_dep_rule_5 NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
+# SETPARENT:vta_dep_rule_6 NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
 
-SETPARENT:vta_dep_rule_6 NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
+# SETPARENT:vta_dep_rule_7 NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
 
-SETPARENT:vta_dep_rule_7 NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
+# SETPARENT:vta_dep_rule_8 NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
 
-SETPARENT:vta_dep_rule_8 NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
+SETRELATION:vta_dep_rule_1 Dep_Subject TARGET NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
+
+SETRELATION:vta_dep_rule_2 Dep_Subject TARGET NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
+
+SETRELATION:vta_dep_rule_3 Dep_Subject TARGET NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
+
+SETRELATION:vta_dep_rule_4 Dep_Subject TARGET NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
+
+SETRELATION:vta_dep_rule_5 Dep_Object TARGET NA_NAD + (ObvSg) TO ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
+
+SETRELATION:vta_dep_rule_6 Dep_Object TARGET NA_NAD + (ObvPl) TO ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
+
+SETRELATION:vta_dep_rule_7 Dep_Object TARGET NA_NAD + (ProxSg) TO ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
+
+SETRELATION:vta_dep_rule_8 Dep_Object TARGET NA_NAD + (ProxPl) TO ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
+
 
 ## VAI - NOUN dependency
-SETPARENT:vai_dep_rule_1 NA_NAD + (ObvPl) TO ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
+SETRELATION:vai_dep_rule_1 Dep_Subject TARGET NA_NAD + (ObvPl) TO ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
 
-SETPARENT:vai_dep_rule_2 NA_NAD + (ObvSg) TO ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+SETRELATION:vai_dep_rule_2 Dep_Subject TARGET NA_NAD + (ObvSg) TO ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
 
-SETPARENT:vai_dep_rule_3 (VAI 3PlProxSubj) TO ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
+SETRELATION:vai_dep_rule_3 Dep_Subject TARGET (VAI 3PlProxSubj) TO ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
 
-SETPARENT:vai_dep_rule_4 (VAI 3SgProxSubj) TO ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
+SETRELATION:vai_dep_rule_4 Dep_Subject TARGET (VAI 3SgProxSubj) TO ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
+
+# SETPARENT:vai_dep_rule_2 NA_NAD + (ObvSg) TO ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+
+# SETPARENT:vai_dep_rule_3 (VAI 3PlProxSubj) TO ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
+
+# SETPARENT:vai_dep_rule_4 (VAI 3SgProxSubj) TO ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
 
 ### Dependency, Demonstrative Pronoun rules
-SETPARENT:dem_pronoun_dep_rule_1 (PRONDem NA) TO (1 NA_NAD) ; 
-SETPARENT:dem_pronoun_dep_rule_2 (PRONDem NI) TO (1 NI_NID) ; 
+# SETPARENT:dem_pronoun_dep_rule_1 (PRONDem NA) TO (1 NA_NAD) ; 
+# SETPARENT:dem_pronoun_dep_rule_2 (PRONDem NI) TO (1 NI_NID) ; 
+
+SETRELATION:dem_pronoun_dep_rule_1 Dep_Demonstrative TARGET(PRONDem NA) TO (1 NA_NAD) ; 
+SETRELATION:dem_pronoun_dep_rule_2 Dep_Demonstrative TARGET(PRONDem NI) TO (1 NI_NID) ; 

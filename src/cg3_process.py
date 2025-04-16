@@ -126,10 +126,10 @@ def disambugate(sentence:str, cg3_grammar_filepath:str, fst: Fst) -> str:
     """Call FST to get readings of a word, then run the CG rules and returns the disambiguated readings"""
     input_readings = objiwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst)
     disambiguated_str = cg3_process_text(input_text=input_readings, cg3_grammar_filepath=cg3_grammar_filepath)
-    print("Before disambiguation:")
+    print("Before parsing:")
     print(input_readings)
     print("-"*20)
-    print("After disambiguation:")
+    print("After parsing:")
     print(disambiguated_str)
     
     return disambiguated_str

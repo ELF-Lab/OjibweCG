@@ -51,7 +51,7 @@ def homepage():
      .bind_value_to(page_states, 'ojibwe_sentence')
     )
 
-    ui.button('Run analysis', color='orange', on_click=lambda: process_input(page_states))
+    ui.button('Run parser', color='orange', on_click=lambda: process_input(page_states))
     
     # handles FST parsing
     ui.markdown("**Fst readings:**")

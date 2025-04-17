@@ -7,6 +7,7 @@ from fst_runtime.fst import Fst
 
 FST_BINARY_FILENAME = "../data/fst/ojibwe.att"
 CG3_GRAMMAR_FILENAME = "../data/CG3_rules/Ojibwe.cg3"
+TEXT_BLOCK_STYLE = "white-space:pre-wrap; font-family:monospace;"
 
 PUNCTUATIONS = [".", ",", "!", "?", ";", ":", ")"]
 
@@ -19,22 +20,20 @@ def initialize_core_environment() -> dict:
     return output 
 
 def process_input(page_states: dict):
-    # ui.notify(f'FST parsing {page_states["ojibwe_sentence"]}...')
     if page_states["ojibwe_sentence"][-1] not in PUNCTUATIONS:
         page_states["ojibwe_sentence"] += "."
     fst_readings = cg3.objiwe_sentence_to_cg3_format(ojibwe_sentence=page_states["ojibwe_sentence"], 
                                                      fst=core_environment["fst_parser"])
-    # disambiguated_str = cg3_process_text(input_text=fst_readings, cg3_grammar_filepath=CG3_GRAMMAR_FILENAME)
+
     page_states["fst_readings"] = fst_readings
     print(f"Fst readings = \n{page_states['fst_readings']}")
-    return fst_readings
 
-def apply_cg3_rules(page_states: dict):
-    # ui.notify(f'CG3 parsing {page_states["fst_readings"]}...')
     disambiguated_str = cg3.cg3_process_text(input_text=page_states["fst_readings"], cg3_grammar_filepath=CG3_GRAMMAR_FILENAME)
     print(f"Disambiguated readings = \n{disambiguated_str}")
     page_states["disambiguated_readings"] = disambiguated_str
-    return disambiguated_str
+
+    return page_states
+
     
 @ui.page('/')
 def homepage():
@@ -48,16 +47,14 @@ def homepage():
 
     ui.input(value="Nindayaawaa mishiimin.").bind_value_to(page_states, 'ojibwe_sentence')
 
-    ui.button('FST Analysis', color='orange', on_click=lambda: fst_readings.set_content(f"``` {process_input(page_states)} ```"))
+    ui.button('Run analysis', color='orange', on_click=lambda: process_input(page_states))
     
     # handles FST parsing
     ui.markdown("**Fst readings:**")
-    fst_readings = ui.markdown().style("white-space:pre-wrap;") # support multiple-line markdown
+    ui.label().style(TEXT_BLOCK_STYLE).bind_text_from(page_states, 'fst_readings') 
             
-    # handles CG3 parsing
-    ui.button('Apply Constraint Grammar', color='orange', on_click=lambda: disambiguated_readings.set_content(f"``` {apply_cg3_rules(page_states=page_states)} ```"))
     ui.markdown("**Disambiguated readings:**")
-    disambiguated_readings = ui.markdown().style("white-space:pre-wrap;")
+    ui.label().style(TEXT_BLOCK_STYLE).bind_text_from(page_states, 'disambiguated_readings')
 
 
 core_environment = initialize_core_environment()

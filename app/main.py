@@ -45,7 +45,11 @@ def homepage():
                    "disambiguated_readings": ""
                   }
 
-    ui.input(value="Nindayaawaa mishiimin.").bind_value_to(page_states, 'ojibwe_sentence')
+    (ui.input(value="Nindayaawaa mishiimin.")
+     .classes("w-xl")
+     .props("clearable")
+     .bind_value_to(page_states, 'ojibwe_sentence')
+    )
 
     ui.button('Run analysis', color='orange', on_click=lambda: process_input(page_states))
     

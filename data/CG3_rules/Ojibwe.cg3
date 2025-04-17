@@ -235,9 +235,9 @@ SETRELATION:vai_dep_rule_1 Dep_Subject TARGET NA_NAD + (ObvPl) TO ((-1* (VAI 3Pl
 
 SETRELATION:vai_dep_rule_2 Dep_Subject TARGET NA_NAD + (ObvSg) TO ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
 
-SETRELATION:vai_dep_rule_3 Dep_Subject TARGET (VAI 3PlProxSubj) TO ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
+SETRELATION:vai_dep_rule_3 Dep_Subject TARGET NA_NAD + (ProxPl) TO ((-1* (VAI 3PlProxSubj)) OR (1* (VAI 3PlProxSubj)));
 
-SETRELATION:vai_dep_rule_4 Dep_Subject TARGET (VAI 3SgProxSubj) TO ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
+SETRELATION:vai_dep_rule_4 Dep_Subject TARGET NA_NAD + (ProxSg) TO ((-1* (VAI 3SgProxSubj)) OR (1* (VAI 3SgProxSubj)));
 
 # SETPARENT:vai_dep_rule_2 NA_NAD + (ObvSg) TO ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
 

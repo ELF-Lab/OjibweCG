@@ -1,10 +1,5 @@
 # This is an Constraint Grammar rules file for Ojibwe language.
 
-# There is no built-in manual yet. Resources:
-# http://visl.sdu.dk/cg3.html
-# http://groups.google.com/group/constraint-grammar
-# http://kevindonnelly.org.uk/2010/05/constraint-grammar-tutorial/
-
 # Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
 
 
@@ -249,5 +244,6 @@ SETRELATION:vai_dep_rule_4 Dep_Subject TARGET NA_NAD + (ProxSg) TO ((-1* (VAI 3S
 # SETPARENT:dem_pronoun_dep_rule_1 (PRONDem NA) TO (1 NA_NAD) ; 
 # SETPARENT:dem_pronoun_dep_rule_2 (PRONDem NI) TO (1 NI_NID) ; 
 
+### Simple assumption: the Demonstrative depends on the next Noun 
 SETRELATION:dem_pronoun_dep_rule_1 Dep_Demonstrative TARGET(PRONDem NA) TO (1 NA_NAD) ; 
 SETRELATION:dem_pronoun_dep_rule_2 Dep_Demonstrative TARGET(PRONDem NI) TO (1 NI_NID) ; 

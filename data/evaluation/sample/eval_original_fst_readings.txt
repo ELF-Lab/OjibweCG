@@ -44,6 +44,8 @@
 "<ji-giizhiitaad>"
 	"giizhiitaa" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
 	"giizhiitaa" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
 "<debinaak>"
 	"debinaw" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
 	"debinaak" ADVMan

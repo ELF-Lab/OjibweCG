@@ -1,6 +1,9 @@
 from fst_runtime.fst import Fst
 import subprocess
 
+# Name of cg3 command 
+CG3_NAME = "vislcg3" # or cg3"
+
 # constants for tokenization
 PUNCTUTATIONS = ".,!()?$"
 PRESERVE_TOKEN = "..." # keep ... as literal as in some sentences
@@ -177,7 +180,9 @@ def fst_output_to_cg3_format(fst_item: dict[str, list]) -> str:
         reading_line_item = f"\t{fst_tags_to_cg3_reading(fst_analysis=analysis)}"
         reading_lines.append(reading_line_item)
     
-    output = f"{word_form_line}\n{'\n'.join(reading_lines)}"
+    joined_readings = '\n'.join(reading_lines)
+    output = f"{word_form_line}\n{joined_readings}"
+
     return output
     
 def objiwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst) -> str:
@@ -218,7 +223,7 @@ def is_cg3_available() -> bool:
 
     True
     """
-    command = ["cg3", "--help"]  # display cg3 help
+    command = [CG3_NAME, "--help"]  # display cg3 help
     output = subprocess.run(command, capture_output=True, text=True)
     
     return output.returncode == 0 # return code = 0 means calling cg3 successfully
@@ -239,7 +244,7 @@ def cg3_process_text(input_text: str, cg3_grammar_filepath: str) -> str:
     str
         The processed output in CG3 format.
     """
-    command = ["cg3", "--grammar", cg3_grammar_filepath]  
+    command = [CG3_NAME, "--grammar", cg3_grammar_filepath]  
     process = subprocess.Popen(command, 
                                stdin=subprocess.PIPE,
                                stdout=subprocess.PIPE,

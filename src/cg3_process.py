@@ -244,7 +244,7 @@ def cg3_process_text(input_text: str, cg3_grammar_filepath: str) -> str:
     str
         The processed output in CG3 format.
     """
-    command = [CG3_NAME, "--grammar", cg3_grammar_filepath]  
+    command = [CG3_NAME, "--grammar", cg3_grammar_filepath] 
     process = subprocess.Popen(command, 
                                stdin=subprocess.PIPE,
                                stdout=subprocess.PIPE,
@@ -261,7 +261,7 @@ def cg3_process_text(input_text: str, cg3_grammar_filepath: str) -> str:
         print("Error:", e)
         return "" 
     
-def disambugate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False) -> str:
+def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False) -> str:
     """
     Disambiguate a sentence using FST readings and CG3 rules.
 

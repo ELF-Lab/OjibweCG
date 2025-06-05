@@ -185,7 +185,7 @@ def fst_output_to_cg3_format(fst_item: dict[str, list]) -> str:
 
     return output
     
-def objiwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst) -> str:
+def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst) -> str:
     """
     Convert an Ojibwe sentence to CG3 (Constraint Grammar 3) format.
 
@@ -210,8 +210,6 @@ def objiwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst) -> str:
                         ])
     return output
 
-def is_cg3_available() -> bool: 
-    """ Check if CG3 is installed in the system"""
 def is_cg3_available() -> bool:
     """
     Check if CG3 (Constraint Grammar 3) is installed in the system.
@@ -281,7 +279,7 @@ def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bo
     str
         The disambiguated readings of the sentence.
     """
-    input_readings = objiwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst)
+    input_readings = ojibwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst)
     disambiguated_str = cg3_process_text(input_text=input_readings, cg3_grammar_filepath=cg3_grammar_filepath)
     if verbose:
         print("Before parsing:")

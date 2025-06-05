@@ -23,7 +23,7 @@ def process_input(page_states: dict):
     """Run FST parser and CG3 parser on Ojibwe sentence"""
     if page_states["ojibwe_sentence"][-1] not in PUNCTUATIONS:
         page_states["ojibwe_sentence"] += "."
-    fst_readings = cg3.objiwe_sentence_to_cg3_format(ojibwe_sentence=page_states["ojibwe_sentence"], 
+    fst_readings = cg3.ojibwe_sentence_to_cg3_format(ojibwe_sentence=page_states["ojibwe_sentence"], 
                                                      fst=core_environment["fst_parser"])
 
     page_states["fst_readings"] = fst_readings

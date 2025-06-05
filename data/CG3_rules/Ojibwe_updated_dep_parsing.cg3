@@ -1,9 +1,7 @@
-# This is an Constraint Grammar rules file for Ojibwe language.
+# This is a Constraint Grammar rules file for the Ojibwe language.
 
-# Firstly, we need to define what tags should be considered sentence delimiters. For this example, only full stop is set as delimiter.
-
-
-DELIMITERS = "<.?!>" ;
+# Define to set as sentence delimeters
+DELIMITERS = "<.>" "<?>" "<!>" ;
 
 # We can define sets for common tag clusters
 LIST VTA = VTA ;
@@ -20,290 +18,288 @@ LIST ObvPl = ObvPl ;
 # LIST RELATION_VERB_NOUN = Dep_V_N ; 
 LIST Dep_Subject = Dep_Subj_V ;
 LIST Dep_Object = Dep_Obj_V ; 
+LIST Dep_Adv = Dep_Adv_V ;
+LIST Dep_Obl = Dep_Obl_V ;
+LIST Dep_AdvMod = Dep_AdvMod_V ;
+LIST Dep_Neg = Dep_Neg_V ;
+
 LIST Dep_Demonstrative = Dep_Dem_N ; 
-LIST Dep_Adv = Dep_Adv_V ; 
+LIST Dep_Prep = Dep_Prep_N ;
+LIST Dep_RelCl = Dep_RelCl_N;
 
 LIST @SUBJ = @SUBJ ;
 LIST @OBJ = @OBJ ;
 
 # Groups of tags to refer to
-SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIO) ;
+SET AN_ARGUMENT = (3SgProxSubj) OR (3PlProxSubj) OR (3SgProxObj) OR (3PlProxObj) ;
+SET INAN_ARGUMENT = (0SgSubj) OR (0PlSubj) OR (0SgObj) OR (0PlObj) ;
+
 SET NA_NAD = (NA) OR (NAD) ;
-SET NI_NID = (NI) OR (NID) ; 
-SET ADV = (ADVNeg) OR (ADVQnt) OR (ADVLoc) ;
+SET NI_NID = (NI) OR (NID) ;
+
+# TODO: rename
+SET SPECIAL_LOCS = ("o'omaa") OR ("omaa") OR ("i'imaa") OR ("imaa") OR ("i'iwidi") OR ("iwidi") OR ("o'owidi") OR ("owidi") ;
+
+SET NOMINAL = NA_NAD OR NI_NID ;
+SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIO) ;
+SET ADV = (ADVConj)  OR (ADVDisc) OR (ADVDub) OR (ADVGram) OR (ADVInter) OR (ADVLoc) OR (ADVMan) OR (ADVNeg) OR (ADVPred) OR (ADVQnt) OR (ADVTmp) OR (AVDDeg);
+SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR (PRONSim) OR (PRONPer) ;
+SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
+
+SET Unconditional_ADV = (ADVDisc) OR (ADVDub) OR (ADVGram) OR (ADVInter) OR (ADVLoc) OR (ADVMan) OR (ADVNeg) OR (ADVPred) OR (ADVQnt) OR (ADVTmp) OR (AVDDeg);
 
 SECTION
 
+### Blanket constraints (context independent)
+
+### Select ADV readings UNCONDITIONALLY if available
+# TODO: NOT CHECKED YET
+# haven't added all ADV types (not sure if relevant)
+SELECT:select_adv_cf TARGET Unconditional_ADV ;
+
+
+
+SECTION
+
+## DEV NOTE May 27: DELETED ALL OBV SG VS PL RULES - MAKE SURE CORRECT
+
 ### Verbs - Rules to handle ambiguity of verbs ###
-## VTA rules
-# If there is a Singular Proximate Noun to the left of verb, 
-# the verb should has Singular Prox Subject tag
-SELECT:vta_rule_1 (VTA 3SgProxSubj) IF ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg))) ;
 
-# If there is a Plural Proximate Noun to the left of verb, 
-# the verb should has Plural Prox Subject tag
-SELECT:vta_rule_2 (VTA 3PlProxSubj) IF ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl))) ;
+## ANIMATE SUBJECT (VTA, VTI, VAI, VAIO)
+## (Obviative forms not disambiguated - inherently ambiguous)
 
-SELECT:vta_rule_3 (VTA 3SgObvSubj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg))) ;
+SELECT:animate_subj_rule_1 (3SgProxSubj) IF ((-1* NA_NAD + (ProxSg) BARRIER NOMINAL) OR (1* NA_NAD + (ProxSg) BARRIER NOMINAL)) ;
 
-SELECT:vta_rule_4 (VTA 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (ObvPl))) ;
+SELECT:animate_subj_rule_2 (3PlProxSubj) IF ((-1* NA_NAD + (ProxPl) BARRIER NOMINAL) OR (1* NA_NAD + (ProxPl) BARRIER NOMINAL)) ;
 
-# If there is a Singular Obviative Noun to the left of verb, 
-# the verb should has Singular Obv Object tag
-SELECT:vta_rule_5 (VTA 3SgObvObj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg))) ;
 
-# If there is a Singular Obviative Noun to the left of verb, 
-# the verb should has Singular Obviative Object tag
-SELECT:vta_rule_6 (VTA 3PlObvObj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (ObvPl))) ;
+## ANIMATE OBJECT (VTA)
+## (Obviative forms not disambiguated - inherently ambiguous)
 
-# Select 3SgProx Object if there's a Animate Proximate Singular around
-SELECT:vta_rule_7 (VTA 3SgProxObj) IF ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
+SELECT:animate_obj_rule_1 (3SgProxObj) IF ((-1* NA_NAD + (ProxSg) BARRIER NOMINAL) OR (1* NA_NAD + (ProxSg) BARRIER NOMINAL));
 
-SELECT:vta_rule_8 (VTA 3PlProxObj) IF ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
+SELECT:animate_obj_rule_2 (3PlProxObj) IF ((-1* NA_NAD + (ProxPl) BARRIER NOMINAL) OR (1* NA_NAD + (ProxPl) BARRIER NOMINAL));
 
-## VTI verbs
-# SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
-SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
+## INANIMATE SUBJECT (VII)
 
-# SELECT:vti_rule_2 (VTI 0SgObj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
-SELECT:vti_rule_2 (VTI 0SgObj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
+SELECT:inanimate_subj_rule_1 (0SgSubj) IF ((-1* NI_NID + (Sg) BARRIER NOMINAL) OR (1* NI_NID + (Sg) BARRIER NOMINAL));
 
-# this rule is uncertain to solve?
-# SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* (NID Pl)) OR (1* (NID Pl)));
-SELECT:vti_rule_3 (VTI 3PlObvSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
+SELECT:inanimate_subj_rule_2 (0PlSubj) IF ((-1* NI_NID + (Pl) BARRIER NOMINAL) OR (1* NI_NID + (Pl) BARRIER NOMINAL));
 
-# SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* (NID Sg)) OR (1* (NID Sg)));
-SELECT:vti_rule_4 (VTI 3SgObvSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
+## INANIMATE OBJECT (VTI, VAIO)
 
-## VAI rules
-## Obviative Singular / Plural is inherently ambiguous -> will not disambiguate them
-# SELECT:vai_rule_1 (VAI 3PlObvSubj) IF ((-1* NA_NAD + (ObvPl)) OR (1* NA_NAD + (ObvPl)));
+SELECT:inanimate_obj_rule_1 (0SgObj) IF ((-1* NI_NID + (Sg) BARRIER NOMINAL) OR (1* NI_NID + (Sg) BARRIER NOMINAL));
 
-# SELECT:vai_rule_2 (VAI 3SgObvSubj) IF ((-1* NA_NAD + (ObvSg)) OR (1* NA_NAD + (ObvSg)));
+SELECT:inanimate_obj_rule_2 (0PlObj) IF ((-1* NI_NID + (Pl) BARRIER NOMINAL) OR (1* NI_NID + (Pl) BARRIER NOMINAL));
 
-SELECT:vai_rule_3 (VAI 3PlProxSubj) IF ((-1* NA_NAD + (ProxPl)) OR (1* NA_NAD + (ProxPl)));
 
-SELECT:vai_rule_4 (VAI 3SgProxSubj) IF ((-1* NA_NAD + (ProxSg)) OR (1* NA_NAD + (ProxSg)));
 
-## VAIO rules
-# Select 0-Plural Object, if there's a NI Pl noun around
-# SELECT:vaio_rule_1 (VAIO 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
-SELECT:vaio_rule_1 (VAIO 0PlObj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
-
-# Select 0-Singular Object, if there's a NI Sg noun around
-# SELECT:vaio_rule_2 (VAIO 0SgObj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
-SELECT:vaio_rule_2 (VAIO 0SgObj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
-
+## TODO: where to put this??
 # Remove VAIO tag if no NI/NID noun nearby
-REMOVE:vaio_rule_3 (VAIO) IF (NOT (-1* NI_NID) OR (1* NI_NID)) ;
+REMOVE:vaio_rule_1 (VAIO) IF (NOT (-1* NI_NID) OR (1* NI_NID)) ;
 
-## VII rules
-# SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
-SELECT:vii_rule_1 (VII 0PlSubj) IF ((-1* NI_NID + (Pl)) OR (1* NI_NID + (Pl)));
 
-# SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* (NI Sg)) OR (1* (NI Sg)));
-SELECT:vii_rule_2 (VII 0SgSubj) IF ((-1* NI_NID + (Sg)) OR (1* NI_NID + (Sg)));
 
-SELECT:vii_rule_3 (VII 0PlObvSubj) IF ((-1* NI_NID + (ObvPl)) OR (1* NI_NID + (ObvPl)));
+### Nouns - Rules to handle ambiguity of nouns ###
 
-SELECT:vii_rule_4 (VII 0SgObvSubj) IF ((-1* NI_NID + (ObvSg)) OR (1* NI_NID + (ObvSg)));
+## NUMBER DISAMBIGUATION
 
+## ANIMATE NOUNS
 
-### Nouns - Rules to handle ambiguity of verbs ###
-## Nouns related to VTA
-SELECT:noun_vta_rule_1 NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
+SELECT:noun_number_rule_1 NA_NAD + (ProxSg) IF ((-1* (3SgProxSubj) OR (3SgProxObj) BARRIER VERB) OR (1* (3SgProxSubj) OR (3SgProxObj) BARRIER VERB)) ;
 
-SELECT:noun_vta_rule_2 NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
+SELECT:noun_number_rule_2 NA_NAD + (ProxPl) IF ((-1* (3PlProxSubj) OR (3PlProxObj) BARRIER VERB) OR (1* (3PlProxSubj) OR (3PlProxObj) BARRIER VERB)) ;
 
-SELECT:noun_vta_rule_3 NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
 
-SELECT:noun_vta_rule_4 NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
+## INANIMATE NOUNS
 
-# If there is a Singular Obviative Noun to the left of verb, 
-# the verb should has Singular Obv Object tag
-SELECT:noun_vta_rule_5 NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
+SELECT:noun_number_rule_3 NI_NID + (Sg) IF ((-1* (0SgSubj) OR (0SgObj) BARRIER VERB) OR (1* (0SgSubj) OR (0SgObj) BARRIER VERB)) ;
 
-SELECT:noun_vta_rule_6 NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
+SELECT:noun_number_rule_4 NI_NID + (Pl) IF ((-1* (0PlSubj) OR (0PlObj) BARRIER VERB) OR (1* (0PlSubj) OR (0PlObj) BARRIER VERB)) ;
 
-SELECT:noun_vta_rule_7 NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
+## ANIMACY DISAMBIGUATION
 
-SELECT:noun_vta_rule_8 NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
+SELECT:noun_animacy_rule_1 NA_NAD IF ((-1* AN_ARGUMENT BARRIER VERB) OR (1* AN_ARGUMENT BARRIER VERB)) (NOT -1* INAN_ARGUMENT BARRIER VERB) (NOT 1* INAN_ARGUMENT BARRIER VERB) ;
 
-## Nouns related to VTI
-# SELECT:vti_rule_1 (VTI 0PlObj) IF ((-1* (NI Pl)) OR (1* (NI Pl)));
-SELECT:noun_vti_rule_1 NI_NID + (Pl) IF ((-1* (VTI 0PlObj)) OR (1* (VTI 0PlObj)));
+SELECT:noun_animacy_rule_2 NI_NID IF ((-1* INAN_ARGUMENT BARRIER VERB) OR (1* INAN_ARGUMENT BARRIER VERB)) (NOT -1* AN_ARGUMENT BARRIER VERB) (NOT 1* AN_ARGUMENT BARRIER VERB) ;
 
-SELECT:noun_vti_rule_2 NI_NID + (Sg) IF ((-1* (VTI 0SgObj)) OR (1* (VTI 0SgObj)));
+### Argument Dependency - Rules to assign Verb - Noun/Pron dependency ###
+### Current simplification: If noun can depend on more than 1 verb, set relation for the left-side verb
 
-SELECT:noun_vti_rule_3 NI_NID + (Pl) IF ((-1* (VTI 3PlObvSubj)) OR (1* (VTI 3PlObvSubj)));
+## LEFT SIDE DEPENDENCIES
 
-SELECT:noun_vti_rule_4 NI_NID + (Sg) IF ((-1* (VTI 3SgObvSubj)) OR (1* (VTI 3SgObvSubj)));
+## ANIMATE 3RD PERSON SUBJECT DEPENDENCY
+SETRELATION:animate_subj_dep_1_L Dep_Subject TARGET (ProxSg) TO (-1* (3SgProxSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_2_L Dep_Subject TARGET (ProxPl) TO (-1* (3PlProxSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_3_L Dep_Subject TARGET (ObvSg) TO (-1* (3SgObvSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_4_L Dep_Subject TARGET (ObvPl) TO (-1* (3PlObvSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_5_L Dep_Subject TARGET (3Sg) TO (-1* (3SgProxSubj) OR (3SgObvSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_6_L Dep_Subject TARGET (3Pl) TO (-1* (3PlProxSubj) OR (3PlObvSubj) BARRIER VERB);
 
-## Nouns related to VAI
-## Obviative Singular / Plural is inherently ambiguous -> will not disambiguate them
-# SELECT:noun_vai_rule_1 NA_NAD + (ObvPl) IF ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
 
-# SELECT:noun_vai_rule_2 NA_NAD + (ObvSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+## ANIMATE NON-3RD PERSON SUBJECT DEPENDENCY
+SETRELATION:animate_subj_dep_7_L Dep_Subject TARGET (1Sg) TO (-1* (1SgSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_8_L Dep_Subject TARGET (2Sg) TO (-1* (2SgSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_9_L Dep_Subject TARGET (2Pl) TO (-1* (2PlSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_10_L Dep_Subject TARGET (Excl) TO (-1* (ExclSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_11_L Dep_Subject TARGET (Incl) TO (-1* (InclSubj) BARRIER VERB);
 
-SELECT:noun_vai_rule_3 NA_NAD + (ProxPl) IF ((-1* (VAI 3PlProxSubj)) OR (1* (VAI 3PlProxSubj)));
 
-SELECT:noun_vai_rule_4 NA_NAD + (ProxSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgProxSubj)));
+## ANIMATE 3RD PERSON OBJECT DEPENDENCY
+SETRELATION:animate_obj_dep_1_L Dep_Object TARGET (ProxSg) TO (-1* (3SgProxObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_2_L Dep_Object TARGET (ProxPl) TO (-1* (3PlProxObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_3_L Dep_Object TARGET (ObvSg) TO (-1* (3SgObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_4_L Dep_Object TARGET (ObvPl) TO (-1* (3PlObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_5_L Dep_Object TARGET (3Sg) TO (-1* (3SgProxObj) OR (VTA 3SgObvObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_6_L Dep_Object TARGET (3Pl) TO (-1* (3PlProxObj) OR (3PlObvObj) BARRIER VERB);
 
 
-## Nouns related to VAI-O
-# Select 0-Plural Object, if there's a NI Pl noun around
-SELECT:noun_vaio_rule_1 NI_NID + (Pl) IF ((-1* (VAIO 0PlObj)) OR (1* (VAIO 0PlObj)));
+## ANIMATE NON-3RD PERSON OBJECT DEPENDENCY
+SETRELATION:animate_obj_dep_7_L Dep_Object TARGET (1Sg) TO (-1* (1SgObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_8_L Dep_Object TARGET (2Sg) TO (-1* (2SgObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_9_L Dep_Object TARGET (2Pl) TO (-1* (2PlObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_10_L Dep_Object TARGET (Excl) TO (-1* (ExclObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_11_L Dep_Object TARGET (Incl) TO (-1* (InclObj) BARRIER VERB);
 
-# Select 0-Singular Object, if there's a NI Sg noun around
-SELECT:noun_vaio_rule_2 NI_NID + (Sg) IF ((-1* (VAIO 0SgObj)) OR (1* (VAIO 0SgObj)));
 
-## Nouns related to VII
-SELECT:vii_rule_1 NI_NID + (Pl) IF ((-1* (VII 0PlSubj)) OR (1* (VII 0PlSubj)));
+## INANIMATE SUBJECT DEPENDECY
+SETRELATION:inanimate_subj_dep_1_L Dep_Subject TARGET (Sg) TO (-1* (0SgSubj) BARRIER VERB);
+SETRELATION:inanimate_subj_dep_2_L Dep_Subject TARGET (Pl) TO (-1* (0PlSubj) BARRIER VERB);
 
-SELECT:vii_rule_2 NI_NID + (Sg) IF ((-1* (VII 0SgSubj)) OR (1* (VII 0SgSubj)));
 
+## INANIMATE OBJECT DEPENDECY
+SETRELATION:inanimate_subj_dep_1_L Dep_Object TARGET (Sg) TO (-1* (0SgObj) BARRIER VERB) ;
+SETRELATION:inanimate_obj_dep_2_L Dep_Object TARGET (Pl) TO (-1* (0PlObj) BARRIER VERB) ;
 
-### Nouns - Rules to assign Subject / Object to Nouns ###
-## Nouns related to VTA
-# add tag F, on (TARGET) words have tag A, if next word (1) has tag X
-# ADD:rule6 @SET_F TARGET SET_A IF (1 SET_X) ;
 
-# ADD:noun_obj_vta_rule_7 @OBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
 
-# ADD:noun_subj_vta_rule_1 @SUBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxSubj)) OR (1* (VTA 3SgProxSubj))) ;
+## RIGHT SIDE DEPENDENCIES
 
-# ADD:noun_subj_vta_rule_2 @SUBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxSubj) ) OR (1* (VTA 3PlProxSubj) )) ;
+## ANIMATE 3RD PERSON SUBJECT DEPENDENCY
+SETRELATION:animate_subj_dep_1_R Dep_Subject TARGET (ProxSg) IF (NONE r:* (*)) TO (1* (3SgProxSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_2_R Dep_Subject TARGET (ProxPl) IF (NONE r:* (*)) TO (1* (3PlProxSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_3_R Dep_Subject TARGET (ObvSg) IF (NONE r:* (*)) TO (1* (3SgObvSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_4_R Dep_Subject TARGET (ObvPl) IF (NONE r:* (*)) TO (1* (3PlObvSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_5_R Dep_Subject TARGET (3Sg) IF (NONE r:* (*)) TO (1* (3SgProxSubj) OR (3SgObvSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_6_R Dep_Subject TARGET (3Pl) IF (NONE r:* (*)) TO (1* (3PlProxSubj) OR (3PlObvSubj) BARRIER VERB);
 
-# ADD:noun_subj_vta_rule_3 @SUBJ TARGET NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvSubj)) OR (1* (VTA 3SgObvSubj))) ;
 
-# ADD:noun_subj_vta_rule_4 @SUBJ TARGET NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvSubj) ) OR (1* (VTA 3PlObvSubj))) ;
+## ANIMATE NON-3RD PERSON SUBJECT DEPENDENCY
+SETRELATION:animate_subj_dep_7_R Dep_Subject TARGET (1Sg) IF (NONE r:* (*)) TO (1* (1SgSubj) BARRIER VERB) ;
+SETRELATION:animate_subj_dep_8_R Dep_Subject TARGET (2Sg) IF (NONE r:* (*)) TO (1* (2SgSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_9_R Dep_Subject TARGET (2Pl) IF (NONE r:* (*)) TO (1* (2PlSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_10_R Dep_Subject TARGET (Excl) IF (NONE r:* (*)) TO (1* (ExclSubj) BARRIER VERB);
+SETRELATION:animate_subj_dep_11_R Dep_Subject TARGET (Incl) IF (NONE r:* (*)) TO (1* (InclSubj) BARRIER VERB);
 
-# ADD:noun_obj_vta_rule_5 @OBJ TARGET NA_NAD + (ObvSg) IF ((-1* (VTA 3SgObvObj)) OR (1* (VTA 3SgObvObj))) ;
 
-# ADD:noun_obj_vta_rule_6 @OBJ TARGET NA_NAD + (ObvPl) IF ((-1* (VTA 3PlObvObj)) OR (1* (VTA 3PlObvObj))) ;
+## ANIMATE 3RD PERSON OBJECT DEPENDENCY
+SETRELATION:animate_obj_dep_1_R Dep_Object TARGET (ProxSg) IF (NONE r:* (*)) TO (1* (3SgProxObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_2_R Dep_Object TARGET (ProxPl) IF (NONE r:* (*)) TO (1* (3PlProxObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_3_R Dep_Object TARGET (ObvSg) IF (NONE r:* (*)) TO (1* (3SgObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_4_R Dep_Object TARGET (ObvPl) IF (NONE r:* (*)) TO (1* (3PlObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_5_R Dep_Object TARGET (3Sg) IF (NONE r:* (*)) TO (1* (3SgProxObj) OR (VTA 3SgObvObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_6_R Dep_Object TARGET (3Pl) IF (NONE r:* (*)) TO (1* (3PlProxObj) OR (3PlObvObj) BARRIER VERB);
 
-# ADD:noun_obj_vta_rule_7 @OBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VTA 3SgProxObj)) OR (1* (VTA 3SgProxObj)));
 
-# ADD:noun_obj_vta_rule_8 @OBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VTA 3PlProxObj)) OR (1* (VTA 3PlProxObj)));
+## ANIMATE NON-3RD PERSON OBJECT DEPENDENCY
+SETRELATION:animate_obj_dep_7_R Dep_Object TARGET (1Sg) IF (NONE r:* (*)) TO (1* (1SgObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_8_R Dep_Object TARGET (2Sg) IF (NONE r:* (*)) TO (1* (2SgObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_9_R Dep_Object TARGET (2Pl) IF (NONE r:* (*)) TO (1* (2PlObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_10_R Dep_Object TARGET (Excl) IF (NONE r:* (*)) TO (1* (ExclObj) BARRIER VERB);
+SETRELATION:animate_obj_dep_11_R Dep_Object TARGET (Incl) IF (NONE r:* (*)) TO (1* (InclObj) BARRIER VERB);
 
-## Nouns related to VAI
-# ADD:noun_subj_vai_rule_1 @SUBJ TARGET NA_NAD + (ObvPl) IF ((-1* (VAI 3PlObvSubj)) OR (1* (VAI 3PlObvSubj)));
 
-# ADD:noun_subj_vai_rule_2 @SUBJ TARGET NA_NAD + (ObvSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgObvSubj)));
+## INANIMATE SUBJECT DEPENDECY
+SETRELATION:inanimate_subj_dep_1_R Dep_Subject TARGET (Sg) IF (NONE r:* (*)) TO (1* (0SgSubj) BARRIER VERB);
+SETRELATION:inanimate_subj_dep_2_R Dep_Subject TARGET (Pl) IF (NONE r:* (*)) TO (1* (0PlSubj) BARRIER VERB);
 
-# ADD:noun_subj_vai_rule_3 @SUBJ TARGET NA_NAD + (ProxPl) IF ((-1* (VAI 3PlProxSubj)) OR (1* (VAI 3PlProxSubj)));
 
-# ADD:noun_subj_vai_rule_4 @SUBJ TARGET NA_NAD + (ProxSg) IF ((-1* (VAI 3SgObvSubj)) OR (1* (VAI 3SgProxSubj)));
+## INANIMATE OBJECT DEPENDECY
+SETRELATION:inanimate_subj_dep_1_R Dep_Object TARGET (Sg) IF (NONE r:* (*)) TO (1* (0SgObj) BARRIER VERB) ;
+SETRELATION:inanimate_obj_dep_2_R Dep_Object TARGET (Pl) IF (NONE r:* (*)) TO (1* (0PlObj) BARRIER VERB) ;
 
-
-### Dependency Nouns - Rules to assign Verb - Noun dependency (parent - child) ###
-## VTA - NOUN dependency
-ADDRELATION:vta_dep_rule_1_L Dep_Subject TARGET NA_NAD + (ProxSg) TO (-1* (VTA 3SgProxSubj) BARRIER VERB) ;
-ADDRELATION:vta_dep_rule_1_R Dep_Subject TARGET NA_NAD + (ProxSg) TO (1* (VTA 3SgProxSubj) BARRIER VERB) ;
-
-
-ADDRELATION:vta_dep_rule_2_L Dep_Subject TARGET NA_NAD + (ProxPl) TO (-1* (VTA 3PlProxSubj) BARRIER VERB) ;
-ADDRELATION:vta_dep_rule_2_R Dep_Subject TARGET NA_NAD + (ProxPl) TO (1* (VTA 3PlProxSubj) BARRIER VERB) ;
-
-
-ADDRELATION:vta_dep_rule_3_L Dep_Subject TARGET NA_NAD + (ObvSg) TO (-1* (VTA 3SgObvSubj) BARRIER VERB) ;
-ADDRELATION:vta_dep_rule_3_R Dep_Subject TARGET NA_NAD + (ObvSg) TO (1* (VTA 3SgObvSubj) BARRIER VERB) ;
-
-
-ADDRELATION:vta_dep_rule_4_L Dep_Subject TARGET NA_NAD + (ObvPl) TO (-1* (VTA 3PlObvSubj) BARRIER VERB) ;
-ADDRELATION:vta_dep_rule_4_R Dep_Subject TARGET NA_NAD + (ObvPl) TO (1* (VTA 3PlObvSubj) BARRIER VERB) ;
-
-
-ADDRELATION:vta_dep_rule_5_L Dep_Object TARGET NA_NAD + (ObvSg) TO (-1* (VTA 3SgObvObj) BARRIER VERB) ;
-ADDRELATION:vta_dep_rule_5_R Dep_Object TARGET NA_NAD + (ObvSg) TO (1* (VTA 3SgObvObj) BARRIER VERB) ;
-
-
-ADDRELATION:vta_dep_rule_6_L Dep_Object TARGET NA_NAD + (ObvPl) TO (-1* (VTA 3PlObvObj) BARRIER VERB) ;
-ADDRELATION:vta_dep_rule_6_R Dep_Object TARGET NA_NAD + (ObvPl) TO (1* (VTA 3PlObvObj) BARRIER VERB) ;
-
-
-ADDRELATION:vta_dep_rule_7_L Dep_Object TARGET NA_NAD + (ProxSg) TO (-1* (VTA 3SgProxObj) BARRIER VERB);
-ADDRELATION:vta_dep_rule_7_R Dep_Object TARGET NA_NAD + (ProxSg) TO (1* (VTA 3SgProxObj) BARRIER VERB);
-
-ADDRELATION:vta_dep_rule_8_L Dep_Object TARGET NA_NAD + (ProxPl) TO (-1* (VTA 3PlProxObj) BARRIER VERB);
-ADDRELATION:vta_dep_rule_8_R Dep_Object TARGET NA_NAD + (ProxPl) TO (1* (VTA 3PlProxObj) BARRIER VERB);
-
-## VAI - NOUN dependency
-ADDRELATION:vai_dep_rule_1_L Dep_Subject TARGET NA_NAD + (ObvPl) TO (-1* (VAI 3PlObvSubj) BARRIER VERB);
-ADDRELATION:vai_dep_rule_1_R Dep_Subject TARGET NA_NAD + (ObvPl) TO (1* (VAI 3PlObvSubj) BARRIER VERB);
-
-ADDRELATION:vai_dep_rule_2_L Dep_Subject TARGET NA_NAD + (ObvSg) TO (-1* (VAI 3SgObvSubj) BARRIER VERB);
-ADDRELATION:vai_dep_rule_2_R Dep_Subject TARGET NA_NAD + (ObvSg) TO (1* (VAI 3SgObvSubj) BARRIER VERB);
-
-ADDRELATION:vai_dep_rule_3_L Dep_Subject TARGET NA_NAD + (ProxPl) TO (-1* (VAI 3PlProxSubj) BARRIER VERB);
-ADDRELATION:vai_dep_rule_3_R Dep_Subject TARGET NA_NAD + (ProxPl) TO (1* (VAI 3PlProxSubj) BARRIER VERB);
-
-ADDRELATION:vai_dep_rule_4_L Dep_Subject TARGET NA_NAD + (ProxSg) TO (-1* (VAI 3SgProxSubj) BARRIER VERB);
-ADDRELATION:vai_dep_rule_4_R Dep_Subject TARGET NA_NAD + (ProxSg) TO (1* (VAI 3SgProxSubj) BARRIER VERB);
-
-
-## VTI - NOUN dependency
-ADDRELATION:vti_dep_rule_1_L Dep_Subject TARGET NA_NAD + (ProxSg) TO (-1* (VTI 3SgProxSubj) BARRIER VERB) ;
-ADDRELATION:vti_dep_rule_1_R Dep_Subject TARGET NA_NAD + (ProxSg) TO (1* (VTI 3SgProxSubj) BARRIER VERB) ;
-
-ADDRELATION:vti_dep_rule_2_L Dep_Subject TARGET NA_NAD + (ProxPl) TO (-1* (VTI 3PlProxSubj) BARRIER VERB) ;
-ADDRELATION:vti_dep_rule_2_R Dep_Subject TARGET NA_NAD + (ProxPl) TO (1* (VTI 3PlProxSubj) BARRIER VERB) ;
-
-ADDRELATION:vti_dep_rule_3_L Dep_Subject TARGET NA_NAD + (ObvSg) TO (-1* (VTI 3SgObvSubj) BARRIER VERB) ;
-ADDRELATION:vti_dep_rule_3_R Dep_Subject TARGET NA_NAD + (ObvSg) TO (1* (VTI 3SgObvSubj) BARRIER VERB) ;
-
-ADDRELATION:vti_dep_rule_4_L Dep_Subject TARGET NA_NAD + (ObvPl) TO (-1* (VTI 3PlObvSubj) BARRIER VERB) ;
-ADDRELATION:vti_dep_rule_4_R Dep_Subject TARGET NA_NAD + (ObvPl) TO (1* (VTI 3PlObvSubj) BARRIER VERB) ;
-
-ADDRELATION:vti_dep_rule_5_L Dep_Object TARGET NI_NID + (Sg) TO (-1* (VTI 0SgObj) BARRIER VERB) ;
-ADDRELATION:vti_dep_rule_5_R Dep_Object TARGET NI_NID + (Sg) TO (1* (VTI 0SgObj) BARRIER VERB) ;
-
-ADDRELATION:vti_dep_rule_6_L Dep_Object TARGET NI_NID + (Pl) TO (-1* (VTI 0PlObj) BARRIER VERB) ;
-ADDRELATION:vti_dep_rule_6_R Dep_Object TARGET NI_NID + (Pl) TO (1* (VTI 0PlObj) BARRIER VERB) ;
-
-
-## VII - NOUN dependency
-ADDRELATION:vai_dep_rule_1_L Dep_Subject TARGET NA_NAD + (Sg) TO (-1* (VII 0SgSubj) BARRIER VERB);
-ADDRELATION:vai_dep_rule_1_R Dep_Subject TARGET NA_NAD + (Sg) TO (1* (VII 0SgSubj) BARRIER VERB);
-
-ADDRELATION:vai_dep_rule_2_L Dep_Subject TARGET NA_NAD + (Pl) TO (-1* (VII 0PlSubj) BARRIER VERB);
-ADDRELATION:vai_dep_rule_2_R Dep_Subject TARGET NA_NAD + (Pl) TO (1* (VII 0PlSubj) BARRIER VERB);
-
-## VAIO - NOUN dependency
-ADDRELATION:vaio_dep_rule_1_L Dep_Subject TARGET NA_NAD + (ObvPl) TO (-1* (VAIO 3PlObvSubj) BARRIER VERB);
-ADDRELATION:vaio_dep_rule_1_R Dep_Subject TARGET NA_NAD + (ObvPl) TO (1* (VAIO 3PlObvSubj) BARRIER VERB);
-
-ADDRELATION:vaio_dep_rule_2_L Dep_Subject TARGET NA_NAD + (ObvSg) TO (-1* (VAIO 3SgObvSubj) BARRIER VERB);
-ADDRELATION:vaio_dep_rule_2_R Dep_Subject TARGET NA_NAD + (ObvSg) TO (1* (VAIO 3SgObvSubj) BARRIER VERB);
-
-ADDRELATION:vaio_dep_rule_3_L Dep_Subject TARGET NA_NAD + (ProxPl) TO (-1* (VAIO 3PlProxSubj) BARRIER VERB);
-ADDRELATION:vaio_dep_rule_3_R Dep_Subject TARGET NA_NAD + (ProxPl) TO (1* (VAIO 3PlProxSubj) BARRIER VERB);
-
-ADDRELATION:vaio_dep_rule_4_L Dep_Subject TARGET NA_NAD + (ProxSg) TO (-1* (VAIO 3SgProxSubj) BARRIER VERB);
-ADDRELATION:vaio_dep_rule_4_R Dep_Subject TARGET NA_NAD + (ProxSg) TO (1* (VAIO 3SgProxSubj) BARRIER VERB);
-
-ADDRELATION:vaio_dep_rule_5_L Dep_Object TARGET NI_NID + (Sg) TO (-1* (VAIO 0SgObj) BARRIER VERB) ;
-ADDRELATION:vaio_dep_rule_5_R Dep_Object TARGET NI_NID + (Sg) TO (1* (VAIO 0SgObj) BARRIER VERB) ;
-
-ADDRELATION:vaio_dep_rule_6_L Dep_Object TARGET NI_NID + (Pl)  TO (-1* (VAIO 0PlObj) BARRIER VERB) ;
-ADDRELATION:vaio_dep_rule_6_R Dep_Object TARGET NI_NID + (Pl)  TO (1* (VAIO 0PlObj) BARRIER VERB) ;
 
 
 
 ### Dependency, Demonstrative Pronoun rules
-### Simple assumption: the Demonstrative depends on the next Noun if it exists
-SETRELATION:dem_pronoun_dep_rule_1 Dep_Demonstrative TARGET(PRONDem NA) TO (1 NA_NAD) ; 
-SETRELATION:dem_pronoun_dep_rule_2 Dep_Demonstrative TARGET(PRONDem NI) TO (1 NI_NID) ; 
-
 ###
 # NOT SURE IF WORKS YET
+# If there is a Noun immediately following a PRONDem, remove any added relation, and set relation to following Noun
 ###
 REMRELATION:dem_pronoun_cleanup  Dep_Subject TARGET(PRONDem NA) IF (1 NA_NAD) TO ((-1* VERB) OR (1* VERB)) ;
 REMRELATION:dem_pronoun_cleanup  Dep_Object TARGET(PRONDem NA) IF (1 NA_NAD) TO ((-1* VERB) OR (1* VERB)) ;
-REMRELATION:dem_pronoun_cleanup  Dep_Subject TARGET(PRONDem NI) IF (1 NI_NID) TO ((-1* VERB) OR (1* VERB)) ;
-REMRELATION:dem_pronoun_cleanup  Dep_Object TARGET(PRONDem NI) IF (1 NI_NID) TO ((-1* VERB) OR (1* VERB)) ;
+
+SETRELATION:dem_pronoun_dep_1 Dep_Demonstrative TARGET(PRONDem NA) TO (1 NA_NAD) ; 
+SETRELATION:dem_pronoun_dep_2 Dep_Demonstrative TARGET(PRONDem NI) TO (1 NI_NID) ; 
 
 
-### Adverb dependency rules - Skip for now
-### (Incomplete) Assumption: Adv depends on closest V to the right
-# ADDRELATION:adv_dep_rule_1 Dep_Adv TARGET ADV TO (1* VERB) ;
+### Oblique nominal argument rules
+# NEED TO BE CHECKED
+# If there is a loc noun before or after a verb, set argument relation
+SETRELATION:obl_nominal_dep_L Dep_Obl TARGET NOMINAL + (Loc) TO (-1* VERB) ;
+SETRELATION:obl_nominal_dep_R Dep_Obl TARGET NOMINAL + (Loc) IF (NONE r:* (*)) TO (1* VERB) ;
+
+
+### Locative Adv rules
+# NEED TO BE CHECKED
+# IF there is no following loc noun, set obl relationship to verb (left-first)
+SETRELATION:loc_adv_dep_L Dep_Obl TARGET (ADVLoc) TO (-1* VERB) ;
+SETRELATION:loc_adv_dep_R Dep_Obl TARGET (ADVLoc) IF (NONE r:* (*)) TO (1* VERB) ;
+
+# If there is a loc noun following a loc adv, set dependency to noun
+REMRELATION:loc_adv_cleanup_1  Dep_Obl TARGET (ADVLoc) IF (1 NOMINAL + (Loc)) TO ((-1* VERB) OR (1* VERB)) ;
+SETRELATION:loc_adv_dep_1 Dep_Prep TARGET (ADVLoc) TO (1 NOMINAL + (Loc)) ;
+
+# If there is a loc adv following a loc adv belonging to special set, set prep dependency
+REMRELATION:special_loc_cleanup_1  Dep_Obl TARGET SPECIAL_LOCS IF (1 (ADVLoc)) TO ((-1* VERB) OR (1* VERB)) ;
+SETRELATION:special_loc_dep_1 Dep_Prep TARGET SPECIAL_LOCS TO (1 (ADVLoc)) ;
+
+# If loc adv belongs to special set, set dependency to following verb if present
+REMRELATION:special_loc_cleanup_2 Dep_Obl TARGET SPECIAL_LOCS IF (1 VERB) TO ((-1* VERB) OR (1* VERB)) ;
+SETRELATION:special_loc_dep_2 Dep_Obl TARGET SPECIAL_LOCS TO (1 VERB) ;
+
+
+
+### Temporal Adv rules
+# SIMPLE VERSION - NEED TO BE CHECKED
+# Set advmod relationship to verb (left-first)
+SETRELATION:tmp_adv_dep_L Dep_AdvMod TARGET (ADVTmp) TO (-1* VERB) ;
+SETRELATION:tmp_adv_dep_R Dep_AdvMod TARGET (ADVTmp) IF (NONE r:* (*)) TO (1* VERB) ;
+
+
+
+### Manner Adv rules
+# SIMPLE VERSION - NEED TO BE CHECKED
+# Set advmod relationship to verb (left-first)
+SETRELATION:man_adv_dep_L Dep_AdvMod TARGET (ADVMan) TO (-1* VERB) ;
+SETRELATION:man_adv_dep_R Dep_AdvMod TARGET (ADVMan) IF (NONE r:* (*)) TO (1* VERB) ;
+
+
+### Degree Adv rules
+# SIMPLE VERSION - NEED TO BE CHECKED
+# Set advmod relationship to verb (left-first)
+SETRELATION:deg_adv_dep_L Dep_AdvMod TARGET (AVDDeg) TO (-1 ADV) ;
+SETRELATION:deg_adv_dep_R Dep_AdvMod TARGET (AVDDeg) IF (NONE r:* (*)) TO (1 ADV) ;
+
+### Negative Adv rules 
+# Gaawiin - s relationship to closest neg verb (right-only)
+SETRELATION:neg_adv_dep_gwn Dep_Neg TARGET ("gaawiin") TO (1* (Neg)) ;
+
+SETRELATION:neg_adv_dep_gg Dep_Neg TARGET ("gego") TO (1* (Prb)) ;
+
+
+### Relative clause rule (experimental)
+SETRELATION:relcl_dep_1 Dep_RelCl TARGET (Cnj 3SgProxSubj) TO (-1 (3SgProxPoss));
+
+
+
+
+
+### Help with post-processing (Adding tags for CoNLL-U conversion)
+ADD:Is_Noun (NOUN) TARGET NOMINAL IF (NOT 0 PRON) (NOT 0 (NOUN)) ;
+ADD:Is_Det (DET) TARGET (PRONDem) IF (1 (NOUN)) (NOT 0 (DET)) ;
+ADD:Is_Pron (PRON) TARGET PRON IF (NOT 0 (DET)) (NOT 0 (PRON)) ;
+ADD:Is_Verb (VERB) TARGET VERB (NOT 0 (VERB)) ;
+ADD:Is_Adv (ADV) TARGET ADV (NOT 0 (ADV)) ;
+ADD:Is_Part (PART) TARGET PART (NOT 0 (PART));
+ADD:Is_Intj (INTJ) TARGET (PCInterj) (NOT 0 (INTJ));

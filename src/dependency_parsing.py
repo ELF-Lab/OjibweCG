@@ -8,32 +8,38 @@ import rich
 import subprocess, shlex, sys
 
 # ──────────────────────────────────────────────────────────────────
-# 0.  CONSTANT TABLES  (only global state in the module)
+# 0.  CONSTANT TABLES
 # ──────────────────────────────────────────────────────────────────
-UPOS_MAP = {                          # minimal mapping FST tag → UD UPOS
-    "ADVNeg": "ADV", "ADVQnt": "ADV",
-    "VTA": "VERB", "VTI": "VERB", "VAI": "VERB",
-    "NA": "NOUN", "NI": "NOUN",
-    ".": "PUNCT",
-    "PRONDem": "DET",
+UNIVERSAL_UPOS = {
+    "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ",
+    "NOUN", "NUM", "PART", "PRON", "PROPN", "PUNCT",
+    "SCONJ", "SYM", "VERB", "X"
 }
-REL_MAP = {                           # CG relation fragment → UD DEPREL
+
+# CG relation -> UD DEPREL 
+REL_MAP = {                           
     "Obj":  "obj",
     "Adv":  "advmod",
     "Subj": "nsubj",
     "punct": "punct",
     "Dem": "det",
+    "RelCl": "acl:relcl",
+    "Prep": "case",
+    "Obl": "obl",
+    "discourse": "discourse",
+    "AdvMod": "advmod",
+    "Neg": "neg",
 }
 FALLBACK_REL = "dep"                  # when no mapping is known
 
 
 # ──────────────────────────────────────────────────────────────────
-# 1.  INPUT  →  TOKEN DICTS
+# 1.  INPUT  ->  TOKEN DICTS
 # ──────────────────────────────────────────────────────────────────
 def parse_cg3_block(cg3_text: str) -> List[Dict]:
     """Return a list of token dictionaries extracted from a disambiguated
-    CG-3 block that contains *surface* lines («<word>») followed by exactly
-    one *analysis* line for each surface form.
+    CG-3 block that contains surface lines («<word>») followed by exactly
+    one analysis line for each surface form.
     """
     tokens: List[Dict] = []
     current_surface: Optional[str] = None
@@ -77,14 +83,14 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
         if current_surface:
             m = re.match(r'"([^"]+)"\s+(.+)', line)
             if not m:
-                continue                      # malformed → skip
+                continue                      # malformed -> skip
             lemma, remainder = m.groups()
 
             fields  = remainder.split()
             cg_id   = head_id = None
             relkind = None
 
-            for f in fields[:]:               # iterate over a *copy*
+            for f in fields[:]:               # iterate over a copy
                 if f.startswith("ID:"):
                     cg_id = int(f.split(":")[1]); fields.remove(f)
                 elif f.startswith("R:Dep_"):
@@ -94,13 +100,19 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
                         head_id = int(head_id)
                     fields.remove(f)
 
-            upos_tag = next((t for t in fields if t in UPOS_MAP), None)
+            upos_tag = next((t for t in fields if t in UNIVERSAL_UPOS), None)
+            upos = upos_tag or "X"
+
+            # if particle or interjection, attach to root (easier to be done here)
+            if relkind == None and upos in ("INTJ", "PART"):
+                relkind = "discourse"
+
             tokens.append(dict(
                 form=current_surface,
                 lemma=lemma,
                 tags=fields,
                 xpos="|".join(fields) or "_",
-                upos=UPOS_MAP.get(upos_tag, "X"),
+                upos=upos,
                 cg_id=cg_id,
                 head_cg=head_id,
                 relkind=relkind,
@@ -113,7 +125,7 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
 
 
 # ──────────────────────────────────────────────────────────────────
-# 2.  TOKENS  →  CoNLL-U TEXT
+# 2.  TOKENS  ->  CoNLL-U TEXT
 # ──────────────────────────────────────────────────────────────────
 def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
     """Build a single-sentence CoNLL-U block (ending in a blank line)."""
@@ -146,20 +158,20 @@ def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
 
 
 # ──────────────────────────────────────────────────────────────────
-# 3.  SAVE ↻ APPEND TO A CORPUS FILE
+# 3.  SAVE and APPEND TO A CORPUS FILE
 # ──────────────────────────────────────────────────────────────────
 def append_sentence(conllu_text: str,
                     sent_id: int,
                     corpus_path: Union[str, Path] = "ojibwe_treebank.conllu"
                     ) -> Optional[int]:
     """
-    Append *conllu_text* (a single CoNLL-U sentence, incl. trailing blank line)
-    to *corpus_path*, but **only** if the same natural-language sentence is not
+    Append conllu_text (a single CoNLL-U sentence, incl. trailing blank line)
+    to corpus_path, but only if the same natural-language sentence is not
     already present.
 
     Duplicate detection uses the 1st `# text = …` line of the new block.  
-    If a match is found, print a warning and return the *existing* sent_id.  
-    On successful append, return the *new* sent_id (the one you passed in).
+    If a match is found, print a warning and return the existing sent_id.  
+    On successful append, return the new sent_id (the one you passed in).
 
     Parameters
     ----------
@@ -174,33 +186,33 @@ def append_sentence(conllu_text: str,
     Returns
     -------
     int | None
-        Existing id (if duplicate) or *sent_id* (if appended); `None` if the
+        Existing id (if duplicate) or sent_id (if appended); `None` if the
         check failed for some reason (e.g. malformed input).
     """
     corpus_path = Path(corpus_path)
 
-    # --- 1. extract plain-text line of the *new* sentence --------------------
+    # 1. extract plain-text line of the new sentence 
     m = re.search(r"^#\s*text\s*=\s*(.+)$", conllu_text, flags=re.M)
     if not m:
         print("❌ append_sentence: cannot find '# text =' line in new block")
         return None
     new_text_line = m.group(1).strip()
 
-    # --- 2. read existing corpus (if any) ------------------------------------
+    # 2. read existing corpus
     existing = corpus_path.read_text(encoding="utf-8") if corpus_path.exists() else ""
 
-    # --- 3. look for the same '# text =' line --------------------------------
-    # split on blank lines → individual sentence blocks
+    # 3. look for the same '# text =' line 
+    # split on blank lines -> individual sentence blocks
     for block in re.split(r"\n\s*\n", existing.strip()):
         mm_text = re.search(r"^#\s*text\s*=\s*(.+)$", block, flags=re.M)
         if mm_text and mm_text.group(1).strip() == new_text_line:
-            # duplicate found → fetch its sent_id for the caller
+            # duplicate found -> fetch its sent_id for the caller
             mm_id = re.search(r"^#\s*sent_id\s*=\s*(.+)$", block, flags=re.M)
             dup_id = int(mm_id.group(1)) if mm_id else "?"
-            print(f"⚠️  sentence already in corpus with sent_id {dup_id}")
+            print(f"⚠️  sentence already in {corpus_path} corpus with sent_id {dup_id}")
             return dup_id
 
-    # --- 4. append & save -----------------------------------------------------
+    # 4. append & save 
     corpus_path.write_text(existing + conllu_text if existing else conllu_text,
                            encoding="utf-8")
     print(f"✓ appended sentence #{sent_id} to {corpus_path.name}")
@@ -208,7 +220,7 @@ def append_sentence(conllu_text: str,
 
 
 # ──────────────────────────────────────────────────────────────────
-# 4.  HIGH-LEVEL PIPELINE  (one CG-3 block → corpus file)
+# 4.  HIGH-LEVEL PIPELINE  (one CG-3 block -> corpus file)
 # ──────────────────────────────────────────────────────────────────
 def cg3_to_conllu_batch(cg3_text: str,
                         corpus_path: str = "ojibwe_treebank.conllu",
@@ -232,8 +244,8 @@ def validate_ud(corpus_path: Union[str, Path],
                 lang: str = "ud",
                 validator: Union[str, Path] = "../ud-tools/validate.py") -> bool:
     """
-    Run the UD validator on *corpus_path*.  Return **True** if the file is
-    clean, otherwise print the validator output and return **False**.
+    Run the UD validator on corpus_path.  Return True if the file is
+    clean, otherwise print the validator output and return False.
 
     Parameters
     ----------
@@ -268,7 +280,7 @@ def validate_ud(corpus_path: Union[str, Path],
 
 
 # ──────────────────────────────────────────────────────────────────
-# 6.  CONLLU → DISPLACY VISUALISER    
+# 6.  CONLLU -> DISPLACY VISUALISER    
 # ──────────────────────────────────────────────────────────────────
 def visualise_conllu(corpus_path: Union[str, Path],
                      sent_no: int = 1,
@@ -276,7 +288,7 @@ def visualise_conllu(corpus_path: Union[str, Path],
                      compact: bool = True,
                      collapse_punct: bool = True) -> None:
     """
-    Load *sent_no* from a CoNLL-U file and display its dependency graph
+    Load sent_no from a CoNLL-U file and display its dependency graph
     in the notebook / VS Code via spaCy-displaCy.
 
     Parameters
@@ -333,14 +345,14 @@ def visualise_conllu(corpus_path: Union[str, Path],
                              "collapse_punct": collapse_punct})
     
 # ──────────────────────────────────────────────────────────────────
-# 7.  SENTENCE ID → DELETE FROM CORPUS
+# 7.  SENTENCE ID -> DELETE FROM CORPUS
 # ──────────────────────────────────────────────────────────────────
 def delete_sentence(corpus_path: Union[str, Path],
                     sent_id: int | str) -> bool:
     """
-    Delete the sentence whose `# sent_id = …` equals *sent_id* from
-    *corpus_path*, renumber the remaining sentences so that sent_id's
-    are again 1..N, and write the file back **in-place**.
+    Delete the sentence whose `# sent_id = …` equals sent_id from
+    corpus_path, renumber the remaining sentences so that sent_id's
+    are again 1..N, and write the file back in-place.
 
     Parameters
     ----------
@@ -348,7 +360,7 @@ def delete_sentence(corpus_path: Union[str, Path],
         CoNLL-U file containing ≥1 sentences separated by blank lines.
     sent_id : int | str
         The exact value that follows `# sent_id = ` in the metadata
-        line.  For your pipeline that means an **integer**.
+        line.  For your pipeline that means an integer.
 
     Returns
     -------

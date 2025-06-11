@@ -1,0 +1,3243 @@
+
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8">
+<title>VTI Disambiguation Sample (100 sentences)</title>
+<style>
+body{font-family:system-ui,Arial,sans-serif;margin:2rem;}
+figure{margin:2rem 0;padding:1rem;border:1px solid #ddd;border-radius:8px;}
+figcaption{font-weight:bold;margin-bottom:.5rem;}
+.oj{color:#1565c0;} .en{color:#2e7d32;}
+pre{background:#f9f9f9;border:1px solid #eee;
+    padding:1rem;margin-top:.5rem;
+    font:14px/1.4 monospace;white-space:pre-wrap;}
+.before{max-height:20em;overflow-y:auto;}
+.after {max-height:20em;overflow-y:auto;border-color:#cfd;}
+</style></head><body>
+<h1>VTI Disambiguation Sample (100 sentences)</h1>
+
+<figure>
+  <figcaption>#01
+    <span class="oj">Odaanaang bimibatoowan odayan gaa-bimaagonebizod.</span><br>
+    <span class="en">The snowmobiler's dog is running behind him.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;odaanaang&gt;&#34;
+	&#34;odaanaang&#34; ADVLoc
+&#34;&lt;bimibatoowan&gt;&#34;
+	&#34;bimibatoo&#34; VAI Ind Pos Neu 3PlObvSubj
+	&#34;bimibatoo&#34; VAI Ind Pos Neu 3SgObvSubj
+&#34;&lt;odayan&gt;&#34;
+	&#34;day&#34; NAD ObvPl 3SgProxPoss
+	&#34;day&#34; NAD ObvSg 3SgProxPoss
+	&#34;ayaan&#34; VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;gaa-bimaagonebizod&gt;&#34;
+	&#34;bimaagonebizo&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;bimaagonebizo&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;odaanaang&gt;&#34;
+	&#34;odaanaang&#34; ADVLoc
+&#34;&lt;bimibatoowan&gt;&#34;
+	&#34;bimibatoo&#34; VAI Ind Pos Neu 3PlObvSubj
+	&#34;bimibatoo&#34; VAI Ind Pos Neu 3SgObvSubj
+&#34;&lt;odayan&gt;&#34;
+	&#34;day&#34; NAD ObvPl 3SgProxPoss
+	&#34;day&#34; NAD ObvSg 3SgProxPoss
+&#34;&lt;gaa-bimaagonebizod&gt;&#34;
+	&#34;bimaagonebizo&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;bimaagonebizo&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#02
+    <span class="oj">Gii-nameshin a'aw ginebig o'omaa gii-pimi-ayaagwen.</span><br>
+    <span class="en">The trail of the snake shows it must have passed by here.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gii-nameshin&gt;&#34;
+	&#34;nameshin&#34; PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;a&#39;aw&gt;&#34;
+	&#34;a&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;ginebig&gt;&#34;
+	&#34;ginebig&#34; NA ProxSg
+&#34;&lt;o&#39;omaa&gt;&#34;
+	&#34;o&#39;omaa&#34; ADVLoc
+&#34;&lt;gii-pimi-ayaagwen&gt;&#34;
+	&#34;bimi-ayaa&#34; PVTense/gii VII Cnj Pos Dub 0SgSubj
+	&#34;ayaa&#34; PVTense/gii PVDir/bimi VII Cnj Pos Dub 0SgSubj
+	&#34;bimi-ayaa&#34; PVTense/gii VII Cnj Pos Dub 0PlSubj
+	&#34;ayaa&#34; PVTense/gii PVDir/bimi VII Cnj Pos Dub 0PlSubj
+	&#34;bimi-ayaa&#34; PVTense/gii VAI Cnj Pos Dub 3SgProxSubj
+	&#34;ayaa&#34; PVTense/gii PVDir/bimi VAI Cnj Pos Dub 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gii-nameshin&gt;&#34;
+	&#34;nameshin&#34; PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;a&#39;aw&gt;&#34;
+	&#34;a&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;ginebig&gt;&#34;
+	&#34;ginebig&#34; NA ProxSg
+&#34;&lt;o&#39;omaa&gt;&#34;
+	&#34;o&#39;omaa&#34; ADVLoc
+&#34;&lt;gii-pimi-ayaagwen&gt;&#34;
+	&#34;bimi-ayaa&#34; PVTense/gii VAI Cnj Pos Dub 3SgProxSubj
+	&#34;ayaa&#34; PVTense/gii PVDir/bimi VAI Cnj Pos Dub 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#03
+    <span class="oj">Owii-ikoshimaan iniw mitigoon gaa-aazhawishininid imaa miikanaang.</span><br>
+    <span class="en">He's going to remove the log that was lying across the road.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;owii-ikoshimaan&gt;&#34;
+	&#34;ikoshim&#34; PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;ikoshim&#34; PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;mitigoon&gt;&#34;
+	&#34;mitig&#34; NA ObvSg
+	&#34;mitig&#34; NI Pl
+	&#34;mitig&#34; NA ObvPl
+&#34;&lt;gaa-aazhawishininid&gt;&#34;
+	&#34;aazhawishin&#34; PVSub/gaa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;aazhawishin&#34; PVSub/gaa VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;imaa&gt;&#34;
+	&#34;imaa&#34; ADVLoc
+&#34;&lt;miikanaang&gt;&#34;
+	&#34;miikana&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;owii-ikoshimaan&gt;&#34;
+	&#34;ikoshim&#34; PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;ikoshim&#34; PVTense/wii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;mitigoon&gt;&#34;
+	&#34;mitig&#34; NA ObvSg
+	&#34;mitig&#34; NA ObvPl
+&#34;&lt;gaa-aazhawishininid&gt;&#34;
+	&#34;aazhawishin&#34; PVSub/gaa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;aazhawishin&#34; PVSub/gaa VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;imaa&gt;&#34;
+	&#34;imaa&#34; ADVLoc
+&#34;&lt;miikanaang&gt;&#34;
+	&#34;miikana&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#04
+    <span class="oj">Gidanoonigoo ji-o-wiindaman i'iw oshki-aazhogan.</span><br>
+    <span class="en">You have been hired to go name the new bridge.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gidanoonigoo&gt;&#34;
+	&#34;anoozh&#34; VTA Ind Pos Neu XSubj 2SgObj
+	&#34;anoozh&#34; VTA Ind Pos Neu ExclSubj 2SgObj
+&#34;&lt;ji-o-wiindaman&gt;&#34;
+	&#34;wiindan&#34; PVTense/daa PVDir/o VTI Cnj Pos Neu 2SgSubj 0PlObj
+	&#34;wiindan&#34; PVTense/ga PVDir/o VTI Cnj Pos Neu 2SgSubj 0PlObj
+	&#34;wiindan&#34; PVTense/daa PVDir/o VTI Cnj Pos Neu 2SgSubj 0SgObj
+	&#34;wiindan&#34; PVTense/ga PVDir/o VTI Cnj Pos Neu 2SgSubj 0SgObj
+&#34;&lt;i&#39;iw&gt;&#34;
+	&#34;i&#39;iw&#34; PRONDem NI Sg
+&#34;&lt;oshki-aazhogan&gt;&#34;
+	&#34;aazhogan&#34; PNLex/oshki NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gidanoonigoo&gt;&#34;
+	&#34;anoozh&#34; VTA Ind Pos Neu XSubj 2SgObj
+	&#34;anoozh&#34; VTA Ind Pos Neu ExclSubj 2SgObj
+&#34;&lt;ji-o-wiindaman&gt;&#34;
+	&#34;wiindan&#34; PVTense/daa PVDir/o VTI Cnj Pos Neu 2SgSubj 0SgObj
+	&#34;wiindan&#34; PVTense/ga PVDir/o VTI Cnj Pos Neu 2SgSubj 0SgObj
+&#34;&lt;i&#39;iw&gt;&#34;
+	&#34;i&#39;iw&#34; PRONDem NI Sg
+&#34;&lt;oshki-aazhogan&gt;&#34;
+	&#34;aazhogan&#34; PNLex/oshki NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#05
+    <span class="oj">Giizhaa ningii-ozhiitaa wii'-ando-bimaagimoseyaan waabang.</span><br>
+    <span class="en">I prepared beforehand to go snowshoeing tomorrow.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;giizhaa&gt;&#34;
+	&#34;giizhaa&#34; ADVTmp
+&#34;&lt;ningii-ozhiitaa&gt;&#34;
+	&#34;ozhiitaa&#34; PVTense/gii VAI Ind Pos Neu 1SgSubj
+&#34;&lt;wii&#39;-ando-bimaagimoseyaan&gt;&#34;
+	&#34;bimaagimose&#34; PVTense/wii&#39; PVLex/ando VAI Cnj Pos Neu 1SgSubj
+&#34;&lt;waabang&gt;&#34;
+	&#34;waaban&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;waaban&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;giizhaa&gt;&#34;
+	&#34;giizhaa&#34; ADVTmp
+&#34;&lt;ningii-ozhiitaa&gt;&#34;
+	&#34;ozhiitaa&#34; PVTense/gii VAI Ind Pos Neu 1SgSubj
+&#34;&lt;wii&#39;-ando-bimaagimoseyaan&gt;&#34;
+	&#34;bimaagimose&#34; PVTense/wii&#39; PVLex/ando VAI Cnj Pos Neu 1SgSubj
+&#34;&lt;waabang&gt;&#34;
+	&#34;waaban&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;waaban&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#06
+    <span class="oj">Onandawaabamaan iniw gaa-maakinawaad waawaashkeshiwan.</span><br>
+    <span class="en">He's looking for the deer he wounded.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;onandawaabamaan&gt;&#34;
+	&#34;andawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;nandawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;andawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	&#34;nandawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;gaa-maakinawaad&gt;&#34;
+	&#34;maakinaw&#34; PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;maakinaw&#34; PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;waawaashkeshiwan&gt;&#34;
+	&#34;waawaashkeshi&#34; NA ObvPl
+	&#34;waawaashkeshi&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;onandawaabamaan&gt;&#34;
+	&#34;andawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;nandawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;andawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	&#34;nandawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;gaa-maakinawaad&gt;&#34;
+	&#34;maakinaw&#34; PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;maakinaw&#34; PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;waawaashkeshiwan&gt;&#34;
+	&#34;waawaashkeshi&#34; NA ObvPl
+	&#34;waawaashkeshi&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#07
+    <span class="oj">Babiiskijiitaa babaa-ayaad.</span><br>
+    <span class="en">It wiggles up and down as it moves around.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;babiiskijiitaa&gt;&#34;
+	&#34;babiiskijiitaa&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;babaa-ayaad&gt;&#34;
+	&#34;babaa-ayaa&#34; VAI Cnj Pos Neu 3SgProxSubj
+	&#34;ayaa&#34; PVDir/babaa VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;babiiskijiitaa&gt;&#34;
+	&#34;babiiskijiitaa&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;babaa-ayaad&gt;&#34;
+	&#34;babaa-ayaa&#34; VAI Cnj Pos Neu 3SgProxSubj
+	&#34;ayaa&#34; PVDir/babaa VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#08
+    <span class="oj">Gego bimibatwaadangen gibaashkizigan.</span><br>
+    <span class="en">Don't run with your gun.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;bimibatwaadangen&gt;&#34;
+	&#34;bimibatwaadan&#34; VTI Imp Prb 2SgSubj 0PlObj
+	&#34;bimibatwaadan&#34; VTI Imp Prb 2SgSubj 0SgObj
+&#34;&lt;gibaashkizigan&gt;&#34;
+	&#34;baashkizigan&#34; NI Sg 2SgPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;bimibatwaadangen&gt;&#34;
+	&#34;bimibatwaadan&#34; VTI Imp Prb 2SgSubj 0SgObj
+&#34;&lt;gibaashkizigan&gt;&#34;
+	&#34;baashkizigan&#34; NI Sg 2SgPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#09
+    <span class="oj">Waawaabiganoojiinyan naa oniimamaan a'a gaazhagenzhish</span><br>
+    <span class="en">That old cat has got a mouse in her mouth.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;waawaabiganoojiinyan&gt;&#34;
+	&#34;waawaabiganoojiinh&#34; NA ObvPl
+	&#34;waawaabiganoojiinh&#34; NA ObvSg
+&#34;&lt;naa&gt;&#34;
+	&#34;naa&#34; PCEmph
+&#34;&lt;oniimamaan&gt;&#34;
+	&#34;niimam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;niimam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;a&#39;a&gt;&#34;
+	&#34;a&#39;a&#34; PRONDem NA ProxSg
+&#34;&lt;gaazhagenzhish&gt;&#34;
+	&#34;gaazhagens&#34; NA Pej ProxSg</pre>
+  <pre class="after">&#34;&lt;waawaabiganoojiinyan&gt;&#34;
+	&#34;waawaabiganoojiinh&#34; NA ObvPl
+	&#34;waawaabiganoojiinh&#34; NA ObvSg
+&#34;&lt;naa&gt;&#34;
+	&#34;naa&#34; PCEmph
+&#34;&lt;oniimamaan&gt;&#34;
+	&#34;niimam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;niimam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;a&#39;a&gt;&#34;
+	&#34;a&#39;a&#34; PRONDem NA ProxSg
+&#34;&lt;gaazhagenzhish&gt;&#34;
+	&#34;gaazhagens&#34; NA Pej ProxSgS
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#10
+    <span class="oj">Wiisakwemagad odaabaan bimibideg miikanaang.</span><br>
+    <span class="en">The car screeches going by on the road.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;wiisakwemagad&gt;&#34;
+	&#34;wiisakwe&#34; VAI Der/magad VII Ind Pos Neu 0SgSubj
+&#34;&lt;odaabaan&gt;&#34;
+	&#34;odaabaan&#34; NA ProxSg
+	&#34;odaabaan&#34; NI Sg
+&#34;&lt;bimibideg&gt;&#34;
+	&#34;bimibide&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;bimibide&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;miikanaang&gt;&#34;
+	&#34;miikana&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;wiisakwemagad&gt;&#34;
+	&#34;wiisakwe&#34; VAI Der/magad VII Ind Pos Neu 0SgSubj
+&#34;&lt;odaabaan&gt;&#34;
+	&#34;odaabaan&#34; NI Sg
+&#34;&lt;bimibideg&gt;&#34;
+	&#34;bimibide&#34; VII Cnj Pos Neu 0SgSubj
+&#34;&lt;miikanaang&gt;&#34;
+	&#34;miikana&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#11
+    <span class="oj">Aazhawikana odanimiwinaan iniw maanishtaanishan.</span><br>
+    <span class="en">He's taking the sheep across the road.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;aazhawikana&gt;&#34;
+	&#34;aazhawikana&#34; ADVLoc
+&#34;&lt;odanimiwinaan&gt;&#34;
+	&#34;animiwizh&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;animiwizh&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;maanishtaanishan&gt;&#34;
+	&#34;maanishtaanish&#34; NA ObvPl
+	&#34;maanishtaanish&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;aazhawikana&gt;&#34;
+	&#34;aazhawikana&#34; ADVLoc
+&#34;&lt;odanimiwinaan&gt;&#34;
+	&#34;animiwizh&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;animiwizh&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;maanishtaanishan&gt;&#34;
+	&#34;maanishtaanish&#34; NA ObvPl
+	&#34;maanishtaanish&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#12
+    <span class="oj">Mii iwidi aazhawikana gaa-inaagoned.</span><br>
+    <span class="en">He trudged across the road through the snow.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;mii&gt;&#34;
+	&#34;mii&#34; ADVPred
+&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;aazhawikana&gt;&#34;
+	&#34;aazhawikana&#34; ADVLoc
+&#34;&lt;gaa-inaagoned&gt;&#34;
+	&#34;inaagone&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;inaagone&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;mii&gt;&#34;
+	&#34;mii&#34; ADVPred
+&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;aazhawikana&gt;&#34;
+	&#34;aazhawikana&#34; ADVLoc
+&#34;&lt;gaa-inaagoned&gt;&#34;
+	&#34;inaagone&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;inaagone&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#13
+    <span class="oj">Baakibidoon waasechigan.</span><br>
+    <span class="en">Pull the window open.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;baakibidoon&gt;&#34;
+	&#34;baakibidoon&#34; VTI Imp Sim 2SgSubj 0PlObj
+	&#34;baakibidoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;waasechigan&gt;&#34;
+	&#34;waasechigan&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;baakibidoon&gt;&#34;
+	&#34;baakibidoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;waasechigan&gt;&#34;
+	&#34;waasechigan&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#14
+    <span class="oj">Mii go ingoji niiyo-diba'iganeg ashi-aabita bi-waaseyaag.</span><br>
+    <span class="en">About four-thirty in the morning it starts to get light.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;mii&gt;&#34;
+	&#34;mii&#34; ADVPred
+&#34;&lt;go&gt;&#34;
+	&#34;go&#34; PCDisc
+&#34;&lt;ingoji&gt;&#34;
+	&#34;ingoji&#34; AVDDeg
+&#34;&lt;niiyo-diba&#39;iganeg&gt;&#34;
+	&#34;diba&#39;igane&#34; PVQnt/niiyo VII Cnj Pos Neu 0SgSubj
+	&#34;niiyo-diba&#39;igane&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;diba&#39;igane&#34; PVQnt/niiyo VII Cnj Pos Neu 0PlSubj
+	&#34;niiyo-diba&#39;igane&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;ashi-aabita&gt;&#34;
+	&#34;ashi-aabita&#34; NUM
+&#34;&lt;bi-waaseyaag&gt;&#34;
+	&#34;waaseyaa&#34; PVDir/bi VII Cnj Pos Neu 0SgSubj
+	&#34;waaseyaa&#34; PVDir/bi VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;mii&gt;&#34;
+	&#34;mii&#34; ADVPred
+&#34;&lt;go&gt;&#34;
+	&#34;go&#34; PCDisc
+&#34;&lt;ingoji&gt;&#34;
+	&#34;ingoji&#34; AVDDeg
+&#34;&lt;niiyo-diba&#39;iganeg&gt;&#34;
+	&#34;diba&#39;igane&#34; PVQnt/niiyo VII Cnj Pos Neu 0SgSubj
+	&#34;niiyo-diba&#39;igane&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;diba&#39;igane&#34; PVQnt/niiyo VII Cnj Pos Neu 0PlSubj
+	&#34;niiyo-diba&#39;igane&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;ashi-aabita&gt;&#34;
+	&#34;ashi-aabita&#34; NUM
+&#34;&lt;bi-waaseyaag&gt;&#34;
+	&#34;waaseyaa&#34; PVDir/bi VII Cnj Pos Neu 0SgSubj
+	&#34;waaseyaa&#34; PVDir/bi VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#15
+    <span class="oj">Zhebaa ingii-pi-aazhoge'adoo. Ishkwaa-naawakweg niwii'-ani-aazhoge'adoo.</span><br>
+    <span class="en">This morning I came across the bridge. This afternoon I'm going back across the bridge.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;zhebaa&gt;&#34;
+	&#34;zhebaa&#34; ADVTmp
+&#34;&lt;ingii-pi-aazhoge&#39;adoo&gt;&#34;
+	&#34;aazhoge&#39;adoo&#34; PVTense/gii PVDir/bi VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;ishkwaa-naawakweg&gt;&#34;
+	&#34;ishkwaa-naawakwe&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;naawakwe&#34; PVLex/ishkwaa VII Cnj Pos Neu 0SgSubj
+	&#34;ishkwaa-naawakwe&#34; VII Cnj Pos Neu 0PlSubj
+	&#34;naawakwe&#34; PVLex/ishkwaa VII Cnj Pos Neu 0PlSubj
+&#34;&lt;niwii&#39;-ani-aazhoge&#39;adoo&gt;&#34;
+	&#34;aazhoge&#39;adoo&#34; PVTense/wii&#39; PVDir/ani VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;zhebaa&gt;&#34;
+	&#34;zhebaa&#34; ADVTmp
+&#34;&lt;ingii-pi-aazhoge&#39;adoo&gt;&#34;
+	&#34;aazhoge&#39;adoo&#34; PVTense/gii PVDir/bi VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;ishkwaa-naawakweg&gt;&#34;
+	&#34;ishkwaa-naawakwe&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;naawakwe&#34; PVLex/ishkwaa VII Cnj Pos Neu 0SgSubj
+	&#34;ishkwaa-naawakwe&#34; VII Cnj Pos Neu 0PlSubj
+	&#34;naawakwe&#34; PVLex/ishkwaa VII Cnj Pos Neu 0PlSubj
+&#34;&lt;niwii&#39;-ani-aazhoge&#39;adoo&gt;&#34;
+	&#34;aazhoge&#39;adoo&#34; PVTense/wii&#39; PVDir/ani VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#16
+    <span class="oj">Boozaabikinigan ginigawinan waasigani-bimideng.</span><br>
+    <span class="en">Mix the oil into the gas.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;boozaabikinigan&gt;&#34;
+	&#34;boozaabikinigan&#34; NI Sg
+&#34;&lt;ginigawinan&gt;&#34;
+	&#34;ginigawinan&#34; VTI Imp Sim 2SgSubj 0PlObj
+	&#34;ginigawinan&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;waasigani-bimideng&gt;&#34;
+	&#34;waasigani-bimide&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;boozaabikinigan&gt;&#34;
+	&#34;boozaabikinigan&#34; NI Sg
+&#34;&lt;ginigawinan&gt;&#34;
+	&#34;ginigawinan&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;waasigani-bimideng&gt;&#34;
+	&#34;waasigani-bimide&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#17
+    <span class="oj">Wiin obimibizoni'aan iniw daashkiboojiganan.</span><br>
+    <span class="en">He is operating the sawmill.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;wiin&gt;&#34;
+	&#34;wiin&#34; PRONPer NA 3Sg
+&#34;&lt;obimibizoni&#39;aan&gt;&#34;
+	&#34;bimibizoni&#39;&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;bimibizoni&#39;&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;daashkiboojiganan&gt;&#34;
+	&#34;daashkiboojigan&#34; NA ObvPl
+	&#34;daashkiboojigan&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;wiin&gt;&#34;
+	&#34;wiin&#34; PRONPer NA 3Sg
+&#34;&lt;obimibizoni&#39;aan&gt;&#34;
+	&#34;bimibizoni&#39;&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;bimibizoni&#39;&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;daashkiboojiganan&gt;&#34;
+	&#34;daashkiboojigan&#34; NA ObvPl
+	&#34;daashkiboojigan&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#18
+    <span class="oj">Naazibiiwidoon waasigani-bimide-atoobaanan.</span><br>
+    <span class="en">Take the gas tanks down to the lake.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;naazibiiwidoon&gt;&#34;
+	&#34;naazibiiwidoon&#34; VTI Imp Sim 2SgSubj 0PlObj
+	&#34;naazibiiwidoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;waasigani-bimide-atoobaanan&gt;&#34;
+	&#34;waasigani-bimide-atoobaan&#34; NI Pl
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;naazibiiwidoon&gt;&#34;
+	&#34;naazibiiwidoon&#34; VTI Imp Sim 2SgSubj 0PlObj
+&#34;&lt;waasigani-bimide-atoobaanan&gt;&#34;
+	&#34;waasigani-bimide-atoobaan&#34; NI Pl
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#19
+    <span class="oj">Apane mooshkinebadoon waasigani-bimide-biiwaabik.</span><br>
+    <span class="en">Always keep your gas can full.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;apane&gt;&#34;
+	&#34;apane&#34; ADVTmp
+&#34;&lt;mooshkinebadoon&gt;&#34;
+	&#34;mooshkinebadoon&#34; VTI Imp Sim 2SgSubj 0PlObj
+	&#34;mooshkinebadoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;waasigani-bimide-biiwaabik&gt;&#34;
+	&#34;waasigani-bimide-biiwaabik&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;apane&gt;&#34;
+	&#34;apane&#34; ADVTmp
+&#34;&lt;mooshkinebadoon&gt;&#34;
+	&#34;mooshkinebadoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;waasigani-bimide-biiwaabik&gt;&#34;
+	&#34;waasigani-bimide-biiwaabik&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#20
+    <span class="oj">Gabe-dibik gii-ondendiwag igiw gaa-waaswaawaad.</span><br>
+    <span class="en">The torchers were gone all night.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gabe-dibik&gt;&#34;
+	&#34;gabe-dibik&#34; ADVTmp
+	&#34;dibik&#34; PVLex/gabe ADVTmp
+&#34;&lt;gii-ondendiwag&gt;&#34;
+	&#34;ondendi&#34; PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;igiw&gt;&#34;
+	&#34;igiw&#34; PRONDem NA ProxPl
+&#34;&lt;gaa-waaswaawaad&gt;&#34;
+	&#34;waaswaa&#34; PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gabe-dibik&gt;&#34;
+	&#34;gabe-dibik&#34; ADVTmp
+	&#34;dibik&#34; PVLex/gabe ADVTmp
+&#34;&lt;gii-ondendiwag&gt;&#34;
+	&#34;ondendi&#34; PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;igiw&gt;&#34;
+	&#34;igiw&#34; PRONDem NA ProxPl
+&#34;&lt;gaa-waaswaawaad&gt;&#34;
+	&#34;waaswaa&#34; PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#21
+    <span class="oj">Ningii-wanitoon niwaazakonebijigan wii-aabajitooyaan wii-waaswaayaan.</span><br>
+    <span class="en">I've lost the flashlight I wanted to use torching.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ningii-wanitoon&gt;&#34;
+	&#34;wanitoon&#34; PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
+&#34;&lt;niwaazakonebijigan&gt;&#34;
+	&#34;waazakonebijigan&#34; NI Sg 1SgPoss
+&#34;&lt;wii-aabajitooyaan&gt;&#34;
+	&#34;aabajitoon&#34; PVTense/wii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	&#34;aabajitoon&#34; PVTense/wii VTI Cnj Pos Neu 1SgSubj 0SgObj
+&#34;&lt;wii-waaswaayaan&gt;&#34;
+	&#34;waaswaa&#34; PVTense/wii VAI Cnj Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ningii-wanitoon&gt;&#34;
+	&#34;wanitoon&#34; PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
+&#34;&lt;niwaazakonebijigan&gt;&#34;
+	&#34;waazakonebijigan&#34; NI Sg 1SgPoss
+&#34;&lt;wii-aabajitooyaan&gt;&#34;
+	&#34;aabajitoon&#34; PVTense/wii VTI Cnj Pos Neu 1SgSubj 0SgObj
+&#34;&lt;wii-waaswaayaan&gt;&#34;
+	&#34;waaswaa&#34; PVTense/wii VAI Cnj Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#22
+    <span class="oj">Ningii-pawaanig ningoding ji-aazhawinamawag anishinaabe-wiinzowin.</span><br>
+    <span class="en">She dreamt of me passing my spirit name on to her.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ningii-pawaanig&gt;&#34;
+	&#34;bawaazh&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 1SgObj
+&#34;&lt;ningoding&gt;&#34;
+	&#34;ningoding&#34; ADVTmp
+&#34;&lt;ji-aazhawinamawag&gt;&#34;
+	&#34;aazhawinamaw&#34; PVTense/daa VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	&#34;aazhawinamaw&#34; PVTense/ga VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;anishinaabe-wiinzowin&gt;&#34;
+	&#34;anishinaabe-wiinzowin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ningii-pawaanig&gt;&#34;
+	&#34;bawaazh&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 1SgObj
+&#34;&lt;ningoding&gt;&#34;
+	&#34;ningoding&#34; ADVTmp
+&#34;&lt;ji-aazhawinamawag&gt;&#34;
+	&#34;aazhawinamaw&#34; PVTense/daa VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	&#34;aazhawinamaw&#34; PVTense/ga VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;anishinaabe-wiinzowin&gt;&#34;
+	&#34;anishinaabe-wiinzowin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#23
+    <span class="oj">Odaana-gii-wewebiniketawaan aana-wii-noogibinaad iniwen gaa-bimibizonid.</span><br>
+    <span class="en">She tried waving his arms at the driver to stop him.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;odaana-gii-wewebiniketawaan&gt;&#34;
+	&#34;wewebiniketaw&#34; PVTense/aana PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;wewebiniketaw&#34; PVTense/aana PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;aana-wii-noogibinaad&gt;&#34;
+	&#34;noogibizh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;noogibizh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniwen&gt;&#34;
+	&#34;iniwen&#34; PRONDem NI Pl
+	&#34;iniwen&#34; PRONDem NA ObvSg
+	&#34;iniwen&#34; PRONDem NA ObvPl
+&#34;&lt;gaa-bimibizonid&gt;&#34;
+	&#34;bimibizo&#34; PVSub/gaa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;bimibizo&#34; PVSub/gaa VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;odaana-gii-wewebiniketawaan&gt;&#34;
+	&#34;wewebiniketaw&#34; PVTense/aana PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;wewebiniketaw&#34; PVTense/aana PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;aana-wii-noogibinaad&gt;&#34;
+	&#34;noogibizh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;noogibizh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniwen&gt;&#34;
+	&#34;iniwen&#34; PRONDem NA ObvSg
+	&#34;iniwen&#34; PRONDem NA ObvPl
+&#34;&lt;gaa-bimibizonid&gt;&#34;
+	&#34;bimibizo&#34; PVSub/gaa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;bimibizo&#34; PVSub/gaa VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#24
+    <span class="oj">Bekaa bimibizon gaa-gikendanziwan zaaga'igan. Maagizhaa giga-bitaabikishin</span><br>
+    <span class="en">Go slow when you don't know the lake. You might hit a reef.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;bekaa&gt;&#34;
+	&#34;bekaa&#34; ADVMan
+&#34;&lt;bimibizon&gt;&#34;
+	&#34;bimibizo&#34; VAI Imp Sim 2SgSubj
+&#34;&lt;gaa-gikendanziwan&gt;&#34;
+	&#34;gikendam&#34; PVSub/gaa VAI Cnj Neg Neu 2SgSubj
+	&#34;gikendan&#34; PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0PlObj
+	&#34;gikendan&#34; PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0SgObj
+&#34;&lt;zaaga&#39;igan&gt;&#34;
+	&#34;zaaga&#39;igan&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;maagizhaa&gt;&#34;
+	&#34;maagizhaa&#34; ADVMan
+&#34;&lt;giga-bitaabikishin&gt;&#34;
+	&#34;bitaabikishin&#34; PVTense/ga VAI Ind Pos Neu 2SgSubj</pre>
+  <pre class="after">&#34;&lt;bekaa&gt;&#34;
+	&#34;bekaa&#34; ADVMan
+&#34;&lt;bimibizon&gt;&#34;
+	&#34;bimibizo&#34; VAI Imp Sim 2SgSubj
+&#34;&lt;gaa-gikendanziwan&gt;&#34;
+	&#34;gikendan&#34; PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0SgObj
+&#34;&lt;zaaga&#39;igan&gt;&#34;
+	&#34;zaaga&#39;igan&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;maagizhaa&gt;&#34;
+	&#34;maagizhaa&#34; ADVMan
+&#34;&lt;giga-bitaabikishin&gt;&#34;
+	&#34;bitaabikishin&#34; PVTense/ga VAI Ind Pos Neu 2SgSubjj
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#25
+    <span class="oj">Gaye giin imaa gidoozhibii'igaaz.</span><br>
+    <span class="en">You are on the list too.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gaye&gt;&#34;
+	&#34;gaye&#34; ADVConj
+&#34;&lt;giin&gt;&#34;
+	&#34;giin&#34; PRONPer NA 2Sg
+&#34;&lt;imaa&gt;&#34;
+	&#34;imaa&#34; ADVLoc
+&#34;&lt;gidoozhibii&#39;igaaz&gt;&#34;
+	&#34;ozhibii&#39;igaazo&#34; VAI Ind Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gaye&gt;&#34;
+	&#34;gaye&#34; ADVConj
+&#34;&lt;giin&gt;&#34;
+	&#34;giin&#34; PRONPer NA 2Sg
+&#34;&lt;imaa&gt;&#34;
+	&#34;imaa&#34; ADVLoc
+&#34;&lt;gidoozhibii&#39;igaaz&gt;&#34;
+	&#34;ozhibii&#39;igaazo&#34; VAI Ind Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#26
+    <span class="oj">Onzaamiinowag awesiinyag noopimiing. Gaye giin gidaa-andawenjige.</span><br>
+    <span class="en">There's a lot of animals in the woods. You too should go hunting.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;onzaamiinowag&gt;&#34;
+	&#34;onzaamiino&#34; VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;awesiinyag&gt;&#34;
+	&#34;awesiinh&#34; NA ProxPl
+&#34;&lt;noopimiing&gt;&#34;
+	&#34;noopimiing&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaye&gt;&#34;
+	&#34;gaye&#34; ADVConj
+&#34;&lt;giin&gt;&#34;
+	&#34;giin&#34; PRONPer NA 2Sg
+&#34;&lt;gidaa-andawenjige&gt;&#34;
+	&#34;andawenjige&#34; PVTense/daa VAI Ind Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;onzaamiinowag&gt;&#34;
+	&#34;onzaamiino&#34; VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;awesiinyag&gt;&#34;
+	&#34;awesiinh&#34; NA ProxPl
+&#34;&lt;noopimiing&gt;&#34;
+	&#34;noopimiing&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaye&gt;&#34;
+	&#34;gaye&#34; ADVConj
+&#34;&lt;giin&gt;&#34;
+	&#34;giin&#34; PRONPer NA 2Sg
+&#34;&lt;gidaa-andawenjige&gt;&#34;
+	&#34;andawenjige&#34; PVTense/daa VAI Ind Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#27
+    <span class="oj">Ogwiinawaabamaan aana-wii-anoonaad ji-nibinaadinid.</span><br>
+    <span class="en">He couldn't see him when he wanted him to go after water.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ogwiinawaabamaan&gt;&#34;
+	&#34;gwiinawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;gwiinawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;aana-wii-anoonaad&gt;&#34;
+	&#34;anoozh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;anoozh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;ji-nibinaadinid&gt;&#34;
+	&#34;nibinaadi&#34; PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nibinaadi&#34; PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nibinaadi&#34; PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	&#34;nibinaadi&#34; PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ogwiinawaabamaan&gt;&#34;
+	&#34;gwiinawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;gwiinawaabam&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;aana-wii-anoonaad&gt;&#34;
+	&#34;anoozh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;anoozh&#34; PVTense/aana PVTense/wii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;ji-nibinaadinid&gt;&#34;
+	&#34;nibinaadi&#34; PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nibinaadi&#34; PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nibinaadi&#34; PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	&#34;nibinaadi&#34; PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#28
+    <span class="oj">Bizaanad agwajiing. Gaawiin noodinzinoon.</span><br>
+    <span class="en">It's pretty still outside. There's no wind blowing.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;bizaanad&gt;&#34;
+	&#34;bizaanad&#34; VII Ind Pos Neu 0SgSubj
+&#34;&lt;agwajiing&gt;&#34;
+	&#34;agwajiing&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;noodinzinoon&gt;&#34;
+	&#34;noodin&#34; VII Ind Neg Neu 0PlSubj
+	&#34;noodin&#34; VII Ind Neg Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;bizaanad&gt;&#34;
+	&#34;bizaanad&#34; VII Ind Pos Neu 0SgSubj
+&#34;&lt;agwajiing&gt;&#34;
+	&#34;agwajiing&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;noodinzinoon&gt;&#34;
+	&#34;noodin&#34; VII Ind Neg Neu 0PlSubj
+	&#34;noodin&#34; VII Ind Neg Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#29
+    <span class="oj">Waawaabiganoojiinyan ozaaganemaan.</span><br>
+    <span class="en">He has whiskers. {Literally: He has a mouse sticking out of his mouth.]</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;waawaabiganoojiinyan&gt;&#34;
+	&#34;waawaabiganoojiinh&#34; NA ObvPl
+	&#34;waawaabiganoojiinh&#34; NA ObvSg
+&#34;&lt;ozaaganemaan&gt;&#34;
+	&#34;zaaganem&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;zaaganem&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;waawaabiganoojiinyan&gt;&#34;
+	&#34;waawaabiganoojiinh&#34; NA ObvPl
+	&#34;waawaabiganoojiinh&#34; NA ObvSg
+&#34;&lt;ozaaganemaan&gt;&#34;
+	&#34;zaaganem&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;zaaganem&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#30
+    <span class="oj">Debinaak igo ningii-chiishada'ige.</span><br>
+    <span class="en">I just swept up any old way.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;debinaak&gt;&#34;
+	&#34;debinaw&#34; VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	&#34;debinaak&#34; ADVMan
+&#34;&lt;igo&gt;&#34;
+	&#34;igo&#34; PCEmph
+&#34;&lt;ningii-chiishada&#39;ige&gt;&#34;
+	&#34;jiishada&#39;ige&#34; PVTense/gii VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;debinaak&gt;&#34;
+	&#34;debinaak&#34; ADVMan
+&#34;&lt;igo&gt;&#34;
+	&#34;igo&#34; PCEmph
+&#34;&lt;ningii-chiishada&#39;ige&gt;&#34;
+	&#34;jiishada&#39;ige&#34; PVTense/gii VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#31
+    <span class="oj">Wiikwaasinjigan aabajitoon wii-chiishada'igeyan. Wiikwaasinoon gaa-biiwisingin michisag.</span><br>
+    <span class="en">Use a vacuum cleaner when you want to sweep up something. Stuff scattered on the floor is sucked up.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;wiikwaasinjigan&gt;&#34;
+	&#34;wiikwaasinjigan&#34; NI Sg
+&#34;&lt;aabajitoon&gt;&#34;
+	&#34;aabajitoon&#34; VTI Imp Sim 2SgSubj 0PlObj
+	&#34;aabajitoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;wii-chiishada&#39;igeyan&gt;&#34;
+	&#34;jiishada&#39;ige&#34; PVTense/wii VAI Cnj Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;wiikwaasinoon&gt;&#34;
+	&#34;wiikwaasin&#34; VII Ind Pos Neu 0PlSubj
+&#34;&lt;gaa-biiwisingin&gt;&#34;
+	&#34;biiwisin&#34; PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	&#34;biiwisin&#34; PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead
+&#34;&lt;michisag&gt;&#34;
+	&#34;michisag&#34; NI Sg
+	&#34;michisag&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;wiikwaasinjigan&gt;&#34;
+	&#34;wiikwaasinjigan&#34; NI Sg
+&#34;&lt;aabajitoon&gt;&#34;
+	&#34;aabajitoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;wii-chiishada&#39;igeyan&gt;&#34;
+	&#34;jiishada&#39;ige&#34; PVTense/wii VAI Cnj Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;wiikwaasinoon&gt;&#34;
+	&#34;wiikwaasin&#34; VII Ind Pos Neu 0PlSubj
+&#34;&lt;gaa-biiwisingin&gt;&#34;
+	&#34;biiwisin&#34; PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	&#34;biiwisin&#34; PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead
+&#34;&lt;michisag&gt;&#34;
+	&#34;michisag&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#32
+    <span class="oj">Awiya awasi-baawitig danwewezigewag.</span><br>
+    <span class="en">There's somebody shooting on the other side of the rapids.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;awiya&gt;&#34;
+	&#34;awiya&#34; PRONIndf NA
+&#34;&lt;awasi-baawitig&gt;&#34;
+	&#34;baawitig&#34; PNLex/awasi NI Sg
+	&#34;awasi-baawitig&#34; ADVLoc
+&#34;&lt;danwewezigewag&gt;&#34;
+	&#34;danwewezige&#34; VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;awiya&gt;&#34;
+	&#34;awiya&#34; PRONIndf NA
+&#34;&lt;awasi-baawitig&gt;&#34;
+	&#34;awasi-baawitig&#34; ADVLoc
+&#34;&lt;danwewezigewag&gt;&#34;
+	&#34;danwewezige&#34; VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#33
+    <span class="oj">Biinjipwaagan ashi 'a asemaa.</span><br>
+    <span class="en">Put the tobacco in the pipe.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;biinjipwaagan&gt;&#34;
+	&#34;biinjipwaagan&#34; ADVLoc
+&#34;&lt;ashi&gt;&#34;
+	&#34;ashi&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;ashi&#34; VTA Imp Sim 2SgSubj 3PlProxObj
+	&#34;ashi&#34; ADVConj
+&#34;&lt;&#39;a&gt;&#34;
+	&#34;&#39;a&#34; PRONDem NA ProxSg
+&#34;&lt;asemaa&gt;&#34;
+	&#34;asemaa&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;biinjipwaagan&gt;&#34;
+	&#34;biinjipwaagan&#34; ADVLoc
+&#34;&lt;ashi&gt;&#34;
+	&#34;ashi&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+&#34;&lt;&#39;a&gt;&#34;
+	&#34;&#39;a&#34; PRONDem NA ProxSg
+&#34;&lt;asemaa&gt;&#34;
+	&#34;asemaa&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#34
+    <span class="oj">Gaawiin obagidinaasii' oniijaanisa' ji-niibaashkaanid.</span><br>
+    <span class="en">She doesn't let her children be out at night.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;obagidinaasii&#39;&gt;&#34;
+	&#34;bagidin&#34; VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;oniijaanisa&#39;&gt;&#34;
+	&#34;niijaanis&#34; NAD ObvPl 3SgProxPoss
+&#34;&lt;ji-niibaashkaanid&gt;&#34;
+	&#34;niibaashkaa&#34; PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;niibaashkaa&#34; PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	&#34;niibaashkaa&#34; PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	&#34;niibaashkaa&#34; PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;obagidinaasii&#39;&gt;&#34;
+	&#34;bagidin&#34; VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;oniijaanisa&#39;&gt;&#34;
+	&#34;niijaanis&#34; NAD ObvPl 3SgProxPoss
+&#34;&lt;ji-niibaashkaanid&gt;&#34;
+	&#34;niibaashkaa&#34; PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;niibaashkaa&#34; PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	&#34;niibaashkaa&#34; PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	&#34;niibaashkaa&#34; PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#35
+    <span class="oj">Ogii-paataanizhikawaan iniw awesiinyan.</span><br>
+    <span class="en">He chased that animal into a corner.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ogii-paataanizhikawaan&gt;&#34;
+	&#34;baataanizhikaw&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;baataanizhikaw&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;awesiinyan&gt;&#34;
+	&#34;awesiinh&#34; NA ObvPl
+	&#34;awesiinh&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ogii-paataanizhikawaan&gt;&#34;
+	&#34;baataanizhikaw&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;baataanizhikaw&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;awesiinyan&gt;&#34;
+	&#34;awesiinh&#34; NA ObvPl
+	&#34;awesiinh&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#36
+    <span class="oj">Manoominiwazh odagwaasidoon gaa-gii-pawa'ang.</span><br>
+    <span class="en">The rice picker took a whole bag of rice out of her canoe.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;manoominiwazh&gt;&#34;
+	&#34;manoominiwazh&#34; NI Sg
+&#34;&lt;odagwaasidoon&gt;&#34;
+	&#34;agwaasidoon&#34; VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;gaa-gii-pawa&#39;ang&gt;&#34;
+	&#34;bawa&#39;am&#34; PVSub/gaa PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	&#34;bawa&#39;an&#34; PVSub/gaa PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	&#34;bawa&#39;an&#34; PVSub/gaa PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	&#34;bawa&#39;am&#34; PVTense/gii PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	&#34;bawa&#39;am&#34; PVTense/gii PVTense/gii VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;manoominiwazh&gt;&#34;
+	&#34;manoominiwazh&#34; NI Sg
+&#34;&lt;odagwaasidoon&gt;&#34;
+	&#34;agwaasidoon&#34; VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;gaa-gii-pawa&#39;ang&gt;&#34;
+	&#34;bawa&#39;an&#34; PVSub/gaa PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#37
+    <span class="oj">Dibikong gii-kwanabibizowag niizh ininiwag. Bezhig gegaa gii'-nisaabaawe.</span><br>
+    <span class="en">Last night two men capsized (their motor boat). One nearly drowned.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;dibikong&gt;&#34;
+	&#34;dibikong&#34; ADVTmp
+&#34;&lt;gii-kwanabibizowag&gt;&#34;
+	&#34;gwanabibizo&#34; PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;niizh&gt;&#34;
+	&#34;niizh&#34; NUM
+&#34;&lt;ininiwag&gt;&#34;
+	&#34;inini&#34; NA ProxPl
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;bezhig&gt;&#34;
+	&#34;bezhig&#34; NUM
+&#34;&lt;gegaa&gt;&#34;
+	&#34;gegaa&#34; AVDDeg
+&#34;&lt;gii&#39;-nisaabaawe&gt;&#34;
+	&#34;nisaabaawe&#34; PVTense/gii&#39; VAI Ind Pos Neu 3SgProxSubj
+	&#34;nisaabaawe&#34; PVTense/gii&#39; VII Ind Pos Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;dibikong&gt;&#34;
+	&#34;dibikong&#34; ADVTmp
+&#34;&lt;gii-kwanabibizowag&gt;&#34;
+	&#34;gwanabibizo&#34; PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+&#34;&lt;niizh&gt;&#34;
+	&#34;niizh&#34; NUM
+&#34;&lt;ininiwag&gt;&#34;
+	&#34;inini&#34; NA ProxPl
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;bezhig&gt;&#34;
+	&#34;bezhig&#34; NUM
+&#34;&lt;gegaa&gt;&#34;
+	&#34;gegaa&#34; AVDDeg
+&#34;&lt;gii&#39;-nisaabaawe&gt;&#34;
+	&#34;nisaabaawe&#34; PVTense/gii&#39; VAI Ind Pos Neu 3SgProxSubj
+	&#34;nisaabaawe&#34; PVTense/gii&#39; VII Ind Pos Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#38
+    <span class="oj">Mooz animibatoo. Jiigaakwaang ani-apatoo.</span><br>
+    <span class="en">A moose is running away. He's running along the edge of the trees.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;mooz&gt;&#34;
+	&#34;moonz&#34; NA ProxSg
+	&#34;mooz&#34; NA ProxSg
+&#34;&lt;animibatoo&gt;&#34;
+	&#34;animibatoo&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;jiigaakwaang&gt;&#34;
+	&#34;jiigaakwaang&#34; ADVLoc
+&#34;&lt;ani-apatoo&gt;&#34;
+	&#34;apatoo&#34; PVDir/ani VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;mooz&gt;&#34;
+	&#34;moonz&#34; NA ProxSg
+	&#34;mooz&#34; NA ProxSg
+&#34;&lt;animibatoo&gt;&#34;
+	&#34;animibatoo&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;jiigaakwaang&gt;&#34;
+	&#34;jiigaakwaang&#34; ADVLoc
+&#34;&lt;ani-apatoo&gt;&#34;
+	&#34;apatoo&#34; PVDir/ani VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#39
+    <span class="oj">Mii zhigwa giizhiginogwen manoomin.</span><br>
+    <span class="en">The rice must be ripe now.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;mii&gt;&#34;
+	&#34;mii&#34; ADVPred
+&#34;&lt;zhigwa&gt;&#34;
+	&#34;zhigwa&#34; ADVTmp
+&#34;&lt;giizhiginogwen&gt;&#34;
+	&#34;giizhigin&#34; VII Cnj Pos Dub 0PlSubj
+	&#34;giizhigin&#34; VII Cnj Pos Dub 0SgSubj
+&#34;&lt;manoomin&gt;&#34;
+	&#34;manoomin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;mii&gt;&#34;
+	&#34;mii&#34; ADVPred
+&#34;&lt;zhigwa&gt;&#34;
+	&#34;zhigwa&#34; ADVTmp
+&#34;&lt;giizhiginogwen&gt;&#34;
+	&#34;giizhigin&#34; VII Cnj Pos Dub 0SgSubj
+&#34;&lt;manoomin&gt;&#34;
+	&#34;manoomin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#40
+    <span class="oj">Gego babaamenimaaken. Megwaa odaabaanike. Giga-wanishkwe'aa.</span><br>
+    <span class="en">Don't bother him. He's busy working on a car. You'll distract him.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;babaamenimaaken&gt;&#34;
+	&#34;babaamenim&#34; VTA Imp Prb 2SgSubj 3PlProxObj
+	&#34;babaamenim&#34; VTA Imp Prb 2SgSubj 3SgProxObj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;megwaa&gt;&#34;
+	&#34;megwaa&#34; ADVTmp
+&#34;&lt;odaabaanike&gt;&#34;
+	&#34;odaabaanike&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;giga-wanishkwe&#39;aa&gt;&#34;
+	&#34;wanishkwe&#39;&#34; PVTense/ga VTA Ind Pos Neu 2SgSubj 3SgProxObj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;babaamenimaaken&gt;&#34;
+	&#34;babaamenim&#34; VTA Imp Prb 2SgSubj 3PlProxObj
+	&#34;babaamenim&#34; VTA Imp Prb 2SgSubj 3SgProxObj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;megwaa&gt;&#34;
+	&#34;megwaa&#34; ADVTmp
+&#34;&lt;odaabaanike&gt;&#34;
+	&#34;odaabaanike&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;giga-wanishkwe&#39;aa&gt;&#34;
+	&#34;wanishkwe&#39;&#34; PVTense/ga VTA Ind Pos Neu 2SgSubj 3SgProxObj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#41
+    <span class="oj">Apane gaye ogikinoo'amawaan oozhisan.</span><br>
+    <span class="en">He teaches his grandchild all the time.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;apane&gt;&#34;
+	&#34;apane&#34; ADVTmp
+&#34;&lt;gaye&gt;&#34;
+	&#34;gaye&#34; ADVConj
+&#34;&lt;ogikinoo&#39;amawaan&gt;&#34;
+	&#34;gikinoo&#39;amaw&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;gikinoo&#39;amaw&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;oozhisan&gt;&#34;
+	&#34;oozhis&#34; NAD ObvPl 3SgProxPoss
+	&#34;oozhis&#34; NAD ObvSg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;apane&gt;&#34;
+	&#34;apane&#34; ADVTmp
+&#34;&lt;gaye&gt;&#34;
+	&#34;gaye&#34; ADVConj
+&#34;&lt;ogikinoo&#39;amawaan&gt;&#34;
+	&#34;gikinoo&#39;amaw&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;gikinoo&#39;amaw&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;oozhisan&gt;&#34;
+	&#34;oozhis&#34; NAD ObvPl 3SgProxPoss
+	&#34;oozhis&#34; NAD ObvSg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#42
+    <span class="oj">Niwii-amwaa aasamaakwa'igan.</span><br>
+    <span class="en">I'm going to eat bannock.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;niwii-amwaa&gt;&#34;
+	&#34;amo&#34; PVTense/wii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+	&#34;amwi&#34; PVTense/wii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;aasamaakwa&#39;igan&gt;&#34;
+	&#34;aasamaakwa&#39;igan&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;niwii-amwaa&gt;&#34;
+	&#34;amo&#34; PVTense/wii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+	&#34;amwi&#34; PVTense/wii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;aasamaakwa&#39;igan&gt;&#34;
+	&#34;aasamaakwa&#39;igan&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#43
+    <span class="oj">Ogii-chiikitaan i'iw nagamon gaa-onji-naabinootang.</span><br>
+    <span class="en">He really like that song and that's why he taped it.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ogii-chiikitaan&gt;&#34;
+	&#34;jiikitan&#34; PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;i&#39;iw&gt;&#34;
+	&#34;i&#39;iw&#34; PRONDem NI Sg
+&#34;&lt;nagamon&gt;&#34;
+	&#34;nagamo&#34; VAI Imp Sim 2SgSubj
+	&#34;nagamon&#34; NI Sg
+&#34;&lt;gaa-onji-naabinootang&gt;&#34;
+	&#34;naabinootan&#34; PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	&#34;naabinootan&#34; PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ogii-chiikitaan&gt;&#34;
+	&#34;jiikitan&#34; PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;i&#39;iw&gt;&#34;
+	&#34;i&#39;iw&#34; PRONDem NI Sg
+&#34;&lt;nagamon&gt;&#34;
+	&#34;nagamon&#34; NI Sg
+&#34;&lt;gaa-onji-naabinootang&gt;&#34;
+	&#34;naabinootan&#34; PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#44
+    <span class="oj">Ninaabinootaan owe dibaajimowin. Gaawiin niin nindoodaya'iimisiin.</span><br>
+    <span class="en">I'm passing on this story. It's not my own.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ninaabinootaan&gt;&#34;
+	&#34;naabinootan&#34; VTI Ind Pos Neu 1SgSubj 0SgObj
+&#34;&lt;owe&gt;&#34;
+	&#34;owe&#34; PRONDem NI Sg
+&#34;&lt;dibaajimowin&gt;&#34;
+	&#34;dibaajimowin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;niin&gt;&#34;
+	&#34;niin&#34; PRONPer NA 1Sg
+&#34;&lt;nindoodaya&#39;iimisiin&gt;&#34;
+	&#34;odaya&#39;iimi&#34; VAI Ind Neg Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ninaabinootaan&gt;&#34;
+	&#34;naabinootan&#34; VTI Ind Pos Neu 1SgSubj 0SgObj
+&#34;&lt;owe&gt;&#34;
+	&#34;owe&#34; PRONDem NI Sg
+&#34;&lt;dibaajimowin&gt;&#34;
+	&#34;dibaajimowin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;niin&gt;&#34;
+	&#34;niin&#34; PRONPer NA 1Sg
+&#34;&lt;nindoodaya&#39;iimisiin&gt;&#34;
+	&#34;odaya&#39;iimi&#34; VAI Ind Neg Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#45
+    <span class="oj">Ando-bakinasabiidaa.</span><br>
+    <span class="en">Let's go take the net out.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ando-bakinasabiidaa&gt;&#34;
+	&#34;bakinasabii&#34; PVLex/ando VAI Imp Del InclSubj
+	&#34;bakinasabii&#34; PVLex/ando VAI Imp Sim InclSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ando-bakinasabiidaa&gt;&#34;
+	&#34;bakinasabii&#34; PVLex/ando VAI Imp Del InclSubj
+	&#34;bakinasabii&#34; PVLex/ando VAI Imp Sim InclSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#46
+    <span class="oj">Bijiinag igo biidaabang giga-bakinasabiimin.</span><br>
+    <span class="en">We'll pull out our net as early as dawn.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;bijiinag&gt;&#34;
+	&#34;bijiinag&#34; ADVTmp
+&#34;&lt;igo&gt;&#34;
+	&#34;igo&#34; PCEmph
+&#34;&lt;biidaabang&gt;&#34;
+	&#34;biidaaban&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;biidaaban&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;giga-bakinasabiimin&gt;&#34;
+	&#34;bakinasabii&#34; PVTense/ga VAI Ind Pos Neu InclSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;bijiinag&gt;&#34;
+	&#34;bijiinag&#34; ADVTmp
+&#34;&lt;igo&gt;&#34;
+	&#34;igo&#34; PCEmph
+&#34;&lt;biidaabang&gt;&#34;
+	&#34;biidaaban&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;biidaaban&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;giga-bakinasabiimin&gt;&#34;
+	&#34;bakinasabii&#34; PVTense/ga VAI Ind Pos Neu InclSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#47
+    <span class="oj">Ogii-mikwaasenodawaawaan iniw makwan iwidi gii-inaatewebinigewaad.</span><br>
+    <span class="en">They spotted a bear in the light when they cast a light in that direction.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ogii-mikwaasenodawaawaan&gt;&#34;
+	&#34;mikwaasenodaw&#34; PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	&#34;mikwaasenodaw&#34; PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;makwan&gt;&#34;
+	&#34;makwa&#34; NA ObvPl
+	&#34;makwa&#34; NA ObvSg
+&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;gii-inaatewebinigewaad&gt;&#34;
+	&#34;inaatewebinige&#34; PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ogii-mikwaasenodawaawaan&gt;&#34;
+	&#34;mikwaasenodaw&#34; PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	&#34;mikwaasenodaw&#34; PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;makwan&gt;&#34;
+	&#34;makwa&#34; NA ObvPl
+	&#34;makwa&#34; NA ObvSg
+&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;gii-inaatewebinigewaad&gt;&#34;
+	&#34;inaatewebinige&#34; PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#48
+    <span class="oj">Niwii'-agwinjidoon nindabwewin ji-nookagwindeg gaa-gii-kabaachigaadeg imaa nindabwewining.</span><br>
+    <span class="en">I'm going to soak my frying pan so what was boiled in it (oatmeal) will soften up.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;niwii&#39;-agwinjidoon&gt;&#34;
+	&#34;agwinjidoon&#34; PVTense/wii&#39; VTI Ind Pos Neu 1SgSubj 0SgObj
+&#34;&lt;nindabwewin&gt;&#34;
+	&#34;abwewin&#34; NI Sg 1SgPoss
+&#34;&lt;ji-nookagwindeg&gt;&#34;
+	&#34;nookagwinde&#34; PVTense/daa VII Cnj Pos Neu 0SgSubj
+	&#34;nookagwinde&#34; PVTense/ga VII Cnj Pos Neu 0SgSubj
+	&#34;nookagwinde&#34; PVTense/daa VII Cnj Pos Neu 0PlSubj
+	&#34;nookagwinde&#34; PVTense/ga VII Cnj Pos Neu 0PlSubj
+&#34;&lt;gaa-gii-kabaachigaadeg&gt;&#34;
+	&#34;gabaachigaade&#34; PVSub/gaa PVTense/gii VII Cnj Pos Neu 0SgSubj
+	&#34;gabaachigaade&#34; PVSub/gaa PVTense/gii VII Cnj Pos Neu 0PlSubj
+	&#34;gabaachigaade&#34; PVTense/gii PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+&#34;&lt;imaa&gt;&#34;
+	&#34;imaa&#34; ADVLoc
+&#34;&lt;nindabwewining&gt;&#34;
+	&#34;abwewin&#34; NI Loc 1SgPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;niwii&#39;-agwinjidoon&gt;&#34;
+	&#34;agwinjidoon&#34; PVTense/wii&#39; VTI Ind Pos Neu 1SgSubj 0SgObj
+&#34;&lt;nindabwewin&gt;&#34;
+	&#34;abwewin&#34; NI Sg 1SgPoss
+&#34;&lt;ji-nookagwindeg&gt;&#34;
+	&#34;nookagwinde&#34; PVTense/daa VII Cnj Pos Neu 0SgSubj
+	&#34;nookagwinde&#34; PVTense/ga VII Cnj Pos Neu 0SgSubj
+&#34;&lt;gaa-gii-kabaachigaadeg&gt;&#34;
+	&#34;gabaachigaade&#34; PVSub/gaa PVTense/gii VII Cnj Pos Neu 0SgSubj
+	&#34;gabaachigaade&#34; PVTense/gii PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+&#34;&lt;imaa&gt;&#34;
+	&#34;imaa&#34; ADVLoc
+&#34;&lt;nindabwewining&gt;&#34;
+	&#34;abwewin&#34; NI Loc 1SgPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#49
+    <span class="oj">Gaawiin ganage gii-pi-izhaasiin.</span><br>
+    <span class="en">He really didn't come.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;ganage&gt;&#34;
+	&#34;ganage&#34; ADVMan
+&#34;&lt;gii-pi-izhaasiin&gt;&#34;
+	&#34;bi-izhaa&#34; PVTense/gii VAI Ind Neg Neu 3SgProxSubj
+	&#34;izhaa&#34; PVTense/gii PVDir/bi VAI Ind Neg Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;ganage&gt;&#34;
+	&#34;ganage&#34; ADVMan
+&#34;&lt;gii-pi-izhaasiin&gt;&#34;
+	&#34;bi-izhaa&#34; PVTense/gii VAI Ind Neg Neu 3SgProxSubj
+	&#34;izhaa&#34; PVTense/gii PVDir/bi VAI Ind Neg Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#50
+    <span class="oj">Wiinitwaa gaa-bezhigooged akiwenzii. Gaawiin nitaa-biinichigesii.</span><br>
+    <span class="en">The old bachelor has a dirty house. He doesn't know how to keep it clean.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;wiinitwaa&gt;&#34;
+	&#34;wiinitwaa&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;gaa-bezhigooged&gt;&#34;
+	&#34;bezhigooge&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;bezhigooge&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;akiwenzii&gt;&#34;
+	&#34;akiwenzii&#34; NA ProxSg
+	&#34;akiwenzii&#34; 
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;nitaa-biinichigesii&gt;&#34;
+	&#34;biinichige&#34; PVLex/nitaa VAI Ind Neg Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;wiinitwaa&gt;&#34;
+	&#34;wiinitwaa&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;gaa-bezhigooged&gt;&#34;
+	&#34;bezhigooge&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;bezhigooge&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;akiwenzii&gt;&#34;
+	&#34;akiwenzii&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;nitaa-biinichigesii&gt;&#34;
+	&#34;biinichige&#34; PVLex/nitaa VAI Ind Neg Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#51
+    <span class="oj">Minjimenim 'aw gidaangoshenh waa-tibishkang.</span><br>
+    <span class="en">Remember your sister-in-law is going to have a birthday.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;minjimenim&gt;&#34;
+	&#34;minjimenim&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;minjimenim&#34; VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;&#39;aw&gt;&#34;
+	&#34;&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;gidaangoshenh&gt;&#34;
+	&#34;daangosheny&#34; NAD ProxSg 2SgPoss
+&#34;&lt;waa-tibishkang&gt;&#34;
+	&#34;dibishkam&#34; PVTense/wii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	&#34;dibishkam&#34; PVTense/wii VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;minjimenim&gt;&#34;
+	&#34;minjimenim&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+&#34;&lt;&#39;aw&gt;&#34;
+	&#34;&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;gidaangoshenh&gt;&#34;
+	&#34;daangosheny&#34; NAD ProxSg 2SgPoss
+&#34;&lt;waa-tibishkang&gt;&#34;
+	&#34;dibishkam&#34; PVTense/wii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#52
+    <span class="oj">Wiidanokiim awedi inini iwidi endananokiid.</span><br>
+    <span class="en">Work with that man working over there.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;wiidanokiim&gt;&#34;
+	&#34;wiidanokiim&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;wiidanokiim&#34; VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;awedi&gt;&#34;
+	&#34;awedi&#34; PRONDem NA ProxSg
+&#34;&lt;inini&gt;&#34;
+	&#34;inini&#34; NA ProxSg
+&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;endananokiid&gt;&#34;
+	&#34;dananokii&#34; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;wiidanokiim&gt;&#34;
+	&#34;wiidanokiim&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+&#34;&lt;awedi&gt;&#34;
+	&#34;awedi&#34; PRONDem NA ProxSg
+&#34;&lt;inini&gt;&#34;
+	&#34;inini&#34; NA ProxSg
+&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;endananokiid&gt;&#34;
+	&#34;dananokii&#34; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#53
+    <span class="oj">Owiidanokiimaan iniwen ininiwan.</span><br>
+    <span class="en">He's working with that man.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;owiidanokiimaan&gt;&#34;
+	&#34;wiidanokiim&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;wiidanokiim&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniwen&gt;&#34;
+	&#34;iniwen&#34; PRONDem NI Pl
+	&#34;iniwen&#34; PRONDem NA ObvSg
+	&#34;iniwen&#34; PRONDem NA ObvPl
+&#34;&lt;ininiwan&gt;&#34;
+	&#34;inini&#34; NA ObvPl
+	&#34;inini&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;owiidanokiimaan&gt;&#34;
+	&#34;wiidanokiim&#34; VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;wiidanokiim&#34; VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;iniwen&gt;&#34;
+	&#34;iniwen&#34; PRONDem NA ObvSg
+	&#34;iniwen&#34; PRONDem NA ObvPl
+&#34;&lt;ininiwan&gt;&#34;
+	&#34;inini&#34; NA ObvPl
+	&#34;inini&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#54
+    <span class="oj">Aabitawagaam ningii'-izhi-naga'waa nimishoomis.</span><br>
+    <span class="en">I met my grandfather halfway down the lake.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;aabitawagaam&gt;&#34;
+	&#34;aabitawagaam&#34; ADVLoc
+&#34;&lt;ningii&#39;-izhi-naga&#39;waa&gt;&#34;
+	&#34;naga&#39;wi&#34; PVTense/gii&#39; PVRel/izhi VTA Ind Pos Neu 1SgSubj 3SgProxObj
+	&#34;naga&#39;&#34; PVTense/gii&#39; PVRel/izhi VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;nimishoomis&gt;&#34;
+	&#34;mishoomis&#34; NAD ProxSg 1SgPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;aabitawagaam&gt;&#34;
+	&#34;aabitawagaam&#34; ADVLoc
+&#34;&lt;ningii&#39;-izhi-naga&#39;waa&gt;&#34;
+	&#34;naga&#39;wi&#34; PVTense/gii&#39; PVRel/izhi VTA Ind Pos Neu 1SgSubj 3SgProxObj
+	&#34;naga&#39;&#34; PVTense/gii&#39; PVRel/izhi VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;nimishoomis&gt;&#34;
+	&#34;mishoomis&#34; NAD ProxSg 1SgPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#55
+    <span class="oj">Naagaj ina gidaa-bi-izhaa. Akawe niwii-manise.</span><br>
+    <span class="en">Can you come later? I'm going to cut some wood first.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;naagaj&gt;&#34;
+	&#34;naagaj&#34; ADVQnt
+&#34;&lt;ina&gt;&#34;
+	&#34;ina&#34; PCDisc
+&#34;&lt;gidaa-bi-izhaa&gt;&#34;
+	&#34;bi-izhaa&#34; PVTense/daa VAI Ind Pos Neu 2SgSubj
+	&#34;izhaa&#34; PVTense/daa PVDir/bi VAI Ind Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;akawe&gt;&#34;
+	&#34;akawe&#34; ADVTmp
+&#34;&lt;niwii-manise&gt;&#34;
+	&#34;manise&#34; PVTense/wii VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;naagaj&gt;&#34;
+	&#34;naagaj&#34; ADVQnt
+&#34;&lt;ina&gt;&#34;
+	&#34;ina&#34; PCDisc
+&#34;&lt;gidaa-bi-izhaa&gt;&#34;
+	&#34;bi-izhaa&#34; PVTense/daa VAI Ind Pos Neu 2SgSubj
+	&#34;izhaa&#34; PVTense/daa PVDir/bi VAI Ind Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;akawe&gt;&#34;
+	&#34;akawe&#34; ADVTmp
+&#34;&lt;niwii-manise&gt;&#34;
+	&#34;manise&#34; PVTense/wii VAI Ind Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#56
+    <span class="oj">Ogii-piimaskowebinaan iniw ishkwesa'iganan.</span><br>
+    <span class="en">He spun the top.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ogii-piimaskowebinaan&gt;&#34;
+	&#34;biimaskowebin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;biimaskowebin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	&#34;biimaskowebinan&#34; PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;ishkwesa&#39;iganan&gt;&#34;
+	&#34;ishkwesa&#39;igan&#34; NA ObvPl
+	&#34;ishkwesa&#39;igan&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ogii-piimaskowebinaan&gt;&#34;
+	&#34;biimaskowebin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;biimaskowebin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	&#34;biimaskowebinan&#34; PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;iniw&gt;&#34;
+	&#34;iniw&#34; PRONDem NI Pl
+	&#34;iniw&#34; PRONDem NA ObvSg
+	&#34;iniw&#34; PRONDem NA ObvPl
+&#34;&lt;ishkwesa&#39;iganan&gt;&#34;
+	&#34;ishkwesa&#39;igan&#34; NA ObvPl
+	&#34;ishkwesa&#39;igan&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#57
+    <span class="oj">Aaniin ekogamaag.</span><br>
+    <span class="en">How long is the lake?</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;aaniin&gt;&#34;
+	&#34;aaniin&#34; PCInterj
+	&#34;aaniin&#34; ADVInter
+&#34;&lt;ekogamaag&gt;&#34;
+	&#34;akogamaa&#34; VII Pcp Pos Neu 0SgSubj 0SgHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;aaniin&gt;&#34;
+	&#34;aaniin&#34; ADVInter
+&#34;&lt;ekogamaag&gt;&#34;
+	&#34;akogamaa&#34; VII Pcp Pos Neu 0SgSubj 0SgHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#58
+    <span class="oj">Odaanimi'igon wiibid.</span><br>
+    <span class="en">His tooth is bothering him.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;odaanimi&#39;igon&gt;&#34;
+	&#34;aanimi&#39;&#34; VTA Ind Pos Neu 0SgSubj 3SgProxObj
+	&#34;aanimi&#39;&#34; VTA Ind Pos Neu 0SgSubj 3SgObvObj
+&#34;&lt;wiibid&gt;&#34;
+	&#34;iibid&#34; NID Sg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;odaanimi&#39;igon&gt;&#34;
+	&#34;aanimi&#39;&#34; VTA Ind Pos Neu 0SgSubj 3SgProxObj
+	&#34;aanimi&#39;&#34; VTA Ind Pos Neu 0SgSubj 3SgObvObj
+&#34;&lt;wiibid&gt;&#34;
+	&#34;iibid&#34; NID Sg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#59
+    <span class="oj">Madwesidoon zhinawa'oojigan.</span><br>
+    <span class="en">Ring the bell.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;madwesidoon&gt;&#34;
+	&#34;madwesidoon&#34; VTI Imp Sim 2SgSubj 0PlObj
+	&#34;madwesidoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;zhinawa&#39;oojigan&gt;&#34;
+	&#34;zhinawa&#39;oojigan&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;madwesidoon&gt;&#34;
+	&#34;madwesidoon&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;zhinawa&#39;oojigan&gt;&#34;
+	&#34;zhinawa&#39;oojigan&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#60
+    <span class="oj">Ondaashaan omaa bi-izhaan, nindig nookomis.</span><br>
+    <span class="en">Come here, my grandmother said to me.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ondaashaan&gt;&#34;
+	&#34;ondaashaan&#34; PCDisc
+&#34;&lt;omaa&gt;&#34;
+	&#34;omaa&#34; ADVLoc
+&#34;&lt;bi-izhaan&gt;&#34;
+	&#34;bi-izhaa&#34; VAI Imp Sim 2SgSubj
+	&#34;izhaa&#34; PVDir/bi VAI Imp Sim 2SgSubj
+&#34;&lt;,&gt;&#34;
+
+&#34;&lt;nindig&gt;&#34;
+	&#34;izhi&#34; VTA Ind Pos Neu 3SgProxSubj 1SgObj
+&#34;&lt;nookomis&gt;&#34;
+	&#34;ookomis&#34; NAD ProxSg 1SgPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ondaashaan&gt;&#34;
+	&#34;ondaashaan&#34; PCDisc
+&#34;&lt;omaa&gt;&#34;
+	&#34;omaa&#34; ADVLoc
+&#34;&lt;bi-izhaan&gt;&#34;
+	&#34;bi-izhaa&#34; VAI Imp Sim 2SgSubj
+	&#34;izhaa&#34; PVDir/bi VAI Imp Sim 2SgSubj
+&#34;&lt;,&gt;&#34;
+&#34;&lt;nindig&gt;&#34;
+	&#34;izhi&#34; VTA Ind Pos Neu 3SgProxSubj 1SgObj
+&#34;&lt;nookomis&gt;&#34;
+	&#34;ookomis&#34; NAD ProxSg 1SgPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#61
+    <span class="oj">Naaweg bagiwaanegamig onji-onjigaa .</span><br>
+    <span class="en">There's a leak in the middle of the tent.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;naaweg&gt;&#34;
+	&#34;naaweg&#34; ADVLoc
+&#34;&lt;bagiwaanegamig&gt;&#34;
+	&#34;bagiwaanegamig&#34; NI Sg
+&#34;&lt;onji-onjigaa&gt;&#34;
+	&#34;onjigaa&#34; PVRel/onji VAI Ind Pos Neu 3SgProxSubj
+	&#34;onjigaa&#34; PVRel/onji VII Ind Pos Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;naaweg&gt;&#34;
+	&#34;naaweg&#34; ADVLoc
+&#34;&lt;bagiwaanegamig&gt;&#34;
+	&#34;bagiwaanegamig&#34; NI Sg
+&#34;&lt;onji-onjigaa&gt;&#34;
+	&#34;onjigaa&#34; PVRel/onji VII Ind Pos Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#62
+    <span class="oj">Manidoo-giizisoons gii-oshkagoojin awasi-dibikong.</span><br>
+    <span class="en">It was the new moon of January the other night.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;manidoo-giizisoons&gt;&#34;
+	&#34;manidoo-giizisoons&#34; NA ProxSg
+	&#34;manidoo-giizis&#34; NA Dim ProxSg
+&#34;&lt;gii-oshkagoojin&gt;&#34;
+	&#34;oshkagoojin&#34; PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;awasi-dibikong&gt;&#34;
+	&#34;dibikong&#34; PVLex/awasi ADVTmp
+	&#34;awasi-dibikong&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;manidoo-giizisoons&gt;&#34;
+	&#34;manidoo-giizisoons&#34; NA ProxSg
+	&#34;manidoo-giizis&#34; NA Dim ProxSg
+&#34;&lt;gii-oshkagoojin&gt;&#34;
+	&#34;oshkagoojin&#34; PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;awasi-dibikong&gt;&#34;
+	&#34;dibikong&#34; PVLex/awasi ADVTmp
+	&#34;awasi-dibikong&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#63
+    <span class="oj">Awasi-dibikong gii'-madwe-zaaga'am aakoziiwigamigong.</span><br>
+    <span class="en">I heard that he come out of the hospital two nights ago.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;awasi-dibikong&gt;&#34;
+	&#34;dibikong&#34; PVLex/awasi ADVTmp
+	&#34;awasi-dibikong&#34; ADVTmp
+&#34;&lt;gii&#39;-madwe-zaaga&#39;am&gt;&#34;
+	&#34;zaaga&#39;am&#34; PVTense/gii&#39; PVLex/madwe VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;aakoziiwigamigong&gt;&#34;
+	&#34;aakoziiwigamig&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;awasi-dibikong&gt;&#34;
+	&#34;dibikong&#34; PVLex/awasi ADVTmp
+	&#34;awasi-dibikong&#34; ADVTmp
+&#34;&lt;gii&#39;-madwe-zaaga&#39;am&gt;&#34;
+	&#34;zaaga&#39;am&#34; PVTense/gii&#39; PVLex/madwe VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;aakoziiwigamigong&gt;&#34;
+	&#34;aakoziiwigamig&#34; NI Loc
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#64
+    <span class="oj">Giinitamawind ina giga-o-bawa'aamin manoomin.</span><br>
+    <span class="en">Is it our turn to go knock rice?</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;giinitamawind&gt;&#34;
+	&#34;giinitamawind&#34; PRONPer NA Incl
+&#34;&lt;ina&gt;&#34;
+	&#34;ina&#34; PCDisc
+&#34;&lt;giga-o-bawa&#39;aamin&gt;&#34;
+	&#34;bawa&#39;an&#34; PVTense/ga PVDir/o VTI Ind Pos Neu InclSubj 0PlObj
+	&#34;bawa&#39;an&#34; PVTense/ga PVDir/o VTI Ind Pos Neu InclSubj 0SgObj
+	&#34;bawa&#39;am&#34; PVTense/ga PVDir/o VAI Ind Pos Neu InclSubj
+&#34;&lt;manoomin&gt;&#34;
+	&#34;manoomin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;giinitamawind&gt;&#34;
+	&#34;giinitamawind&#34; PRONPer NA Incl
+&#34;&lt;ina&gt;&#34;
+	&#34;ina&#34; PCDisc
+&#34;&lt;giga-o-bawa&#39;aamin&gt;&#34;
+	&#34;bawa&#39;an&#34; PVTense/ga PVDir/o VTI Ind Pos Neu InclSubj 0SgObj
+&#34;&lt;manoomin&gt;&#34;
+	&#34;manoomin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#65
+    <span class="oj">Giinitamawind gidigoomin ji-gaagiigidoyang.</span><br>
+    <span class="en">They're telling us it's our turn to talk.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;giinitamawind&gt;&#34;
+	&#34;giinitamawind&#34; PRONPer NA Incl
+&#34;&lt;gidigoomin&gt;&#34;
+	&#34;izhi&#34; VTA Ind Pos Neu XSubj InclObj
+&#34;&lt;ji-gaagiigidoyang&gt;&#34;
+	&#34;gaagiigido&#34; PVTense/daa VAI Cnj Pos Neu InclSubj
+	&#34;gaagiigido&#34; PVTense/ga VAI Cnj Pos Neu InclSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;giinitamawind&gt;&#34;
+	&#34;giinitamawind&#34; PRONPer NA Incl
+&#34;&lt;gidigoomin&gt;&#34;
+	&#34;izhi&#34; VTA Ind Pos Neu XSubj InclObj
+&#34;&lt;ji-gaagiigidoyang&gt;&#34;
+	&#34;gaagiigido&#34; PVTense/daa VAI Cnj Pos Neu InclSubj
+	&#34;gaagiigido&#34; PVTense/ga VAI Cnj Pos Neu InclSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#66
+    <span class="oj">Naawaakigan ogii-sagamigoon ezigaan.</span><br>
+    <span class="en">A wood tick bit him in the middle of the chest.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;naawaakigan&gt;&#34;
+	&#34;naawaakigan&#34; ADVLoc
+&#34;&lt;ogii-sagamigoon&gt;&#34;
+	&#34;zagam&#34; PVTense/gii VTA Ind Pos Neu 3PlObvSubj 3SgProxObj
+	&#34;zagam&#34; PVTense/gii VTA Ind Pos Neu 3SgObvSubj 3SgProxObj
+&#34;&lt;ezigaan&gt;&#34;
+	&#34;ezigaa&#34; NA ObvPl
+	&#34;ezigaa&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;naawaakigan&gt;&#34;
+	&#34;naawaakigan&#34; ADVLoc
+&#34;&lt;ogii-sagamigoon&gt;&#34;
+	&#34;zagam&#34; PVTense/gii VTA Ind Pos Neu 3PlObvSubj 3SgProxObj
+	&#34;zagam&#34; PVTense/gii VTA Ind Pos Neu 3SgObvSubj 3SgProxObj
+&#34;&lt;ezigaan&gt;&#34;
+	&#34;ezigaa&#34; NA ObvPl
+	&#34;ezigaa&#34; NA ObvSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#67
+    <span class="oj">Megwaa bimosed a'aw inini gaa-izhi-gawised.</span><br>
+    <span class="en">When that man was walking he fell down.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;megwaa&gt;&#34;
+	&#34;megwaa&#34; ADVTmp
+&#34;&lt;bimosed&gt;&#34;
+	&#34;bimose&#34; VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;a&#39;aw&gt;&#34;
+	&#34;a&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;inini&gt;&#34;
+	&#34;inini&#34; NA ProxSg
+&#34;&lt;gaa-izhi-gawised&gt;&#34;
+	&#34;gawise&#34; PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 3SgProxSubj
+	&#34;gawise&#34; PVTense/gii PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;megwaa&gt;&#34;
+	&#34;megwaa&#34; ADVTmp
+&#34;&lt;bimosed&gt;&#34;
+	&#34;bimose&#34; VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;a&#39;aw&gt;&#34;
+	&#34;a&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;inini&gt;&#34;
+	&#34;inini&#34; NA ProxSg
+&#34;&lt;gaa-izhi-gawised&gt;&#34;
+	&#34;gawise&#34; PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 3SgProxSubj
+	&#34;gawise&#34; PVTense/gii PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#68
+    <span class="oj">Ningaabii'anong inagakeyaa ogii-ina'anaan oosan.</span><br>
+    <span class="en">He tracked his father toward the west.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ningaabii&#39;anong&gt;&#34;
+	&#34;ningaabii&#39;an&#34; NI Loc
+	&#34;ningaabii&#39;anong&#34; ADVLoc
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;ogii-ina&#39;anaan&gt;&#34;
+	&#34;ina&#39;azh&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;ina&#39;azh&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;oosan&gt;&#34;
+	&#34;oos&#34; NAD ObvPl 3SgProxPoss
+	&#34;oos&#34; NAD ObvSg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ningaabii&#39;anong&gt;&#34;
+	&#34;ningaabii&#39;anong&#34; ADVLoc
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;ogii-ina&#39;anaan&gt;&#34;
+	&#34;ina&#39;azh&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;ina&#39;azh&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;oosan&gt;&#34;
+	&#34;oos&#34; NAD ObvPl 3SgProxPoss
+	&#34;oos&#34; NAD ObvSg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#69
+    <span class="oj">Iwidi inagakeyaa izhiwizh.</span><br>
+    <span class="en">Take him in that direction.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;izhiwizh&gt;&#34;
+	&#34;izhiwizh&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;izhiwizh&#34; VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;iwidi&gt;&#34;
+	&#34;iwidi&#34; ADVLoc
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;izhiwizh&gt;&#34;
+	&#34;izhiwizh&#34; VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;izhiwizh&#34; VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#70
+    <span class="oj">O'owe inagakeyaa gidaa-inagoodoon ni-waabanjigaadegiban.</span><br>
+    <span class="en">You should hang it this way so it will be visible.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;o&#39;owe&gt;&#34;
+	&#34;o&#39;owe&#34; PRONDem NI Sg
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;gidaa-inagoodoon&gt;&#34;
+	&#34;inagoodoon&#34; PVTense/daa VTI Ind Pos Neu 2SgSubj 0SgObj
+&#34;&lt;ni-waabanjigaadegiban&gt;&#34;
+	&#34;waabanjigaade&#34; PVDir/ni VII Cnj Pos Prt 0PlSubj
+	&#34;waabanjigaade&#34; PVDir/ni VII Cnj Pos Prt 0SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;o&#39;owe&gt;&#34;
+	&#34;o&#39;owe&#34; PRONDem NI Sg
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;gidaa-inagoodoon&gt;&#34;
+	&#34;inagoodoon&#34; PVTense/daa VTI Ind Pos Neu 2SgSubj 0SgObj
+&#34;&lt;ni-waabanjigaadegiban&gt;&#34;
+	&#34;waabanjigaade&#34; PVDir/ni VII Cnj Pos Prt 0SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#71
+    <span class="oj">Awegwen igo gaa-mamadwetood agwajiing dibikong.</span><br>
+    <span class="en">I wonder who was making that noise outside last night.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;awegwen&gt;&#34;
+	&#34;awegwen&#34; PRONDub NA ProxSg
+&#34;&lt;igo&gt;&#34;
+	&#34;igo&#34; PCEmph
+&#34;&lt;gaa-mamadwetood&gt;&#34;
+	&#34;mamadwetoo&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;mamadwetoo&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;agwajiing&gt;&#34;
+	&#34;agwajiing&#34; ADVLoc
+&#34;&lt;dibikong&gt;&#34;
+	&#34;dibikong&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;awegwen&gt;&#34;
+	&#34;awegwen&#34; PRONDub NA ProxSg
+&#34;&lt;igo&gt;&#34;
+	&#34;igo&#34; PCEmph
+&#34;&lt;gaa-mamadwetood&gt;&#34;
+	&#34;mamadwetoo&#34; PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	&#34;mamadwetoo&#34; PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;agwajiing&gt;&#34;
+	&#34;agwajiing&#34; ADVLoc
+&#34;&lt;dibikong&gt;&#34;
+	&#34;dibikong&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#72
+    <span class="oj">Gashkaabika'an gimiikana gaa-bi-onji-zaagijibizoyan.</span><br>
+    <span class="en">Lock the gate on your driveway you just came out of.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gashkaabika&#39;an&gt;&#34;
+	&#34;gashkaabika&#39;an&#34; VTI Imp Sim 2SgSubj 0PlObj
+	&#34;gashkaabika&#39;an&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;gimiikana&gt;&#34;
+	&#34;miikana&#34; NI Sg 2SgPoss
+&#34;&lt;gaa-bi-onji-zaagijibizoyan&gt;&#34;
+	&#34;zaagijibizo&#34; PVSub/gaa PVDir/bi PVRel/onji VAI Cnj Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gashkaabika&#39;an&gt;&#34;
+	&#34;gashkaabika&#39;an&#34; VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;gimiikana&gt;&#34;
+	&#34;miikana&#34; NI Sg 2SgPoss
+&#34;&lt;gaa-bi-onji-zaagijibizoyan&gt;&#34;
+	&#34;zaagijibizo&#34; PVSub/gaa PVDir/bi PVRel/onji VAI Cnj Pos Neu 2SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#73
+    <span class="oj">Ogii-chekibiinaan obakwezhigaansiman ji-nookaabaawenid.</span><br>
+    <span class="en">She dunked her cookie to soften it.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ogii-chekibiinaan&gt;&#34;
+	&#34;jekibiin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;jekibiin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	&#34;jekibiinan&#34; PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;obakwezhigaansiman&gt;&#34;
+	&#34;bakwezhigan&#34; NA Dim Poss ObvSg 3SgProxPoss
+	&#34;bakwezhigan&#34; NA Dim Poss ObvPl 3SgProxPoss
+	&#34;bakwezhigaans&#34; NA Poss ObvSg 3SgProxPoss
+	&#34;bakwezhigaans&#34; NA Poss ObvPl 3SgProxPoss
+&#34;&lt;ji-nookaabaawenid&gt;&#34;
+	&#34;nookaabaawe&#34; PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nookaabaawe&#34; PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nookaabaawe&#34; PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	&#34;nookaabaawe&#34; PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ogii-chekibiinaan&gt;&#34;
+	&#34;jekibiin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;jekibiin&#34; PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	&#34;jekibiinan&#34; PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;obakwezhigaansiman&gt;&#34;
+	&#34;bakwezhigan&#34; NA Dim Poss ObvSg 3SgProxPoss
+	&#34;bakwezhigan&#34; NA Dim Poss ObvPl 3SgProxPoss
+	&#34;bakwezhigaans&#34; NA Poss ObvSg 3SgProxPoss
+	&#34;bakwezhigaans&#34; NA Poss ObvPl 3SgProxPoss
+&#34;&lt;ji-nookaabaawenid&gt;&#34;
+	&#34;nookaabaawe&#34; PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nookaabaawe&#34; PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	&#34;nookaabaawe&#34; PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	&#34;nookaabaawe&#34; PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#74
+    <span class="oj">Gii-kwiinawi-inendam gii-pi-wiindamawind gichi-aakozinid ookomisan.</span><br>
+    <span class="en">He didn't know what to think when they came and told him his grandmother was very ill.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gii-kwiinawi-inendam&gt;&#34;
+	&#34;gwiinawi-inendam&#34; PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+	&#34;inendam&#34; PVTense/gii PVLex/gwiinawi VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;gii-pi-wiindamawind&gt;&#34;
+	&#34;wiindamaw&#34; PVTense/gii PVDir/bi VTA Cnj Pos Neu XSubj 3SgProxObj
+&#34;&lt;gichi-aakozinid&gt;&#34;
+	&#34;aakozi&#34; PVLex/gichi VAI Cnj Pos Neu 3PlObvSubj
+	&#34;aakozi&#34; PVLex/gichi VAI Cnj Pos Neu 3SgObvSubj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 0PlObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 0PlObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 3PlProxObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 3PlProxObj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj
+	&#34;aakozin&#34; PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj
+&#34;&lt;ookomisan&gt;&#34;
+	&#34;ookomis&#34; NAD ObvPl 3SgProxPoss
+	&#34;ookomis&#34; NAD ObvSg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gii-kwiinawi-inendam&gt;&#34;
+	&#34;gwiinawi-inendam&#34; PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+	&#34;inendam&#34; PVTense/gii PVLex/gwiinawi VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;gii-pi-wiindamawind&gt;&#34;
+	&#34;wiindamaw&#34; PVTense/gii PVDir/bi VTA Cnj Pos Neu XSubj 3SgProxObj
+&#34;&lt;gichi-aakozinid&gt;&#34;
+	&#34;aakozi&#34; PVLex/gichi VAI Cnj Pos Neu 3PlObvSubj
+	&#34;aakozi&#34; PVLex/gichi VAI Cnj Pos Neu 3SgObvSubj
+&#34;&lt;ookomisan&gt;&#34;
+	&#34;ookomis&#34; NAD ObvPl 3SgProxPoss
+	&#34;ookomis&#34; NAD ObvSg 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#75
+    <span class="oj">Aakoziyaan naa gaa-izhi-wiisagaapineyaan.</span><br>
+    <span class="en">I was sick and it just hurt.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;aakoziyaan&gt;&#34;
+	&#34;aakozi&#34; VAI Cnj Pos Neu 1SgSubj
+	&#34;aakozin&#34; VAIO Cnj Pos Neu 1SgSubj 0PlObj
+	&#34;aakozin&#34; VAIO Cnj Pos Neu 1SgSubj 0SgObj
+	&#34;aakozin&#34; VAIO Cnj Pos Neu 1SgSubj 3SgProxObj
+	&#34;aakozin&#34; VAIO Cnj Pos Neu 1SgSubj 3PlProxObj
+	&#34;aakozin&#34; VAIO Cnj Pos Neu 1SgSubj
+&#34;&lt;naa&gt;&#34;
+	&#34;naa&#34; PCEmph
+&#34;&lt;gaa-izhi-wiisagaapineyaan&gt;&#34;
+	&#34;wiisagaapine&#34; PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;aakoziyaan&gt;&#34;
+	&#34;aakozi&#34; VAI Cnj Pos Neu 1SgSubj
+&#34;&lt;naa&gt;&#34;
+	&#34;naa&#34; PCEmph
+&#34;&lt;gaa-izhi-wiisagaapineyaan&gt;&#34;
+	&#34;wiisagaapine&#34; PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#76
+    <span class="oj">Jiigi-gizhaabikizigan onji-baasan gidazhiganan.</span><br>
+    <span class="en">Dry your socks near the stove.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;jiigi-gizhaabikizigan&gt;&#34;
+	&#34;gizhaabikizigan&#34; PNLex/jiigi NI Sg
+	&#34;jiigi-gizhaabikizigan&#34; ADVLoc
+&#34;&lt;onji-baasan&gt;&#34;
+	&#34;baasan&#34; PVRel/onji VTI Imp Sim 2SgSubj 0PlObj
+	&#34;baasan&#34; PVRel/onji VTI Imp Sim 2SgSubj 0SgObj
+&#34;&lt;gidazhiganan&gt;&#34;
+	&#34;azhigan&#34; NI Pl 2SgPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;jiigi-gizhaabikizigan&gt;&#34;
+	&#34;jiigi-gizhaabikizigan&#34; ADVLoc
+&#34;&lt;onji-baasan&gt;&#34;
+	&#34;baasan&#34; PVRel/onji VTI Imp Sim 2SgSubj 0PlObj
+&#34;&lt;gidazhiganan&gt;&#34;
+	&#34;azhigan&#34; NI Pl 2SgPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#77
+    <span class="oj">Jiigi-aasamisag ate nibewin.</span><br>
+    <span class="en">There's a bed next to the wall.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;jiigi-aasamisag&gt;&#34;
+	&#34;aasamisag&#34; PNLex/jiigi NI Sg
+	&#34;jiigi-aasamisag&#34; ADVLoc
+&#34;&lt;ate&gt;&#34;
+	&#34;ate&#34; VII Ind Pos Neu 0SgSubj
+&#34;&lt;nibewin&gt;&#34;
+	&#34;nibewin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;jiigi-aasamisag&gt;&#34;
+	&#34;jiigi-aasamisag&#34; ADVLoc
+&#34;&lt;ate&gt;&#34;
+	&#34;ate&#34; VII Ind Pos Neu 0SgSubj
+&#34;&lt;nibewin&gt;&#34;
+	&#34;nibewin&#34; NI Sg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#78
+    <span class="oj">Miikanaang izhi-wanii'amaw amik.</span><br>
+    <span class="en">Set your trap for a beaver on its trail.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;miikanaang&gt;&#34;
+	&#34;miikana&#34; NI Loc
+&#34;&lt;izhi-wanii&#39;amaw&gt;&#34;
+	&#34;wanii&#39;amaw&#34; PVRel/izhi VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;wanii&#39;amaw&#34; PVRel/izhi VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;amik&gt;&#34;
+	&#34;amik&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;miikanaang&gt;&#34;
+	&#34;miikana&#34; NI Loc
+&#34;&lt;izhi-wanii&#39;amaw&gt;&#34;
+	&#34;wanii&#39;amaw&#34; PVRel/izhi VTA Imp Sim 2SgSubj 3SgProxObj
+&#34;&lt;amik&gt;&#34;
+	&#34;amik&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#79
+    <span class="oj">Obi-zaagidoomaan ogwizisensan. Dikinaaganing dakobizowan.</span><br>
+    <span class="en">He came out carrying his little son on his back in a cradle board.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;obi-zaagidoomaan&gt;&#34;
+	&#34;zaagidoom&#34; PVDir/bi VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;zaagidoom&#34; PVDir/bi VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;ogwizisensan&gt;&#34;
+	&#34;gwizis&#34; NAD Dim ObvSg 3SgProxPoss
+	&#34;gwizis&#34; NAD Dim ObvPl 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;dikinaaganing&gt;&#34;
+	&#34;dikinaagan&#34; NI Loc
+&#34;&lt;dakobizowan&gt;&#34;
+	&#34;dakobizo&#34; VAI Ind Pos Neu 3PlObvSubj
+	&#34;dakobizo&#34; VAI Ind Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;obi-zaagidoomaan&gt;&#34;
+	&#34;zaagidoom&#34; PVDir/bi VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	&#34;zaagidoom&#34; PVDir/bi VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+&#34;&lt;ogwizisensan&gt;&#34;
+	&#34;gwizis&#34; NAD Dim ObvSg 3SgProxPoss
+	&#34;gwizis&#34; NAD Dim ObvPl 3SgProxPoss
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;dikinaaganing&gt;&#34;
+	&#34;dikinaagan&#34; NI Loc
+&#34;&lt;dakobizowan&gt;&#34;
+	&#34;dakobizo&#34; VAI Ind Pos Neu 3PlObvSubj
+	&#34;dakobizo&#34; VAI Ind Pos Neu 3SgObvSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#80
+    <span class="oj">Gaawiin minwamanji'osii gaa-onji-nanaandomod.</span><br>
+    <span class="en">He didn't feel good; that's why he went for treatment.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;minwamanji&#39;osii&gt;&#34;
+	&#34;minwamanji&#39;o&#34; VAI Ind Neg Neu 3SgProxSubj
+&#34;&lt;gaa-onji-nanaandomod&gt;&#34;
+	&#34;nanaandomo&#34; PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+	&#34;nanaandomo&#34; PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;minwamanji&#39;osii&gt;&#34;
+	&#34;minwamanji&#39;o&#34; VAI Ind Neg Neu 3SgProxSubj
+&#34;&lt;gaa-onji-nanaandomod&gt;&#34;
+	&#34;nanaandomo&#34; PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+	&#34;nanaandomo&#34; PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#81
+    <span class="oj">Zhooniyaa nindayaawaa nizhooniyaa-mashkimodaang.</span><br>
+    <span class="en">I have money in my wallet</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;zhooniyaa&gt;&#34;
+	&#34;zhooniyaa&#34; NA ProxSg
+	&#34;zhooniyaa&#34; NI Sg
+&#34;&lt;nindayaawaa&gt;&#34;
+	&#34;ayaaw&#34; VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;nizhooniyaa-mashkimodaang&gt;&#34;
+	&#34;zhooniyaa-mashkimod&#34; NI Loc 1SgPoss
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;zhooniyaa&gt;&#34;
+	&#34;zhooniyaa&#34; NA ProxSg
+&#34;&lt;nindayaawaa&gt;&#34;
+	&#34;ayaaw&#34; VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;nizhooniyaa-mashkimodaang&gt;&#34;
+	&#34;zhooniyaa-mashkimod&#34; NI Loc 1SgPoss
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#82
+    <span class="oj">Gaawiin aapiji ogikendanziin omiikana gaa-onji-wanibizod.</span><br>
+    <span class="en">He didn't know his road --  that's why he got lost.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;aapiji&gt;&#34;
+	&#34;aapiji&#34; AVDDeg
+&#34;&lt;ogikendanziin&gt;&#34;
+	&#34;gikendan&#34; VTI Ind Neg Neu 3SgProxSubj 0SgObj
+&#34;&lt;omiikana&gt;&#34;
+	&#34;miikana&#34; NI Sg 3SgProxPoss
+&#34;&lt;gaa-onji-wanibizod&gt;&#34;
+	&#34;wanibizo&#34; PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+	&#34;wanibizo&#34; PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;aapiji&gt;&#34;
+	&#34;aapiji&#34; AVDDeg
+&#34;&lt;ogikendanziin&gt;&#34;
+	&#34;gikendan&#34; VTI Ind Neg Neu 3SgProxSubj 0SgObj
+&#34;&lt;omiikana&gt;&#34;
+	&#34;miikana&#34; NI Sg 3SgProxPoss
+&#34;&lt;gaa-onji-wanibizod&gt;&#34;
+	&#34;wanibizo&#34; PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+	&#34;wanibizo&#34; PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#83
+    <span class="oj">Gego memwech wiindamawaaken. Aazha ogikendaan waa'-izhichiged.</span><br>
+    <span class="en">You don't have to tell him. He already knows what to do.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;memwech&gt;&#34;
+	&#34;memwech&#34; ADVMan
+&#34;&lt;wiindamawaaken&gt;&#34;
+	&#34;wiindamaw&#34; VTA Imp Prb 2SgSubj 3PlProxObj
+	&#34;wiindamaw&#34; VTA Imp Prb 2SgSubj 3SgProxObj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;aazha&gt;&#34;
+	&#34;aazha&#34; ADVTmp
+&#34;&lt;ogikendaan&gt;&#34;
+	&#34;gikendan&#34; VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;waa&#39;-izhichiged&gt;&#34;
+	&#34;izhichige&#34; PVTense/wii&#39; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;memwech&gt;&#34;
+	&#34;memwech&#34; ADVMan
+&#34;&lt;wiindamawaaken&gt;&#34;
+	&#34;wiindamaw&#34; VTA Imp Prb 2SgSubj 3PlProxObj
+	&#34;wiindamaw&#34; VTA Imp Prb 2SgSubj 3SgProxObj
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;aazha&gt;&#34;
+	&#34;aazha&#34; ADVTmp
+&#34;&lt;ogikendaan&gt;&#34;
+	&#34;gikendan&#34; VTI Ind Pos Neu 3SgProxSubj 0SgObj
+&#34;&lt;waa&#39;-izhichiged&gt;&#34;
+	&#34;izhichige&#34; PVTense/wii&#39; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#84
+    <span class="oj">Ogiji-nibewin daningwaamo bizhiins.</span><br>
+    <span class="en">A cat is sleeping on the bed.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ogiji-nibewin&gt;&#34;
+	&#34;nibewin&#34; PNLex/ogiji NI Sg
+	&#34;ogiji-nibewin&#34; ADVLoc
+&#34;&lt;daningwaamo&gt;&#34;
+	&#34;daningwaamo&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;bizhiins&gt;&#34;
+	&#34;bizhiins&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ogiji-nibewin&gt;&#34;
+	&#34;ogiji-nibewin&#34; ADVLoc
+&#34;&lt;daningwaamo&gt;&#34;
+	&#34;daningwaamo&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;bizhiins&gt;&#34;
+	&#34;bizhiins&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#85
+    <span class="oj">Giiyaabi na ishpi-giizhigadinig gii-oninamaad.</span><br>
+    <span class="en">Was it still daylight when he got ready for bed?</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;giiyaabi&gt;&#34;
+	&#34;giiyaabi&#34; ADVTmp
+&#34;&lt;na&gt;&#34;
+	&#34;na&#34; PCDisc
+&#34;&lt;ishpi-giizhigadinig&gt;&#34;
+	&#34;giizhigad&#34; PVLex/ishpi VII Cnj Pos Neu 0PlObvSubj
+	&#34;giizhigad&#34; PVLex/ishpi VII Cnj Pos Neu 0SgObvSubj
+&#34;&lt;gii-oninamaad&gt;&#34;
+	&#34;oninamaa&#34; PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;giiyaabi&gt;&#34;
+	&#34;giiyaabi&#34; ADVTmp
+&#34;&lt;na&gt;&#34;
+	&#34;na&#34; PCDisc
+&#34;&lt;ishpi-giizhigadinig&gt;&#34;
+	&#34;giizhigad&#34; PVLex/ishpi VII Cnj Pos Neu 0PlObvSubj
+	&#34;giizhigad&#34; PVLex/ishpi VII Cnj Pos Neu 0SgObvSubj
+&#34;&lt;gii-oninamaad&gt;&#34;
+	&#34;oninamaa&#34; PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#86
+    <span class="oj">Nisawi-waakaa'igan ningii'-waabamaag oshkinaweg dazhi-zagaswaawaad.</span><br>
+    <span class="en">I saw a teenagers smoking in the alley.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;nisawi-waakaa&#39;igan&gt;&#34;
+	&#34;waakaa&#39;igan&#34; PNLex/nisawi NI Sg
+	&#34;nisawi-waakaa&#39;igan&#34; ADVLoc
+&#34;&lt;ningii&#39;-waabamaag&gt;&#34;
+	&#34;waabam&#34; PVTense/gii&#39; VTA Ind Pos Neu 1SgSubj 3PlProxObj
+&#34;&lt;oshkinaweg&gt;&#34;
+	&#34;oshkinawe&#34; NA ProxPl
+&#34;&lt;dazhi-zagaswaawaad&gt;&#34;
+	&#34;zagaswaa&#34; PVRel/dazhi VAI Cnj Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;nisawi-waakaa&#39;igan&gt;&#34;
+	&#34;nisawi-waakaa&#39;igan&#34; ADVLoc
+&#34;&lt;ningii&#39;-waabamaag&gt;&#34;
+	&#34;waabam&#34; PVTense/gii&#39; VTA Ind Pos Neu 1SgSubj 3PlProxObj
+&#34;&lt;oshkinaweg&gt;&#34;
+	&#34;oshkinawe&#34; NA ProxPl
+&#34;&lt;dazhi-zagaswaawaad&gt;&#34;
+	&#34;zagaswaa&#34; PVRel/dazhi VAI Cnj Pos Neu 3PlProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#87
+    <span class="oj">Gaawiin ninoondaagosiin a'aw inini. Ganabaj gagiibishe.</span><br>
+    <span class="en">That man didn't hear me. I think he's deaf.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;ninoondaagosiin&gt;&#34;
+	&#34;noondaw&#34; VTA Ind Neg Neu 0SgSubj 1SgObj
+	&#34;noondaw&#34; VTA Ind Neg Neu 3SgProxSubj 1SgObj
+&#34;&lt;a&#39;aw&gt;&#34;
+	&#34;a&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;inini&gt;&#34;
+	&#34;inini&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;ganabaj&gt;&#34;
+	&#34;ganabaj&#34; ADVMan
+&#34;&lt;gagiibishe&gt;&#34;
+	&#34;gagiibishe&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gaawiin&gt;&#34;
+	&#34;gaawiin&#34; ADVNeg
+&#34;&lt;ninoondaagosiin&gt;&#34;
+	&#34;noondaw&#34; VTA Ind Neg Neu 3SgProxSubj 1SgObj
+&#34;&lt;a&#39;aw&gt;&#34;
+	&#34;a&#39;aw&#34; PRONDem NA ProxSg
+&#34;&lt;inini&gt;&#34;
+	&#34;inini&#34; NA ProxSg
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;ganabaj&gt;&#34;
+	&#34;ganabaj&#34; ADVMan
+&#34;&lt;gagiibishe&gt;&#34;
+	&#34;gagiibishe&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#88
+    <span class="oj">Gagwe-noondaw gwayak ekidod.</span><br>
+    <span class="en">Hear h/ out. / Try to understand what h/ is saying.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gagwe-noondaw&gt;&#34;
+	&#34;noondaw&#34; PVLex/gagwe VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;noondaw&#34; PVLex/gagwe VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;gwayak&gt;&#34;
+	&#34;gwayak&#34; ADVMan
+&#34;&lt;ekidod&gt;&#34;
+	&#34;ikido&#34; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gagwe-noondaw&gt;&#34;
+	&#34;noondaw&#34; PVLex/gagwe VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;noondaw&#34; PVLex/gagwe VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;gwayak&gt;&#34;
+	&#34;gwayak&#34; ADVMan
+&#34;&lt;ekidod&gt;&#34;
+	&#34;ikido&#34; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#89
+    <span class="oj">Gego babaamenimaaken gimishoomis. Megwaa apaakozige.</span><br>
+    <span class="en">Don't bother your grandfather. He's busy making kinnickinick</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;babaamenimaaken&gt;&#34;
+	&#34;babaamenim&#34; VTA Imp Prb 2SgSubj 3PlProxObj
+	&#34;babaamenim&#34; VTA Imp Prb 2SgSubj 3SgProxObj
+&#34;&lt;gimishoomis&gt;&#34;
+	&#34;mishoomis&#34; NAD ProxSg 2SgPoss
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;megwaa&gt;&#34;
+	&#34;megwaa&#34; ADVTmp
+&#34;&lt;apaakozige&gt;&#34;
+	&#34;apaakozige&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;babaamenimaaken&gt;&#34;
+	&#34;babaamenim&#34; VTA Imp Prb 2SgSubj 3SgProxObj
+&#34;&lt;gimishoomis&gt;&#34;
+	&#34;mishoomis&#34; NAD ProxSg 2SgPoss
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;megwaa&gt;&#34;
+	&#34;megwaa&#34; ADVTmp
+&#34;&lt;apaakozige&gt;&#34;
+	&#34;apaakozige&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#90
+    <span class="oj">Nising naa ninjiibaakwe noongom.</span><br>
+    <span class="en">I cooked three times today.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;nising&gt;&#34;
+	&#34;nisinoon&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;nisinoon&#34; VII Cnj Pos Neu 0PlSubj
+	&#34;nising&#34; ADVTmp
+&#34;&lt;naa&gt;&#34;
+	&#34;naa&#34; PCEmph
+&#34;&lt;ninjiibaakwe&gt;&#34;
+	&#34;jiibaakwe&#34; VAI Ind Pos Neu 1SgSubj
+&#34;&lt;noongom&gt;&#34;
+	&#34;noongom&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;nising&gt;&#34;
+	&#34;nising&#34; ADVTmp
+&#34;&lt;naa&gt;&#34;
+	&#34;naa&#34; PCEmph
+&#34;&lt;ninjiibaakwe&gt;&#34;
+	&#34;jiibaakwe&#34; VAI Ind Pos Neu 1SgSubj
+&#34;&lt;noongom&gt;&#34;
+	&#34;noongom&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#91
+    <span class="oj">Nising ningii-paashkizwaa mooz gaa-gii-piinag zhebaa.</span><br>
+    <span class="en">I had to shoot the moose I brought home this morning three times.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;nising&gt;&#34;
+	&#34;nisinoon&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;nisinoon&#34; VII Cnj Pos Neu 0PlSubj
+	&#34;nising&#34; ADVTmp
+&#34;&lt;ningii-paashkizwaa&gt;&#34;
+	&#34;baashkizwi&#34; PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+	&#34;baashkiz&#34; PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;mooz&gt;&#34;
+	&#34;moonz&#34; NA ProxSg
+	&#34;mooz&#34; NA ProxSg
+&#34;&lt;gaa-gii-piinag&gt;&#34;
+	&#34;biizh&#34; PVSub/gaa PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;zhebaa&gt;&#34;
+	&#34;zhebaa&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;nising&gt;&#34;
+	&#34;nising&#34; ADVTmp
+&#34;&lt;ningii-paashkizwaa&gt;&#34;
+	&#34;baashkizwi&#34; PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+	&#34;baashkiz&#34; PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;mooz&gt;&#34;
+	&#34;moonz&#34; NA ProxSg
+	&#34;mooz&#34; NA ProxSg
+&#34;&lt;gaa-gii-piinag&gt;&#34;
+	&#34;biizh&#34; PVSub/gaa PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+&#34;&lt;zhebaa&gt;&#34;
+	&#34;zhebaa&#34; ADVTmp
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#92
+    <span class="oj">Aapiji goonikaa noongom biboong.</span><br>
+    <span class="en">This winter there is a lot of snow.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;aapiji&gt;&#34;
+	&#34;aapiji&#34; AVDDeg
+&#34;&lt;goonikaa&gt;&#34;
+	&#34;goonikaa&#34; VII Ind Pos Neu 0SgSubj
+&#34;&lt;noongom&gt;&#34;
+	&#34;noongom&#34; ADVTmp
+&#34;&lt;biboong&gt;&#34;
+	&#34;biboon&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;biboon&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;aapiji&gt;&#34;
+	&#34;aapiji&#34; AVDDeg
+&#34;&lt;goonikaa&gt;&#34;
+	&#34;goonikaa&#34; VII Ind Pos Neu 0SgSubj
+&#34;&lt;noongom&gt;&#34;
+	&#34;noongom&#34; ADVTmp
+&#34;&lt;biboong&gt;&#34;
+	&#34;biboon&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;biboon&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#93
+    <span class="oj">Dagwaagong ningii-manisemin wii-aabajitooyaang biboong.</span><br>
+    <span class="en">Last fall we cut fire wood for us to use in the winter.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;dagwaagong&gt;&#34;
+	&#34;dagwaagong&#34; ADVTmp
+&#34;&lt;ningii-manisemin&gt;&#34;
+	&#34;manise&#34; PVTense/gii VAI Ind Pos Neu ExclSubj
+&#34;&lt;wii-aabajitooyaang&gt;&#34;
+	&#34;aabajitoon&#34; PVTense/wii VTI Cnj Pos Neu ExclSubj 0PlObj
+	&#34;aabajitoon&#34; PVTense/wii VTI Cnj Pos Neu ExclSubj 0SgObj
+&#34;&lt;biboong&gt;&#34;
+	&#34;biboon&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;biboon&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;dagwaagong&gt;&#34;
+	&#34;dagwaagong&#34; ADVTmp
+&#34;&lt;ningii-manisemin&gt;&#34;
+	&#34;manise&#34; PVTense/gii VAI Ind Pos Neu ExclSubj
+&#34;&lt;wii-aabajitooyaang&gt;&#34;
+	&#34;aabajitoon&#34; PVTense/wii VTI Cnj Pos Neu ExclSubj 0PlObj
+	&#34;aabajitoon&#34; PVTense/wii VTI Cnj Pos Neu ExclSubj 0SgObj
+&#34;&lt;biboong&gt;&#34;
+	&#34;biboon&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;biboon&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#94
+    <span class="oj">Aaniin epiichi-biboong.</span><br>
+    <span class="en">How far along in the winter is it?</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;aaniin&gt;&#34;
+	&#34;aaniin&#34; PCInterj
+	&#34;aaniin&#34; ADVInter
+&#34;&lt;epiichi-biboong&gt;&#34;
+	&#34;biboon&#34; PVRel/apiichi VII Pcp Pos Neu 0SgSubj 0SgHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;aaniin&gt;&#34;
+	&#34;aaniin&#34; ADVInter
+&#34;&lt;epiichi-biboong&gt;&#34;
+	&#34;biboon&#34; PVRel/apiichi VII Pcp Pos Neu 0SgSubj 0SgHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#95
+    <span class="oj">Ningaabii'anong inagakeyaa izhinoo'ige ondaanimak.</span><br>
+    <span class="en">He's indicating that the wind is from the north.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;ningaabii&#39;anong&gt;&#34;
+	&#34;ningaabii&#39;an&#34; NI Loc
+	&#34;ningaabii&#39;anong&#34; ADVLoc
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;izhinoo&#39;ige&gt;&#34;
+	&#34;izhinoo&#39;ige&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;ondaanimak&gt;&#34;
+	&#34;ondaanimad&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;ondaanimad&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;ningaabii&#39;anong&gt;&#34;
+	&#34;ningaabii&#39;anong&#34; ADVLoc
+&#34;&lt;inagakeyaa&gt;&#34;
+	&#34;inagakeyaa&#34; AVDDeg
+&#34;&lt;izhinoo&#39;ige&gt;&#34;
+	&#34;izhinoo&#39;ige&#34; VAI Ind Pos Neu 3SgProxSubj
+&#34;&lt;ondaanimak&gt;&#34;
+	&#34;ondaanimad&#34; VII Cnj Pos Neu 0SgSubj
+	&#34;ondaanimad&#34; VII Cnj Pos Neu 0PlSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#96
+    <span class="oj">Gego omaa atooken ogidabak. Gidoonaaganens da-diitibiwebaasin.</span><br>
+    <span class="en">Don't put your it here on on the top of the roof. Your cup might get blown down.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;omaa&gt;&#34;
+	&#34;omaa&#34; ADVLoc
+&#34;&lt;atooken&gt;&#34;
+	&#34;atoon&#34; VTI Imp Prb 2SgSubj 0PlObj
+	&#34;atoon&#34; VTI Imp Prb 2SgSubj 0SgObj
+&#34;&lt;ogidabak&gt;&#34;
+	&#34;ogidabak&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gidoonaaganens&gt;&#34;
+	&#34;onaagan&#34; NI Dim Sg 2SgPoss
+	&#34;onaaganens&#34; NI Sg 2SgPoss
+&#34;&lt;da-diitibiwebaasin&gt;&#34;
+	&#34;diitibiwebaasin&#34; PVTense/ga VII Ind Pos Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;gego&gt;&#34;
+	&#34;gego&#34; ADVNeg
+&#34;&lt;omaa&gt;&#34;
+	&#34;omaa&#34; ADVLoc
+&#34;&lt;atooken&gt;&#34;
+	&#34;atoon&#34; VTI Imp Prb 2SgSubj 0PlObj
+	&#34;atoon&#34; VTI Imp Prb 2SgSubj 0SgObj
+&#34;&lt;ogidabak&gt;&#34;
+	&#34;ogidabak&#34; ADVLoc
+&#34;&lt;.&gt;&#34;
+
+&#34;&lt;gidoonaaganens&gt;&#34;
+	&#34;onaagan&#34; NI Dim Sg 2SgPoss
+	&#34;onaaganens&#34; NI Sg 2SgPoss
+&#34;&lt;da-diitibiwebaasin&gt;&#34;
+	&#34;diitibiwebaasin&#34; PVTense/ga VII Ind Pos Neu 0SgSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#97
+    <span class="oj">Nimiijinan ziinzibaakwadoonsan.</span><br>
+    <span class="en">I'm eating some candies.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;nimiijinan&gt;&#34;
+	&#34;miijin&#34; VTI Ind Pos Neu 1SgSubj 0PlObj
+&#34;&lt;ziinzibaakwadoonsan&gt;&#34;
+	&#34;ziinzibaakwad&#34; NI Dim Pl
+	&#34;ziinzibaakwadoons&#34; NI Pl
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;nimiijinan&gt;&#34;
+	&#34;miijin&#34; VTI Ind Pos Neu 1SgSubj 0PlObj
+&#34;&lt;ziinzibaakwadoonsan&gt;&#34;
+	&#34;ziinzibaakwad&#34; NI Dim Pl
+	&#34;ziinzibaakwadoons&#34; NI Pl
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#98
+    <span class="oj">Aaniin ekoniked.</span><br>
+    <span class="en">How long are his arms?</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;aaniin&gt;&#34;
+	&#34;aaniin&#34; PCInterj
+	&#34;aaniin&#34; ADVInter
+&#34;&lt;ekoniked&gt;&#34;
+	&#34;akonike&#34; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;aaniin&gt;&#34;
+	&#34;aaniin&#34; ADVInter
+&#34;&lt;ekoniked&gt;&#34;
+	&#34;akonike&#34; VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#99
+    <span class="oj">O-wewiibim.</span><br>
+    <span class="en">Go tell him to hurry up.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;o-wewiibim&gt;&#34;
+	&#34;wewiibim&#34; PVDir/o VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;wewiibim&#34; PVDir/o VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;o-wewiibim&gt;&#34;
+	&#34;wewiibim&#34; PVDir/o VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;wewiibim&#34; PVDir/o VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+<figure>
+  <figcaption>#100
+    <span class="oj">Indaga o-wewebaabiigin 'a abinoojiinyens debwewidang.</span><br>
+    <span class="en">Go swing that baby you hear crying.</span>
+  </figcaption>
+
+  <pre class="before">&#34;&lt;indaga&gt;&#34;
+	&#34;indaga&#34; PCDisc
+&#34;&lt;o-wewebaabiigin&gt;&#34;
+	&#34;wewebaabiigin&#34; PVDir/o VTA Imp Sim 2SgSubj 3SgProxObj
+	&#34;wewebaabiigin&#34; PVDir/o VTA Imp Sim 2SgSubj 3PlProxObj
+&#34;&lt;&#39;a&gt;&#34;
+	&#34;&#39;a&#34; PRONDem NA ProxSg
+&#34;&lt;abinoojiinyens&gt;&#34;
+	&#34;abinoojiinyens&#34; NA ProxSg
+	&#34;abinoojiinh&#34; NA Dim ProxSg
+&#34;&lt;debwewidang&gt;&#34;
+	&#34;debwewidam&#34; VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+</pre>
+  <pre class="after">&#34;&lt;indaga&gt;&#34;
+	&#34;indaga&#34; PCDisc
+&#34;&lt;o-wewebaabiigin&gt;&#34;
+	&#34;wewebaabiigin&#34; PVDir/o VTA Imp Sim 2SgSubj 3SgProxObj
+&#34;&lt;&#39;a&gt;&#34;
+	&#34;&#39;a&#34; PRONDem NA ProxSg
+&#34;&lt;abinoojiinyens&gt;&#34;
+	&#34;abinoojiinyens&#34; NA ProxSg
+	&#34;abinoojiinh&#34; NA Dim ProxSg
+&#34;&lt;debwewidang&gt;&#34;
+	&#34;debwewidam&#34; VAI Cnj Pos Neu 3SgProxSubj
+&#34;&lt;.&gt;&#34;
+
+</pre>
+</figure>
+
+</body></html>

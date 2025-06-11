@@ -29,6 +29,7 @@ REL_MAP = {
     "discourse": "discourse",
     "AdvMod": "advmod",
     "Neg": "neg",
+    "NumMod": "nummod",
 }
 FALLBACK_REL = "dep"                  # when no mapping is known
 

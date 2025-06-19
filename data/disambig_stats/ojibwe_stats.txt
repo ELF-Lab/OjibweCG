@@ -1,0 +1,94 @@
+|------------------|----------|
+| total words      | 1139     |
+| readings before  | 1751     |
+| readings after   | 1462     |
+| removed          |  289     |
+| pct removed      |    0.165 |
+| ambiguous tokens |  269     |
+| pct ambiguous    |    0.236 |
+
+| type    |   words |   before |   after |   removed |   avg_b |   avg_a |
+|---------|---------|----------|---------|-----------|---------|---------|
+| verb    |     543 |      983 |     775 |       208 |    1.81 |    1.43 |
+| pronoun |      81 |      112 |      89 |        23 |    1.38 |    1.1  |
+| noun    |     242 |      340 |     289 |        51 |    1.4  |    1.19 |
+| adverb  |     246 |      251 |     244 |         7 |    1.02 |    0.99 |
+| other   |      65 |       65 |      65 |         0 |    1    |    1    |
+
+|------------------|---------|
+| ambiguous tokens | 269     |
+| pct ambiguous    |   0.236 |
+| lemma amb.       |  46     |
+| preverb amb.     |  69     |
+| POS amb.         |  13     |
+| morpho amb.      | 141     |
+
+| token                 |   count |
+|-----------------------|---------|
+| aaniin                |      13 |
+| waabang               |       6 |
+| iniw                  |       6 |
+| mooz                  |       5 |
+| nimaamaa              |       4 |
+| bizindanzig           |       3 |
+| aaba'amaw             |       2 |
+| gaa-bwaanawichiged    |       2 |
+| wiiyaas               |       2 |
+| gaa-gii-piindigebideg |       2 |
+
+# Lemma-level patterns
+
+| pattern                              |   tokens | examples ≤3          |
+|--------------------------------------|----------|----------------------|
+| moonz vs mooz                        |        5 | mooz                 |
+| maamaa vs maamaay                    |        5 | nimaamaa, omaamaayan |
+| bizindam vs bizindan                 |        3 | bizindanzig          |
+| iiyaas vs wiiyaas                    |        2 | wiiyaas              |
+| naanaagadawendam vs naanaagadawendan |        2 | naanaagadawendang    |
+| bagosendam vs bagosendan             |        2 | bagosendang          |
+| gaagaagi vs gaagaagiw                |        2 | gaagaagiwag          |
+| agonan vs dagonan                    |        2 | nindagonaan          |
+| gichi-onaagan vs onaagan             |        2 | gichi-onaaganing     |
+| miin vs miinan                       |        1 | miinan               |
+| dasin vs dasinoon                    |        1 | endasingin           |
+| aniibiish vs gichi-aniibiish         |        1 | gichi-aniibiish      |
+| ataw vs atoon vs atoono              |        1 | gigii-atoon          |
+| giizhik vs ingo-anama'e-giizhik      |        1 | ingo-anama'e-giizhik |
+| moonz vs mooz vs noozhe-mooz         |        1 | noozhe-mooz          |
+
+# POS-level patterns
+
+| pattern      |   tokens | examples ≤3   |
+|--------------|----------|---------------|
+| adverb+other |       13 | aaniin        |
+
+# Preverb patterns
+
+| pattern                                                |   tokens | examples ≤3                                                           |
+|--------------------------------------------------------|----------|-----------------------------------------------------------------------|
+| PVTense/daa vs PVTense/ga                              |       27 | ji-doodawindwaa, ji-bookwaabikiboonad, ji-ozhibii'igaazod             |
+| PVSub/gaa vs PVTense/gii                               |       21 | gaa-bwaanawichiged, gaa-izhi-onzaamingwaamid, gaa-izhi-bishkonaagozid |
+| PVTense/daa vs PVTense/daa vs PVTense/ga vs PVTense/ga |       10 | ji-mizhakwadinig, ji-gashkichigemagasinog, ji-niminaakosinig          |
+| PVSub/gaa vs PVSub/gaa vs PVTense/gii                  |        7 | gaa-waawiyeyaanig, gaa-giizhigak, gaa-boozaag                         |
+| PVLex/chi vs PVLex/gichi                               |        2 | gichi-miigwechiwendam, gichi-gigizhebaawii                            |
+| PVSub/gaa vs {}                                        |        2 | gaa-gii-piindigebideg                                                 |
+
+# Morphological patterns
+
+| pattern                                     |   tokens | examples ≤3                                            |
+|---------------------------------------------|----------|--------------------------------------------------------|
+| ObvPl | ObvSg                               |       33 | iniw, ookomisan, mishiiminan                           |
+| 3PlObvObj | 3SgObvObj                       |       32 | onakwetawaan, ogii'-ina'anaan, owii-saagidaabaswaan    |
+| 0PlSubj | 0SgSubj                           |       22 | waabang, midaaso-diba'iganeyaag, niiyo-diba'iganeyaag  |
+| 0PlObj | 0SgObj                             |       15 | izhi-atoon, biinjwebinan, miijiken                     |
+| 3PlProxObj | 3SgProxObj                     |        9 | aaba'amaw, gaadamaw, izhiwizh                          |
+| 3PlObvSubj | 3SgObvSubj                     |        6 | gaa-inanoonigod, odigoon, ogii-sagamigoon              |
+| 3PlObvSubj | 3SgObvSubj | 3SgProxSubj       |        4 | ogii-kagiiginaanan, omikanziinan, ogiziibiiginaanan    |
+| Aug/magad | Der/magad                       |        4 | mooshkinemagad, ombiigwewemagad, gii-piigosemagadogwen |
+| 0PlObvSubj | 0SgObvSubj                     |        4 | waabaninig, giishkizhigaadenig, anwaatininig           |
+| Del | Sim                                   |        3 | aazhawa'odaa, ani-inaaboonodaa, ani-maajaadaa          |
+| ExclSubj | XSubj                            |        3 | gidanoonigoo, ginandwewemigoo, giga-adimigoo           |
+| 0SgSubj | 3SgProxSubj                       |        3 | akobii, gii-izhise                                     |
+| 0PlSubj | 0SgSubj | 3PlObvSubj | 3SgObvSubj |        1 | gaa-onji-naganigod                                     |
+| 3SgObvObj | 3SgProxObj                      |        1 | giga-waabamaanaan                                      |
+| ProxSg | Sg                                 |        1 | zhooniyaa                                              |

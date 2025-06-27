@@ -21,6 +21,7 @@ REL_MAP = {
     "Obj":  "obj",
     "Adv":  "advmod",
     "Subj": "nsubj",
+    "csubj": "csubj",
     "punct": "punct",
     "Dem": "det",
     "RelCl": "acl:relcl",

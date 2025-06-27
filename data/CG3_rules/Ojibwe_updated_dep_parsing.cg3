@@ -17,6 +17,7 @@ LIST ObvPl = ObvPl ;
 
 # LIST RELATION_VERB_NOUN = Dep_V_N ; 
 LIST Dep_Subject = Dep_Subj_V ;
+LIST Dep_C_Subject = Dep_csubj_V ;
 LIST Dep_Object = Dep_Obj_V ; 
 LIST Dep_Adv = Dep_Adv_V ;
 LIST Dep_Obl = Dep_Obl_V ;
@@ -31,6 +32,22 @@ LIST Dep_NumMod = Dep_NumMod_N;
 LIST PREVERB = PVSub/gaa PVTense/gii;
 
 # Groups of tags to refer to
+
+# Verb arguments by number and obviation
+LIST SG_PROX_ARGUMENT = 3SgProxSubj 3SgProxObj ;
+LIST PL_PROX_ARGUMENT = 3PlProxSubj 3PlProxObj ;
+
+LIST SG_OBV_ARGUMENT = 3SgObvSubj 3SgObvObj ;
+LIST PL_OBV_ARGUMENT = 3PlObvSubj 3PlObvObj ;
+
+
+LIST 0SG_ARGUMENT = 0SgSubj 0SgObj ;
+LIST 0SG_OBV_ARGUMEMT = 0SgObvSubj 0SgObvObj ;
+
+LIST 0PL_ARGUMENT = 0PlSubj 0PlObj ;
+LIST 0PL_OBV_ARGUMENT = 0PlObvSubj 0PlObvObj ;
+
+# Verb arguments by number and animacy
 LIST SG_AN_SUBJECT = 3SgProxSubj 3SgObvSubj ;
 LIST PL_AN_SUBJECT = 3PlProxSubj 3PlObvSubj ;
 SET AN_SUBJECT = SG_AN_SUBJECT OR  PL_AN_SUBJECT ;
@@ -193,6 +210,8 @@ REMOVE:Aug_over_Der (Der/magad) IF (0 (Aug/magad));
 
 # Prefer PV/gaa Pv/gii over duplicate Pv/gii 
 SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii) ;
+SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii') ;
+
 
 # TODO: run some tests to see if this works fully. Where to put this?
 # Phonological lemma disambiguation 
@@ -373,7 +392,7 @@ SETRELATION:deg_adv_dep_L_2 Dep_AdvMod TARGET (AVDDeg) IF (NONE r:* (*)) TO (-1*
 SETRELATION:deg_adv_dep_R_2 Dep_AdvMod TARGET (AVDDeg) IF (NONE r:* (*)) TO (1* VERB) ;
 
 ### Negative Adv rules 
-# Gaawiin - s relationship to closest neg verb (right-only)
+# Gaawiin - set relationship to closest neg verb (right-only)
 SETRELATION:neg_adv_dep_gwn Dep_Neg TARGET ("gaawiin") TO (1* (Neg)) ;
 
 SETRELATION:neg_adv_dep_gg Dep_Neg TARGET ("gego") TO (1* (Prb)) ;
@@ -381,10 +400,121 @@ SETRELATION:neg_adv_dep_gg Dep_Neg TARGET ("gego") TO (1* (Prb)) ;
 
 ### Relative clause ruls 
 SET gaa_gii = (PVSub/gaa PVTense/gii') OR (PVSub/gaa PVTense/gii) ;
-ADD:is_rc (RelCl) gaa_gii (IF NOT 0 (RelCl));
+ADD:is_rc (RelCl) gaa_gii IF (NOT 0 (RelCl)) ;
 
-SETRELATION:relcl_dep_1 Dep_RelCl TARGET (Cnj 3SgProxSubj) TO (-1 (3SgProxPoss));
+### RC as nominal modifiers
+## If immediately adjacent RC, remove subj/obj relation to it, instead set Noun as head of RC. Then re-initiate search for agreeing verb, if it exists
 
+# Remove existing relation
+REMRELATION:relcl_cleanup_1 Dep_Subject TARGET (ProxSg) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+# Set RC relation
+SETRELATION:relcl_dep_1 Dep_RelCl TARGET gaa_gii + (3SgProxSubj) IF (NONE r:* (*)) TO ((-1 (ProxSg)) OR (1 (ProxSg))) ;
+
+REMRELATION:relcl_cleanup_2 Dep_Object TARGET (ProxSg) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_2 Dep_RelCl TARGET gaa_gii + (3SgProxObj) IF (NONE r:* (*)) TO ((-1 (ProxSg)) OR (1 (ProxSg))) ;
+
+# New search for an agreeing Verb
+SETRELATION:animate_subj_dep_1_L Dep_Subject TARGET (ProxSg) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3SgProxSubj)  BARRIER VERB) ;
+SETRELATION:animate_subj_dep_1_R Dep_Subject TARGET (ProxSg) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3SgProxSubj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_L Dep_Object TARGET (ProxSg) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3SgProxObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_R Dep_Object TARGET (ProxSg) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3SgProxObj) BARRIER VERB) ;
+
+
+REMRELATION:relcl_cleanup_3 Dep_Subject TARGET (ProxPl) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_3 Dep_RelCl TARGET gaa_gii + (3PlProxSubj) IF (NONE r:* (*)) TO ((-1 (ProxPl)) OR (1 (ProxPl))) ;
+
+REMRELATION:relcl_cleanup_4 Dep_Object TARGET (ProxPl) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_4 Dep_RelCl TARGET gaa_gii + (3PlProxObj) IF (NONE r:* (*)) TO ((-1 (ProxPl)) OR (1 (ProxPl))) ;
+
+SETRELATION:animate_subj_dep_1_L Dep_Subject TARGET (ProxPl) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3PlProxSubj)  BARRIER VERB) ;
+SETRELATION:animate_subj_dep_1_R Dep_Subject TARGET (ProxPl) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3PlProxSubj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_L Dep_Object TARGET (ProxPl) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3PlProxObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_R Dep_Object TARGET (ProxPl) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3PlProxObj) BARRIER VERB) ;
+
+
+REMRELATION:relcl_cleanup_5 Dep_Subject TARGET (ObvSg) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_5 Dep_RelCl TARGET gaa_gii + (3SgObvSubj) IF (NONE r:* (*)) TO ((-1 (ObvSg)) OR (1 (ObvSg))) ;
+
+REMRELATION:relcl_cleanup_6 Dep_Object TARGET (ObvSg) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_6 Dep_RelCl TARGET gaa_gii + (3SgObvObj) IF (NONE r:* (*)) TO ((-1 (ObvSg)) OR (1 (ObvSg))) ;
+
+
+SETRELATION:animate_subj_dep_1_L Dep_Subject TARGET (ObvSg) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3SgObvObj)  BARRIER VERB) ;
+SETRELATION:animate_subj_dep_1_R Dep_Subject TARGET (ObvSg) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3SgObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_L Dep_Object TARGET (ObvSg) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3SgObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_R Dep_Object TARGET (ObvSg) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3SgObvObj) BARRIER VERB) ;
+
+
+
+REMRELATION:relcl_cleanup_7 Dep_Subject TARGET (ObvSg) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_7 Dep_RelCl TARGET gaa_gii + (3PlObvSubj) IF (NONE r:* (*)) TO ((-1 (ObvPl)) OR (1 (ObvPl))) ;
+
+
+REMRELATION:relcl_cleanup_8 Dep_Object TARGET (ObvPl) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_8 Dep_RelCl TARGET gaa_gii + (3PlObvObj) IF (NONE r:* (*)) TO ((-1 (ObvPl)) OR (1 (ObvPl))) ;
+
+SETRELATION:animate_subj_dep_1_L Dep_Subject TARGET (ObvPl) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3PlObvObj)  BARRIER VERB) ;
+SETRELATION:animate_subj_dep_1_R Dep_Subject TARGET (ObvPl) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3PlObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_L Dep_Object TARGET (ObvPl) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (3PlObvObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_R Dep_Object TARGET (ObvPl) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (3PlObvObj) BARRIER VERB) ;
+
+
+
+
+REMRELATION:relcl_cleanup_9 Dep_Subject TARGET (Sg) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_9 Dep_RelCl TARGET gaa_gii + (0SgSubj) IF (NONE r:* (*)) TO ((-1 (Sg)) OR (1 (Sg))) ;
+
+REMRELATION:relcl_cleanup_10 Dep_Object TARGET (Sg) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_10 Dep_RelCl TARGET gaa_gii + (0SgObj) IF (NONE r:* (*)) TO ((-1 (Sg)) OR (1 (Sg))) ;
+
+SETRELATION:animate_subj_dep_1_L Dep_Subject TARGET (Sg) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (0SgSubj)  BARRIER VERB) ;
+SETRELATION:animate_subj_dep_1_R Dep_Subject TARGET (Sg) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (0SgSubj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_L Dep_Object TARGET (Sg) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (0SgObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_R Dep_Object TARGET (Sg) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (0SgObj) BARRIER VERB) ;
+
+
+
+
+
+REMRELATION:relcl_cleanup_11 Dep_Subject TARGET (Pl) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_11 Dep_RelCl TARGET gaa_gii + (0PlSubj) IF (NONE r:* (*)) TO ((-1 (Pl)) OR (1 (Pl))) ;
+
+REMRELATION:relcl_cleanup_12 Dep_Object TARGET (Pl) TO ((1 gaa_gii) OR (-1 gaa_gii)) ;
+SETRELATION:relcl_dep_12 Dep_RelCl TARGET gaa_gii + (0PlObj) IF (NONE r:* (*)) TO ((-1 (Pl)) OR (1 (Pl))) ;
+
+SETRELATION:animate_subj_dep_1_L Dep_Subject TARGET (Pl) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (0PlSubj)  BARRIER VERB) ;
+SETRELATION:animate_subj_dep_1_R Dep_Subject TARGET (Pl) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (0PlSubj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_L Dep_Object TARGET (Pl) IF (NONE r:* (*)) (-1 gaa_gii) TO (-2* (0PlObj) BARRIER VERB) ;
+SETRELATION:animate_obj_dep_1_R Dep_Object TARGET (Pl) IF (NONE r:* (*)) (1 gaa_gii) TO (2* (0PlObj) BARRIER VERB) ;
+
+
+
+# RC as verbal arguments 
+SETRELATION:relcl_dep_1 Dep_C_Subject TARGET gaa_gii + SG_PROX_ARGUMENT IF (NONE r:* (*)) TO (-1 (3SgProxSubj)) ;
+
+SETRELATION:relcl_dep_2 Dep_C_Subject TARGET gaa_gii + SG_OBV_ARGUMENT IF (NONE r:* (*)) TO (-1 (3SgObvSubj)) ;
+
+SETRELATION:relcl_dep_3 Dep_C_Subject TARGET gaa_gii + 0SG_ARGUMENT IF (NONE r:* (*)) TO (-1 (0SgSubj)) ;
+
+SETRELATION:relcl_dep_4 Dep_C_Subject TARGET gaa_gii + PL_PROX_ARGUMENT IF (NONE r:* (*)) TO (-1 (3PlProxSubj)) ;
+
+SETRELATION:relcl_dep_5 Dep_C_Subject TARGET gaa_gii + PL_OBV_ARGUMENT IF (NONE r:* (*)) TO (-1 (3PlObvSubj)) ;
+
+SETRELATION:relcl_dep_6 Dep_C_Subject TARGET gaa_gii + 0PL_ARGUMENT IF (NONE r:* (*)) TO (-1 (0PlSubj)) ;
+
+
+
+SETRELATION:relcl_dep_1 Dep_Object TARGET gaa_gii + SG_PROX_ARGUMENT IF (NONE r:* (*)) TO (-1 (3SgProxObj)) ;
+
+SETRELATION:relcl_dep_2 Dep_Object TARGET gaa_gii + SG_OBV_ARGUMENT IF (NONE r:* (*)) TO (-1 (3SgObvObj)) ;
+
+SETRELATION:relcl_dep_3 Dep_Object TARGET gaa_gii + 0SG_ARGUMENT IF (NONE r:* (*)) TO (-1 (0SgObj)) ;
+
+SETRELATION:relcl_dep_4 Dep_Object TARGET gaa_gii + PL_PROX_ARGUMENT IF (NONE r:* (*)) TO (-1 (3PlProxObj)) ;
+
+SETRELATION:relcl_dep_5 Dep_Object TARGET gaa_gii + PL_OBV_ARGUMENT IF (NONE r:* (*)) TO (-1 (3PlObvObj)) ;
+
+SETRELATION:relcl_dep_6 Dep_Object TARGET gaa_gii + 0PL_ARGUMENT IF (NONE r:* (*)) TO (-1 (0PlObj)) ;
 
 
 
@@ -394,7 +524,7 @@ SETRELATION:nummod_dep_1 Dep_NumMod TARGET (NUM) TO (1 NOMINAL);
 
 
 ### Remove temporary tags
-# REMOVE:rem_relcl (RelCl) ;
+REMOVE:rem_relcl (RelCl) IF (0 (RelCl)) ;
 
 ### Help with post-processing (Adding tags for CoNLL-U conversion)
 ADD:Is_Noun (NOUN) TARGET NOMINAL IF (NOT 0 PRON) (NOT 0 (NOUN)) ;

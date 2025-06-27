@@ -17,6 +17,7 @@ LIST ObvPl = ObvPl ;
 
 # LIST RELATION_VERB_NOUN = Dep_V_N ; 
 LIST Dep_Subject = Dep_Subj_V ;
+LIST Dep_C_Subject = Dep_csubj_V ;
 LIST Dep_Object = Dep_Obj_V ; 
 LIST Dep_Adv = Dep_Adv_V ;
 LIST Dep_Obl = Dep_Obl_V ;
@@ -31,6 +32,22 @@ LIST Dep_NumMod = Dep_NumMod_N;
 LIST PREVERB = PVSub/gaa PVTense/gii;
 
 # Groups of tags to refer to
+
+# Verb arguments by number and obviation
+LIST SG_PROX_ARGUMENT = 3SgProxSubj 3SgProxObj ;
+LIST PL_PROX_ARGUMENT = 3PlProxSubj 3PlProxObj ;
+
+LIST SG_OBV_ARGUMENT = 3SgObvSubj 3SgObvObj ;
+LIST PL_OBV_ARGUMENT = 3PlObvSubj 3PlObvObj ;
+
+
+LIST 0SG_ARGUMENT = 0SgSubj 0SgObj ;
+LIST 0SG_OBV_ARGUMEMT = 0SgObvSubj 0SgObvObj ;
+
+LIST 0PL_ARGUMENT = 0PlSubj 0PlObj ;
+LIST 0PL_OBV_ARGUMENT = 0PlObvSubj 0PlObvObj ;
+
+# Verb arguments by number and animacy
 LIST SG_AN_SUBJECT = 3SgProxSubj 3SgObvSubj ;
 LIST PL_AN_SUBJECT = 3PlProxSubj 3PlObvSubj ;
 SET AN_SUBJECT = SG_AN_SUBJECT OR  PL_AN_SUBJECT ;
@@ -193,6 +210,8 @@ REMOVE:Aug_over_Der (Der/magad) IF (0 (Aug/magad));
 
 # Prefer PV/gaa Pv/gii over duplicate Pv/gii 
 SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii) ;
+SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii') ;
+
 
 # TODO: run some tests to see if this works fully. Where to put this?
 # Phonological lemma disambiguation 
@@ -201,4 +220,5 @@ REMOVE:remove_-wi ("(.*)wi"r) IF (0 ("$1"v) OR ("$1o"v));
 
 # remove word starting with n- (in favour of ∅-)
 REMOVE:remove_n- ("n(.*)"r) IF (0 ("$1"v));
+
 

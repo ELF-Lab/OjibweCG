@@ -259,6 +259,16 @@ def cg3_process_text(input_text: str, cg3_grammar_filepath: str) -> str:
         print("Error:", e)
         return "" 
     
+def sentence_has_ambiguity(sentence:str, fst: Fst) -> tuple:
+    """User FST parser to parse sentence and returns if the sentence has ambiguity in any word"""
+    tokens = tokenize(ojibwe_sentence=sentence)
+    sentence_fst_outputs = fst_parse_sentence(input_words=tokens, fst_parser=fst)
+    for item in sentence_fst_outputs:
+        if len(item.get("fst_analyses", [])) > 1:
+            return (True, sentence_fst_outputs, item)
+    
+    return (False, sentence_fst_outputs, None)
+    
 def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False) -> str:
     """
     Disambiguate a sentence using FST readings and CG3 rules.

@@ -1,4 +1,4 @@
-# This is the disambiguation file for Anishinaabemowin (Ojibwe).
+# This is the dependency parsing file for Anishinaabemowin (Ojibwe).
 
 # Define to set as sentence delimeters
 DELIMITERS = "<.>" "<?>" "<!>" "<¶>";
@@ -75,7 +75,7 @@ SECTION
 
 ### Blanket constraints (context independent)
 
-## Select ADVLoc readings UNCONDITIONALLY if available
+## Select Loc Adv readings UNCONDITIONALLY if available
 # TODO: not fully checked, eye test for ~30 examples seems to work
 SELECT:select_adv_loc TARGET (ADVLoc) ;
 ## Select adverbs from the special set
@@ -174,16 +174,25 @@ SELECT:pronoun_animacy_rule_2 (PRONDem NI) IF (1 (NI)) (NOT 1 (NA)) ;
 ### LEXICALIZATION - Where availabale, select lexicalized forms###
 
 ## PREVERBS
-# Preverb rules taken from Katherine Shmirler's Plains Cree parser (https://github.com/giellalt/lang-crk/blob/c82f485bf16cc98cee402e0023efe4a5b53ff60f/src/cg3/disambiguator.cg3#L1510) 
-SELECT:lexicalize_PV_5 ("[^<]+[-].+[-].+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV) ;
-SELECT:lexicalize_PV_4 ("[^<]+[-].+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV) ;
-SELECT:lexicalize_PV_3 ("[^<]+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV) ;
-SELECT:lexicalize_PV_2 ("[^<]+[-].+[-][^>]+"r) IF (0 VERB OR ADV) ;
-SELECT:lexicalize_PV_1 ("[^<]+[-][^>]+"r) IF (0 VERB OR ADV) ;
+# Preverb/Prenoun rules, structure taken from Katherine Shmirler's Plains Cree parser (https://github.com/giellalt/lang-crk/blob/c82f485bf16cc98cee402e0023efe4a5b53ff60f/src/cg3/disambiguator.cg3#L1510) 
+SELECT:lexicalize_PV_5 ("[^<]+[-].+[-].+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_4 ("[^<]+[-].+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_3 ("[^<]+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_2 ("[^<]+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_1 ("[^<]+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
 
 ## DERIVATIONAL (Der/, Aug/, Dim, Pej, Reflex/, Recip/ tags)
 LIST DERIVATIONAL = Der/magad Aug/magad Dim Pej Reflex/dizo Recip/di;
 REMOVE DERIVATIONAL ;
+
+# Prefer gichi- over chi-
+REMOVE:gichi_over_chi (PVLex/chi) IF (0 (PVLex/gichi));
+
+# Prefer Aug/magad over Der/magad
+REMOVE:Aug_over_Der (Der/magad) IF (0 (Aug/magad));
+
+# Prefer PV/gaa Pv/gii over duplicate Pv/gii 
+SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii) ;
 
 # TODO: run some tests to see if this works fully. Where to put this?
 # Phonological lemma disambiguation 
@@ -370,7 +379,10 @@ SETRELATION:neg_adv_dep_gwn Dep_Neg TARGET ("gaawiin") TO (1* (Neg)) ;
 SETRELATION:neg_adv_dep_gg Dep_Neg TARGET ("gego") TO (1* (Prb)) ;
 
 
-### Relative clause rule (experimental)
+### Relative clause ruls 
+SET gaa_gii = (PVSub/gaa PVTense/gii') OR (PVSub/gaa PVTense/gii) ;
+ADD:is_rc (RelCl) gaa_gii (IF NOT 0 (RelCl));
+
 SETRELATION:relcl_dep_1 Dep_RelCl TARGET (Cnj 3SgProxSubj) TO (-1 (3SgProxPoss));
 
 
@@ -381,6 +393,8 @@ SETRELATION:relcl_dep_1 Dep_RelCl TARGET (Cnj 3SgProxSubj) TO (-1 (3SgProxPoss))
 SETRELATION:nummod_dep_1 Dep_NumMod TARGET (NUM) TO (1 NOMINAL);
 
 
+### Remove temporary tags
+# REMOVE:rem_relcl (RelCl) ;
 
 ### Help with post-processing (Adding tags for CoNLL-U conversion)
 ADD:Is_Noun (NOUN) TARGET NOMINAL IF (NOT 0 PRON) (NOT 0 (NOUN)) ;

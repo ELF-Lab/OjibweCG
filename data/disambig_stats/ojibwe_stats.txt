@@ -1,170 +1,33 @@
-|------------------|----------|
-| total words      | 5212     |
-| readings before  | 8168     |
-| readings after   | 6621     |
-| removed          | 1547     |
-| pct removed      |    0.189 |
-| ambiguous tokens | 1222     |
-| pct ambiguous    |    0.234 |
+|-------------------|---------|
+| total words       | 131     |
+| readings before   | 191     |
+| readings after    | 131     |
+| analyses removed  |  60     |
+| ambiguity removed |   1     |
+| ambiguous before  |   0.435 |
+| ambiguous after   |   0     |
 
 | type    |   words |   before |   after |   removed |   avg_b |   avg_a |
 |---------|---------|----------|---------|-----------|---------|---------|
-| verb    |    2447 |     4528 |    3412 |      1116 |    1.85 |    1.39 |
-| pronoun |     371 |      575 |     448 |       127 |    1.55 |    1.21 |
-| noun    |    1163 |     1631 |    1358 |       273 |    1.4  |    1.17 |
-| adverb  |    1048 |     1072 |    1042 |        30 |    1.02 |    0.99 |
-| other   |     362 |      362 |     361 |         1 |    1    |    1    |
+| verb    |      59 |       65 |      58 |         7 |     1.1 |    0.98 |
+| pronoun |       2 |        2 |       2 |         0 |     1   |    1    |
+| noun    |      12 |       12 |      12 |         0 |     1   |    1    |
+| adverb  |      58 |       58 |      58 |         0 |     1   |    1    |
+| other   |      54 |       54 |       1 |        53 |     1   |    0.02 |
 
-|--------------|-----|
-| lemma amb.   | 113 |
-| preverb amb. | 281 |
-| POS amb.     |  65 |
-| morpho amb.  | 763 |
+|--------------|---|
+| lemma amb.   | 0 |
+| preverb amb. | 0 |
+| POS amb.     | 0 |
+| morpho amb.  | 0 |
 
-| top 50 tokens            |   count |
-|--------------------------|---------|
-| aaniin                   |      64 |
-| iniw                     |      53 |
-| iniwen                   |      20 |
-| waabang                  |      17 |
-| ookomisan                |      12 |
-| nimaamaa                 |      11 |
-| wiiyaas                  |      10 |
-| mooz                     |       9 |
-| miinan                   |       9 |
-| biboong                  |       8 |
-| odayan                   |       7 |
-| oosan                    |       7 |
-| odasabiin                |       7 |
-| zhooniyaan               |       7 |
-| waabaninig               |       5 |
-| odoodaabaanan            |       5 |
-| ogozisan                 |       5 |
-| gaa-biiwisingin          |       4 |
-| wii-aabajitooyaang       |       4 |
-| nindagonaan              |       4 |
-| ji-jaagidesinog          |       4 |
-| asemaan                  |       4 |
-| ani-ziigwang             |       4 |
-| gii-saagibagaag          |       4 |
-| ji-mazhii'igewaad        |       4 |
-| naanaagadawendang        |       4 |
-| omaamaayan               |       4 |
-| gaa-agoodeg              |       4 |
-| mishiiminan              |       4 |
-| waawaabiganoojiinyan     |       3 |
-| odanimiwinaan            |       3 |
-| maanishtaanishan         |       3 |
-| babaamenimaaken          |       3 |
-| biidaabang               |       3 |
-| ogii-mikwaasenodawaawaan |       3 |
-| makwan                   |       3 |
-| ezigaan                  |       3 |
-| gaa-izhi-gawised         |       3 |
-| gichi-aakozinid          |       3 |
-| obi-zaagidoomaan         |       3 |
-| ogwizisensan             |       3 |
-| dakobizowan              |       3 |
-| gaa-onji-nanaandomod     |       3 |
-| wiindamawaaken           |       3 |
-| gichi-mooseg             |       3 |
-| gii-mindookak            |       3 |
-| gaa-onji-gwanabisenig    |       3 |
-| giga-adimigoo            |       3 |
-| atoon                    |       3 |
-| bengwashkising           |       3 |
+| top 50 tokens   | count   |
+|-----------------|---------|
 
 # POS-level patterns
 
-| pattern      |   tokens | examples ≤3   |
-|--------------|----------|---------------|
-| adverb+other |       64 | aaniin        |
-| noun+verb    |        1 | giiwedin      |
-
 # Lemma patterns
-
-| POS   | pattern                                  |   tokens | examples ≤3                                                |
-|-------|------------------------------------------|----------|------------------------------------------------------------|
-| noun  | maamaa vs maamaay                        |       15 | nimaamaa, omaamaayan                                       |
-| noun  | iiyaas vs wiiyaas                        |       10 | wiiyaas                                                    |
-| noun  | moonz vs mooz                            |        9 | mooz                                                       |
-| noun  | miin vs miinan                           |        9 | miinan                                                     |
-| verb  | bawa'am vs bawa'an                       |        5 | giga-ando-bawa'aamin, ingii-pawa'aamin, ji-mino-bawa'amang |
-| verb  | agonan vs dagonan                        |        4 | nindagonaan                                                |
-| verb  | naanaagadawendam vs naanaagadawendan     |        4 | naanaagadawendang                                          |
-| noun  | dawemaa vs dawemaaw                      |        3 | odawemaan                                                  |
-| verb  | minwendam vs minwendan                   |        3 | niminwendanziin                                            |
-| verb  | bagosendam vs bagosendan                 |        3 | bagosendang                                                |
-| verb  | bizindam vs bizindan                     |        3 | bizindanzig                                                |
-| noun  | doodooshaabo vs doodooshaaboo            |        2 | odoodooshaaboom                                            |
-| noun  | nik vs onik                              |        2 | onik                                                       |
-| noun  | gaagaagi vs gaagaagiw                    |        2 | gaagaagiwag                                                |
-| verb  | odaapin vs odaapinan                     |        2 | aana-gii-odaapinang                                        |
-| verb  | ziigaajiwanz vs ziigaajiwanzo            |        2 | jibwaa-ziigaajiwanzod                                      |
-| verb  | gikendam vs gikendan                     |        2 | ando-gikendan                                              |
-| verb  | izhinam vs izhinan                       |        2 | gaa-izhinamogwen                                           |
-| verb  | ina'adoo vs ina'adoon                    |        2 | gaa-ina'adooyaan                                           |
-| verb  | ataw vs atoon vs atoono                  |        2 | gigii-atoon                                                |
-| verb  | ziigwebin vs ziigwebinan                 |        2 | ogii-siigwebinaan                                          |
-| verb  | opimewebin vs opimewebinan               |        2 | gii-opimewebinang                                          |
-| verb  | mooka'am vs mooka'an                     |        2 | bi-onji-mooka'an                                           |
-| verb  | baas vs baaso                            |        2 | ji-baasod                                                  |
-| noun  | iijikiwenhy vs iijikiweny                |        1 | wiijikiwenyan                                              |
-| noun  | namanjinik vs namanjinikaan              |        1 | onamanjinikaaning                                          |
-| noun  | gijigijigaaneshiinh vs jigijigaaneshiinh |        1 | gijigijigaaneshiinyens                                     |
-| verb  | giziininjii vs giziininjiin              |        1 | giziininjiin                                               |
-| verb  | giiziz vs giizizo                        |        1 | gii-kiizizod                                               |
-| verb  | ina'oodoo vs ina'oodoon                  |        1 | bi-ina'oodoon                                              |
-| verb  | ayaa vs ayaan                            |        1 | gidayaamin                                                 |
-| verb  | gwayakwendam vs gwayakwendan             |        1 | gwayakwendan                                               |
-| verb  | niimi vs niimin                          |        1 | niimin                                                     |
-| verb  | nagamo vs nagamon                        |        1 | nagamon                                                    |
-| verb  | agwii vs dagwii                          |        1 | nindagwii                                                  |
-| verb  | maanitam vs maanitan                     |        1 | maanitang                                                  |
-| verb  | aanakwad vs inaanakwad                   |        1 | inaanakwad                                                 |
-| verb  | metasin vs metasinan                     |        1 | ometasinaan                                                |
-| verb  | dasin vs dasinoon                        |        1 | endasingin                                                 |
-| verb  | giziindime'o vs giziindime'on            |        1 | giziindime'on                                              |
-| verb  | inamo vs inamon                          |        1 | enamog                                                     |
-| verb  | jaagiz vs jaagizo                        |        1 | gaa-gii-chaagizod                                          |
-| verb  | wanitaw vs wanitoon                      |        1 | giga-wanitoon                                              |
 
 # Preverb patterns
 
-| POS   | pattern                                                |   tokens | examples ≤3                                             |
-|-------|--------------------------------------------------------|----------|---------------------------------------------------------|
-| verb  | PVTense/daa vs PVTense/ga                              |      117 | ji-jaagidesinog, ji-mazhii'igewaad, ji-maajiibideg      |
-| verb  | PVSub/gaa vs PVTense/gii                               |      101 | gaa-biiwisingin, gaa-agoodeg, gaa-izhi-gawised          |
-| verb  | PVTense/daa vs PVTense/daa vs PVTense/ga vs PVTense/ga |       37 | ji-manisaagod, ji-mizhakwadinig, ji-nookaabaawenid      |
-| verb  | PVSub/gaa vs PVSub/gaa vs PVTense/gii                  |       24 | gaa-onji-gwanabisenig, gaa-wiisagang, gaa-waawiyeyaanig |
-| verb  | PVDir/ani vs PVDir/ini                                 |        2 | eni-apiichi-gitaadizid                                  |
-
 # Morphological patterns
-
-| POS     | pattern                                                                                   |   tokens | examples ≤3                                               |
-|---------|-------------------------------------------------------------------------------------------|----------|-----------------------------------------------------------|
-| verb    | 3PlObvObj | 3SgObvObj                                                                     |      209 | odanimiwinaan, ogii-mikwaasenodawaawaan, obi-zaagidoomaan |
-| noun    | ObvPl | ObvSg                                                                             |      164 | ookomisan, odayan, oosan                                  |
-| verb    | 0PlSubj | 0SgSubj                                                                         |       97 | waabang, biboong, ani-ziigwang                            |
-| pronoun | ObvPl | ObvSg                                                                             |       75 | iniw, iniwen, iniwe                                       |
-| verb    | 0PlObj | 0SgObj                                                                           |       57 | wii-aabajitooyaang, atoon, izhi-atoon                     |
-| verb    | 3PlObvSubj | 3SgObvSubj                                                                   |       45 | gichi-aakozinid, dakobizowan, ogii-mazina'amaagoon        |
-| verb    | 3PlProxObj | 3SgProxObj                                                                   |       34 | babaamenimaaken, wiindamawaaken, aaba'amaw                |
-| verb    | Del | Sim                                                                                 |       16 | ani-maajaadaa, agomodaa, izhi-boodawedaa                  |
-| verb    | 3PlObvSubj | 3SgObvSubj | 3SgProxSubj                                                     |       14 | ogigishkaanan, ogii-noonishkaanan, ogii-kagiiginaanan     |
-| verb    | 0SgSubj | 3SgProxSubj                                                                     |        8 | gii-ayaa, gii-izhise, akobii                              |
-| verb    | 0PlObvSubj | 0SgObvSubj                                                                   |        8 | waabaninig, ishpi-giizhigadinig, giishkizhigaadenig       |
-| verb    | ExclSubj | XSubj                                                                          |        7 | giga-adimigoo, gidanoonigoo, ginandwewemigoo              |
-| verb    | 3PlProxHead,3PlProxSubj | 3SgProxHead,3SgProxSubj                                         |        7 | epiichi-minwendang, ezhi-maaminonendang, wenji-doodang    |
-| noun    | 2SgPoss,PNLex/chi | PNLex/gichi                                                           |        4 | gichi-mooseg, gichi-gwaaba'igan                           |
-| noun    | 2SgPoss,ObvPl,PNLex/chi | 2SgPoss,ObvSg,PNLex/chi | ObvPl,PNLex/gichi | ObvSg,PNLex/gichi |        3 | gichi-ayaaben, gichi-waawaashkeshiwan                     |
-| verb    | 3SgObvObj | 3SgProxObj                                                                    |        2 | odaanimi'igon, giga-waabamaanaan                          |
-| verb    | 2PlSubj,3PlProxObj,Imp,Sim | 2PlSubj,3SgProxObj,Imp,Sim | 2SgObj,3SgProxSubj,Cnj,Neu,Pos  |        2 | aana-wiizhaamik                                           |
-| verb    | 0PlSubj | 3PlObvSubj | 3SgObvSubj                                                         |        2 | noondesewan                                               |
-| verb    | 0PlSubj | 0SgSubj | 3PlObvSubj | 3SgObvSubj                                               |        2 | gaa-onji-naganigod, aana-wii-miigaanigod                  |
-| noun    | ProxSg | Sg                                                                               |        2 | ishkodewidaabaan, zhooniyaa                               |
-| verb    | 3PlObvObj | 3SgObvObj | 3SgProxObj                                                        |        1 | niimiitamawaadaa                                          |
-| noun    | {} | {}                                                                                   |        1 | biisiboojiganing                                          |
-| noun    | 3PlObvPoss,Pl | 3PlObvPoss,Sg | 3SgObvPoss,Pl | 3SgObvPoss,Sg                             |        1 | omashkosiinsimini                                         |
-| noun    | 3PlObvPoss,ObvPl | 3PlObvPoss,ObvSg | 3SgObvPoss,ObvPl | 3SgObvPoss,ObvSg                 |        1 | ominjikaawanini                                           |
-| pronoun | ObvPl | ObvSg | Pl                                                                        |        1 | iniw                                                      |

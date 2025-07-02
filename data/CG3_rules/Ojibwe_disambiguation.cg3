@@ -77,9 +77,16 @@ SET NI_NID = (NI) OR (NID) ;
 SET AN_SPECIAL_PRON = (PRONIndf NA) OR (PRONInter NA) OR (PRONPret NA);
 SET INAN_SPECIAL_PRON = (PRONIndf NI);
 
-# TODO: rename
-SET SPECIAL_LOCS = ("o'omaa") OR ("omaa") OR ("i'imaa") OR ("imaa") OR ("i'iwidi") OR ("iwidi") OR ("o'owidi") OR ("owidi") ;
-SET SPECIAL_ADVS = ("debinaak") OR ("nising") OR ("niiwing") OR ("niizhing") OR ("dasing") ;
+# locative advs that work as prepositions
+SET PREP_LOCS = ("o'omaa") OR ("omaa") OR ("i'imaa") OR ("imaa") OR ("i'iwidi") OR ("iwidi") OR ("o'owidi") OR ("owidi") ;
+
+# ambiguous advs to select unconditionally
+SET UNCONDITIONAL_ADVS = ("debinaak") OR ("nising") OR ("niiwing") OR ("niizhing") OR ("dasing") ;
+
+# impersonal verbs 
+#SET IMPERSONAL_VERB = ("waaban") OR ("diba'iganeyaa") OR ("izhiwebad");
+LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "naawakwe" "noodinzinoon" "diba'igane" "waaseyaa" "biidaaban" "ondaanimad" "mindookad" "giizhigad" "animikiikaa" "dagwaagin" "niibin" "naawakwe" "bagamibiisaan" "noodin" "ziigwan" "maajibiisaa" "ojiindiwi-giizhigad" "gisinaa" "bimaanimad" "onaabanad" "gibitaanimad" "mikwaminaaniwan" "gizhaate" "bagakaaban" "giizhigaate" "bapangibiisaa";
+
 
 SET NOMINAL = NA_NAD OR NI_NID ;
 SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIO) ;
@@ -96,7 +103,9 @@ SECTION
 # TODO: not fully checked, eye test for ~30 examples seems to work
 SELECT:select_adv_loc TARGET (ADVLoc) ;
 ## Select adverbs from the special set
-SELECT:select_special_adv TARGET SPECIAL_ADVS ;
+SELECT:select_special_adv TARGET UNCONDITIONAL_ADVS ;
+
+REMOVE:rem_pl_for_impersonal_verbs (0PlSubj) IF (0 IMPERSONAL_VERB)  ;
 
 
 ## DEV NOTE May 27: DELETED ALL OBV SG VS PL RULES - MAKE SURE CORRECT
@@ -185,6 +194,13 @@ SELECT:noun_animacy_rule_2 NI_NID IF ((-1* INAN_ARGUMENT BARRIER VERB) OR (1* IN
 # For now only found demonstrative case with following noun
 SELECT:pronoun_animacy_rule_1 (PRONDem NA) IF (1 (NA)) (NOT 1 (NI)) ;
 SELECT:pronoun_animacy_rule_2 (PRONDem NI) IF (1 (NI)) (NOT 1 (NA)) ;
+
+
+### OTHER - Other (idiosyncratic) ambiguity cases
+
+# aaniin - select ADVInter if close participle or ADV
+SELECT:aanin_1 ("aaniin" ADVInter) IF ((1 (Pcp)) OR (2 (Pcp))) ;
+SELECT:aanin_2 ("aaniin" ADVInter) IF (1 ADV) ;
 
 
 

@@ -18,10 +18,11 @@ UNIVERSAL_UPOS = {
 
 # CG relation -> UD DEPREL 
 REL_MAP = {                           
-    "Obj":  "obj",
     "Adv":  "advmod",
     "Subj": "nsubj",
     "csubj": "csubj",
+    "Obj":  "obj",
+    "ccomp": "ccomp",
     "punct": "punct",
     "Dem": "det",
     "RelCl": "acl:relcl",

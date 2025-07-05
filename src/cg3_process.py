@@ -1,11 +1,13 @@
 from fst_runtime.fst import Fst
-import subprocess
+import subprocess, re
 
 # Name of cg3 command 
 CG3_NAME = "vislcg3" # or cg3"
 
 # constants for tokenization
-PUNCTUTATIONS = ".,!()?$"
+PUNCTUATIONS = (
+    r'.,;:!?(){}\[\]<>«»“”"'  
+)
 PRESERVE_TOKEN = "..." # keep ... as literal as in some sentences
 
 
@@ -96,20 +98,26 @@ def tokenize(ojibwe_sentence:str) -> list[str]:
         A list of tokens, where punctuation symbols are separated from words.
     """
     
-    raw_tokens = ojibwe_sentence.lower().split()
+    TOKEN_RE = re.compile(
+        rf'({re.escape(PRESERVE_TOKEN)})'       
+        rf'|([{PUNCTUATIONS}])'                   
+        rf'|(\w[\wʼ’\'\-–]*)',                      
+        flags=re.UNICODE,
+        )
     
-    output = []
-    for i, item in enumerate(raw_tokens):
-        if (item[0] in PUNCTUTATIONS) and (PRESERVE_TOKEN not in item):
-            # word starts with a character in PUNCTUATIONS
-            output.extend([item[0], item[1:]])
-        elif (item[-1] in PUNCTUTATIONS) and (PRESERVE_TOKEN not in item):
-            # word ends with a character in PUNCTUATIONS
-            output.extend([item[:-1], item[-1]])
-        else:
-           output.append(item) 
-    
-    return output 
+    tokens = []
+
+    for m in TOKEN_RE.finditer(ojibwe_sentence):
+        punct, word = m.group(2), m.group(3)
+
+        if punct is not None:             
+            tokens.append(punct)
+        elif word is not None:            
+            tokens.append(word.lower())
+        else:                            
+            tokens.append(PRESERVE_TOKEN)
+
+    return tokens
 
 
 def fst_tags_to_cg3_reading(fst_analysis: str) -> str:

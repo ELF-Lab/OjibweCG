@@ -1,7 +1,7 @@
 # This is the disambiguation file for Anishinaabemowin (Ojibwe).
 
 # Define to set as sentence delimeters
-DELIMITERS = "<.>" "<?>" "<!>" "<¶>";
+DELIMITERS = "<.>" "<,>" "<;>" "<:>" "<!>" "<?>" "<(>" "<)>" "<{>" "<}>" "<[>" "<]>" "<<>" "<>>" "<«>" "<»>" "<“>" "<”>" "<">" "<¶>";
 
 # We can define sets for common tag clusters
 LIST VTA = VTA ;
@@ -84,7 +84,6 @@ SET PREP_LOCS = ("o'omaa") OR ("omaa") OR ("i'imaa") OR ("imaa") OR ("i'iwidi") 
 SET UNCONDITIONAL_ADVS = ("debinaak") OR ("nising") OR ("niiwing") OR ("niizhing") OR ("dasing") ;
 
 # impersonal verbs 
-#SET IMPERSONAL_VERB = ("waaban") OR ("diba'iganeyaa") OR ("izhiwebad");
 LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "naawakwe" "noodinzinoon" "diba'igane" "waaseyaa" "biidaaban" "ondaanimad" "mindookad" "giizhigad" "animikiikaa" "dagwaagin" "niibin" "naawakwe" "bagamibiisaan" "noodin" "ziigwan" "maajibiisaa" "ojiindiwi-giizhigad" "gisinaa" "bimaanimad" "onaabanad" "gibitaanimad" "mikwaminaaniwan" "gizhaate" "bagakaaban" "giizhigaate" "bapangibiisaa";
 
 

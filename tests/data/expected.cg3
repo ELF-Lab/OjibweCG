@@ -60,7 +60,6 @@
 	"bimaagimose" PVTense/wii' PVLex/ando VAI Cnj Pos Neu 1SgSubj
 "<waabang>"
 	"waaban" VII Cnj Pos Neu 0SgSubj
-	"waaban" VII Cnj Pos Neu 0PlSubj
 "<.>"
 
 ### 006
@@ -161,12 +160,10 @@
 	"ingoji" ADVDeg
 "<niiyo-diba'iganeg>"
 	"niiyo-diba'igane" VII Cnj Pos Neu 0SgSubj
-	"niiyo-diba'igane" VII Cnj Pos Neu 0PlSubj
 "<ashi-aabita>"
 	"ashi-aabita" NUM
 "<bi-waaseyaag>"
 	"waaseyaa" PVDir/bi VII Cnj Pos Neu 0SgSubj
-	"waaseyaa" PVDir/bi VII Cnj Pos Neu 0PlSubj
 "<.>"
 
 ### 015
@@ -192,7 +189,6 @@
 
 "<ishkwaa-naawakweg>"
 	"ishkwaa-naawakwe" VII Cnj Pos Neu 0SgSubj
-	"ishkwaa-naawakwe" VII Cnj Pos Neu 0PlSubj
 "<niwii'-ani-aazhoge'adoo>"
 	"aazhoge'adoo" PVTense/wii' PVDir/ani VAI Ind Pos Neu 1SgSubj
 "<.>"
@@ -353,7 +349,6 @@
 "<gaawiin>"
 	"gaawiin" ADVNeg
 "<noodinzinoon>"
-	"noodin" VII Ind Neg Neu 0PlSubj
 	"noodin" VII Ind Neg Neu 0SgSubj
 "<.>"
 
@@ -589,7 +584,6 @@
 	"igo" PCEmph
 "<biidaabang>"
 	"biidaaban" VII Cnj Pos Neu 0SgSubj
-	"biidaaban" VII Cnj Pos Neu 0PlSubj
 "<giga-bakinasabiimin>"
 	"bakinasabii" PVTense/ga VAI Ind Pos Neu InclSubj
 "<.>"

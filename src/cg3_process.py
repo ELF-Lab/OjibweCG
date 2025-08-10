@@ -101,7 +101,7 @@ def tokenize(ojibwe_sentence:str) -> list[str]:
     TOKEN_RE = re.compile(
         rf'({re.escape(PRESERVE_TOKEN)})'       
         rf'|([{PUNCTUATIONS}])'                   
-        rf'|(\w[\wʼ’\'\-–]*)',                      
+        rf'|([\wʼ’\'\-–]+)',                      
         flags=re.UNICODE,
         )
     

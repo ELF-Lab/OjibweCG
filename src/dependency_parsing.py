@@ -22,6 +22,7 @@ REL_MAP = {
     "Subj": "nsubj",
     "csubj": "csubj",
     "Obj":  "obj",
+    "iobj":  "iobj",
     "ccomp": "ccomp",
     "punct": "punct",
     "Dem": "det",
@@ -105,10 +106,6 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
 
             upos_tag = next((t for t in fields if t in UNIVERSAL_UPOS), None)
             upos = upos_tag or "X"
-
-            # if particle or interjection, attach to root (easier to be done here)
-            if relkind == None and upos in ("INTJ", "PART"):
-                relkind = "discourse"
 
             tokens.append(dict(
                 form=current_surface,

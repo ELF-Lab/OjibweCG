@@ -1,0 +1,1263 @@
+# sent_id = 1
+# text = onjishkawa'o gaa-biidakwazhiwed .
+1	onjishkawa'o	onjishkawa'o	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-biidakwazhiwed	biidakwazhiwe	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 2
+# text = naangidaabii odaanaang gaa-bi-ayaad .
+1	naangidaabii	naangidaabii	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	odaanaang	odaanaang	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	gaa-bi-ayaad	ayaa	VERB	PVSub/gaa|PVDir/bi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 3
+# text = ogii-minwaabandaanaawaa gaa-waabandamowaad iwe gichi-mandaamini-gitigaan .
+1	ogii-minwaabandaanaawaa	minwaabandan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3PlProxSubj|0SgObj|VERB	_	0	root	_	_
+2	gaa-waabandamowaad	waabandan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|3PlProxSubj|0SgObj|VERB	_	1	dep	_	_
+3	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	gichi-mandaamini-gitigaan	mandaamini-gitigaan	NOUN	PNLex/gichi|NI|Sg|NOUN	_	2	obj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = gichi-miigwechiwendam gaa-ina'oonind omaa gii-pagijigeng .
+1	gichi-miigwechiwendam	miigwechiwendam	VERB	PVLex/gichi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-ina'oonind	ina'oozh	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	omaa	omaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-pagijigeng	bagijige	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|XSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 5
+# text = gii-onzaamiinowag gitigewininiwag iwidi gaa-izhaayaang gii-piibaagadaaweng .
+1	gii-onzaamiinowag	onzaamiino	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	gitigewininiwag	gitigewinini	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gaa-izhaayaang	izhaa	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	1	dep	_	_
+5	gii-piibaagadaaweng	biibaagadaawe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|XSubj|VERB	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 6
+# text = gii-kiziisaga'ige imaa gaa-izhi-bapangigaag 'iw waasamoo-bimide .
+1	gii-kiziisaga'ige	giziisaga'ige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	gaa-izhi-bapangigaag	bapangigaa	VERB	PVSub/gaa|PVRel/izhi|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	4	acl:relcl	_	_
+4	'iw	'iw	DET	PRONDem|NI|Sg|DET	_	5	det	_	_
+5	waasamoo-bimide	waasamoo-bimide	NOUN	NI|Sg|NOUN	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = ngii-nibeshkaagon 'iw gaa-minikweyaan miinawaa gaa-miijiyaan .
+1	ngii-nibeshkaagon	nibeshkaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|0SgSubj|1SgObj|VERB	_	0	root	_	_
+2	'iw	'iw	PRON	PRONDem|NI|Sg|PRON	_	1	nsubj	_	_
+3	gaa-minikweyaan	minikwen	VERB	PVSub/gaa|VAIO|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	1	dep	_	_
+4	miinawaa	miinawaa	ADV	ADVConj|ADV	_	1	dep	_	_
+5	gaa-miijiyaan	miijin	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 8
+# text = ningii-kagwejikanidimin nishiime gaa-ni-izhi-gabikawid .
+1	ningii-kagwejikanidimin	gagwejikanidiwag	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|ExclObj|VERB	_	0	root	_	_
+2	nishiime	shiimey	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	3	nsubj	_	_
+3	gaa-ni-izhi-gabikawid	gabikaw	VERB	PVSub/gaa|PVDir/ni|PVRel/izhi|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 9
+# text = mii go bizaan gaa-izhi-maajidaabii'iwed aana-gii-gina'amawind
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	bizaan	bizaan	ADV	ADVMan|ADV	_	4	advmod	_	_
+4	gaa-izhi-maajidaabii'iwed	maajidaabii'iwe	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	aana-gii-gina'amawind	gina'amaw	VERB	PVTense/aana|PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj3|VERB	_	4	dep	_	_
+
+# sent_id = 10
+# text = namanj gaa-izhinamogwen iwidi agwajiing wa'awe gaa-piindigeyaanimizid .
+1	namanj	namanj	ADV	ADVDub|ADV	_	2	dep	_	_
+2	gaa-izhinamogwen	izhinam	VERB	PVSub/gaa|VAI|Cnj|Pos|Dub|3SgProxSubj|VERB	_	0	root	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	case	_	_
+4	agwajiing	agwajiing	ADV	ADVLoc|ADV	_	2	obl	_	_
+5	wa'awe	wa'awe	PRON	PRONDem|NA|ProxSg|PRON	_	2	nsubj	_	_
+6	gaa-piindigeyaanimizid	biindigeyaanimizi	VERB	PVTense/gii|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	5	acl:relcl	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 11
+# text = mii 'iw gii-niigoshimad awe diba'igeziswaan gaa-apaginad .
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	'iw	'iw	PRON	PRONDem|NI|Sg|PRON	_	3	dep	_	_
+3	gii-niigoshimad	niigoshim	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	diba'igeziswaan	diba'igeziswaan	NOUN	NA|ProxSg|NOUN	_	3	obj	_	_
+6	gaa-apaginad	apagizh	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	3	dep	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 12
+# text = gii-paakaakosin iwe waasechigan gaa-onji-biindigebiisaag
+1	gii-paakaakosin	baakaakosin	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	waasechigan	waasechigan	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+4	gaa-onji-biindigebiisaag	biindigebiisaa	VERB	PVSub/gaa|PVRel/onji|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	3	acl:relcl	_	_
+
+# sent_id = 13
+# text = waabang wii'-na'inigaazo gaa-gii'-ishkwaa-ayaad .
+1	waabang	waaban	VERB	VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	wii'-na'inigaazo	na'inigaazo	VERB	PVTense/wii'|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+3	gaa-gii'-ishkwaa-ayaad	ishkwaa-ayaa	VERB	PVSub/gaa|PVTense/gii'|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	csubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = ogii-maadanokaadaan gaa-inanoonind awasonaago .
+1	ogii-maadanokaadaan	maadanokaadan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	gaa-inanoonind	inanoozh	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	awasonaago	awasonaago	ADV	ADVTmp|ADV	_	2	advmod	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = naajigwaazh gigaanda'igwaason gaa-gii-pishigonad anaamidoopowinaak . mitig aabajitoon ji-naajigwaanad .
+1	naajigwaazh	naajigwaazh	VERB	VTA|Imp|Sim|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	gigaanda'igwaason	gaanda'igwaason	NOUN	NA|ProxSg|2SgPoss|NOUN	_	1	obj	_	_
+3	gaa-gii-pishigonad	bishigon	VERB	PVSub/gaa|PVTense/gii|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	2	acl:relcl	_	_
+4	anaamidoopowinaak	anaamidoopowinaak	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+6	mitig	mitig	NOUN	NA|ProxSg|NOUN	_	7	obj	_	_
+7	aabajitoon	aabajitoon	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	1	dep	_	_
+8	ji-naajigwaanad	naajigwaazh	VERB	PVTense/daa|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 16
+# text = gii-tajise awe odaabii'iwewinini gaa-onji-giiwenizha'ond .
+1	gii-tajise	dajise	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	odaabii'iwewinini	odaabii'iwewinini	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	gaa-onji-giiwenizha'ond	giiwenizha'	VERB	PVSub/gaa|PVRel/onji|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = gii-tajisewag ogo gaa-naganindwaa .
+1	gii-tajisewag	dajise	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	ogo	ogo	PRON	PRONDem|NA|ProxPl|PRON	_	1	nsubj	_	_
+3	gaa-naganindwaa	nagazh	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|XSubj|3PlProxObj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 18
+# text = anishinaabewanjigewag geyaabi gaa-onji-mino-ayaawaad .
+1	anishinaabewanjigewag	anishinaabewanjige	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	geyaabi	geyaabi	ADV	ADVTmp|ADV	_	1	advmod	_	_
+3	gaa-onji-mino-ayaawaad	mino-ayaa	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 19
+# text = ogii-bishigwa'aan iwe aana-wii-kaanda'ang jiimaan gaa-onji-bakobiised .
+1	ogii-bishigwa'aan	bishigwa'an	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	iwe	iwe	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	aana-wii-kaanda'ang	gaanda'an	VERB	PVTense/aana|PVTense/wii|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+4	jiimaan	jiimaan	NOUN	NI|Sg|NOUN	_	3	obj	_	_
+5	gaa-onji-bakobiised	bakobiise	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	csubj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 20
+# text = dakisijiganing izhi-atoon gaa-gii'-ishkwandaman ji-wanaajisinzinog .
+1	dakisijiganing	dakisijigan	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+2	izhi-atoon	atoon	VERB	PVRel/izhi|VTI|Imp|Sim|2SgSubj|0PlObj|VERB	_	0	root	_	_
+3	gaa-gii'-ishkwandaman	ishkwandan	VERB	PVSub/gaa|PVTense/gii'|VTI|Cnj|Pos|Neu|2SgSubj|0PlObj|VERB	_	2	ccomp	_	_
+4	ji-wanaajisinzinog	wanaajisin	VERB	PVTense/daa|VII|Cnj|Neg|Neu|0PlSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 21
+# text = dazhi-agwaanaaso gaa-gii'-maa'ishkang . gii-kichi-adaawe .
+1	dazhi-agwaanaaso	agwaanaaso	VERB	PVRel/dazhi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-gii'-maa'ishkang	maa'ishkam	VERB	PVSub/gaa|PVTense/gii'|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+4	gii-kichi-adaawe	adaawe	VERB	PVTense/gii|PVLex/gichi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 22
+# text = gaawiin gegoo naanaagadawendanziin awe gaa-onji-bakiiwiid aw gaa-wiikwiid .
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+2	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	3	dep	_	_
+3	naanaagadawendanziin	naanaagadawendam	VERB	VAI|Ind|Neg|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	3	nsubj	_	_
+5	gaa-onji-bakiiwiid	bakiiwii	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	4	acl:relcl	_	_
+6	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	5	nsubj	_	_
+7	gaa-wiikwiid	wiikwii	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	6	acl:relcl	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 23
+# text = mii ji-bwaanawi'ad ji-gichiwinadiban . ojaanimendam wii-azhegiiwed iwidi gaa-pi-onji-bazigwiid gaa-izhiwebadinig .
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	ji-bwaanawi'ad	bwaanawi'	VERB	PVTense/daa|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	ji-gichiwinadiban	gichiwin	VERB	PVTense/daa|VTA|Cnj|Pos|Prt|2SgSubj|3SgProxObj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+5	ojaanimendam	ojaanimendam	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+6	wii-azhegiiwed	azhegiiwe	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+7	iwidi	iwidi	ADV	ADVLoc|ADV	_	6	obl	_	_
+8	gaa-pi-onji-bazigwiid	bazigwii	VERB	PVTense/gii|PVDir/bi|PVRel/onji|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	7	acl:relcl	_	_
+9	gaa-izhiwebadinig	izhiwebad	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0PlObvSubj|VERB	_	2	dep	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 24
+# text = gii-memeshkwajiiwag igi gaa-azhebowewaad gii-aazhawa'oodoowaad iwe jiimaan imaa zaaga'iganing .
+1	gii-memeshkwajiiwag	memeshkwajiiwag	X	PVTense/gii|VAIPL|Ind|Pos|Neu|3PlProxSubj	_	3	dep	_	_
+2	igi	igi	PRON	PRONDem|NA|ProxPl|PRON	_	1	nsubj	_	_
+3	gaa-azhebowewaad	azhebowe	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+4	gii-aazhawa'oodoowaad	aazhawa'oodoon	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|3PlProxSubj|0SgObj|VERB	_	3	dep	_	_
+5	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	6	det	_	_
+6	jiimaan	jiimaan	NOUN	NI|Sg|NOUN	_	4	obj	_	_
+7	imaa	imaa	ADV	ADVLoc|ADV	_	8	case	_	_
+8	zaaga'iganing	zaaga'igan	NOUN	NI|Loc|NOUN	_	4	obl	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 25
+# text = ginwaakwad gikiwe'on gaa-izhi-wewebaasing
+1	ginwaakwad	ginwaakwad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	gikiwe'on	gikiwe'on	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+3	gaa-izhi-wewebaasing	wewebaasin	VERB	PVSub/gaa|PVRel/izhi|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	acl:relcl	_	_
+
+# sent_id = 26
+# text = ingii-nishki'ig gaa-onji-gichi-basiingwe'wag .
+1	ingii-nishki'ig	nishki'	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+2	gaa-onji-gichi-basiingwe'wag	basiingwe'	VERB	PVSub/gaa|PVRel/onji|PVLex/gichi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 27
+# text = mii iniw gaa-nisigod wadowan .
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iniw	iniw	PRON	PRONDem|NI|Pl|PRON	_	3	nsubj	_	_
+3	gaa-nisigod	nishi	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|0PlSubj|3SgProxObj|VERB	_	0	root	_	_
+4	wadowan	wadow	NOUN	NA|ObvPl|NOUN	_	3	dep	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 28
+# text = andodamaageshki gaa-nakweshkawag ikwe bijiinaago .
+1	andodamaageshki	andodamaageshki	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-nakweshkawag	nakweshkaw	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	ikwe	ikwe	NOUN	NA|ProxSg|NOUN	_	2	obj	_	_
+4	bijiinaago	bijiinaago	ADV	ADVTmp|ADV	_	2	advmod	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 29
+# text = gaa-izhi-neyaabikaanig bi-onji-agwaakawewag .
+1	gaa-izhi-neyaabikaanig	neyaabikaa	VERB	PVSub/gaa|PVRel/izhi|VII|Cnj|Pos|Neu|0PlObvSubj|VERB	_	0	root	_	_
+2	bi-onji-agwaakawewag	agwaakawe	VERB	PVDir/bi|PVRel/onji|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 30
+# text = ningwaagonenan moozonagizh gaa-gii'-ondaabasaman .
+1	ningwaagonenan	ningwaagonenan	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+2	moozonagizh	moozonagizh	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+3	gaa-gii'-ondaabasaman	ondaabasan	VERB	PVSub/gaa|PVTense/gii'|VTI|Cnj|Pos|Neu|2SgSubj|0SgObj|VERB	_	2	acl:relcl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 31
+# text = gigagiibaadendaagoz . gagwe-minjiminan iwe gaa-izhi-onagimigooyin imaa gii-piinjwebinigeng .
+1	gigagiibaadendaagoz	gagiibaadendaagozi	VERB	VAI|Ind|Pos|Neu|2SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+3	gagwe-minjiminan	minjiminan	VERB	PVLex/gagwe|VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	1	dep	_	_
+4	iwe	iwe	PRON	PRONDem|NI|Sg|PRON	_	3	obj	_	_
+5	gaa-izhi-onagimigooyin	onagim	VERB	PVSub/gaa|PVRel/izhi|VTA|Cnj|Pos|Neu|XSubj|2SgObj|VERB	_	1	dep	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+7	gii-piinjwebinigeng	biinjwebinige	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|XSubj|VERB	_	1	dep	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 32
+# text = mii iwidi debinaagozid ogidaaki wa'aw gaa-ni-maajaad .
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	debinaagozid	debinaagozi	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	ogidaaki	ogidaaki	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	wa'aw	wa'aw	PRON	PRONDem|NA|ProxSg|PRON	_	3	nsubj	_	_
+6	gaa-ni-maajaad	maajaa	VERB	PVSub/gaa|PVDir/ni|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	5	acl:relcl	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 33
+# text = onzaam gabaya'ii ogii-mazina'amaagoon gaa-onji-naadazina'iged .
+1	onzaam	onzaam	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	gabaya'ii	gabaya'ii	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	ogii-mazina'amaagoon	mazina'amaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3PlObvSubj|3SgProxObj|VERB	_	0	root	_	_
+4	gaa-onji-naadazina'iged	naadazina'ige	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	ccomp	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 34
+# text = ambe niimiitamawaadaa gaa-oshki-biindigeshimod .
+1	ambe	ambe	INTJ	PCInterj|INTJ	_	2	dep	_	_
+2	niimiitamawaadaa	niimiitamaw	VERB	VTA|Imp|Sim|InclSubj|3PlObvObj|VERB	_	0	root	_	_
+3	gaa-oshki-biindigeshimod	biindigeshimo	VERB	PVSub/gaa|PVLex/oshki|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	ccomp	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 35
+# text = gaawiin ganabaj indaa-debwetawaasii gaa-gii-kagwejimid wii'-wiidigemid .
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+2	ganabaj	ganabaj	ADV	ADVMan|ADV	_	3	advmod	_	_
+3	indaa-debwetawaasii	debwetaw	VERB	PVTense/daa|VTA|Ind|Neg|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	gaa-gii-kagwejimid	gagwejim	VERB	PVSub/gaa|PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	3	ccomp	_	_
+5	wii'-wiidigemid	wiidigem	VERB	PVTense/wii'|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	3	dep	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 36
+# text = onzaam ogii-sanagendaan awe eshpabid gaa-onji-ikwabid .
+1	onzaam	onzaam	ADV	ADVQnt|ADV	_	2	dep	_	_
+2	ogii-sanagendaan	zanagendan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+3	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	2	nsubj	_	_
+4	eshpabid	ishpabi	VERB	VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	3	acl:relcl	_	_
+5	gaa-onji-ikwabid	ikwabi	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	4	csubj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 37
+# text = dabasaya'ii ningii-onzaabamaag gaa-gidochigewaad .
+1	dabasaya'ii	dabasaya'ii	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	ningii-onzaabamaag	onzaabam	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+3	gaa-gidochigewaad	gidochige	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 38
+# text = gaawiin niminwendanziin gaa-wiisagang .
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	niminwendanziin	minwendam	VERB	VAI|Ind|Neg|Neu|1SgSubj|VERB	_	0	root	_	_
+3	gaa-wiisagang	wiisagan	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	ccomp	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 39
+# text = gichi-bizaani-ayaa epiichi-mamiidaawendang gaa-ako-naganigod iniw odikweman awe ... a'awe inini .
+1	gichi-bizaani-ayaa	bizaani-ayaa	VERB	PVLex/gichi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	epiichi-mamiidaawendang	mamiidaawendam	VERB	PVRel/apiichi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	1	csubj	_	_
+3	gaa-ako-naganigod	nagazh	VERB	PVSub/gaa|PVRel/ako|VTA|Cnj|Pos|Neu|0PlSubj|3SgProxObj|VERB	_	1	dep	_	_
+4	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	5	det	_	_
+5	odikweman	ikwe	NOUN	NA|Poss|ObvPl|3SgProxPoss|NOUN	_	1	dep	_	_
+6	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	3	obj	_	_
+7	...	...	X	_	_	1	dep	_	_
+8	a'awe	a'awe	DET	PRONDem|NA|ProxSg|DET	_	9	det	_	_
+9	inini	inini	NOUN	NA|ProxSg|NOUN	_	3	obj	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 40
+# text = bwaawidaabii gaa-niigaanidaabiid .
+1	bwaawidaabii	bwaawidaabii	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-niigaanidaabiid	niigaanidaabii	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 41
+# text = minomaasige gaa-zaasakokwaadang moozo-wiiyaas .
+1	minomaasige	minomaasige	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-zaasakokwaadang	zaasakokwaadan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+3	moozo-wiiyaas	moozo-wiiyaas	NOUN	NI|Sg|NOUN	_	2	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 42
+# text = ogii-gichi-wiisagipwaan iniwen zhingaangawinzhiin gaa-bakwemaad .
+1	ogii-gichi-wiisagipwaan	wiisagip	VERB	PVTense/gii|PVLex/gichi|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	iniwen	iniwen	DET	PRONDem|NA|ObvSg|DET	_	3	det	_	_
+3	zhingaangawinzhiin	zhingaangawinzh	NOUN	NA|ObvSg|NOUN	_	1	obj	_	_
+4	gaa-bakwemaad	bakwem	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 43
+# text = awenenag igiwe gaa-biindigewaad ininiwag .
+1	awenenag	awenenag	PRON	PRONInter|NA|ProxPl|PRON	_	3	nsubj	_	_
+2	igiwe	igiwe	PRON	PRONDem|NA|ProxPl|PRON	_	3	nsubj	_	_
+3	gaa-biindigewaad	biindige	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+4	ininiwag	inini	NOUN	NA|ProxPl|NOUN	_	3	nsubj	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 44
+# text = dibi go gaa-ni-ipizogwen a' ininiwish .
+1	dibi	dibi	ADV	ADVDub|ADV	_	3	dep	_	_
+2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
+3	gaa-ni-ipizogwen	ipizo	VERB	PVSub/gaa|PVDir/ni|VAI|Cnj|Pos|Dub|3SgProxSubj|VERB	_	0	root	_	_
+4	a'	a'	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	ininiwish	inini	NOUN	NA|Pej|ProxSg|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 45
+# text = dibi iidog gaa-izhaagwen .
+1	dibi	dibi	ADV	ADVDub|ADV	_	3	dep	_	_
+2	iidog	iidog	PART	PCAsp|PART	_	3	discourse	_	_
+3	gaa-izhaagwen	izhaa	VERB	PVSub/gaa|VAI|Cnj|Pos|Dub|3SgProxSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 46
+# text = aandi gaa-ondinaman giwewebanaabaan . adaawewigamigong ingii-ondinaan .
+1	aandi	aandi	ADV	ADVInter|ADV	_	2	dep	_	_
+2	gaa-ondinaman	ondinan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|2SgSubj|0SgObj|VERB	_	0	root	_	_
+3	giwewebanaabaan	wewebanaabaan	NOUN	NI|Sg|2SgPoss|NOUN	_	2	obj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+5	adaawewigamigong	adaawewigamig	NOUN	NI|Loc|NOUN	_	6	obl	_	_
+6	ingii-ondinaan	ondinan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	2	dep	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 47
+# text = ogii-kojitoon iwe oshki-wewebanaabaan gaa-adaawed .
+1	ogii-kojitoon	gojitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	oshki-wewebanaabaan	wewebanaabaan	NOUN	PNLex/oshki|NI|Sg|NOUN	_	1	obj	_	_
+4	gaa-adaawed	adaawen	VERB	PVSub/gaa|VAIO|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 48
+# text = nigii-gichi-aabajitoonan gii-pabaa-maamiginamaan iniwen gaa-webinigaadegin .
+1	nigii-gichi-aabajitoonan	aabajitoon	VERB	PVTense/gii|PVLex/gichi|VTI|Ind|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+2	gii-pabaa-maamiginamaan	maamiginan	VERB	PVTense/gii|PVDir/babaa|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	1	dep	_	_
+3	iniwen	iniwen	PRON	PRONDem|NI|Pl|PRON	_	2	obj	_	_
+4	gaa-webinigaadegin	webinigaade	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0PlSubj|VERB	_	3	acl:relcl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 49
+# text = onizhan gaa-gii-peshibii'aman .
+1	onizhan	onizhan	VERB	VTI|Imp|Sim|2SgSubj|0PlObj|VERB	_	0	root	_	_
+2	gaa-gii-peshibii'aman	beshibii'an	VERB	PVSub/gaa|PVTense/gii|VTI|Cnj|Pos|Neu|2SgSubj|0PlObj|VERB	_	1	ccomp	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 50
+# text = odadima'aan gaa-bimaasininig jiimaan .
+1	odadima'aan	adima'an	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	gaa-bimaasininig	bimaasin	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgObvSubj|VERB	_	1	dep	_	_
+3	jiimaan	jiimaan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 51
+# text = gii-noondese i'iw noomaabikinigan gaa-onji-gibichiwebinaad iniw akikoonsan .
+1	gii-noondese	noondese	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	i'iw	i'iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	noomaabikinigan	noomaabikinigan	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+4	gaa-onji-gibichiwebinaad	gibichiwebin	VERB	PVSub/gaa|PVRel/onji|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	1	dep	_	_
+5	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	6	det	_	_
+6	akikoonsan	akikoons	NOUN	NA|ObvPl|NOUN	_	4	obj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 52
+# text = ningii'-wiisagigidigweshin gaa-onji-maakiseyaan .
+1	ningii'-wiisagigidigweshin	wiisagigidigweshin	VERB	PVTense/gii'|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	gaa-onji-maakiseyaan	maakise	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 53
+# text = zinigobinidizo gaa-gii'-izhi-wiisagigidigweshing .
+1	zinigobinidizo	zinigobinidizo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|3SgProxObj|VERB	_	0	root	_	_
+2	gaa-gii'-izhi-wiisagigidigweshing	wiisagigidigweshin	VERB	PVSub/gaa|PVTense/gii'|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 54
+# text = ogii'-ondamiikawaan odoodaabaanan gaa-onji-bezikaad zhebaa ningozis .
+1	ogii'-ondamiikawaan	ondamiikaw	VERB	PVTense/gii'|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	odoodaabaanan	odaabaan	NOUN	NA|ObvPl|3SgProxPoss|NOUN	_	1	obj	_	_
+3	gaa-onji-bezikaad	bezikaa	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+4	zhebaa	zhebaa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+5	ningozis	gozis	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 55
+# text = bekaa gaagiigidon . giga-amajimaa gimishoomis gaa-nibaad .
+1	bekaa	bekaa	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gaagiigidon	gaagiigido	VERB	VAI|Imp|Sim|2SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+4	giga-amajimaa	amajim	VERB	PVTense/ga|VTA|Ind|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	2	dep	_	_
+5	gimishoomis	mishoomis	NOUN	NAD|ProxSg|2SgPoss|NOUN	_	4	obj	_	_
+6	gaa-nibaad	nibaa	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	5	acl:relcl	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 56
+# text = awenen dinowa bineshiinh gaa-noondaagozid ?
+1	awenen	awenen	PRON	PRONInter|NA|ProxSg|PRON	_	4	nsubj	_	_
+2	dinowa	dinowa	PRON	PRONSim|NA|ProxSg|PRON	_	4	nsubj	_	_
+3	bineshiinh	bineshiinh	NOUN	NA|ProxSg|NOUN	_	4	dep	_	_
+4	gaa-noondaagozid	noondaagozi	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	root	_	_
+5	?	?	X	_	_	4	dep	_	_
+
+# sent_id = 57
+# text = gikinawaajibii'an indaga owe gaa-ozhibii'igaadeg .
+1	gikinawaajibii'an	gikinawaajibii'an	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+2	indaga	indaga	PART	PCDisc|PART	_	1	discourse	_	_
+3	owe	owe	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+4	gaa-ozhibii'igaadeg	ozhibii'igaade	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	3	acl:relcl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 58
+# text = minwaande iwe niibini-babiinzikawaagan gaa-adaaweyaan bijiinaago .
+1	minwaande	minwaande	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	niibini-babiinzikawaagan	niibini-babiinzikawaagan	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+4	gaa-adaaweyaan	adaawen	VERB	PVSub/gaa|VAIO|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	1	dep	_	_
+5	bijiinaago	bijiinaago	ADV	ADVTmp|ADV	_	4	advmod	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 59
+# text = gigii'-ningisidamawin wiiyaas gaa-gii'-anoozhiyan .
+1	gigii'-ningisidamawin	ningisidamaw	VERB	PVTense/gii'|VTA|Ind|Pos|Neu|1SgSubj|2SgObj|VERB	_	0	root	_	_
+2	wiiyaas	wiiyaas	NOUN	NI|Sg|NOUN	_	1	dep	_	_
+3	gaa-gii'-anoozhiyan	anoozh	VERB	PVSub/gaa|PVTense/gii'|VTA|Cnj|Pos|Neu|2SgSubj|1SgObj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 60
+# text = bebangii eta gii'-ashamaawag gii-ando-wiisiniwaad iwidi gaa-dazhi-ashanding .
+1	bebangii	bebangii	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	eta	eta	X	ADVDeg	_	3	dep	_	_
+3	gii'-ashamaawag	asham	VERB	PVTense/gii'|VTA|Ind|Pos|Neu|XSubj|3PlProxObj|VERB	_	0	root	_	_
+4	gii-ando-wiisiniwaad	wiisini	VERB	PVTense/gii|PVLex/ando|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	3	dep	_	_
+5	iwidi	iwidi	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	gaa-dazhi-ashanding	ashandiwag	VERB	PVSub/gaa|PVRel/dazhi|VAI|Cnj|Pos|Neu|XSubj|XObj|VERB	_	3	dep	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 61
+# text = indayaawaanaan awe dinowa gaazhagens gaa-biigwawed .
+1	indayaawaanaan	ayaaw	VERB	VTA|Ind|Pos|Neu|ExclSubj|3SgProxObj|VERB	_	0	root	_	_
+2	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	3	det	_	_
+3	dinowa	dinowa	PRON	PRONSim|NA|ProxSg|PRON	_	1	obj	_	_
+4	gaazhagens	gaazhagens	NOUN	NA|ProxSg|NOUN	_	1	obj	_	_
+5	gaa-biigwawed	biigwawe	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	4	acl:relcl	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 62
+# text = mii iwidi gaa-izhi-bishkonaagozid 'aw gaazhagenzhish imaa megwekob .
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	dep	_	_
+3	gaa-izhi-bishkonaagozid	bishkonaagozi	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	'aw	'aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	gaazhagenzhish	gaazhagens	NOUN	NA|Pej|ProxSg|NOUN	_	3	nsubj	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	case	_	_
+7	megwekob	megwekob	ADV	ADVLoc|ADV	_	3	obl	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 63
+# text = gagwejiiwaazoowinini wa'awe gaa-dagoshing . niibiwa daso-biboon gii-kagwejiiwaazo .
+1	gagwejiiwaazoowinini	gagwejiiwaazoowinini	NOUN	NA|ProxSg|NOUN	_	3	nsubj	_	_
+2	wa'awe	wa'awe	PRON	PRONDem|NA|ProxSg|PRON	_	3	dep	_	_
+3	gaa-dagoshing	dagoshin	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+5	niibiwa	niibiwa	ADV	ADVQnt|ADV	_	3	dep	_	_
+6	daso-biboon	daso-biboon	NUM	NUM	_	3	dep	_	_
+7	gii-kagwejiiwaazo	gagwejiiwaazo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 64
+# text = waasa noopimiing odoondaawanaawaa' asinii' gaa-madoodiswaagewaad .
+1	waasa	waasa	ADV	ADVLoc|ADV	_	3	obl	_	_
+2	noopimiing	noopimiing	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	odoondaawanaawaa'	ondaawazh	VERB	VTA|Ind|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	0	root	_	_
+4	asinii'	asin	NOUN	NA|ObvPl|NOUN	_	3	obj	_	_
+5	gaa-madoodiswaagewaad	madoodiswaagen	VERB	PVSub/gaa|VAIO|Cnj|Pos|Neu|3PlProxSubj|3SgObvObj|VERB	_	3	dep	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 65
+# text = giwii-adaawaage na 'aw gaa-niizhoogaaded .
+1	giwii-adaawaage	adaawaage	VERB	PVTense/wii|VAI|Ind|Pos|Neu|2SgSubj|VERB	_	0	root	_	_
+2	na	na	PART	PCDisc|PART	_	1	discourse	_	_
+3	'aw	'aw	PRON	PRONDem|NA|ProxSg|PRON	_	1	dep	_	_
+4	gaa-niizhoogaaded	niizhoogaade	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	acl:relcl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 66
+# text = wawiyazhinaagozi gaa-apani'od gaa-niimid .
+1	wawiyazhinaagozi	wawiyazhinaagozi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-apani'od	apani'o	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+3	gaa-niimid	niimi	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	csubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 67
+# text = mayagwewag aapiji igiweg zhaaganaashiiwakiing gaa-o-ganawaabamagwaa anishinaabeg .
+1	mayagwewag	mayagwe	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	aapiji	aapiji	X	ADVDeg	_	1	dep	_	_
+3	igiweg	igiweg	DET	PRONDem|NA|ProxPl|DET	_	1	nsubj	_	_
+4	zhaaganaashiiwakiing	zhaaganaashiiwaki	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+5	gaa-o-ganawaabamagwaa	ganawaabam	VERB	PVSub/gaa|PVDir/o|VTA|Cnj|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	1	dep	_	_
+6	anishinaabeg	anishinaabe	NOUN	NA|ProxPl|NOUN	_	5	obj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 68
+# text = ogii-mashkawitoon i'iwe gaa-ikidod .
+1	ogii-mashkawitoon	mashkawitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	i'iwe	i'iwe	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	gaa-ikidod	ikido	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 69
+# text = wiisaganaamozo gaa-gii-saagijibinind gii-zakideg waakaa'igan .
+1	wiisaganaamozo	wiisaganaamozo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-gii-saagijibinind	zaagijibizh	VERB	PVSub/gaa|PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	csubj	_	_
+3	gii-zakideg	zakide	VERB	PVTense/gii|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+4	waakaa'igan	waakaa'igan	NOUN	NI|Sg|NOUN	_	3	nsubj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 70
+# text = onowedi nitam gaa-gii'-wiijiiwaad .
+1	onowedi	onowedi	PRON	PRONDem|NA|ObvSg|PRON	_	3	obj	_	_
+2	nitam	nitam	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-gii'-wiijiiwaad	wiijiiw	VERB	PVSub/gaa|PVTense/gii'|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 71
+# text = noomag igo gii-wiikwaji'o awe gaa-minjimishkoozod .
+1	noomag	noomag	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	gii-wiikwaji'o	wiikwaji'o	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	3	nsubj	_	_
+5	gaa-minjimishkoozod	minjimishkoozo	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	4	acl:relcl	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 72
+# text = azhegiiwebizo mewinzha gaa-babaa-ondendid .
+1	azhegiiwebizo	azhegiiwebizo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	mewinzha	mewinzha	ADV	ADVTmp|ADV	_	1	advmod	_	_
+3	gaa-babaa-ondendid	ondendi	VERB	PVSub/gaa|PVDir/babaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 73
+# text = weweni ganawendan ini gaa-izhi-gagiikimigooyan . giga-mino-ayaa aapiji .
+1	weweni	weweni	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	ganawendan	ganawendan	VERB	VTI|Imp|Sim|2SgSubj|0PlObj|VERB	_	0	root	_	_
+3	ini	ini	PRON	PRONDem|NI|Pl|PRON	_	2	obj	_	_
+4	gaa-izhi-gagiikimigooyan	gagiikim	VERB	PVSub/gaa|PVRel/izhi|VTA|Cnj|Pos|Neu|XSubj|2SgObj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+6	giga-mino-ayaa	mino-ayaa	VERB	PVTense/ga|VAI|Ind|Pos|Neu|2SgSubj|VERB	_	2	dep	_	_
+7	aapiji	aapiji	X	ADVDeg	_	2	dep	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 74
+# text = wegonenan iniwedi gaa-ategin .
+1	wegonenan	wegonenan	PRON	PRONInter|NI|Pl|PRON	_	3	nsubj	_	_
+2	iniwedi	iniwedi	PRON	PRONDem|NI|Pl|PRON	_	3	dep	_	_
+3	gaa-ategin	ate	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0PlSubj|VERB	_	2	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 75
+# text = ogiimoodaapi'aan gaa-boogidaapinid .
+1	ogiimoodaapi'aan	giimoodaapi'	VERB	VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	gaa-boogidaapinid	boogidaapi	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 76
+# text = wii-kagwejikada'odim noongom gaa-giizhigak . gidaa-gii'-awi-ganawaabimin gegiinawind .
+1	wii-kagwejikada'odim	gagwejikada'odiwag	VERB	PVTense/wii|VAI|Ind|Pos|Neu|XSubj|XObj|VERB	_	0	root	_	_
+2	noongom	noongom	ADV	ADVTmp|ADV	_	1	advmod	_	_
+3	gaa-giizhigak	giizhigad	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+5	gidaa-gii'-awi-ganawaabimin	ganawaabi	VERB	PVTense/daa|PVTense/gii'|PVDir/awi|VAI|Ind|Pos|Neu|InclSubj|VERB	_	1	dep	_	_
+6	gegiinawind	gegiinawind	PRON	PRONPer|NA|Incl|PRON	_	5	nsubj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 77
+# text = ogii-naada'oodoon iwe manoominike-jiimaanens gaa-maadaasininig .
+1	ogii-naada'oodoon	naada'oodoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	manoominike-jiimaanens	manoominike-jiimaanens	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	gaa-maadaasininig	maadaasin	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgObvSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 78
+# text = aapiji googa'amoog igi giingooyag imaa gaa-onji-izhaayaan .
+1	aapiji	aapiji	X	ADVDeg	_	2	dep	_	_
+2	googa'amoog	googa'am	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+3	igi	igi	DET	PRONDem|NA|ProxPl|DET	_	4	det	_	_
+4	giingooyag	giingoo	NOUN	NA|ProxPl|NOUN	_	2	nsubj	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	gaa-onji-izhaayaan	izhaa	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	2	dep	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 79
+# text = mangaadigonam . ganabaj gichi-name gaa-googa'ang .
+1	mangaadigonam	mangaadigonam	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+3	ganabaj	ganabaj	ADV	ADVMan|ADV	_	5	advmod	_	_
+4	gichi-name	name	NOUN	PNLex/gichi|NA|ProxSg|NOUN	_	1	dep	_	_
+5	gaa-googa'ang	googa'am	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	4	acl:relcl	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 80
+# text = aaba'amaw omakizineyaabiin gaa-bwaanawichiged
+1	aaba'amaw	aaba'amaw	VERB	VTA|Imp|Sim|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	omakizineyaabiin	makizineyaab	NOUN	NI|Pl|3SgProxPoss|NOUN	_	1	dep	_	_
+3	gaa-bwaanawichiged	bwaanawichige	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	ccomp	_	_
+
+# sent_id = 81
+# text = dibishkoo go gaa-gii'-ikidod bijiinaago .
+1	dibishkoo	dibishkoo	ADV	ADVMan|ADV	_	3	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
+3	gaa-gii'-ikidod	ikido	VERB	PVSub/gaa|PVTense/gii'|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	bijiinaago	bijiinaago	ADV	ADVTmp|ADV	_	3	advmod	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 82
+# text = anaamaya'ii imaa desa'oning gii-apa'iwe abinoonjiinyish gaa-maazhichiged .
+1	anaamaya'ii	anaamaya'ii	ADV	ADVLoc|ADV	_	4	obl	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	case	_	_
+3	desa'oning	desa'on	NOUN	NI|Loc|NOUN	_	4	obl	_	_
+4	gii-apa'iwe	apa'iwe	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	abinoonjiinyish	abinoojiinh	NOUN	NA|Pej|ProxSg|NOUN	_	4	nsubj	_	_
+6	gaa-maazhichiged	maazhichige	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	5	acl:relcl	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 83
+# text = ishkwe-oodenaang badakide nibewigamig gaa-izhi-nibaayaan
+1	ishkwe-oodenaang	ishkwe-oodena	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+2	badakide	badakide	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	nibewigamig	nibewigamig	NOUN	NI|Sg|NOUN	_	2	nsubj	_	_
+4	gaa-izhi-nibaayaan	nibaa	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	2	dep	_	_
+
+# sent_id = 84
+# text = ominwaadodaan i'iw gaa-o-waabandang minisi .
+1	ominwaadodaan	minwaadodan	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	i'iw	i'iw	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	gaa-o-waabandang	waabandan	VERB	PVSub/gaa|PVDir/o|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+4	minisi	minisi	NOUN	NI|Sg|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 85
+# text = ogii-nookwezwaan a'aw mindimooyenh ini gaa- ... maanamanji'onid .
+1	ogii-nookwezwaan	nookwez	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	mindimooyenh	mindimooyenh	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	ini	ini	PRON	PRONDem|NA|ObvSg|PRON	_	1	obj	_	_
+5	gaa-	gaa-	X	_	_	1	dep	_	_
+6	...	...	X	_	_	1	dep	_	_
+7	maanamanji'onid	maanamanji'o	VERB	VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	1	dep	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 86
+# text = gipagaamagad iwe mazina'igan gaa-wi-adaawanged .
+1	gipagaamagad	gipagaa	VERB	VII|Aug/magad|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	mazina'igan	mazina'igan	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+4	gaa-wi-adaawanged	adaawangen	VERB	PVSub/gaa|PVDir/wi|VAIO|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 87
+# text = ogii'-mikawaan odoodaabaanan gaa-gii-kimoodimind .
+1	ogii'-mikawaan	mikaw	VERB	PVTense/gii'|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	odoodaabaanan	odaabaan	NOUN	NA|ObvPl|3SgProxPoss|NOUN	_	1	obj	_	_
+3	gaa-gii-kimoodimind	gimoodim	VERB	PVSub/gaa|PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	2	acl:relcl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 88
+# text = odagwaabiiginaan amikwan gaa-gii-paashkizwaad .
+1	odagwaabiiginaan	agwaabiigin	VERB	VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	amikwan	amik	NOUN	NA|ObvPl|NOUN	_	1	obj	_	_
+3	gaa-gii-paashkizwaad	baashkiz	VERB	PVSub/gaa|PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	2	acl:relcl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 89
+# text = ogii-kwiinawendaan 'iw gaa-andawendang gaa-onji-mindawed .
+1	ogii-kwiinawendaan	gwiinawendan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	'iw	'iw	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	gaa-andawendang	andawendan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+4	gaa-onji-mindawed	mindawe	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	csubj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 90
+# text = miziwe gii-izhaa omaa godagiing gii-anda-gikenimaad aandi gaa-izhi-gozinid .
+1	miziwe	miziwe	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	gii-izhaa	izhaa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	omaa	omaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	godagiing	godagii	VERB	VAI|Cnj|Pos|Neu|XSubj|VERB	_	2	dep	_	_
+5	gii-anda-gikenimaad	gikenim	VERB	PVTense/gii|PVLex/anda|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	2	dep	_	_
+6	aandi	aandi	ADV	ADVInter|ADV	_	2	dep	_	_
+7	gaa-izhi-gozinid	gozi	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	2	dep	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 91
+# text = gii-kinwaabiigizi gaa-waabamag ginebig bijiinaago .
+1	gii-kinwaabiigizi	ginwaabiigizi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-waabamag	waabam	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	ginebig	ginebig	NOUN	NA|ProxSg|NOUN	_	2	obj	_	_
+4	bijiinaago	bijiinaago	ADV	ADVTmp|ADV	_	2	advmod	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 92
+# text = maamakaadakamig inendaagozi gaa-anokiitang waakaa'igan .
+1	maamakaadakamig	maamakaadakamig	PART	PCDisc|PART	_	2	discourse	_	_
+2	inendaagozi	inendaagozi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	gaa-anokiitang	anokiitan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	2	dep	_	_
+4	waakaa'igan	waakaa'igan	NOUN	NI|Sg|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 93
+# text = naada'wik agaaming gaa-madwe-biibaagid .
+1	naada'wik	naada'	VERB	VTA|Cnj|Pos|Neu|3SgProxSubj|2SgObj|VERB	_	0	root	_	_
+2	agaaming	agaaming	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	gaa-madwe-biibaagid	biibaagi	VERB	PVSub/gaa|PVLex/madwe|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 94
+# text = gii-mashkawaabiigad i'iw zhinoodaagan gaa-aabajichigaadeg gii-dakobinind a'aw asab .
+1	gii-mashkawaabiigad	mashkawaabiigad	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	i'iw	i'iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	zhinoodaagan	zhinoodaagan	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+4	gaa-aabajichigaadeg	aabajichigaade	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	3	acl:relcl	_	_
+5	gii-dakobinind	dakobizh	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+6	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	7	det	_	_
+7	asab	asab	NOUN	NA|ProxSg|NOUN	_	5	obj	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 95
+# text = gego baashkizangen gegoo gaa-mamaajiimagak . akawe weweni ando-gikendan jibwaa-baashkizaman .
+1	gego	gego	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	baashkizangen	baashkizan	VERB	VTI|Imp|Prb|2SgSubj|0PlObj|VERB	_	0	root	_	_
+3	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	2	obj	_	_
+4	gaa-mamaajiimagak	mamaajiimagad	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	3	acl:relcl	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+6	akawe	akawe	ADV	ADVTmp|ADV	_	8	advmod	_	_
+7	weweni	weweni	ADV	ADVMan|ADV	_	8	advmod	_	_
+8	ando-gikendan	gikendam	VERB	PVLex/ando|VAI|Imp|Sim|2SgSubj|VERB	_	2	dep	_	_
+9	jibwaa-baashkizaman	baashkizan	VERB	PVTense/jibwaa|VTI|Cnj|Pos|Neu|2SgSubj|0PlObj|VERB	_	2	dep	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 96
+# text = bagama'amaazo . ganabaj gii'-niiwezhiwewag gaa-bikwaakwadoonsikewaad .
+1	bagama'amaazo	bagama'amaazo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+3	ganabaj	ganabaj	ADV	ADVMan|ADV	_	4	advmod	_	_
+4	gii'-niiwezhiwewag	niiwezhiwe	VERB	PVTense/gii'|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+5	gaa-bikwaakwadoonsikewaad	bikwaakwadoonsike	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 97
+# text = gii-minwaatese i'iwe gaa-o-ganawaabandamaang mazinaatesijigan i'imaa godagiing .
+1	gii-minwaatese	minwaatese	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	i'iwe	i'iwe	PRON	PRONDem|NI|Sg|PRON	_	1	nsubj	_	_
+3	gaa-o-ganawaabandamaang	ganawaabandan	VERB	PVSub/gaa|PVDir/o|VTI|Cnj|Pos|Neu|ExclSubj|0SgObj|VERB	_	1	dep	_	_
+4	mazinaatesijigan	mazinaatesijigan	NOUN	NI|Sg|NOUN	_	3	obj	_	_
+5	i'imaa	i'imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	godagiing	godagii	VERB	VAI|Cnj|Pos|Neu|XSubj|VERB	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 98
+# text = ogii'-agwaabinaan zhingwaakwan gaa-gii-piida'oonaad .
+1	ogii'-agwaabinaan	agwaabizh	VERB	PVTense/gii'|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	zhingwaakwan	zhingwaak	NOUN	NA|ObvPl|NOUN	_	1	obj	_	_
+3	gaa-gii-piida'oonaad	biida'oozh	VERB	PVSub/gaa|PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	2	acl:relcl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 99
+# text = nawaj agaasikodan gizhiiba'ataanaak . agaashiinyi gaa-wii-shiiba'wad
+1	nawaj	nawaj	X	ADVDeg	_	2	dep	_	_
+2	agaasikodan	agaasikodan	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+3	gizhiiba'ataanaak	zhiiba'ataanaak	NOUN	NI|Sg|2SgPoss|NOUN	_	2	obj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+5	agaashiinyi	agaashiinyi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+6	gaa-wii-shiiba'wad	zhiiba'wi	VERB	PVSub/gaa|PVTense/wii|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	2	dep	_	_
+
+# sent_id = 100
+# text = ningii-pangishin gaa-izhi-wiisagidooskwaneyaan .
+1	ningii-pangishin	bangishin	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	gaa-izhi-wiisagidooskwaneyaan	wiisagidooskwane	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 101
+# text = gii-adaawange zhooniyaan gaa-onji-de-diba'waad iniw zagapijiganan .
+1	gii-adaawange	adaawange	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	zhooniyaan	zhooniyaa	NOUN	NA|ObvPl|NOUN	_	3	obj	_	_
+3	gaa-onji-de-diba'waad	diba'	VERB	PVSub/gaa|PVRel/onji|PVLex/de|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	1	dep	_	_
+4	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	5	det	_	_
+5	zagapijiganan	zagapijigan	NOUN	NA|ObvPl|NOUN	_	3	obj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 102
+# text = indawaaj igo inga-baapi'aa awe gaa-mindawed aanawi agwaa'izekwed miinawaa .
+1	indawaaj	indawaaj	ADV	ADVMan|ADV	_	3	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	inga-baapi'aa	baapi'	VERB	PVTense/ga|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	3	obj	_	_
+5	gaa-mindawed	mindawe	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	4	acl:relcl	_	_
+6	aanawi	aanawi	ADV	ADVMan|ADV	_	5	advmod	_	_
+7	agwaa'izekwed	agwaa'izekwe	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+8	miinawaa	miinawaa	ADV	ADVConj|ADV	_	3	dep	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 103
+# text = agwaaweba'an zhinoodaagan anaamiindim gaa-agwindeg .
+1	agwaaweba'an	agwaaweba'an	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+2	zhinoodaagan	zhinoodaagan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+3	anaamiindim	anaamiindim	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	gaa-agwindeg	agwinde	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	ccomp	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 104
+# text = mayaawibidoon onaagan gaa-anibesing jibwaa-ziigiseg ginaboobiim .
+1	mayaawibidoon	mayaawibidoon	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+2	onaagan	onaagan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+3	gaa-anibesing	anibesin	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	acl:relcl	_	_
+4	jibwaa-ziigiseg	ziigise	VERB	PVTense/jibwaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+5	ginaboobiim	naboob	NOUN	NI|Poss|Sg|2SgPoss|NOUN	_	4	nsubj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 105
+# text = apiichi-gagiibaadizi gaa-onji-gibaakwa'ond .
+1	apiichi-gagiibaadizi	gagiibaadizi	VERB	PVRel/apiichi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-onji-gibaakwa'ond	gibaakwa'	VERB	PVSub/gaa|PVRel/onji|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 106
+# text = ningizan ashkikomaan . wiimbikozh nabagisag . mii 'imaa izhi-ziiginan gaa-gii'-ningizaman ashkikomaan .
+1	ningizan	ningizan	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+2	ashkikomaan	ashkikomaan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+4	wiimbikozh	wiimbikozh	VERB	VTA|Imp|Sim|2SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+5	nabagisag	nabagisag	NOUN	NA|ProxSg|NOUN	_	4	obj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+7	mii	mii	ADV	ADVPred|ADV	_	1	dep	_	_
+8	'imaa	'imaa	ADV	ADVLoc|ADV	_	9	obl	_	_
+9	izhi-ziiginan	ziiginan	VERB	PVRel/izhi|VTI|Imp|Sim|2SgSubj|0PlObj|VERB	_	1	dep	_	_
+10	gaa-gii'-ningizaman	ningizan	VERB	PVSub/gaa|PVTense/gii'|VTI|Cnj|Pos|Neu|2SgSubj|0SgObj|VERB	_	11	acl:relcl	_	_
+11	ashkikomaan	ashkikomaan	NOUN	NI|Sg|NOUN	_	9	obj	_	_
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 107
+# text = gii-migoshkaadendam gaa-ako-wani'aad iniw ojiwaaman .
+1	gii-migoshkaadendam	migoshkaadendam	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-ako-wani'aad	wani'	VERB	PVSub/gaa|PVRel/ako|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	1	dep	_	_
+3	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	4	det	_	_
+4	ojiwaaman	jiwaam	NOUN	NAD|ObvPl|3SgProxPoss|NOUN	_	2	obj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 108
+# text = mii go iwidi gaa-ina'adooyaan dibikong gii-izhaayaan .
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gaa-ina'adooyaan	ina'adoo	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	dibikong	dibikong	ADV	ADVTmp|ADV	_	4	advmod	_	_
+6	gii-izhaayaan	izhaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	4	dep	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 109
+# text = gii-aabijibizowag igiweg zhigaagong gaa-izhaawaad .
+1	gii-aabijibizowag	aabijibizo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	igiweg	igiweg	DET	PRONDem|NA|ProxPl|DET	_	3	det	_	_
+3	zhigaagong	zhigaag	NOUN	NA|Loc|NOUN	_	1	obl	_	_
+4	gaa-izhaawaad	izhaa	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 110
+# text = gii-ayaangwaamizi ji-gwayakozhang i'iw gaa-anoonind ji-giishkizhang .
+1	gii-ayaangwaamizi	ayaangwaamizi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	ji-gwayakozhang	gwayakozhan	VERB	PVTense/daa|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+3	i'iw	i'iw	PRON	PRONDem|NI|Sg|PRON	_	2	obj	_	_
+4	gaa-anoonind	anoozh	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+5	ji-giishkizhang	giishkizhan	VERB	PVTense/daa|VTI|Cnj|Pos|Neu|3SgProxSubj|0PlObj|VERB	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 111
+# text = gii-waabananokii awe gabe-dibik gaa-ondendid .
+1	gii-waabananokii	waabananokii	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	1	nsubj	_	_
+3	gabe-dibik	gabe-dibik	ADV	ADVTmp|ADV	_	1	advmod	_	_
+4	gaa-ondendid	ondendi	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 112
+# text = miikawaadizi a'aw ogimaakwe gaa-waabamag .
+1	miikawaadizi	miikawaadizi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	ogimaakwe	ogimaakwe	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	gaa-waabamag	waabam	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 113
+# text = miigwechiwi' awe gaa-gaagiigidod .
+1	miigwechiwi'	miigwechiwi'	VERB	VTA|Imp|Sim|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	1	obj	_	_
+3	gaa-gaagiigidod	gaagiigido	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	acl:relcl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 114
+# text = ogii-paaswaan iniw omashwen gaa-onji-niimagoonaad .
+1	ogii-paaswaan	baas	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	3	det	_	_
+3	omashwen	mashwe	NOUN	NA|ObvPl|3SgProxPoss|NOUN	_	1	obj	_	_
+4	gaa-onji-niimagoonaad	niimagoozh	VERB	PVSub/gaa|PVRel/onji|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 115
+# text = ishkwaa-niso-diba'iganeg da-booniiwag igiw gaa-maa'ishkamowaad .
+1	ishkwaa-niso-diba'iganeg	niso-diba'igane	VERB	PVLex/ishkwaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	da-booniiwag	boonii	VERB	PVTense/ga|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+3	igiw	igiw	PRON	PRONDem|NA|ProxPl|PRON	_	2	nsubj	_	_
+4	gaa-maa'ishkamowaad	maa'ishkam	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 116
+# text = wewiib gagwe-giizhitoon gaa-dazhiikaman gigikinoo'amaagoowin .
+1	wewiib	wewiib	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gagwe-giizhitoon	giizhitoon	VERB	PVLex/gagwe|VTI|Imp|Sim|2SgSubj|0PlObj|VERB	_	0	root	_	_
+3	gaa-dazhiikaman	dazhiikan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|2SgSubj|0SgObj|VERB	_	2	dep	_	_
+4	gigikinoo'amaagoowin	gikinoo'amaagoowin	NOUN	NI|Sg|2SgPoss|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 117
+# text = giwii'-awi-ganawaabamaag ina giin gaa-wii-kagwejiiwaanidiwaad noongom gaa-dibikak .
+1	giwii'-awi-ganawaabamaag	ganawaabam	VERB	PVTense/wii'|PVDir/awi|VTA|Ind|Pos|Neu|2SgSubj|3PlProxObj|VERB	_	0	root	_	_
+2	ina	ina	PART	PCDisc|PART	_	1	discourse	_	_
+3	giin	giin	PRON	PRONPer|NA|2Sg|PRON	_	1	nsubj	_	_
+4	gaa-wii-kagwejiiwaanidiwaad	gagwejiiwaanidiwag	VERB	PVSub/gaa|PVTense/wii|VAI|Cnj|Pos|Neu|3PlProxSubj|3PlProxObj|VERB	_	1	dep	_	_
+5	noongom	noongom	ADV	ADVTmp|ADV	_	4	advmod	_	_
+6	gaa-dibikak	dibikad	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 118
+# text = aana-gii-niigaanii awe giigidoowinini gaa-bakinawind .
+1	aana-gii-niigaanii	niigaanii	VERB	PVTense/aana|PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	giigidoowinini	giigidoowinini	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	gaa-bakinawind	bakinaw	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 119
+# text = ingii-mamoon 'iw baashkizigan imaa gaa-ateg .
+1	ingii-mamoon	mamoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	'iw	'iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	baashkizigan	baashkizigan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+5	gaa-ateg	ate	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	4	acl:relcl	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 120
+# text = gii-wenipazhise gaa-inanoonigooyaan ji-asigisidooyaan .
+1	gii-wenipazhise	wenipazhise	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	gaa-inanoonigooyaan	inanoozh	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|XSubj|1SgObj|VERB	_	1	dep	_	_
+3	ji-asigisidooyaan	asigisidoon	VERB	PVTense/daa|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 121
+# text = weweni inanjige'idizon . gego miijiken gaa-boozaag .
+1	weweni	weweni	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	inanjige'idizon	inanjige'idizo	VERB	VAI|Imp|Sim|2SgSubj|2SgObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+4	gego	gego	ADV	ADVNeg|ADV	_	5	neg	_	_
+5	miijiken	miijin	VERB	VTI|Imp|Prb|2SgSubj|0PlObj|VERB	_	2	dep	_	_
+6	gaa-boozaag	boozaa	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	5	ccomp	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 122
+# text = mii go aanawi gii-ombishkaad awe bakwezhigan gaa-onadinag .
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	aanawi	aanawi	ADV	ADVMan|ADV	_	4	advmod	_	_
+4	gii-ombishkaad	ombishkaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	bakwezhigan	bakwezhigan	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
+7	gaa-onadinag	onadin	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	4	dep	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 123
+# text = naawi-baawitig inaaboono gaa-niishiboonod .
+1	naawi-baawitig	naawi-baawitig	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	inaaboono	inaaboono	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	gaa-niishiboonod	niishiboono	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	csubj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 124
+# text = gewiin dagwii gaa-miigaadinid .
+1	gewiin	gewiin	PRON	PRONPer|NA|3Sg|PRON	_	2	nsubj	_	_
+2	dagwii	dagwii	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	gaa-miigaadinid	miigaadiwag	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlObvSubj|3PlObvObj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 125
+# text = nindagwii gaa-waakaa'igewaad .
+1	nindagwii	dagwii	VERB	VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	gaa-waakaa'igewaad	waakaa'ige	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 126
+# text = aandi endanitaagozid gaa-biibaagid .
+1	aandi	aandi	ADV	ADVInter|ADV	_	2	dep	_	_
+2	endanitaagozid	danitaagozi	VERB	VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	0	root	_	_
+3	gaa-biibaagid	biibaagi	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 127
+# text = nimamigobidoonan miinan gaa-mashkawaakwadingin bangii wii-siiginamaan nindoonaaganing .
+1	nimamigobidoonan	mamigobidoon	VERB	VTI|Ind|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+2	miinan	miinan	NOUN	NI|Pl|NOUN	_	1	obj	_	_
+3	gaa-mashkawaakwadingin	mashkawaakwadin	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0PlSubj|VERB	_	2	acl:relcl	_	_
+4	bangii	bangii	ADV	ADVQnt|ADV	_	1	dep	_	_
+5	wii-siiginamaan	ziiginan	VERB	PVTense/wii|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	1	dep	_	_
+6	nindoonaaganing	onaagan	NOUN	NI|Loc|1SgPoss|NOUN	_	5	obl	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 128
+# text = niwii'-andawaabamaag gaa-gii'-nagajibizowaad .
+1	niwii'-andawaabamaag	andawaabam	VERB	PVTense/wii'|VTA|Ind|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+2	gaa-gii'-nagajibizowaad	nagajibizo	VERB	PVSub/gaa|PVTense/gii'|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	ccomp	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 129
+# text = zhiibaabizon gaa-izhi-zhiibaajiwang .
+1	zhiibaabizon	zhiibaabizo	VERB	VAI|Imp|Sim|2SgSubj|VERB	_	0	root	_	_
+2	gaa-izhi-zhiibaajiwang	zhiibaajiwan	VERB	PVSub/gaa|PVRel/izhi|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 130
+# text = gii'-mookoshin gaa-gii-piningwaamod dibikong .
+1	gii'-mookoshin	mookoshin	VERB	PVTense/gii'|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-gii-piningwaamod	biningwaamo	VERB	PVSub/gaa|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+3	dibikong	dibikong	ADV	ADVTmp|ADV	_	2	advmod	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 131
+# text = ogii-naajinizha'aan iw nibaagan gaa-miinind .
+1	ogii-naajinizha'aan	naajinizha'an	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	iw	iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	nibaagan	nibaagan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	gaa-miinind	miizh	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 132
+# text = gaa-izhi-bangishinaan naa imaa agwajiing gaa-izhi-wiinakamigishinaan naa .
+1	gaa-izhi-bangishinaan	bangishin	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	naa	naa	PART	PCEmph|PART	_	1	discourse	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	agwajiing	agwajiing	ADV	ADVLoc|ADV	_	1	obl	_	_
+5	gaa-izhi-wiinakamigishinaan	wiinakamigishin	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	1	dep	_	_
+6	naa	naa	PART	PCEmph|PART	_	5	discourse	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 133
+# text = wegonen iwedi gaa-madwe-ateg agaamikana .
+1	wegonen	wegonen	PRON	PRONInter|NI|Sg|PRON	_	3	nsubj	_	_
+2	iwedi	iwedi	PRON	PRONDem|NI|Sg|PRON	_	3	dep	_	_
+3	gaa-madwe-ateg	ate	VERB	PVSub/gaa|PVLex/madwe|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	root	_	_
+4	agaamikana	agaamikana	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 134
+# text = aaniish ezhinaagwak 'iw jiimaanish gaa-o-waabandaman .
+1	aaniish	aaniish	ADV	ADVInter|ADV	_	2	dep	_	_
+2	ezhinaagwak	izhinaagwad	VERB	VII|Pcp|Pos|Neu|0SgSubj|0SgHead|VERB	_	0	root	_	_
+3	'iw	'iw	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	jiimaanish	jiimaan	NOUN	NI|Pej|Sg|NOUN	_	2	nsubj	_	_
+5	gaa-o-waabandaman	waabandan	VERB	PVSub/gaa|PVDir/o|VTI|Cnj|Pos|Neu|2SgSubj|0SgObj|VERB	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 135
+# text = gii-mikawi awe gaa-wanendamaad noomaya .
+1	gii-mikawi	mikawi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	1	nsubj	_	_
+3	gaa-wanendamaad	wanendamaa	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	acl:relcl	_	_
+4	noomaya	noomaya	ADV	ADVTmp|ADV	_	3	advmod	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 136
+# text = mii iwe gaa-onji-gwayakoshing gii-tebaabandang iwe dabasajiw .
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iwe	iwe	PRON	PRONDem|NI|Sg|PRON	_	4	obj	_	_
+3	gaa-onji-gwayakoshing	gwayakoshin	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	gii-tebaabandang	debaabandan	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	3	dep	_	_
+5	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	6	det	_	_
+6	dabasajiw	dabasajiw	NOUN	NI|Sg|NOUN	_	4	obj	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 137
+# text = gego babaamenimaaken animoshag gaa-miigaadiwaad . giga-bitamigoog .
+1	gego	gego	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	babaamenimaaken	babaamenim	VERB	VTA|Imp|Prb|2SgSubj|3PlProxObj|VERB	_	0	root	_	_
+3	animoshag	animosh	NOUN	NA|ProxPl|NOUN	_	2	obj	_	_
+4	gaa-miigaadiwaad	miigaadiwag	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|3PlProxObj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+6	giga-bitamigoog	bitam	VERB	PVTense/ga|VTA|Ind|Pos|Neu|3PlProxSubj|2SgObj|VERB	_	2	dep	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 138
+# text = ogii-kwiinomaan iniw oosan gaa-onji-andone'waad .
+1	ogii-kwiinomaan	gwiinom	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	3	det	_	_
+3	oosan	oos	NOUN	NAD|ObvPl|3SgProxPoss|NOUN	_	1	obj	_	_
+4	gaa-onji-andone'waad	andone'	VERB	PVSub/gaa|PVRel/onji|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 139
+# text = waasa noopimiing danweweboojige gaa-giishka'aakwed .
+1	waasa	waasa	ADV	ADVLoc|ADV	_	3	obl	_	_
+2	noopimiing	noopimiing	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	danweweboojige	danweweboojige	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	gaa-giishka'aakwed	giishka'aakwe	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	csubj	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 140
+# text = mii iniw gaa-andawenimaad ji-bi-gaagiigidonid gaa-onji-andomaad .
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iniw	iniw	PRON	PRONDem|NA|ObvSg|PRON	_	3	obj	_	_
+3	gaa-andawenimaad	andawenim	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+4	ji-bi-gaagiigidonid	gaagiigido	VERB	PVTense/daa|PVDir/bi|VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	3	dep	_	_
+5	gaa-onji-andomaad	nandom	VERB	PVSub/gaa|PVRel/onji|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	3	dep	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 141
+# text = awasi-minis ayindaawag gaa-manoominikewaad .
+1	awasi-minis	awasi-minis	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	ayindaawag	ayindaa	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+3	gaa-manoominikewaad	manoominike	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 142
+# text = mii iwe gaa-igod iniw mashkikiiwininiwan ji-inanjiged .
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iwe	iwe	PRON	PRONDem|NI|Sg|PRON	_	3	nsubj	_	_
+3	gaa-igod	izhi	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|0SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	5	det	_	_
+5	mashkikiiwininiwan	mashkikiiwinini	NOUN	NA|ObvPl|NOUN	_	3	dep	_	_
+6	ji-inanjiged	inanjige	VERB	PVTense/daa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 143
+# text = ogii-gikinawaajitoon imaa gaa-ni-izhaad megwekob ji-wanishinzig .
+1	ogii-gikinawaajitoon	gikinawaajitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	gaa-ni-izhaad	izhaa	VERB	PVSub/gaa|PVDir/ni|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	acl:relcl	_	_
+4	megwekob	megwekob	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	ji-wanishinzig	wanishin	VERB	PVTense/daa|VAI|Cnj|Neg|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 144
+# text = wegonenan dinowan gaa-dazhindaman .
+1	wegonenan	wegonenan	PRON	PRONInter|NI|Pl|PRON	_	3	obj	_	_
+2	dinowan	dinowan	PRON	PRONSim|NI|Pl|PRON	_	3	obj	_	_
+3	gaa-dazhindaman	dazhindan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|2SgSubj|0PlObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 145
+# text = wiinitamawaa da-agwaa'amawaawag gaa-nagamowaad .
+1	wiinitamawaa	wiinitamawaa	PRON	PRONPer|NA|3Pl|PRON	_	2	obj	_	_
+2	da-agwaa'amawaawag	agwaa'amaw	VERB	PVTense/ga|VTA|Ind|Pos|Neu|XSubj|3PlProxObj|VERB	_	0	root	_	_
+3	gaa-nagamowaad	nagamo	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 146
+# text = gichi-michiigizi awe bashkwegin . amanj igo naa apideg gaa-iniginigwen awe ayaabe .
+1	gichi-michiigizi	michiigizi	VERB	PVLex/gichi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	1	nsubj	_	_
+3	bashkwegin	bashkwegin	NOUN	NI|Sg|NOUN	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+5	amanj	amanj	ADV	ADVDub|ADV	_	1	dep	_	_
+6	igo	igo	PART	PCEmph|PART	_	8	discourse	_	_
+7	naa	naa	PART	PCEmph|PART	_	8	discourse	_	_
+8	apideg	apide	VERB	VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+9	gaa-iniginigwen	inigini	VERB	PVSub/gaa|VAI|Cnj|Pos|Dub|3SgProxSubj|VERB	_	10	acl:relcl	_	_
+10	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	11	det	_	_
+11	ayaabe	ayaabe	NOUN	NA|ProxSg|NOUN	_	1	dep	_	_
+12	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 147
+# text = wewiib ogii-piindiganaan gaa-naningajinid wii'-awazo'aad .
+1	wewiib	wewiib	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	ogii-piindiganaan	biindigazh	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+3	gaa-naningajinid	naningaji	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	2	dep	_	_
+4	wii'-awazo'aad	awazo'	VERB	PVTense/wii'|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 148
+# text = gii-onzaamaagamanjige gaa-onji-gawibiid .
+1	gii-onzaamaagamanjige	onzaamaagamanjige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-onji-gawibiid	gawibii	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	csubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 149
+# text = minwapikaade apikaanashk gaa-agoodeg biinjidaabaan .
+1	minwapikaade	minwapikaade	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	apikaanashk	apikaanashk	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+3	gaa-agoodeg	agoode	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	acl:relcl	_	_
+4	biinjidaabaan	biinjidaabaan	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 150
+# text = ogii-paapitoon iinzan gaa-gii'-izhibii'amawag .
+1	ogii-paapitoon	baapitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	iinzan	iinzan	PART	PCDisc|PART	_	1	discourse	_	_
+3	gaa-gii'-izhibii'amawag	izhibii'amaw	VERB	PVSub/gaa|PVTense/gii'|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	ccomp	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+

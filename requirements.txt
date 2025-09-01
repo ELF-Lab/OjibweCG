@@ -1,0 +1,10 @@
+# Runtime deps
+fst_runtime
+jinja2>=3.1
+pyconll>=3.3
+rich>=13.7
+spacy>=3.7,<4.0
+tabulate>=0.9
+
+# UD validation (only needed if you run the validator scripts)
+udapi>=0.3

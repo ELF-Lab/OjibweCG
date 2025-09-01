@@ -1,32 +1,24 @@
 from pathlib import Path
 import pytest
 
-from src.cg3_process import disambiguate, load_fst_parser   # <-- 1-value func
+from src.disambiguation import disambiguate, load_fst_parser  
 from tests.util import load_blocks, dump_blocks, normalise
 
-# ----------------------------------------------------------------------
-# resource paths (all absolute)
-# ----------------------------------------------------------------------
+# absolute paths (update if moving files around or changing directory/file names )
 ROOT      = Path(__file__).resolve().parents[1]          # project root
 DATA_DIR  = ROOT / "tests" / "data"
 
-GRAMMAR   = (ROOT / "data" / "CG3_rules" / "Ojibwe_disambiguation.cg3").as_posix() 
+GRAMMAR   = (ROOT / "data" / "rules" / "disambiguation.cg3").as_posix() 
 FST_BIN   = ROOT / "data" / "fst" / "ojibwe.att"
 
-# ----------------------------------------------------------------------
-# load FST once
-# ----------------------------------------------------------------------
+# load FST
 FST = load_fst_parser(str(FST_BIN))
 
-# ----------------------------------------------------------------------
 # load test cases
-# ----------------------------------------------------------------------
 SOURCE   = load_blocks(DATA_DIR / "sentences.ojib")
 EXPECTED = load_blocks(DATA_DIR / "expected.cg3")
 
-# ----------------------------------------------------------------------
 # parametrised test
-# ----------------------------------------------------------------------
 @pytest.mark.parametrize("case_id", sorted(SOURCE))
 def test_disamb(case_id, request):
     got_cg3 = disambiguate(                   # returns one string
@@ -44,10 +36,8 @@ def test_disamb(case_id, request):
         request.session.need_write_gold = True
         pytest.skip(f"gold updated for {case_id}")
 
-    assert got == want, f"Mismatch in case {case_id}"
+    assert got == want, f"Mismatch with case # {case_id}"
 
-# ----------------------------------------------------------------------
-# write updated gold file once per session
 # ----------------------------------------------------------------------
 def pytest_sessionfinish(session, exitstatus):
     if getattr(session, "need_write_gold", False):

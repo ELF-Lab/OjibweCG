@@ -457,6 +457,8 @@
 "<odagwaasidoon>"
 	"agwaasidoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
 "<gaa-gii-pawa'ang>"
+	"bawa'am" PVSub/gaa PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"bawa'an" PVSub/gaa PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
 	"bawa'an" PVSub/gaa PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<.>"
 
@@ -614,6 +616,7 @@
 	"nookagwinde" PVTense/ga VII Cnj Pos Neu 0SgSubj
 "<gaa-gii-kabaachigaadeg>"
 	"gabaachigaade" PVSub/gaa PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"gabaachigaade" PVSub/gaa PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<imaa>"
 	"imaa" ADVLoc
 "<nindabwewining>"

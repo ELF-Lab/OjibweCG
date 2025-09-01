@@ -1,57 +1,21 @@
 # Ojibwe Constraint Grammar
 
-[Work in progress]
+Welcome! This repository hosts the Ojibwe constraint grammar project.
 
-Constraint Grammar (CG3) rules are applied in Ojibwe language with 2 broad purposes:
+At its core, this project develops two unique grammars for the Ojibwe language: one for morphological disambiguation, and one for syntactic dependency parsing.
 
-### Disambiguation: 
-there are cases that a verb or a noun can have multiple FST (Finite State Transducer) readings, and we can apply rules to determine which readings are likely to be correct, using the context of surround words. In general, demonstrative pronouns, nouns and verbs in Ojibwe agree on number (singular/plural), animacy (animate/inanimate) and obviation (proximate/obviative). We can disambiguate many cases using these rules. 
+This page is mainly an index to the repository and to the documentation. Usage instructions, linguistic background, and developer notes are all in the [`documentation/`](documentation/) folder, as detailed below. 
 
-### Dependency parsing: 
-also based on the agreement in number, animacy and obviation, we can analyze which nouns can be subject or object of which verb. From there, we can build relationships (dependencies) between the nouns and verbs.
-
-### CG3 Dependency Rules
-
-#### Noun/Demonstrative - Verb relations
-1. For each noun or demonstrative, find the closest verb (VTA/VTI/VAI/VAIO/VII) on either side
-2. Check if the verb argument morphology agrees in number, person, and obviation
-3. If agreeing, create a named relation (Dep_Subject, Dep_Object) from noun/demonstrative to verb
-4. Stop search on both sides at the nearest verb
-
-#### Demonstrative - Noun relations
-1. If a noun immediately follows a demonstrative, remove any relations added by Dem - Verb search
-2. Add a named relation (Dep_Dem) from demonstrative to following noun
-
-### FST -> UD UPOS Mapping
-This mapping converts part-of-speech tags produced by the Ojibwe FST into Universal Part-of-Speech (UPOS) tags, following the UD v2 standard:
-
-| FST Tag | UD UPOS |
-| ------- | ------- |
-| ADVNeg  |   ADV   |
-| ADVQnt  |   ADV   |
-|  VTA    |   VERB  |
-|  VTI    |   VERB  |
-|  VAI    |   VERB  |
-|  VAIO   |   VERB  |
-|  VII    |   VERB  |
-|   NA    |   NOUN  |
-|   NI    |   NOUN  |
-| PRONDem |   DET   |
-|    .    |   PUNCT |
-
-### CG3 Relation -> UD DEPREL Mapping
-Once dependency relations have been assigned using CG3 rules, relation fragments are mapped to Universal Dependency relation labels (DEPREL).
-
-| CG3 Relation | UD DEPREL |
-| ------------ | ---------
-|     Subj     |   nsubj   |
-|     Obj      |   obj     |
-|     Adv      |   advmod  |
-|     Dem      |   det     |
-|     punct    |   punct   |
+## Repository Overview
+Add a list of links to the repository
 
 
-### Contributors:
-- Christopher Hammerly
-- Tran Minh Nguyen
-- Matthias Diederichsen
+## Documentation Overview  
+
+- [`01_overview.md`](documentation/01_overview.md) – project goals and scope  
+- [`02_usage.md`](documentation/02_usage.md) – installation and running examples  
+- [`03_grammar_modules.md`](documentation/03_grammar_modules.md) – explanation of the 2 CG modules
+- [`04_examples.md`](documentation/04_examples.md) – examples for disambiguation and dependency applications
+- [`05_work_in_progress.md`](documentation/05_work_in_progress.md) – shows what are the main next steps and current limitations of the project
+- [`06_references_and_credits.md`](documentation/06_references_and_credits.md) – summary of references and contributions to the project
+

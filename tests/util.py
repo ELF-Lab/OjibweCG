@@ -2,14 +2,14 @@ import re
 from pathlib import Path
 from typing import Dict
 
-# ------ normalise CG3 blocks ------------------------------------------
+#  normalise CG3 blocks
 def normalise(block: str) -> str:
     block = re.sub(r"//.*", "", block)          # remove comments
     block = re.sub(r"\n{2,}", "\n", block)      # collapse blank lines
     block = "\n".join(line.rstrip() for line in block.splitlines())
     return block.strip()
 
-# ------ load / dump '### ID' blocks ------------------------------------
+# load / dump '### ID' blocks 
 DELIM = re.compile(r"^###\s+(\S+)\s*$", re.M)
 
 def load_blocks(path: Path) -> Dict[str, str]:

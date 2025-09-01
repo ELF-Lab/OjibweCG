@@ -9,7 +9,6 @@ Reference to the knowledge and people who made this project possible can be foun
     - Core linguistic reference for Ojibwe morphosyntax.  
 
 
-
 ## Contributors & Acknowledgments  
 
 - **Matthias Diederichsen** – primary developer (Jan 2025–present) 

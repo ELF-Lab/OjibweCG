@@ -2,9 +2,10 @@
 
 Welcome! This repository hosts the Ojibwe constraint grammar project.
 
+## What is this?
 At its core, this project develops two unique grammars for the Ojibwe language: one for morphological disambiguation, and one for syntactic dependency parsing.
 
-This page is mainly an index to the repository and to the documentation. Usage instructions, linguistic background, and developer notes are all in the [`documentation/`](documentation/) folder, as detailed below. 
+This page is mainly an index to the repository and to the documentation. Linguistic background, usage instructions, and other notes are all in the [`documentation/`](documentation/) folder, as detailed below. 
 
 ## Repository Overview
 Add a list of links to the repository

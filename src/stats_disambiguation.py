@@ -12,7 +12,7 @@ from src.disambiguation import (
     cg3_process_text,
 )
 
-# ------------------------------ Tag inventories ------------------------------ #
+# Tag inventories
 
 VERB_TAGS    = {"VTA", "VAI", "VTI", "VII", "VAIO"}
 PRONOUN_TAGS = {"PRONDem", "PRONDub", "PRONIndf", "PRONInter",
@@ -27,7 +27,7 @@ WORD_TYPES   = ("verb", "pronoun", "noun", "adverb", "other")
 _ALWAYS_DISCARD = VERB_TAGS | NOUN_TAGS | ADVERB_TAGS | PRONOUN_TAGS
 
 
-# ------------------------------- tiny helpers -------------------------------- #
+# Helper functions
 
 def _progress(i: int, n: int, *, width: int = 28, label: str = "") -> None:
     """Simple progress bar"""
@@ -401,7 +401,7 @@ def format_stats_report(stats: dict) -> str:
     return "\n\n".join(s for s in sections if s)
 
 
-# ------------------------------- Public API ---------------------------------- #
+# ------------------------------- Public API ----------------------------------
 
 def disambiguate_with_stats(
     text_path: str,

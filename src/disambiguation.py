@@ -1,4 +1,5 @@
 from fst_runtime.fst import Fst
+from src.foma_adapter import FomaFst
 import subprocess, re
 
 # Name of cg3 command 
@@ -13,25 +14,12 @@ PRESERVE_TOKEN = "..." # keep ... as literal as in some sentences
 
 def load_fst_parser(binary_file_path:str) -> Fst: 
     """
-    Load an FST (Finite State Transducer) parser from a binary 'att' file.
-
-    Parameters
-    ----------
-    binary_file_path : str
-        The file path to the binary 'att' file containing the FST.
-
-    Returns
-    -------
-    Fst
-        An instance of the Fst parser loaded from the specified file.
-
-    Raises
-    ------
-    FileNotFoundError
-        If the specified binary file does not exist.
-    IOError
-        If there is an error reading the file.
+    If given .fomabin, return FomaFst (using flookup()).
+    Otherwise use fst_runtime for .att file. 
     """
+    ext = binary_file_path.lower().rsplit(".", 1)[-1]
+    if ext in ("fomabin", "bin"):
+        return FomaFst(binary_file_path)
     return Fst(binary_file_path)
 
 def fst_parse_word(input_word:str, fst_parser:Fst) -> list[str]:
@@ -139,12 +127,14 @@ def fst_tags_to_cg3_reading(fst_analysis: str) -> str:
         The CG3 reading format of the input string.
     """    
     output = ""
-    tags = fst_analysis.split("+") 
+    if '\t' in fst_analysis:
+        fst_analysis = fst_analysis.split('\t', 1)[1]
+    tags = fst_analysis.split("+")
 
     # scan for Pre-verb / Pre-noun tags
     lemma_id = 0
     for i in range(len(tags)):
-        if not tags[i].startswith("P"):
+        if not tags[i].startswith("P") and not tags[i] == "ChCnj":
             lemma_id = i
             break 
 
@@ -205,13 +195,10 @@ def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst) -> str:
         The Ojibwe sentence reformatted into the CG3 format.
 
     """
-    output = "" 
     tokens = tokenize(ojibwe_sentence=ojibwe_sentence)
     sentence_fst_outputs = fst_parse_sentence(input_words=tokens, fst_parser=fst)
-    output = "\n".join([fst_output_to_cg3_format(fst_item=item)
-                        for item in sentence_fst_outputs
-                        ])
-    return output
+    body = "\n".join(fst_output_to_cg3_format(x) for x in sentence_fst_outputs)
+    return body.rstrip("\n") + "\n\n"
 
 def is_cg3_available() -> bool:
     """
@@ -260,7 +247,7 @@ def cg3_process_text(input_text: str, cg3_grammar_filepath: str) -> str:
     except Exception as e:
         print("Error:", e)
         return "" 
-    
+
 def sentence_has_ambiguity(sentence:str, fst: Fst) -> tuple:
     """User FST parser to parse sentence and returns if the sentence has ambiguity in any word"""
     tokens = tokenize(ojibwe_sentence=sentence)
@@ -271,6 +258,7 @@ def sentence_has_ambiguity(sentence:str, fst: Fst) -> tuple:
     
     return (False, sentence_fst_outputs, None)
     
+
 def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False) -> str:
     """
     Disambiguate a sentence using FST readings and CG3 rules.

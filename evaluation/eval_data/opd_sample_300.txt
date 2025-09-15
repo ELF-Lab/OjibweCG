@@ -1,0 +1,4298 @@
+# sent_id = 1
+# text = Mii go naa ezhi-bimaanimak omaa.
+# eng = There is a draft here.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<naa>"
+	"naa" PCEmph
+"<ezhi-bimaanimak>"
+	"bimaanimad" PVRel/izhi VII Pcp Pos Neu 0SgSubj 0SgHead
+"<omaa>"
+	"omaa" ADVLoc
+"<.>"
+
+# sent_id = 2
+# text = Weweni bimibatoon. Giga-bakiteshin.
+# eng = Run slowly. You might fall.
+"<weweni>"
+	"weweni" ADVMan
+"<bimibatoon>"
+	"bimibatoo" VAI Imp Sim 2SgSubj
+"<.>"
+
+"<giga-bakiteshin>"
+	"bakiteshin" PVTense/ga VAI Ind Pos Neu 2SgSubj
+"<.>"
+
+# sent_id = 3
+# text = Bookwaabikiboodoon zaga'igan giishpin onzaam ginwaabikak.
+# eng = File the nail in half if it is too long.
+"<bookwaabikiboodoon>"
+	"bookwaabikiboodoon" VTI Imp Sim 2SgSubj 0PlObj
+	"bookwaabikiboodoon" VTI Imp Sim 2SgSubj 0SgObj
+"<zaga'igan>"
+	"zaga'igan" NI Sg
+"<giishpin>"
+	"giishpin" ADVGram
+"<onzaam>"
+	"onzaam" ADVQnt
+"<ginwaabikak>"
+	"ginwaabikad" VII Cnj Pos Neu 0SgSubj
+	"ginwaabikad" VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 4
+# text = Ogii-minwaabandaanaawaa gaa-waabandamowaad iwe gichi-mandaamini-gitigaan.
+# eng = They liked the huge cornfield they saw.
+"<ogii-minwaabandaanaawaa>"
+	"minwaabandan" PVTense/gii VTI Ind Pos Neu 3PlProxSubj 0SgObj
+"<gaa-waabandamowaad>"
+	"waabandan" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0PlObj
+	"waabandan" PVSub/gaa VTI Cnj Pos Neu 3PlProxSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<gichi-mandaamini-gitigaan>"
+	"mandaamini-gitigaan" PNLex/gichi NI Sg
+	"mandaamini-gitigaan" PNLex/chi NI Sg 2SgPoss
+"<.>"
+
+# sent_id = 5
+# text = Minweweshin mikwam ogidabak gii-mikwaminaaniwang.
+# eng = The hail sounds good hitting on top of the roof.
+"<minweweshin>"
+	"minweweshin" VAI Ind Pos Neu 3SgProxSubj
+"<mikwam>"
+	"mikwam" NA ProxSg
+"<ogidabak>"
+	"ogidabak" ADVLoc
+"<gii-mikwaminaaniwang>"
+	"mikwaminaaniwan" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"mikwaminaaniwan" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 6
+# text = Aaniish epiichibideg.
+# eng = How fast is it going?
+"<aaniish>"
+	"aaniish" ADVInter
+"<epiichibideg>"
+	"apiichibide" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 7
+# text = Midaaso-diba'iganeyaag giwii-pi-naazikawin.
+# eng = I am coming to get you at 10 o'clock.
+"<midaaso-diba'iganeyaag>"
+	"diba'iganeyaa" PVQnt/midaaso VII Cnj Pos Neu 0SgSubj
+	"midaaso-diba'iganeyaa" VII Cnj Pos Neu 0SgSubj
+	"diba'iganeyaa" PVQnt/midaaso VII Cnj Pos Neu 0PlSubj
+	"midaaso-diba'iganeyaa" VII Cnj Pos Neu 0PlSubj
+"<giwii-pi-naazikawin>"
+	"naazikaw" PVTense/wii PVDir/bi VTA Ind Pos Neu 1SgSubj 2SgObj
+"<.>"
+
+# sent_id = 8
+# text = Niwenji'igoog noozhishenyag.
+# eng = My grandkids think I'm easy.
+"<niwenji'igoog>"
+	"wenji'" VTA Ind Pos Neu 3PlProxSubj 1SgObj
+"<noozhishenyag>"
+	"oozhisheny" NAD ProxPl 1SgPoss
+"<.>"
+
+# sent_id = 9
+# text = Wiinjiigimaagwad zaaga'amoowigamig.
+# eng = The outhouse smells shitty.
+"<wiinjiigimaagwad>"
+	"wiinjiigimaagwad" VII Ind Pos Neu 0SgSubj
+"<zaaga'amoowigamig>"
+	"zaaga'amoowigamig" NI Sg
+"<.>"
+
+# sent_id = 10
+# text = Gichi-gabeya'ii mawi a'aw abinoojiinh. Indaga o-waabam.
+# eng = That child's been crying a long time. You better go see.
+"<gichi-gabeya'ii>"
+	"gabeya'ii" PVLex/gichi ADVTmp
+"<mawi>"
+	"mawi" VAI Ind Pos Neu 3SgProxSubj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<abinoojiinh>"
+	"abinoojiinh" NA ProxSg
+"<.>"
+
+"<indaga>"
+	"indaga" PCDisc
+"<o-waabam>"
+	"waabam" PVDir/o VTA Imp Sim 2SgSubj 3SgProxObj
+	"waabam" PVDir/o VTA Imp Sim 2SgSubj 3PlProxObj
+"<.>"
+
+# sent_id = 11
+# text = Gizhiiwe awe binesi noondaagozid.
+# eng = The fowl's call is loud.
+"<gizhiiwe>"
+	"gizhiiwe" VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<binesi>"
+	"binesi" NA ProxSg
+"<noondaagozid>"
+	"noondaagozi" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 12
+# text = Daga giizizan i'iw gichi-aniibiish.
+# eng = Please cook the cabbage.
+"<daga>"
+	"daga" PCDisc
+"<giizizan>"
+	"giizizan" VTI Imp Sim 2SgSubj 0PlObj
+	"giizizan" VTI Imp Sim 2SgSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<gichi-aniibiish>"
+	"aniib" PNLex/gichi NA Pej ProxSg
+	"gichi-aniibiish" NI Sg
+	"aniibiish" PNLex/gichi NI Sg
+	"aniibiish" PNLex/chi NI Sg 2SgPoss
+	"aniib" PNLex/chi NA Pej ProxSg 2SgPoss
+"<.>"
+
+# sent_id = 13
+# text = Ogii-pigishkishimaan gii-paninaad iniw waabiganimoodayan.
+# eng = He dropped that jug and it fell to pieces.
+"<ogii-pigishkishimaan>"
+	"bigishkishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bigishkishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<gii-paninaad>"
+	"banin" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"banin" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+"<iniw>"
+	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
+"<waabiganimoodayan>"
+	"waabiganimooday" NA ObvPl
+	"waabiganimooday" NA ObvSg
+"<.>"
+
+# sent_id = 14
+# text = Agaami-ziibi madwe-namadabi migizi.
+# eng = You can see an eagle sitting across the river.
+"<agaami-ziibi>"
+	"ziibi" PNLex/agaami NI Sg
+	"agaami-ziibi" ADVLoc
+"<madwe-namadabi>"
+	"namadabi" PVLex/madwe VAI Ind Pos Neu 3SgProxSubj
+"<migizi>"
+	"migizi" NA ProxSg
+"<.>"
+
+# sent_id = 15
+# text = Ogidaagonag izhi-asham bineshiinyensag.
+# eng = Put the bird feed on top of the snow. (= Feed the small birds on top of the snow.)
+"<ogidaagonag>"
+	"ogidaagonag" ADVLoc
+"<izhi-asham>"
+	"asham" PVRel/izhi VTA Imp Sim 2SgSubj 3SgProxObj
+	"asham" PVRel/izhi VTA Imp Sim 2SgSubj 3PlProxObj
+"<bineshiinyensag>"
+	"bineshiinh" NA Dim ProxPl
+"<.>"
+
+# sent_id = 16
+# text = Mii go imaa godagiing gaa-pabaamanokiid 'aw gwiiwizens.
+# eng = The boy worked around the neighborhood.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<imaa>"
+	"imaa" ADVLoc
+"<godagiing>"
+	"godagii" VAI Cnj Pos Neu XSubj
+"<gaa-pabaamanokiid>"
+	"babaamanokii" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<'aw>"
+	"'aw" PRONDem NA ProxSg
+"<gwiiwizens>"
+	"gwiiwizens" NA ProxSg
+"<.>"
+
+# sent_id = 17
+# text = Ozhaashaa akwaandawaagan.
+# eng = The stairway is slippery.
+"<ozhaashaa>"
+	"ozhaashaa" VII Ind Pos Neu 0SgSubj
+"<akwaandawaagan>"
+	"akwaandawaagan" NI Sg
+"<.>"
+
+# sent_id = 18
+# text = Maagizhaa gaye ndaa-gojichige miinawaa.
+# eng = Maybe I could try again.
+"<maagizhaa>"
+	"maagizhaa" ADVMan
+"<gaye>"
+	"gaye" ADVConj
+"<ndaa-gojichige>"
+	"gojichige" PVTense/daa VAI Ind Pos Neu 1SgSubj
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<.>"
+
+# sent_id = 19
+# text = Gezika chi-maajiibatood.
+# eng = He suddenly took off running.
+"<gezika>"
+	"gezika" ADVTmp
+"<chi-maajiibatood>"
+	"maajiibatoo" PVLex/chi VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 20
+# text = Nimaagwaakwa'aanan wiigwaasi-makako-waakaayaagibijigan.
+# eng = I clamp down the birch bark box rims.
+"<nimaagwaakwa'aanan>"
+	"maagwaakwa'an" VTI Ind Pos Neu 1SgSubj 0PlObj
+"<wiigwaasi-makako-waakaayaagibijigan>"
+	"wiigwaasi-makako-waakaayaagibijigan" NI Sg
+"<.>"
+
+# sent_id = 21
+# text = Bijiinag miinawaa ani-ziigwang gii-saagibagaag ji-mazhii'igewaad igiweg anokiiwininiwag.
+# eng = Next spring when there is foliage that's when the work crew will start clearing and brushing.
+"<bijiinag>"
+	"bijiinag" ADVTmp
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<ani-ziigwang>"
+	"ziigwan" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	"ziigwan" PVDir/ani VII Cnj Pos Neu 0PlSubj
+"<gii-saagibagaag>"
+	"zaagibagaa" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"zaagibagaa" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<ji-mazhii'igewaad>"
+	"mazhii'ige" PVTense/daa VAI Cnj Pos Neu 3PlProxSubj
+	"mazhii'ige" PVTense/ga VAI Cnj Pos Neu 3PlProxSubj
+"<igiweg>"
+	"igiweg" PRONDem NA ProxPl
+"<anokiiwininiwag>"
+	"anokiiwinini" NA ProxPl
+"<.>"
+
+# sent_id = 22
+# text = Bwaawishkaa odaabaanaak. Ganabaj onzaam magozigoshin.
+# eng = The sled won't go. I think it's too iced up.
+"<bwaawishkaa>"
+	"bwaawishkaa" VAI Ind Pos Neu 3SgProxSubj
+	"bwaawishkaa" VII Ind Pos Neu 0SgSubj
+"<odaabaanaak>"
+	"odaabaanaak" NA ProxSg
+"<.>"
+
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<onzaam>"
+	"onzaam" ADVQnt
+"<magozigoshin>"
+	"magozigoshin" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 23
+# text = Bizaan igo giga-odaapinaa moose.
+# eng = You can pick up that worm.
+"<bizaan>"
+	"bizaan" ADVMan
+"<igo>"
+	"igo" PCEmph
+"<giga-odaapinaa>"
+	"odaapin" PVTense/ga VTA Ind Pos Neu 2SgSubj 3SgProxObj
+"<moose>"
+	"moose" NA ProxSg
+"<.>"
+
+# sent_id = 24
+# text = Bagakaasige 'aw giizis.
+# eng = The sun is real bright.
+"<bagakaasige>"
+	"bagakaasige" VAI Ind Pos Neu 3SgProxSubj
+"<'aw>"
+	"'aw" PRONDem NA ProxSg
+"<giizis>"
+	"giizis" NA ProxSg
+"<.>"
+
+# sent_id = 25
+# text = Waaboozoog iwidi niimagoojinoog.
+# eng = The rabbits are there hanging out.
+"<waaboozoog>"
+	"waabooz" NA ProxPl
+"<iwidi>"
+	"iwidi" ADVLoc
+"<niimagoojinoog>"
+	"niimagoojin" VAI Ind Pos Neu 3PlProxSubj
+"<.>"
+
+# sent_id = 26
+# text = Gii-sagakisijige awe indikwem gaa-ishkwaakamigak.
+# eng = My wife straightened up the place after the party was over.
+"<gii-sagakisijige>"
+	"zagakisijige" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<indikwem>"
+	"ikwe" NA Poss ProxSg 1SgPoss
+"<gaa-ishkwaakamigak>"
+	"ishkwaakamigad" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	"ishkwaakamigad" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	"ishkwaakamigad" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 27
+# text = Agokadoon 'i wiiyaas imaa abwaanaakong.
+# eng = Stick the meat on the spit.
+"<agokadoon>"
+	"agokadoon" VTI Imp Sim 2SgSubj 0PlObj
+	"agokadoon" VTI Imp Sim 2SgSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<wiiyaas>"
+	"wiiyaas" NI Sg
+	"iiyaas" NID Sg 3SgProxPoss
+"<imaa>"
+	"imaa" ADVLoc
+"<abwaanaakong>"
+	"abwaanaak" NI Loc
+"<.>"
+
+# sent_id = 28
+# text = Naano-mizid akwaakoziwag nindaagimag.
+# eng = My snowshoes are five feet long.
+"<naano-mizid>"
+	"naano-mizid" NUM
+"<akwaakoziwag>"
+	"akwaakozi" VAI Ind Pos Neu 3PlProxSubj
+"<nindaagimag>"
+	"aagim" NA ProxPl 1SgPoss
+"<.>"
+
+# sent_id = 29
+# text = Ogii-chiikitaan i'iw nagamon gaa-onji-naabinootang.
+# eng = He really like that song and that's why he taped it.
+"<ogii-chiikitaan>"
+	"jiikitan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<nagamon>"
+	"nagamo" VAI Imp Sim 2SgSubj
+	"nagamon" NI Sg
+"<gaa-onji-naabinootang>"
+	"naabinootan" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"naabinootan" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+
+# sent_id = 30
+# text = Giishpin ningwakwak
+# eng = wiiba wii'-niiskaadad.
+"<giishpin>"
+	"giishpin" ADVGram
+"<ningwakwak>"
+	"ningwakwad" VII Cnj Pos Neu 0SgSubj
+	"ningwakwad" VII Cnj Pos Neu 0PlSubj
+
+# sent_id = 31
+# text = Achinaateshimoonon; onzaam gii-gizhaateg.
+# eng = Go in the shade when the sun is too hot.
+"<achinaateshimoonon>"
+	"achinaateshimoono" VAI Imp Sim 2SgSubj
+"<;>"
+
+"<onzaam>"
+	"onzaam" ADVQnt
+"<gii-gizhaateg>"
+	"gizhaate" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"gizhaate" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 32
+# text = Wegonen apane wenji-nishkaaji-giigidod gidede.
+# eng = Why does your dad always speak so angrily?
+"<wegonen>"
+	"wegonen" PRONInter NI Sg
+"<apane>"
+	"apane" ADVTmp
+"<wenji-nishkaaji-giigidod>"
+	"giigido" PVRel/onji PVLex/nishkaaji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<gidede>"
+	"dedey" NAD ProxSg 2SgPoss
+"<.>"
+
+# sent_id = 33
+# text = Giga-wiiji-giiyosemin. Mooz giga-andawaabamaanaan
+# eng = I'll go hunting with you. We'll go look for a moose.
+"<giga-wiiji-giiyosemin>"
+	"giiyose" PVTense/ga PVLex/wiiji VAI Ind Pos Neu InclSubj
+	"wiiji-giiyosem" PVTense/ga VTA Ind Pos Neu 1SgSubj 2SgObj
+"<.>"
+
+"<mooz>"
+	"moonz" NA ProxSg
+	"mooz" NA ProxSg
+"<giga-andawaabamaanaan>"
+	"andawaabam" PVTense/ga VTA Ind Pos Neu InclSubj 3SgObvObj
+	"andawaabam" PVTense/ga VTA Ind Pos Neu InclSubj 3SgProxObj
+
+# sent_id = 34
+# text = Gichi-neniibowa odaabajitoon 'i wiisagad 'a jiibaakwewinini jiibaakwed.
+# eng = The chef uses a whole lot of pepper when he cooks.
+"<gichi-neniibowa>"
+	"neniibowa" PVLex/gichi ADVQnt
+"<odaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<wiisagad>"
+	"wiisagad" NI Sg
+"<'a>"
+	"'a" PRONDem NA ProxSg
+"<jiibaakwewinini>"
+	"jiibaakwewinini" NA ProxSg
+"<jiibaakwed>"
+	"jiibaakwe" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 35
+# text = Apane indizhaa oodenaang maa'ishkamaan.
+# eng = I go to town all the time to shop.
+"<apane>"
+	"apane" ADVTmp
+"<indizhaa>"
+	"izhaa" VAI Ind Pos Neu 1SgSubj
+"<oodenaang>"
+	"oodena" NI Loc
+"<maa'ishkamaan>"
+	"maa'ishkam" VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 36
+# text = Noomaya go indaanis giizhiitaa jiibaakwed.
+# eng = My daughter got done cooking a little while ago.
+"<noomaya>"
+	"noomaya" ADVTmp
+"<go>"
+	"go" PCDisc
+"<indaanis>"
+	"daanis" NAD ProxSg 1SgPoss
+"<giizhiitaa>"
+	"giizhiitaa" VAI Ind Pos Neu 3SgProxSubj
+"<jiibaakwed>"
+	"jiibaakwe" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 37
+# text = Gii'-mookoshin gaa-gii-piningwaamod dibikong.
+# eng = He cried when he fell out of bed last night.
+"<gii'-mookoshin>"
+	"mookoshin" PVTense/gii' VAI Ind Pos Neu 3SgProxSubj
+"<gaa-gii-piningwaamod>"
+	"biningwaamo" PVSub/gaa PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"biningwaamo" PVTense/gii PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<dibikong>"
+	"dibikong" ADVTmp
+"<.>"
+
+# sent_id = 38
+# text = Anaamaandag nibaawag waawaashkeshiwag gii-biboong.
+# eng = The deer sleep under the boughs in the winter.
+"<anaamaandag>"
+	"anaamaandag" ADVLoc
+"<nibaawag>"
+	"nibaa" VAI Ind Pos Neu 3PlProxSubj
+"<waawaashkeshiwag>"
+	"waawaashkeshi" NA ProxPl
+"<gii-biboong>"
+	"biboon" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"biboon" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 39
+# text = Zhebaa ingii-o-gichi-wiisinimin.
+# eng = This morning we went and had a big meal.
+"<zhebaa>"
+	"zhebaa" ADVTmp
+"<ingii-o-gichi-wiisinimin>"
+	"wiisini" PVTense/gii PVDir/o PVLex/gichi VAI Ind Pos Neu ExclSubj
+"<.>"
+
+# sent_id = 40
+# text = Minwaate iwe waaswaagan.
+# eng = The torch light has got a good beam on it.
+"<minwaate>"
+	"minwaate" VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<waaswaagan>"
+	"waaswaagan" NI Sg
+"<.>"
+
+# sent_id = 41
+# text = Wewiibitaan iwidi ji-izhaayan.
+# eng = Go over there quickly.
+"<wewiibitaan>"
+	"wewiibitaa" VAI Imp Sim 2SgSubj
+"<iwidi>"
+	"iwidi" ADVLoc
+"<ji-izhaayan>"
+	"izhaa" PVTense/daa VAI Cnj Pos Neu 2SgSubj
+	"izhaa" PVTense/ga VAI Cnj Pos Neu 2SgSubj
+"<.>"
+
+# sent_id = 42
+# text = Ogii-opimewebinaan iniw akikoon gii-bitaganaamaad.
+# eng = He tipped over the ketlle when he accidentally hit it.
+"<ogii-opimewebinaan>"
+	"opimewebin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"opimewebin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"opimewebinan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<iniw>"
+	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
+"<akikoon>"
+	"akik" NA ObvSg
+	"akik" NA ObvPl
+"<gii-bitaganaamaad>"
+	"bitaganaam" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"bitaganaam" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+"<.>"
+
+# sent_id = 43
+# text = Awasaya'ii iwidi ogii-atoon.
+# eng = He put it on the other side.
+"<awasaya'ii>"
+	"awasaya'ii" ADVLoc
+"<iwidi>"
+	"iwidi" ADVLoc
+"<ogii-atoon>"
+	"atoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+
+# sent_id = 44
+# text = Indaga naazh 'a bakwezhigan imaa adaawewigamigong. Wewiibishkaan.
+# eng = Please go get some bread at the store. Get a hurry on!
+"<indaga>"
+	"indaga" PCDisc
+"<naazh>"
+	"naazh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"naazh" VTA Imp Sim 2SgSubj 3PlProxObj
+"<'a>"
+	"'a" PRONDem NA ProxSg
+"<bakwezhigan>"
+	"bakwezhigan" NA ProxSg
+"<imaa>"
+	"imaa" ADVLoc
+"<adaawewigamigong>"
+	"adaawewigamig" NI Loc
+"<.>"
+
+"<wewiibishkaan>"
+	"wewiibishkaa" VAI Imp Sim 2SgSubj
+"<.>"
+
+# sent_id = 45
+# text = I'imaa gaa-onjiiyaan apane go anishinaabemowag.
+# eng = Where I come from they always speak the Native language.
+"<i'imaa>"
+	"i'imaa" ADVLoc
+"<gaa-onjiiyaan>"
+	"onjii" PVSub/gaa VAI Cnj Pos Neu 1SgSubj
+"<apane>"
+	"apane" ADVTmp
+"<go>"
+	"go" PCDisc
+"<anishinaabemowag>"
+	"anishinaabemo" VAI Ind Pos Neu 3PlProxSubj
+"<.>"
+
+# sent_id = 46
+# text = Omashkikiikaadaan i'iw ogidig gaa-bishagisidood.
+# eng = He's putting medicine on the knee he skinned.
+"<omashkikiikaadaan>"
+	"mashkikiikaadan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<ogidig>"
+	"gidigw" NID Sg 3SgProxPoss
+"<gaa-bishagisidood>"
+	"bishagisidoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"bishagisidoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+
+# sent_id = 47
+# text = Obishagikonaan iniwen mishiiminan.
+# eng = He's paring an apple.
+"<obishagikonaan>"
+	"bishagikozh" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bishagikozh" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<iniwen>"
+	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
+"<mishiiminan>"
+	"mishiimin" NA ObvPl
+	"mishiimin" NA ObvSg
+"<.>"
+
+# sent_id = 48
+# text = Niibowa miinan gii-ayaawan noongom gii-niibing.
+# eng = There were a lot of blueberries this summer.
+"<niibowa>"
+	"niibowa" ADVQnt
+"<miinan>"
+	"miinan" NI Pl
+	"miin" NI Pl
+"<gii-ayaawan>"
+	"ayaa" PVTense/gii VII Ind Pos Neu 0PlSubj
+	"ayaa" PVTense/gii VAI Ind Pos Neu 3PlObvSubj
+	"ayaa" PVTense/gii VAI Ind Pos Neu 3SgObvSubj
+"<noongom>"
+	"noongom" ADVTmp
+"<gii-niibing>"
+	"niibin" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"niibin" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 49
+# text = Bagwaabikishkaa gwaaba'iganish wenji-onjigaag.
+# eng = The old dipper has got a hole in it; that's why it leaks.
+"<bagwaabikishkaa>"
+	"bagwaabikishkaa" VII Ind Pos Neu 0SgSubj
+"<gwaaba'iganish>"
+	"gwaaba'igan" NI Pej Sg
+"<wenji-onjigaag>"
+	"onjigaa" PVRel/onji VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 50
+# text = Gidaa-gabaa na?
+# eng = Can you get off?
+"<gidaa-gabaa>"
+	"gabaa" PVTense/daa VAI Ind Pos Neu 2SgSubj
+"<na>"
+	"na" PCDisc
+"<?>"
+
+# sent_id = 51
+# text = Zinigojiibizh giday. Andookomaazh.
+# eng = Rub your dog's belly. Check it for bugs.
+"<zinigojiibizh>"
+	"zinigojiibizh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"zinigojiibizh" VTA Imp Sim 2SgSubj 3PlProxObj
+"<giday>"
+	"day" NAD ProxSg 2SgPoss
+"<.>"
+
+"<andookomaazh>"
+	"andookomaazh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"andookomaazh" VTA Imp Sim 2SgSubj 3PlProxObj
+"<.>"
+
+# sent_id = 52
+# text = Gii-mikawi awe gaa-wanendamaad noomaya.
+# eng = The person who fainted a little while ago came to.
+"<gii-mikawi>"
+	"mikawi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<gaa-wanendamaad>"
+	"wanendamaa" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	"wanendamaa" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<noomaya>"
+	"noomaya" ADVTmp
+"<.>"
+
+# sent_id = 53
+# text = Giiwitaa-zaaga'igan ningii'-apa'idimin.
+# eng = We ran around the lake together.
+"<giiwitaa-zaaga'igan>"
+	"zaaga'igan" PNLex/giiwitaa NI Sg
+	"giiwitaa-zaaga'igan" ADVLoc
+"<ningii'-apa'idimin>"
+	"apa'idiwag" PVTense/gii' VAI Ind Pos Neu ExclSubj ExclObj
+"<.>"
+
+# sent_id = 54
+# text = Gii-agwaagosin 'i wiisiniwin imaa eteg.
+# eng = That food that's been there for a while got moldy.
+"<gii-agwaagosin>"
+	"agwaagosin" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<wiisiniwin>"
+	"wiisiniwin" NI Sg
+"<imaa>"
+	"imaa" ADVLoc
+"<eteg>"
+	"ate" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 55
+# text = Omikaan waa-tanawinzod waabang.
+# eng = He found a spot where he's going to pick berries tomorrow.
+"<omikaan>"
+	"mikan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<waa-tanawinzod>"
+	"danawinzo" PVTense/wii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<waabang>"
+	"waaban" VII Cnj Pos Neu 0SgSubj
+	"waaban" VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 56
+# text = Ozaawaakwad niwaagaakwadwaatig.
+# eng = My ax handle is brown.
+"<ozaawaakwad>"
+	"ozaawaakwad" VII Ind Pos Neu 0SgSubj
+"<niwaagaakwadwaatig>"
+	"waagaakwadwaatig" NI Sg 1SgPoss
+"<.>"
+
+# sent_id = 57
+# text = Mii iwe endasing i'iwe ziinzibaakwad.
+# eng = That's how much sugar there is.
+"<mii>"
+	"mii" ADVPred
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<endasing>"
+	"dasinoon" VII Pcp Pos Neu 0SgSubj 0SgHead
+	"dasin" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<i'iwe>"
+	"i'iwe" PRONDem NI Sg
+"<ziinzibaakwad>"
+	"ziinzibaakwad" NI Sg
+"<.>"
+
+# sent_id = 58
+# text = Bebangii eta ogii-ayaawaawaan zhooniyaan.
+# eng = They each have only a little money.
+"<bebangii>"
+	"bebangii" ADVQnt
+"<eta>"
+	"eta" ADVDeg
+"<ogii-ayaawaawaan>"
+	"ayaaw" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	"ayaaw" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+"<zhooniyaan>"
+	"zhooniyaa" NA ObvPl
+	"zhooniyaa" NA ObvSg
+	"zhooniyaa" NI Pl
+"<.>"
+
+# sent_id = 59
+# text = Ogii-pabaa-bakwajibidoonan iniw agwaakwa'iganan gaa-pabaa-agoodood zhebaa.
+# eng = He went around and pulled down the signs he posted this morning.
+"<ogii-pabaa-bakwajibidoonan>"
+	"bakwajibidoon" PVTense/gii PVDir/babaa VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	"bakwajibidoon" PVTense/gii PVDir/babaa VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"bakwajibidoon" PVTense/gii PVDir/babaa VTI Ind Pos Neu 3SgProxSubj 0PlObj
+"<iniw>"
+	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
+"<agwaakwa'iganan>"
+	"agwaakwa'igan" NI Pl
+"<gaa-pabaa-agoodood>"
+	"agoodoo" PVTense/gii PVDir/babaa VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<zhebaa>"
+	"zhebaa" ADVTmp
+"<.>"
+
+# sent_id = 60
+# text = Ningii-paazhidinawaa waawaashkeshi onzaam waasa madwe-niibawi.
+# eng = I shoot over the deer because it was standing too far away.
+"<ningii-paazhidinawaa>"
+	"baazhidinaw" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<waawaashkeshi>"
+	"waawaashkeshi" NA ProxSg
+"<onzaam>"
+	"onzaam" ADVQnt
+"<waasa>"
+	"waasa" ADVLoc
+"<madwe-niibawi>"
+	"niibawi" PVLex/madwe VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 61
+# text = Gaawiin gegoo naanaagadawendanziin awe gaa-onji-bakiiwiid aw gaa-wiikwiid.
+# eng = That guy pulling didn't have any sense -- that's why he strained his back.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<gegoo>"
+	"gegoo" PRONIndf NI
+"<naanaagadawendanziin>"
+	"naanaagadawendam" VAI Ind Neg Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<gaa-onji-bakiiwiid>"
+	"bakiiwii" PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+	"bakiiwii" PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<aw>"
+	"aw" PRONDem NA ProxSg
+"<gaa-wiikwiid>"
+	"wiikwii" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	"wiikwii" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 62
+# text = Oodenaang izhaawan. Wiiji'iwe.
+# eng = They're going to town and he's going along.
+"<oodenaang>"
+	"oodena" NI Loc
+"<izhaawan>"
+	"izhaa" VAI Ind Pos Neu 3PlObvSubj
+	"izhaa" VAI Ind Pos Neu 3SgObvSubj
+"<.>"
+
+"<wiiji'iwe>"
+	"wiiji'iwe" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 63
+# text = Giishpin ningaabii'anong ondaanimak
+# eng = wii'-niiskaadad.
+"<giishpin>"
+	"giishpin" ADVGram
+"<ningaabii'anong>"
+	"ningaabii'an" NI Loc
+	"ningaabii'anong" ADVLoc
+"<ondaanimak>"
+	"ondaanimad" VII Cnj Pos Neu 0SgSubj
+	"ondaanimad" VII Cnj Pos Neu 0PlSubj
+
+# sent_id = 64
+# text = Ogii-bitaganaandaan gaa-onji-baasa'ang i'iw waasechigan.
+# eng = He accidentally hit the window and that's how he broke it.
+"<ogii-bitaganaandaan>"
+	"bitaganaandan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<gaa-onji-baasa'ang>"
+	"baasa'an" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"baasa'an" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<waasechigan>"
+	"waasechigan" NI Sg
+"<.>"
+
+# sent_id = 65
+# text = Awi-maada'ookiin ini gigishkiganan gaa-piijigaadegin.
+# eng = Go distribute those clothes they brought over.
+"<awi-maada'ookiin>"
+	"maada'ookii" PVDir/awi VAIO Imp Sim 2SgSubj 0PlObj
+	"maada'ookii" PVDir/awi VAIO Imp Sim 2SgSubj 0SgObj
+	"maada'ookii" PVDir/awi VAIO Imp Sim 2SgSubj 3PlProx
+	"maada'ookii" PVDir/awi VAIO Imp Sim 2SgSubj 3SgProx
+	"maada'ookii" PVDir/awi VAIO Imp Sim 2SgSubj
+"<ini>"
+	"ini" PRONDem NI Pl
+	"ini" PRONDem NA ObvSg
+	"ini" PRONDem NA ObvPl
+"<gigishkiganan>"
+	"gigishkigan" NI Pl
+"<gaa-piijigaadegin>"
+	"biijigaade" PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead
+"<.>"
+
+# sent_id = 66
+# text = Aapiji mino-dibikad. Mii go wenda-giizhigaateg.
+# eng = It's a very nice night. The moonlight is bright.
+"<aapiji>"
+	"aapiji" ADVDeg
+"<mino-dibikad>"
+	"dibikad" PVLex/mino VII Ind Pos Neu 0SgSubj
+"<.>"
+
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<wenda-giizhigaateg>"
+	"giizhigaate" PVLex/wenda VII Cnj Pos Neu 0SgSubj
+	"giizhigaate" PVLex/wenda VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 67
+# text = Omiigaadaan odanokiiwin ji-ganawendang.
+# eng = She's fighting to keep her job.
+"<omiigaadaan>"
+	"miigaadan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<odanokiiwin>"
+	"anokiiwin" NI Sg 3SgProxPoss
+"<ji-ganawendang>"
+	"ganawendan" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"ganawendan" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"ganawendan" PVTense/daa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"ganawendan" PVTense/ga VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+
+# sent_id = 68
+# text = Daga izhiwizhishin aakoziiwigamigong. Niwii-wi-waabamaa mashkikiiwinini. Nindaakoz.
+# eng = Please take me to the hospital. I'm going to go see the doctor. I'm sick.
+"<daga>"
+	"daga" PCDisc
+"<izhiwizhishin>"
+	"izhiwizh" VTA Imp Sim 2SgSubj 1SgObj
+"<aakoziiwigamigong>"
+	"aakoziiwigamig" NI Loc
+"<.>"
+
+"<niwii-wi-waabamaa>"
+	"waabam" PVTense/wii PVDir/wi VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<mashkikiiwinini>"
+	"mashkikiiwinini" NA ProxSg
+"<.>"
+
+"<nindaakoz>"
+	"aakozin" VAIO Ind Pos Neu 1SgSubj
+	"aakozi" VAI Ind Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 69
+# text = Niwiizhaamig wii-mawadishiwed.
+# eng = She's asking me to go along visiting.
+"<niwiizhaamig>"
+	"wiizhaam" VTA Ind Pos Neu 3SgProxSubj 1SgObj
+"<wii-mawadishiwed>"
+	"mawadishiwe" PVTense/wii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 70
+# text = Agaawaa ogashkiwidoon i'iw obimiwanaan a'aw gwiiwizens.
+# eng = The boy can barely carry his pack.
+"<agaawaa>"
+	"agaawaa" ADVDeg
+"<ogashkiwidoon>"
+	"gashkiwidoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<obimiwanaan>"
+	"bimiwanaan" NI Sg 3SgProxPoss
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<gwiiwizens>"
+	"gwiiwizens" NA ProxSg
+"<.>"
+
+# sent_id = 71
+# text = Onabig imaa naawisag.
+# eng = Sit in the middle of the floor.
+"<onabig>"
+	"onabi" VAI Imp Sim 2PlSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<naawisag>"
+	"naawisag" ADVLoc
+"<.>"
+
+# sent_id = 72
+# text = Onzaam jiigaya'ii imaa gii-niibawi gaa-onji-nawadidenig ogiboodiyegwaazon.
+# eng = He was standing too close --  that's why his pants caught on fire.
+"<onzaam>"
+	"onzaam" ADVQnt
+"<jiigaya'ii>"
+	"jiigaya'ii" ADVLoc
+"<imaa>"
+	"imaa" ADVLoc
+"<gii-niibawi>"
+	"niibawi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<gaa-onji-nawadidenig>"
+	"nawadide" PVSub/gaa PVRel/onji VII Cnj Pos Neu 0PlObvSubj
+	"nawadide" PVSub/gaa PVRel/onji VII Cnj Pos Neu 0SgObvSubj
+	"nawadide" PVTense/gii PVRel/onji VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+"<ogiboodiyegwaazon>"
+	"giboodiyegwaazon" NI Sg 3SgProxPoss
+"<.>"
+
+# sent_id = 73
+# text = Gii-naanigaasin i'iw apishimoniigin.
+# eng = The sheet ripped in the wind.
+"<gii-naanigaasin>"
+	"naanigaasin" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<apishimoniigin>"
+	"apishimoniigin" NI Sg
+"<.>"
+
+# sent_id = 74
+# text = Mii gii-kiizizod a'aw giigoonh.
+# eng = The fish is done (cooking).
+"<mii>"
+	"mii" ADVPred
+"<gii-kiizizod>"
+	"giizizo" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"giiziz" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<giigoonh>"
+	"giigoonh" NA ProxSg
+"<.>"
+
+# sent_id = 75
+# text = Niwii-gitige ziigwang.
+# eng = I'm going to plant this spring.
+"<niwii-gitige>"
+	"gitige" PVTense/wii VAI Ind Pos Neu 1SgSubj
+"<ziigwang>"
+	"ziigwan" VII Cnj Pos Neu 0SgSubj
+	"ziigwan" VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 76
+# text = Niibowa ingii-mamaanaanig igiweg okikaandagoog imaa gii-kiishka'aakweyaang biboonong.
+# eng = When we were cutting wood last winter
+"<niibowa>"
+	"niibowa" ADVQnt
+"<ingii-mamaanaanig>"
+	"mami" PVTense/gii VTA Ind Pos Neu ExclSubj 3PlProxObj
+	"mami" PVTense/gii VTA Ind Pos Neu ExclSubj 3PlObvObj
+"<igiweg>"
+	"igiweg" PRONDem NA ProxPl
+"<okikaandagoog>"
+	"okikaandag" NA ProxPl
+"<imaa>"
+	"imaa" ADVLoc
+"<gii-kiishka'aakweyaang>"
+	"giishka'aakwe" PVTense/gii VAI Cnj Pos Neu ExclSubj
+"<biboonong>"
+	"biboonong" ADVTmp
+"<.>"
+
+# sent_id = 77
+# text = Oodenaang niwii'-izhaa. Niwii'-ando-babiizigaanikweyaakiz.
+# eng = I'm going to go to town. I'm going to get a perm.
+"<oodenaang>"
+	"oodena" NI Loc
+"<niwii'-izhaa>"
+	"izhaa" PVTense/wii' VAI Ind Pos Neu 1SgSubj
+"<.>"
+
+"<niwii'-ando-babiizigaanikweyaakiz>"
+	"babiizigaanikweyaakizo" PVTense/wii' PVLex/ando VAI Ind Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 78
+# text = Aapiji da-baatemagad noongom ji-niibing.
+# eng = It will be pretty dry this summer.
+"<aapiji>"
+	"aapiji" ADVDeg
+"<da-baatemagad>"
+	"baate" PVTense/ga VII Aug/magad VII Ind Pos Neu 0SgSubj
+"<noongom>"
+	"noongom" ADVTmp
+"<ji-niibing>"
+	"niibin" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	"niibin" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	"niibin" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"niibin" PVTense/ga VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 79
+# text = Ogii-basiingweganaamaan ogwiiwizensiman a'aw ikwezens.
+# eng = That girl slapped her boy friend in the face.
+"<ogii-basiingweganaamaan>"
+	"basiingweganaam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"basiingweganaam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<ogwiiwizensiman>"
+	"gwiiwizens" NA Poss ObvSg 3SgProxPoss
+	"gwiiwizens" NA Poss ObvPl 3SgProxPoss
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<ikwezens>"
+	"ikwezens" NA ProxSg
+"<.>"
+
+# sent_id = 80
+# text = Bakaan inaajimo awedi bezhig apiich idash wa'awe.
+# eng = That one tells different story than this one.
+"<bakaan>"
+	"bakaan" ADVMan
+"<inaajimo>"
+	"inaajimo" VAI Ind Pos Neu 3SgProxSubj
+"<awedi>"
+	"awedi" PRONDem NA ProxSg
+"<bezhig>"
+	"bezhig" NUM
+"<apiich>"
+	"apiich" ADVGram
+"<idash>"
+	"idash" ADVConj
+"<wa'awe>"
+	"wa'awe" PRONDem NA ProxSg
+"<.>"
+
+# sent_id = 81
+# text = Mii go ge gaa-izhi-wiindang 'i ziinzibaakwad
+# eng = anishinaabe-ziinzibaakwad.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<ge>"
+	"ge" ADVConj
+"<gaa-izhi-wiindang>"
+	"izhi-wiindan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"wiindan" PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"izhi-wiindan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"wiindan" PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<ziinzibaakwad>"
+	"ziinzibaakwad" NI Sg
+
+# sent_id = 82
+# text = Wiinad imaa biinji-makakosagong.
+# eng = It's dirty inside the box.
+"<wiinad>"
+	"wiinzh" VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"wiinad" VII Ind Pos Neu 0SgSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<biinji-makakosagong>"
+	"makakosag" PNLex/biinji NI Loc
+"<.>"
+
+# sent_id = 83
+# text = Ogii-wiiyagitoon gii-miigiwed iwe mazinaakizowin.
+# eng = It's regretable he gave that picture away.
+"<ogii-wiiyagitoon>"
+	"wiiyagitoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<gii-miigiwed>"
+	"miigiwe" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"miigiwen" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+	"miigiwen" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"miigiwen" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"miigiwen" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"miigiwen" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<mazinaakizowin>"
+	"mazinaakizowin" NI Sg
+"<.>"
+
+# sent_id = 84
+# text = Gegapii iidog bengishing.
+# eng = He finally fell.
+"<gegapii>"
+	"gegapii" ADVTmp
+"<iidog>"
+	"iidog" PCAsp
+"<bengishing>"
+	"bangishin" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 85
+# text = Miziwe gii-izhaa omaa godagiing gii-anda-gikenimaad aandi gaa-izhi-gozinid.
+# eng = He went all over the neighborhood trying to find out where they moved to.
+"<miziwe>"
+	"miziwe" ADVLoc
+"<gii-izhaa>"
+	"izhaa" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<omaa>"
+	"omaa" ADVLoc
+"<godagiing>"
+	"godagii" VAI Cnj Pos Neu XSubj
+"<gii-anda-gikenimaad>"
+	"gikenim" PVTense/gii PVLex/anda VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"gikenim" PVTense/gii PVLex/anda VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+"<aandi>"
+	"aandi" ADVInter
+"<gaa-izhi-gozinid>"
+	"gozi" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 3PlObvSubj
+	"gozi" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 3SgObvSubj
+"<.>"
+
+# sent_id = 86
+# text = Gichi-wiinidoone 'aw akiwenzhiiyish.
+# eng = The dirty old man has a filthy mouth.
+"<gichi-wiinidoone>"
+	"wiinidoone" PVLex/chi VAI Ind Pos Neu 2SgSubj
+	"wiinidoone" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
+"<'aw>"
+	"'aw" PRONDem NA ProxSg
+"<akiwenzhiiyish>"
+	"akiwenzii" NA Pej ProxSg
+"<.>"
+
+# sent_id = 87
+# text = Omaa bi-izhiwebinan.
+# eng = Shove it here.
+"<omaa>"
+	"omaa" ADVLoc
+"<bi-izhiwebinan>"
+	"izhiwebinan" PVDir/bi VTI Imp Sim 2SgSubj 0PlObj
+	"izhiwebinan" PVDir/bi VTI Imp Sim 2SgSubj 0SgObj
+"<.>"
+
+# sent_id = 88
+# text = Ogii-kiishkizhaan 'i mazina'igan.
+# eng = He cut the paper.
+"<ogii-kiishkizhaan>"
+	"giishkizhan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<mazina'igan>"
+	"mazina'igan" NA ProxSg
+	"mazina'igan" NI Sg
+"<.>"
+
+# sent_id = 89
+# text = Ingii-moona'waag mooseg gaa-ishkwaa-gimiwang.
+# eng = I dug worms after it rained.
+"<ingii-moona'waag>"
+	"moona'wi" PVTense/gii VTA Ind Pos Neu 1SgSubj 3PlProxObj
+	"moona'" PVTense/gii VTA Ind Pos Neu 1SgSubj 3PlProxObj
+"<mooseg>"
+	"moose" NA ProxPl
+"<gaa-ishkwaa-gimiwang>"
+	"gimiwan" PVSub/gaa PVLex/ishkwaa VII Cnj Pos Neu 0SgSubj
+	"gimiwan" PVSub/gaa PVLex/ishkwaa VII Cnj Pos Neu 0PlSubj
+	"gimiwan" PVTense/gii PVLex/ishkwaa VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 90
+# text = Ganabaj gegoo inaapine awe gidayinaan. Mii gosha wanitood obiiwayan.
+# eng = I think there's something the matter with our dog. He's losing his hair.
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<gegoo>"
+	"gegoo" PRONIndf NI
+"<inaapine>"
+	"inaapine" VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<gidayinaan>"
+	"day" NAD ProxSg InclPoss
+"<.>"
+
+"<mii>"
+	"mii" ADVPred
+"<gosha>"
+	"gosha" PCEmph
+"<wanitood>"
+	"wanitoon" VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"wanitoon" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<obiiwayan>"
+	"biiway" NI Pl 3SgProxPoss
+"<.>"
+
+# sent_id = 91
+# text = Mamaangibagizi wiigobaatig.
+# eng = A basswood has big leaves
+"<mamaangibagizi>"
+	"mamaangibagizi" VAI Ind Pos Neu 3SgProxSubj
+"<wiigobaatig>"
+	"wiigobaatig" NA ProxSg
+"<.>"
+
+# sent_id = 92
+# text = Gii-ajijigaabawi awe maamakaadiziikaazod.
+# eng = That show-off is standing on his head.
+"<gii-ajijigaabawi>"
+	"ajijigaabawi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<maamakaadiziikaazod>"
+	"maamakaadiziikaazo" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 93
+# text = Aapiji ozaagi'aan ookomisan.
+# eng = She really loves her grandma.
+"<aapiji>"
+	"aapiji" ADVDeg
+"<ozaagi'aan>"
+	"zaagi'" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"zaagi'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<ookomisan>"
+	"ookomis" NAD ObvPl 3SgProxPoss
+	"ookomis" NAD ObvSg 3SgProxPoss
+"<.>"
+
+# sent_id = 94
+# text = Noopiming ingii-izhaa gii-kiiyoseyaan.
+# eng = I went into the woods to hunt.
+"<noopiming>"
+	"noopiming" ADVLoc
+"<ingii-izhaa>"
+	"izhaa" PVTense/gii VAI Ind Pos Neu 1SgSubj
+"<gii-kiiyoseyaan>"
+	"giiyose" PVTense/gii VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 95
+# text = Indaga maajinizha'an iwe maajiibii'igan.
+# eng = Please post that letter.
+"<indaga>"
+	"indaga" PCDisc
+"<maajinizha'an>"
+	"maajinizha'an" VTI Imp Sim 2SgSubj 0PlObj
+	"maajinizha'an" VTI Imp Sim 2SgSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<maajiibii'igan>"
+	"maajiibii'igan" NI Sg
+"<.>"
+
+# sent_id = 96
+# text = Gii-bakinaage gii-pimibatood zagaswe'idiiwining.
+# eng = He won when he ran for the tribal council.
+"<gii-bakinaage>"
+	"bakinaage" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<gii-pimibatood>"
+	"bimibatoo" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<zagaswe'idiiwining>"
+	"zagaswe'idiiwin" NI Loc
+"<.>"
+
+# sent_id = 97
+# text = Ogiishkizhamowaan iniw oosan omashkosiinsimini.
+# eng = He mowed his father's grass.
+"<ogiishkizhamowaan>"
+	"giishkizhamaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"giishkizhamaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<iniw>"
+	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
+"<oosan>"
+	"oos" NAD ObvPl 3SgProxPoss
+	"oos" NAD ObvSg 3SgProxPoss
+"<omashkosiinsimini>"
+	"mashkosi" NI Dim Poss Sg 3PlObvPoss
+	"mashkosi" NI Dim Poss Sg 3SgObvPoss
+	"mashkosi" NI Dim Poss Pl 3PlObvPoss
+	"mashkosi" NI Dim Poss Pl 3SgObvPoss
+"<.>"
+
+# sent_id = 98
+# text = Nimisenh ko ingii-wiindamaag wiin iidog gii-kaandakii'ige gii-... gii-manoominikewaad.
+# eng = My sister told me that she was the one who poled (the boat) when they were ricing.
+"<nimisenh>"
+	"miseny" NAD ProxSg 1SgPoss
+"<ko>"
+	"ko" PCAsp
+"<ingii-wiindamaag>"
+	"wiindamaw" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 1SgObj
+"<wiin>"
+	"wiin" PRONPer NA 3Sg
+"<iidog>"
+	"iidog" PCAsp
+"<gii-kaandakii'ige>"
+	"gaandakii'ige" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<gii->"
+	"" PVTense/gii
+"<...>"
+
+"<gii-manoominikewaad>"
+	"manoominike" PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+
+# sent_id = 99
+# text = Noondese maada'ookiiwin.
+# eng = The distribution is short.
+"<noondese>"
+	"noondese" VAI Ind Pos Neu 3SgProxSubj
+	"noondese" VII Ind Pos Neu 0SgSubj
+"<maada'ookiiwin>"
+	"maada'ookiiwin" NI Sg
+"<.>"
+
+# sent_id = 100
+# text = Gego omaa atooken ogidabak. Gidoonaaganens da-diitibiwebaasin.
+# eng = Don't put your it here on on the top of the roof. Your cup might get blown down.
+"<gego>"
+	"gego" ADVNeg
+"<omaa>"
+	"omaa" ADVLoc
+"<atooken>"
+	"atoon" VTI Imp Prb 2SgSubj 0PlObj
+	"atoon" VTI Imp Prb 2SgSubj 0SgObj
+"<ogidabak>"
+	"ogidabak" ADVLoc
+"<.>"
+
+"<gidoonaaganens>"
+	"onaaganens" NI Sg 2SgPoss
+	"onaagan" NI Dim Sg 2SgPoss
+"<da-diitibiwebaasin>"
+	"diitibiwebaasin" PVTense/ga VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 101
+# text = Nookomis anookii ji-ipizo'ind wii'-maa'ishkang.
+# eng = My grandma is asking for a ride to go shopping.
+"<nookomis>"
+	"ookomis" NAD ProxSg 1SgPoss
+"<anookii>"
+	"anookii" VAI Ind Pos Neu 3SgProxSubj
+"<ji-ipizo'ind>"
+	"ipizo'" PVTense/daa VTA Cnj Pos Neu XSubj 3SgProxObj
+	"ipizo'" PVTense/ga VTA Cnj Pos Neu XSubj 3SgProxObj
+"<wii'-maa'ishkang>"
+	"maa'ishkam" PVTense/wii' VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 102
+# text = Ogii-kabaanizha'waan iniw ogozisan aana-gii-poozinid.
+# eng = Her son got on board
+"<ogii-kabaanizha'waan>"
+	"gabaanizha'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"gabaanizha'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<iniw>"
+	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
+"<ogozisan>"
+	"gozis" NAD ObvPl 3SgProxPoss
+	"gozis" NAD ObvSg 3SgProxPoss
+"<aana-gii-poozinid>"
+	"boozi" PVTense/aana PVTense/gii VAI Cnj Pos Neu 3PlObvSubj
+	"boozi" PVTense/aana PVTense/gii VAI Cnj Pos Neu 3SgObvSubj
+	"boozin" PVTense/aana PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+"<.>"
+
+# sent_id = 103
+# text = Nimaanab onzaam baapaagaa desabiwin.
+# eng = I'm sitting uncommortably because the chair is too hard.
+"<nimaanab>"
+	"maanabi" VAI Ind Pos Neu 1SgSubj
+"<onzaam>"
+	"onzaam" ADVQnt
+"<baapaagaa>"
+	"baapaagaa" VII Ind Pos Neu 0SgSubj
+"<desabiwin>"
+	"desabiwin" NI Sg
+"<.>"
+
+# sent_id = 104
+# text = Aaniin ekobiid ginibinaadwaaganakik.
+# eng = How full is your water pail?
+"<aaniin>"
+	"aaniin" PCInterj
+	"aaniin" ADVInter
+"<ekobiid>"
+	"akobii" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<ginibinaadwaaganakik>"
+	"nibinaadwaaganakik" NA ProxSg 2SgPoss
+"<.>"
+
+# sent_id = 105
+# text = Ozaawaandagaaso onzaam gaawiin onji-gimiwanzinoon. Gizhaasige giizis.
+# eng = The boughs are turning brown because there's been hardly any rain lately. The sun is very hot.
+"<ozaawaandagaaso>"
+	"ozaawaandagaaso" VAI Ind Pos Neu 3SgProxSubj
+"<onzaam>"
+	"onzaam" ADVQnt
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<onji-gimiwanzinoon>"
+	"gimiwan" PVRel/onji VII Ind Neg Neu 0PlSubj
+	"gimiwan" PVRel/onji VII Ind Neg Neu 0SgSubj
+"<.>"
+
+"<gizhaasige>"
+	"gizhaasige" VAI Ind Pos Neu 3SgProxSubj
+"<giizis>"
+	"giizis" NA ProxSg
+"<.>"
+
+# sent_id = 106
+# text = Bekaa. Akawe niwii-ozhiiginige. Nimanepwaa.
+# eng = Wait. First I want to roll a cigarette. I need a smoke.
+"<bekaa>"
+	"bekaa" ADVMan
+"<.>"
+
+"<akawe>"
+	"akawe" ADVTmp
+"<niwii-ozhiiginige>"
+	"ozhiiginige" PVTense/wii VAI Ind Pos Neu 1SgSubj
+"<.>"
+
+"<nimanepwaa>"
+	"manepwaa" VAI Ind Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 107
+# text = Odazhiikawaan odasabiin. Omegwaa-bagwa'waan.
+# eng = He's working on his nets. He's mending them.
+"<odazhiikawaan>"
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<odasabiin>"
+	"odasabii" VAI Imp Sim 2SgSubj
+	"asab" NA ObvSg 3SgProxPoss
+	"asab" NA ObvPl 3SgProxPoss
+"<.>"
+
+"<omegwaa-bagwa'waan>"
+	"bagwa'wi" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bagwa'wi" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<.>"
+
+# sent_id = 108
+# text = Niboodaakwen iwe bigishkiboode-wiiyaas wii-naboobiikeyaan.
+# eng = I put hamburger in the pot to make soup.
+"<niboodaakwen>"
+	"boodaakwen" VAIO Ind Pos Neu 1SgSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<bigishkiboode-wiiyaas>"
+	"bigishkiboode-wiiyaas" NI Sg
+"<wii-naboobiikeyaan>"
+	"naboobiike" PVTense/wii VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 109
+# text = Naabinootawishin.
+# eng = Repeat what I say!
+"<naabinootawishin>"
+	"naabinootaw" VTA Imp Sim 2SgSubj 1SgObj
+"<.>"
+
+# sent_id = 110
+# text = Gii-odaapinigaazo awe miigis omaa gaa-pimi-abid.
+# eng = Somebody picked up that shell that was lying here.
+"<gii-odaapinigaazo>"
+	"odaapinigaazo" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<miigis>"
+	"miigis" NA ProxSg
+"<omaa>"
+	"omaa" ADVLoc
+"<gaa-pimi-abid>"
+	"abi" PVTense/gii PVDir/bimi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 111
+# text = Aaniish enamog 'iw miikana.
+# eng = How is that road?
+"<aaniish>"
+	"aaniish" ADVInter
+"<enamog>"
+	"inamon" VII Pcp Pos Neu 0SgSubj 0SgHead
+	"inamo" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<miikana>"
+	"miikana" NI Sg
+"<.>"
+
+# sent_id = 112
+# text = Aandi ezhiniged.
+# eng = Where is he lugging things on his shoulder to?
+"<aandi>"
+	"aandi" ADVInter
+"<ezhiniged>"
+	"izhinige" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 113
+# text = Ogigishkaan nibabiinzikawaagan aana-wii-piizikamaan.
+# eng = I want to wear my jacket but he's got it on.
+"<ogigishkaan>"
+	"gigishkan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<nibabiinzikawaagan>"
+	"babiinzikawaagan" NI Sg 1SgPoss
+"<aana-wii-piizikamaan>"
+	"biizikan" PVTense/aana PVTense/wii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"biizikan" PVTense/aana PVTense/wii VTI Cnj Pos Neu 1SgSubj 0SgObj
+"<.>"
+
+# sent_id = 114
+# text = Ozhitoon gibashkweginwekizinan jibwaa-maajii-niimi'iding.
+# eng = Make your moccasins before the powwow season starts.
+"<ozhitoon>"
+	"ozhitoon" VTI Imp Sim 2SgSubj 0PlObj
+	"ozhitoon" VTI Imp Sim 2SgSubj 0SgObj
+"<gibashkweginwekizinan>"
+	"bashkweginwekizin" NI Pl 2SgPoss
+"<jibwaa-maajii-niimi'iding>"
+	"niimi'" PVTense/jibwaa PVLex/maajii VTA Recip/di VAI Cnj Pos Neu XSubj XObj
+	"niimi'idiwag" PVTense/jibwaa PVLex/maajii VAI Cnj Pos Neu XSubj XObj
+"<.>"
+
+# sent_id = 115
+# text = Nitam ningii-piinitoomin indaabajichiganinaan
+# eng = akikoog
+"<nitam>"
+	"nitam" ADVLoc
+"<ningii-piinitoomin>"
+	"biinitoon" PVTense/gii VTI Ind Pos Neu ExclSubj 0PlObj
+	"biinitoon" PVTense/gii VTI Ind Pos Neu ExclSubj 0SgObj
+"<indaabajichiganinaan>"
+	"aabajichigan" NI Sg ExclPoss
+
+# sent_id = 116
+# text = Gaawiin ganage indaa-biinjwebinigetamowaasii awe gemoodishkid.
+# eng = There's no way I'd vote for that thief.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<ganage>"
+	"ganage" ADVMan
+"<indaa-biinjwebinigetamowaasii>"
+	"biinjwebinigetamaw" PVTense/daa VTA Ind Neg Neu 1SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<gemoodishkid>"
+	"gimoodishki" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 117
+# text = Wiishkobizi go nawaj a'aw wiishkobi-bakwezhigan.
+# eng = That pastry is real sweet.
+"<wiishkobizi>"
+	"wiishkobizi" VAI Ind Pos Neu 3SgProxSubj
+"<go>"
+	"go" PCDisc
+"<nawaj>"
+	"nawaj" ADVDeg
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<wiishkobi-bakwezhigan>"
+	"wiishkobi-bakwezhigan" NA ProxSg
+	"bakwezhigan" PNLex/wiishkobi NA ProxSg
+"<.>"
+
+# sent_id = 118
+# text = Indaga opimewebishkaw a'aw akik.
+# eng = Please kick the pail on its side.
+"<indaga>"
+	"indaga" PCDisc
+"<opimewebishkaw>"
+	"opimewebishkaw" VTA Imp Sim 2SgSubj 3SgProxObj
+	"opimewebishkaw" VTA Imp Sim 2SgSubj 3PlProxObj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<akik>"
+	"akik" NA ProxSg
+"<.>"
+
+# sent_id = 119
+# text = NIndaanawenimigoo gaa-inizekweyaan. Gaawiin omiijisiinaawaa.
+# eng = They don't like my cooking. They didn't even eat it.
+"<nindaanawenimigoo>"
+	"aanawenim" VTA Ind Pos Neu XSubj 1SgObj
+"<gaa-inizekweyaan>"
+	"inizekwe" PVSub/gaa VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<omiijisiinaawaa>"
+	"miijin" VTI Ind Neg Neu 3PlProxSubj 0SgObj
+"<.>"
+
+# sent_id = 120
+# text = Boodaweyaan naa gaa-izhi-jaagizoyaan wiisagaakizoyaan.
+# eng = I was making a fire and burnt myself
+"<boodaweyaan>"
+	"boodawe" VAI Cnj Pos Neu 1SgSubj
+"<naa>"
+	"naa" PCEmph
+"<gaa-izhi-jaagizoyaan>"
+	"jaagizo" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj
+"<wiisagaakizoyaan>"
+	"wiisagaakizo" VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 121
+# text = Giizhaa ningii-ozhiitaa wii'-ando-bimaagimoseyaan waabang.
+# eng = I prepared beforehand to go snowshoeing tomorrow.
+"<giizhaa>"
+	"giizhaa" ADVTmp
+"<ningii-ozhiitaa>"
+	"ozhiitaa" PVTense/gii VAI Ind Pos Neu 1SgSubj
+"<wii'-ando-bimaagimoseyaan>"
+	"bimaagimose" PVTense/wii' PVLex/ando VAI Cnj Pos Neu 1SgSubj
+"<waabang>"
+	"waaban" VII Cnj Pos Neu 0SgSubj
+	"waaban" VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 122
+# text = Nindaabajitoon binaakwaan binaakwe'wag nindaanis.
+# eng = I use a comb when I comb my daughter's hair.
+"<nindaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<binaakwaan>"
+	"binaakwaan" NI Sg
+"<binaakwe'wag>"
+	"binaakwe'wi" VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	"binaakwe'" VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+"<nindaanis>"
+	"daanis" NAD ProxSg 1SgPoss
+"<.>"
+
+# sent_id = 123
+# text = Mii 'iw zhigwa maajiishkaamagak iwe odaabaan waa-niisaakiiwebideg.
+# eng = Now that car is beginning to move that's going to be rolling down the hill.
+"<mii>"
+	"mii" ADVPred
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<zhigwa>"
+	"zhigwa" ADVTmp
+"<maajiishkaamagak>"
+	"maajiishkaa" VAI Der/magad VII Cnj Pos Neu 0SgSubj
+	"maajiishkaa" VII Aug/magad VII Cnj Pos Neu 0SgSubj
+	"maajiishkaa" VAI Der/magad VII Cnj Pos Neu 0PlSubj
+	"maajiishkaa" VII Aug/magad VII Cnj Pos Neu 0PlSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<odaabaan>"
+	"odaabaan" NA ProxSg
+	"odaabaan" NI Sg
+"<waa-niisaakiiwebideg>"
+	"niisaakiiwebide" PVTense/wii VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 124
+# text = Omaa bi-izhaan.
+# eng = Come here.
+"<omaa>"
+	"omaa" ADVLoc
+"<bi-izhaan>"
+	"bi-izhaa" VAI Imp Sim 2SgSubj
+	"izhaa" PVDir/bi VAI Imp Sim 2SgSubj
+"<.>"
+
+# sent_id = 125
+# text = Aanawendaagozi ji-giizhitoopan waakaa'igan; onzaam gitimishki.
+# eng = Everyone thinks he is never going to finish his house because he is too lazy.
+"<aanawendaagozi>"
+	"aanawendaagozi" VAI Ind Pos Neu 3SgProxSubj
+"<ji-giizhitoopan>"
+	"giizhitoon" PVTense/daa VTI Cnj Pos Prt 3SgProxSubj 0PlObj
+	"giizhitoon" PVTense/ga VTI Cnj Pos Prt 3SgProxSubj 0PlObj
+	"giizhitoon" PVTense/daa VTI Cnj Pos Prt 3SgProxSubj 0SgObj
+	"giizhitoon" PVTense/ga VTI Cnj Pos Prt 3SgProxSubj 0SgObj
+"<waakaa'igan>"
+	"waakaa'igan" NI Sg
+"<;>"
+
+"<onzaam>"
+	"onzaam" ADVQnt
+"<gitimishki>"
+	"gitimishki" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 126
+# text = Agaasoonagad ninjiimaan. Wawiinge gokokwaa.
+# eng = My canoe is small. It's very tippy.
+"<agaasoonagad>"
+	"agaasoonagad" VII Ind Pos Neu 0SgSubj
+"<ninjiimaan>"
+	"jiimaan" NI Sg 1SgPoss
+"<.>"
+
+"<wawiinge>"
+	"wawiinge" ADVMan
+"<gokokwaa>"
+	"gokokwaa" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 127
+# text = Gaawiin indaa-biinjwebinigetamawaasii awe gegiibaadendang aana-wii-shooniyaawininiiwid.
+# eng = I will not vote for that crazy-thinking person who is running for treasurer.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<indaa-biinjwebinigetamawaasii>"
+	"biinjwebinigetamaw" PVTense/daa VTA Ind Neg Neu 1SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<gegiibaadendang>"
+	"gagiibaadendam" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	"gagiibaadendam" VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+"<aana-wii-shooniyaawininiiwid>"
+	"zhooniyaawininiiwi" PVTense/aana PVTense/wii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 128
+# text = Ogii-izhiwidoon i'iw zhooniyaa-mazina'igan iwidi zhooniyaawigamigong.
+# eng = She took the check to the bank.
+"<ogii-izhiwidoon>"
+	"izhiwidoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<zhooniyaa-mazina'igan>"
+	"zhooniyaa-mazina'igan" NI Sg
+"<iwidi>"
+	"iwidi" ADVLoc
+"<zhooniyaawigamigong>"
+	"zhooniyaawigamig" NI Loc
+"<.>"
+
+# sent_id = 129
+# text = Gaashizigozi goon.
+# eng = The snow has a sharp prickly crust of ice.
+"<gaashizigozi>"
+	"gaashizigozi" VAI Ind Pos Neu 3SgProxSubj
+"<goon>"
+	"goon" NA ProxSg
+"<.>"
+
+# sent_id = 130
+# text = Manaajitoon ini waawanoon. Giga-baasisidoonan.
+# eng = Be careful with those eggs. You'll break them
+"<manaajitoon>"
+	"manaajitoon" VTI Imp Sim 2SgSubj 0PlObj
+	"manaajitoon" VTI Imp Sim 2SgSubj 0SgObj
+"<ini>"
+	"ini" PRONDem NI Pl
+	"ini" PRONDem NA ObvSg
+	"ini" PRONDem NA ObvPl
+"<waawanoon>"
+	"waawan" NI Pl
+"<.>"
+
+"<giga-baasisidoonan>"
+	"baasisidoon" PVTense/ga VTI Ind Pos Neu 2SgSubj 0PlObj
+"<.>"
+
+# sent_id = 131
+# text = Ingii-ig ji-ikosidooyaan i'iwe makak.
+# eng = He told me to move that box out of the way.
+"<ingii-ig>"
+	"izhi" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 1SgObj
+"<ji-ikosidooyaan>"
+	"ikosidoon" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"ikosidoon" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"ikosidoon" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"ikosidoon" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0SgObj
+"<i'iwe>"
+	"i'iwe" PRONDem NI Sg
+"<makak>"
+	"makak" NI Sg
+"<.>"
+
+# sent_id = 132
+# text = Ogidaatig nanaamadabi bizhiins.
+# eng = A cat is sitting on the log.
+"<ogidaatig>"
+	"ogidaatig" ADVLoc
+"<nanaamadabi>"
+	"nanaamadabi" VAI Ind Pos Neu 3SgProxSubj
+"<bizhiins>"
+	"bizhiw" NA Dim ProxSg
+	"bizhiins" NA ProxSg
+"<.>"
+
+# sent_id = 133
+# text = Onzaam bangii ningii-tiba'amaagoo.
+# eng = They pay me too little.
+"<onzaam>"
+	"onzaam" ADVQnt
+"<bangii>"
+	"bangii" ADVQnt
+"<ningii-tiba'amaagoo>"
+	"diba'amaw" PVTense/gii VTA Ind Pos Neu XSubj 1SgObj
+"<.>"
+
+# sent_id = 134
+# text = Niminotam iko madwe-nagamowaad iwe nooji'ikwewe-nagamon.
+# eng = I like when they sing that flirting song.
+"<niminotam>"
+	"minotam" VAI Ind Pos Neu 1SgSubj
+"<iko>"
+	"iko" PCAsp
+"<madwe-nagamowaad>"
+	"nagamo" PVLex/madwe VAI Cnj Pos Neu 3PlProxSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<nooji'ikwewe-nagamon>"
+	"nooji'ikwewe-nagamo" VAI Imp Sim 2SgSubj
+	"nooji'ikwewe-nagamon" NI Sg
+"<.>"
+
+# sent_id = 135
+# text = Waasa ondaajimo.
+# eng = Her story is from somewhere far away.
+"<waasa>"
+	"waasa" ADVLoc
+"<ondaajimo>"
+	"ondaajimo" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 136
+# text = Niinawind iko nimisenyiban ingii-agoodinasabiimin.
+# eng = It was my older sister and me who used to dry the nets.
+"<niinawind>"
+	"niinawind" PRONPer NA Excl
+"<iko>"
+	"iko" PCAsp
+"<nimisenyiban>"
+	"miseny" NAD Pret ProxSg 1SgPoss
+"<ingii-agoodinasabiimin>"
+	"agoodinasabii" PVTense/gii VAI Ind Pos Neu ExclSubj
+"<.>"
+
+# sent_id = 137
+# text = Ningii'-waabamaa oshkiniigikwens niibinakizined. Wiinge dash gisinaani agwajiing.
+# eng = I saw a young woman wearing summer shoes
+"<ningii'-waabamaa>"
+	"waabam" PVTense/gii' VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<oshkiniigikwens>"
+	"oshkiniigikwe" NA Dim ProxSg
+"<niibinakizined>"
+	"niibinakizine" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+"<wiinge>"
+	"wiinge" ADVDeg
+"<dash>"
+	"dash" ADVConj
+"<gisinaani>"
+	"gisinaa" VII Ind Pos Neu 0SgObvSubj
+"<agwajiing>"
+	"agwajiing" ADVLoc
+"<.>"
+
+# sent_id = 138
+# text = Abinoojiinyag agindaasowag bezhig biinish igo ningodwaak.
+# eng = The kids count from up from one to a hundred.
+"<abinoojiinyag>"
+	"abinoojiinh" NA ProxPl
+"<agindaasowag>"
+	"agindaaso" VAI Ind Pos Neu 3PlProxSubj
+"<bezhig>"
+	"bezhig" NUM
+"<biinish>"
+	"biinish" ADVGram
+"<igo>"
+	"igo" PCEmph
+"<ningodwaak>"
+	"ningodwaak" NUM
+"<.>"
+
+# sent_id = 139
+# text = Giineta go gimiinin ji-aabajitooyin.
+# eng = I'm giving this to you to use alone.
+"<giineta>"
+	"giineta" PRONPer NA 2Sg
+"<go>"
+	"go" PCDisc
+"<gimiinin>"
+	"miizh" VTA Ind Pos Neu 1SgSubj 2SgObj
+"<ji-aabajitooyin>"
+	"aabajitoon" PVTense/daa VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"aabajitoon" PVTense/ga VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"aabajitoon" PVTense/daa VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"aabajitoon" PVTense/ga VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<.>"
+
+# sent_id = 140
+# text = Bigishkanimaagozi waawaashkeshi onzaam gabeya'ii gii'-agoojin imaa mitigong.
+# eng = The deer smells rotten because it was hanging up in the tree too long.
+"<bigishkanimaagozi>"
+	"bigishkanimaagozi" VAI Ind Pos Neu 3SgProxSubj
+"<waawaashkeshi>"
+	"waawaashkeshi" NA ProxSg
+"<onzaam>"
+	"onzaam" ADVQnt
+"<gabeya'ii>"
+	"gabeya'ii" ADVTmp
+"<gii'-agoojin>"
+	"agoojin" PVTense/gii' VAI Ind Pos Neu 3SgProxSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<mitigong>"
+	"mitig" NA Loc
+	"mitig" NI Loc
+"<.>"
+
+# sent_id = 141
+# text = Ogodaagaminaan nibi epiitaagamidenig. Owanakoninj odaabajitoon.
+# eng = She tested the temperature of the water using the tip of her finger.
+"<ogodaagaminaan>"
+	"godaagaminan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<nibi>"
+	"nibi" NI Sg
+"<epiitaagamidenig>"
+	"apiitaagamide" VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+"<.>"
+
+"<owanakoninj>"
+	"wanakoninj" NI Sg 3SgProxPoss
+"<odaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+
+# sent_id = 142
+# text = Niwaanda-wiinendaan naa 'i naboob.
+# eng = That soup seems real dirty to me.
+"<niwaanda-wiinendaan>"
+	"wiinendan" PVLex/waanda VTI Ind Pos Neu 1SgSubj 0SgObj
+"<naa>"
+	"naa" PCEmph
+"<'i>"
+	"'i" PRONDem NI Sg
+"<naboob>"
+	"naboob" NI Sg
+"<.>"
+
+# sent_id = 143
+# text = Mii go bizaan gaa-izhi-maajidaabii'iwed aana-gii-gina'amawind
+# eng = He start driving anyway when he was told not to.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<bizaan>"
+	"bizaan" ADVMan
+"<gaa-izhi-maajidaabii'iwed>"
+	"maajidaabii'iwe" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 3SgProxSubj
+	"maajidaabii'iwe" PVTense/gii PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<aana-gii-gina'amawind>"
+	"gina'amaw" PVTense/aana PVTense/gii VTA Cnj Pos Neu XSubj 3SgProxObj
+
+# sent_id = 144
+# text = Mamadwetoo iwidi awasisag. Namanj ezhichigegwen.
+# eng = I hear him moving around in the other room. I don't know what he's doing.
+"<mamadwetoo>"
+	"mamadwetoo" VAI Ind Pos Neu 3SgProxSubj
+"<iwidi>"
+	"iwidi" ADVLoc
+"<awasisag>"
+	"awasisag" ADVLoc
+"<.>"
+
+"<namanj>"
+	"namanj" ADVDub
+"<ezhichigegwen>"
+	"izhichige" VAI Pcp Pos Dub 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 145
+# text = Naawikana atemagad i'iw odaabaan gii-piigosemagadogwen.
+# eng = The car is in the middle of the road where it must have broken down.
+"<naawikana>"
+	"naawikana" ADVLoc
+"<atemagad>"
+	"ate" VII Aug/magad VII Ind Pos Neu 0SgSubj
+	"atemagad" VII Ind Pos Neu 0SgSubj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<odaabaan>"
+	"odaabaan" NA ProxSg
+	"odaabaan" NI Sg
+"<gii-piigosemagadogwen>"
+	"biigose" PVTense/gii VAI Der/magad VII Cnj Pos Dub 0PlSubj
+	"biigose" PVTense/gii VII Aug/magad VII Cnj Pos Dub 0PlSubj
+	"biigose" PVTense/gii VAI Der/magad VII Cnj Pos Dub 0SgSubj
+	"biigose" PVTense/gii VII Aug/magad VII Cnj Pos Dub 0SgSubj
+"<.>"
+
+# sent_id = 146
+# text = Bezhig ishkwaandem ningii'-andodamaagen gii-biigonigaadeg gete-waakaa'igan.
+# eng = I've asked for one of the doors of the old house they're tearing down.
+"<bezhig>"
+	"bezhig" NUM
+"<ishkwaandem>"
+	"ishkwaandem" NI Sg
+"<ningii'-andodamaagen>"
+	"andodamaagen" PVTense/gii' VAIO Ind Pos Neu 1SgSubj 0SgObj
+"<gii-biigonigaadeg>"
+	"biigonigaade" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"biigonigaade" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<gete-waakaa'igan>"
+	"waakaa'igan" PNLex/gete NI Sg
+"<.>"
+
+# sent_id = 147
+# text = Indaga zagakisidoon ini onaaganan.
+# eng = Please put the dishes away.
+"<indaga>"
+	"indaga" PCDisc
+"<zagakisidoon>"
+	"zagakisidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"zagakisidoon" VTI Imp Sim 2SgSubj 0SgObj
+"<ini>"
+	"ini" PRONDem NI Pl
+	"ini" PRONDem NA ObvSg
+	"ini" PRONDem NA ObvPl
+"<onaaganan>"
+	"onaagan" NI Pl
+"<.>"
+
+# sent_id = 148
+# text = Mamigoshkan manoomin ji-gidashkishkaman.
+# eng = Work the rice with your feet to dehusk it.
+"<mamigoshkan>"
+	"mamigoshkam" VAI Imp Sim 2SgSubj
+	"mamigoshkan" VTI Imp Sim 2SgSubj 0PlObj
+	"mamigoshkan" VTI Imp Sim 2SgSubj 0SgObj
+"<manoomin>"
+	"manoomin" NI Sg
+"<ji-gidashkishkaman>"
+	"gidashkishkan" PVTense/daa VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"gidashkishkan" PVTense/ga VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"gidashkishkan" PVTense/daa VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"gidashkishkan" PVTense/ga VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<.>"
+
+# sent_id = 149
+# text = Namanj igo. Bizaan-ayaa wa'awe.
+# eng = I wonder why. He is so still.
+"<namanj>"
+	"namanj" ADVDub
+"<igo>"
+	"igo" PCEmph
+"<.>"
+
+"<bizaan-ayaa>"
+	"bizaan-ayaa" VAI Ind Pos Neu 3SgProxSubj
+"<wa'awe>"
+	"wa'awe" PRONDem NA ProxSg
+"<.>"
+
+# sent_id = 150
+# text = Ambegish inaa gookooshiwi-bimide.
+# eng = I wish there was some bacon grease.
+"<ambegish>"
+	"ambegish" ADVPred
+"<inaa>"
+	"izhi" VTA Ind Pos Neu XSubj 3SgProxObj
+	"inaa" PCEmph
+"<gookooshiwi-bimide>"
+	"gookooshiwi-bimide" NI Sg
+"<.>"
+
+# sent_id = 151
+# text = Onzaam ginwaabikad iwe gaandakii'igan miinawaa onzaam gozigwan.
+# eng = That (metal) pushpole is too long and too heavy.
+"<onzaam>"
+	"onzaam" ADVQnt
+"<ginwaabikad>"
+	"ginwaabikad" VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<gaandakii'igan>"
+	"gaandakii'igan" NI Sg
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<onzaam>"
+	"onzaam" ADVQnt
+"<gozigwan>"
+	"gozigwan" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 152
+# text = Gaawiin debisinzinoon; onzaam dakwaa.
+# eng = It won't fit because it's too short.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<debisinzinoon>"
+	"debisin" VII Ind Neg Neu 0PlSubj
+	"debisin" VII Ind Neg Neu 0SgSubj
+"<;>"
+
+"<onzaam>"
+	"onzaam" ADVQnt
+"<dakwaa>"
+	"dakwaa" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 153
+# text = Weweni go minwashkine 'iw... i'iw anwi imaa baashkiziganing.
+# eng = The cartridge fits well into the rifle.
+"<weweni>"
+	"weweni" ADVMan
+"<go>"
+	"go" PCDisc
+"<minwashkine>"
+	"minwashkine" VAI Ind Pos Neu 3SgProxSubj
+	"minwashkine" VII Ind Pos Neu 0SgSubj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<...>"
+
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<anwi>"
+	"anwi" NI Sg
+"<imaa>"
+	"imaa" ADVLoc
+"<baashkiziganing>"
+	"baashkizigan" NI Loc
+"<.>"
+
+# sent_id = 154
+# text = Maazhipogod 'i manoomin. Awegodogwen dinowa miinawaa imaa gaa-tagonigaadegwen.
+# eng = That rice tastes bad. I wonder what kind of thing they put in there again.
+"<maazhipogod>"
+	"maazhip" VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"maazhip" VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"maazhip" VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	"maazhip" VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<manoomin>"
+	"manoomin" NI Sg
+"<.>"
+
+"<awegodogwen>"
+	"awegodogwen" PRONDub NI Sg
+"<dinowa>"
+	"dinowa" PRONSim NI Sg
+	"dinowa" PRONSim NA ProxSg
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<imaa>"
+	"imaa" ADVLoc
+"<gaa-tagonigaadegwen>"
+	"dagonigaade" PVTense/gii VII Pcp Pos Dub 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 155
+# text = Aniibiishaaboo wiishkobaagamin.
+# eng = The tea is sweet.
+"<aniibiishaaboo>"
+	"aniibiishaaboo" NI Sg
+"<wiishkobaagamin>"
+	"wiishkobaagamin" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 156
+# text = Awasigamig danakamigad.
+# eng = The shindig is in the next building.
+"<awasigamig>"
+	"awasigamig" ADVLoc
+"<danakamigad>"
+	"danakamigad" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 157
+# text = Indayaawaanaan awe dinowa gaazhagens gaa-biigwawed.
+# eng = We've got an angora cat.
+"<indayaawaanaan>"
+	"ayaaw" VTA Ind Pos Neu ExclSubj 3SgObvObj
+	"ayaaw" VTA Ind Pos Neu ExclSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<dinowa>"
+	"dinowa" PRONSim NI Sg
+	"dinowa" PRONSim NA ProxSg
+"<gaazhagens>"
+	"gaazhagens" NA ProxSg
+"<gaa-biigwawed>"
+	"biigwawe" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	"biigwawe" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 158
+# text = Awenen gaa-panaadizid.
+# eng = Who died?
+"<awenen>"
+	"awenen" PRONInter NA ProxSg
+"<gaa-panaadizid>"
+	"banaadizi" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 159
+# text = Gego gabeya'ii maamaagonaaken gibakwezhiganikaan. Da-mashkawijiishkiwagizi.
+# eng = Don't knead your dough too long. It will harden up.
+"<gego>"
+	"gego" ADVNeg
+"<gabeya'ii>"
+	"gabeya'ii" ADVTmp
+"<maamaagonaaken>"
+	"maamaagon" VTA Imp Prb 2SgSubj 3PlProxObj
+	"maamaagon" VTA Imp Prb 2SgSubj 3SgProxObj
+"<gibakwezhiganikaan>"
+	"bakwezhiganikaan" NA ProxSg 2SgPoss
+"<.>"
+
+"<da-mashkawijiishkiwagizi>"
+	"mashkawijiishkiwagizi" PVTense/ga VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 160
+# text = Aandi enaanakwak.
+# eng = Which way are the clouds going?
+"<aandi>"
+	"aandi" ADVInter
+"<enaanakwak>"
+	"inaanakwad" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 161
+# text = Omaa bi-ina'oodoon.
+# eng = Paddle this way.
+"<omaa>"
+	"omaa" ADVLoc
+"<bi-ina'oodoon>"
+	"ina'oodoo" PVDir/bi VAI Imp Sim 2SgSubj
+	"ina'oodoon" PVDir/bi VTI Imp Sim 2SgSubj 0PlObj
+	"ina'oodoon" PVDir/bi VTI Imp Sim 2SgSubj 0SgObj
+"<.>"
+
+# sent_id = 162
+# text = Gii-aazhawibizo imaa eshpaanig aazhogan.
+# eng = He drove across the high bridge.
+"<gii-aazhawibizo>"
+	"aazhawibizo" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<eshpaanig>"
+	"ishpaa" VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+"<aazhogan>"
+	"aazhogan" NI Sg
+"<.>"
+
+# sent_id = 163
+# text = Ningii-kagiipininjii iko gii-agaashiinyiyaan.
+# eng = I used to have chapped hands when I was small.
+"<ningii-kagiipininjii>"
+	"gagiipininjii" PVTense/gii VAI Ind Pos Neu 1SgSubj
+"<iko>"
+	"iko" PCAsp
+"<gii-agaashiinyiyaan>"
+	"agaashiinyi" PVTense/gii VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 164
+# text = Aaniin enaagamig.
+# eng = How is it (a liquid)?
+"<aaniin>"
+	"aaniin" PCInterj
+	"aaniin" ADVInter
+"<enaagamig>"
+	"inaagamin" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 165
+# text = Zaagijiwidoon ow gizhaabikiziganish.
+# eng = Take this old stove out.
+"<zaagijiwidoon>"
+	"zaagijiwidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"zaagijiwidoon" VTI Imp Sim 2SgSubj 0SgObj
+"<ow>"
+	"ow" PRONDem NI Sg
+"<gizhaabikiziganish>"
+	"gizhaabikizigan" NI Pej Sg
+"<.>"
+
+# sent_id = 166
+# text = Gii-kibitanokii jibwaa-giizhiikamowaad.
+# eng = He quit working before they finished it.
+"<gii-kibitanokii>"
+	"gibitanokii" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<jibwaa-giizhiikamowaad>"
+	"giizhiikan" PVTense/jibwaa VTI Cnj Pos Neu 3PlProxSubj 0PlObj
+	"giizhiikan" PVTense/jibwaa VTI Cnj Pos Neu 3PlProxSubj 0SgObj
+"<.>"
+
+# sent_id = 167
+# text = Bebakaan igi mitigoog izhinaagoziwag.
+# eng = The trees all look different.
+"<bebakaan>"
+	"bebakaan" ADVMan
+"<igi>"
+	"igi" PRONDem NA ProxPl
+"<mitigoog>"
+	"mitig" NA ProxPl
+"<izhinaagoziwag>"
+	"izhinaagozi" VAI Ind Pos Neu 3PlProxSubj
+"<.>"
+
+# sent_id = 168
+# text = Ojibwewibii'an o'owe.
+# eng = Write this in Ojibwe.
+"<ojibwewibii'an>"
+	"ojibwewibii'an" VTI Imp Sim 2SgSubj 0PlObj
+	"ojibwewibii'an" VTI Imp Sim 2SgSubj 0SgObj
+"<o'owe>"
+	"o'owe" PRONDem NI Sg
+"<.>"
+
+# sent_id = 169
+# text = Niwawiyadenimaa awe animoons ezhinaagozid. Maanaadizi.
+# eng = The way that little dog looks amuses me. It's kind of homely.
+"<niwawiyadenimaa>"
+	"wawiyadenim" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<animoons>"
+	"animoons" NA ProxSg
+"<ezhinaagozid>"
+	"izhinaagozi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+"<maanaadizi>"
+	"maanaadizi" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 170
+# text = Weweni gashka'oodoon gimakizinan.
+# eng = Lace and tie your shows right
+"<weweni>"
+	"weweni" ADVMan
+"<gashka'oodoon>"
+	"gashka'oodoon" VTI Imp Sim 2SgSubj 0PlObj
+	"gashka'oodoon" VTI Imp Sim 2SgSubj 0SgObj
+"<gimakizinan>"
+	"makizin" NI Pl 2SgPoss
+"<.>"
+
+# sent_id = 171
+# text = Gego memwech wiiji'ishiken. Mii go ji-gashkinag ji-aanjishimag.
+# eng = You don't have to help me. I can lift it to move it over.
+"<gego>"
+	"gego" ADVNeg
+"<memwech>"
+	"memwech" ADVMan
+"<wiiji'ishiken>"
+	"wiiji'" VTA Imp Prb 2SgSubj 1SgObj
+"<.>"
+
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<ji-gashkinag>"
+	"gashkin" PVTense/daa VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	"gashkin" PVTense/ga VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+"<ji-aanjishimag>"
+	"aanjishim" PVTense/daa VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	"aanjishim" PVTense/ga VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+"<.>"
+
+# sent_id = 172
+# text = Ogidadewenamoog abinoojiinyag gaa-gaakaazootaadiwaad.
+# eng = They children go around on top of the snow playing hide-and-seek.
+"<ogidadewenamoog>"
+	"ogidadewenam" VAI Ind Pos Neu 3PlProxSubj
+"<abinoojiinyag>"
+	"abinoojiinh" NA ProxPl
+"<gaa-gaakaazootaadiwaad>"
+	"gaakaazootaadiwag" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
+"<.>"
+
+# sent_id = 173
+# text = Giziibweweshkaa awe ditibidaabaanens: onzaam agwaagwaabikishin.
+# eng = The old wagon squeaks because it's so rusty.
+"<giziibweweshkaa>"
+	"giziibweweshkaa" VAI Ind Pos Neu 3SgProxSubj
+	"giziibweweshkaa" VII Ind Pos Neu 0SgSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<ditibidaabaanens>"
+	"ditibidaabaan" NA Dim ProxSg
+"<:>"
+
+"<onzaam>"
+	"onzaam" ADVQnt
+"<agwaagwaabikishin>"
+	"agwaagwaabikishin" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 174
+# text = Megwaa-bimoseyaan
+# eng = ingii-noondawaa baapaase.
+"<megwaa-bimoseyaan>"
+	"bimose" PVLex/megwaa VAI Cnj Pos Neu 1SgSubj
+
+# sent_id = 175
+# text = Gii'-agozigwaji gii-dasoozod amik.
+# eng = The beaver got stuck to the ice when it was in the trap.
+"<gii'-agozigwaji>"
+	"agozigwaji" PVTense/gii' VAI Ind Pos Neu 3SgProxSubj
+"<gii-dasoozod>"
+	"dasoozo" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<amik>"
+	"amik" NA ProxSg
+"<.>"
+
+# sent_id = 176
+# text = Ogii'-niimikaan gii-dibishkamoo-nagamo'ind.
+# eng = He danced to his birthday song.
+"<ogii'-niimikaan>"
+	"niimikan" PVTense/gii' VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<gii-dibishkamoo-nagamo'ind>"
+	"dibishkamoo-nagamo'" PVTense/gii VTA Cnj Pos Neu XSubj 3SgProxObj
+"<.>"
+
+# sent_id = 177
+# text = Wiinizi a'aw akik.
+# eng = That pail is dirty.
+"<wiinizi>"
+	"wiinizi" VAI Ind Pos Neu 3SgProxSubj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<akik>"
+	"akik" NA ProxSg
+"<.>"
+
+# sent_id = 178
+# text = Mii go ji-bwaanawi'ad aana-wii-gichiwinad. Ojaanimendam iwidi wii-azhegiiwed gaa-pi-onji-bazigwiid. Amanj gaa-izhiwebadogwen iwidi.
+# eng = You won't be able to hold him back. He wants to go back where he came from because something happened over there.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<ji-bwaanawi'ad>"
+	"bwaanawi'" PVTense/daa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"bwaanawi'" PVTense/ga VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<aana-wii-gichiwinad>"
+	"gichiwin" PVTense/aana PVTense/wii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<.>"
+
+"<ojaanimendam>"
+	"ojaanimendam" VAI Ind Pos Neu 3SgProxSubj
+"<iwidi>"
+	"iwidi" ADVLoc
+"<wii-azhegiiwed>"
+	"azhegiiwe" PVTense/wii VAI Cnj Pos Neu 3SgProxSubj
+"<gaa-pi-onji-bazigwiid>"
+	"bazigwii" PVTense/gii PVDir/bi PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+"<amanj>"
+	"amanj" ADVDub
+"<gaa-izhiwebadogwen>"
+	"izhiwebad" PVSub/gaa VII Cnj Pos Dub 0PlSubj
+	"izhiwebad" PVSub/gaa VII Cnj Pos Dub 0SgSubj
+	"izhiwebad" PVTense/gii VII Pcp Pos Dub 0SgSubj 0SgHead
+"<iwidi>"
+	"iwidi" ADVLoc
+"<.>"
+
+# sent_id = 179
+# text = Omiigaadaanaawaa ishkode.
+# eng = They are fighting a fire.
+"<omiigaadaanaawaa>"
+	"miigaadan" VTI Ind Pos Neu 3PlProxSubj 0SgObj
+"<ishkode>"
+	"ishkode" NI Sg
+"<.>"
+
+# sent_id = 180
+# text = Giga-waabamaanaan bimi-aazhawaadagaaziid awiya.
+# eng = We'll see it if something (an animal) crosses the water.
+"<giga-waabamaanaan>"
+	"waabam" PVTense/ga VTA Ind Pos Neu InclSubj 3SgObvObj
+	"waabam" PVTense/ga VTA Ind Pos Neu InclSubj 3SgProxObj
+"<bimi-aazhawaadagaaziid>"
+	"aazhawaadagaazii" PVDir/bimi VAI Cnj Pos Neu 3SgProxSubj
+"<awiya>"
+	"awiya" PRONIndf NA
+"<.>"
+
+# sent_id = 181
+# text = Giishpin andawendaman mako-bimide
+# eng = niiyo-diba'igan gaa-akwegak bagiwaaniigin miinishin.
+"<giishpin>"
+	"giishpin" ADVGram
+"<andawendaman>"
+	"andawendam" VAI Cnj Pos Neu 2SgSubj
+	"andawendan" VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"andawendan" VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<mako-bimide>"
+	"mako-bimide" NI Sg
+
+# sent_id = 182
+# text = Aaniin ezhigaabawid.
+# eng = How does s/he stand?
+"<aaniin>"
+	"aaniin" PCInterj
+	"aaniin" ADVInter
+"<ezhigaabawid>"
+	"izhigaabawi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 183
+# text = Akiwenziiyag ataadiwag.
+# eng = The old men are playing cards.
+"<akiwenziiyag>"
+	"akiwenzii" NA ProxPl
+"<ataadiwag>"
+	"ataadiwag" VAI Ind Pos Neu 3PlProxSubj 3PlProxObj
+"<.>"
+
+# sent_id = 184
+# text = Gibaakwa'an daga iwe ishkwaandem. Daki-ayaamagad agwajiing.
+# eng = Please close the door. It's cold outside.
+"<gibaakwa'an>"
+	"gibaakwa'an" VTI Imp Sim 2SgSubj 0PlObj
+	"gibaakwa'an" VTI Imp Sim 2SgSubj 0SgObj
+"<daga>"
+	"daga" PCDisc
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<ishkwaandem>"
+	"ishkwaandem" NI Sg
+"<.>"
+
+"<daki-ayaamagad>"
+	"ayaa" PVLex/daki VAI Der/magad VII Ind Pos Neu 0SgSubj
+	"daki-ayaa" VII Aug/magad VII Ind Pos Neu 0SgSubj
+	"ayaa" PVLex/daki VII Aug/magad VII Ind Pos Neu 0SgSubj
+"<agwajiing>"
+	"agwajiing" ADVLoc
+"<.>"
+
+# sent_id = 185
+# text = Nising naa ninjiibaakwe noongom.
+# eng = I cooked three times today.
+"<nising>"
+	"nisinoon" VII Cnj Pos Neu 0SgSubj
+	"nisinoon" VII Cnj Pos Neu 0PlSubj
+	"nising" ADVTmp
+"<naa>"
+	"naa" PCEmph
+"<ninjiibaakwe>"
+	"jiibaakwe" VAI Ind Pos Neu 1SgSubj
+"<noongom>"
+	"noongom" ADVTmp
+"<.>"
+
+# sent_id = 186
+# text = Gii-takakamigaabaawe dibikong gii-gimiwang. Ganabaj gii'-mikwaminaaniwan.
+# eng = The rain last night made the ground cold. I think there might have been some hail with it.
+"<gii-takakamigaabaawe>"
+	"dakakamigaabaawe" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<dibikong>"
+	"dibikong" ADVTmp
+"<gii-gimiwang>"
+	"gimiwan" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"gimiwan" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<gii'-mikwaminaaniwan>"
+	"mikwaminaaniwan" PVTense/gii' VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 187
+# text = Nindinawaa nindigoo
+# eng = ninoshenh
+"<nindinawaa>"
+	"inaw" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<nindigoo>"
+	"izhi" VTA Ind Pos Neu XSubj 1SgObj
+
+# sent_id = 188
+# text = Zaaga'iganiing gaa-dazhiging manoomin ginwaakominagad.
+# eng = Rise that grows in a lake is long-grained.
+"<zaaga'iganiing>"
+	"zaaga'igan" NI Loc
+"<gaa-dazhiging>"
+	"dazhigin" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	"dazhigin" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	"dazhigi" PVSub/gaa VAI Cnj Pos Neu XSubj
+	"dazhigin" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+"<manoomin>"
+	"manoomin" NI Sg
+"<ginwaakominagad>"
+	"ginwaakominagad" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 189
+# text = Ogii-nisidomaamaan iniwen waagoshan jiigaya'ii gii-ayaanigwen.
+# eng = He recognized the smell of that fox who must have been nearby.
+"<ogii-nisidomaamaan>"
+	"nisidomaam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"nisidomaam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<iniwen>"
+	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
+"<waagoshan>"
+	"waagosh" NA ObvPl
+	"waagosh" NA ObvSg
+"<jiigaya'ii>"
+	"jiigaya'ii" ADVLoc
+"<gii-ayaanigwen>"
+	"ayaa" PVTense/gii VAI Cnj Pos Dub 3PlObvSubj
+	"ayaa" PVTense/gii VAI Cnj Pos Dub 3SgObvSubj
+	"ayaa" PVTense/gii VII Cnj Pos Dub 0PlObvSubj
+	"ayaa" PVTense/gii VII Cnj Pos Dub 0SgObvSubj
+"<.>"
+
+# sent_id = 190
+# text = Anaamaya'ii gii-inaabi andawaabandang ogiboodiyegwaazon.
+# eng = He looked underneath for his trousers.
+"<anaamaya'ii>"
+	"anaamaya'ii" ADVLoc
+"<gii-inaabi>"
+	"inaabi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<andawaabandang>"
+	"andawaabandan" VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"andawaabandan" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<ogiboodiyegwaazon>"
+	"giboodiyegwaazon" NI Sg 3SgProxPoss
+"<.>"
+
+# sent_id = 191
+# text = Aaniish enaabiigak i'iw biiminakwaan.
+# eng = What's that rope like?
+"<aaniish>"
+	"aaniish" ADVInter
+"<enaabiigak>"
+	"inaabiigad" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<biiminakwaan>"
+	"biiminakwaan" NI Sg
+"<.>"
+
+# sent_id = 192
+# text = Agaawaa go gii-tebise zaasagokwaan.
+# eng = There was barely enough frybread.
+"<agaawaa>"
+	"agaawaa" ADVDeg
+"<go>"
+	"go" PCDisc
+"<gii-tebise>"
+	"debise" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+	"debise" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<zaasagokwaan>"
+	"zaasagokwaan" NA ProxSg
+	"zaasagokwaan" NI Sg
+"<.>"
+
+# sent_id = 193
+# text = Zhooniyaa nindayaawaa nizhooniyaa-mashkimodaang.
+# eng = I have money in my wallet
+"<zhooniyaa>"
+	"zhooniyaa" NA ProxSg
+	"zhooniyaa" NI Sg
+"<nindayaawaa>"
+	"ayaaw" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<nizhooniyaa-mashkimodaang>"
+	"zhooniyaa-mashkimod" NI Loc 1SgPoss
+"<.>"
+
+# sent_id = 194
+# text = Ogii-maajinizha'amowaan 'iw gaa-andodamaagod babiinzikawaagan.
+# eng = She sent the jacket to him that he'd asked her for.
+"<ogii-maajinizha'amowaan>"
+	"maajinizha'amaw" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"maajinizha'amaw" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<gaa-andodamaagod>"
+	"andodamaw" PVSub/gaa VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"andodamaw" PVSub/gaa VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"andodamaw" PVSub/gaa VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	"andodamaw" PVSub/gaa VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+"<babiinzikawaagan>"
+	"babiinzikawaagan" NI Sg
+"<.>"
+
+# sent_id = 195
+# text = Mii 'i gii-kabeshkang iwe naano-diba'igan gaa-inind ji-izhaad.
+# eng = He completed the five-mile course he was told to do.
+"<mii>"
+	"mii" ADVPred
+"<'i>"
+	"'i" PRONDem NI Sg
+"<gii-kabeshkang>"
+	"gabeshkan" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"gabeshkan" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<naano-diba'igan>"
+	"naano-diba'igan" NUM
+"<gaa-inind>"
+	"izhi" PVSub/gaa VTA Cnj Pos Neu XSubj 3SgProxObj
+"<ji-izhaad>"
+	"izhaa" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	"izhaa" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 196
+# text = Daga sa naa. Gego gii-miikinji'iyan.
+# eng = Oh
+"<daga>"
+	"daga" PCDisc
+"<sa>"
+	"sa" PCDisc
+"<naa>"
+	"naa" PCEmph
+"<.>"
+
+"<gego>"
+	"gego" ADVNeg
+"<gii-miikinji'iyan>"
+	"miikinji'" PVTense/gii VTA Cnj Pos Neu 2SgSubj 1SgObj
+"<.>"
+
+# sent_id = 197
+# text = Dabasaasin aanakwad.
+# eng = The clouds are flying low.
+"<dabasaasin>"
+	"dabasaasin" VII Ind Pos Neu 0SgSubj
+"<aanakwad>"
+	"aanakwad" NI Sg
+"<.>"
+
+# sent_id = 198
+# text = Wegodogwen dinowa gaa-miijid
+# eng = minonaagwadini.
+"<wegodogwen>"
+	"wegodogwen" PRONDub NI Sg
+"<dinowa>"
+	"dinowa" PRONSim NI Sg
+	"dinowa" PRONSim NA ProxSg
+"<gaa-miijid>"
+	"miijin" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"miijin" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+
+# sent_id = 199
+# text = Biinjitawag gii-piindoodewan iniwen zagimen.
+# eng = The mosquito crawled in his ear.
+"<biinjitawag>"
+	"biinjitawag" ADVLoc
+"<gii-piindoodewan>"
+	"biindoode" PVTense/gii VAI Ind Pos Neu 3PlObvSubj
+	"biindoode" PVTense/gii VAI Ind Pos Neu 3SgObvSubj
+"<iniwen>"
+	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
+"<zagimen>"
+	"zagime" NA ObvPl
+	"zagime" NA ObvSg
+"<.>"
+
+# sent_id = 200
+# text = Gojip a'awe name.
+# eng = Taste that sturgeon.
+"<gojip>"
+	"gojipwi" VTA Imp Sim 2SgSubj 3SgProxObj
+	"gojip" VTA Imp Sim 2SgSubj 3SgProxObj
+	"gojipwi" VTA Imp Sim 2SgSubj 3PlProxObj
+	"gojip" VTA Imp Sim 2SgSubj 3PlProxObj
+"<a'awe>"
+	"a'awe" PRONDem NA ProxSg
+"<name>"
+	"name" NA ProxSg
+"<.>"
+
+# sent_id = 201
+# text = Apane ninaanaagadawenimaa noozhis waasa gaa-dazhi-gikinoo'amawind. Ganabaj ninga-ganoonaa onaagoshig.
+# eng = I'm thinking about my granddaughter who is going to school far away. Maybe I'll give her a call this evening.
+"<apane>"
+	"apane" ADVTmp
+"<ninaanaagadawenimaa>"
+	"naanaagadawenim" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<noozhis>"
+	"oozhis" NAD ProxSg 1SgPoss
+"<waasa>"
+	"waasa" ADVLoc
+"<gaa-dazhi-gikinoo'amawind>"
+	"gikinoo'amaw" PVSub/gaa PVRel/dazhi VTA Cnj Pos Neu XSubj 3SgProxObj
+"<.>"
+
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<ninga-ganoonaa>"
+	"ganoozh" PVTense/ga VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<onaagoshig>"
+	"onaagoshin" VII Cnj Pos Neu 0SgSubj
+	"onaagoshin" VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 202
+# text = Apabiwin nindaabajitoon onabiyaan wiisiniyaan.
+# eng = I use a chair when I sit down to eat.
+"<apabiwin>"
+	"apabiwin" NI Sg
+"<nindaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<onabiyaan>"
+	"onabi" VAI Cnj Pos Neu 1SgSubj
+"<wiisiniyaan>"
+	"wiisini" VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 203
+# text = Waasa danwewidamoog ma'iinganag.
+# eng = I can hear the wolves in the distance.
+"<waasa>"
+	"waasa" ADVLoc
+"<danwewidamoog>"
+	"danwewidam" VAI Ind Pos Neu 3PlProxSubj
+"<ma'iinganag>"
+	"ma'iingan" NA ProxPl
+"<.>"
+
+# sent_id = 204
+# text = Makadewaakozi 'aw mitig.
+# eng = That tree is black.
+"<makadewaakozi>"
+	"makadewaakozi" VAI Ind Pos Neu 3SgProxSubj
+"<'aw>"
+	"'aw" PRONDem NA ProxSg
+"<mitig>"
+	"mitig" NA ProxSg
+	"mitig" NI Sg
+"<.>"
+
+# sent_id = 205
+# text = Ngii-nibeshkaagon 'iw gaa-minikweyaan miinawaa gaa-miijiyaan.
+# eng = What I drank and ate put me to sleep.
+"<ngii-nibeshkaagon>"
+	"nibeshkaw" PVTense/gii VTA Ind Pos Neu 0SgSubj 1SgObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<gaa-minikweyaan>"
+	"minikwe" PVSub/gaa VAI Cnj Pos Neu 1SgSubj
+	"minikwen" PVSub/gaa VAIO Cnj Pos Neu 1SgSubj 0PlObj
+	"minikwen" PVSub/gaa VAIO Cnj Pos Neu 1SgSubj 0SgObj
+	"minikwen" PVSub/gaa VAIO Cnj Pos Neu 1SgSubj 3SgProxObj
+	"minikwen" PVSub/gaa VAIO Cnj Pos Neu 1SgSubj 3PlProxObj
+	"minikwen" PVSub/gaa VAIO Cnj Pos Neu 1SgSubj
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<gaa-miijiyaan>"
+	"miijin" PVSub/gaa VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"miijin" PVSub/gaa VTI Cnj Pos Neu 1SgSubj 0SgObj
+"<.>"
+
+# sent_id = 206
+# text = Baasan gidazhiganan jibwaa-biizikaman.
+# eng = Dry your socks before you put them on.
+"<baasan>"
+	"baasan" VTI Imp Sim 2SgSubj 0PlObj
+	"baasan" VTI Imp Sim 2SgSubj 0SgObj
+"<gidazhiganan>"
+	"azhigan" NI Pl 2SgPoss
+"<jibwaa-biizikaman>"
+	"biizikan" PVTense/jibwaa VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"biizikan" PVTense/jibwaa VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<.>"
+
+# sent_id = 207
+# text = Anaamoonag iko ningii-tazhi-odaminomin.
+# eng = We used to play under the boat.
+"<anaamoonag>"
+	"anaamoonag" ADVLoc
+"<iko>"
+	"iko" PCAsp
+"<ningii-tazhi-odaminomin>"
+	"odamino" PVTense/gii PVRel/dazhi VAI Ind Pos Neu ExclSubj
+"<.>"
+
+# sent_id = 208
+# text = Anaamibiig ningii-paashkizwaa amik.
+# eng = I shot a beaver under the water.
+"<anaamibiig>"
+	"anaamibiig" ADVLoc
+"<ningii-paashkizwaa>"
+	"baashkizwi" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+	"baashkiz" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<amik>"
+	"amik" NA ProxSg
+"<.>"
+
+# sent_id = 209
+# text = Mashkodeng ingii-pabaa-inaab ziigwanong.
+# eng = I went scouting around on the prairie last spring. [from a song]
+"<mashkodeng>"
+	"mashkode" NI Loc
+"<ingii-pabaa-inaab>"
+	"inaabi" PVTense/gii PVDir/babaa VAI Ind Pos Neu 1SgSubj
+"<ziigwanong>"
+	"ziigwanong" ADVTmp
+"<.>"
+
+# sent_id = 210
+# text = Nindaanis obiizikaanan oshkiinzhigokaanan odaabii'iwed. Gaawiin aapiji waabisiin.
+# eng = My daughter wears glasses when she drives. She doesn't see very well.
+"<nindaanis>"
+	"daanis" NAD ProxSg 1SgPoss
+"<obiizikaanan>"
+	"biizikan" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	"biizikan" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"biizikan" VTI Ind Pos Neu 3SgProxSubj 0PlObj
+"<oshkiinzhigokaanan>"
+	"oshkiinzhigokaanan" NI Pl
+"<odaabii'iwed>"
+	"odaabii'iwe" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<aapiji>"
+	"aapiji" ADVDeg
+"<waabisiin>"
+	"waabi" VAI Ind Neg Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 211
+# text = Debinaak odizhitoon gaa-ozhitood wiigwaasinaagan.
+# eng = She's  making that birch bark basket in a rough way.
+"<debinaak>"
+	"debinaw" VTA Cnj Pos Neu 3SgProxSubj 2SgObj
+	"debinaak" ADVMan
+"<odizhitoon>"
+	"izhitoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<gaa-ozhitood>"
+	"ozhitoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"ozhitoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<wiigwaasinaagan>"
+	"wiigwaasinaagan" NI Sg
+"<.>"
+
+# sent_id = 212
+# text = Gii'-nookijiishkaani gaa-ditibisenig odaabaaning
+# eng = mii iwe gaa-onji-bezikaad.
+"<gii'-nookijiishkaani>"
+	"nookijiishkaa" PVTense/gii' VII Ind Pos Neu 0SgObvSubj
+"<gaa-ditibisenig>"
+	"ditibise" PVSub/gaa VII Cnj Pos Neu 0PlObvSubj
+	"ditibise" PVSub/gaa VII Cnj Pos Neu 0SgObvSubj
+	"ditibise" PVTense/gii VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+"<odaabaaning>"
+	"odaabaan" NA Loc
+	"odaabaan" NI Loc
+
+# sent_id = 213
+# text = NIngo-giizhik gii-o-gibaakwa'waa.
+# eng = He was in jail for a day.
+"<ningo-giizhik>"
+	"giizhik" PNQnt/ningo NA ProxSg
+	"ningo-giizhik" NUM
+"<gii-o-gibaakwa'waa>"
+	"gibaakwa'" PVTense/gii PVDir/o VTA Ind Pos Neu XSubj 3SgProxObj
+"<.>"
+
+# sent_id = 214
+# text = Aandi enaanimizid.
+# eng = Where is s/he running to in flight?
+"<aandi>"
+	"aandi" ADVInter
+"<enaanimizid>"
+	"inaanimizi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 215
+# text = Aaniin epiitanid bezhigwaatig giikanaabate-gookoosh.
+# eng = How much does a slab of bacon weigh?
+"<aaniin>"
+	"aaniin" PCInterj
+	"aaniin" ADVInter
+"<epiitanid>"
+	"apiitani" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<bezhigwaatig>"
+	"bezhigwaatig" NUM
+"<giikanaabate-gookoosh>"
+	"giikanaabate-gookoosh" NA ProxSg
+"<.>"
+
+# sent_id = 216
+# text = Ogii-chekibiinaan obakwezhigaansiman ji-nookaabaawenid.
+# eng = She dunked her cookie to soften it.
+"<ogii-chekibiinaan>"
+	"jekibiin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"jekibiin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"jekibiinan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<obakwezhigaansiman>"
+	"bakwezhigan" NA Dim Poss ObvSg 3SgProxPoss
+	"bakwezhigan" NA Dim Poss ObvPl 3SgProxPoss
+	"bakwezhigaans" NA Poss ObvSg 3SgProxPoss
+	"bakwezhigaans" NA Poss ObvPl 3SgProxPoss
+"<ji-nookaabaawenid>"
+	"nookaabaawe" PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	"nookaabaawe" PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	"nookaabaawe" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	"nookaabaawe" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+"<.>"
+
+# sent_id = 217
+# text = Noopimiing ninoondawaa madwewe'od bine.
+# eng = I hear a partridge in the bush drumming.
+"<noopimiing>"
+	"noopimiing" ADVLoc
+"<ninoondawaa>"
+	"noondaw" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<madwewe'od>"
+	"madwewe'o" VAI Cnj Pos Neu 3SgProxSubj
+"<bine>"
+	"bine" NA ProxSg
+"<.>"
+
+# sent_id = 218
+# text = Naazibiiwidoon waasigani-bimide-atoobaanan.
+# eng = Take the gas tanks down to the lake.
+"<naazibiiwidoon>"
+	"naazibiiwidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"naazibiiwidoon" VTI Imp Sim 2SgSubj 0SgObj
+"<waasigani-bimide-atoobaanan>"
+	"waasigani-bimide-atoobaan" NI Pl
+"<.>"
+
+# sent_id = 219
+# text = Mii igo endaso-mamaajiid ezhi-baashkimaagozid.
+# eng = Every time he moved he let off a stink.
+"<mii>"
+	"mii" ADVPred
+"<igo>"
+	"igo" PCEmph
+"<endaso-mamaajiid>"
+	"mamaajii" PVRel/daso VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<ezhi-baashkimaagozid>"
+	"baashkimaagozi" PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 220
+# text = Giishpin asekaadaman bashkwegin
+# eng = biinish da-ani-nookiigad.
+"<giishpin>"
+	"giishpin" ADVGram
+"<asekaadaman>"
+	"asekaadan" VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"asekaadan" VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<bashkwegin>"
+	"bashkwegin" NI Sg
+
+# sent_id = 221
+# text = Wiinaagamin nibi zaaga'iganiing. Gego minikweken.
+# eng = The water in the lake is polluted. Don't drink it.
+"<wiinaagamin>"
+	"wiinaagamin" VII Ind Pos Neu 0SgSubj
+"<nibi>"
+	"nibi" NI Sg
+"<zaaga'iganiing>"
+	"zaaga'igan" NI Loc
+"<.>"
+
+"<gego>"
+	"gego" ADVNeg
+"<minikweken>"
+	"minikwe" VAI Imp Prb 2SgSubj
+	"minikwen" VAIO Imp Prb 2SgSubj 0PlObj
+	"minikwen" VAIO Imp Prb 2SgSubj 0SgObj
+"<.>"
+
+# sent_id = 222
+# text = Moozhwaagan gidaabajitoon wii-kwayakozhaman gegoo.
+# eng = You use scissors  to cut something straight.
+"<moozhwaagan>"
+	"moozhwaagan" NI Sg
+"<gidaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 2SgSubj 0SgObj
+"<wii-kwayakozhaman>"
+	"gwayakozhan" PVTense/wii VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"gwayakozhan" PVTense/wii VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<gegoo>"
+	"gegoo" PRONIndf NI
+"<.>"
+
+# sent_id = 223
+# text = Ominwanjige'aan odayan. Odashamaan gaazhagensiwi-wiisininiwin.
+# eng = She feeds her pet well. She feeds it cat food.
+"<ominwanjige'aan>"
+	"minwanjige'" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"minwanjige'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<odayan>"
+	"day" NAD ObvPl 3SgProxPoss
+	"day" NAD ObvSg 3SgProxPoss
+	"ayaan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+
+"<odashamaan>"
+	"asham" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"asham" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<gaazhagensiwi-wiisininiwin>"
+	"gaazhagensiwi-wiisininiwin" NI Sg
+"<.>"
+
+# sent_id = 224
+# text = Ganabaj ogii-aanikoogwaadaan i'iw waabishkiigin.
+# eng = I think she sewed a piece onto the sheet.
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<ogii-aanikoogwaadaan>"
+	"aanikoogwaadan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<waabishkiigin>"
+	"waabishkiigin" NI Sg
+"<.>"
+
+# sent_id = 225
+# text = Ogii'-mikawaan odoodaabaanan gaa-gii-kimoodimind.
+# eng = He found the car the was stolen from him.
+"<ogii'-mikawaan>"
+	"mikaw" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"mikaw" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<odoodaabaanan>"
+	"odaabaan" NI Pl 3SgProxPoss
+	"odaabaan" NA ObvPl 3SgProxPoss
+	"odaabaan" NA ObvSg 3SgProxPoss
+"<gaa-gii-kimoodimind>"
+	"gimoodim" PVSub/gaa PVTense/gii VTA Cnj Pos Neu XSubj 3SgProxObj
+"<.>"
+
+# sent_id = 226
+# text = Ingii-andomaag igiw abinoojiinyag  ji-bi-odaminowaad.
+# eng = I called the children to come and play.
+"<ingii-andomaag>"
+	"nandom" PVTense/gii VTA Ind Pos Neu 1SgSubj 3PlProxObj
+"<igiw>"
+	"igiw" PRONDem NA ProxPl
+"<abinoojiinyag>"
+	"abinoojiinh" NA ProxPl
+"<ji-bi-odaminowaad>"
+	"odamino" PVTense/daa PVDir/bi VAI Cnj Pos Neu 3PlProxSubj
+	"odamino" PVTense/ga PVDir/bi VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+
+# sent_id = 227
+# text = Aabitoobazh nindoodaabaan.
+# eng = Fill up my car halfway.
+"<aabitoobazh>"
+	"aabitoobazh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"aabitoobazh" VTA Imp Sim 2SgSubj 3PlProxObj
+"<nindoodaabaan>"
+	"odaabaan" NA ProxSg 1SgPoss
+	"odaabaan" NI Sg 1SgPoss
+"<.>"
+
+# sent_id = 228
+# text = Mii 'iw aangwaamas gii-odisidiwaad igiweg niizhoodenyag.
+# eng = The twins finally met [they haven't seen each other for a long time].
+"<mii>"
+	"mii" ADVPred
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<aangwaamas>"
+	"aangwaamas" ADVTmp
+"<gii-odisidiwaad>"
+	"odish" PVTense/gii VTA Recip/di VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
+	"odisidiwag" PVTense/gii VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
+"<igiweg>"
+	"igiweg" PRONDem NA ProxPl
+"<niizhoodenyag>"
+	"niizhoodenh" NA ProxPl
+"<.>"
+
+# sent_id = 229
+# text = Naawiskatig ningii-ininawaa amik.
+# eng = I shot the beaver in the middle of his forehead.
+"<naawiskatig>"
+	"naawiskatig" ADVLoc
+"<ningii-ininawaa>"
+	"ininaw" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<amik>"
+	"amik" NA ProxSg
+"<.>"
+
+# sent_id = 230
+# text = Wii-pimibatoo wii-ishpabid imaa zagaswe'idiiwining.
+# eng = He wants to run for chairmanship in the tribal council.
+"<wii-pimibatoo>"
+	"bimibatoo" PVTense/wii VAI Ind Pos Neu 3SgProxSubj
+"<wii-ishpabid>"
+	"ishpabi" PVTense/wii VAI Cnj Pos Neu 3SgProxSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<zagaswe'idiiwining>"
+	"zagaswe'idiiwin" NI Loc
+"<.>"
+
+# sent_id = 231
+# text = Baamaapii giga-wiindamawin.
+# eng = I'll tell you about it later.
+"<baamaapii>"
+	"baamaapii" ADVTmp
+"<giga-wiindamawin>"
+	"wiindamaw" PVTense/ga VTA Ind Pos Neu 1SgSubj 2SgObj
+"<.>"
+
+# sent_id = 232
+# text = Giishpin apane miikindizid da-moo'aa wiiba.
+# eng = If he keeps teasing like that
+"<giishpin>"
+	"giishpin" ADVGram
+"<apane>"
+	"apane" ADVTmp
+"<miikindizid>"
+	"miikindizi" VAI Cnj Pos Neu 3SgProxSubj
+"<da-moo'aa>"
+	"moo'" PVTense/ga VTA Ind Pos Neu XSubj 3SgProxObj
+"<wiiba>"
+	"wiiba" ADVTmp
+"<.>"
+
+# sent_id = 233
+# text = Gego beshwaji'aaken awe makwa; onzaam naniizaanizi.
+# eng = Don't get friendly with the bear. He's too dangerous.
+"<gego>"
+	"gego" ADVNeg
+"<beshwaji'aaken>"
+	"beshwaji'" VTA Imp Prb 2SgSubj 3PlProxObj
+	"beshwaji'" VTA Imp Prb 2SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<makwa>"
+	"makwa" NA ProxSg
+"<;>"
+
+"<onzaam>"
+	"onzaam" ADVQnt
+"<naniizaanizi>"
+	"naniizaanizi" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 234
+# text = Gigii-gashkaabika'aan ina iwe odaabaan.
+# eng = Did  you lock the car?
+"<gigii-gashkaabika'aan>"
+	"gashkaabika'an" PVTense/gii VTI Ind Pos Neu 2SgSubj 0SgObj
+"<ina>"
+	"ina" PCDisc
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<odaabaan>"
+	"odaabaan" NA ProxSg
+	"odaabaan" NI Sg
+"<.>"
+
+# sent_id = 235
+# text = Ganabaj inga-madoodoo awaswaabang.
+# eng = I think I'll sweat [take a sweatbath] the day after tomorrow.
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<inga-madoodoo>"
+	"madoodoo" PVTense/ga VAI Ind Pos Neu 1SgSubj
+"<awaswaabang>"
+	"awaswaabang" ADVTmp
+"<.>"
+
+# sent_id = 236
+# text = Naagaj ina gidaa-bi-izhaa. Akawe niwii-manise.
+# eng = Can you come later? I'm going to cut some wood first.
+"<naagaj>"
+	"naagaj" ADVQnt
+"<ina>"
+	"ina" PCDisc
+"<gidaa-bi-izhaa>"
+	"bi-izhaa" PVTense/daa VAI Ind Pos Neu 2SgSubj
+	"izhaa" PVTense/daa PVDir/bi VAI Ind Pos Neu 2SgSubj
+"<.>"
+
+"<akawe>"
+	"akawe" ADVTmp
+"<niwii-manise>"
+	"manise" PVTense/wii VAI Ind Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 237
+# text = Jiigi-ziibi dananjige amik.
+# eng = A beaver eats by the river.
+"<jiigi-ziibi>"
+	"ziibi" PNLex/jiigi NI Sg
+	"jiigi-ziibi" ADVLoc
+"<dananjige>"
+	"dananjige" VAI Ind Pos Neu 3SgProxSubj
+"<amik>"
+	"amik" NA ProxSg
+"<.>"
+
+# sent_id = 238
+# text = Wegonenan iniwedi gaa-ategin.
+# eng = What are those sitting over there?
+"<wegonenan>"
+	"wegonenan" PRONInter NI Pl
+"<iniwedi>"
+	"iniwedi" PRONDem NI Pl
+	"iniwedi" PRONDem NA ObvSg
+	"iniwedi" PRONDem NA ObvPl
+"<gaa-ategin>"
+	"ate" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	"ate" PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead
+"<.>"
+
+# sent_id = 239
+# text = Mitaabik dazhwegisidoon ji-baateg.
+# eng = Spread it there on the rock to dry.
+"<mitaabik>"
+	"mitaabik" ADVLoc
+"<dazhwegisidoon>"
+	"dazhwegisidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"dazhwegisidoon" VTI Imp Sim 2SgSubj 0SgObj
+"<ji-baateg>"
+	"baate" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	"baate" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	"baate" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"baate" PVTense/ga VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 240
+# text = Wiigob gigashkigwaajigaagen biskitenaaganikeyan.
+# eng = You sew with basswood bark to make birch bark baskets.
+"<wiigob>"
+	"wiigob" NA ProxSg
+	"wiigob" NI Sg
+"<gigashkigwaajigaagen>"
+	"gashkigwaajigaagen" VAIO Ind Pos Neu 2SgSubj 0SgObj
+"<biskitenaaganikeyan>"
+	"biskitenaaganike" VAI Cnj Pos Neu 2SgSubj
+"<.>"
+
+# sent_id = 241
+# text = Nimaamaa gii-ombigamizige gii-ozhitood ziinzibaakwad igaye gii-ozhi'aad iniwen ziiga'igaansan.
+# eng = My mother sugared off when she made sugar and made sugar cakes.
+"<nimaamaa>"
+	"maamaay" NAD ProxSg 1SgPoss
+	"maamaa" NAD ProxSg 1SgPoss
+"<gii-ombigamizige>"
+	"ombigamizige" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<gii-ozhitood>"
+	"ozhitoon" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"ozhitoon" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<ziinzibaakwad>"
+	"ziinzibaakwad" NI Sg
+"<igaye>"
+	"igaye" ADVConj
+"<gii-ozhi'aad>"
+	"ozhi'" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"ozhi'" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+"<iniwen>"
+	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
+"<ziiga'igaansan>"
+	"ziiga'igan" NI Dim Pl
+"<.>"
+
+# sent_id = 242
+# text = Nibwaanawitoon wii-biskibidooyaan 'iw biiwaabik; onzaam mashkawaabikad.
+# eng = I can't bend that metal because it's too strong.
+"<nibwaanawitoon>"
+	"bwaanawitoon" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<wii-biskibidooyaan>"
+	"biskibidoon" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"biskibidoon" PVTense/wii VTI Cnj Pos Neu 1SgSubj 0SgObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<biiwaabik>"
+	"biiwaabik" NI Sg
+"<;>"
+
+"<onzaam>"
+	"onzaam" ADVQnt
+"<mashkawaabikad>"
+	"mashkawaabikad" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 243
+# text = Niibiwa ogashkoomaa' we'we'.
+# eng = He is able to carry a lot of snow geese on his back.
+"<niibiwa>"
+	"niibiwa" ADVQnt
+"<ogashkoomaa'>"
+	"gashkoom" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<we'we'>"
+	"we'we" NA ObvPl
+"<.>"
+
+# sent_id = 244
+# text = Ogijidaabaan izhi-bimiwidoon gijiimaan.
+# eng = Carry your canoe on top of your car.
+"<ogijidaabaan>"
+	"ogijidaabaan" ADVLoc
+"<izhi-bimiwidoon>"
+	"bimiwidoon" PVRel/izhi VTI Imp Sim 2SgSubj 0PlObj
+	"bimiwidoon" PVRel/izhi VTI Imp Sim 2SgSubj 0SgObj
+"<gijiimaan>"
+	"jiimaan" NI Sg 2SgPoss
+"<.>"
+
+# sent_id = 245
+# text = Maagizhaa maawiin giga-andawataagemin onaagoshig.
+# eng = Perhaps we'll go play at the casino  this evening.
+"<maagizhaa>"
+	"maagizhaa" ADVMan
+"<maawiin>"
+	"maawiin" ADVMan
+"<giga-andawataagemin>"
+	"andawataage" PVTense/ga VAI Ind Pos Neu InclSubj
+"<onaagoshig>"
+	"onaagoshin" VII Cnj Pos Neu 0SgSubj
+	"onaagoshin" VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 246
+# text = Ogii'-wiiji'aawaan gii-agwaasidoonid miijim odadaawewinan.
+# eng = They helped him unload his groceries he bought.
+"<ogii'-wiiji'aawaan>"
+	"wiiji'" PVTense/gii' VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	"wiiji'" PVTense/gii' VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+"<gii-agwaasidoonid>"
+	"agwaasidoon" PVTense/gii VTI Cnj Pos Neu 3PlObvSubj 0PlObj
+	"agwaasidoon" PVTense/gii VTI Cnj Pos Neu 3SgObvSubj 0PlObj
+	"agwaasidoon" PVTense/gii VTI Cnj Pos Neu 3PlObvSubj 0SgObj
+	"agwaasidoon" PVTense/gii VTI Cnj Pos Neu 3SgObvSubj 0SgObj
+"<miijim>"
+	"miijim" NI Sg
+"<odadaawewinan>"
+	"adaawewin" NI Pl 3SgProxPoss
+"<.>"
+
+# sent_id = 247
+# text = Gaag obishagaakwamaa' mitigoo'.
+# eng = A porcupine eats bark off trees.
+"<gaag>"
+	"gaag" NA ProxSg
+"<obishagaakwamaa'>"
+	"bishagaakwam" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<mitigoo'>"
+	"mitig" NA ObvPl
+"<.>"
+
+# sent_id = 248
+# text = Memeshkwad giziibiiginaaganewag nindaanisag.
+# eng = My daughters take turns washing dishes.
+"<memeshkwad>"
+	"memeshkwad" ADVMan
+"<giziibiiginaaganewag>"
+	"giziibiiginaagane" VAI Ind Pos Neu 3PlProxSubj
+"<nindaanisag>"
+	"daanis" NAD ProxPl 1SgPoss
+"<.>"
+
+# sent_id = 249
+# text = Ginagazitawaag igiw opichiwag noondaagoziwaad.
+# eng = Are are familair with the call of the robins?
+"<ginagazitawaag>"
+	"nagazitaw" VTA Ind Pos Neu 2SgSubj 3PlProxObj
+"<igiw>"
+	"igiw" PRONDem NA ProxPl
+"<opichiwag>"
+	"opichi" NA ProxPl
+"<noondaagoziwaad>"
+	"noondaagozi" VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+
+# sent_id = 250
+# text = Mii gii-kiizhiitaayaan ozisinaaganeyaan.
+# eng = I'm done setting the table.
+"<mii>"
+	"mii" ADVPred
+"<gii-kiizhiitaayaan>"
+	"giizhiitaa" PVTense/gii VAI Cnj Pos Neu 1SgSubj
+"<ozisinaaganeyaan>"
+	"ozisinaagane" VAI Cnj Pos Neu 1SgSubj
+"<.>"
+
+# sent_id = 251
+# text = Gii-bi-agaashiinyiyaan apane ningii'-anishinaabem. Geyaabi go noongom.
+# eng = From when I was young I spoke Anishinaabemowin and still do today.
+"<gii-bi-agaashiinyiyaan>"
+	"agaashiinyi" PVTense/gii PVDir/bi VAI Cnj Pos Neu 1SgSubj
+"<apane>"
+	"apane" ADVTmp
+"<ningii'-anishinaabem>"
+	"anishinaabemo" PVTense/gii' VAI Ind Pos Neu 1SgSubj
+"<.>"
+
+"<geyaabi>"
+	"geyaabi" ADVTmp
+"<go>"
+	"go" PCDisc
+"<noongom>"
+	"noongom" ADVTmp
+"<.>"
+
+# sent_id = 252
+# text = Miinidim ganabaj ini ataasowinan gaa-piijigaadegin.
+# eng = They are giving away the dressers that they brought.
+"<miinidim>"
+	"miizh" VTA Recip/di VAI Ind Pos Neu XSubj XObj
+	"miinidiwag" VAI Ind Pos Neu XSubj XObj
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<ini>"
+	"ini" PRONDem NI Pl
+	"ini" PRONDem NA ObvSg
+	"ini" PRONDem NA ObvPl
+"<ataasowinan>"
+	"ataasowin" NI Pl
+"<gaa-piijigaadegin>"
+	"biijigaade" PVTense/gii VII Pcp Pos Neu 0PlSubj 0PlHead
+"<.>"
+
+# sent_id = 253
+# text = Wawiinge gichi-bagakaatese iwe waasigan.
+# eng = That lightning flash was really bright.
+"<wawiinge>"
+	"wawiinge" ADVMan
+"<gichi-bagakaatese>"
+	"bagakaatese" PVLex/gichi VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<waasigan>"
+	"waasigan" NI Sg
+"<.>"
+
+# sent_id = 254
+# text = Nizhiiwitaagana'aan 'iw wiiyaas.
+# eng = I'm salting the meat.
+"<nizhiiwitaagana'aan>"
+	"zhiiwitaagana'an" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<wiiyaas>"
+	"wiiyaas" NI Sg
+	"iiyaas" NID Sg 3SgProxPoss
+"<.>"
+
+# sent_id = 255
+# text = Ganabaj ingii-maanadaawe gii-ayaamaan ini makizinan. Bezhig michaamagad.
+# eng = I think I made a bad purchase when I got those shoes. One of them is bigger.
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<ingii-maanadaawe>"
+	"maanadaawe" PVTense/gii VAI Ind Pos Neu 1SgSubj
+"<gii-ayaamaan>"
+	"ayaan" PVTense/gii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"ayaan" PVTense/gii VTI Cnj Pos Neu 1SgSubj 0SgObj
+"<ini>"
+	"ini" PRONDem NI Pl
+	"ini" PRONDem NA ObvSg
+	"ini" PRONDem NA ObvPl
+"<makizinan>"
+	"makizin" NI Pl
+"<.>"
+
+"<bezhig>"
+	"bezhig" NUM
+"<michaamagad>"
+	"michaa" VII Aug/magad VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 256
+# text = Ominwaabandaan 'i gibide'ebizon.
+# eng = He likes the look of that vest.
+"<ominwaabandaan>"
+	"minwaabandan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<gibide'ebizon>"
+	"gibide'ebizon" NI Sg
+"<.>"
+
+# sent_id = 257
+# text = Jiigi-aasamisag ate nibewin.
+# eng = There's a bed next to the wall.
+"<jiigi-aasamisag>"
+	"aasamisag" PNLex/jiigi NI Sg
+	"jiigi-aasamisag" ADVLoc
+"<ate>"
+	"ate" VII Ind Pos Neu 0SgSubj
+"<nibewin>"
+	"nibewin" NI Sg
+"<.>"
+
+# sent_id = 258
+# text = Dibi iidog. Ingoji go atedog.
+# eng = I don't know where it is. It must be here somewhere.
+"<dibi>"
+	"dibi" ADVDub
+"<iidog>"
+	"iidog" PCAsp
+"<.>"
+
+"<ingoji>"
+	"ingoji" ADVDeg
+"<go>"
+	"go" PCDisc
+"<atedog>"
+	"ate" VII Ind Pos Dub 0SgSubj
+"<.>"
+
+# sent_id = 259
+# text = Geyaabi oshkiinaagwad gidoodaabaan.
+# eng = Your car still looks new.
+"<geyaabi>"
+	"geyaabi" ADVTmp
+"<oshkiinaagwad>"
+	"oshkiinaagwad" VII Ind Pos Neu 0SgSubj
+"<gidoodaabaan>"
+	"odaabaan" NI Sg 2SgPoss
+	"odaabaan" NA ProxSg 2SgPoss
+"<.>"
+
+# sent_id = 260
+# text = Minwegad iwe babagiwayaaniigin miinawaa minwaandemagad.
+# eng = That material is a good quality and it's also colored just right.
+"<minwegad>"
+	"minwegad" VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<babagiwayaaniigin>"
+	"babagiwayaaniigin" NI Sg
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<minwaandemagad>"
+	"minwaande" VII Aug/magad VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 261
+# text = Eshkam igo ani-mino-ayaa.
+# eng = She's getting better.
+"<eshkam>"
+	"eshkam" ADVDeg
+"<igo>"
+	"igo" PCEmph
+"<ani-mino-ayaa>"
+	"mino-ayaa" PVDir/ani VAI Ind Pos Neu 3SgProxSubj
+	"ayaa" PVDir/ani PVLex/mino VAI Ind Pos Neu 3SgProxSubj
+	"ayaa" PVDir/ani PVLex/mino VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 262
+# text = Madweyaakide iwe gichi-mashkosiw zekideg.
+# eng = You can hear the hay field crackling as it burns.
+"<madweyaakide>"
+	"madweyaakide" VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<gichi-mashkosiw>"
+	"mashkosiw" PNLex/gichi NI Sg
+	"mashkosiw" PNLex/chi NI Sg 2SgPoss
+"<zekideg>"
+	"zakide" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+
+# sent_id = 263
+# text = Anaamisag dazhewag waawaabiganoojiinyag.
+# eng = Mice nest under the floor.
+"<anaamisag>"
+	"anaamisag" ADVLoc
+"<dazhewag>"
+	"dazhe" VAI Ind Pos Neu 3PlProxSubj
+"<waawaabiganoojiinyag>"
+	"waawaabiganoojiinh" NA ProxPl
+"<.>"
+
+# sent_id = 264
+# text = Dagwaagong ningii-manisemin wii-aabajitooyaang biboong.
+# eng = Last fall we cut fire wood for us to use in the winter.
+"<dagwaagong>"
+	"dagwaagong" ADVTmp
+"<ningii-manisemin>"
+	"manise" PVTense/gii VAI Ind Pos Neu ExclSubj
+"<wii-aabajitooyaang>"
+	"aabajitoon" PVTense/wii VTI Cnj Pos Neu ExclSubj 0PlObj
+	"aabajitoon" PVTense/wii VTI Cnj Pos Neu ExclSubj 0SgObj
+"<biboong>"
+	"biboon" VII Cnj Pos Neu 0SgSubj
+	"biboon" VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 265
+# text = Awasajiw daa.
+# eng = She lives over the hill
+"<awasajiw>"
+	"awasajiw" ADVLoc
+"<daa>"
+	"daa" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 266
+# text = Andawaabandan i'iw gichi-gwaaba'igan.
+# eng = Look for the Big Dipper.
+"<andawaabandan>"
+	"andawaabandan" VTI Imp Sim 2SgSubj 0PlObj
+	"andawaabandan" VTI Imp Sim 2SgSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<gichi-gwaaba'igan>"
+	"gwaaba'igan" PNLex/gichi NI Sg
+	"gwaaba'igan" PNLex/chi NI Sg 2SgPoss
+"<.>"
+
+# sent_id = 267
+# text = Giishpin mindimoowenyag ombwendiwaad da-biidaajimowag.
+# eng = If those two old ladies get each other excited about the story
+"<giishpin>"
+	"giishpin" ADVGram
+"<mindimoowenyag>"
+	"mindimoowenh" NA ProxPl
+"<ombwendiwaad>"
+	"ombwendiwag" VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
+"<da-biidaajimowag>"
+	"biidaajimo" PVTense/ga VAI Ind Pos Neu 3PlProxSubj
+"<.>"
+
+# sent_id = 268
+# text = Gaawiin gosha gii-tagoshinziin.
+# eng = He didn't arrive yet.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<gosha>"
+	"gosha" PCEmph
+"<gii-tagoshinziin>"
+	"dagoshin" PVTense/gii VAI Ind Neg Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 269
+# text = Mii imaa bemi-izhising oodena jiigi-zaaga'igan.
+# eng = The town is by the lake.
+"<mii>"
+	"mii" ADVPred
+"<imaa>"
+	"imaa" ADVLoc
+"<bemi-izhising>"
+	"izhisin" PVDir/bimi VII Pcp Pos Neu 0SgSubj 0SgHead
+"<oodena>"
+	"oodena" NI Sg
+"<jiigi-zaaga'igan>"
+	"zaaga'igan" PNLex/jiigi NI Sg
+	"jiigi-zaaga'igan" ADVLoc
+"<.>"
+
+# sent_id = 270
+# text = Nookomis madwe-biibaagi agaaming.
+# eng = You can hear my grandmother calling across the lake.
+"<nookomis>"
+	"ookomis" NAD ProxSg 1SgPoss
+"<madwe-biibaagi>"
+	"biibaagi" PVLex/madwe VAI Ind Pos Neu 3SgProxSubj
+"<agaaming>"
+	"agaaming" ADVLoc
+"<.>"
+
+# sent_id = 271
+# text = Aabitoobii 'i mazhoominaaboo imaa omoodayaabikong.
+# eng = That bottle is half full with wine.
+"<aabitoobii>"
+	"aabitoobii" VAI Ind Pos Neu 3SgProxSubj
+	"aabitoobii" VII Ind Pos Neu 0SgSubj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<mazhoominaaboo>"
+	"mazhoominaaboo" NI Sg
+"<imaa>"
+	"imaa" ADVLoc
+"<omoodayaabikong>"
+	"omoodayaabik" NI Loc
+"<.>"
+
+# sent_id = 272
+# text = Geyaabi na bagidanaamo mooz gaa-gii-paashkizwad.
+# eng = Is the moose you shot still breathing?
+"<geyaabi>"
+	"geyaabi" ADVTmp
+"<na>"
+	"na" PCDisc
+"<bagidanaamo>"
+	"bagidanaamo" VAI Ind Pos Neu 3SgProxSubj
+"<mooz>"
+	"moonz" NA ProxSg
+	"mooz" NA ProxSg
+"<gaa-gii-paashkizwad>"
+	"baashkizwi" PVSub/gaa PVTense/gii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"baashkiz" PVSub/gaa PVTense/gii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<.>"
+
+# sent_id = 273
+# text = Giwii-wiijiiwin
+# eng = I want to go with you.
+"<giwii-wiijiiwin>"
+	"wiijiiw" PVTense/wii VTA Ind Pos Neu 1SgSubj 2SgObj
+
+# sent_id = 274
+# text = Gii-paashkikaamagadini imaa gii-miniiwizided.
+# eng = The blister on his foot ruptured.
+"<gii-paashkikaamagadini>"
+	"baashkikaa" PVTense/gii VAI Der/magad VII Ind Pos Neu 0SgObvSubj
+	"baashkikaa" PVTense/gii VII Aug/magad VII Ind Pos Neu 0SgObvSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<gii-miniiwizided>"
+	"miniiwizide" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+
+# sent_id = 275
+# text = Biizikan ginamekwaanakizinan. Nibiiwashkosiwagaa agwajiing.
+# eng = Put on your rubber boots. The grass outside is wet.
+"<biizikan>"
+	"biizikan" VTI Imp Sim 2SgSubj 0PlObj
+	"biizikan" VTI Imp Sim 2SgSubj 0SgObj
+"<ginamekwaanakizinan>"
+	"namekwaanakizin" NI Pl 2SgPoss
+"<.>"
+
+"<nibiiwashkosiwagaa>"
+	"nibiiwashkosiwagaa" VII Ind Pos Neu 0SgSubj
+"<agwajiing>"
+	"agwajiing" ADVLoc
+"<.>"
+
+# sent_id = 276
+# text = Ishpimiing niizh gizhibaayaashiwag migiziwag.
+# eng = There's two eagles circling up in the sky.
+"<ishpimiing>"
+	"ishpimiing" ADVLoc
+"<niizh>"
+	"niizh" NUM
+"<gizhibaayaashiwag>"
+	"gizhibaayaashi" VAI Ind Pos Neu 3PlProxSubj
+"<migiziwag>"
+	"migizi" NA ProxPl
+"<.>"
+
+# sent_id = 277
+# text = Aandi awe diba'igiiziswaan. Omaa ningii-asaaban.
+# eng = Where is the clock? I put it here.
+"<aandi>"
+	"aandi" ADVInter
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<diba'igiiziswaan>"
+	"diba'igiiziswaan" NA ProxSg
+"<.>"
+
+"<omaa>"
+	"omaa" ADVLoc
+"<ningii-asaaban>"
+	"ashi" PVTense/gii VTA Ind Pos Prt 1SgSubj 3SgProxObj
+"<.>"
+
+# sent_id = 278
+# text = Aabiskobizh aagimag wii'-aandashkimaanadwaa.
+# eng = Unravel your snowshoes so you can put new lacing on them.
+"<aabiskobizh>"
+	"aabiskobizh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"aabiskobizh" VTA Imp Sim 2SgSubj 3PlProxObj
+"<aagimag>"
+	"aagim" NA ProxPl
+"<wii'-aandashkimaanadwaa>"
+	"aandashkimaazh" PVTense/wii' VTA Cnj Pos Neu 2SgSubj 3PlProxObj
+"<.>"
+
+# sent_id = 279
+# text = Aandi epatood.
+# eng = Where is she running to?
+"<aandi>"
+	"aandi" ADVInter
+"<epatood>"
+	"apatoo" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 280
+# text = Ningoshko'ig a'aw gaa-saagewed nimishoomis.
+# eng = My grandfather surprised me when he came around the corner.
+"<ningoshko'ig>"
+	"goshko'" VTA Ind Pos Neu 3SgProxSubj 1SgObj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<gaa-saagewed>"
+	"zaagewe" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<nimishoomis>"
+	"mishoomis" NAD ProxSg 1SgPoss
+"<.>"
+
+# sent_id = 281
+# text = Apane gaye ogikinoo'amawaan oozhisan.
+# eng = He teaches his grandchild all the time.
+"<apane>"
+	"apane" ADVTmp
+"<gaye>"
+	"gaye" ADVConj
+"<ogikinoo'amawaan>"
+	"gikinoo'amaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"gikinoo'amaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<oozhisan>"
+	"oozhis" NAD ObvPl 3SgProxPoss
+	"oozhis" NAD ObvSg 3SgProxPoss
+"<.>"
+
+# sent_id = 282
+# text = Mii go ingoji niiyo-diba'iganeg ashi-aabita bi-waaseyaag.
+# eng = About four-thirty in the morning it starts to get light.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<ingoji>"
+	"ingoji" ADVDeg
+"<niiyo-diba'iganeg>"
+	"diba'igane" PVQnt/niiyo VII Cnj Pos Neu 0SgSubj
+	"niiyo-diba'igane" VII Cnj Pos Neu 0SgSubj
+	"diba'igane" PVQnt/niiyo VII Cnj Pos Neu 0PlSubj
+	"niiyo-diba'igane" VII Cnj Pos Neu 0PlSubj
+"<ashi-aabita>"
+	"ashi-aabita" NUM
+"<bi-waaseyaag>"
+	"waaseyaa" PVDir/bi VII Cnj Pos Neu 0SgSubj
+	"waaseyaa" PVDir/bi VII Cnj Pos Neu 0PlSubj
+"<.>"
+
+# sent_id = 283
+# text = Wawiinge go.
+# eng = You're absolutely right. [signalling complete ageement]
+"<wawiinge>"
+	"wawiinge" ADVMan
+"<go>"
+	"go" PCDisc
+"<.>"
+
+# sent_id = 284
+# text = Ogii-nibiikaadaan i'iwe noomazhaan wenji-jiikaakiziged.
+# eng = He laced that linament [watering it to make it drinkable] so that's why he's half-shot.
+"<ogii-nibiikaadaan>"
+	"nibiikaadan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iwe>"
+	"i'iwe" PRONDem NI Sg
+"<noomazhaan>"
+	"noomazhaan" NI Sg
+"<wenji-jiikaakiziged>"
+	"jiikaakizige" PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+
+# sent_id = 285
+# text = Ningii'-nanawiz gii-naadagweyan. Gaawiin awiya ningii'-nagwaanaasii. Gaawiin gegoo ningii'-nagwaadanziin.
+# eng = I was skunked checking my snares. I didn't snare anybody. I didn't snare anything.
+"<ningii'-nanawiz>"
+	"nanawizi" PVTense/gii' VAI Ind Pos Neu 1SgSubj
+"<gii-naadagweyan>"
+	"naadagwe" PVTense/gii VAI Cnj Pos Neu 2SgSubj
+"<.>"
+
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<awiya>"
+	"awiya" PRONIndf NA
+"<ningii'-nagwaanaasii>"
+	"nagwaazh" PVTense/gii' VTA Ind Neg Neu 1SgSubj 3SgProxObj
+"<.>"
+
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<gegoo>"
+	"gegoo" PRONIndf NI
+"<ningii'-nagwaadanziin>"
+	"nagwaadan" PVTense/gii' VTI Ind Neg Neu 1SgSubj 0SgObj
+"<.>"
+
+# sent_id = 286
+# text = Zhebaa nitam gii'-oda'amii nindaanisens.
+# eng = My little daughter took her first step this morning
+"<zhebaa>"
+	"zhebaa" ADVTmp
+"<nitam>"
+	"nitam" ADVLoc
+"<gii'-oda'amii>"
+	"oda'amii" PVTense/gii' VAI Ind Pos Neu 3SgProxSubj
+"<nindaanisens>"
+	"daanis" NAD Dim ProxSg 1SgPoss
+"<.>"
+
+# sent_id = 287
+# text = O'owe inagakeyaa odinagoonaan.
+# eng = He's hanging it (e.g.
+"<o'owe>"
+	"o'owe" PRONDem NI Sg
+"<inagakeyaa>"
+	"inagakeyaa" ADVDeg
+"<odinagoonaan>"
+	"inagoozh" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"inagoozh" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<.>"
+
+# sent_id = 288
+# text = Andawendaagwad ji-mino-giizhigak waabang ji-mino-bawa'amang.
+# eng = Everyone wishes for a nice day tomorrow so we can enjoy picking rice.
+"<andawendaagwad>"
+	"andawendaagwad" VII Ind Pos Neu 0SgSubj
+"<ji-mino-giizhigak>"
+	"mino-giizhigad" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	"mino-giizhigad" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	"giizhigad" PVTense/daa PVLex/mino VII Cnj Pos Neu 0SgSubj
+	"giizhigad" PVTense/ga PVLex/mino VII Cnj Pos Neu 0SgSubj
+	"mino-giizhigad" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"mino-giizhigad" PVTense/ga VII Cnj Pos Neu 0PlSubj
+	"giizhigad" PVTense/daa PVLex/mino VII Cnj Pos Neu 0PlSubj
+	"giizhigad" PVTense/ga PVLex/mino VII Cnj Pos Neu 0PlSubj
+"<waabang>"
+	"waaban" VII Cnj Pos Neu 0SgSubj
+	"waaban" VII Cnj Pos Neu 0PlSubj
+"<ji-mino-bawa'amang>"
+	"bawa'am" PVTense/daa PVLex/mino VAI Cnj Pos Neu InclSubj
+	"bawa'am" PVTense/ga PVLex/mino VAI Cnj Pos Neu InclSubj
+	"bawa'an" PVTense/daa PVLex/mino VTI Cnj Pos Neu InclSubj 0PlObj
+	"bawa'an" PVTense/ga PVLex/mino VTI Cnj Pos Neu InclSubj 0PlObj
+	"bawa'an" PVTense/daa PVLex/mino VTI Cnj Pos Neu InclSubj 0SgObj
+	"bawa'an" PVTense/ga PVLex/mino VTI Cnj Pos Neu InclSubj 0SgObj
+"<.>"
+
+# sent_id = 289
+# text = Zhaagwenimo ji-gagwedwed ji-anokii'ind.
+# eng = S/he is reluctant to ask for a job.
+"<zhaagwenimo>"
+	"zhaagwenimo" VAI Ind Pos Neu 3SgProxSubj
+"<ji-gagwedwed>"
+	"gagwedwe" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+	"gagwedwe" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+"<ji-anokii'ind>"
+	"anokii'" PVTense/daa VTA Cnj Pos Neu XSubj 3SgProxObj
+	"anokii'" PVTense/ga VTA Cnj Pos Neu XSubj 3SgProxObj
+"<.>"
+
+# sent_id = 290
+# text = Gichi-ombiigizi awe makade-gaagaagi.
+# eng = That black raven is making a lot of noise.
+"<gichi-ombiigizi>"
+	"ombiigizi" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<makade-gaagaagi>"
+	"gaagaagi" PNLex/makade NA ProxSg
+"<.>"
+
+# sent_id = 291
+# text = Odinawaan osayenyan
+# eng = He looks like his older brother.
+"<odinawaan>"
+	"inaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"inaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<osayenyan>"
+	"sayeny" NAD ObvPl 3SgProxPoss
+	"sayeny" NAD ObvSg 3SgProxPoss
+
+# sent_id = 292
+# text = Biinizikaa gaa-ni-izhi-giiwed nindaanis.
+# eng = All of a sudden my daughter went home.
+"<biinizikaa>"
+	"biinizikaa" ADVMan
+"<gaa-ni-izhi-giiwed>"
+	"giiwe" PVSub/gaa PVDir/ni PVRel/izhi VAI Cnj Pos Neu 3SgProxSubj
+	"giiwe" PVTense/gii PVDir/ni PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<nindaanis>"
+	"daanis" NAD ProxSg 1SgPoss
+"<.>"
+
+# sent_id = 293
+# text = Endaso-giizis ko nindawi-waabamaa mashkikiiwinini.
+# eng = Every month I go see the doctor.
+"<endaso-giizis>"
+	"endaso-giizis" ADVTmp
+"<ko>"
+	"ko" PCAsp
+"<nindawi-waabamaa>"
+	"waabam" PVDir/awi VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<mashkikiiwinini>"
+	"mashkikiiwinini" NA ProxSg
+"<.>"
+
+# sent_id = 294
+# text = Biite agwaayaaboode.
+# eng = Foam is drifting ashore.
+"<biite>"
+	"biite" NI Sg
+"<agwaayaaboode>"
+	"agwaayaaboode" VII Ind Pos Neu 0SgSubj
+"<.>"
+
+# sent_id = 295
+# text = Ogii-wiikomaan ji-bi-gaagiigidonid iniwen akiwenziiyan.
+# eng = He invited that old man to come and speak.
+"<ogii-wiikomaan>"
+	"wiikom" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"wiikom" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+"<ji-bi-gaagiigidonid>"
+	"gaagiigido" PVTense/daa PVDir/bi VAI Cnj Pos Neu 3PlObvSubj
+	"gaagiigido" PVTense/ga PVDir/bi VAI Cnj Pos Neu 3PlObvSubj
+	"gaagiigido" PVTense/daa PVDir/bi VAI Cnj Pos Neu 3SgObvSubj
+	"gaagiigido" PVTense/ga PVDir/bi VAI Cnj Pos Neu 3SgObvSubj
+"<iniwen>"
+	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
+"<akiwenziiyan>"
+	"akiwenzii" NA ObvPl
+	"akiwenzii" NA ObvSg
+"<.>"
+
+# sent_id = 296
+# text = Ogiji-adoopowin gii-pimaandawewag ingiw abinoojiinyag.
+# eng = Those kids were climbing on the table.
+"<ogiji-adoopowin>"
+	"adoopowin" PNLex/ogiji NI Sg
+	"ogiji-adoopowin" ADVLoc
+"<gii-pimaandawewag>"
+	"bimaandawe" PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+"<ingiw>"
+	"ingiw" PRONDem NA ProxPl
+"<abinoojiinyag>"
+	"abinoojiinh" NA ProxPl
+"<.>"
+
+# sent_id = 297
+# text = Gii-ozisijigaade adoopowin.
+# eng = They set the table.
+"<gii-ozisijigaade>"
+	"ozisijigaade" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<adoopowin>"
+	"adoopowin" NI Sg
+"<.>"
+
+# sent_id = 298
+# text = Wiisaganaamozo gaa-gii-saagijibinind gii-zakideg waakaa'igan.
+# eng = She is suffering from smoke inhalation having been pulled out of the house fire.
+"<wiisaganaamozo>"
+	"wiisaganaamozo" VAI Ind Pos Neu 3SgProxSubj
+"<gaa-gii-saagijibinind>"
+	"zaagijibizh" PVSub/gaa PVTense/gii VTA Cnj Pos Neu XSubj 3SgProxObj
+"<gii-zakideg>"
+	"zakide" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"zakide" PVTense/gii VII Cnj Pos Neu 0PlSubj
+"<waakaa'igan>"
+	"waakaa'igan" NI Sg
+"<.>"
+
+# sent_id = 299
+# text = Ingii-ojiigaabaawadoon iwe imbabagiwayaan.
+# eng = I shrank my shirt with hot water.
+"<ingii-ojiigaabaawadoon>"
+	"ojiigaabaawadoon" PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<imbabagiwayaan>"
+	"babagiwayaan" NI Sg 1SgPoss
+"<.>"
+
+# sent_id = 300
+# text = Omegwaa-ningizaan 'i wiinin a'aw mindimooyenh.
+# eng = The old lady is busy rendering the fat.
+"<omegwaa-ningizaan>"
+	"ningizan" PVLex/megwaa VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<wiinin>"
+	"wiinin" NI Sg
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<mindimooyenh>"
+	"mindimooyenh" NA ProxSg
+"<.>"
+

@@ -18,11 +18,12 @@ except Exception:
         print(*a, **k)
 
 # local
-from fst_runtime.fst import Fst
 from src.disambiguation import (
     disambiguate,
     ojibwe_sentence_to_cg3_format,
+    load_fst_parser
 )
+from src.dependency import parse_dependencies
 from src.corpus import cg3_to_conllu_batch  # used by build-dep when --reparse is set
 
 
@@ -91,7 +92,7 @@ def build_disambig_booklet(
 ) -> None:
     ensure_usr_local_bin_in_path()
 
-    FST = Fst(str(fst_path))
+    FST = load_fst_parser(str(fst_path))
     ojibwe  = load_lines(ojibwe_path)
     english = load_lines(english_path)
     assert_parallel(ojibwe, english)
@@ -193,11 +194,12 @@ def build_dep_booklet(
     html_title: str,
     *,
     reparse_with_cg3: bool = False,
-    cg3_grammar_path: Optional[Path] = None,
+    disamb_grammar_path: Optional[Path] = None,
+    dep_grammar_path: Optional[Path] = None,
     fst_path: Optional[Path] = None,
 ) -> None:
     """
-    If reparse_with_cg3=True, you must pass cg3_grammar_path and fst_path.
+    If reparse_with_cg3=True, you must pass paths to FST and CG3 grammars.
     We will:
       - disambiguate each Ojibwe sentence with CG3,
       - collect the raw CG3 output,
@@ -214,19 +216,17 @@ def build_dep_booklet(
     cg3_runs: List[str] = [None] * len(ojibwe)  # keep index alignment
 
     if reparse_with_cg3:
-        if not (cg3_grammar_path and fst_path):
-            raise ValueError("reparse_with_cg3=True requires cg3_grammar_path and fst_path")
-        FST = Fst(str(fst_path))
-
-        # Clear / recreate treebank file (fresh run)
+        if not (disamb_grammar_path and dep_grammar_path and fst_path):
+            raise ValueError("reparse_with_cg3=True requires disamb_grammar_path, dep_grammar_path, and fst_path")
+        FST = load_fst_parser(str(fst_path))
         Path(treebank_path).write_text("", encoding="utf8")
 
         with Progress() as progress:
             task = progress.add_task("Reparsing with CG3", total=len(ojibwe))
             for i, sentence in enumerate(ojibwe):
-                disamb = disambiguate(sentence, str(cg3_grammar_path), FST)
-                cg3_runs[i] = disamb
-                cg3_to_conllu_batch(disamb, str(treebank_path))
+                deps_cg3 = parse_dependencies(sentence, dependency_grammar=str(dep_grammar_path), disambiguation_grammar=str(disamb_grammar_path), fst=FST, verbose=False)
+                cg3_runs[i] = deps_cg3  # keep for display under each SVG if desired
+                cg3_to_conllu_batch(deps_cg3, str(treebank_path), verbose=False)
                 progress.update(task, advance=1)
 
     # Load trees (either just written, or already present)

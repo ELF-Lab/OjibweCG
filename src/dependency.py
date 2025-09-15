@@ -1,9 +1,11 @@
 from __future__ import annotations
+from fst_runtime.fst import Fst
 from typing import List, Dict, Tuple, Optional
+from src.disambiguation import disambiguate, cg3_process_text
 import re
 
 # ────────────────────────────────────────────────────────────────
-# dependency.py — parse CG3 output and build CoNLL‑U rows
+# dependency.py — parse CG3 output and build CoNLL-U rows
 # ────────────────────────────────────────────────────────────────
 
 UNIVERSAL_UPOS = {
@@ -91,10 +93,13 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
                     fields.remove(f)
 
             # old-style compat
+            relkind = None
             for f in list(fields):
                 if f.startswith("ID:"):
-                    try: cg_id = int(f.split(":", 1)[1])
-                    except ValueError: pass
+                    try:
+                        cg_id = int(f.split(":", 1)[1])
+                    except ValueError:
+                        pass
                     fields.remove(f)
                 elif f.startswith("R:Dep_"):
                     # e.g., R:Dep_obj_A:2
@@ -109,7 +114,6 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
             fields = [f for f in fields if not f.startswith(("ADD:", "SELECT:", "SETPARENT:"))]
 
             # NEW: extract UD relation @label
-            relkind = None
             for f in list(fields):
                 mrel = rel_pat.fullmatch(f)
                 if mrel:
@@ -129,7 +133,6 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
     # flush last token
     flush_surface()
     return tokens
-
 
 
 def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
@@ -184,12 +187,7 @@ def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
                 deprel = tok["relkind"]
             elif tok.get("upos") == "PUNCT":
                 deprel = "punct"
-            elif head_col == str(root_conllu_id):
-                # keep FALLBACK_REL (dep) when we attach to root by default
-                deprel = deprel
-            else:
-                # if attached via CG to a non-root head but no rel provided
-                deprel = deprel
+            # else keep FALLBACK_REL
 
         rows.append((
             str(i),
@@ -212,10 +210,36 @@ def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
     )
 
 
+def cg3_to_conllu_block(cg3_text: str, sent_id: int) -> str:
+    """Minimal wrapper: CG3 text → CoNLL-U block (no file I/O)."""
+    tokens = parse_cg3_block(cg3_text)
+    return tokens_to_conllu(tokens, sent_id)
+
+
+def parse_dependencies(sentence: str, dependency_grammar: str, disambiguation_grammar: str, fst: Fst, verbose: bool = False):
+    """
+    Main entry point for dependency parsing. Needs both the disambiguation and the dependency CG3 files to perform a full parse.
+    """
+    # First do morphological disambiguation
+    disambiguated = disambiguate(sentence, disambiguation_grammar, fst)
+
+    dependencies = cg3_process_text(disambiguated, dependency_grammar)
+    if verbose:
+        print("Before parsing (disambiguated text):")
+        print(disambiguated)
+        print("-"*20)
+        print("After parsing:")
+        print(dependencies)
+
+    # Then do dependency parsing
+    return dependencies
+
 
 __all__ = [
     "UNIVERSAL_UPOS",
     "FALLBACK_REL",
     "parse_cg3_block",
     "tokens_to_conllu",
+    "cg3_to_conllu_block",
+    "parse_dependencies",
 ]

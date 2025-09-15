@@ -27,10 +27,10 @@ SETPARENT N IF (-1 DET) TO (-2 V) ; # If a noun is preceded by a determiner, and
 ### Rules to assign relationship labels (same order as dependency rules above)
 
 # Determiner relation
-ADD det DET IF (1 N) ; 
+ADD det DET IF (1 N) ; # Add Determiner relation tag
 
 # Subject relation
-ADD nsubj PRON IF (1 V) ;
+ADD nsubj PRON IF (1 V) ; # Add Subject relation tag
 
 # Object relation
-ADD obj N IF (-1 DET) (-2 V) ;
+ADD obj N IF (-1 DET) (-2 V) ; # Add Object relation tag

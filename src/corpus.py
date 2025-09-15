@@ -1,7 +1,8 @@
 from __future__ import annotations
 from pathlib import Path
 from typing import List, Union, Optional
-from src.dependency import parse_cg3_block, tokens_to_conllu
+from src.dependency import cg3_to_conllu_block
+import sys
 import re
 import rich
 import subprocess
@@ -10,9 +11,10 @@ import shlex
 
 def append_sentence(conllu_text: str,
                     sent_id: int,
-                    corpus_path: Union[str, Path] = "ojibwe_treebank.conllu"
+                    corpus_path: Union[str, Path] = "ojibwe_treebank.conllu",
+                    verbose: bool = True
                     ) -> Optional[int]:
-    """Append one CoNLL‑U sentence if its `# text =` is new; return id used.
+    """Append one CoNLL-U sentence if its `# text =` is new; return id used.
     Duplicate detection is by exact `# text =` match.
     """
     corpus_path = Path(corpus_path)
@@ -28,25 +30,27 @@ def append_sentence(conllu_text: str,
         if mm_text and mm_text.group(1).strip() == new_text_line:
             mm_id = re.search(r"^#\s*sent_id\s*=\s*(.+)$", block, flags=re.M)
             dup_id = int(mm_id.group(1)) if mm_id else "?"
-            print(f"⚠️  sentence already in {corpus_path} with sent_id {dup_id}")
+            if verbose:
+                print(f"⚠️  sentence already in {corpus_path} with sent_id {dup_id}")
             return dup_id
 
     corpus_path.write_text(existing + conllu_text if existing else conllu_text, encoding="utf-8")
-    print(f"✓ appended sentence #{sent_id} to {corpus_path.name}")
+    if verbose:
+        print(f"✓ appended sentence #{sent_id} to {corpus_path.name}")
     return sent_id
 
 
 def cg3_to_conllu_batch(cg3_text: str,
                         corpus_path: Union[str, Path] = "ojibwe_treebank.conllu",
-                        lang: str = "ud") -> None:
-    """Parse CG3 text → CoNLL‑U, then append to `corpus_path`.
+                        lang: str = "ud",
+                        verbose: bool = True) -> None:
+    """Parse CG3 text → CoNLL-U, then append to `corpus_path`.
     Auto-assigns sent_id = (current sentence count + 1).
     """
     p = Path(corpus_path)
     sent_id = 1 + (p.read_text(encoding="utf-8").count("\n\n") if p.exists() else 0)
-    tokens = parse_cg3_block(cg3_text)
-    conllu = tokens_to_conllu(tokens, sent_id)
-    append_sentence(conllu, sent_id, p)
+    conllu = cg3_to_conllu_block(cg3_text, sent_id)
+    append_sentence(conllu, sent_id, p, verbose=verbose)
 
 
 def validate_ud(corpus_path: Union[str, Path],
@@ -62,8 +66,8 @@ def validate_ud(corpus_path: Union[str, Path],
         rich.print(f"[bold red]❌ file not found: {corpus_path}")
         return False
 
-    cmd = f"python3 {validator.as_posix()} --lang {lang} {shlex.quote(str(corpus_path))}"
-    proc = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    cmd = [sys.executable, str(validator), "--lang", lang, str(corpus_path)]
+    proc = subprocess.run(cmd, capture_output=True, text=True)
     if proc.returncode == 0:
         rich.print(f"[bold green]✓ {corpus_path.name} validated OK")
         return True
@@ -142,6 +146,7 @@ def delete_sentence(corpus_path: Union[str, Path],
     Path(corpus_path).write_text("\n\n".join(renumbered) + "\n\n", encoding="utf-8")
     rich.print(f"[bold green]✓ removed sent_id {sent_id} and renumbered the file")
     return True
+
 
 __all__ = [
     "append_sentence",

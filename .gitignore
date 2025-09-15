@@ -188,6 +188,3 @@ vscode/
 # testing notebook
 src/testing.ipynb
 src/processing-ambiguity-CG3-output.ipynb
-
-# ud tools
-ud-tools/

@@ -101,9 +101,6 @@ SELECT:select_special_adv TARGET UNCONDITIONAL_ADVS ;
 REMOVE:rem_pl_for_impersonal_verbs (0PlSubj) IF (0 IMPERSONAL_VERB)  ;
 
 
-
-
-
 SECTION
 
 ### VERBS - Rules to handle ambiguity of verbs ###
@@ -237,11 +234,11 @@ SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii) ;
 SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii') ;
 
 
-# TODO: run some tests to see if this works fully. Where to put this?
 # Phonological lemma disambiguation 
 # remove word ending in -wi (in favour of -∅ or -o)
 REMOVE:remove_-wi ("(.*)wi"r) IF (0 ("$1"v) OR ("$1o"v));
 
 # remove word starting with n- (in favour of ∅-)
 REMOVE:remove_n- ("n(.*)"r) IF (0 ("$1"v));
+
 

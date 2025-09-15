@@ -10,6 +10,9 @@ Context and short examples for both the disambiguation and the dependency parsin
     - [What is CG3?](#what-is-cg3)
       - [CG3 Input \& Output](#cg3-input--output)
       - [Disambiguation in CG3](#disambiguation-in-cg3)
+        - [English disambiguation example](#english-disambiguation-example)
+        - [Ojibwe disambiguation example](#ojibwe-disambiguation-example)
+        - [Summary of disambiguation](#summary-of-disambiguation)
     - [What is the purpose of disambiguation?](#what-is-the-purpose-of-disambiguation)
       - [Disambiguation for the Ojibwe corpus](#disambiguation-for-the-ojibwe-corpus)
       - [Disambiguation for dependency parsing](#disambiguation-for-dependency-parsing)
@@ -19,6 +22,7 @@ Context and short examples for both the disambiguation and the dependency parsin
     - [What is CoNLL-U Format?](#what-is-conll-u-format)
     - [How CG3 enables dependency parsing](#how-cg3-enables-dependency-parsing)
       - [Full example (English)](#full-example-english)
+      - [Full example (Ojibwe)](#full-example-ojibwe)
     - [Current focus and limitations](#current-focus-and-limitations)
     - [Why build a treebank?](#why-build-a-treebank)
   - [Sources and further reading](#sources-and-further-reading)
@@ -47,14 +51,19 @@ To understand the purpose and functionality of the constraint grammar, it is imp
 
 The core functionality of the Ojibwe FST is to take an Ojibwe word and to decompose it into morphological tags. This is better understood through a short example:
 
-**Ojibwe word:** 
-mazina'igan - book, letter, paper ([OPD entry](https://ojibwe.lib.umn.edu/main-entry/mazina-igan-ni))
+**Ojibwe word to be analyzed:** 
+Mitig
+
+While the same word on the surface, *mitig* has two interpretations: 
+1. mitig (NA) - animate, meaning "a tree" ([animate OPD entry](https://ojibwe.lib.umn.edu/main-entry/mitig-na))
+2. mitig (NI) - inanimate, meaning "wood", "a piece of wood", or "a stick" ([inanimate OPD entry](https://ojibwe.lib.umn.edu/main-entry/mitig-ni))
+
 
 **FST analyses:** 
 
-1. `mazina'igan+NA+ProxSg`
+1. `mitig+NA+ProxSg`
 
-2. `mazina'igan+NI+Sg`
+2. `mitig+NI+Sg`
 
 **Tag Glosses:**  
 
@@ -67,7 +76,7 @@ mazina'igan - book, letter, paper ([OPD entry](https://ojibwe.lib.umn.edu/main-e
 
 
 
-Here we see that the word mazina'igan gets two parses by the FST, both of which share the lemma 'mazina'igan'. (1) is parsed as an animate proximate singular noun and (2) is parsed as an inanimate singular noun. An important thing to remember is that the FST works at the word-level, meaning that it will always output all analyses possible for a given word.
+Here we see that the word *mitig* gets two parses by the FST, both of which share the lemma `mitig`. In the FST analyses, (1) is parsed as an animate proximate singular noun and (2) is parsed as an inanimate singular noun. An important thing to remember is that the FST works at the word-level, meaning that it will always output all analyses possible for a given word.
 
 Remembering that our goal is to disambiguate such readings with multiple analyses, in the next section we’ll see how constraint grammar resolves this ambiguity automatically.  
 
@@ -77,9 +86,9 @@ You can find much more detailed documentation on the FST and its outputs in the 
 
 
 ### What is CG3?  
-Constraint Grammar (CG) is a framework for rule-based disambiguation and syntactic annotation. In short, CG works by applying a sequence of linguistically motivated constraints to an input text. For disamguation, these constraints eliminate analyses that are incompatible with the surrounding context, while keeping the analyses that best fit. For syntactic annotation (or dependency parsing), CG rules can also assign grammatical functions such as subject, object, or modifier. This is done by looking at the surrounding context in much the same way as disambiguation rules, but instead of removing readings, the rules add functional tags that describe how words relate to each other. In this way, CG can serve as both a disambiguator and a lightweight dependency parser.
+Constraint Grammar (CG) is a framework for rule-based disambiguation and syntactic annotation. In short, CG works by applying a sequence of linguistically motivated constraints to an input text. For disambiguation, these constraints eliminate analyses that are incompatible with the surrounding context, while keeping the analyses that best fit. For syntactic annotation (or dependency parsing), CG rules can also assign grammatical functions such as subject, object, or modifier. This is done by looking at the surrounding context in much the same way as disambiguation rules, but instead of removing readings, the rules add functional tags that describe how words relate to each other. In this way, CG can serve as both a disambiguator and a lightweight dependency parser.
 
-The version of the framework used here is **VISL CG-3** (or simply CG3), which is a modern implementation developed at the University of Southern Denmark. It provides a rule language and an efficient parser for writing and applying grammars.  
+The version of the framework used here is [VISL CG-3](https://edu.visl.dk/cg3/single/) (or simply CG3), which is a modern implementation developed at the University of Southern Denmark. It provides a rule language and an efficient parser for writing and applying grammars.  
 
 #### CG3 Input & Output
 CG3 works with lines where each token is followed by one or more possible analyses. The format looks roughly like this:
@@ -89,12 +98,12 @@ CG3 works with lines where each token is followed by one or more possible analys
    "lemma" Tag1 Tag2
 ```
 
-For example, if we were only to encode parts of speech, the word *document* could appear as:
+For example, if we were only to encode parts of speech, the word *bank* could appear as:
 
 ```cg3
-"<document>"
-   "document" N
-   "document" V
+"<bank>"
+   "bank" N
+   "bank" V
 ```
 
 CG3 rules then operate over this structure, removing or keeping analyses.
@@ -105,15 +114,16 @@ To disambiguate readings, CG3 rules look at windows of context around a target w
 
 While the following example is only two words, in case of longer or multiple sentences, context windows are bounded by delimiters such as punctuation marks, which you can define explicitly in the grammar (e.g., periods, commas, quotation marks). This means a rule will not parse across a delimiter, so context checks are always local to a clause or sentence.
 
-A simple example to illustrate disambiguation in CG3:
+##### English disambiguation example 
+Let's start off by disambiguating the simple English example "the bank", to illustrate how disambiguation works in CG3:
 
 **Input:**  
 ```cg3
 "<the>"
    "the" Det
-"<document>"
-   "document" N
-   "document" V
+"<bank>"
+   "bank" N
+   "bank" V
 ```
 
 **CG3 rule:**
@@ -125,15 +135,48 @@ REMOVE V IF (-1 ("the")) ; # If preceded by "the", remove verb reading
 ```
 "<the>"
    "the" Det
-"<document>"
-   "document" N
+"<bank>"
+   "bank" N
 ```
 
-Here, the word *document* has two possible readings, noun or verb.
+Here, the word *bank* has two possible readings, noun or verb.
 The rule says: if the previous word is *the*, then remove the verb reading.
-So in the phrase “the document", *document* is correctly resolved as a noun.
+So in the phrase “the bank", *bank* is correctly resolved as a noun.
 
-This example is mainly to show how ambiguous morphological readings can be disambiguated using context, but it's important to remember that sentences in English and Ojibwe are made up of many words, often with more than one ambiguity. In practice, CG3 grammars contain hundreds of such rules, layered in a pipeline to gradually narrow down analyses. 
+
+##### Ojibwe disambiguation example
+Now that we have a basic intuition on how CG3 disambiguates readings, let's disambiguate a simple Ojibwe example "awedi mitig", meaning "that tree over there": 
+
+
+**Input:**  
+```cg3
+"<awedi>"
+	"awedi" PRONDem NA ProxSg
+"<mitig>"
+	"mitig" NA ProxSg
+	"mitig" NI Sg
+```
+
+**CG3 rule:**
+```
+SELECT:noun_dem_rule_1 NA_NAD + (ProxSg) IF (-1C (PRONDem NA ProxSg)) ; # If an animate noun with a ProxSg tag is preceded by an unambiguous animate demonstrative pronoun with a ProxSg tag, select the ProxSg reading of the noun
+```
+
+**Output (after rule application):**  
+```
+"<awedi>"
+	"awedi" PRONDem NA ProxSg
+"<mitig>"
+	"mitig" NA ProxSg
+```
+
+To those unfamiliar with Ojibwe, it might not be obvious at first glance what the disambiguation is doing in this example. If we quickly go back to the example in the [introduction to the FST](#at-a-glance-what-does-the-fst-do), we will recall that *mitig* has two possible parses, one as an animate noun meaning "tree", and another as an inanimate noun meaning "stick" or "wood". What is happening above, is that the preceding demonstrative pronoun (labeled `PRONDem`) is unambiguous regarding animacy, and it acts similarly to the english demonstrative pronoun "that", specifying the reference to the following noun. Since the demonstrative has a `NA` reading and agrees in obviation/number (both have `ProxSg`), we can safely disambiguate *mitig* to be an animate noun, thus successfully removing the ambiguity. 
+
+
+##### Summary of disambiguation
+
+The goal of the above examples is mainly to show how ambiguous morphological readings can be disambiguated using context, but it's important to remember that sentences in English and Ojibwe are made up of many words, often with more than one ambiguity. In practice, CG3 grammars contain hundreds of such rules, layered in a pipeline to gradually narrow down analyses. 
+
 
 This was a very simple overview on disambiguation in CG3, to better understand the details behind the disambiguation and dependency modules built in this project, check the [overview of the grammar modules](documentation/03_grammar_modules.md) portion of the documentation.
 
@@ -149,12 +192,12 @@ To give an answer to this question, pertaining to this project, we consider the 
 
 1. What is the disambiguation doing for the corpus?
 2. What is disambiguation doing for dependency parsing?
-3. What are the other uses of disambigation?
+3. What are the other uses of disambiguation?
 
 #### Disambiguation for the Ojibwe corpus
-The first purpose of disambiguation in this project is to make the Ojibwe corpus consistent and reliable. The corpus is not only a collection of example sentences; it is a databse that should be searchable at the level of morphological annotation. Since the FST always outputs all possible analyses for a given word, leaving those analyses unresolved would mean the corpus is full of unwanted ambiguities. For example, a single word could be tagged as both animate and inanimate, or as both a noun and a verb. Disambiguation ensures that each word that can be resolved in context has a single, context-appropriate analysis. 
+The first purpose of disambiguation in this project is to make the Ojibwe corpus consistent and reliable. The corpus is not only a collection of example sentences; it is a database that should be searchable at the level of morphological annotation. Since the FST always outputs all possible analyses for a given word, leaving those analyses unresolved would mean the corpus is full of unwanted ambiguities. For example, a single word could be tagged as both animate and inanimate, or as both a noun and a verb. Disambiguation ensures that each word that can be resolved in context has a single, context-appropriate analysis. 
 
-One thing to keep in mind is that it might not always be possible to disambiguate each word even in context, just like in the classic English example *We saw her duck*. Here, *duck* could be morphologically parsed as a noun and as a verb, and we would not be able to disambiguate it based on context. 
+One thing to keep in mind is that it might not always be possible to disambiguate each word even in context, just like in the classic English example *We saw her duck*. Here, *duck* could be morphologically parsed as a noun and as a verb, and we would not be able to disambiguate it purely based on morphological context. 
 
 Ojibwe contains similar cases. For example, the word *ikwewan* can be parsed as either:  
 
@@ -225,14 +268,16 @@ As can be seen, CoNLL-U encodes syntactic relationships between words, and addit
 Just as CG3 disambiguation rules remove unwanted morphological readings, CG3 also allows for the assignment of dependencies within the grammar itself. This is done with rules such as `SETPARENT` and `SETCHILD`, which establish hierarchical relations between tokens.
 
 It’s important to note that `SETPARENT` rules only create the structural links (links between words). To assign the actual dependency relation label (e.g., subject, object, determiner), a corresponding `ADD` rule is used. Together, the structural links, relation tags, and part-of-speech information give us a full dependency tree. From there, a post-processing module can be used to convert the CG3 output into the CoNLL-U format required for treebanks.
+
+In the following two sections, we will go through dependency parsing on the same sentence in both English and Ojibwe, the sentence being "*He shredded the document*", with the corresponding Ojibwe sentence being "*Ogii-piisibidoon 'i mazina'igan*", which can be found in the "Sentence Examples" section of [this OPD entry](https://ojibwe.lib.umn.edu/main-entry/biisibidoon-vti2).
  
 
 #### Full example (English)
-The following example illustrates the way CG3 can be used for dependency parsing as explained above. The corresponding .cg3 file, with the full set of rules, can be found in [CG3_examples/simple_english_dependency.cg3](CG3_examples/simple_english_dependency.cg3).
+The following example illustrates the way CG3 can be used for dependency parsing as explained above. The corresponding .cg3 file for this example with the full set of rules can be found in [CG3_examples/simple_english_dependency.cg3](CG3_examples/simple_english_dependency.cg3).
 
-The example sentence we will go through is *He shredded the document.*. The following shows the input and the output of the CG3, and only one pair of SETPARENT and ADD rules, for the object (parsed as @obj) dependency. 
+Starting with the sentence "*He shredded the document*", the following shows the input and the output of the CG3, and only one pair of SETPARENT and ADD rules, for the object (parsed as @obj) dependency. 
 
-**Input:**  
+**Input (disambiguated readings):**  
 ```cg3
 "<He>"
     "he" PRON
@@ -249,25 +294,80 @@ The example sentence we will go through is *He shredded the document.*. The foll
 # Assign Object
 SETPARENT (N) (-2 V) IF (-1 Det) ; # If a noun is preceded by a determiner, and two words to the left is a verb, set that verb as the parent of the noun.
 
-# Object relation
-ADD obj N IF (-1 DET) (-2 V) ;
+ADD obj N IF (-1 DET) (-2 V) ; # Add Object relation tag
 ```
 **Output:**
 ```cg3
 "<He>"
-   "he" PRON @nsubj #1->2 SETPARENT:21 ADD:33
+   "he" PRON @nsubj #1->2
 "<shredded>"
    "shred" V #2->2
 "<the>"
-   "the" DET @det #3->4 SETPARENT:18 ADD:30
+   "the" DET @det #3->4
 "<document>"
-   "document" N @obj #4->2 SETPARENT:24 ADD:36"<.>"
+   "document" N @obj #4->2
 ```
 
 
 In the output, each token retains its morphological analysis, but now also carries dependency information. For example, *document* (token #4) has been linked to *shredded* (token #2) as its parent, indicated by `#4->2` tag. The dependency relation label is also present for each token for which a dependency was parsed, with exception to *shredded*, which will be given the relation label `root` in post-processing, since it has no dependency to any other token, and is therefore the root of the clause.
 
- The numbers represent the token indices, and the extra annotation records which rule applied (e.g., `SETPARENT:24`, `ADD:36`). With the part of speech, dependency link, and dependency relation labels present on each token, this CG3 output is ready to be converted into CoNLL-U format, which would result in the CoNLL-U table shown above in [What is CoNLL-U Format?](#what-is-conll-u-format) .
+With the part of speech, dependency link, and dependency relation labels present on each token, this CG3 output is ready to be converted into CoNLL-U format, which would result in the CoNLL-U table shown above in [What is CoNLL-U Format?](#what-is-conll-u-format) .
+
+
+#### Full example (Ojibwe)
+Let's now run through the dependency parsing grammar on the corresponding Ojibwe sentence "*Ogii-piisibidoon 'i mazina'igan*". Instead of using another simplified example like the English above, we will show the real rules amd inputs as they would appear when using the dependency parsingmodule. For those unfamiliar with the morphology of Ojibwe, the similarity with the English example above should help with understanding the high-level functionality of the grammar, so don't worry if every single morphological tag isn't clear. 
+
+Once again, the following shows the input and the output of the CG3, and only one pair of SETPARENT and ADD rules for the object dependency. 
+
+**Input (disambiguated readings):**  
+```cg3
+"<ogii-piisibidoon>"
+	"biisibidoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<mazina'igan>"
+	"mazina'igan" NI Sg
+"<.>"
+```
+
+**CG3 rule (for Object dependency):**  
+```cg3
+SETPARENT (Sg) IF (NOT p (*)) TO (-1* (0SgObj) BARRIER CB) ; # If a singular noun (Sg) has an agreeing object agreement marker somewhere to its left (0SgObj), set verb as parent of noun
+
+ADD obj (Sg) IF (NOT 0 REL_LABEL) (p (0SgObj)) ; # Add corresponding obj dependency tag if the above rule just fired (if a verb is now a parent to the noun and no dependency tags have been set yet)
+```
+**Output:**
+```cg3
+"<ogii-piisibidoon>"
+	"biisibidoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj VERB #1->1
+"<'i>"
+	"'i" PRONDem NI Sg @det DET #2->3
+"<mazina'igan>"
+	"mazina'igan" NI Sg @obj NOUN #3->1
+"<.>"
+```
+
+
+As mentioned above, the readings now contain many more morphological tags, which might be hard to track. The good news is that to follow the above example, we don't actually have to look at every single tag, just the ones that are used to assign dependencies. Taking the object dependency as our example, we see that since *mazina'igan*, which is singular inanimate, has *ogii-piisibidoon* to its left, which has a singular inanimate agreement slot (marked as `OSgObj`), a dependency between the two is assigned, which appears as the `#3->1` tag. The same happens with *'i*, a demonstrative pronoun, where *mazina'igan* is assigned as its head (`#2->3`), since they are agreeing in animacy (`NI`) and number (`Sg`). 
+
+Apart from actually building the dependency tree using the `SETPARENT` rules, each word must also be assigned the exact type of dependency it shows to its parent using an `ADD` rule, as we see *mazina'igan* with the `@obj` relation label, and *'i* with the `@det` relation label. 
+
+Finally, compared to the English example where we had explicit POS tags in the input, the Ojibwe FST doesn't output POS tags that map one-to-one with the [Universal POS tags](https://universaldependencies.org/docs/u/pos/index.html) supported by the CoNLL-U format. For this reason, using the existing morphological information, each word is assigned a ConLL-U POS tag that can be used in post-processing.
+
+We now have all the ingredients to build the CoNLL-U block for this Ojibwe sentence. After post-processing, the generated CoNLL-U block will look like:
+
+**Output in CoNLL-U Format:**
+```text
+ID  FORM            LEMMA        UPOS  XPOS                                                FEATS  HEAD  DEPREL  DEPS  MISC
+1   ogii-piisibidoon biisibidoon VERB  PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB  _     0     root    _     _
+2   'i              'i           DET   PRONDem|NI|Sg|DET                                    _     3     det     _     _
+3   mazina'igan     mazina'igan  NOUN  NI|Sg|NOUN                                           _     1     obj     _     _
+
+```
+
+We see the main ingredients outputted by the CG3 active in the `UPOS`, `HEAD`, and `DEPREL` columns. Otherwise, the `LEMMA` and `XPOS` columns are also filled in with information that is directly available from the FST. 
+
+The above examples leave many details untouched, but it should have hopefully given some indication on the role CG3 plays in a full dependency parsing pipeline, with the final output being CoNLL-U formatted text ready to be made into a treebank. For a more detailed overview of the dependency parsing, go to the [overview of the grammar modules](documentation/03_grammar_modules.md). 
 
 ### Current focus and limitations
 
@@ -277,7 +377,7 @@ The end-goal of the dependency parsing model would be to build a complete Ojibwe
 
 - ensuring that arguments (such as noun phrases) are parsed to completion.
 
-At this stage, the grammar has less coverage for dependencies that are not directly relate to argument strcuture, such as dependencies for adverbs or for relationships between matrix and embedded clauses. These are important steps for the future, but for now the emphasis is on getting a reliable model of argument structure as the foundation for a larger treebank.
+At this stage, the grammar has less coverage for dependencies that are not directly relate to argument structure, such as dependencies for adverbs or for relationships between matrix and embedded clauses. These are important steps for the future, but for now the emphasis is on getting a reliable model of argument structure as the foundation for a larger treebank.
 
 ### Why build a treebank?
 

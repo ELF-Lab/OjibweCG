@@ -3,7 +3,7 @@
 Reference to the knowledge and people who made this project possible can be found here!
 
 ## References  
-[Add all the references relevant to both development and the documentation]
+[Not complete, add all the references relevant to both development and documentation]
 
 1. Valentine, J. R. (2001). *Nishnaabemwin Reference Grammar*.  
     - Core linguistic reference for Ojibwe morphosyntax.  

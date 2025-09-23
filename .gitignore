@@ -169,3 +169,23 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+data/verbs/*Zone.Identifier
+data/CG3_rules/*Zone.Identifier
+
+data/fst/*:Zone.Identifier
+data/fst/old/*
+data/parallel_data/*.Identifier
+data/parallel_data/raw/*Zone.Identifier
+data/fst/ojibwe.fomabin
+data/CG3_rules/old/*
+data/CG3_rules/output.txt
+.gitignore
+data/CG3_rules/test_input.txt
+
+# spell check
+vscode/
+
+# testing notebook
+src/testing.ipynb
+src/processing-ambiguity-CG3-output.ipynb
+src/speaker_disambiguation.ipynb

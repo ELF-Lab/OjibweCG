@@ -1,0 +1,12 @@
+# Simple example as seen in the "Disambiguation in CG3" section of the overview. Tags only contain POS information.
+
+# Define delimeters (only a period for brevity)
+DELIMITERS = "<.>" ;
+
+# Define tags (so brackets don't have to be used in rules)
+LIST V = V ;
+
+# Example disambiguation rule 
+REMOVE V IF (-1 ("the")) ; # If preceded by "the", remove verb reading
+
+

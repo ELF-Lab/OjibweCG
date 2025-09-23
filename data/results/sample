@@ -1,0 +1,12 @@
+"<odaanaang>"
+	"odaanaang" ADVLoc
+"<bimibatoowan>"
+	"bimibatoo" VAI Ind Pos Neu 3PlObvSubj
+	"bimibatoo" VAI Ind Pos Neu 3SgObvSubj
+"<odayan>"
+	"day" NAD ObvPl 3SgProxPoss
+	"day" NAD ObvSg 3SgProxPoss
+"<gaa-bimaagonebizod>"
+	"bimaagonebizo" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	"bimaagonebizo" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"

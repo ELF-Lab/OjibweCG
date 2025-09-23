@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys, argparse, subprocess, tempfile, pathlib
 from src import disambiguation as D
 from fst_runtime.fst import Fst

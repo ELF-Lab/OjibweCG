@@ -461,19 +461,27 @@
 "<.>"
 	"PUNCT" 
 
-# sent_id = 30
-# text = Waabanong bi-onji-mooka'an endaso-giizhik.
-# eng = The sun comes up from the east every day.
-"<waabanong>"
-	"waabanong" ADVLoc
-"<bi-onji-mooka'an>"
-	"mooka'am" PVDir/bi PVRel/onji VAI Imp Sim 2SgSubj
-	"mooka'an" PVDir/bi PVRel/onji VTI Imp Sim 2SgSubj 0SgObj
-	"mooka'an" PVDir/bi PVRel/onji VTI Imp Sim 2SgSubj 0PlObj
-"<endaso-giizhik>"
-	"endaso-giizhik" ADVTmp
+# sent_id = 300
+# text = Gakina gegoo banaskobagaabaawe, booshke miinan banaskobagaabaawewan.
+# eng = Everything opens up when it rains, even the blueberries.
+"<gakina>"
+	"gakina" ADVQnt
+"<gegoo>"
+	"gegoo" PRONIndf NI
+"<banaskobagaabaawe>"
+	"banaskobagaabaawe" VII Ind Pos Neu 0SgSubj
+"<,>"
+	"PUNCT" 
+"<booshke>"
+	"booshke" PCDisc
+"<miinan>"
+	"miinan" NI Pl
+	"miin" NI Pl
+"<banaskobagaabaawewan>"
+	"banaskobagaabaawe" VII Ind Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
+
 
 # sent_id = 31
 # text = Maajijiwan ziibiins.

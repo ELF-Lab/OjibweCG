@@ -12,8 +12,12 @@ from src.disambiguation import (
     cg3_process_text,
 )
 
-# Tag inventories
+# ────────────────────────────────────────────────────────────────
+# stats_disambiguation.py — disambiguation statistics on corpus 
+# ────────────────────────────────────────────────────────────────
 
+
+# Tag inventories
 VERB_TAGS    = {"VTA", "VAI", "VTI", "VII", "VAIO"}
 PRONOUN_TAGS = {"PRONDem", "PRONDub", "PRONIndf", "PRONInter",
                 "PRONPret", "PRONSim", "PRONPer"}
@@ -217,7 +221,7 @@ def _ambiguity(block: str, total_words: int,
     dict
         {
           "overview": {
-              "totaal_ambiguous_tokens": int,
+              "total_ambiguous_tokens": int,
               "pct_tokens_ambiguous": float,
               "lemma": int, "preverb": int, "pos": int, "morpho": int
           },

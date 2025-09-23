@@ -81,12 +81,18 @@ LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "naawakwe"
 
 SET DIR_OBJ_VERB = VERB - DITRANSITIVE ;
 
+LIST SPEAKERS = NancyJones ;
+
 
 # --- IMPORTANT: Disambiguation/Depepndency Parsing boundary ---
 # TODO: update this systematically
 # CURRENT ASSUMPTION: EVERY V that isn't a RC or a VII Impersonal Verb is a clause boundary
 SET CB = VERB - RC - IMPERSONAL_VERB ;
 
+SECTION
+### Speaker information
+
+SETVARIABLE (speaker) (1) (NancyJones) ;
 
 SECTION
 

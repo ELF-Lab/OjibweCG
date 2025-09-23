@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 import sys, argparse, pathlib
 from fst_runtime.fst import Fst
 from src.disambiguation import (

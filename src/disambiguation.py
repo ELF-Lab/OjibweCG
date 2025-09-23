@@ -2,6 +2,11 @@ from fst_runtime.fst import Fst
 from src.foma_adapter import FomaFst
 import subprocess, re
 
+# ────────────────────────────────────────────────────────────────
+# disambiguation.py — process input and run CG3
+# ────────────────────────────────────────────────────────────────
+
+
 # Name of cg3 command 
 CG3_NAME = "vislcg3" # or cg3"
 
@@ -178,7 +183,7 @@ def fst_output_to_cg3_format(fst_item: dict[str, list]) -> str:
 
     return output
     
-def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst) -> str:
+def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst, speaker: str | None = None) -> str:
     """
     Convert an Ojibwe sentence to CG3 (Constraint Grammar 3) format.
 
@@ -198,16 +203,28 @@ def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst) -> str:
     tokens = tokenize(ojibwe_sentence=ojibwe_sentence)
     sentence_fst_outputs = fst_parse_sentence(input_words=tokens, fst_parser=fst)
     body = "\n".join(fst_output_to_cg3_format(x) for x in sentence_fst_outputs)
+
+    if speaker:
+        lines = body.rstrip("\n").split("\n")
+        if len(lines) >= 2 and lines[1].startswith("\t"):
+            lines[1] = f"{lines[1]} {speaker}"
+        else:
+            for i in range(1, len(lines)):
+                if lines[i].startswith("\t"):
+                    lines[i] = f"{lines[i]} {speaker}"
+                    break
+        body = "\n".join(lines)
+
     return body.rstrip("\n") + "\n\n"
 
 def is_cg3_available() -> bool:
     """
-    Check if CG3 (Constraint Grammar 3) is installed in the system.
+    Check if CG3 is installed in the system.
 
     Returns
     -------
     bool
-        `True` if CG3 is installed and accessible, otherwise `False`.
+        True if CG3 is installed and accessible, otherwise False.
 
     """
     command = [CG3_NAME, "--help"]  # display cg3 help
@@ -249,7 +266,7 @@ def cg3_process_text(input_text: str, cg3_grammar_filepath: str) -> str:
         return "" 
 
 def sentence_has_ambiguity(sentence:str, fst: Fst) -> tuple:
-    """User FST parser to parse sentence and returns if the sentence has ambiguity in any word"""
+    """Use FST parser to parse sentence and returns if the sentence has ambiguity in any word"""
     tokens = tokenize(ojibwe_sentence=sentence)
     sentence_fst_outputs = fst_parse_sentence(input_words=tokens, fst_parser=fst)
     for item in sentence_fst_outputs:
@@ -259,7 +276,7 @@ def sentence_has_ambiguity(sentence:str, fst: Fst) -> tuple:
     return (False, sentence_fst_outputs, None)
     
 
-def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False) -> str:
+def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False, by_speaker: bool = False, speaker: str | None = None) -> str:
     """
     Disambiguate a sentence using FST readings and CG3 rules.
 
@@ -279,7 +296,10 @@ def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bo
     str
         The disambiguated readings of the sentence.
     """
-    input_readings = ojibwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst)
+    if by_speaker:
+        input_readings = ojibwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst, speaker=speaker)
+    else:
+        input_readings = ojibwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst)
     disambiguated_str = cg3_process_text(input_text=input_readings, cg3_grammar_filepath=cg3_grammar_filepath)
     if verbose:
         print("Before parsing:")

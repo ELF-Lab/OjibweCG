@@ -3,8 +3,9 @@ import subprocess, os, platform
 from typing import List
 from pathlib import Path
 
-# (removed legacy global path)
-
+# ────────────────────────────────────────────────────────────────
+# dependency.py — adapter module to support Foma FST
+# ────────────────────────────────────────────────────────────────
 
 class _Analysis:
     """Matches fst_runtime's item shape: provides .output_string"""
@@ -66,14 +67,12 @@ def flookup(input_words, bin_path: str):
 
 def is_flookup_available(bin_path: str) -> bool:
     """
-    Check if CG3 (Constraint Grammar 3) is installed in the system.
+    Check if flookup is installed in the system.
 
     Returns
     -------
     bool
-        `True` if CG3 is installed and accessible, otherwise `False`.
-
-    True
+        `True` if flookup is installed and accessible, otherwise `False`.
     """
     print(f"FST file is {bin_path}")
     command = ['flookup', bin_path, "-h"]  

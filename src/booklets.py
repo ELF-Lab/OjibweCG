@@ -1,11 +1,9 @@
-# ojcg/booklets.py
-# Unified HTML booklet generator for disambiguation and dependency trees.
-
 from __future__ import annotations
 from rich.progress import Progress
 from pathlib import Path
 from typing import List, Dict, Tuple, Iterable, Optional
 import os
+import re
 
 # third-party
 import jinja2
@@ -26,6 +24,10 @@ from src.disambiguation import (
 from src.dependency import parse_dependencies
 from src.corpus import cg3_to_conllu_batch  # used by build-dep when --reparse is set
 
+# ────────────────────────────────────────────────────────────────
+# booklets.py — build HTML visualization booklets
+# ────────────────────────────────────────────────────────────────
+
 
 # ---------- shared utilities ----------
 
@@ -40,16 +42,160 @@ def assert_parallel(oj: List[str], en: List[str]) -> None:
         raise ValueError(f"Parallel files not aligned: oj={len(oj)} vs en={len(en)}")
 
 def try_import_spacy():
+    """Import spacy, return error on exception."""
     try:
-        import spacy  # noqa
-        from spacy.tokens import Doc  # noqa
-        from spacy import displacy  # noqa
+        import spacy
+        from spacy.tokens import Doc  
+        from spacy import displacy
     except Exception as e:
         raise RuntimeError(
             "spaCy is required for dependency SVG rendering. "
-            "Install with `pip install spacy`."
+            "Install with pip install spacy."
         ) from e
 
+def parse_disamb_file(path: Path) -> List[Dict[str, str]]:
+    """Parse an already formatted disambiguation file into English, Ojibwe, and CG3 blocks."""
+
+    items: List[Dict[str, str]] = []
+    oj: Optional[str] = None
+    en: Optional[str] = None
+    block_lines: List[str] = []
+
+    CG3_TEXT_RE = re.compile(r"^#\s*text\s*=\s*(.+)$")
+    CG3_ENG_RE  = re.compile(r"^#\s*eng\s*=\s*(.+)$")
+
+    def flush():
+        nonlocal oj, en, block_lines
+        if oj is not None and en is not None and block_lines:
+            items.append({"oj": oj.strip(), "en": en.strip(),
+                          "cg3_disamb": "\n".join(block_lines).rstrip() + "\n"})
+        oj, en, block_lines = None, None, []
+
+    with path.open("r", encoding="utf-8") as f:
+        for raw in f:
+            line = raw.rstrip("\n"); line_l = line.lstrip()
+            if line_l.startswith("# sent_id"):
+                flush(); continue
+            m = CG3_TEXT_RE.match(line_l); m2 = CG3_ENG_RE.match(line_l)
+            if m:  oj = m.group(1); continue
+            if m2: en = m2.group(1); continue
+            if line_l.startswith("<") or line_l.startswith('"') or not line_l.strip():
+                block_lines.append(line); continue
+        flush()
+    return items
+
+def build_dep_booklet_from_disamb(
+    source_cg3_file: Path,
+    dep_grammar_path: Path,
+    out_conllu_path: Path,
+    out_html_path: Path,
+    html_title: str = "Dependency Booklet",
+) -> None:
+    """
+    Render a dependency booklet from a CG3 disambiguation file.
+    - Runs the dependency CG on each segment (using append_parent_block_as_segments in src.corpus)
+    - Writes a CoNLL-U file and grouped HTML booklet (segments grouped by parent_id)
+    """
+    from src.corpus import append_parent_block_as_segments  # local import to avoid cycles
+
+    ensure_usr_local_bin_in_path()
+    try_import_spacy()
+
+    items = parse_disamb_file(source_cg3_file)
+    if not items:
+        raise ValueError(f"No sentences parsed from {source_cg3_file}")
+
+    out_conllu_path.write_text("", encoding="utf-8")
+
+    # 1) run dependency grammar per item; collect dep CG3 by sent_id
+    dep_runs_by_sid: Dict[str, str] = {}
+    with Progress() as progress:
+        task = progress.add_task("Running dependency grammar", total=len(items))
+        for idx, it in enumerate(items, 1):
+            used = append_parent_block_as_segments(
+                cg3_disamb_block = it["cg3_disamb"],
+                dep_grammar_path = dep_grammar_path,
+                parent_index     = idx,
+                oj_text          = it.get("oj"),
+                en_text          = it.get("en"),
+                corpus_path      = out_conllu_path,
+                verbose          = False,
+            )
+            for sid, dep_cg3 in used:
+                dep_runs_by_sid[sid] = dep_cg3
+            progress.update(task, advance=1)
+
+    # 2) load trees and header map
+    trees = list(pyconll.load_from_file(str(out_conllu_path)))
+    conllu_text = out_conllu_path.read_text(encoding="utf-8")
+    sid2hdr: Dict[str, Dict[str, str]] = {}
+    for block in re.split(r"\n\s*\n", conllu_text.strip()):
+        header_lines = [ln for ln in block.splitlines() if ln.startswith("#")]
+        if not header_lines:
+            continue
+        header = "\n".join(header_lines)
+        m_id   = re.search(r"^#\s*sent_id\s*=\s*(.+)$", header, re.M)
+        m_text = re.search(r"^#\s*text\s*=\s*(.+)$", header, re.M)
+        m_en   = re.search(r"^#\s*text_en\s*=\s*(.+)$", header, re.M) \
+              or re.search(r"^#\s*text_en_full\s*=\s*(.+)$", header, re.M)
+        if m_id:
+            sid = m_id.group(1).strip()
+            sid2hdr[sid] = {
+                "text":    (m_text.group(1).strip() if m_text else ""),
+                "text_en": (m_en.group(1).strip()   if m_en   else ""),
+            }
+
+    # 3) group by parent_id
+    def _parent_id(sid: str) -> str:
+        return sid.split(".", 1)[0] if sid and "." in sid else sid or ""
+
+    # linear list in file order
+    linear: List[Dict[str, str]] = []
+    with Progress() as progress:
+        task = progress.add_task("Rendering dependency SVGs", total=len(trees))
+        for tree in trees:
+            svg = sentence_svg(tree, compact=True, collapse_punct=True)
+            sid = getattr(tree, "id", None)
+            hdr = sid2hdr.get(sid, {})
+            linear.append({
+                "sid": sid,
+                "oj": hdr.get("text", ""),
+                "en": hdr.get("text_en", ""),
+                "svg": svg,
+                "cg3": dep_runs_by_sid.get(sid, ""),
+            })
+            progress.update(task, advance=1)
+
+    groups: List[Dict[str, str]] = []
+    cur_parent: Optional[str] = None
+    cur_oj: List[str] = []; cur_en: List[str] = []
+    cur_svg: List[str] = []; cur_cg3: List[str] = []
+
+    def _flush():
+        if not cur_oj: return
+        groups.append({
+            "oj": "\n".join(cur_oj),
+            "en": "\n".join(cur_en),
+            "svg": "".join(f'<div class="viz">{s}</div>' for s in cur_svg),
+            "cg3": "\n\n".join([c for c in cur_cg3 if c]) or None,
+        })
+
+    for seg in linear:
+        pid = _parent_id(seg["sid"])
+        if cur_parent is None:
+            cur_parent = pid
+        if pid != cur_parent:
+            _flush()
+            cur_parent = pid
+            cur_oj.clear(); cur_en.clear(); cur_svg.clear(); cur_cg3.clear()
+        cur_oj.append(seg["oj"]); cur_en.append(seg["en"])
+        cur_svg.append(seg["svg"]); cur_cg3.append(seg["cg3"])
+    _flush()
+
+    rows = [{"no": i, **g} for i, g in enumerate(groups, 1)]
+    out_html_path.write_text(DEP_TPL.render(rows=rows, title=html_title), encoding="utf-8")
+    print(f"Wrote booklet: {out_html_path}  ({len(rows)} sentences)")
+    print(f"Wrote treebank: {out_conllu_path}")
 
 # ---------- disambiguation booklet ----------
 
@@ -115,6 +261,7 @@ def build_disambig_booklet(
 # ---------- dependency booklet ----------
 
 def assert_tree(doc):
+    """Make sure there are no cycles in the conllu."""
     for tok in doc:
         seen = set()
         cur  = tok
@@ -125,14 +272,15 @@ def assert_tree(doc):
             cur = cur.head
 
 def sentence_svg(sent, *, compact=True, collapse_punct=True) -> str:
+    """Render the svg per sentence."""
     import spacy
     from spacy.tokens import Doc
     from spacy import displacy
 
-    words  = [tok.form for tok in sent]
+    words = [tok.form for tok in sent]
     spaces = [True] * (len(words) - 1) + [False]
-    nlp    = spacy.blank("xx")
-    doc    = Doc(nlp.vocab, words=words, spaces=spaces)
+    nlp = spacy.blank("xx")
+    doc = Doc(nlp.vocab, words=words, spaces=spaces)
 
     # POS/TAG
     for sp_tok, ud_tok in zip(doc, sent):
@@ -155,6 +303,17 @@ def sentence_svg(sent, *, compact=True, collapse_punct=True) -> str:
     assert_tree(doc)
     return displacy.render(doc, style="dep", jupyter=False,
                            options={"compact": compact, "collapse_punct": collapse_punct})
+
+def tree_meta_fallback(tree) -> Tuple[Optional[str], str, str]:
+    """
+    Return metadata that works across pyconll versions.
+    """
+    sid = getattr(tree, "id", None)
+    oj  = getattr(tree, "text", "") or ""
+    meta = getattr(tree, "meta", {}) or {}
+    en  = meta.get("text_en") or meta.get("text_en_full") or ""
+    return sid, oj, en
+
 
 DEP_TPL = jinja2.Template("""
 <!doctype html><html lang="en"><head>
@@ -199,7 +358,7 @@ def build_dep_booklet(
     fst_path: Optional[Path] = None,
 ) -> None:
     """
-    If reparse_with_cg3=True, you must pass paths to FST and CG3 grammars.
+    If reparse_with_cg3=True, must pass paths to FST and CG3 grammars.
     We will:
       - disambiguate each Ojibwe sentence with CG3,
       - collect the raw CG3 output,
@@ -232,16 +391,12 @@ def build_dep_booklet(
     # Load trees (either just written, or already present)
     trees = list(pyconll.load_from_file(str(treebank_path)))
 
+    # If reparsing/splitting happened, len(trees) may != len(ojibwe).
     if len(trees) != len(ojibwe):
-        rprint(f"[bold yellow]Warning: treebank has {len(trees)} trees; text has {len(ojibwe)} lines.")
-        # We still attempt to zip safely by min length:
-        min_n = min(len(trees), len(ojibwe))
-        trees   = trees[:min_n]
-        ojibwe  = ojibwe[:min_n]
-        english = english[:min_n]
-        cg3_runs = cg3_runs[:min_n]
+        rprint(f"[bold yellow]Note: treebank has {len(trees)} sentence(s); "
+            f"parallel text has {len(ojibwe)} line(s). Using CoNLL-U headers for display.")
 
-    # sanity sweep for empty tokens
+    # Sanity sweep for empty tokens
     for s_no, sent in enumerate(trees, 1):
         for t_no, tok in enumerate(sent, 1):
             if not tok.form:
@@ -250,10 +405,32 @@ def build_dep_booklet(
     rows: List[Dict] = []
     with Progress() as progress:
         task = progress.add_task("Rendering dependency SVGs", total=len(trees))
-        for i, (tree, oj, en) in enumerate(zip(trees, ojibwe, english), 1):
-            svg = sentence_svg(tree, compact=True, collapse_punct=True)
-            rows.append({"no": i, "oj": oj, "en": en, "svg": svg, "cg3": cg3_runs[i-1]})
-            progress.update(task, advance=1)
+
+        if len(trees) == len(ojibwe):
+            # 1:1 alignment, use og text
+            for i, (tree, oj, en) in enumerate(zip(trees, ojibwe, english), 1):
+                svg = sentence_svg(tree, compact=True, collapse_punct=True)
+                rows.append({
+                    "no": i,
+                    "oj": oj,
+                    "en": en,
+                    "svg": svg,
+                    "cg3": cg3_runs[i-1] if i-1 < len(cg3_runs) else None,
+                })
+                progress.update(task, advance=1)
+        else:
+            # Counts differs
+            for i, tree in enumerate(trees, 1):
+                sid, oj, en = tree_meta_fallback(tree)
+                svg = sentence_svg(tree, compact=True, collapse_punct=True)
+                rows.append({
+                    "no": i,
+                    "oj": oj,
+                    "en": en,
+                    "svg": svg,
+                    "cg3": None,
+                })
+                progress.update(task, advance=1)
 
     out_html_path.write_text(DEP_TPL.render(rows=rows, title=html_title), encoding="utf8")
     rprint(f"[bold green]✔ Dependency booklet written to {out_html_path} ({len(rows)} sentences)")

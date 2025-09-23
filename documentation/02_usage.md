@@ -45,11 +45,31 @@ Install them with:
 ```bash
 pip install -r requirements.txt
 ```
-
 This installs packages such as spaCy, pyconll, jinja2, and others that the scripts depend on.
 
-### 4. Install VISL CG3 (Constraint Grammar)
-CG3 is a separate program that the Python code calls. You must install it so that the `vislcg3` command is available in your terminal.
+
+### 4. Install Foma 
+[Foma](https://fomafst.github.io/) provides the `foma` compiler and the `flookup` utility used by the FST portion of the pipeline.
+
+On macOS:
+```bash
+brew install foma
+```
+
+On Ubuntu / Debian Linux:
+```
+sudo apt install foma
+```
+
+To check that it is installed, run:
+```
+foma -v
+```
+
+If a version number is printed, Foma is installed.
+
+### 5. Install VISL CG3 (Constraint Grammar)
+[CG3](https://edu.visl.dk/cg3/chunked/installation.html) is a separate program that the Python code calls. You must install it so that the `vislcg3` command is available in your terminal.
 
 On macOS:
 ```bash
@@ -70,13 +90,13 @@ vislcg3 --version
 ```
 You should see a version number printed.
 
-### 5. FST file
+### 6. FST file
 The tools also require a finite-state transducer (FST) binary file.  
-This repository already includes one under `data/fst/ojibwe.att`.  
+This repository already includes two FST formats under `data/fst/`.  
 If you only want to run the existing scripts, you do not need to build anything yourself.
 
 
-#### 6. Ready to go! 
+### 7. Ready to go! 
 Once you have completed the steps above, the scripts detailed below should all be runnable without issues. 
 One thing to note, there might be certain system-based installation quirks for some of the packages above, if there are serious issues on any system with the current set, please let us know! 
 

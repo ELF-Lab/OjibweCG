@@ -1,5 +1,5 @@
 # Examples  
-Check notebooks for examples. 
+Check usage_notebooks for examples. 
 
 ## Disambiguation Example Parse  
 ## Dependency Example Parse  

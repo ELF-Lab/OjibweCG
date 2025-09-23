@@ -159,9 +159,10 @@ SETPARENT RelCl IF (NOT p (*)) TO (-1  PREP_LOCS) ; ADD acl:relcl RelCl IF (NOT 
 
 
 ### Numeral rules
-# Set relation if noun immediately following. As above (from Sullivan), assumption that the bsaic NP structure is (Dem)-(Num)-(N)-(RC)
-SETPARENT (NUM) IF (NOT p (*)) TO (1 NOMINAL) ; ADD nummod (NUM) IF (NOT 0 REL_LABEL) (p NOMINAL) ;
-
+# Set relation if noun immediately following. As above (from Sullivan), assumption that the bsaic NP structure is (Dem)-(Num)-(N)-(RC). Could appear differently on surface level though, such as (Num)-(Dem)-(N).
+SETPARENT (NUM) IF (NOT p (*)) (NOT 1 (@det)) TO (1 NOMINAL) ; ADD nummod (NUM) IF (NOT 0 REL_LABEL) (p NOMINAL) ;
+# Because UD does not allow det to have children, if (Num)-(Dem)-(N) relationship present, set num relationship directly to Noun.
+SETPARENT (NUM) IF (NOT p (*)) (1 (@det)) TO (2 NOMINAL) ; ADD nummod (NUM) IF (NOT 0 REL_LABEL) (p NOMINAL) ;
 
 
 ### Argument Dependency - Rules to assign Verb - Noun/Pron dependency ###

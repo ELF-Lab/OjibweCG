@@ -1,12 +1,16 @@
 from __future__ import annotations
 from pathlib import Path
-from typing import List, Union, Optional
-from src.dependency import cg3_to_conllu_block
+from typing import List, Union, Optional, Tuple
+from src.disambiguation import cg3_process_text
+from src.dependency import cg3_to_conllu_block, split_cg3_sentences, tokens_to_conllu
 import sys
 import re
 import rich
 import subprocess
-import shlex
+
+# ────────────────────────────────────────────────────────────────
+# corpus.py — build and query CoNLL-U corpus
+# ────────────────────────────────────────────────────────────────
 
 
 def append_sentence(conllu_text: str,
@@ -14,8 +18,8 @@ def append_sentence(conllu_text: str,
                     corpus_path: Union[str, Path] = "ojibwe_treebank.conllu",
                     verbose: bool = True
                     ) -> Optional[int]:
-    """Append one CoNLL-U sentence if its `# text =` is new; return id used.
-    Duplicate detection is by exact `# text =` match.
+    """Append one CoNLL-U sentence if its # text = is new; return id used.
+    Duplicate detection is by exact # text = match.
     """
     corpus_path = Path(corpus_path)
     m = re.search(r"^#\s*text\s*=\s*(.+)$", conllu_text, flags=re.M)
@@ -44,13 +48,78 @@ def cg3_to_conllu_batch(cg3_text: str,
                         corpus_path: Union[str, Path] = "ojibwe_treebank.conllu",
                         lang: str = "ud",
                         verbose: bool = True) -> None:
-    """Parse CG3 text → CoNLL-U, then append to `corpus_path`.
+    """Parse CG3 text -> CoNLL-U, then append to corpus_path.
     Auto-assigns sent_id = (current sentence count + 1).
     """
     p = Path(corpus_path)
     sent_id = 1 + (p.read_text(encoding="utf-8").count("\n\n") if p.exists() else 0)
     conllu = cg3_to_conllu_block(cg3_text, sent_id)
     append_sentence(conllu, sent_id, p, verbose=verbose)
+    
+
+
+def append_parent_block_as_segments(
+    *,
+    cg3_disamb_block: str,
+    dep_grammar_path: Path | str,      
+    parent_index: int,              
+    oj_text: Optional[str] = None,
+    en_text: Optional[str] = None,  
+    corpus_path: Path | str = "ojibwe_treebank.conllu",
+    verbose: bool = True,
+) -> List[Tuple[str, str]]:
+    """
+    Split the disambiguated CG3 block into sentence segments, run the dependency
+    grammar on each segment, convert to CoNLL-U with provenance headers, and append.
+
+    Returns a list of (sent_id, dep_cg3_output) for later display.
+    """
+    corpus_path = Path(corpus_path)
+    existing = corpus_path.read_text(encoding="utf-8") if corpus_path.exists() else ""
+
+    segments = split_cg3_sentences(cg3_disamb_block)
+    used: List[Tuple[str, str]] = []
+    new_blocks: List[str] = []
+
+    for k, seg in enumerate(segments, 1):
+        sent_id = f"g{parent_index}.s{k}"
+
+        # 1) run dep grammar on THIS segment
+        dep_cg3 = cg3_process_text(seg, str(dep_grammar_path))
+        if not dep_cg3.strip():
+            raise RuntimeError(f"Empty dep output for {sent_id}")
+
+        # 2) convert to CoNLL-U
+        block = cg3_to_conllu_block(dep_cg3, sent_id)
+
+        # 3) inject provenance headers
+        extra = [f"# parent_id = g{parent_index}", f"# seg_index = {k}"]
+        # store full EN once (on first segment only)
+        if en_text and k == 1:
+            extra.append(f"# text_en_full = {en_text.strip()}")
+        # store full oj once too
+        if oj_text and k == 1:
+            extra.append(f"# text_full_parent = {oj_text.strip()}")
+
+        lines = block.splitlines()
+        insert_at = 2 if len(lines) >= 2 and lines[0].startswith("# sent_id") and lines[1].startswith("# text") else 0
+        block = "\n".join(lines[:insert_at] + extra + lines[insert_at:])
+        if not block.endswith("\n"):
+            block += "\n"
+        if not block.endswith("\n\n"):
+            block += "\n"
+
+        new_blocks.append(block)
+        used.append((sent_id, dep_cg3))
+
+    if new_blocks:
+        corpus_path.write_text(existing + "".join(new_blocks), encoding="utf-8")
+        if verbose:
+            print(f"✓ appended {len(new_blocks)} segment(s) for parent g{parent_index} → {corpus_path.name}")
+
+    return used
+
+
 
 
 def validate_ud(corpus_path: Union[str, Path],
@@ -81,7 +150,7 @@ def visualise_conllu(corpus_path: Union[str, Path],
                      *,
                      compact: bool = True,
                      collapse_punct: bool = True) -> None:
-    """Render one sentence with spaCy displaCy (requires pyconll + spacy)."""
+    """Render one sentence with spaCy displaCy."""
     try:
         import pyconll, spacy
         from spacy.tokens import Doc

@@ -1,0 +1,1339 @@
+# sent_id = g1.s1
+# text = makadewaakozi 'aw mitig .
+# parent_id = g1
+# seg_index = 1
+# text_en_full = That tree is black.
+# text_full_parent = Makadewaakozi 'aw mitig.
+1	makadewaakozi	makadewaakozi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	'aw	'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	mitig	mitig	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g2.s1
+# text = gigikenimaa na ezhinaagozid miskwaabiimagoons gaye ezhibagizid .
+# parent_id = g2
+# seg_index = 1
+# text_en_full = Do you know what a red willow looks like and the shape of its leaves?
+# text_full_parent = Gigikenimaa na ezhinaagozid miskwaabiimagoons gaye ezhibagizid.
+1	gigikenimaa	gikenim	VERB	VTA|Ind|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	na	na	PART	PCDisc|PART	_	1	discourse	_	_
+3	ezhinaagozid	izhinaagozi	VERB	ChCnj|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+4	miskwaabiimagoons	miskwaabiimagoons	NOUN	NA|ProxSg|NOUN	_	3	nsubj	_	_
+5	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+6	ezhibagizid	izhibagizi	VERB	ChCnj|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g3.s1
+# text = nigichi-zegi'igonaan awe gaa-ojibinigod zhebaa .
+# parent_id = g3
+# seg_index = 1
+# text_en_full = The one who had convulsions this morning really scared us.
+# text_full_parent = Nigichi-zegi'igonaan awe gaa-ojibinigod zhebaa.
+1	nigichi-zegi'igonaan	zegi'	VERB	PVLex/gichi|VTA|Ind|Pos|Neu|3SgProxSubj|ExclObj|VERB	_	0	root	_	_
+2	awe	awe	PRON	PRONDem|NA|ProxSg|PRON	_	1	nsubj	_	_
+3	gaa-ojibinigod	ojibinigo	VERB	PVTense/gii|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	2	acl:relcl	_	_
+4	zhebaa	zhebaa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g4.s1
+# text = naawi-ziibi dananjige a'aw mooz .
+# parent_id = g4
+# seg_index = 1
+# text_en_full = The moose is eating in the middle of the river.
+# text_full_parent = Naawi-ziibi dananjige a'aw mooz.
+1	naawi-ziibi	naawi-ziibi	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	dananjige	dananjige	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	mooz	mooz	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g5.s1
+# text = gii-bi-agaashiinyiyaan apane ningii'-anishinaabem .
+# parent_id = g5
+# seg_index = 1
+# text_en_full = From when I was young I spoke Anishinaabemowin and still do today.
+# text_full_parent = Gii-bi-agaashiinyiyaan apane ningii'-anishinaabem. Geyaabi go noongom.
+1	gii-bi-agaashiinyiyaan	agaashiinyi	VERB	PVTense/gii|PVDir/bi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	apane	apane	ADV	ADVTmp|ADV	_	1	advmod	_	_
+3	ningii'-anishinaabem	anishinaabemo	VERB	PVTense/gii'|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g5.s2
+# text = geyaabi go noongom .
+# parent_id = g5
+# seg_index = 2
+1	geyaabi	geyaabi	ADV	ADVTmp|ADV	_	0	root	_	_
+2	go	go	PART	PCDisc|PART	_	1	dep	_	_
+3	noongom	noongom	ADV	ADVTmp|ADV	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g6.s1
+# text = gwiiwizens gii-tipaabaawazo gii-bimaadagaaziibatood .
+# parent_id = g6
+# seg_index = 1
+# text_en_full = The boy got soaked running through the puddle.
+# text_full_parent = Gwiiwizens gii-tipaabaawazo gii-bimaadagaaziibatood.
+1	gwiiwizens	gwiiwizens	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+2	gii-tipaabaawazo	dipaabaawazo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	gii-bimaadagaaziibatood	bimaadagaaziibatoo	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g7.s1
+# text = akawe nimbagidendaanan niwanii'iganan onzaam ishpaagonagaa .
+# parent_id = g7
+# seg_index = 1
+# text_en_full = Right now I'm going to let go of my traps because the snow is too high. Later on I'll go look for them.
+# text_full_parent = Akawe nimbagidendaanan niwanii'iganan onzaam ishpaagonagaa. Baamaa naagaj ninga-andawaabandaanan.
+1	akawe	akawe	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	nimbagidendaanan	bagidendan	VERB	VTI|Ind|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+3	niwanii'iganan	wanii'igan	NOUN	NI|Pl|1SgPoss|NOUN	_	2	obj	_	_
+4	onzaam	onzaam	ADV	ADVQnt|ADV	_	2	dep	_	_
+5	ishpaagonagaa	ishpaagonagaa	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g7.s2
+# text = baamaa naagaj ninga-andawaabandaanan .
+# parent_id = g7
+# seg_index = 2
+1	baamaa	baamaa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	naagaj	naagaj	ADV	ADVQnt|ADV	_	3	dep	_	_
+3	ninga-andawaabandaanan	andawaabandan	VERB	PVTense/ga|VTI|Ind|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g8.s1
+# text = baamaa bengobagaag giga-andawawinzomin ; onzaam nibiiwibagaa 'owapii .
+# parent_id = g8
+# seg_index = 1
+# text_en_full = We'll go pick berries after the leaves are dry. They are too wet now.
+# text_full_parent = Baamaa bengobagaag giga-andawawinzomin; onzaam nibiiwibagaa 'owapii.
+1	baamaa	baamaa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	bengobagaag	bengobagaa	VERB	VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	giga-andawawinzomin	andawawinzo	VERB	PVTense/ga|VAI|Ind|Pos|Neu|InclSubj|VERB	_	2	dep	_	_
+4	;	;	PUNCT	;	_	2	punct	_	_
+5	onzaam	onzaam	ADV	ADVQnt|ADV	_	2	dep	_	_
+6	nibiiwibagaa	nibiiwibagaa	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	2	dep	_	_
+7	'owapii	'owapii	ADV	ADVTmp|ADV	_	6	advmod	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g9.s1
+# text = giishpin ningishimaad giboziganan , giga-ozaawaakizwaanaan gibozigan .
+# parent_id = g9
+# seg_index = 1
+# text_en_full = If s/he thaws out the bread, we'll make some toast.
+# text_full_parent = Giishpin ningishimaad giboziganan, giga-ozaawaakizwaanaan gibozigan.
+1	giishpin	giishpin	ADV	ADVGram|ADV	_	2	dep	_	_
+2	ningishimaad	ningishim	VERB	VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+3	giboziganan	gibozigan	NOUN	NA|ObvSg|NOUN	_	2	obj	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	giga-ozaawaakizwaanaan	ozaawaakizwi	VERB	PVTense/ga|VTA|Ind|Pos|Neu|InclSubj|3SgProxObj|VERB	_	2	dep	_	_
+6	gibozigan	gibozigan	NOUN	NA|ProxSg|NOUN	_	5	obj	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g10.s1
+# text = ingii-inaa ji-giiwed .
+# parent_id = g10
+# seg_index = 1
+# text_en_full = I told him to go home.
+# text_full_parent = Ingii-inaa ji-giiwed.
+1	ingii-inaa	izhi	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	ji-giiwed	giiwe	VERB	PVTense/daa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g11.s1
+# text = nishwaaso-gikinoonowin ingii-ayaamin mashkodeng .
+# parent_id = g11
+# seg_index = 1
+# text_en_full = We lived out on the prairies for eight years.
+# text_full_parent = Nishwaaso-gikinoonowin ingii-ayaamin mashkodeng.
+1	nishwaaso-gikinoonowin	nishwaaso-gikinoonowin	NUM	NUM	_	2	dep	_	_
+2	ingii-ayaamin	ayaa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	mashkodeng	mashkode	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g12.s1
+# text = naawishkwaand namadabi animosh .
+# parent_id = g12
+# seg_index = 1
+# text_en_full = A dog is sitting right in the middle of the door.
+# text_full_parent = Naawishkwaand namadabi animosh.
+1	naawishkwaand	naawishkwaand	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	namadabi	namadabi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	animosh	animosh	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g13.s1
+# text = maagoshkan ji-gibichibizoyan .
+# parent_id = g13
+# seg_index = 1
+# text_en_full = Step on your brakes to stop.
+# text_full_parent = Maagoshkan ji-gibichibizoyan.
+1	maagoshkan	maagoshkan	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+2	ji-gibichibizoyan	gibichibizo	VERB	PVTense/ga|VAI|Cnj|Pos|Neu|2SgSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g14.s1
+# text = weweni inanjige'idizon .
+# parent_id = g14
+# seg_index = 1
+# text_en_full = Keep to a proper diet. Don't eat fatty things.
+# text_full_parent = Weweni inanjige'idizon. Gego miijiken gaa-boozaag.
+1	weweni	weweni	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	inanjige'idizon	inanjige'idizo	VERB	VAI|Imp|Sim|2SgSubj|2SgObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g14.s2
+# text = gego miijiken gaa-boozaag .
+# parent_id = g14
+# seg_index = 2
+1	gego	gego	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	miijiken	miijin	VERB	VTI|Imp|Prb|2SgSubj|0PlObj|VERB	_	0	root	_	_
+3	gaa-boozaag	boozaa	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0PlSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g15.s1
+# text = aandi ezhidaabaadamawaad .
+# parent_id = g15
+# seg_index = 1
+# text_en_full = Where is s/he dragging it for h/.
+# text_full_parent = Aandi ezhidaabaadamawaad.
+1	aandi	aandi	ADV	ADVInter|ADV	_	2	dep	_	_
+2	ezhidaabaadamawaad	izhidaabaadamaw	VERB	ChCnj|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g16.s1
+# text = nibawaanaa bemaadizid .
+# parent_id = g16
+# seg_index = 1
+# text_en_full = I dream of a being.
+# text_full_parent = Nibawaanaa bemaadizid.
+1	nibawaanaa	bawaazh	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	bemaadizid	bimaadizi	VERB	VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	1	nsubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g17.s1
+# text = ozhisidoon onaaganan .
+# parent_id = g17
+# seg_index = 1
+# text_en_full = Set out the dishes. We're ready to eat.
+# text_full_parent = Ozhisidoon onaaganan. Mii zhigwa go wiiba ji-wiisiniyang.
+1	ozhisidoon	ozhisidoon	VERB	VTI|Imp|Sim|2SgSubj|0PlObj|VERB	_	0	root	_	_
+2	onaaganan	onaagan	NOUN	NI|Pl|NOUN	_	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g17.s2
+# text = mii zhigwa go wiiba ji-wiisiniyang .
+# parent_id = g17
+# seg_index = 2
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	5	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	5	discourse	_	_
+4	wiiba	wiiba	ADV	ADVTmp|ADV	_	5	advmod	_	_
+5	ji-wiisiniyang	wiisini	VERB	PVTense/ga|VAI|Cnj|Pos|Neu|InclSubj|VERB	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = g18.s1
+# text = anaamaabik ogii-izhi-gaanaan ozhooniyaaman .
+# parent_id = g18
+# seg_index = 1
+# text_en_full = He hid his money under a rock.
+# text_full_parent = Anaamaabik ogii-izhi-gaanaan ozhooniyaaman.
+1	anaamaabik	anaamaabik	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	ogii-izhi-gaanaan	gaazh	VERB	PVTense/gii|PVRel/izhi|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+3	ozhooniyaaman	zhooniyaa	NOUN	NA|Poss|ObvSg|3SgProxPoss|NOUN	_	2	obj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g19.s1
+# text = ayaangwaamizin .
+# parent_id = g19
+# seg_index = 1
+# text_en_full = Be careful. Don't slip and fall.
+# text_full_parent = Ayaangwaamizin. Gego ozhaashishingen.
+1	ayaangwaamizin	ayaangwaamizi	VERB	VAI|Imp|Sim|2SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g19.s2
+# text = gego ozhaashishingen .
+# parent_id = g19
+# seg_index = 2
+1	gego	gego	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	ozhaashishingen	ozhaashishin	VERB	VAI|Imp|Prb|2SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g20.s1
+# text = aaniin endashiwaad .
+# parent_id = g20
+# seg_index = 1
+# text_en_full = How many are there of them?
+# text_full_parent = Aaniin endashiwaad.
+1	aaniin	aaniin	ADV	ADVInter|ADV	_	0	root	_	_
+2	endashiwaad	dashiwag	X	ChCnj|VAIPL|Cnj|Pos|Neu|3PlProxSubj	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g21.s1
+# text = ziigigamizo awe zhiishiibakikoons .
+# parent_id = g21
+# seg_index = 1
+# text_en_full = The tea kettle is boiling over.
+# text_full_parent = Ziigigamizo awe zhiishiibakikoons.
+1	ziigigamizo	ziigigamizo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	zhiishiibakikoons	zhiishiibakik	NOUN	NA|Dim|ProxSg|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g22.s1
+# text = aapiji booziiwagizi name .
+# parent_id = g22
+# seg_index = 1
+# text_en_full = Sturgeon has very rich meat.
+# text_full_parent = Aapiji booziiwagizi name.
+1	aapiji	aapiji	ADV	ADVDeg|ADV	_	2	advmod	_	_
+2	booziiwagizi	booziiwagizi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	name	name	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g23.s1
+# text = zhooniyaa nindayaawaa nizhooniyaa-mashkimodaang .
+# parent_id = g23
+# seg_index = 1
+# text_en_full = I have money in my wallet
+# text_full_parent = Zhooniyaa nindayaawaa nizhooniyaa-mashkimodaang.
+1	zhooniyaa	zhooniyaa	NOUN	NA|ProxSg|NOUN	_	2	obj	_	_
+2	nindayaawaa	ayaaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	nizhooniyaa-mashkimodaang	zhooniyaa-mashkimod	NOUN	NI|Loc|1SgPoss|NOUN	_	2	obl	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g24.s1
+# text = wenda-ojaanimitaa awe anaamisagadoweshiinh gabeshid .
+# parent_id = g24
+# seg_index = 1
+# text_en_full = That wren is really busy making her nest.
+# text_full_parent = Wenda-ojaanimitaa awe anaamisagadoweshiinh gabeshid.
+1	wenda-ojaanimitaa	ojaanimitaa	VERB	PVLex/wenda|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	anaamisagadoweshiinh	anaamisagadoweshiinh	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	gabeshid	gabeshi	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g25.s1
+# text = anishaa sa go giwawiyazhinawin ezhichigeyan .
+# parent_id = g25
+# seg_index = 1
+# text_en_full = Oh, nothing, I just think it's cute the way you do it.
+# text_full_parent = Anishaa sa go giwawiyazhinawin ezhichigeyan.
+1	anishaa	anishaa	ADV	ADVMan|ADV	_	4	advmod	_	_
+2	sa	sa	PART	PCDisc|PART	_	4	discourse	_	_
+3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+4	giwawiyazhinawin	wawiyazhinaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|2SgObj|VERB	_	0	root	_	_
+5	ezhichigeyan	izhichige	VERB	ChCnj|VAI|Cnj|Pos|Neu|2SgSubj|VERB	_	4	dep	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g26.s1
+# text = onzaam mamaachaawan iniw makizinan gaa-pi-miinigooyaan .
+# parent_id = g26
+# seg_index = 1
+# text_en_full = The shoes they gave me are too big.
+# text_full_parent = Onzaam mamaachaawan iniw makizinan gaa-pi-miinigooyaan.
+1	onzaam	onzaam	ADV	ADVQnt|ADV	_	5	dep	_	_
+2	mamaachaawan	mamaachaawan	X	VIIPL|Ind|Pos|Neu|0PlSubj	_	5	dep	_	_
+3	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	4	det	_	_
+4	makizinan	makizin	NOUN	NI|Pl|NOUN	_	2	nsubj	_	_
+5	gaa-pi-miinigooyaan	miizh	VERB	ChCnj|PVTense/gii|PVDir/bi|VTA|Cnj|Pos|Neu|XSubj|1SgObj|VERB	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = g27.s1
+# text = mii 'i ezhinaagwak .
+# parent_id = g27
+# seg_index = 1
+# text_en_full = That's how it looks. See!
+# text_full_parent = Mii 'i ezhinaagwak. Inashke!
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	'i	'i	PRON	PRONDem|NI|Sg|PRON	_	3	nsubj	_	_
+3	ezhinaagwak	izhinaagwad	VERB	ChCnj|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g27.s2
+# text = inashke !
+# parent_id = g27
+# seg_index = 2
+1	inashke	inashke	PART	PCDisc|PART	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = g28.s1
+# text = ningo-giizhik gii-o-gibaakwa'waa .
+# parent_id = g28
+# seg_index = 1
+# text_en_full = He was in jail for a day.
+# text_full_parent = NIngo-giizhik gii-o-gibaakwa'waa.
+1	ningo-giizhik	ningo-giizhik	NUM	NUM	_	2	dep	_	_
+2	gii-o-gibaakwa'waa	gibaakwa'	VERB	PVTense/gii|PVDir/o|VTA|Ind|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g29.s1
+# text = neniswi ningii-apatoomin zaaga'iganiing .
+# parent_id = g29
+# seg_index = 1
+# text_en_full = We ran to the lake each three times.
+# text_full_parent = Neniswi ningii-apatoomin zaaga'iganiing.
+1	neniswi	neniswi	NUM	NUM	_	2	dep	_	_
+2	ningii-apatoomin	apatoo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	zaaga'iganiing	zaaga'igan	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g30.s1
+# text = gakina gegoo banaskobagaabaawe , booshke miinan banaskobagaabaawewan .
+# parent_id = g30
+# seg_index = 1
+# text_en_full = Everything opens up when it rains, even the blueberries.
+# text_full_parent = Gakina gegoo banaskobagaabaawe, booshke miinan banaskobagaabaawewan.
+1	gakina	gakina	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	3	nsubj	_	_
+3	banaskobagaabaawe	banaskobagaabaawe	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+5	booshke	booshke	PART	PCDisc|PART	_	7	discourse	_	_
+6	miinan	miin	NOUN	NI|Pl|NOUN	_	7	nsubj	_	_
+7	banaskobagaabaawewan	banaskobagaabaawe	VERB	VII|Ind|Pos|Neu|0PlSubj|VERB	_	3	dep	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g31.s1
+# text = maajijiwan ziibiins .
+# parent_id = g31
+# seg_index = 1
+# text_en_full = The creek is starting to flow
+# text_full_parent = Maajijiwan ziibiins.
+1	maajijiwan	maajijiwan	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	ziibiins	ziibiins	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g32.s1
+# text = aaniin enakamigaag .
+# parent_id = g32
+# seg_index = 1
+# text_en_full = What is the ground like?
+# text_full_parent = Aaniin enakamigaag.
+1	aaniin	aaniin	ADV	ADVInter|ADV	_	2	dep	_	_
+2	enakamigaag	inakamigaa	VERB	ChCnj|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g33.s1
+# text = miinan ozaawaditewan gii-ani-ishpi-dagwaagig .
+# parent_id = g33
+# seg_index = 1
+# text_en_full = Blueberries turn brownish in the late fall.
+# text_full_parent = Miinan ozaawaditewan gii-ani-ishpi-dagwaagig.
+1	miinan	miin	NOUN	NI|Pl|NOUN	_	2	nsubj	_	_
+2	ozaawaditewan	ozaawadite	VERB	VII|Ind|Pos|Neu|0PlSubj|VERB	_	0	root	_	_
+3	gii-ani-ishpi-dagwaagig	ishpi-dagwaagin	VERB	PVTense/gii|PVDir/ani|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g34.s1
+# text = mangitoon nawaj i' ishkwaandem imaa ataasoowigamigong .
+# parent_id = g34
+# seg_index = 1
+# text_en_full = Make the door on that shed bigger.
+# text_full_parent = Mangitoon nawaj i' ishkwaandem imaa ataasoowigamigong.
+1	mangitoon	mangitoon	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+2	nawaj	nawaj	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	i'	i'	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	ishkwaandem	ishkwaandem	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	case	_	_
+6	ataasoowigamigong	ataasoowigamig	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g35.s1
+# text = minomaasige gaa-zaasakokwaadang moozo-wiiyaas .
+# parent_id = g35
+# seg_index = 1
+# text_en_full = The aroma of the fried moose meat smells beautiful. = S/he's making a beautiful aroma frying up the moose meat.
+# text_full_parent = Minomaasige gaa-zaasakokwaadang moozo-wiiyaas.
+1	minomaasige	minomaasige	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-zaasakokwaadang	zaasakokwaadan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+3	moozo-wiiyaas	moozo-wiiyaas	NOUN	NI|Sg|NOUN	_	2	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g36.s1
+# text = aapiji go inzinigwenimaa awe indooshkinawem .
+# parent_id = g36
+# seg_index = 1
+# text_en_full = I worrry about my young son because he's started driving.
+# text_full_parent = Aapiji go inzinigwenimaa awe indooshkinawem. Mii 'i gii-maajidaabii'iwed.
+1	aapiji	aapiji	ADV	ADVDeg|ADV	_	3	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
+3	inzinigwenimaa	zinigwenim	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	indooshkinawem	oshkinawe	NOUN	NA|Poss|ProxSg|1SgPoss|NOUN	_	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g36.s2
+# text = mii 'i gii-maajidaabii'iwed .
+# parent_id = g36
+# seg_index = 2
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	'i	'i	PRON	PRONDem|NI|Sg|PRON	_	3	dep	_	_
+3	gii-maajidaabii'iwed	maajidaabii'iwe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g37.s1
+# text = gaawiin gosha gii-tagoshinziin .
+# parent_id = g37
+# seg_index = 1
+# text_en_full = He didn't arrive yet.
+# text_full_parent = Gaawiin gosha gii-tagoshinziin.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+2	gosha	gosha	PART	PCEmph|PART	_	3	discourse	_	_
+3	gii-tagoshinziin	dagoshin	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g38.s1
+# text = apane gaye ogikinoo'amawaan oozhisan .
+# parent_id = g38
+# seg_index = 1
+# text_en_full = He teaches his grandchild all the time.
+# text_full_parent = Apane gaye ogikinoo'amawaan oozhisan.
+1	apane	apane	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
+3	ogikinoo'amawaan	gikinoo'amaw	VERB	VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+4	oozhisan	oozhis	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g39.s1
+# text = oginibizhaan wiiyaas .
+# parent_id = g39
+# seg_index = 1
+# text_en_full = He cut up the meat fast. He's really got a sharp knife.
+# text_full_parent = Oginibizhaan wiiyaas. Wawiinge gaashikomaane.
+1	oginibizhaan	ginibizhan	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	wiiyaas	wiiyaas	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g39.s2
+# text = wawiinge gaashikomaane .
+# parent_id = g39
+# seg_index = 2
+1	wawiinge	wawiinge	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gaashikomaane	gaashikomaane	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g40.s1
+# text = gichi-wawiingezi gikinootawaad ini migiziin awe ogichidaa .
+# parent_id = g40
+# seg_index = 1
+# text_en_full = That warrior did a great job of imitating the sound of the bald eagle.
+# text_full_parent = Gichi-wawiingezi gikinootawaad ini migiziin awe ogichidaa.
+1	gichi-wawiingezi	wawiingezi	VERB	PVLex/gichi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gikinootawaad	gikinootaw	VERB	VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	1	dep	_	_
+3	ini	ini	DET	PRONDem|NA|ObvSg|DET	_	4	det	_	_
+4	migiziin	migizi	NOUN	NA|ObvSg|NOUN	_	2	obj	_	_
+5	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	ogichidaa	ogichidaa	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g41.s1
+# text = maamaagon gibakwezhiganikaan jibwaa-biindaabika'wad wii-kiizhizwad .
+# parent_id = g41
+# seg_index = 1
+# text_en_full = Knead your bannock before you put it in the oven and cook it.
+# text_full_parent = Maamaagon gibakwezhiganikaan jibwaa-biindaabika'wad wii-kiizhizwad.
+1	maamaagon	maamaagon	VERB	VTA|Imp|Sim|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	gibakwezhiganikaan	bakwezhiganikaan	NOUN	NA|ProxSg|2SgPoss|NOUN	_	1	obj	_	_
+3	jibwaa-biindaabika'wad	biindaabika'wi	VERB	PVTense/jibwaa|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+4	wii-kiizhizwad	giizhizwi	VERB	PVTense/wii|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g42.s1
+# text = awiya ningii'-noondawaa biibaagid gii-biidaabang .
+# parent_id = g42
+# seg_index = 1
+# text_en_full = I heard someone yelling at daybreak.
+# text_full_parent = Awiya ningii'-noondawaa biibaagid gii-biidaabang.
+1	awiya	awiya	PRON	PRONIndf|NA|PRON	_	2	obj	_	_
+2	ningii'-noondawaa	noondaw	VERB	PVTense/gii'|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	biibaagid	biibaagi	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	gii-biidaabang	biidaaban	VERB	PVTense/gii|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g43.s1
+# text = aaniin ezhi-zhaaganaashiiwinikaadeg .
+# parent_id = g43
+# seg_index = 1
+# text_en_full = What's it called in English?
+# text_full_parent = Aaniin ezhi-zhaaganaashiiwinikaadeg.
+1	aaniin	aaniin	ADV	ADVInter|ADV	_	2	dep	_	_
+2	ezhi-zhaaganaashiiwinikaadeg	zhaaganaashiiwinikaade	VERB	ChCnj|PVRel/izhi|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g44.s1
+# text = akawe agwaa'iskomii jibwaa-maajii-wewebanaabiid .
+# parent_id = g44
+# seg_index = 1
+# text_en_full = He scoops the ice out of the hole before he starts fishing.
+# text_full_parent = Akawe agwaa'iskomii jibwaa-maajii-wewebanaabiid.
+1	akawe	akawe	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	agwaa'iskomii	agwaa'iskomii	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	jibwaa-maajii-wewebanaabiid	wewebanaabii	VERB	PVTense/jibwaa|PVLex/maajii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g45.s1
+# text = mishawikwam awi-bagidaabiin .
+# parent_id = g45
+# seg_index = 1
+# text_en_full = Set a night line right out on the ice.
+# text_full_parent = Mishawikwam awi-bagidaabiin.
+1	mishawikwam	mishawikwam	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	awi-bagidaabiin	bagidaabii	VERB	PVDir/awi|VAI|Imp|Sim|2SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g46.s1
+# text = onzaam agaasaamagadoon emikwaanensan .
+# parent_id = g46
+# seg_index = 1
+# text_en_full = The spoons are too small.
+# text_full_parent = Onzaam agaasaamagadoon emikwaanensan.
+1	onzaam	onzaam	ADV	ADVQnt|ADV	_	2	dep	_	_
+2	agaasaamagadoon	agaasaa	VERB	VII|Aug/magad|VII|Ind|Pos|Neu|0PlSubj|VERB	_	0	root	_	_
+3	emikwaanensan	emikwaanens	NOUN	NI|Pl|NOUN	_	2	nsubj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g47.s1
+# text = gipagaamagad iwe mazina'igan gaa-wi-adaawanged .
+# parent_id = g47
+# seg_index = 1
+# text_en_full = The book he went and borrowed is thick.
+# text_full_parent = Gipagaamagad iwe mazina'igan gaa-wi-adaawanged.
+1	gipagaamagad	gipagaa	VERB	VII|Aug/magad|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	mazina'igan	mazina'igan	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+4	gaa-wi-adaawanged	adaawangen	VERB	ChCnj|PVTense/gii|PVDir/wi|VAIO|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g48.s1
+# text = wewiib gagwe-giizhitoon gaa-dazhiikaman gigikinoo'amaagoowin .
+# parent_id = g48
+# seg_index = 1
+# text_en_full = Hurry up and finish your homework.
+# text_full_parent = Wewiib gagwe-giizhitoon gaa-dazhiikaman gigikinoo'amaagoowin.
+1	wewiib	wewiib	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gagwe-giizhitoon	giizhitoon	VERB	PVLex/gagwe|VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+3	gaa-dazhiikaman	dazhiikan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|2SgSubj|0SgObj|VERB	_	2	dep	_	_
+4	gigikinoo'amaagoowin	gikinoo'amaagoowin	NOUN	NI|Sg|2SgPoss|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g49.s1
+# text = ogidaakiiwe waa'-onzaabandang mashi ji-gashkadininig zaaga'igan .
+# parent_id = g49
+# seg_index = 1
+# text_en_full = She looked from the top of the hill to the top to check out if the lake was frozen over yet.
+# text_full_parent = Ogidaakiiwe waa'-onzaabandang mashi ji-gashkadininig zaaga'igan.
+1	ogidaakiiwe	ogidaakiiwe	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	waa'-onzaabandang	onzaabandan	VERB	ChCnj|PVTense/wii'|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+3	mashi	mashi	ADV	ADVTmp|ADV	_	2	advmod	_	_
+4	ji-gashkadininig	gashkadin	VERB	PVTense/daa|VII|Cnj|Pos|Neu|0SgObvSubj|VERB	_	1	dep	_	_
+5	zaaga'igan	zaaga'igan	NOUN	NI|Sg|NOUN	_	2	obj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g50.s1
+# text = aaniin epiitaagonagaag noongom gaa-biboong .
+# parent_id = g50
+# seg_index = 1
+# text_en_full = How deep is the snow this winter?
+# text_full_parent = Aaniin epiitaagonagaag noongom gaa-biboong.
+1	aaniin	aaniin	ADV	ADVInter|ADV	_	2	dep	_	_
+2	epiitaagonagaag	apiitaagonagaa	VERB	ChCnj|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	noongom	noongom	ADV	ADVTmp|ADV	_	2	advmod	_	_
+4	gaa-biboong	biboon	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g51.s1
+# text = ingiw bebezhigooganzhiig inganawaabamaag .
+# parent_id = g51
+# seg_index = 1
+# text_en_full = I'm watching the horses.
+# text_full_parent = Ingiw bebezhigooganzhiig inganawaabamaag.
+1	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	2	det	_	_
+2	bebezhigooganzhiig	bebezhigooganzhii	NOUN	NA|ProxPl|NOUN	_	3	obj	_	_
+3	inganawaabamaag	ganawaabam	VERB	VTA|Ind|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g52.s1
+# text = gaye giin na giwii-wiijiiw .
+# parent_id = g52
+# seg_index = 1
+# text_en_full = Do you want to go with me? I'm going to town.
+# text_full_parent = Gaye giin na giwii-wiijiiw. Oodenaang niwii-izhaa.
+1	gaye	gaye	ADV	ADVConj|ADV	_	4	dep	_	_
+2	giin	giin	PRON	PRONPer|NA|2Sg|PRON	_	4	nsubj	_	_
+3	na	na	PART	PCDisc|PART	_	4	discourse	_	_
+4	giwii-wiijiiw	wiijiiw	VERB	PVTense/wii|VTA|Ind|Pos|Neu|2SgSubj|1SgObj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g52.s2
+# text = oodenaang niwii-izhaa .
+# parent_id = g52
+# seg_index = 2
+1	oodenaang	oodena	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+2	niwii-izhaa	izhaa	VERB	PVTense/wii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g53.s1
+# text = endaso-dibik iko ninganawaabandaan nimazinaatesijigan .
+# parent_id = g53
+# seg_index = 1
+# text_en_full = Every night I watch my television.
+# text_full_parent = Endaso-dibik iko ninganawaabandaan nimazinaatesijigan.
+1	endaso-dibik	endaso-dibik	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	iko	iko	PART	PCAsp|PART	_	3	discourse	_	_
+3	ninganawaabandaan	ganawaabandan	VERB	VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+4	nimazinaatesijigan	mazinaatesijigan	NOUN	NI|Sg|1SgPoss|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g54.s1
+# text = agoode mazinaakizowin imaa aasamisagong .
+# parent_id = g54
+# seg_index = 1
+# text_en_full = A picture is hanging on the wall.
+# text_full_parent = Agoode mazinaakizowin imaa aasamisagong.
+1	agoode	agoode	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	mazinaakizowin	mazinaakizowin	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	aasamisagong	aasamisag	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g55.s1
+# text = dabasa'amoog we'weg .
+# parent_id = g55
+# seg_index = 1
+# text_en_full = The snow geese are flying low. Soon it will snow.
+# text_full_parent = Dabasa'amoog we'weg. Wiiba wii-soogipon.
+1	dabasa'amoog	dabasa'am	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	we'weg	we'we	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g55.s2
+# text = wiiba wii-soogipon .
+# parent_id = g55
+# seg_index = 2
+1	wiiba	wiiba	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	wii-soogipon	zoogipon	VERB	PVTense/wii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g56.s1
+# text = ishkweyaang iwidi waakaa'iganing atewan ini misan .
+# parent_id = g56
+# seg_index = 1
+# text_en_full = The wood is there back of the house.
+# text_full_parent = Ishkweyaang iwidi waakaa'iganing atewan ini misan.
+1	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	4	obl	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	waakaa'iganing	waakaa'igan	NOUN	NI|Loc|NOUN	_	4	obl	_	_
+4	atewan	ate	VERB	VII|Ind|Pos|Neu|0PlSubj|VERB	_	0	root	_	_
+5	ini	ini	DET	PRONDem|NI|Pl|DET	_	6	det	_	_
+6	misan	mishi	NOUN	NI|Pl|NOUN	_	4	nsubj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g57.s1
+# text = o'omaa izhi-atoon .
+# parent_id = g57
+# seg_index = 1
+# text_en_full = Put it here!
+# text_full_parent = O'omaa izhi-atoon.
+1	o'omaa	o'omaa	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	izhi-atoon	atoon	VERB	PVRel/izhi|VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g58.s1
+# text = niwii'-naajibizotoon waa'-naawakwe-miijiyaan .
+# parent_id = g58
+# seg_index = 1
+# text_en_full = I'm going to take the car and go pick up my lunch.
+# text_full_parent = Niwii'-naajibizotoon waa'-naawakwe-miijiyaan.
+1	niwii'-naajibizotoon	naajibizotoon	VERB	PVTense/wii'|VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	waa'-naawakwe-miijiyaan	naawakwe-miijin	VERB	ChCnj|PVTense/wii'|VTI|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g59.s1
+# text = bijiinaago ningii-kinisinaa'ogomin agaami-zaaga'igan onzaam gii'-mamaangaashkaa .
+# parent_id = g59
+# seg_index = 1
+# text_en_full = We got stranded across the lake yesterday because the waves were too big.
+# text_full_parent = Bijiinaago ningii-kinisinaa'ogomin agaami-zaaga'igan onzaam gii'-mamaangaashkaa.
+1	bijiinaago	bijiinaago	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	ningii-kinisinaa'ogomin	ginisinaa'ogo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	agaami-zaaga'igan	agaami-zaaga'igan	ADV	ADVLoc|ADV	_	2	obl	_	_
+4	onzaam	onzaam	ADV	ADVQnt|ADV	_	2	dep	_	_
+5	gii'-mamaangaashkaa	mamaangaashkaa	VERB	PVTense/gii'|VII|Ind|Pos|Neu|0SgSubj|VERB	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g60.s1
+# text = gichi-neniibowa odaabajitoon 'i wiisagad 'a jiibaakwewinini jiibaakwed .
+# parent_id = g60
+# seg_index = 1
+# text_en_full = The chef uses a whole lot of pepper when he cooks.
+# text_full_parent = Gichi-neniibowa odaabajitoon 'i wiisagad 'a jiibaakwewinini jiibaakwed.
+1	gichi-neniibowa	neniibowa	ADV	PVLex/gichi|ADVQnt|ADV	_	2	dep	_	_
+2	odaabajitoon	aabajitoon	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+3	'i	'i	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	wiisagad	wiisagad	NOUN	NI|Sg|NOUN	_	2	obj	_	_
+5	'a	'a	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	jiibaakwewinini	jiibaakwewinini	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+7	jiibaakwed	jiibaakwe	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g61.s1
+# text = wiigwaasanakoonsan gokeyawikaagen waabooz ji-nagwaanad , maazhaa gaye bine .
+# parent_id = g61
+# seg_index = 1
+# text_en_full = Use birch buds if you want to snare a rabbit or a partridge.
+# text_full_parent = Wiigwaasanakoonsan gokeyawikaagen waabooz ji-nagwaanad, maazhaa gaye bine.
+1	wiigwaasanakoonsan	wiigwaasanakoons	NOUN	NI|Pl|NOUN	_	2	obj	_	_
+2	gokeyawikaagen	gokeyawikaagen	VERB	VAIO|Imp|Sim|2SgSubj|0PlObj|VERB	_	0	root	_	_
+3	waabooz	waabooz	NOUN	NA|ProxSg|NOUN	_	4	obj	_	_
+4	ji-nagwaanad	nagwaazh	VERB	PVTense/daa|VTA|Cnj|Pos|Neu|2SgSubj|3SgProxObj|VERB	_	2	dep	_	_
+5	,	,	PUNCT	,	_	2	punct	_	_
+6	maazhaa	maazhaa	ADV	ADVMan|ADV	_	2	dep	_	_
+7	gaye	gaye	ADV	ADVConj|ADV	_	2	dep	_	_
+8	bine	bine	NOUN	NA|ProxSg|NOUN	_	2	dep	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g62.s1
+# text = niwii-izhaamin iskigamiziganing .
+# parent_id = g62
+# seg_index = 1
+# text_en_full = We're going to the sugar bush.
+# text_full_parent = Niwii-izhaamin iskigamiziganing.
+1	niwii-izhaamin	izhaa	VERB	PVTense/wii|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	iskigamiziganing	iskigamizigan	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g63.s1
+# text = mii ganabaj igo ji-aabijibiisaag .
+# parent_id = g63
+# seg_index = 1
+# text_en_full = It's going to rain all day today. It won't be until tomorrow that we'll plant our garden.
+# text_full_parent = Mii ganabaj igo ji-aabijibiisaag. Mii 'i  waabang bijiinag ji-gitigeying
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	ganabaj	ganabaj	ADV	ADVMan|ADV	_	4	advmod	_	_
+3	igo	igo	PART	PCEmph|PART	_	4	discourse	_	_
+4	ji-aabijibiisaag	aabijibiisaa	VERB	PVTense/ga|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g63.s2
+# text = mii 'i waabang bijiinag ji-gitigeying
+# parent_id = g63
+# seg_index = 2
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	'i	'i	PRON	PRONDem|NI|Sg|PRON	_	3	nsubj	_	_
+3	waabang	waaban	VERB	VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+4	bijiinag	bijiinag	ADV	ADVTmp|ADV	_	3	advmod	_	_
+5	ji-gitigeying	gitige	VERB	PVTense/ga|VAI|Cnj|Pos|Neu|InclSubj|VERB	_	3	dep	_	_
+
+# sent_id = g64.s1
+# text = nawaj igo wiisagaagamin iwe naboob .
+# parent_id = g64
+# seg_index = 1
+# text_en_full = The soup tastes a little bit acrid. I think it's spoiling.
+# text_full_parent = Nawaj igo wiisagaagamin iwe naboob. Ganabaj banaadaagamisin.
+1	nawaj	nawaj	ADV	ADVDeg|ADV	_	3	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	wiisagaagamin	wiisagaagamin	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+4	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	5	det	_	_
+5	naboob	naboob	NOUN	NI|Sg|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g64.s2
+# text = ganabaj banaadaagamisin .
+# parent_id = g64
+# seg_index = 2
+1	ganabaj	ganabaj	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	banaadaagamisin	banaadaagamisin	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g65.s1
+# text = ogii-noonishkaanan aana-gii-kozikang iniwen makizinan a'awe nindaanis .
+# parent_id = g65
+# seg_index = 1
+# text_en_full = My daughter didn't fit the shoes she tried on.
+# text_full_parent = Ogii-noonishkaanan aana-gii-kozikang iniwen makizinan a'awe nindaanis.
+1	ogii-noonishkaanan	noonishkan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0PlObj|VERB	_	0	root	_	_
+2	aana-gii-kozikang	gozikan	VERB	PVTense/aana|PVTense/gii|VTI|Cnj|Pos|Neu|3SgProxSubj|0PlObj|VERB	_	1	dep	_	_
+3	iniwen	iniwen	DET	PRONDem|NI|Pl|DET	_	4	det	_	_
+4	makizinan	makizin	NOUN	NI|Pl|NOUN	_	2	obj	_	_
+5	a'awe	a'awe	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	nindaanis	daanis	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	2	nsubj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g66.s1
+# text = aandi wendaawanidiyeg .
+# parent_id = g66
+# seg_index = 1
+# text_en_full = Where are you all coming from?
+# text_full_parent = Aandi wendaawanidiyeg.
+1	aandi	aandi	ADV	ADVInter|ADV	_	2	dep	_	_
+2	wendaawanidiyeg	ondaawanidiwag	VERB	ChCnj|VAI|Cnj|Pos|Neu|2PlSubj|2PlObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g67.s1
+# text = mii 'i zhigwa ani-gashkiidibikak , giiyaabi go waasete abiiwigamig .
+# parent_id = g67
+# seg_index = 1
+# text_en_full = It's getting dark but it is still light in the living room.
+# text_full_parent = Mii 'i zhigwa ani-gashkiidibikak, giiyaabi go waasete abiiwigamig.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	'i	'i	PRON	PRONDem|NI|Sg|PRON	_	4	nsubj	_	_
+3	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	4	advmod	_	_
+4	ani-gashkiidibikak	gashkiidibikad	VERB	PVDir/ani|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+6	giiyaabi	giiyaabi	ADV	ADVTmp|ADV	_	8	advmod	_	_
+7	go	go	PART	PCDisc|PART	_	8	discourse	_	_
+8	waasete	waasete	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	4	dep	_	_
+9	abiiwigamig	abiiwigamig	NOUN	NI|Sg|NOUN	_	8	nsubj	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g68.s1
+# text = agaami-ziibi debinaagwad manoomin .
+# parent_id = g68
+# seg_index = 1
+# text_en_full = You can make out rice across the river.
+# text_full_parent = Agaami-ziibi debinaagwad manoomin.
+1	agaami-ziibi	agaami-ziibi	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	debinaagwad	debinaagwad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	manoomin	manoomin	NOUN	NI|Sg|NOUN	_	2	nsubj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g69.s1
+# text = gonige aabawaadog .
+# parent_id = g69
+# seg_index = 1
+# text_en_full = I wonder if it's warm out.
+# text_full_parent = Gonige aabawaadog.
+1	gonige	gonige	ADV	ADVPred|ADV	_	2	dep	_	_
+2	aabawaadog	aabawaa	VERB	VII|Ind|Pos|Dub|0SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g70.s1
+# text = ogii-maajinizha'aan bijiinaago 'i gaa-tazhiikang anokii-mazina'igan .
+# parent_id = g70
+# seg_index = 1
+# text_en_full = He sent in the proposal yesterday.
+# text_full_parent = Ogii-maajinizha'aan bijiinaago 'i gaa-tazhiikang anokii-mazina'igan.
+1	ogii-maajinizha'aan	maajinizha'an	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	bijiinaago	bijiinaago	ADV	ADVTmp|ADV	_	1	advmod	_	_
+3	'i	'i	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+4	gaa-tazhiikang	dazhiikan	VERB	ChCnj|PVTense/gii|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+5	anokii-mazina'igan	anokii-mazina'igan	NOUN	NI|Sg|NOUN	_	4	obj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g71.s1
+# text = ogii-mashkawitoon i'iwe gaa-ikidod .
+# parent_id = g71
+# seg_index = 1
+# text_en_full = He made a stronger statement.
+# text_full_parent = Ogii-mashkawitoon i'iwe gaa-ikidod.
+1	ogii-mashkawitoon	mashkawitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	i'iwe	i'iwe	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	gaa-ikidod	ikido	VERB	PVTense/gii|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g72.s1
+# text = naaningoding eta go ningaganoonaa .
+# parent_id = g72
+# seg_index = 1
+# text_en_full = I only talk to him once in a while.
+# text_full_parent = Naaningoding eta go ningaganoonaa.
+1	naaningoding	naaningoding	ADV	ADVTmp|ADV	_	4	advmod	_	_
+2	eta	eta	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+4	ningaganoonaa	gaganoozh	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g73.s1
+# text = ogii-iskandaan 'iw mashkiigobagwaaboo imaa biskitenaagaansing .
+# parent_id = g73
+# seg_index = 1
+# text_en_full = He drained the swamp tea in the birch bark cup.
+# text_full_parent = Ogii-iskandaan 'iw mashkiigobagwaaboo imaa biskitenaagaansing.
+1	ogii-iskandaan	iskandan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	'iw	'iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	mashkiigobagwaaboo	mashkiigobagwaaboo	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	biskitenaagaansing	biskitenaagan	NOUN	NI|Dim|Loc|NOUN	_	1	obl	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g74.s1
+# text = mii 'i gii-maadaandawed awe inaabiiginigewinini wii-o-dazhiikang iwe waasigani-biiwaabik .
+# parent_id = g74
+# seg_index = 1
+# text_en_full = The linesman began to climb the pole to go fix the electric cable.
+# text_full_parent = Mii 'i gii-maadaandawed awe inaabiiginigewinini wii-o-dazhiikang iwe waasigani-biiwaabik.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	'i	'i	PRON	PRONDem|NI|Sg|PRON	_	3	dep	_	_
+3	gii-maadaandawed	maadaandawe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	awe	awe	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	inaabiiginigewinini	inaabiiginigewinini	NOUN	NA|ProxSg|NOUN	_	3	nsubj	_	_
+6	wii-o-dazhiikang	dazhiikan	VERB	PVTense/wii|PVDir/o|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	3	dep	_	_
+7	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	8	det	_	_
+8	waasigani-biiwaabik	waasigani-biiwaabik	NOUN	NI|Sg|NOUN	_	6	obj	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g75.s1
+# text = gii-gichi-inandiwag animoshag gii-miigaadiwaad .
+# parent_id = g75
+# seg_index = 1
+# text_en_full = Dogs really tore into each other when they were fighting because they had sharp teeth
+# text_full_parent = Gii-gichi-inandiwag animoshag gii-miigaadiwaad. Gii-kaashaabidewag.
+1	gii-gichi-inandiwag	inam	VERB	PVTense/gii|PVLex/gichi|VTA|Recip/di|VAI|Ind|Pos|Neu|3PlProxSubj|3PlProxObj|VERB	_	0	root	_	_
+2	animoshag	animosh	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+3	gii-miigaadiwaad	miigaadiwag	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3PlProxSubj|3PlProxObj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g75.s2
+# text = gii-kaashaabidewag .
+# parent_id = g75
+# seg_index = 2
+1	gii-kaashaabidewag	gaashaabide	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g76.s1
+# text = aaniish ge omaa ba-onji-nanaamadabid wa'awe .
+# parent_id = g76
+# seg_index = 1
+# text_en_full = Why is this person sitting around here? | Well, because he's visiting.
+# text_full_parent = Aaniish ge omaa ba-onji-nanaamadabid wa'awe. | Aana go naa mawadishiwe.
+1	aaniish	aaniish	ADV	ADVInter|ADV	_	4	dep	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	4	dep	_	_
+3	omaa	omaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	ba-onji-nanaamadabid	nanaamadabi	VERB	ChCnj|PVDir/bi|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	wa'awe	wa'awe	PRON	PRONDem|NA|ProxSg|PRON	_	4	nsubj	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g76.s2
+# text = aana go naa mawadishiwe .
+# parent_id = g76
+# seg_index = 2
+1	aana	aana	PART	PCDisc|PART	_	4	discourse	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	naa	naa	PART	PCEmph|PART	_	4	discourse	_	_
+4	mawadishiwe	mawadishiwe	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = g77.s1
+# text = aaniin ezhiwebinang ogiishkiboojigan gii-gawiboojiged .
+# parent_id = g77
+# seg_index = 1
+# text_en_full = How doe she handle her saw when she's taking a tree down? Does she tilt it sideways?
+# text_full_parent = Aaniin ezhiwebinang ogiishkiboojigan gii-gawiboojiged. Odanibenaan ina.
+1	aaniin	aaniin	ADV	ADVInter|ADV	_	2	dep	_	_
+2	ezhiwebinang	izhiwebinan	VERB	ChCnj|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+3	ogiishkiboojigan	giishkiboojigan	NOUN	NI|Sg|3SgProxPoss|NOUN	_	2	obj	_	_
+4	gii-gawiboojiged	gawiboojige	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g77.s2
+# text = odanibenaan ina .
+# parent_id = g77
+# seg_index = 2
+1	odanibenaan	anibenan	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	ina	ina	PART	PCDisc|PART	_	1	discourse	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g78.s1
+# text = boozin gibakwezhiganikaan .
+# parent_id = g78
+# seg_index = 1
+# text_en_full = Grease your bannock. Use butter.
+# text_full_parent = Boozin gibakwezhiganikaan. Doodooshaaboo-bimide aabajitoon.
+1	boozin	boozin	VERB	VTA|Imp|Sim|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	gibakwezhiganikaan	bakwezhiganikaan	NOUN	NA|ProxSg|2SgPoss|NOUN	_	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g78.s2
+# text = doodooshaaboo-bimide aabajitoon .
+# parent_id = g78
+# seg_index = 2
+1	doodooshaaboo-bimide	doodooshaaboo-bimide	NOUN	NI|Sg|NOUN	_	2	obj	_	_
+2	aabajitoon	aabajitoon	VERB	VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g79.s1
+# text = onjida go ge giin ji-wiijitwaayan
+# parent_id = g79
+# seg_index = 1
+# text_en_full = You really ought to help too.
+# text_full_parent = Onjida go ge giin ji-wiijitwaayan
+1	onjida	onjida	ADV	ADVMan|ADV	_	5	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	5	discourse	_	_
+3	ge	ge	ADV	ADVConj|ADV	_	5	dep	_	_
+4	giin	giin	PRON	PRONPer|NA|2Sg|PRON	_	5	nsubj	_	_
+5	ji-wiijitwaayan	wiijitwaa	VERB	PVTense/daa|VAI|Cnj|Pos|Neu|2SgSubj|VERB	_	0	root	_	_
+
+# sent_id = g80.s1
+# text = gii-mizhakiise iwe waasigan .
+# parent_id = g80
+# seg_index = 1
+# text_en_full = The lightning hit the ground.
+# text_full_parent = Gii-mizhakiise iwe waasigan.
+1	gii-mizhakiise	mizhakiise	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	waasigan	waasigan	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g81.s1
+# text = giishpin aninaatigokaag , giga-iskigamizigemin .
+# parent_id = g81
+# seg_index = 1
+# text_en_full = If there is a maple grove there, we'll boil sap.
+# text_full_parent = Giishpin aninaatigokaag, giga-iskigamizigemin.
+1	giishpin	giishpin	ADV	ADVGram|ADV	_	2	dep	_	_
+2	aninaatigokaag	aninaatigokaa	VERB	VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	,	,	X	_	_	2	dep	_	_
+4	giga-iskigamizigemin	iskigamizige	VERB	PVTense/ga|VAI|Ind|Pos|Neu|InclSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g82.s1
+# text = anaamakamig maa ingii-kaanaa nzhooniyaam .
+# parent_id = g82
+# seg_index = 1
+# text_en_full = I hide my money underground.
+# text_full_parent = Anaamakamig maa ingii-kaanaa nzhooniyaam.
+1	anaamakamig	anaamakamig	ADV	ADVLoc|ADV	_	3	obl	_	_
+2	maa	maa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	ingii-kaanaa	gaazh	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	nzhooniyaam	zhooniyaa	NOUN	NA|Poss|ProxSg|1SgPoss|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g83.s1
+# text = gabeya'ii gii-inendi gii-izhaad oodenaang indede .
+# parent_id = g83
+# seg_index = 1
+# text_en_full = It really took my dad a long time to go to town.
+# text_full_parent = Gabeya'ii gii-inendi gii-izhaad oodenaang indede.
+1	gabeya'ii	gabeya'ii	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gii-inendi	inendi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	gii-izhaad	izhaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	oodenaang	oodena	NOUN	NI|Loc|NOUN	_	3	obl	_	_
+5	indede	dedey	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g84.s1
+# text = gaawiin ingii-gikendanziin waa-izhichigeyaan , gaa-izhi-gagwejitooyaan .
+# parent_id = g84
+# seg_index = 1
+# text_en_full = I didn't know what to do, so I tried it.
+# text_full_parent = Gaawiin ingii-gikendanziin waa-izhichigeyaan, gaa-izhi-gagwejitooyaan.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	ingii-gikendanziin	gikendam	VERB	PVTense/gii|VAI|Ind|Neg|Neu|1SgSubj|VERB	_	0	root	_	_
+3	waa-izhichigeyaan	izhichige	VERB	ChCnj|PVTense/wii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	2	dep	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+5	gaa-izhi-gagwejitooyaan	gagwejitoon	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTI|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g85.s1
+# text = onji'idim anooj igo ji-doodawindwaa animoshag .
+# parent_id = g85
+# seg_index = 1
+# text_en_full = It is forbidden to mistreat dogs.
+# text_full_parent = Onji'idim anooj igo ji-doodawindwaa animoshag.
+1	onji'idim	onji'idiwag	VERB	VAI|Ind|Pos|Neu|XSubj|XObj|VERB	_	0	root	_	_
+2	anooj	anooj	ADV	ADVQnt|ADV	_	1	dep	_	_
+3	igo	igo	PART	PCEmph|PART	_	1	discourse	_	_
+4	ji-doodawindwaa	doodaw	VERB	PVTense/daa|VTA|Cnj|Pos|Neu|XSubj|3PlProxObj|VERB	_	1	dep	_	_
+5	animoshag	animosh	NOUN	NA|ProxPl|NOUN	_	4	obj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g86.s1
+# text = gii-nishkaadizi aana-gii-kaagiikaazomag .
+# parent_id = g86
+# seg_index = 1
+# text_en_full = He was angry when I counseled him.
+# text_full_parent = Gii-nishkaadizi aana-gii-kaagiikaazomag.
+1	gii-nishkaadizi	nishkaadizi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	aana-gii-kaagiikaazomag	gaagiikaazom	VERB	PVTense/aana|PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g87.s1
+# text = biboonong gii-gichi-ishpaagonagaa .
+# parent_id = g87
+# seg_index = 1
+# text_en_full = Last winter the snow was very deep.
+# text_full_parent = Biboonong gii-gichi-ishpaagonagaa.
+1	biboonong	biboonong	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gii-gichi-ishpaagonagaa	ishpaagonagaa	VERB	PVTense/gii|PVLex/gichi|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g88.s1
+# text = awegwen igo gaa-mamadwetood agwajiing dibikong .
+# parent_id = g88
+# seg_index = 1
+# text_en_full = I wonder who was making that noise outside last night.
+# text_full_parent = Awegwen igo gaa-mamadwetood agwajiing dibikong.
+1	awegwen	awegwen	PRON	PRONDub|NA|ProxSg|PRON	_	3	nsubj	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	gaa-mamadwetood	mamadwetoo	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	agwajiing	agwajiing	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	dibikong	dibikong	ADV	ADVTmp|ADV	_	3	advmod	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = g89.s1
+# text = ogii-minjinawe'aan ini wiiwan aana-wii-kanawaabinid wayiiba gii-ni-giiwewaad .
+# parent_id = g89
+# seg_index = 1
+# text_en_full = When they went home early, he made his wife rueful because she had wanted to watch the goings on.
+# text_full_parent = Ogii-minjinawe'aan ini wiiwan aana-wii-kanawaabinid wayiiba gii-ni-giiwewaad.
+1	ogii-minjinawe'aan	minjinawe'	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
+2	ini	ini	DET	PRONDem|NA|ObvSg|DET	_	3	det	_	_
+3	wiiwan	wiiw	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	1	obj	_	_
+4	aana-wii-kanawaabinid	ganawaabi	VERB	PVTense/aana|PVTense/wii|VAI|Cnj|Pos|Neu|3SgObvSubj|VERB	_	1	dep	_	_
+5	wayiiba	wayiiba	ADV	ADVTmp|ADV	_	4	advmod	_	_
+6	gii-ni-giiwewaad	giiwe	VERB	PVTense/gii|PVDir/ni|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g90.s1
+# text = nimanezin niizhooshkin 'i bingwi .
+# parent_id = g90
+# seg_index = 1
+# text_en_full = I need two bags of sand.
+# text_full_parent = Nimanezin niizhooshkin 'i bingwi.
+1	nimanezin	manezin	VERB	VAIO|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	niizhooshkin	niizhooshkin	NUM	NUM	_	4	nummod	_	_
+3	'i	'i	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	bingwi	bingwi	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g91.s1
+# text = ogii-piimaskonaan 'iw zagaakwa'igan gii-mashkawaakwa'ang .
+# parent_id = g91
+# seg_index = 1
+# text_en_full = He turned the bolt to tighten it.
+# text_full_parent = Ogii-piimaskonaan 'iw zagaakwa'igan gii-mashkawaakwa'ang.
+1	ogii-piimaskonaan	biimaskonan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	'iw	'iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	zagaakwa'igan	zagaakwa'igan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	gii-mashkawaakwa'ang	mashkawaakwa'an	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g92.s1
+# text = onandoojiinaan 'iw biskanebijigaans .
+# parent_id = g92
+# seg_index = 1
+# text_en_full = He's feeling around for his flashlight. | Did he find it?
+# text_full_parent = Onandoojiinaan 'iw biskanebijigaans.  | Ogii-mikoojiinaan ina?
+1	onandoojiinaan	nandoojiinan	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	'iw	'iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	biskanebijigaans	biskanebijigaans	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g92.s2
+# text = ogii-mikoojiinaan ina ?
+# parent_id = g92
+# seg_index = 2
+1	ogii-mikoojiinaan	mikoojiinan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	ina	ina	PART	PCDisc|PART	_	1	discourse	_	_
+3	?	?	PUNCT	?	_	1	punct	_	_
+
+# sent_id = g93.s1
+# text = geyaabi oshkiinaagwad gidoodaabaan .
+# parent_id = g93
+# seg_index = 1
+# text_en_full = Your car still looks new.
+# text_full_parent = Geyaabi oshkiinaagwad gidoodaabaan.
+1	geyaabi	geyaabi	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	oshkiinaagwad	oshkiinaagwad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	gidoodaabaan	odaabaan	NOUN	NI|Sg|2SgPoss|NOUN	_	2	nsubj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g94.s1
+# text = indaga awi-ikobidooyok iwe jiimaanish .
+# parent_id = g94
+# seg_index = 1
+# text_en_full = Why don't you go pull up that old boat?
+# text_full_parent = Indaga awi-ikobidooyok iwe jiimaanish.
+1	indaga	indaga	PART	PCDisc|PART	_	2	discourse	_	_
+2	awi-ikobidooyok	ikobidoon	VERB	PVDir/awi|VTI|Imp|Sim|2SgSubj|0SgObj|VERB	_	0	root	_	_
+3	iwe	iwe	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	jiimaanish	jiimaan	NOUN	NI|Pej|Sg|NOUN	_	2	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g95.s1
+# text = niyaazhawisidoon i'iw nibabagiwayaaniigin imaa adoopowinaakong .
+# parent_id = g95
+# seg_index = 1
+# text_en_full = I'm laying my fabric across the table.
+# text_full_parent = Niyaazhawisidoon i'iw nibabagiwayaaniigin imaa adoopowinaakong.
+1	niyaazhawisidoon	aazhawisidoon	VERB	VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	i'iw	i'iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	nibabagiwayaaniigin	babagiwayaaniigin	NOUN	NI|Sg|1SgPoss|NOUN	_	1	obj	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	adoopowinaakong	adoopowinaak	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g96.s1
+# text = apane naa niwiiwakwaan .
+# parent_id = g96
+# seg_index = 1
+# text_en_full = There went my cap! It got caught up on a tree branch.
+# text_full_parent = Apane naa niwiiwakwaan. Gii-sagaakwadin imaa wadikwaning.
+1	apane	apane	ADV	ADVTmp|ADV	_	0	root	_	_
+2	naa	naa	PART	PCEmph|PART	_	1	dep	_	_
+3	niwiiwakwaan	wiiwakwaan	NOUN	NI|Sg|1SgPoss|NOUN	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g96.s2
+# text = gii-sagaakwadin imaa wadikwaning .
+# parent_id = g96
+# seg_index = 2
+1	gii-sagaakwadin	zagaakwadin	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	case	_	_
+3	wadikwaning	wadikwan	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g97.s1
+# text = agaawaa ingii-pi-gashkinaan jiimaan gii-bi-gabadooyaan .
+# parent_id = g97
+# seg_index = 1
+# text_en_full = I could barely lift my canoe when I portaged over.
+# text_full_parent = Agaawaa ingii-pi-gashkinaan jiimaan gii-bi-gabadooyaan.
+1	agaawaa	agaawaa	ADV	ADVDeg|ADV	_	2	advmod	_	_
+2	ingii-pi-gashkinaan	gashkinan	VERB	PVTense/gii|PVDir/bi|VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+3	jiimaan	jiimaan	NOUN	NI|Sg|NOUN	_	2	obj	_	_
+4	gii-bi-gabadooyaan	gabadoo	VERB	PVTense/gii|PVDir/bi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g98.s1
+# text = anaamaya'ii gii-inaabi andawaabandang ogiboodiyegwaazon .
+# parent_id = g98
+# seg_index = 1
+# text_en_full = He looked underneath for his trousers.
+# text_full_parent = Anaamaya'ii gii-inaabi andawaabandang ogiboodiyegwaazon.
+1	anaamaya'ii	anaamaya'ii	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	gii-inaabi	inaabi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	andawaabandang	andawaabandan	VERB	VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	2	dep	_	_
+4	ogiboodiyegwaazon	giboodiyegwaazon	NOUN	NI|Sg|3SgProxPoss|NOUN	_	3	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g99.s1
+# text = gichi-weweni ingii-piini'aa indoopwaagan .
+# parent_id = g99
+# seg_index = 1
+# text_en_full = I cleaned my pipe real good.
+# text_full_parent = Gichi-weweni ingii-piini'aa indoopwaagan.
+1	gichi-weweni	weweni	ADV	PVLex/gichi|ADVMan|ADV	_	2	advmod	_	_
+2	ingii-piini'aa	biini'	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	indoopwaagan	opwaagan	NOUN	NA|ProxSg|1SgPoss|NOUN	_	2	obj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = g100.s1
+# text = agaasoonagad ninjiimaan .
+# parent_id = g100
+# seg_index = 1
+# text_en_full = My canoe is small. It's very tippy.
+# text_full_parent = Agaasoonagad ninjiimaan. Wawiinge gokokwaa.
+1	agaasoonagad	agaasoonagad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	ninjiimaan	jiimaan	NOUN	NI|Sg|1SgPoss|NOUN	_	1	nsubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = g100.s2
+# text = wawiinge gokokwaa .
+# parent_id = g100
+# seg_index = 2
+1	wawiinge	wawiinge	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gokokwaa	gokokwaa	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+

@@ -79,7 +79,7 @@ SET UNCONDITIONAL_ADVS = ("debinaak") OR ("nising") OR ("niiwing") OR ("niizhing
 
 
 SET NOMINAL = NA_NAD OR NI_NID ;
-SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIO) ;
+SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIO) OR (VAIPL) OR (VIIPL);
 SET ADV = (ADVConj)  OR (ADVDisc) OR (ADVDub) OR (ADVGram) OR (ADVInter) OR (ADVLoc) OR (ADVMan) OR (ADVNeg) OR (ADVPred) OR (ADVQnt) OR (ADVTmp) OR (ADVDeg);
 SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR (PRONSim) OR (PRONPer) ;
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;

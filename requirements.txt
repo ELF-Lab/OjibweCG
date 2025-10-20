@@ -1,7 +1,7 @@
 # Runtime deps
 fst_runtime
 jinja2>=3.1
-pyconll>=3.3
+pyconll>=3.2
 rich>=13.7
 spacy>=3.7,<4.0
 tabulate>=0.9

@@ -30,8 +30,26 @@ WORD_TYPES   = ("verb", "pronoun", "noun", "adverb", "other")
 # tags that are always ignored when computing morphology only differences
 _ALWAYS_DISCARD = VERB_TAGS | NOUN_TAGS | ADVERB_TAGS | PRONOUN_TAGS
 
+_PUNCT_SET = set(PUNCTUATIONS)
+
 
 # Helper functions
+def _is_punct_surface(tok: str) -> bool:
+    """True iff the surface token is punctuation/preserve token."""
+    return tok in _PUNCT_SET or tok == PRESERVE_TOKEN
+
+def _is_punct_reading_parts(parts: list[str]) -> bool:
+    """
+    True iff a reading line corresponds to punctuation.
+    """
+    if not parts:
+        return False
+    lemma = parts[0].strip('"')
+    if lemma == "PUNCT":
+        return True
+    tags = set(parts[1:])
+    return "PUNCT" in tags
+
 
 def _progress(i: int, n: int, *, width: int = 28, label: str = "") -> None:
     """Simple progress bar"""
@@ -98,13 +116,33 @@ def _count_readings(block: str) -> Tuple[int, int]:
         Only non-punctuation tokens are counted as words.
     """
     words = analyses = 0
+    cur_tok = None
+    cur_readings: list[list[str]] = []
+
+    def flush():
+        nonlocal words, analyses, cur_tok, cur_readings
+        if cur_tok is None:
+            return
+        if not _is_punct_surface(cur_tok):
+            non_punct = [r for r in cur_readings if not _is_punct_reading_parts(r)]
+            if non_punct:
+                words += 1
+                analyses += len(non_punct)
+        cur_tok = None
+        cur_readings = []
+
     for ln in block.splitlines():
         if ln.startswith('"<') and ln.endswith('>"'):
-            tok = ln[2:-2]
-            if tok and tok not in PUNCTUATIONS and tok != PRESERVE_TOKEN:
-                words += 1
-        elif ln.startswith("\t"):
-            analyses += 1
+            flush()
+            cur_tok = ln[2:-2]
+            continue
+        if ln.startswith("\t"):
+            cur_readings.append(ln.strip().split())
+            continue
+        if not ln.strip():
+            flush()
+
+    flush()
     return words, analyses
 
 
@@ -129,42 +167,30 @@ def _count_by_type(block: str) -> Dict[str, Dict[str, int]]:
       with one synthetic reading to keep totals consistent.
     """
     counts = {wt: {"words": 0, "readings": 0} for wt in WORD_TYPES}
+    cur_tok = None
+    cur_readings: list[list[str]] = []
 
-    in_word = False
-    reading_tally: Counter[str] = Counter()
-    token_is_countable = False
-
-    def _flush_token() -> None:
-        # add accumulated readings for the last token into counts
-        nonlocal reading_tally
-        if not token_is_countable:
-            reading_tally.clear()
+    def flush():
+        nonlocal cur_tok, cur_readings
+        if cur_tok is None:
             return
-
-        if reading_tally:
-            for pos, n in reading_tally.items():
-                counts[pos]["words"]    += 1
-                counts[pos]["readings"] += n
-        else:
-            counts["other"]["words"]    += 1
-            counts["other"]["readings"] += 1
-
-        reading_tally.clear()
+        if not _is_punct_surface(cur_tok):
+            non_punct = [r for r in cur_readings if not _is_punct_reading_parts(r)]
+            if non_punct:
+                # determine POS bucket from first non-punct reading
+                first_tags = set(non_punct[0][1:])
+                pos = _major_pos(first_tags)
+                counts[pos]["words"] += 1
+                counts[pos]["readings"] += len(non_punct)
+        cur_tok = None
+        cur_readings = []
 
     for ln in block.splitlines() + ["## END"]:
         if ln.startswith('"<') and ln.endswith('>"'):
-            if in_word:
-                _flush_token()
-            tok = ln[2:-2]
-            token_is_countable = bool(
-                tok and tok not in PUNCTUATIONS and tok != PRESERVE_TOKEN
-            )
-            in_word = True
-
-        elif in_word and ln.startswith("\t"):
-            tags = set(ln.strip().split()[1:])
-            pos = _major_pos(tags)
-            reading_tally[pos] += 1
+            flush()
+            cur_tok = ln[2:-2]
+        elif ln.startswith("\t"):
+            cur_readings.append(ln.strip().split())
 
     return counts
 
@@ -218,73 +244,69 @@ def _ambiguity(block: str, total_words: int,
 
     Returns
     -------
-    dict
-        {
-          "overview": {
-              "total_ambiguous_tokens": int,
-              "pct_tokens_ambiguous": float,
-              "lemma": int, "preverb": int, "pos": int, "morpho": int
-          },
-          "top_tokens": list[(token, count)],
-          "patterns": {
-              "lemma":   {pos?: {pattern: {count, tokens}} | {pattern: {...}}},
-              "preverb": {pos?: {pattern: {count, tokens}}},
-              "pos":     {pattern: {count, tokens}},
-              "morpho":  {pos?: {pattern: {count, tokens}}}
-          }
-        }
+    dict w/ "overview", "top tokens", and "patterns"
     """
     kinds, tok_counter = Counter(), Counter()
-    patterns = {"lemma": {}, "preverb": {}, "morpho": {}, "pos": {}, }
-    token, readings = None, []
+    patterns = {"lemma": {}, "preverb": {}, "morpho": {}, "pos": {}}
+    token = None
+    readings: list[list[str]] = []
+
+    def flush_token():
+        nonlocal token, readings
+        if token is None or _is_punct_surface(token):
+            token, readings = None, []
+            return
+        non_punct = [r for r in readings if not _is_punct_reading_parts(r)]
+        if token and len(non_punct) > 1:
+            k = _classify_amb(non_punct)
+            pos_bucket = _major_pos(set(non_punct[0][1:]))
+            kinds[k] += 1
+            tok_counter[token] += 1
+
+            if k == "pos":
+                key = "+".join(sorted({_major_pos(set(r[1:])) for r in non_punct}))
+                store = patterns["pos"]
+            elif k == "preverb":
+                pv_sets = [{t for t in r[1:] if t.startswith("PV")} for r in non_punct]
+                diff = _strip_common(pv_sets)
+                key = " vs ".join(sorted(",".join(sorted(d)) if d else "{}" for d in diff))
+                store = patterns["preverb"].setdefault(pos_bucket, {})
+            elif k == "lemma":
+                key = " vs ".join(sorted({r[0].strip('"') for r in non_punct}))
+                store = patterns["lemma"].setdefault(pos_bucket, {})
+            else:  # morpho
+                sig_sets = [{t for t in r[1:]
+                             if not t.startswith("PV") and t not in _ALWAYS_DISCARD}
+                            for r in non_punct]
+                diff = _strip_common(sig_sets)
+                key = " | ".join(sorted(",".join(sorted(d)) if d else "{}" for d in diff))
+                store = patterns["morpho"].setdefault(pos_bucket, {})
+
+            info = store.setdefault(key, {"count": 0, "tokens": Counter()})
+            info["count"] += 1
+            info["tokens"][token] += 1
+
+        token, readings = None, []
 
     for ln in block.splitlines() + ["## END"]:
         if ln.startswith('"<') and ln.endswith('>"'):
-            # close previous token if it had >1 reading
-            if token and len(readings) > 1:
-                k = _classify_amb(readings)
-                pos_bucket = _major_pos(set(readings[0][1:]))
-                kinds[k] += 1
-                tok_counter[token] += 1
-
-                if k == "pos":
-                    key = "+".join(sorted({_major_pos(set(r[1:])) for r in readings}))
-                    store = patterns["pos"]
-                elif k == "preverb":
-                    pv_sets = [{t for t in r[1:] if t.startswith("PV")}
-                               for r in readings]
-                    diff = _strip_common(pv_sets)
-                    key = " vs ".join(sorted(",".join(sorted(d)) if d else "{}"
-                                             for d in diff))
-                    store = patterns["preverb"].setdefault(pos_bucket, {})
-                elif k == "lemma":
-                    key = " vs ".join(sorted({r[0].strip('"') for r in readings}))
-                    store = patterns["lemma"].setdefault(pos_bucket, {})
-                else:  # morpho
-                    sig_sets = [{t for t in r[1:] if not t.startswith("PV")
-                                                and t not in _ALWAYS_DISCARD}
-                                for r in readings]
-                    diff = _strip_common(sig_sets)
-                    key = " | ".join(sorted(",".join(sorted(d)) if d else "{}"
-                                             for d in diff))
-                    store = patterns["morpho"].setdefault(pos_bucket, {})
-
-                info = store.setdefault(key, {"count": 0, "tokens": Counter()})
-                info["count"] += 1
-                info["tokens"][token] += 1
-
-            token, readings = ln[2:-2], []
+            flush_token()
+            token = ln[2:-2]
         elif ln.startswith("\t"):
-            readings.append(ln.strip().split())
+            parts = ln.strip().split()
+            if not _is_punct_reading_parts(parts):
+                readings.append(parts)
+    
+    flush_token()
 
     total = sum(kinds.values())
     overview = {"total_ambiguous_tokens": total,
-                "pct_tokens_ambiguous": total / total_words if total_words else 0.0,
-                **{t: kinds[t] for t in ("lemma", "preverb", "pos", "morpho")}}
+        "pct_tokens_ambiguous": total / total_words if total_words else 0.0,
+        **{t: kinds[t] for t in ("lemma", "preverb", "pos", "morpho")},}
 
     return {"overview": overview,
-            "top_tokens": tok_counter.most_common(top_n),
-            "patterns": patterns}
+        "top_tokens": tok_counter.most_common(top_n),
+        "patterns": patterns,}
 
 
 def _table_dict(stats: dict) -> Dict[str, str]:

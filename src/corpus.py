@@ -150,40 +150,55 @@ def visualise_conllu(corpus_path: Union[str, Path],
                      *,
                      compact: bool = True,
                      collapse_punct: bool = True) -> None:
-    """Render one sentence with spaCy displaCy."""
+    """Render one sentence from a CoNLL-U file with spaCy displaCy."""
     try:
         import pyconll, spacy
-        from spacy.tokens import Doc
         from spacy import displacy
+        from IPython.display import HTML, display
     except ImportError as e:
-        rich.print("[bold red]❌ spaCy/pyconll missing"); rich.print(str(e)); return
+        rich.print("[bold red]❌ Missing dependency (install pyconll/spacy/IPython)"); 
+        rich.print(str(e)); 
+        return
 
     corpus_path = Path(corpus_path)
     if not corpus_path.is_file():
         rich.print(f"[bold red]❌ file not found: {corpus_path}")
         return
 
-    sentences = list(pyconll.load_from_file(corpus_path))
-    if not 0 < sent_no <= len(sentences):
-        rich.print(f"[bold red]❌ sentence index {sent_no} out of range (1..{len(sentences)})")
+    sents = list(pyconll.load_from_file(corpus_path))
+    if not 0 < sent_no <= len(sents):
+        rich.print(f"[bold red]❌ sentence index {sent_no} out of range (1..{len(sents)})")
         return
-    sent = sentences[sent_no - 1]
+    sent = sents[sent_no - 1]
 
-    words = [tok.form for tok in sent]
-    spaces = [True] * (len(words) - 1) + [False]
-    nlp = spacy.blank("xx")
-    doc = Doc(nlp.vocab, words=words, spaces=spaces)
+    # Words list (skip punctuation if collapse_punct)
+    keep = [i for i, tok in enumerate(sent) if not (collapse_punct and (tok.upos or "").upper() == "PUNCT")]
+    idx_map = {old_i: new_i for new_i, old_i in enumerate(keep)}
 
-    for i, (sp_tok, ud_tok) in enumerate(zip(doc, sent)):
-        head_i = int(ud_tok.head) - 1 if ud_tok.head != "0" else i
-        sp_tok.pos_ = ud_tok.upos or "X"
-        sp_tok.tag_ = ud_tok.xpos or "_"
-        sp_tok.dep_ = ud_tok.deprel or "dep"
-        sp_tok.head = doc[head_i]
+    words = [{"text": sent[i].form, "tag": (sent[i].upos or "")} for i in keep]
+
+    # Build arcs for dependencies (needs start/end indices and direction)
+    arcs = []
+    for i_old in keep:
+        tok = sent[i_old]
+        if tok.head == "0":
+            continue  # skip root arc
+        head_old = int(tok.head) - 1
+        # skip if head got collapsed
+        if head_old not in idx_map or i_old not in idx_map:
+            continue
+        i = idx_map[i_old]
+        h = idx_map[head_old]
+        start, end = (h, i) if h < i else (i, h)
+        direction = "left" if h < i else "right"
+        arcs.append({"start": start, "end": end, "label": tok.deprel or "dep", "dir": direction})
 
     rich.print(f"[bold cyan]visualising sentence {sent_no} from {corpus_path.name}")
-    displacy.render(doc, style="dep", jupyter=True,
-                    options={"compact": compact, "collapse_punct": collapse_punct})
+
+    html = displacy.render({"words": words, "arcs": arcs},
+                           style="dep", manual=True, jupyter=False,
+                           options={"compact": compact})
+    display(HTML(html))
 
 
 def delete_sentence(corpus_path: Union[str, Path],

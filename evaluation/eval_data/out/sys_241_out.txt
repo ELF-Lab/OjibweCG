@@ -1,0 +1,3419 @@
+# sent_id = 1
+# text = Makadewaakozi 'aw mitig.
+"<makadewaakozi>"
+	"makadewaakozi" VAI Ind Pos Neu 3SgProxSubj
+"<'aw>"
+	"'aw" PRONDem NA ProxSg
+"<mitig>"
+	"mitig" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 2
+# text = Gigikenimaa na ezhinaagozid miskwaabiimagoons gaye ezhibagizid.
+"<gigikenimaa>"
+	"gikenim" VTA Ind Pos Neu 2SgSubj 3SgProxObj
+"<na>"
+	"na" PCDisc
+"<ezhinaagozid>"
+	"izhinaagozi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"izhinaagozi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<miskwaabiimagoons>"
+	"miskwaabiimagoons" NA ProxSg
+"<gaye>"
+	"gaye" ADVConj
+"<ezhibagizid>"
+	"izhibagizi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"izhibagizi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 3
+# text = Nigichi-zegi'igonaan awe gaa-ojibinigod zhebaa.
+"<nigichi-zegi'igonaan>"
+	"zegi'" PVLex/gichi VTA Ind Pos Neu 3SgProxSubj ExclObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<gaa-ojibinigod>"
+	"ojibinigo" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"ojibinigo" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	"ojibinigo" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+"<zhebaa>"
+	"zhebaa" ADVTmp
+"<.>"
+	"PUNCT"
+
+# sent_id = 4
+# text = Naawi-ziibi dananjige a'aw mooz.
+"<naawi-ziibi>"
+	"naawi-ziibi" ADVLoc
+"<dananjige>"
+	"dananjige" VAI Ind Pos Neu 3SgProxSubj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<mooz>"
+	"moonz" NA ProxSg
+	"mooz" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 5
+# text = Gii-bi-agaashiinyiyaan apane ningii'-anishinaabem. Geyaabi go noongom.
+"<gii-bi-agaashiinyiyaan>"
+	"agaashiinyi" PVTense/gii PVDir/bi VAI Cnj Pos Neu 1SgSubj
+"<apane>"
+	"apane" ADVTmp
+"<ningii'-anishinaabem>"
+	"anishinaabemo" PVTense/gii' VAI Ind Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+"<geyaabi>"
+	"geyaabi" ADVTmp
+"<go>"
+	"go" PCDisc
+"<noongom>"
+	"noongom" ADVTmp
+"<.>"
+	"PUNCT"
+
+# sent_id = 6
+# text = Gwiiwizens gii-tipaabaawazo gii-bimaadagaaziibatood.
+"<gwiiwizens>"
+	"gwiiwizens" NA ProxSg
+"<gii-tipaabaawazo>"
+	"dipaabaawazo" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<gii-bimaadagaaziibatood>"
+	"bimaadagaaziibatoo" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 7
+# text = Akawe nimbagidendaanan niwanii'iganan onzaam ishpaagonagaa. Baamaa naagaj ninga-andawaabandaanan.
+"<akawe>"
+	"akawe" ADVTmp
+"<nimbagidendaanan>"
+	"bagidendan" VTI Ind Pos Neu 1SgSubj 0PlObj
+"<niwanii'iganan>"
+	"wanii'igan" NI Pl 1SgPoss
+"<onzaam>"
+	"onzaam" ADVQnt
+"<ishpaagonagaa>"
+	"ishpaagonagaa" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+"<baamaa>"
+	"baamaa" ADVTmp
+"<naagaj>"
+	"naagaj" ADVQnt
+"<ninga-andawaabandaanan>"
+	"andawaabandan" PVTense/ga VTI Ind Pos Neu 1SgSubj 0PlObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 8
+# text = Baamaa bengobagaag giga-andawawinzomin; onzaam nibiiwibagaa 'owapii.
+"<baamaa>"
+	"baamaa" ADVTmp
+"<bengobagaag>"
+	"bengobagaa" VII Cnj Pos Neu 0PlSubj
+	"bengobagaa" VII Cnj Pos Neu 0SgSubj
+"<giga-andawawinzomin>"
+	"andawawinzo" PVTense/ga VAI Ind Pos Neu InclSubj
+"<;>"
+	"PUNCT"
+"<onzaam>"
+	"onzaam" ADVQnt
+"<nibiiwibagaa>"
+	"nibiiwibagaa" VII Ind Pos Neu 0SgSubj
+"<'owapii>"
+	"'owapii" ADVTmp
+"<.>"
+	"PUNCT"
+
+# sent_id = 9
+# text = Giishpin ningishimaad giboziganan, giga-ozaawaakizwaanaan gibozigan.
+"<giishpin>"
+	"giishpin" ADVGram
+"<ningishimaad>"
+	"ningishim" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"ningishim" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<giboziganan>"
+	"gibozigan" NA ObvSg
+	"gibozigan" NA ObvPl
+"<,>"
+	"PUNCT"
+"<giga-ozaawaakizwaanaan>"
+	"ozaawaakiz" PVTense/ga VTA Ind Pos Neu InclSubj 3SgProxObj
+"<gibozigan>"
+	"gibozigan" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 10
+# text = Ingii-inaa ji-giiwed.
+"<ingii-inaa>"
+	"izhi" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<ji-giiwed>"
+	"giiwe" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+	"giiwe" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 11
+# text = Nishwaaso-gikinoonowin ingii-ayaamin mashkodeng.
+"<nishwaaso-gikinoonowin>"
+	"nishwaaso-gikinoonowin" NUM
+"<ingii-ayaamin>"
+	"ayaan" PVTense/gii VTI Ind Pos Neu ExclSubj 0SgObj
+	"ayaan" PVTense/gii VTI Ind Pos Neu ExclSubj 0PlObj
+"<mashkodeng>"
+	"mashkode" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 12
+# text = Naawishkwaand namadabi animosh.
+"<naawishkwaand>"
+	"naawishkwaand" ADVLoc
+"<namadabi>"
+	"namadabi" VAI Ind Pos Neu 3SgProxSubj
+"<animosh>"
+	"animosh" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 13
+# text = Maagoshkan ji-gibichibizoyan.
+"<maagoshkan>"
+	"maagoshkan" VTI Imp Sim 2SgSubj 0SgObj
+	"maagoshkan" VTI Imp Sim 2SgSubj 0PlObj
+"<ji-gibichibizoyan>"
+	"gibichibizo" PVTense/ga VAI Cnj Pos Neu 2SgSubj
+	"gibichibizo" PVTense/daa VAI Cnj Pos Neu 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 14
+# text = Weweni inanjige'idizon. Gego miijiken gaa-boozaag.
+"<weweni>"
+	"weweni" ADVMan
+"<inanjige'idizon>"
+	"inanjige'idizo" VAI Imp Sim 2SgSubj 2SgObj
+"<.>"
+	"PUNCT"
+"<gego>"
+	"gego" ADVNeg
+"<miijiken>"
+	"miijin" VTI Imp Prb 2SgSubj 0SgObj
+	"miijin" VTI Imp Prb 2SgSubj 0PlObj
+"<gaa-boozaag>"
+	"boozaa" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
+	"boozaa" ChCnj PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"boozaa" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+	"boozaa" PVSub/gaa VII Cnj Pos Neu 0PlSubj
+	"boozaa" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 15
+# text = Aandi ezhidaabaadamawaad.
+"<aandi>"
+	"aandi" ADVInter
+"<ezhidaabaadamawaad>"
+	"izhidaabaadamaw" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"izhidaabaadamaw" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 16
+# text = Nibawaanaa bemaadizid.
+"<nibawaanaa>"
+	"bawaazh" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<bemaadizid>"
+	"bimaadizi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"bimaadizi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 17
+# text = Ozhisidoon onaaganan. Mii zhigwa go wiiba ji-wiisiniyang.
+"<ozhisidoon>"
+	"ozhisidoon" VTI Imp Sim 2SgSubj 0PlObj
+"<onaaganan>"
+	"onaagan" NI Pl
+"<.>"
+	"PUNCT"
+"<mii>"
+	"mii" ADVPred
+"<zhigwa>"
+	"zhigwa" ADVTmp
+"<go>"
+	"go" PCDisc
+"<wiiba>"
+	"wiiba" ADVTmp
+"<ji-wiisiniyang>"
+	"wiisini" PVTense/ga VAI Cnj Pos Neu InclSubj
+	"wiisini" PVTense/daa VAI Cnj Pos Neu InclSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 18
+# text = Anaamaabik ogii-izhi-gaanaan ozhooniyaaman.
+"<anaamaabik>"
+	"anaamaabik" ADVLoc
+"<ogii-izhi-gaanaan>"
+	"gaazh" PVTense/gii PVRel/izhi VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"gaazh" PVTense/gii PVRel/izhi VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<ozhooniyaaman>"
+	"zhooniyaa" NA Poss ObvSg 3SgProxPoss
+	"zhooniyaa" NA Poss ObvPl 3SgProxPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 19
+# text = Ayaangwaamizin. Gego ozhaashishingen.
+"<ayaangwaamizin>"
+	"ayaangwaamizi" VAI Imp Sim 2SgSubj
+"<.>"
+	"PUNCT"
+"<gego>"
+	"gego" ADVNeg
+"<ozhaashishingen>"
+	"ozhaashishin" VAI Imp Prb 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 20
+# text = Aaniin endashiwaad.
+"<aaniin>"
+	"aaniin" ADVInter
+	"aaniin" PCInterj
+"<endashiwaad>"
+	"dashiwag" ChCnj VAIPL Cnj Pos Neu 3PlProxSubj
+	"dashi" ChCnj VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 21
+# text = Ziigigamizo awe zhiishiibakikoons.
+"<ziigigamizo>"
+	"ziigigamizo" VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<zhiishiibakikoons>"
+	"zhiishiibakik" NA Dim ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 22
+# text = Aapiji booziiwagizi name.
+"<aapiji>"
+	"aapiji" ADVDeg
+"<booziiwagizi>"
+	"booziiwagizi" VAI Ind Pos Neu 3SgProxSubj
+"<name>"
+	"name" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 23
+# text = Zhooniyaa nindayaawaa nizhooniyaa-mashkimodaang.
+"<zhooniyaa>"
+	"zhooniyaa" NA ProxSg
+"<nindayaawaa>"
+	"ayaaw" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<nizhooniyaa-mashkimodaang>"
+	"zhooniyaa-mashkimod" NI Loc 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 24
+# text = Wenda-ojaanimitaa awe anaamisagadoweshiinh gabeshid.
+"<wenda-ojaanimitaa>"
+	"ojaanimitaa" PVLex/wenda VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<anaamisagadoweshiinh>"
+	"anaamisagadoweshiinh" NA ProxSg
+"<gabeshid>"
+	"gabeshi" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 25
+# text = Anishaa sa go giwawiyazhinawin ezhichigeyan.
+"<anishaa>"
+	"anishaa" ADVMan
+"<sa>"
+	"sa" PCDisc
+"<go>"
+	"go" PCDisc
+"<giwawiyazhinawin>"
+	"wawiyazhinaw" VTA Ind Pos Neu 1SgSubj 2SgObj
+"<ezhichigeyan>"
+	"izhichige" ChCnj VAI Cnj Pos Neu 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 26
+# text = Onzaam mamaachaawan iniw makizinan gaa-pi-miinigooyaan.
+"<onzaam>"
+	"onzaam" ADVQnt
+"<mamaachaawan>"
+	"mamaachaawan" VIIPL Ind Pos Neu 0PlSubj
+"<iniw>"
+	"iniw" PRONDem NI Pl
+"<makizinan>"
+	"makizin" NI Pl
+"<gaa-pi-miinigooyaan>"
+	"miizh" ChCnj PVTense/gii PVDir/bi VTA Cnj Pos Neu XSubj 1SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 27
+# text = Mii 'i ezhinaagwak. Inashke!
+"<mii>"
+	"mii" ADVPred
+"<'i>"
+	"'i" PRONDem NI Sg
+"<ezhinaagwak>"
+	"izhinaagwad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"izhinaagwad" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+"<inashke>"
+	"inashke" PCDisc
+"<!>"
+	"PUNCT"
+
+# sent_id = 28
+# text = NIngo-giizhik gii-o-gibaakwa'waa.
+"<ningo-giizhik>"
+	"giizhik" PNQnt/ningo NA ProxSg
+"<gii-o-gibaakwa'waa>"
+	"gibaakwa'" PVTense/gii PVDir/o VTA Ind Pos Neu XSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 29
+# text = Neniswi ningii-apatoomin zaaga'iganiing.
+"<neniswi>"
+	"neniswi" NUM
+"<ningii-apatoomin>"
+	"apatoo" PVTense/gii VAI Ind Pos Neu ExclSubj
+"<zaaga'iganiing>"
+	"zaaga'igan" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 30
+# text = Gakina gegoo banaskobagaabaawe, booshke miinan banaskobagaabaawewan.
+"<gakina>"
+	"gakina" ADVQnt
+"<gegoo>"
+	"gegoo" PRONIndf NI
+"<banaskobagaabaawe>"
+	"banaskobagaabaawe" VII Ind Pos Neu 0SgSubj
+"<,>"
+	"PUNCT"
+"<booshke>"
+	"booshke" PCDisc
+"<miinan>"
+	"miinan" NI Pl
+	"miin" NI Pl
+"<banaskobagaabaawewan>"
+	"banaskobagaabaawe" VII Ind Pos Neu 0PlSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 31
+# text = Maajijiwan ziibiins.
+"<maajijiwan>"
+	"maajijiwan" VII Ind Pos Neu 0SgSubj
+"<ziibiins>"
+	"ziibiins" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 32
+# text = Aaniin enakamigaag.
+"<aaniin>"
+	"aaniin" ADVInter
+"<enakamigaag>"
+	"inakamigaa" ChCnj VII Cnj Pos Neu 0PlSubj
+	"inakamigaa" ChCnj VII Cnj Pos Neu 0SgSubj
+	"inakamigaa" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 33
+# text = Miinan ozaawaditewan gii-ani-ishpi-dagwaagig.
+"<miinan>"
+	"miinan" NI Pl
+	"miin" NI Pl
+"<ozaawaditewan>"
+	"ozaawadite" VII Ind Pos Neu 0PlSubj
+"<gii-ani-ishpi-dagwaagig>"
+	"ishpi-dagwaagin" PVTense/gii PVDir/ani VII Cnj Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 34
+# text = Mangitoon nawaj i' ishkwaandem imaa ataasoowigamigong.
+"<mangitoon>"
+	"mangitoon" VTI Imp Sim 2SgSubj 0SgObj
+"<nawaj>"
+	"nawaj" ADVDeg
+"<i'>"
+	"i'" PRONDem NI Sg
+"<ishkwaandem>"
+	"ishkwaandem" NI Sg
+"<imaa>"
+	"imaa" ADVLoc
+"<ataasoowigamigong>"
+	"ataasoowigamig" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 35
+# text = Minomaasige gaa-zaasakokwaadang moozo-wiiyaas.
+"<minomaasige>"
+	"minomaasige" VAI Ind Pos Neu 3SgProxSubj
+"<gaa-zaasakokwaadang>"
+	"zaasakokwaadan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"zaasakokwaadan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<moozo-wiiyaas>"
+	"moozo-wiiyaas" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 36
+# text = Aapiji go inzinigwenimaa awe indooshkinawem. Mii 'i gii-maajidaabii'iwed.
+"<aapiji>"
+	"aapiji" ADVDeg
+"<go>"
+	"go" PCDisc
+"<inzinigwenimaa>"
+	"zinigwenim" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<indooshkinawem>"
+	"oshkinawe" NA Poss ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+"<mii>"
+	"mii" ADVPred
+"<'i>"
+	"'i" PRONDem NI Sg
+"<gii-maajidaabii'iwed>"
+	"maajidaabii'iwe" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 37
+# text = Gaawiin gosha gii-tagoshinziin.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<gosha>"
+	"gosha" PCEmph
+"<gii-tagoshinziin>"
+	"dagoshin" PVTense/gii VAI Ind Neg Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 38
+# text = Apane gaye ogikinoo'amawaan oozhisan.
+"<apane>"
+	"apane" ADVTmp
+"<gaye>"
+	"gaye" ADVConj
+"<ogikinoo'amawaan>"
+	"gikinoo'amaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"gikinoo'amaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<oozhisan>"
+	"oozhis" NAD ObvSg 3SgProxPoss
+	"oozhis" NAD ObvPl 3SgProxPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 39
+# text = Oginibizhaan wiiyaas. Wawiinge gaashikomaane.
+"<oginibizhaan>"
+	"ginibizhan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<wiiyaas>"
+	"iiyaas" NID Sg 3SgProxPoss
+	"wiiyaas" NI Sg
+"<.>"
+	"PUNCT"
+"<wawiinge>"
+	"wawiinge" ADVMan
+"<gaashikomaane>"
+	"gaashikomaane" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 40
+# text = Gichi-wawiingezi gikinootawaad ini migiziin awe ogichidaa.
+"<gichi-wawiingezi>"
+	"wawiingezi" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
+"<gikinootawaad>"
+	"gikinootaw" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"gikinootaw" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<ini>"
+	"ini" PRONDem NA ObvPl
+	"ini" PRONDem NA ObvSg
+"<migiziin>"
+	"migizi" NA ObvSg
+	"migizi" NA ObvPl
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<ogichidaa>"
+	"ogichidaa" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 41
+# text = Maamaagon gibakwezhiganikaan jibwaa-biindaabika'wad wii-kiizhizwad.
+"<maamaagon>"
+	"maamaagon" VTA Imp Sim 2SgSubj 3SgProxObj
+"<gibakwezhiganikaan>"
+	"bakwezhiganikaan" NA ProxSg 2SgPoss
+"<jibwaa-biindaabika'wad>"
+	"biindaabika'" PVTense/jibwaa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<wii-kiizhizwad>"
+	"giizhizwi" PVTense/wii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 42
+# text = Awiya ningii'-noondawaa biibaagid gii-biidaabang.
+"<awiya>"
+	"awiya" PRONIndf NA
+"<ningii'-noondawaa>"
+	"noondaw" PVTense/gii' VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<biibaagid>"
+	"biibaagi" VAI Cnj Pos Neu 3SgProxSubj
+"<gii-biidaabang>"
+	"biidaaban" PVTense/gii VII Cnj Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 43
+# text = Aaniin ezhi-zhaaganaashiiwinikaadeg.
+"<aaniin>"
+	"aaniin" ADVInter
+"<ezhi-zhaaganaashiiwinikaadeg>"
+	"zhaaganaashiiwinikaade" ChCnj PVRel/izhi VII Cnj Pos Neu 0PlSubj
+	"zhaaganaashiiwinikaade" ChCnj PVRel/izhi VII Cnj Pos Neu 0SgSubj
+	"zhaaganaashiiwinikaade" PVRel/izhi VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 44
+# text = Akawe agwaa'iskomii jibwaa-maajii-wewebanaabiid.
+"<akawe>"
+	"akawe" ADVTmp
+"<agwaa'iskomii>"
+	"agwaa'iskomii" VAI Ind Pos Neu 3SgProxSubj
+"<jibwaa-maajii-wewebanaabiid>"
+	"wewebanaabii" PVTense/jibwaa PVLex/maajii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 45
+# text = Mishawikwam awi-bagidaabiin.
+"<mishawikwam>"
+	"mishawikwam" ADVLoc
+"<awi-bagidaabiin>"
+	"bagidaabii" PVDir/awi VAI Imp Sim 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 46
+# text = Onzaam agaasaamagadoon emikwaanensan.
+"<onzaam>"
+	"onzaam" ADVQnt
+"<agaasaamagadoon>"
+	"agaasaa" VII Aug/magad VII Ind Pos Neu 0PlSubj
+"<emikwaanensan>"
+	"emikwaanens" NI Pl
+"<.>"
+	"PUNCT"
+
+# sent_id = 47
+# text = Gipagaamagad iwe mazina'igan gaa-wi-adaawanged.
+"<gipagaamagad>"
+	"gipagaa" VII Aug/magad VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<mazina'igan>"
+	"mazina'igan" NI Sg
+"<gaa-wi-adaawanged>"
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 48
+# text = Wewiib gagwe-giizhitoon gaa-dazhiikaman gigikinoo'amaagoowin.
+"<wewiib>"
+	"wewiib" ADVMan
+"<gagwe-giizhitoon>"
+	"giizhitoon" PVLex/gagwe VTI Imp Sim 2SgSubj 0SgObj
+	"giizhitoon" PVLex/gagwe VTI Imp Sim 2SgSubj 0PlObj
+"<gaa-dazhiikaman>"
+	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"dazhiikan" PVSub/gaa VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<gigikinoo'amaagoowin>"
+	"gikinoo'amaagoowin" NI Sg 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 49
+# text = Ogidaakiiwe waa'-onzaabandang mashi ji-gashkadininig zaaga'igan.
+"<ogidaakiiwe>"
+	"ogidaakiiwe" VAI Ind Pos Neu 3SgProxSubj
+"<waa'-onzaabandang>"
+	"onzaabandan" ChCnj PVTense/wii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"onzaabandan" ChCnj PVTense/wii' VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+"<mashi>"
+	"mashi" ADVTmp
+"<ji-gashkadininig>"
+	"gashkadin" PVTense/ga VII Cnj Pos Neu 0SgObvSubj
+	"gashkadin" PVTense/daa VII Cnj Pos Neu 0SgObvSubj
+"<zaaga'igan>"
+	"zaaga'igan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 50
+# text = Aaniin epiitaagonagaag noongom gaa-biboong.
+"<aaniin>"
+	"aaniin" ADVInter
+"<epiitaagonagaag>"
+	"apiitaagonagaa" ChCnj VII Cnj Pos Neu 0PlSubj
+	"apiitaagonagaa" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitaagonagaa" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<noongom>"
+	"noongom" ADVTmp
+"<gaa-biboong>"
+	"biboon" ChCnj PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"biboon" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+	"biboon" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 51
+# text = Ingiw bebezhigooganzhiig inganawaabamaag.
+"<ingiw>"
+	"ingiw" PRONDem NA ProxPl
+"<bebezhigooganzhiig>"
+	"bebezhigooganzhii" NA ProxPl
+"<inganawaabamaag>"
+	"ganawaabam" VTA Ind Pos Neu 1SgSubj 3PlProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 52
+# text = Gaye giin na giwii-wiijiiw. Oodenaang niwii-izhaa.
+"<gaye>"
+	"gaye" ADVConj
+"<giin>"
+	"giin" PRONPer NA 2Sg
+"<na>"
+	"na" PCDisc
+"<giwii-wiijiiw>"
+	"wiijiiw" PVTense/wii VTA Ind Pos Neu 2SgSubj 1SgObj
+"<.>"
+	"PUNCT"
+"<oodenaang>"
+	"oodena" NI Loc
+"<niwii-izhaa>"
+	"izhaa" PVTense/wii VAI Ind Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 53
+# text = Endaso-dibik iko ninganawaabandaan nimazinaatesijigan.
+"<endaso-dibik>"
+	"endaso-dibik" ADVTmp
+"<iko>"
+	"iko" PCAsp
+"<ninganawaabandaan>"
+	"ganawaabandan" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<nimazinaatesijigan>"
+	"mazinaatesijigan" NI Sg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 54
+# text = Agoode mazinaakizowin imaa aasamisagong.
+"<agoode>"
+	"agoode" VII Ind Pos Neu 0SgSubj
+"<mazinaakizowin>"
+	"mazinaakizowin" NI Sg
+"<imaa>"
+	"imaa" ADVLoc
+"<aasamisagong>"
+	"aasamisag" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 55
+# text = Dabasa'amoog we'weg. Wiiba wii-soogipon.
+"<dabasa'amoog>"
+	"dabasa'am" VAI Ind Pos Neu 3PlProxSubj
+"<we'weg>"
+	"we'we" NA ProxPl
+"<.>"
+	"PUNCT"
+"<wiiba>"
+	"wiiba" ADVTmp
+"<wii-soogipon>"
+	"zoogipon" PVTense/wii VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 56
+# text = Ishkweyaang iwidi waakaa'iganing atewan ini misan.
+"<ishkweyaang>"
+	"ishkweyaang" ADVLoc
+"<iwidi>"
+	"iwidi" ADVLoc
+"<waakaa'iganing>"
+	"waakaa'igan" NI Loc
+"<atewan>"
+	"ate" VII Ind Pos Neu 0PlSubj
+"<ini>"
+	"ini" PRONDem NI Pl
+"<misan>"
+	"mishi" NI Pl
+"<.>"
+	"PUNCT"
+
+# sent_id = 57
+# text = O'omaa izhi-atoon.
+"<o'omaa>"
+	"o'omaa" ADVLoc
+"<izhi-atoon>"
+	"atoon" PVRel/izhi VTI Imp Sim 2SgSubj 0SgObj
+	"atoon" PVRel/izhi VTI Imp Sim 2SgSubj 0PlObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 58
+# text = Niwii'-naajibizotoon waa'-naawakwe-miijiyaan.
+"<niwii'-naajibizotoon>"
+	"naajibizotoon" PVTense/wii' VTI Ind Pos Neu 1SgSubj 0SgObj
+"<waa'-naawakwe-miijiyaan>"
+	"naawakwe-miijin" ChCnj PVTense/wii' VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"naawakwe-miijin" ChCnj PVTense/wii' VTI Cnj Pos Neu 1SgSubj 0PlObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 59
+# text = Bijiinaago ningii-kinisinaa'ogomin agaami-zaaga'igan onzaam gii'-mamaangaashkaa.
+"<bijiinaago>"
+	"bijiinaago" ADVTmp
+"<ningii-kinisinaa'ogomin>"
+	"ginisinaa'ogo" PVTense/gii VAI Ind Pos Neu ExclSubj
+"<agaami-zaaga'igan>"
+	"agaami-zaaga'igan" ADVLoc
+"<onzaam>"
+	"onzaam" ADVQnt
+"<gii'-mamaangaashkaa>"
+	"mamaangaashkaa" PVTense/gii' VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 60
+# text = Gichi-neniibowa odaabajitoon 'i wiisagad 'a jiibaakwewinini jiibaakwed.
+"<gichi-neniibowa>"
+	"neniibowa" PVLex/gichi ADVQnt
+"<odaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<wiisagad>"
+	"wiisagad" NI Sg
+"<'a>"
+	"'a" PRONDem NA ProxSg
+"<jiibaakwewinini>"
+	"jiibaakwewinini" NA ProxSg
+"<jiibaakwed>"
+	"jiibaakwe" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 61
+# text = Wiigwaasanakoonsan gokeyawikaagen waabooz ji-nagwaanad, maazhaa gaye bine.
+"<wiigwaasanakoonsan>"
+	"wiigwaasanakoons" NI Pl
+"<gokeyawikaagen>"
+	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 0PlObj
+"<waabooz>"
+	"waabooz" NA ProxSg
+"<ji-nagwaanad>"
+	"nagwaazh" PVTense/ga VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"nagwaazh" PVTense/daa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<,>"
+	"PUNCT"
+"<maazhaa>"
+	"maazhaa" ADVMan
+"<gaye>"
+	"gaye" ADVConj
+"<bine>"
+	"bine" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 62
+# text = Niwii-izhaamin iskigamiziganing.
+"<niwii-izhaamin>"
+	"izhaa" PVTense/wii VAI Ind Pos Neu ExclSubj
+"<iskigamiziganing>"
+	"iskigamizigan" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 63
+# text = Mii ganabaj igo ji-aabijibiisaag. Mii 'i  waabang bijiinag ji-gitigeying
+"<mii>"
+	"mii" ADVPred
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<igo>"
+	"igo" PCEmph
+"<ji-aabijibiisaag>"
+	"aabijibiisaa" PVTense/ga VII Cnj Pos Neu 0PlSubj
+	"aabijibiisaa" PVTense/ga VII Cnj Pos Neu 0SgSubj
+	"aabijibiisaa" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"aabijibiisaa" PVTense/daa VII Cnj Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+"<mii>"
+	"mii" ADVPred
+"<'i>"
+	"'i" PRONDem NI Sg
+"<waabang>"
+	"waaban" VII Cnj Pos Neu 0SgSubj
+"<bijiinag>"
+	"bijiinag" ADVTmp
+"<ji-gitigeying>"
+	"gitige" PVTense/ga VAI Cnj Pos Neu InclSubj
+	"gitige" PVTense/daa VAI Cnj Pos Neu InclSubj
+
+# sent_id = 64
+# text = Nawaj igo wiisagaagamin iwe naboob. Ganabaj banaadaagamisin.
+"<nawaj>"
+	"nawaj" ADVDeg
+"<igo>"
+	"igo" PCEmph
+"<wiisagaagamin>"
+	"wiisagaagamin" VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<naboob>"
+	"naboob" NI Sg
+"<.>"
+	"PUNCT"
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<banaadaagamisin>"
+	"banaadaagamisin" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 65
+# text = Ogii-noonishkaanan aana-gii-kozikang iniwen makizinan a'awe nindaanis.
+"<ogii-noonishkaanan>"
+	"noonishkan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
+	"noonishkan" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"noonishkan" PVTense/gii VTI Ind Pos Neu 3PlObvSubj 0PlObj
+"<aana-gii-kozikang>"
+	"gozikan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+"<iniwen>"
+	"iniwen" PRONDem NI Pl
+"<makizinan>"
+	"makizin" NI Pl
+"<a'awe>"
+	"a'awe" PRONDem NA ProxSg
+"<nindaanis>"
+	"daanis" NAD ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 66
+# text = Aandi wendaawanidiyeg.
+"<aandi>"
+	"aandi" ADVInter
+"<wendaawanidiyeg>"
+	"ondaawanidiwag" ChCnj VAI Cnj Pos Neu 2PlSubj 2PlObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 67
+# text = Mii 'i zhigwa ani-gashkiidibikak, giiyaabi go waasete abiiwigamig.
+"<mii>"
+	"mii" ADVPred
+"<'i>"
+	"'i" PRONDem NI Sg
+"<zhigwa>"
+	"zhigwa" ADVTmp
+"<ani-gashkiidibikak>"
+	"gashkiidibikad" PVDir/ani VII Cnj Pos Neu 0SgSubj
+"<,>"
+	"PUNCT"
+"<giiyaabi>"
+	"giiyaabi" ADVTmp
+"<go>"
+	"go" PCDisc
+"<waasete>"
+	"waasete" VII Ind Pos Neu 0SgSubj
+"<abiiwigamig>"
+	"abiiwigamig" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 68
+# text = Agaami-ziibi debinaagwad manoomin.
+"<agaami-ziibi>"
+	"agaami-ziibi" ADVLoc
+"<debinaagwad>"
+	"debinaagwad" VII Ind Pos Neu 0SgSubj
+"<manoomin>"
+	"manoomin" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 69
+# text = Gonige aabawaadog.
+"<gonige>"
+	"gonige" ADVPred
+"<aabawaadog>"
+	"aabawaa" VII Ind Pos Dub 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 70
+# text = Ogii-maajinizha'aan bijiinaago 'i gaa-tazhiikang anokii-mazina'igan.
+"<ogii-maajinizha'aan>"
+	"maajinizha'an" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<bijiinaago>"
+	"bijiinaago" ADVTmp
+"<'i>"
+	"'i" PRONDem NI Sg
+"<gaa-tazhiikang>"
+	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<anokii-mazina'igan>"
+	"anokii-mazina'igan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 71
+# text = Ogii-mashkawitoon i'iwe gaa-ikidod.
+"<ogii-mashkawitoon>"
+	"mashkawitoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iwe>"
+	"i'iwe" PRONDem NI Sg
+"<gaa-ikidod>"
+	"ikido" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"ikido" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	"ikido" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 72
+# text = Naaningoding eta go ningaganoonaa.
+"<naaningoding>"
+	"naaningoding" ADVTmp
+"<eta>"
+	"eta" ADVDeg
+"<go>"
+	"go" PCDisc
+"<ningaganoonaa>"
+	"gaganoozh" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 73
+# text = Ogii-iskandaan 'iw mashkiigobagwaaboo imaa biskitenaagaansing.
+"<ogii-iskandaan>"
+	"iskandan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<mashkiigobagwaaboo>"
+	"mashkiigobagwaaboo" NI Sg
+"<imaa>"
+	"imaa" ADVLoc
+"<biskitenaagaansing>"
+	"biskitenaagan" NI Dim Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 74
+# text = Mii 'i gii-maadaandawed awe inaabiiginigewinini wii-o-dazhiikang iwe waasigani-biiwaabik.
+"<mii>"
+	"mii" ADVPred
+"<'i>"
+	"'i" PRONDem NI Sg
+"<gii-maadaandawed>"
+	"maadaandawe" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<inaabiiginigewinini>"
+	"inaabiiginigewinini" NA ProxSg
+"<wii-o-dazhiikang>"
+	"dazhiikan" PVTense/wii PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<waasigani-biiwaabik>"
+	"waasigani-biiwaabik" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 75
+# text = Gii-gichi-inandiwag animoshag gii-miigaadiwaad. Gii-kaashaabidewag.
+"<gii-gichi-inandiwag>"
+	"inam" PVTense/gii PVLex/gichi VTA Recip/di VAI Ind Pos Neu 3PlProxSubj 3PlProxObj
+"<animoshag>"
+	"animosh" NA ProxPl
+"<gii-miigaadiwaad>"
+	"miigaadiwag" PVTense/gii VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
+"<.>"
+	"PUNCT"
+"<gii-kaashaabidewag>"
+	"gaashaabide" PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 76
+# text = Aaniish ge omaa ba-onji-nanaamadabid wa'awe. | Aana go naa mawadishiwe.
+"<aaniish>"
+	"aaniish" ADVInter
+"<ge>"
+	"ge" ADVConj
+"<omaa>"
+	"omaa" ADVLoc
+"<ba-onji-nanaamadabid>"
+	"nanaamadabi" ChCnj PVDir/bi PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+"<wa'awe>"
+	"wa'awe" PRONDem NA ProxSg
+"<.>"
+	"PUNCT"
+"<aana>"
+	"aana" PCDisc
+"<go>"
+	"go" PCDisc
+"<naa>"
+	"naa" PCEmph
+"<mawadishiwe>"
+	"mawadishiwe" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 77
+# text = Aaniin ezhiwebinang ogiishkiboojigan gii-gawiboojiged. Odanibenaan ina.
+"<aaniin>"
+	"aaniin" ADVInter
+	"aaniin" PCInterj
+"<ezhiwebinang>"
+	"izhiwebinan" ChCnj VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<ogiishkiboojigan>"
+	"giishkiboojigan" NI Sg 3SgProxPoss
+"<gii-gawiboojiged>"
+	"gawiboojige" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+"<odanibenaan>"
+	"anibenan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+	"aniben" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"aniben" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<ina>"
+	"ina" PCDisc
+"<.>"
+	"PUNCT"
+
+# sent_id = 78
+# text = Boozin gibakwezhiganikaan. Doodooshaaboo-bimide aabajitoon.
+"<boozin>"
+	"boozin" VTA Imp Sim 2SgSubj 3SgProxObj
+"<gibakwezhiganikaan>"
+	"bakwezhiganikaan" NA ProxSg 2SgPoss
+"<.>"
+	"PUNCT"
+"<doodooshaaboo-bimide>"
+	"doodooshaaboo-bimide" NI Sg
+"<aabajitoon>"
+	"aabajitoon" VTI Imp Sim 2SgSubj 0SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 79
+# text = Onjida go ge giin ji-wiijitwaayan
+"<onjida>"
+	"onjida" ADVMan
+"<go>"
+	"go" PCDisc
+"<ge>"
+	"ge" ADVConj
+"<giin>"
+	"giin" PRONPer NA 2Sg
+"<ji-wiijitwaayan>"
+	"wiijitwaa" PVTense/ga VAI Cnj Pos Neu 2SgSubj
+	"wiijitwaa" PVTense/daa VAI Cnj Pos Neu 2SgSubj
+
+# sent_id = 80
+# text = Gii-mizhakiise iwe waasigan.
+"<gii-mizhakiise>"
+	"mizhakiise" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<waasigan>"
+	"waasigan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 81
+# text = Giishpin aninaatigokaag, giga-iskigamizigemin.
+"<giishpin>"
+	"giishpin" ADVGram
+"<aninaatigokaag>"
+	"aninaatigokaa" VII Cnj Pos Neu 0PlSubj
+	"aninaatigokaa" VII Cnj Pos Neu 0SgSubj
+"<,>"
+	"PUNCT"
+"<giga-iskigamizigemin>"
+	"iskigamizige" PVTense/ga VAI Ind Pos Neu InclSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 82
+# text = Anaamakamig maa ingii-kaanaa nzhooniyaam.
+"<anaamakamig>"
+	"anaamakamig" ADVLoc
+"<maa>"
+	"maa" ADVLoc
+"<ingii-kaanaa>"
+	"gaazh" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<nzhooniyaam>"
+	"zhooniyaa" NA Poss ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 83
+# text = Gabeya'ii gii-inendi gii-izhaad oodenaang indede.
+"<gabeya'ii>"
+	"gabeya'ii" ADVTmp
+"<gii-inendi>"
+	"inendi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<gii-izhaad>"
+	"izhaa" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<oodenaang>"
+	"oodena" NI Loc
+"<indede>"
+	"dedey" NAD ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 84
+# text = Gaawiin ingii-gikendanziin waa-izhichigeyaan, gaa-izhi-gagwejitooyaan.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<ingii-gikendanziin>"
+	"gikendam" PVTense/gii VAI Ind Neg Neu 1SgSubj
+	"gikendan" PVTense/gii VTI Ind Neg Neu 1SgSubj 0SgObj
+"<waa-izhichigeyaan>"
+	"izhichige" ChCnj PVTense/wii VAI Cnj Pos Neu 1SgSubj
+"<,>"
+	"PUNCT"
+"<gaa-izhi-gagwejitooyaan>"
+	"gagwejitoon" ChCnj PVTense/gii PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"gagwejitoon" ChCnj PVTense/gii PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"gagwejitoon" PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"gagwejitoon" PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0PlObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 85
+# text = Onji'idim anooj igo ji-doodawindwaa animoshag.
+"<onji'idim>"
+	"onji'idiwag" VAI Ind Pos Neu XSubj XObj
+"<anooj>"
+	"anooj" ADVQnt
+"<igo>"
+	"igo" PCEmph
+"<ji-doodawindwaa>"
+	"doodaw" PVTense/ga VTA Cnj Pos Neu XSubj 3PlProxObj
+	"doodaw" PVTense/daa VTA Cnj Pos Neu XSubj 3PlProxObj
+"<animoshag>"
+	"animosh" NA ProxPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 86
+# text = Gii-nishkaadizi aana-gii-kaagiikaazomag.
+"<gii-nishkaadizi>"
+	"nishkaadizi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<aana-gii-kaagiikaazomag>"
+	"gaagiikaazom" PVTense/aana PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 87
+# text = Biboonong gii-gichi-ishpaagonagaa.
+"<biboonong>"
+	"biboonong" ADVTmp
+"<gii-gichi-ishpaagonagaa>"
+	"ishpaagonagaa" PVTense/gii PVLex/gichi VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 88
+# text = Awegwen igo gaa-mamadwetood agwajiing dibikong.
+"<awegwen>"
+	"awegwen" PRONDub NA ProxSg
+"<igo>"
+	"igo" PCEmph
+"<gaa-mamadwetood>"
+	"mamadwetoo" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"mamadwetoo" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	"mamadwetoo" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+"<agwajiing>"
+	"agwajiing" ADVLoc
+"<dibikong>"
+	"dibikong" ADVTmp
+"<.>"
+	"PUNCT"
+
+# sent_id = 89
+# text = Ogii-minjinawe'aan ini wiiwan aana-wii-kanawaabinid wayiiba gii-ni-giiwewaad.
+"<ogii-minjinawe'aan>"
+	"minjinawe'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"minjinawe'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<ini>"
+	"ini" PRONDem NA ObvPl
+	"ini" PRONDem NA ObvSg
+"<wiiwan>"
+	"wiiw" NAD ObvSg 3SgProxPoss
+	"wiiw" NAD ObvPl 3SgProxPoss
+"<aana-wii-kanawaabinid>"
+	"ganawaabi" PVTense/aana PVTense/wii VAI Cnj Pos Neu 3SgObvSubj
+	"ganawaabi" PVTense/aana PVTense/wii VAI Cnj Pos Neu 3PlObvSubj
+"<wayiiba>"
+	"wayiiba" ADVTmp
+"<gii-ni-giiwewaad>"
+	"giiwe" PVTense/gii PVDir/ni VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 90
+# text = Nimanezin niizhooshkin 'i bingwi.
+"<nimanezin>"
+	"manezin" VAIO Ind Pos Neu 1SgSubj 0SgObj
+"<niizhooshkin>"
+	"niizhooshkin" NUM
+"<'i>"
+	"'i" PRONDem NI Sg
+"<bingwi>"
+	"bingwi" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 91
+# text = Ogii-piimaskonaan 'iw zagaakwa'igan gii-mashkawaakwa'ang.
+"<ogii-piimaskonaan>"
+	"biimaskonan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<zagaakwa'igan>"
+	"zagaakwa'igan" NI Sg
+"<gii-mashkawaakwa'ang>"
+	"mashkawaakwa'an" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 92
+# text = Onandoojiinaan 'iw biskanebijigaans.  | Ogii-mikoojiinaan ina?
+"<onandoojiinaan>"
+	"andoojiinan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<biskanebijigaans>"
+	"biskanebijigaans" NI Sg
+"<.>"
+	"PUNCT"
+"<ogii-mikoojiinaan>"
+	"mikoojiinan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+	"mikoojiin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"mikoojiin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<ina>"
+	"ina" PCDisc
+"<?>"
+	"PUNCT"
+
+# sent_id = 93
+# text = Geyaabi oshkiinaagwad gidoodaabaan.
+"<geyaabi>"
+	"geyaabi" ADVTmp
+"<oshkiinaagwad>"
+	"oshkiinaagwad" VII Ind Pos Neu 0SgSubj
+"<gidoodaabaan>"
+	"odaabaan" NI Sg 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 94
+# text = Indaga awi-ikobidooyok iwe jiimaanish.
+"<indaga>"
+	"indaga" PCDisc
+"<awi-ikobidooyok>"
+	"ikobidoon" PVDir/awi VTI Imp Sim 2SgSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<jiimaanish>"
+	"jiimaan" NI Pej Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 95
+# text = Niyaazhawisidoon i'iw nibabagiwayaaniigin imaa adoopowinaakong.
+"<niyaazhawisidoon>"
+	"aazhawisidoon" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<nibabagiwayaaniigin>"
+	"babagiwayaaniigin" NI Sg 1SgPoss
+"<imaa>"
+	"imaa" ADVLoc
+"<adoopowinaakong>"
+	"adoopowinaak" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 96
+# text = Apane naa niwiiwakwaan. Gii-sagaakwadin imaa wadikwaning.
+"<apane>"
+	"apane" ADVTmp
+"<naa>"
+	"naa" PCEmph
+"<niwiiwakwaan>"
+	"wiiwakwaan" NI Sg 1SgPoss
+"<.>"
+	"PUNCT"
+"<gii-sagaakwadin>"
+	"zagaakwadin" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<wadikwaning>"
+	"wadikwan" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 97
+# text = Agaawaa ingii-pi-gashkinaan jiimaan gii-bi-gabadooyaan.
+"<agaawaa>"
+	"agaawaa" ADVDeg
+"<ingii-pi-gashkinaan>"
+	"gashkinan" PVTense/gii PVDir/bi VTI Ind Pos Neu 1SgSubj 0SgObj
+"<jiimaan>"
+	"jiimaan" NI Sg
+"<gii-bi-gabadooyaan>"
+	"gabadoo" PVTense/gii PVDir/bi VAI Cnj Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 98
+# text = Anaamaya'ii gii-inaabi andawaabandang ogiboodiyegwaazon.
+"<anaamaya'ii>"
+	"anaamaya'ii" ADVLoc
+"<gii-inaabi>"
+	"inaabi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<andawaabandang>"
+	"andawaabandan" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<ogiboodiyegwaazon>"
+	"giboodiyegwaazon" NI Sg 3SgProxPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 99
+# text = Gichi-weweni ingii-piini'aa indoopwaagan.
+"<gichi-weweni>"
+	"weweni" PVLex/gichi ADVMan
+"<ingii-piini'aa>"
+	"biini'" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<indoopwaagan>"
+	"opwaagan" NA ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 100
+# text = Agaasoonagad ninjiimaan. Wawiinge gokokwaa.
+"<agaasoonagad>"
+	"agaasoonagad" VII Ind Pos Neu 0SgSubj
+"<ninjiimaan>"
+	"jiimaan" NI Sg 1SgPoss
+"<.>"
+	"PUNCT"
+"<wawiinge>"
+	"wawiinge" ADVMan
+"<gokokwaa>"
+	"gokokwaa" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 101
+# text = Ganabaj inga-gichi-bapasidiyeshkawaa.
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<inga-gichi-bapasidiyeshkawaa>"
+	"bapasidiyeshkaw" PVTense/ga PVLex/gichi VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 102
+# text = Omashkikiikaadaan i'iw ogidig gaa-bishagisidood.
+"<omashkikiikaadaan>"
+	"mashkikiikaadan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<ogidig>"
+	"gidigw" NID Sg 3SgProxPoss
+"<gaa-bishagisidood>"
+	"bishagisidoon" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"bishagisidoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 103
+# text = Gegapii go ani-bakade.
+"<gegapii>"
+	"gegapii" ADVTmp
+"<go>"
+	"go" PCDisc
+"<ani-bakade>"
+	"bakade" PVDir/ani VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 104
+# text = Mbiibiiyensim ninenawi'aa.
+"<mbiibiiyensim>"
+	"biibiiyens" NA Poss ProxSg 1SgPoss
+"<ninenawi'aa>"
+	"nenawi'" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 105
+# text = Aaniin epiitweweg ishkodewidaabaan ba-noondaagwak.
+"<aaniin>"
+	"aaniin" ADVInter
+"<epiitweweg>"
+	"apiitwewe" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitwewe" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<ishkodewidaabaan>"
+	"ishkodewidaabaan" NI Sg
+"<ba-noondaagwak>"
+	"noondaagwad" ChCnj PVDir/bi VII Cnj Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 106
+# text = Ginoodinaa onigam.
+"<ginoodinaa>"
+	"ginoodinaa" VII Ind Pos Neu 0SgSubj
+"<onigam>"
+	"onigam" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 107
+# text = Aapiji ginoosagad nindadoopowinaak.
+"<aapiji>"
+	"aapiji" ADVDeg
+"<ginoosagad>"
+	"ginoosagad" VII Ind Pos Neu 0SgSubj
+"<nindadoopowinaak>"
+	"adoopowinaak" NI Sg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 108
+# text = Giziidoone' daga a'aw abinoojiinh. Wiinidoone.
+"<giziidoone'>"
+	"giziidoone'" VTA Imp Sim 2SgSubj 3SgProxObj
+"<daga>"
+	"daga" PCDisc
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<abinoojiinh>"
+	"abinoojiinh" NA ProxSg
+"<.>"
+	"PUNCT"
+"<wiinidoone>"
+	"wiinidoone" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 109
+# text = Ogii-mikaan 'i waazh i'imaa  endazhenid iniw boodaajibingwesiwan.
+"<ogii-mikaan>"
+	"mikan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<waazh>"
+	"waazh" NI Sg
+"<i'imaa>"
+	"i'imaa" ADVLoc
+"<endazhenid>"
+	"dazhe" ChCnj VAI Cnj Pos Neu 3SgObvSubj
+	"dazhe" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+"<iniw>"
+	"iniw" PRONDem NA ObvPl
+	"iniw" PRONDem NA ObvSg
+"<boodaajibingwesiwan>"
+	"boodaajibingwesi" NA ObvSg
+	"boodaajibingwesi" NA ObvPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 110
+# text = Odazhewidoon aana-gii-odaapinang.
+"<odazhewidoon>"
+	"azhewidoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<aana-gii-odaapinang>"
+	"odaapinan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"odaapinan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"odaapin" PVTense/aana PVTense/gii VTA Cnj Pos Neu InclSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 111
+# text = Gipagizi awe mikwam.
+"<gipagizi>"
+	"gipagizi" VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<mikwam>"
+	"mikwam" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 112
+# text = Naanaagaji' asin ji-ozhaashaabikizid jibwaa-gabaayan.
+"<naanaagaji'>"
+	"naanaagaji'" VTA Imp Sim 2SgSubj 3SgProxObj
+"<asin>"
+	"asin" NA ProxSg
+"<ji-ozhaashaabikizid>"
+	"ozhaashaabikizi" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+	"ozhaashaabikizi" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+"<jibwaa-gabaayan>"
+	"gabaa" PVTense/jibwaa VAI Cnj Pos Neu 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 113
+# text = Indanokiitaage iwidi godagiing.
+"<indanokiitaage>"
+	"anokiitaage" VAI Ind Pos Neu 1SgSubj
+"<iwidi>"
+	"iwidi" ADVLoc
+"<godagiing>"
+	"godagii" VAI Cnj Pos Neu XSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 114
+# text = Aaniin enigokwaabikizid.
+"<aaniin>"
+	"aaniin" ADVInter
+"<enigokwaabikizid>"
+	"inigokwaabikizi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"inigokwaabikizi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 115
+# text = Wenda-aabidwewidam a'awe gookooko'oowish.
+"<wenda-aabidwewidam>"
+	"aabidwewidam" PVLex/wenda VAI Ind Pos Neu 3SgProxSubj
+"<a'awe>"
+	"a'awe" PRONDem NA ProxSg
+"<gookooko'oowish>"
+	"gookooko'oo" NA Pej ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 116
+# text = Aaniin epiitang jiimaan?
+"<aaniin>"
+	"aaniin" ADVInter
+"<epiitang>"
+	"apiitan" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitan" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<jiimaan>"
+	"jiimaan" NI Sg
+"<?>"
+	"PUNCT"
+
+# sent_id = 117
+# text = Gaye giinawind giga-izhaamin.
+"<gaye>"
+	"gaye" ADVConj
+"<giinawind>"
+	"giinawind" PRONPer NA Incl
+"<giga-izhaamin>"
+	"izhaa" PVTense/ga VAI Ind Pos Neu InclSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 118
+# text = Awazowag imaa eyedawishkode.
+"<awazowag>"
+	"awazo" VAI Ind Pos Neu 3PlProxSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<eyedawishkode>"
+	"eyedawishkode" ADVLoc
+"<.>"
+	"PUNCT"
+
+# sent_id = 119
+# text = Maazhichigewag ogimaakandawaad iniwen endanakamigizinid.
+"<maazhichigewag>"
+	"maazhichige" VAI Ind Pos Neu 3PlProxSubj
+"<ogimaakandawaad>"
+	"ogimaakandaw" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"ogimaakandaw" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<iniwen>"
+	"iniwen" PRONDem NA ObvPl
+	"iniwen" PRONDem NA ObvSg
+"<endanakamigizinid>"
+	"danakamigizi" ChCnj VAI Cnj Pos Neu 3SgObvSubj
+	"danakamigizi" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 120
+# text = Odoozhisidoonan onaaganan waa-tananjigewaad.
+"<odoozhisidoonan>"
+	"ozhisidoon" VTI Ind Pos Neu 3SgProxSubj 0PlObj
+	"ozhisidoon" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"ozhisidoon" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+"<onaaganan>"
+	"onaagan" NI Pl
+"<waa-tananjigewaad>"
+	"dananjige" ChCnj PVTense/wii VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 121
+# text = Ogiji-nibewin daningwaamo bizhiins.
+"<ogiji-nibewin>"
+	"ogiji-nibewin" ADVLoc
+"<daningwaamo>"
+	"daningwaamo" VAI Ind Pos Neu 3SgProxSubj
+"<bizhiins>"
+	"bizhiins" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 122
+# text = Mii go ji-anoonind miinawaa giishpin wawiingezid.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<ji-anoonind>"
+	"anoozh" PVTense/ga VTA Cnj Pos Neu XSubj 3SgProxObj
+	"anoozh" PVTense/daa VTA Cnj Pos Neu XSubj 3SgProxObj
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<giishpin>"
+	"giishpin" ADVGram
+"<wawiingezid>"
+	"wawiingezi" VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 123
+# text = Naawikana atemagad i'iw odaabaan gii-piigosemagadogwen.
+"<naawikana>"
+	"naawikana" ADVLoc
+"<atemagad>"
+	"atemagad" VII Ind Pos Neu 0SgSubj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<odaabaan>"
+	"odaabaan" NI Sg
+"<gii-piigosemagadogwen>"
+	"biigose" PVTense/gii VII Aug/magad VII Cnj Pos Dub 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 124
+# text = Awenen wedayid onowen waabasimoon?
+"<awenen>"
+	"awenen" PRONInter NA ProxSg
+"<wedayid>"
+	"odayi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"odayi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<onowen>"
+	"onowen" PRONDem NI Pl
+"<waabasimoon>"
+	"waabasim" NA ObvPl
+	"waabasim" NA ObvSg
+"<?>"
+	"PUNCT"
+
+# sent_id = 125
+# text = Mii zhigwa bimiinowaad igi nikag.
+"<mii>"
+	"mii" ADVPred
+"<zhigwa>"
+	"zhigwa" ADVTmp
+"<bimiinowaad>"
+	"bimiinowag" VAIPL Cnj Pos Neu 3PlProxSubj
+"<igi>"
+	"igi" PRONDem NA ProxPl
+"<nikag>"
+	"nika" NA ProxPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 126
+# text = Mewinzha gii-kopibatoowag igiw abinoonjiiyag endawaabamadwaa.
+"<mewinzha>"
+	"mewinzha" ADVTmp
+"<gii-kopibatoowag>"
+	"gopibatoo" PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+"<igiw>"
+	"igiw" PRONDem NA ProxPl
+"<abinoonjiiyag>"
+	"abinoonjii" NA ProxPl
+"<endawaabamadwaa>"
+	"andawaabam" ChCnj VTA Cnj Pos Neu 2SgSubj 3PlProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 127
+# text = Aaniin apii waa'-oshkidaabaaneyan?
+"<aaniin>"
+	"aaniin" ADVInter
+"<apii>"
+	"apii" ADVTmp
+"<waa'-oshkidaabaaneyan>"
+	"oshkidaabaane" ChCnj PVTense/wii' VAI Cnj Pos Neu 2SgSubj
+"<?>"
+	"PUNCT"
+
+# sent_id = 128
+# text = Zipobidoon gibabiinzikawaagan.
+"<zipobidoon>"
+	"zipobidoon" VTI Imp Sim 2SgSubj 0SgObj
+"<gibabiinzikawaagan>"
+	"babiinzikawaagan" NI Sg 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 129
+# text = Ingii-andomaag igiw abinoojiinyag  ji-bi-odaminowaad.
+"<ingii-andomaag>"
+	"nandom" PVTense/gii VTA Ind Pos Neu 1SgSubj 3PlProxObj
+"<igiw>"
+	"igiw" PRONDem NA ProxPl
+"<abinoojiinyag>"
+	"abinoojiinh" NA ProxPl
+"<ji-bi-odaminowaad>"
+	"odamino" PVTense/ga PVDir/bi VAI Cnj Pos Neu 3PlProxSubj
+	"odamino" PVTense/daa PVDir/bi VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 130
+# text = Gii-paashkikaamagadini imaa gii-miniiwizided.
+"<gii-paashkikaamagadini>"
+	"baashkikaa" PVTense/gii VII Aug/magad VII Ind Pos Neu 0SgObvSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<gii-miniiwizided>"
+	"miniiwizide" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 131
+# text = Agaaming akwaate niwaazakonenjiganens.
+"<agaaming>"
+	"agaaming" ADVLoc
+"<akwaate>"
+	"akwaate" VII Ind Pos Neu 0SgSubj
+"<niwaazakonenjiganens>"
+	"waazakonenjigan" NI Dim Sg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 132
+# text = Maamakaadakamig inendaagozi gaa-anokiitang waakaa'igan.
+"<maamakaadakamig>"
+	"maamakaadakamig" PCDisc
+"<inendaagozi>"
+	"inendaagozi" VAI Ind Pos Neu 3SgProxSubj
+"<gaa-anokiitang>"
+	"anokiitan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"anokiitan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<waakaa'igan>"
+	"waakaa'igan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 133
+# text = Gichi-zaasaakwe awe mindimooyenh epiichi-jiikimigod iniw dewe'iganan miinawaa negamonid.
+"<gichi-zaasaakwe>"
+	"zaasaakwe" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<mindimooyenh>"
+	"mindimooyenh" NA ProxSg
+"<epiichi-jiikimigod>"
+	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+"<iniw>"
+	"iniw" PRONDem NA ObvPl
+	"iniw" PRONDem NA ObvSg
+"<dewe'iganan>"
+	"dewe'igan" NA ObvSg
+	"dewe'igan" NA ObvPl
+"<miinawaa>"
+	"miinawaa" ADVConj
+"<negamonid>"
+	"nagamo" ChCnj VAI Cnj Pos Neu 3SgObvSubj
+	"nagamo" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 134
+# text = Daga bizaan.
+"<daga>"
+	"daga" PCDisc
+"<bizaan>"
+	"bizaan" ADVMan
+"<.>"
+	"PUNCT"
+
+# sent_id = 135
+# text = Gewiin igo ganabaj gaawiin minomanji'osii.
+"<gewiin>"
+	"gewiin" PRONPer NA 3Sg
+"<igo>"
+	"igo" PCEmph
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<minomanji'osii>"
+	"minomanji'o" VAI Ind Neg Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 136
+# text = Bagama'amaazo. Ganabaj gii'-niiwezhiwewag gaa-bikwaakwadoonsikewaad.
+"<bagama'amaazo>"
+	"bagama'amaazo" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<gii'-niiwezhiwewag>"
+	"niiwezhiwe" PVTense/gii' VAI Ind Pos Neu 3PlProxSubj
+"<gaa-bikwaakwadoonsikewaad>"
+	"bikwaakwadoonsike" ChCnj PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
+	"bikwaakwadoonsike" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 137
+# text = Aaniish enigokwaakozid.
+"<aaniish>"
+	"aaniish" ADVInter
+"<enigokwaakozid>"
+	"inigokwaakozi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"inigokwaakozi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 138
+# text = Onjishkawa'o gaa-biidakwazhiwed. Baamaa naagaj da-bi-bagamakwazhiwe.
+"<onjishkawa'o>"
+	"onjishkawa'o" VAI Ind Pos Neu 3SgProxSubj
+"<gaa-biidakwazhiwed>"
+	"biidakwazhiwe" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"biidakwazhiwe" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	"biidakwazhiwe" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+"<baamaa>"
+	"baamaa" ADVTmp
+"<naagaj>"
+	"naagaj" ADVQnt
+"<da-bi-bagamakwazhiwe>"
+	"bagamakwazhiwe" PVTense/ga PVDir/bi VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 139
+# text = Anaamidaabaanaak ashi gidaagimag.
+"<anaamidaabaanaak>"
+	"anaamidaabaanaak" ADVLoc
+"<ashi>"
+	"ashi" VTA Imp Sim 2SgSubj 3PlProxObj
+"<gidaagimag>"
+	"aagim" NA ProxPl 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 140
+# text = Oke-banaadad iwe gichi-aniibiish neboobiikaadeg.
+"<oke-banaadad>"
+	"banaadad" PVLex/oke VII Ind Pos Neu 0SgSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<gichi-aniibiish>"
+	"gichi-aniibiish" NI Sg
+"<neboobiikaadeg>"
+	"naboobiikaade" ChCnj VII Cnj Pos Neu 0SgSubj
+	"naboobiikaade" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 141
+# text = Gaawiin ogii-piindiganaasiin aana-baapaagwaakwa'igenid.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<ogii-piindiganaasiin>"
+	"biindigazh" PVTense/gii VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
+	"biindigazh" PVTense/gii VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+"<aana-baapaagwaakwa'igenid>"
+	"baapaagwaakwa'ige" PVTense/aana VAI Cnj Pos Neu 3SgObvSubj
+	"baapaagwaakwa'ige" PVTense/aana VAI Cnj Pos Neu 3PlObvSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 142
+# text = Ambegish ina niin.
+"<ambegish>"
+	"ambegish" ADVPred
+"<ina>"
+	"ina" PCDisc
+"<niin>"
+	"niin" PRONPer NA 1Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 143
+# text = Jiigidaabaan namadabi nimaamaa. Ganabaj awiya obaabii'aan.
+"<jiigidaabaan>"
+	"jiigidaabaan" ADVLoc
+"<namadabi>"
+	"namadabi" VAI Ind Pos Neu 3SgProxSubj
+"<nimaamaa>"
+	"maamaay" NAD ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<awiya>"
+	"awiya" PRONIndf NA
+"<obaabii'aan>"
+	"baabii'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"baabii'" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 144
+# text = Ingii-adaamaa ditibidaabaanan gaa-ayaad.
+"<ingii-adaamaa>"
+	"adaam" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<ditibidaabaanan>"
+	"ditibidaabaan" NA ObvSg
+	"ditibidaabaan" NA ObvPl
+"<gaa-ayaad>"
+	"ayaa" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"ayaa" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	"ayaa" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 145
+# text = Minonaagozi ozhaawashkozid diindiisi.
+"<minonaagozi>"
+	"minonaagozi" VAI Ind Pos Neu 3SgProxSubj
+"<ozhaawashkozid>"
+	"ozhaawashkozi" VAI Cnj Pos Neu 3SgProxSubj
+"<diindiisi>"
+	"diindiisi" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 146
+# text = Gaawiin obagidinaasii' oniijaanisa' ji-niibaashkaanid.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<obagidinaasii'>"
+	"bagidin" VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+"<oniijaanisa'>"
+	"niijaanis" NAD ObvPl 3SgProxPoss
+"<ji-niibaashkaanid>"
+	"niibaashkaa" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
+	"niibaashkaa" PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+	"niibaashkaa" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	"niibaashkaa" PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 147
+# text = Endaso-anama'e-giizhik nimaa'ishkam.
+"<endaso-anama'e-giizhik>"
+	"endaso-anama'e-giizhik" ADVTmp
+"<nimaa'ishkam>"
+	"maa'ishkam" VAI Ind Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 148
+# text = Anaamisag indazhi-giziibiiga'ige ko giziibiiga'igeyaan.
+"<anaamisag>"
+	"anaamisag" ADVLoc
+"<indazhi-giziibiiga'ige>"
+	"giziibiiga'ige" PVRel/dazhi VAI Ind Pos Neu 1SgSubj
+"<ko>"
+	"ko" PCAsp
+"<giziibiiga'igeyaan>"
+	"giziibiiga'ige" VAI Cnj Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 149
+# text = Baabige naa aabita-niibing gii-ojijise.
+"<baabige>"
+	"baabige" ADVTmp
+"<naa>"
+	"naa" PCEmph
+"<aabita-niibing>"
+	"aabita-niibin" VII Cnj Pos Neu 0SgSubj
+"<gii-ojijise>"
+	"ojijise" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 150
+# text = Gii-kinjiba'iwe aana-wii-pi-naanind ji-o-miigaadang ishkode.
+"<gii-kinjiba'iwe>"
+	"ginjiba'iwe" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<aana-wii-pi-naanind>"
+	"naazh" PVTense/aana PVTense/wii PVDir/bi VTA Cnj Pos Neu XSubj 3SgProxObj
+"<ji-o-miigaadang>"
+	"miigaadan" PVTense/ga PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"miigaadan" PVTense/daa PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<ishkode>"
+	"ishkode" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 151
+# text = Babaaminizhikodaadiwag igiweg abinoonjiiyag bepeshinidiwaad.
+"<babaaminizhikodaadiwag>"
+	"babaaminizhikodaadiwag" VAI Ind Pos Neu 3PlProxSubj 3PlProxObj
+"<igiweg>"
+	"igiweg" PRONDem NA ProxPl
+"<abinoonjiiyag>"
+	"abinoonjii" NA ProxPl
+"<bepeshinidiwaad>"
+	"bepeshinidiwag" VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 152
+# text = Giishpin mikwaminaaniwang, waabowayaan gidaa-badagwana'waa gidoodaabaan ji-maakishkoozosig.
+"<giishpin>"
+	"giishpin" ADVGram
+"<mikwaminaaniwang>"
+	"mikwaminaaniwan" VII Cnj Pos Neu 0SgSubj
+"<,>"
+	"PUNCT"
+"<waabowayaan>"
+	"waabowayaan" NI Sg
+"<gidaa-badagwana'waa>"
+	"badagwana'" PVTense/daa VTA Ind Pos Neu 2SgSubj 3SgProxObj
+"<gidoodaabaan>"
+	"odaabaan" NA ProxSg 2SgPoss
+"<ji-maakishkoozosig>"
+	"maakishkoozo" PVTense/ga VAI Cnj Neg Neu 3SgProxSubj
+	"maakishkoozo" PVTense/daa VAI Cnj Neg Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 153
+# text = Mamaangibagizi wiigobaatig.
+"<mamaangibagizi>"
+	"mamaangibagizi" VAI Ind Pos Neu 3SgProxSubj
+"<wiigobaatig>"
+	"wiigobaatig" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 154
+# text = Zhaabonigan obimiwidoon waabizheshi.
+"<zhaabonigan>"
+	"zhaabonigan" NI Sg
+"<obimiwidoon>"
+	"bimiwidoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<waabizheshi>"
+	"waabizheshi" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 155
+# text = Ogii-bitaganaandaan gaa-onji-baasa'ang i'iw waasechigan.
+"<ogii-bitaganaandaan>"
+	"bitaganaandan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<gaa-onji-baasa'ang>"
+	"baasa'an" ChCnj PVTense/gii PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"baasa'an" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<waasechigan>"
+	"waasechigan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 156
+# text = Indaga ganawendamaw omidewayaanan awe mindimooyenh.
+"<indaga>"
+	"indaga" PCDisc
+"<ganawendamaw>"
+	"ganawendamaw" VTA Imp Sim 2SgSubj 3SgProxObj
+"<omidewayaanan>"
+	"midewayaan" NA ObvSg 3SgProxPoss
+	"midewayaan" NA ObvPl 3SgProxPoss
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<mindimooyenh>"
+	"mindimooyenh" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 157
+# text = Ingii-piidoon ingo-minikwaajigan iwe waasamoo-bimide.
+"<ingii-piidoon>"
+	"biidoon" PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
+"<ingo-minikwaajigan>"
+	"minikwaajigan" PNQnt/ingo NI Sg
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<waasamoo-bimide>"
+	"waasamoo-bimide" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 158
+# text = Akawe waaginan mitigoon wii'-ozhitooyan waaginogaan.
+"<akawe>"
+	"akawe" ADVTmp
+"<waaginan>"
+	"waaginan" VTI Imp Sim 2SgSubj 0PlObj
+"<mitigoon>"
+	"mitig" NI Pl
+"<wii'-ozhitooyan>"
+	"ozhitoon" PVTense/wii' VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<waaginogaan>"
+	"waaginogaan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 159
+# text = Wiineta owenipazhi'aan maajiibizoni'aad ini akikoonsan.
+"<wiineta>"
+	"wiineta" PRONPer NA 3Sg
+"<owenipazhi'aan>"
+	"wenipazhi'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"wenipazhi'" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<maajiibizoni'aad>"
+	"maajiibizoni'" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"maajiibizoni'" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<ini>"
+	"ini" PRONDem NA ObvPl
+	"ini" PRONDem NA ObvSg
+"<akikoonsan>"
+	"akikoons" NA ObvSg
+	"akikoons" NA ObvPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 160
+# text = Gagaanwaakwadoon abwiin.
+"<gagaanwaakwadoon>"
+	"gagaanwaakwadoon" VIIPL Ind Pos Neu 0PlSubj
+"<abwiin>"
+	"abwi" NI Pl
+"<.>"
+	"PUNCT"
+
+# sent_id = 161
+# text = Gidoobizhikiim ina.
+"<gidoobizhikiim>"
+	"obizhikiimi" VAI Ind Pos Neu 2SgSubj
+"<ina>"
+	"ina" PCDisc
+"<.>"
+	"PUNCT"
+
+# sent_id = 162
+# text = Gigii-gashkaabika'aan ina iwe odaabaan.
+"<gigii-gashkaabika'aan>"
+	"gashkaabika'an" PVTense/gii VTI Ind Pos Neu 2SgSubj 0SgObj
+"<ina>"
+	"ina" PCDisc
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<odaabaan>"
+	"odaabaan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 163
+# text = Mii 'iw gwayak ekwaademagak.
+"<mii>"
+	"mii" ADVPred
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<gwayak>"
+	"gwayak" ADVMan
+"<ekwaademagak>"
+	"ikwaade" ChCnj VII Aug/magad VII Cnj Pos Neu 0SgSubj
+	"ikwaade" VII Aug/magad VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 164
+# text = Maanoo go wiin da-jiibaakwe.
+"<maanoo>"
+	"maanoo" ADVMan
+"<go>"
+	"go" PCDisc
+"<wiin>"
+	"wiin" PRONPer NA 3Sg
+"<da-jiibaakwe>"
+	"jiibaakwe" PVTense/ga VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 165
+# text = Bagakaasigewag anangoog.
+"<bagakaasigewag>"
+	"bagakaasige" VAI Ind Pos Neu 3PlProxSubj
+"<anangoog>"
+	"anang" NA ProxPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 166
+# text = Bizaan igo.
+"<bizaan>"
+	"bizaan" ADVMan
+"<igo>"
+	"igo" PCEmph
+"<.>"
+	"PUNCT"
+
+# sent_id = 167
+# text = Omaanendaan i'iw odaakewin gaa-piindigajigaadenig.
+"<omaanendaan>"
+	"maanendan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<odaakewin>"
+	"odaakewin" NI Sg
+"<gaa-piindigajigaadenig>"
+	"biindigajigaade" ChCnj PVTense/gii VII Cnj Pos Neu 0SgObvSubj
+	"biindigajigaade" PVTense/gii VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 168
+# text = Gichi-gezika bagamaanimad.
+"<gichi-gezika>"
+	"gezika" PVLex/gichi ADVTmp
+"<bagamaanimad>"
+	"bagamaanimad" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 169
+# text = Aandi wendaanimak. | Oo, waasa maawiin ondaanimad.
+"<aandi>"
+	"aandi" ADVInter
+"<wendaanimak>"
+	"ondaanimad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"ondaanimad" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+"<oo>"
+	"oo" PCDisc
+"<,>"
+	"PUNCT"
+"<waasa>"
+	"waasa" ADVLoc
+"<maawiin>"
+	"maawiin" ADVMan
+"<ondaanimad>"
+	"ondaanimad" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 170
+# text = Giimooj ogaganoonaan.
+"<giimooj>"
+	"giimooj" ADVMan
+"<ogaganoonaan>"
+	"gaganoozh" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"gaganoozh" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 171
+# text = Odazhiikawaan iniw waawaashkeshiwan gaa-paashkizwaad.
+"<odazhiikawaan>"
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<iniw>"
+	"iniw" PRONDem NA ObvPl
+	"iniw" PRONDem NA ObvSg
+"<waawaashkeshiwan>"
+	"waawaashkeshi" NA ObvSg
+	"waawaashkeshi" NA ObvPl
+"<gaa-paashkizwaad>"
+	"baashkiz" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"baashkiz" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 172
+# text = Aaniin da naa aapidakamig ezhiwebak.
+"<aaniin>"
+	"aaniin" ADVInter
+"<da>"
+	"da" PCDisc
+"<naa>"
+	"naa" PCEmph
+"<aapidakamig>"
+	"aapidakamig" PCDisc
+"<ezhiwebak>"
+	"izhiwebad" ChCnj VII Cnj Pos Neu 0PlSubj
+	"izhiwebad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"izhiwebad" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 173
+# text = Ogii-kiishkizhaan 'i mazina'igan.
+"<ogii-kiishkizhaan>"
+	"giishkizhan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<mazina'igan>"
+	"mazina'igan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 174
+# text = Niwii-saasagokwaanaa giikanaamozigan.
+"<niwii-saasagokwaanaa>"
+	"zaasagokwaazh" PVTense/wii VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<giikanaamozigan>"
+	"giikanaamozigan" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 175
+# text = Ogii-makamaan iniw oniijaanisan waagaakwad odaminwaagenid.
+"<ogii-makamaan>"
+	"makam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"makam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<iniw>"
+	"iniw" PRONDem NA ObvPl
+	"iniw" PRONDem NA ObvSg
+"<oniijaanisan>"
+	"niijaanis" NAD ObvSg 3SgProxPoss
+	"niijaanis" NAD ObvPl 3SgProxPoss
+"<waagaakwad>"
+	"waagaakwad" NI Sg
+	"waagaakwad" VII Ind Pos Neu 0SgSubj
+"<odaminwaagenid>"
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
+	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 176
+# text = Anokiikaazo awe getimishkid.
+"<anokiikaazo>"
+	"anokiikaazo" VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<getimishkid>"
+	"gitimishki" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"gitimishki" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 177
+# text = Gii-onzaamibizowag imaa washkamonig igiw gaa-anibesewaad.
+"<gii-onzaamibizowag>"
+	"onzaamibizo" PVTense/gii VAI Ind Pos Neu 3PlProxSubj
+"<imaa>"
+	"imaa" ADVLoc
+"<washkamonig>"
+	"washkamonig" ADVLoc
+"<igiw>"
+	"igiw" PRONDem NA ProxPl
+"<gaa-anibesewaad>"
+	"anibese" ChCnj PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
+	"anibese" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 178
+# text = Ona'itawaan oosan ezhi-gikinoo'amaagod.
+"<ona'itawaan>"
+	"na'itaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"na'itaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<oosan>"
+	"oos" NAD ObvSg 3SgProxPoss
+	"oos" NAD ObvPl 3SgProxPoss
+"<ezhi-gikinoo'amaagod>"
+	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 179
+# text = Niwiijigaabawitawaa awe niwiijiiwaagan.
+"<niwiijigaabawitawaa>"
+	"wiijigaabawitaw" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<niwiijiiwaagan>"
+	"wiijiiwaagan" NA ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 180
+# text = Indaga dawinamaw 'iw desa'on aw niningwan. Mii imaa ge-izhi-bagidoomaad iniw waawaashkeshiwan.
+"<indaga>"
+	"indaga" PCDisc
+"<dawinamaw>"
+	"dawinamaw" VTA Imp Sim 2SgSubj 3SgProxObj
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<desa'on>"
+	"desa'on" NI Sg
+"<aw>"
+	"aw" PRONDem NA ProxSg
+"<niningwan>"
+	"ningwan" NAD ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+"<mii>"
+	"mii" ADVPred
+"<imaa>"
+	"imaa" ADVLoc
+"<ge-izhi-bagidoomaad>"
+	"bagidoom" ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"bagidoom" ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"bagidoom" ChCnj PVTense/ga PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"bagidoom" ChCnj PVTense/ga PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<iniw>"
+	"iniw" PRONDem NA ObvPl
+	"iniw" PRONDem NA ObvSg
+"<waawaashkeshiwan>"
+	"waawaashkeshi" NA ObvSg
+	"waawaashkeshi" NA ObvPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 181
+# text = Ogijidaabaan izhi-bimiwidoon gijiimaan.
+"<ogijidaabaan>"
+	"ogijidaabaan" ADVLoc
+"<izhi-bimiwidoon>"
+	"bimiwidoon" PVRel/izhi VTI Imp Sim 2SgSubj 0SgObj
+"<gijiimaan>"
+	"jiimaan" NI Sg 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 182
+# text = Apishimoniken ininaandagoog ozhitooyan giwiigiwaam.
+"<apishimoniken>"
+	"apishimonike" VAI Imp Sim 2SgSubj
+"<ininaandagoog>"
+	"ininaandag" NA ProxPl
+"<ozhitooyan>"
+	"ozhitoon" VTI Cnj Pos Neu 2SgSubj 0SgObj
+"<giwiigiwaam>"
+	"wiigiwaam" NI Sg 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 183
+# text = Bakaan inaajimo awe bezhig.
+"<bakaan>"
+	"bakaan" ADVMan
+"<inaajimo>"
+	"inaajimo" VAI Ind Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<bezhig>"
+	"bezhig" NUM
+"<.>"
+	"PUNCT"
+
+# sent_id = 184
+# text = Naano-mizid midaaso-mininj nindakooz.
+"<naano-mizid>"
+	"naano-mizid" NUM
+"<midaaso-mininj>"
+	"midaaso-mininj" NUM
+"<nindakooz>"
+	"akoozi" VAI Ind Pos Neu 1SgSubj
+	"dakoozi" VAI Ind Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 185
+# text = Weweni ganawendamog 'i minisi ebiitamong.
+"<weweni>"
+	"weweni" ADVMan
+"<ganawendamog>"
+	"ganawendan" VTI Imp Sim 2PlSubj 0SgObj
+"<'i>"
+	"'i" PRONDem NI Sg
+"<minisi>"
+	"minisi" NI Sg
+"<ebiitamong>"
+	"abiitan" ChCnj VTI Cnj Pos Neu InclSubj 0SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 186
+# text = Aditewan aniibiishan.
+"<aditewan>"
+	"adite" VII Ind Pos Neu 0PlSubj
+"<aniibiishan>"
+	"aniibiish" NI Pl
+"<.>"
+	"PUNCT"
+
+# sent_id = 187
+# text = Michi-niisaabiiginan jiimaan; onzaam mamaangaadigose.
+"<michi-niisaabiiginan>"
+	"niisaabiiginan" PVLex/michi VTI Imp Sim 2SgSubj 0SgObj
+"<jiimaan>"
+	"jiimaan" NI Sg
+"<;>"
+	"PUNCT"
+"<onzaam>"
+	"onzaam" ADVQnt
+"<mamaangaadigose>"
+	"mamaangaadigose" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 188
+# text = Ogii-naajidaabaanaan ini mitigoon gaa-kawaashinid.
+"<ogii-naajidaabaanaan>"
+	"naajidaabaazh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"naajidaabaazh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<ini>"
+	"ini" PRONDem NA ObvPl
+	"ini" PRONDem NA ObvSg
+"<mitigoon>"
+	"mitig" NA ObvPl
+	"mitig" NA ObvSg
+"<gaa-kawaashinid>"
+	"gawaashi" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgObvSubj
+	"gawaashi" ChCnj PVTense/gii VAI Cnj Pos Neu 3PlObvSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 189
+# text = Gipagizi aw mikwam imaa zaaga'iganing.
+"<gipagizi>"
+	"gipagizi" VAI Ind Pos Neu 3SgProxSubj
+"<aw>"
+	"aw" PRONDem NA ProxSg
+"<mikwam>"
+	"mikwam" NA ProxSg
+"<imaa>"
+	"imaa" ADVLoc
+"<zaaga'iganing>"
+	"zaaga'igan" NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 190
+# text = Agaaming inakwazhiwen.
+"<agaaming>"
+	"agaaming" ADVLoc
+"<inakwazhiwen>"
+	"inakwazhiwe" VAI Imp Sim 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 191
+# text = Gii-kimiwan ina dibikong.
+"<gii-kimiwan>"
+	"gimiwan" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<ina>"
+	"ina" PCDisc
+"<dibikong>"
+	"dibikong" ADVTmp
+"<.>"
+	"PUNCT"
+
+# sent_id = 192
+# text = Ezhi-gizii'waad iniwen owiiniskiigomaanan a'aw gwiiwizens.
+"<ezhi-gizii'waad>"
+	"gizii'" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"gizii'" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<iniwen>"
+	"iniwen" PRONDem NA ObvPl
+	"iniwen" PRONDem NA ObvSg
+"<owiiniskiigomaanan>"
+	"wiiniskiigomaan" NA ObvSg 3SgProxPoss
+	"wiiniskiigomaan" NA ObvPl 3SgProxPoss
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<gwiiwizens>"
+	"gwiiwizens" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 193
+# text = Zaagidin a'aw animosh.
+"<zaagidin>"
+	"zaagidin" VTA Imp Sim 2SgSubj 3SgProxObj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<animosh>"
+	"animosh" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 194
+# text = Iw manoominashk, miish iwidi ogijayi'ii endazhiging 'iw manoomin.
+"<iw>"
+	"iw" PRONDem NI Sg
+"<manoominashk>"
+	"manoominashk" NI Sg
+"<,>"
+	"PUNCT"
+"<miish>"
+	"miish" ADVPred
+"<iwidi>"
+	"iwidi" ADVLoc
+"<ogijayi'ii>"
+	"ogijayi'ii" ADVLoc
+"<endazhiging>"
+	"dazhigin" ChCnj VII Cnj Pos Neu 0SgSubj
+	"dazhigin" VII Pcp Pos Neu 0SgSubj 0SgHead
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<manoomin>"
+	"manoomin" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 195
+# text = Mamigobidoon nooka'iiwagwaan gaa-mashkawaakwading, aanind wii-siiginaman gijiibaakwaanakikong.
+"<mamigobidoon>"
+	"mamigobidoon" VTI Imp Sim 2SgSubj 0SgObj
+"<nooka'iiwagwaan>"
+	"nooka'iiwagwaan" NI Sg
+"<gaa-mashkawaakwading>"
+	"mashkawaakwadin" ChCnj PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"mashkawaakwadin" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
+	"mashkawaakwadin" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+"<,>"
+	"PUNCT"
+"<aanind>"
+	"aanind" ADVQnt
+"<wii-siiginaman>"
+	"ziiginan" PVTense/wii VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"ziiginan" PVTense/wii VTI Cnj Pos Neu 2SgSubj 0PlObj
+"<gijiibaakwaanakikong>"
+	"jiibaakwaanakik" NA Loc 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 196
+# text = Wiisagipogwad. Onzaam mashkawaagamin.
+"<wiisagipogwad>"
+	"wiisagipogwad" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+"<onzaam>"
+	"onzaam" ADVQnt
+"<mashkawaagamin>"
+	"mashkawaagamin" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 197
+# text = Boonitoon iwe. Gego babaamendangen.
+"<boonitoon>"
+	"boonitoon" VTI Imp Sim 2SgSubj 0SgObj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<.>"
+	"PUNCT"
+"<gego>"
+	"gego" ADVNeg
+"<babaamendangen>"
+	"babaamendam" VAI Imp Prb 2SgSubj
+	"babaamendan" VTI Imp Prb 2SgSubj 0SgObj
+	"babaamendan" VTI Imp Prb 2SgSubj 0PlObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 198
+# text = Biindoonag abiwag igiw asabiig.
+"<biindoonag>"
+	"biindoonag" ADVLoc
+"<abiwag>"
+	"abi" VAI Ind Pos Neu 3PlProxSubj
+"<igiw>"
+	"igiw" PRONDem NA ProxPl
+"<asabiig>"
+	"asab" NA ProxPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 199
+# text = Giiwedaabaazh amik gaa-gii-tasoonad.
+"<giiwedaabaazh>"
+	"giiwedaabaazh" VTA Imp Sim 2SgSubj 3SgProxObj
+"<amik>"
+	"amik" NA ProxSg
+"<gaa-gii-tasoonad>"
+	"dasoozh" PVSub/gaa PVTense/gii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 200
+# text = Ogii-pigishkishimaan gii-paninaad iniw waabiganimoodayan.
+"<ogii-pigishkishimaan>"
+	"bigishkishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"bigishkishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<gii-paninaad>"
+	"banin" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"banin" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<iniw>"
+	"iniw" PRONDem NA ObvPl
+	"iniw" PRONDem NA ObvSg
+"<waabiganimoodayan>"
+	"waabiganimooday" NA ObvSg
+	"waabiganimooday" NA ObvPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 201
+# text = Wanakwaandag onji-bookobizh waa'-apishimonikaageyan zhingobiig.
+"<wanakwaandag>"
+	"wanakwaandag" NI Sg
+"<onji-bookobizh>"
+	"bookobizh" PVRel/onji VTA Imp Sim 2SgSubj 3PlProxObj
+	"bookobizh" PVRel/onji VTA Imp Sim 2SgSubj 3SgProxObj
+"<waa'-apishimonikaageyan>"
+	"apishimonikaagen" ChCnj PVTense/wii' VAIO Cnj Pos Neu 2SgSubj 3PlProxObj
+"<zhingobiig>"
+	"zhingob" NA ProxPl
+"<.>"
+	"PUNCT"
+
+# sent_id = 202
+# text = Ogii-pookobidoon i'iw ozhibii'iganaak.
+"<ogii-pookobidoon>"
+	"bookobidoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<ozhibii'iganaak>"
+	"ozhibii'iganaak" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 203
+# text = Dibishkoo go naa ezhichiged ozhi'aad ini bakwezhiganan ge niin ezhichigeyaan.
+"<dibishkoo>"
+	"dibishkoo" ADVMan
+"<go>"
+	"go" PCDisc
+"<naa>"
+	"naa" PCEmph
+"<ezhichiged>"
+	"izhichige" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"izhichige" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<ozhi'aad>"
+	"ozhi'" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"ozhi'" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<ini>"
+	"ini" PRONDem NA ObvPl
+	"ini" PRONDem NA ObvSg
+"<bakwezhiganan>"
+	"bakwezhigan" NA ObvSg
+	"bakwezhigan" NA ObvPl
+"<ge>"
+	"ge" ADVConj
+"<niin>"
+	"niin" PRONPer NA 1Sg
+"<ezhichigeyaan>"
+	"izhichige" ChCnj VAI Cnj Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 204
+# text = Opimeya'ii ani-inaaboonodaa.
+"<opimeya'ii>"
+	"opimeya'ii" ADVLoc
+"<ani-inaaboonodaa>"
+	"inaaboono" PVDir/ani VAI Imp Sim InclSubj
+	"inaaboono" PVDir/ani VAI Imp Del InclSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 205
+# text = Giminwendam ina.
+"<giminwendam>"
+	"minwendam" VAI Ind Pos Neu 2SgSubj
+"<ina>"
+	"ina" PCDisc
+"<.>"
+	"PUNCT"
+
+# sent_id = 206
+# text = Gaag gaashibiiwaye.
+"<gaag>"
+	"gaag" NA ProxSg
+"<gaashibiiwaye>"
+	"gaashibiiwaye" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 207
+# text = Aaniin epiichi-gizhaateg.
+"<aaniin>"
+	"aaniin" ADVInter
+"<epiichi-gizhaateg>"
+	"gizhaate" ChCnj PVRel/apiichi VII Cnj Pos Neu 0SgSubj
+	"gizhaate" PVRel/apiichi VII Pcp Pos Neu 0SgSubj 0SgHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 208
+# text = Odazhiikawaan odasabiin. Omegwaa-bagwa'waan.
+"<odazhiikawaan>"
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<odasabiin>"
+	"asab" NA ObvPl 3SgProxPoss
+	"asab" NA ObvSg 3SgProxPoss
+"<.>"
+	"PUNCT"
+"<omegwaa-bagwa'waan>"
+	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 209
+# text = Ogiishkizhamowaan iniw oosan omashkosiinsimini.
+"<ogiishkizhamowaan>"
+	"giishkizhamaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"giishkizhamaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<iniw>"
+	"iniw" PRONDem NA ObvPl
+	"iniw" PRONDem NA ObvSg
+"<oosan>"
+	"oos" NAD ObvSg 3SgProxPoss
+	"oos" NAD ObvPl 3SgProxPoss
+"<omashkosiinsimini>"
+	"mashkosi" NI Dim Poss Sg 3SgObvPoss
+	"mashkosi" NI Dim Poss Sg 3PlObvPoss
+	"mashkosi" NI Dim Poss Pl 3SgObvPoss
+	"mashkosi" NI Dim Poss Pl 3PlObvPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 210
+# text = Bizaan. Bizindan. Gaazhagens madwezhaazo.
+"<bizaan>"
+	"bizaan" ADVMan
+"<.>"
+	"PUNCT"
+"<bizindan>"
+	"bizindam" VAI Imp Sim 2SgSubj
+	"bizindan" VTI Imp Sim 2SgSubj 0SgObj
+	"bizindan" VTI Imp Sim 2SgSubj 0PlObj
+"<.>"
+	"PUNCT"
+"<gaazhagens>"
+	"gaazhagens" NA ProxSg
+"<madwezhaazo>"
+	"madwezhaazo" VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 211
+# text = Aaniin endaswewaanagakin.
+"<aaniin>"
+	"aaniin" ADVInter
+	"aaniin" PCInterj
+"<endaswewaanagakin>"
+	"daswewaanagadoon" ChCnj VIIPL Cnj Pos Neu 0PlSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 212
+# text = Agaamikwam inaada'e nindede.
+"<agaamikwam>"
+	"agaamikwam" ADVLoc
+"<inaada'e>"
+	"inaada'e" VAI Ind Pos Neu 3SgProxSubj
+"<nindede>"
+	"dedey" NAD ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 213
+# text = Indaga o-wiidookaw awe nookomis baadaadagaaziid.
+"<indaga>"
+	"indaga" PCDisc
+"<o-wiidookaw>"
+	"wiidookaw" PVDir/o VTA Imp Sim 2SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<nookomis>"
+	"ookomis" NAD ProxSg 1SgPoss
+"<baadaadagaaziid>"
+	"biidaadagaazii" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"biidaadagaazii" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<.>"
+	"PUNCT"
+
+# sent_id = 214
+# text = Ningii-kagwejikanidimin nishiime gaa-ni-izhi-gabikawid.
+"<ningii-kagwejikanidimin>"
+	"gagwejikanidiwag" PVTense/gii VAI Ind Pos Neu ExclSubj ExclObj
+"<nishiime>"
+	"shiimey" NAD ProxSg 1SgPoss
+"<gaa-ni-izhi-gabikawid>"
+	"gabikaw" ChCnj PVTense/gii PVDir/ni PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+	"gabikaw" PVSub/gaa PVDir/ni PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 215
+# text = Mii go eyiizh epiitiziwaad.
+"<mii>"
+	"mii" ADVPred
+"<go>"
+	"go" PCDisc
+"<eyiizh>"
+	"eyiizh" ADVQnt
+"<epiitiziwaad>"
+	"apiitizi" ChCnj VAI Cnj Pos Neu 3PlProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 216
+# text = Giishpin gikendanziwan, gidaa-gagwejimaa gisayenh.
+"<giishpin>"
+	"giishpin" ADVGram
+"<gikendanziwan>"
+	"gikendam" VAI Cnj Neg Neu 2SgSubj
+	"gikendan" VTI Cnj Neg Neu 2SgSubj 0SgObj
+	"gikendan" VTI Cnj Neg Neu 2SgSubj 0PlObj
+"<,>"
+	"PUNCT"
+"<gidaa-gagwejimaa>"
+	"gagwejim" PVTense/daa VTA Ind Pos Neu 2SgSubj 3SgProxObj
+"<gisayenh>"
+	"sayeny" NAD ProxSg 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 217
+# text = Apane ninaanaagadawenimaa noozhis waasa gaa-dazhi-gikinoo'amawind. Ganabaj ninga-ganoonaa onaagoshig.
+"<apane>"
+	"apane" ADVTmp
+"<ninaanaagadawenimaa>"
+	"naanaagadawenim" VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<noozhis>"
+	"oozhis" NAD ProxSg 1SgPoss
+"<waasa>"
+	"waasa" ADVLoc
+"<gaa-dazhi-gikinoo'amawind>"
+	"gikinoo'amaw" ChCnj PVTense/gii PVRel/dazhi VTA Cnj Pos Neu XSubj 3SgProxObj
+	"gikinoo'amaw" PVSub/gaa PVRel/dazhi VTA Cnj Pos Neu XSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<ninga-ganoonaa>"
+	"ganoozh" PVTense/ga VTA Ind Pos Neu 1SgSubj 3SgProxObj
+"<onaagoshig>"
+	"onaagoshin" VII Cnj Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 218
+# text = Ozhiigizhan waa'-inigokwegakin gimakizinikaanan.
+"<ozhiigizhan>"
+	"ozhiigizhan" VTI Imp Sim 2SgSubj 0SgObj
+	"ozhiigizhan" VTI Imp Sim 2SgSubj 0PlObj
+"<waa'-inigokwegakin>"
+	"inigokwegad" ChCnj PVTense/wii' VII Cnj Pos Neu 0PlSubj
+	"inigokwegad" PVTense/wii' VII Pcp Pos Neu 0PlSubj 0PlHead
+"<gimakizinikaanan>"
+	"makizinikaan" NI Pl 2SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 219
+# text = Gichi-gigizhebaawii.
+"<gichi-gigizhebaawii>"
+	"gigizhebaawii" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 220
+# text = Aabiding eta go gii-pi-dagoshin nisayenh.
+"<aabiding>"
+	"aabiding" ADVTmp
+"<eta>"
+	"eta" ADVDeg
+"<go>"
+	"go" PCDisc
+"<gii-pi-dagoshin>"
+	"dagoshin" PVTense/gii PVDir/bi VAI Ind Pos Neu 3SgProxSubj
+"<nisayenh>"
+	"sayeny" NAD ProxSg 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 221
+# text = Na' o'o. Awegonen o'o.
+"<na'>"
+	"na'" PCInterj
+"<o'o>"
+	"o'o" PRONDem NI Sg
+"<.>"
+	"PUNCT"
+"<awegonen>"
+	"awegonen" PRONInter NI Sg
+"<o'o>"
+	"o'o" PRONDem NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 222
+# text = Gomaa go akogamaa.
+"<gomaa>"
+	"gomaa" ADVDeg
+"<go>"
+	"go" PCDisc
+"<akogamaa>"
+	"akogamaa" VII Ind Pos Neu 0SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 223
+# text = Ogii-kashkiiginaan oniijaanisensan wii'-nibe'aad. Gii-goshkozinid ogii'-aabiiginaan.
+"<ogii-kashkiiginaan>"
+	"gashkiigin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"gashkiigin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<oniijaanisensan>"
+	"niijaanis" NAD Dim ObvSg 3SgProxPoss
+	"niijaanis" NAD Dim ObvPl 3SgProxPoss
+"<wii'-nibe'aad>"
+	"nibe'" PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"nibe'" PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+"<gii-goshkozinid>"
+	"goshkozi" PVTense/gii VAI Cnj Pos Neu 3SgObvSubj
+	"goshkozi" PVTense/gii VAI Cnj Pos Neu 3PlObvSubj
+"<ogii'-aabiiginaan>"
+	"aabiiginan" PVTense/gii' VTI Ind Pos Neu 3SgProxSubj 0SgObj
+	"aabiigin" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"aabiigin" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 224
+# text = Mii gii-maajiibatood awe bebaamaajimod wii-niimi'iding.
+"<mii>"
+	"mii" ADVPred
+"<gii-maajiibatood>"
+	"maajiibatoo" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<bebaamaajimod>"
+	"babaamaajimo" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"babaamaajimo" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+"<wii-niimi'iding>"
+	"niimi'idiwag" PVTense/wii VAI Cnj Pos Neu XSubj XObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 225
+# text = Giishpin izhishimod iniwen gekinawaabamaad naaminid.
+"<giishpin>"
+	"giishpin" ADVGram
+"<izhishimod>"
+	"izhishimo" VAI Cnj Pos Neu 3SgProxSubj
+"<iniwen>"
+	"iniwen" PRONDem NA ObvPl
+	"iniwen" PRONDem NA ObvSg
+"<gekinawaabamaad>"
+	"gikinawaabam" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"gikinawaabam" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<naaminid>"
+	"niimi" ChCnj VAI Cnj Pos Neu 3SgObvSubj
+	"niimi" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+	"niimin" ChCnj VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 226
+# text = Gii-noogibide iw waasamoo-jiimaanens.
+"<gii-noogibide>"
+	"noogibide" PVTense/gii VII Ind Pos Neu 0SgSubj
+"<iw>"
+	"iw" PRONDem NI Sg
+"<waasamoo-jiimaanens>"
+	"waasamoo-jiimaanens" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 227
+# text = Niminotam iko madwe-nagamowaad iwe nooji'ikwewe-nagamon.
+"<niminotam>"
+	"minotam" VAI Ind Pos Neu 1SgSubj
+"<iko>"
+	"iko" PCAsp
+"<madwe-nagamowaad>"
+	"nagamo" PVLex/madwe VAI Cnj Pos Neu 3PlProxSubj
+"<iwe>"
+	"iwe" PRONDem NI Sg
+"<nooji'ikwewe-nagamon>"
+	"nooji'ikwewe-nagamon" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 228
+# text = Aaniish enaabamad.
+"<aaniish>"
+	"aaniish" ADVInter
+"<enaabamad>"
+	"inaabam" ChCnj VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 229
+# text = Ganabaj aanind biskanechigaansag jaagizowag wenji-maazhibideg 'iw odaabaan.
+"<ganabaj>"
+	"ganabaj" ADVMan
+"<aanind>"
+	"aanind" ADVQnt
+"<biskanechigaansag>"
+	"biskanechigaans" NA ProxPl
+"<jaagizowag>"
+	"jaagizo" VAI Ind Pos Neu 3PlProxSubj
+"<wenji-maazhibideg>"
+	"maazhibide" ChCnj PVRel/onji VII Cnj Pos Neu 0SgSubj
+	"maazhibide" PVRel/onji VII Pcp Pos Neu 0SgSubj 0SgHead
+"<'iw>"
+	"'iw" PRONDem NI Sg
+"<odaabaan>"
+	"odaabaan" NI Sg
+"<.>"
+	"PUNCT"
+
+# sent_id = 230
+# text = Gii-pookozideshin gaa-gii-pishigwaakwiid odaabaaning.
+"<gii-pookozideshin>"
+	"bookozideshin" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
+"<gaa-gii-pishigwaakwiid>"
+	"bishigwaakwii" PVSub/gaa PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+"<odaabaaning>"
+	"odaabaan" NA Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 231
+# text = Agaaming ningii-tazhi-ondaadiz.
+"<agaaming>"
+	"agaaming" ADVLoc
+"<ningii-tazhi-ondaadiz>"
+	"ondaadizi" PVTense/gii PVRel/dazhi VAI Ind Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 232
+# text = Mii imaa badakideg i'iw nibewigamig naawi-oodenaang.
+"<mii>"
+	"mii" ADVPred
+"<imaa>"
+	"imaa" ADVLoc
+"<badakideg>"
+	"badakide" VII Cnj Pos Neu 0SgSubj
+"<i'iw>"
+	"i'iw" PRONDem NI Sg
+"<nibewigamig>"
+	"nibewigamig" NI Sg
+"<naawi-oodenaang>"
+	"oodena" PNLex/naawi NI Loc
+"<.>"
+	"PUNCT"
+
+# sent_id = 233
+# text = Maanoo giga-wiiji'igonaan.
+"<maanoo>"
+	"maanoo" ADVMan
+"<giga-wiiji'igonaan>"
+	"wiiji'" PVTense/ga VTA Ind Pos Neu 3SgProxSubj InclObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 234
+# text = Gidaa-gagwe-mikamawaa odoodaabaanan gaa-gii'-wani'aad. Dakoniwewininiwag ogagwe-mikawaawaan.
+"<gidaa-gagwe-mikamawaa>"
+	"mikamaw" PVTense/daa PVLex/gagwe VTA Ind Pos Neu 2SgSubj 3SgProxObj
+"<odoodaabaanan>"
+	"odaabaan" NA ObvSg 3SgProxPoss
+	"odaabaan" NA ObvPl 3SgProxPoss
+"<gaa-gii'-wani'aad>"
+	"wani'" PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"wani'" PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+"<.>"
+	"PUNCT"
+"<dakoniwewininiwag>"
+	"dakoniwewinini" NA ProxPl
+"<ogagwe-mikawaawaan>"
+	"mikaw" PVLex/gagwe VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
+	"mikaw" PVLex/gagwe VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+"<.>"
+	"PUNCT"
+
+# sent_id = 235
+# text = Giziibiiga'igan nindaabajitoon giziibiiga'igeyaan.
+"<giziibiiga'igan>"
+	"giziibiiga'igan" NI Sg
+"<nindaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<giziibiiga'igeyaan>"
+	"giziibiiga'ige" VAI Cnj Pos Neu 1SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 236
+# text = Agwajiing ningii-izhaa, gaa-izhi-giikajizidewajiyaan, gaa-izhi-biindigeyaan gii-kiizikamaan nimakizinan.
+"<agwajiing>"
+	"agwajiing" ADVLoc
+"<ningii-izhaa>"
+	"izhaa" PVTense/gii VAI Ind Pos Neu 1SgSubj
+"<,>"
+	"PUNCT"
+"<gaa-izhi-giikajizidewajiyaan>"
+	"giikajizidewaji" ChCnj PVTense/gii PVRel/izhi VAI Cnj Pos Neu 1SgSubj
+	"giikajizidewaji" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj
+"<,>"
+	"PUNCT"
+"<gaa-izhi-biindigeyaan>"
+	"biindige" ChCnj PVTense/gii PVRel/izhi VAI Cnj Pos Neu 1SgSubj
+	"biindige" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj
+"<gii-kiizikamaan>"
+	"giizikan" PVTense/gii VTI Cnj Pos Neu 1SgSubj 0PlObj
+"<nimakizinan>"
+	"makizin" NI Pl 1SgPoss
+"<.>"
+	"PUNCT"
+
+# sent_id = 237
+# text = Aandi wenjiiyan.
+"<aandi>"
+	"aandi" ADVInter
+"<wenjiiyan>"
+	"onjii" ChCnj VAI Cnj Pos Neu 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 238
+# text = Ginandawenimin ji-bi-giiweyan.
+"<ginandawenimin>"
+	"andawenim" VTA Ind Pos Neu 1SgSubj 2SgObj
+"<ji-bi-giiweyan>"
+	"giiwe" PVTense/ga PVDir/bi VAI Cnj Pos Neu 2SgSubj
+	"giiwe" PVTense/daa PVDir/bi VAI Cnj Pos Neu 2SgSubj
+"<.>"
+	"PUNCT"
+
+# sent_id = 239
+# text = Gaawiin ganage indaa-beshoji'aasii awe ... a'awe zanagiz.
+"<gaawiin>"
+	"gaawiin" ADVNeg
+"<ganage>"
+	"ganage" ADVMan
+"<indaa-beshoji'aasii>"
+	"beshoji'" PVTense/daa VTA Ind Neg Neu 1SgSubj 3SgProxObj
+"<awe>"
+	"awe" PRONDem NA ProxSg
+"<...>"
+	"PUNCT"
+"<a'awe>"
+	"a'awe" PRONDem NA ProxSg
+"<zanagiz>"
+	"zanagiz" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 240
+# text = Indaabajitoon abwewinaabik zaasagokwaanag a'aw bakwezhigan.
+"<indaabajitoon>"
+	"aabajitoon" VTI Ind Pos Neu 1SgSubj 0SgObj
+"<abwewinaabik>"
+	"abwewinaabik" NI Sg
+"<zaasagokwaanag>"
+	"zaasagokwaazh" VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+"<a'aw>"
+	"a'aw" PRONDem NA ProxSg
+"<bakwezhigan>"
+	"bakwezhigan" NA ProxSg
+"<.>"
+	"PUNCT"
+
+# sent_id = 241
+# text = Giinitamawind gidigoomin ji-gaagiigidoyang.
+"<giinitamawind>"
+	"giinitamawind" PRONPer NA Incl
+"<gidigoomin>"
+	"izhi" VTA Ind Pos Neu XSubj InclObj
+"<ji-gaagiigidoyang>"
+	"gaagiigido" PVTense/ga VAI Cnj Pos Neu InclSubj
+	"gaagiigido" PVTense/daa VAI Cnj Pos Neu InclSubj
+"<.>"
+	"PUNCT"

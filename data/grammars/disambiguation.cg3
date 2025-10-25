@@ -1,0 +1,243 @@
+# This is the disambiguation file for Anishinaabemowin (Ojibwe).
+
+# Define to set as sentence delimeters
+DELIMITERS = "<.>" "<,>" "<;>" "<:>" "<!>" "<?>" "<(>" "<)>" "<{>" "<}>" "<[>" "<]>" "<<>" "<>>" "<«>" "<»>" "<“>" "<”>" "<">" "<¶>";
+
+# Verb arguments by number and obviation
+LIST SG_PROX_ARGUMENT = 3SgProxSubj 3SgProxObj ;
+LIST PL_PROX_ARGUMENT = 3PlProxSubj 3PlProxObj ;
+
+LIST SG_OBV_ARGUMENT = 3SgObvSubj 3SgObvObj ;
+LIST PL_OBV_ARGUMENT = 3PlObvSubj 3PlObvObj ;
+
+
+LIST 0SG_ARGUMENT = 0SgSubj 0SgObj ;
+LIST 0SG_OBV_ARGUMEMT = 0SgObvSubj 0SgObvObj ;
+
+LIST 0PL_ARGUMENT = 0PlSubj 0PlObj ;
+LIST 0PL_OBV_ARGUMENT = 0PlObvSubj 0PlObvObj ;
+
+# Verb arguments by number and animacy
+LIST SG_AN_SUBJECT = 3SgProxSubj 3SgObvSubj ;
+LIST PL_AN_SUBJECT = 3PlProxSubj 3PlObvSubj ;
+SET AN_SUBJECT = SG_AN_SUBJECT OR  PL_AN_SUBJECT ;
+
+LIST SG_AN_OBJECT = 3SgProxObj 3SgObvObj ;
+LIST PL_AN_OBJECT = 3PlProxObj 3PlObvObj ;
+SET AN_OBJECT = SG_AN_OBJECT OR PL_AN_OBJECT ;
+
+SET AN_ARGUMENT = AN_SUBJECT OR AN_OBJECT ;
+
+
+LIST SG_INAN_SUBJECT = 0SgSubj 0SgObvSubj ;
+LIST PL_INAN_SUBJECT = 0PlSubj 0PlObvSubj ;
+SET INAN_SUBJECT = SG_INAN_SUBJECT OR  PL_INAN_SUBJECT ;
+
+LIST SG_INAN_OBJECT = 0SgObj 0SgObvObj ;
+LIST PL_INAN_OBJECT = 0PlObj 0PlObvObj ;
+SET INAN_OBJECT = SG_INAN_OBJECT OR PL_INAN_OBJECT ;
+
+SET INAN_ARGUMENT = INAN_SUBJECT OR INAN_OBJECT ;
+
+# ALL possible 3rd person arguments
+SET 3P_ARGUMENT = AN_ARGUMENT OR INAN_ARGUMENT ;
+
+
+SET NA_NAD = (NA) OR (NAD) ;
+SET NI_NID = (NI) OR (NID) ;
+
+# Pronouns that are ambiguous for number/obviation
+SET AN_SPECIAL_PRON = (PRONIndf NA) OR (PRONInter NA) OR (PRONPret NA);
+LIST INAN_SPECIAL_PRON = (PRONIndf NI);
+
+SET gaa_gii = (PVSub/gaa PVTense/gii') OR (PVSub/gaa PVTense/gii) ;
+LIST Pcp = Pcp ;
+SET RC = gaa_gii + Pcp ;
+LIST RelCl = RelCl ;
+
+
+# locative advs that work as prepositions
+SET PREP_LOCS = ("o'omaa") OR ("omaa") OR ("i'imaa") OR ("imaa") OR ("i'iwidi") OR ("iwidi") OR ("o'owidi") OR ("owidi") ;
+
+# ambiguous advs to select unconditionally
+SET UNCONDITIONAL_ADVS = ("debinaak") OR ("nising") OR ("niiwing") OR ("niizhing") OR ("dasing") ;
+
+## DERIVATIONAL (Der/, Aug/, Dim, Pej, Reflex/, Recip/ tags)
+LIST DERIVATIONAL = Der/magad Aug/magad Dim Pej Reflex/dizo Recip/di;
+
+
+
+SET NOMINAL = NA_NAD OR NI_NID ;
+SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIO) ;
+SET ADV = (ADVConj)  OR (ADVDisc) OR (ADVDub) OR (ADVGram) OR (ADVInter) OR (ADVLoc) OR (ADVMan) OR (ADVNeg) OR (ADVPred) OR (ADVQnt) OR (ADVTmp) OR (AVDDeg);
+SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR (PRONSim) OR (PRONPer) ;
+SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
+
+# Ditransitives (not separating inherent from derived yet)
+LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam" "diba'amaw" "andodamaw" "waawiindamaw" "mina'" "odaapinamaw" "ininamaw" ;
+
+# impersonal verbs 
+LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "naawakwe" "noodinzinoon" "diba'igane" "waaseyaa" "biidaaban" "ondaanimad" "mindookad" "giizhigad" "animikiikaa" "dagwaagin" "niibin" "naawakwe" "bagamibiisaan" "noodin" "ziigwan" "maajibiisaa" "ojiindiwi-giizhigad" "gisinaa" "bimaanimad" "onaabanad" "gibitaanimad" "mikwaminaaniwan" "gizhaate" "bagakaaban" "giizhigaate" "bapangibiisaa";
+
+SET DIR_OBJ_VERB = VERB - DITRANSITIVE ;
+
+
+# --- IMPORTANT: Disambiguation/Depepndency Parsing boundary ---
+# TODO: update this systematically
+# CURRENT ASSUMPTION: EVERY V that isn't a RC or a VII Impersonal Verb is a clause boundary
+SET CB = VERB - RC - IMPERSONAL_VERB ;
+
+SECTION
+
+### Blanket constraints (context independent)
+
+## Select Loc Adv readings UNCONDITIONALLY if available
+# TODO: not fully checked, eye test for ~30 examples seems to work
+SELECT:select_adv_loc TARGET (ADVLoc) ;
+## Select adverbs from the special set
+SELECT:select_special_adv TARGET UNCONDITIONAL_ADVS ;
+
+REMOVE:rem_pl_for_impersonal_verbs (0PlSubj) IF (0 IMPERSONAL_VERB)  ;
+
+
+SECTION
+
+### VERBS - Rules to handle ambiguity of verbs ###
+
+## ANIMATE SUBJECT (VTA, VTI, VAI, VAIO)
+## (Obviative forms not disambiguated - inherently ambiguous)
+
+SELECT:animate_subj_rule_1 (3SgProxSubj) IF ((-1* NA_NAD + (ProxSg) BARRIER CB) OR (1* NA_NAD + (ProxSg) BARRIER CB)) ;
+
+SELECT:animate_subj_rule_2 (3PlProxSubj) IF ((-1* NA_NAD + (ProxPl) BARRIER CB) OR (1* NA_NAD + (ProxPl) BARRIER CB)) ;
+
+
+## ANIMATE OBJECT (VTA)
+## (Obviative forms not disambiguated - inherently ambiguous)
+
+SELECT:animate_obj_rule_1 (3SgProxObj) IF ((-1* NA_NAD + (ProxSg) BARRIER CB) OR (1* NA_NAD + (ProxSg) BARRIER CB));
+
+SELECT:animate_obj_rule_2 (3PlProxObj) IF ((-1* NA_NAD + (ProxPl) BARRIER CB) OR (1* NA_NAD + (ProxPl) BARRIER CB));
+
+## INANIMATE SUBJECT (VII)
+
+SELECT:inanimate_subj_rule_1 SG_INAN_SUBJECT IF ((-1* NI_NID + (Sg) BARRIER CB) OR (1* NI_NID + (Sg) BARRIER CB));
+
+SELECT:inanimate_subj_rule_2 PL_INAN_SUBJECT IF ((-1* NI_NID + (Pl) BARRIER CB) OR (1* NI_NID + (Pl) BARRIER CB));
+
+
+## INANIMATE OBJECT (VTI, VAIO)
+
+SELECT:inanimate_obj_rule_1 SG_INAN_OBJECT IF ((-1* NI_NID + (Sg) BARRIER CB) OR (1* NI_NID + (Sg) BARRIER CB));
+
+SELECT:inanimate_obj_rule_2 PL_INAN_OBJECT IF ((-1* NI_NID + (Pl) BARRIER CB) OR (1* NI_NID + (Pl) BARRIER CB));
+
+
+
+## TODO: where to put this??
+# Remove VAIO tag if no NI/NID noun nearby
+REMOVE:vaio_rule_1 (VAIO) IF (NOT (-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) ;
+
+## ANIMACY DISAMBIGUATION
+
+# Should solve VTA/VTI
+SELECT:verb_animacy_rule_1 AN_OBJECT IF ((-1* NA_NAD BARRIER CB) OR (1* NA_NAD BARRIER CB)) (NOT -1* NI_NID BARRIER CB) (NOT 1* NI_NID BARRIER CB) ;
+
+SELECT:verb_animacy_rule_2 INAN_OBJECT IF ((-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) (NOT -1* NA_NAD BARRIER CB) (NOT 1* NA_NAD BARRIER CB) ;
+
+# Should solve VAI/VII
+SELECT:verb_animacy_rule_1 AN_SUBJECT IF ((-1* NA_NAD BARRIER CB) OR (1* NA_NAD BARRIER CB)) (NOT -1* NI_NID BARRIER CB) (NOT 1* NI_NID BARRIER CB) ;
+
+SELECT:verb_animacy_rule_2 INAN_SUBJECT IF ((-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) (NOT -1* NA_NAD BARRIER CB) (NOT 1* NA_NAD BARRIER CB) ;
+
+
+### NOUNS - Rules to handle ambiguity of nouns ###
+
+## Through verbal arguments
+
+## NUMBER DISAMBIGUATION
+
+SELECT:noun_number_rule_1 NA_NAD + (ProxSg) IF ((-1* SG_PROX_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ SG_PROX_ARGUMENT) OR (1* SG_PROX_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ SG_PROX_ARGUMENT))  ;
+
+SELECT:noun_number_rule_2 NA_NAD + (ProxPl) IF ((-1* PL_PROX_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ PL_PROX_ARGUMENT) OR (1* PL_PROX_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ PL_PROX_ARGUMENT)) ;
+
+SELECT:noun_number_rule_3 NI_NID + (Sg) IF ((-1* 0SG_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ 0SG_ARGUMENT) OR (1* 0SG_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ 0SG_ARGUMENT)) ;
+
+SELECT:noun_number_rule_4 NI_NID + (Pl) IF ((-1* 0PL_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ 0PL_ARGUMENT) OR (1* 0PL_ARGUMENT BARRIER CB LINK NOT 0 3P_ARGUMENT ∆ 0PL_ARGUMENT)) ;
+
+## ANIMACY DISAMBIGUATION
+
+# Solve NA/NI and NAD/NID ambiguities
+SELECT:noun_animacy_rule_1 NA_NAD IF ((-1* AN_ARGUMENT BARRIER VERB LINK NOT 0 INAN_ARGUMENT) OR (1* AN_ARGUMENT BARRIER CB LINK NOT 0 INAN_ARGUMENT)) ;
+
+SELECT:noun_animacy_rule_2 NI_NID IF ((-1* INAN_ARGUMENT BARRIER CB LINK NOT 0 AN_ARGUMENT) OR (1* INAN_ARGUMENT BARRIER CB LINK NOT 0 AN_ARGUMENT)) ;
+
+
+## Through Demonstratives
+
+## Following verb should agree with immediately preceding demontrastive. Performed in careful mode (C), so only disambiguates if the preceding demonstrative is unambiguous.
+
+SELECT:noun_dem_rule_1 NA_NAD + (ProxSg) IF (-1C (PRONDem NA ProxSg)) ;
+
+SELECT:noun_dem_rule_2 NA_NAD + (ProxPl) IF (-1C (PRONDem NA ProxPl)) ;
+
+SELECT:noun_dem_rule_3 NA_NAD + (ObvSg) IF (-1C (PRONDem NA ObvSg)) ;
+
+SELECT:noun_dem_rule_4 NA_NAD + (ObvPl) IF (-1C (PRONDem NA ObvPl)) ;
+
+SELECT:noun_dem_rule_5 NI_NID + (Sg) IF (-1C (PRONDem NI Sg)) ;
+
+SELECT:noun_dem_rule_6 NI_NID + (Pl) IF (-1C (PRONDem NI Pl)) ;
+
+
+
+### PRONOUNS - Rules to handle ambiguity of pronouns ###
+
+## ANIMACY DISAMBIGUATION
+
+# For now only found demonstrative case with following noun
+SELECT:demonstrative_animacy_rule_1 (PRONDem NA) IF (1 (NA)) (NOT 1 (NI)) ;
+SELECT:demonstrative_animacy_rule_2 (PRONDem NI) IF (1 (NI)) (NOT 1 (NA)) ;
+
+
+### OTHER - Other (mostly idiosyncratic) ambiguity cases
+
+# aaniin - select ADVInter if close participle or ADV
+SELECT:aanin_1 ("aaniin" ADVInter) IF (1* (Pcp) BARRIER VERB) ;
+SELECT:aanin_2 ("aaniin" ADVInter) IF (1 ADV) ;
+
+
+
+### LEXICALIZATION - Where availabale, select lexicalized forms###
+
+## PREVERBS
+# Preverb/Prenoun rules, structure taken from Katherine Shmirler's Plains Cree parser (https://github.com/giellalt/lang-crk/blob/c82f485bf16cc98cee402e0023efe4a5b53ff60f/src/cg3/disambiguator.cg3#L1510) 
+SELECT:lexicalize_PV_5 ("[^<]+[-].+[-].+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_4 ("[^<]+[-].+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_3 ("[^<]+[-].+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_2 ("[^<]+[-].+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+SELECT:lexicalize_PV_1 ("[^<]+[-][^>]+"r) IF (0 VERB OR ADV OR NOMINAL) ;
+
+
+### Remove all derivational readings - keeping at bottom in case this information needs to be used beforehand. If not, consider moving to blanket constraints section
+REMOVE DERIVATIONAL ;
+
+# Prefer gichi- over chi-
+REMOVE:gichi_over_chi (PVLex/chi) IF (0 (PVLex/gichi));
+
+# Prefer Aug/magad over Der/magad
+REMOVE:Aug_over_Der (Der/magad) IF (0 (Aug/magad));
+
+# Prefer PV/gaa Pv/gii over duplicate Pv/gii 
+SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii) ;
+SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii') ;
+
+
+# Phonological lemma disambiguation 
+# remove word ending in -wi (in favour of -∅ or -o)
+REMOVE:remove_-wi ("(.*)wi"r) IF (0 ("$1"v) OR ("$1o"v));
+
+# remove word starting with n- (in favour of ∅-)
+REMOVE:remove_n- ("n(.*)"r) IF (0 ("$1"v));
+
+

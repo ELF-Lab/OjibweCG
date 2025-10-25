@@ -325,6 +325,8 @@ figure{margin:2rem 0;padding:1rem;border:1px solid #ddd;border-radius:8px;}
 figcaption{font-weight:bold;margin-bottom:.5rem;}
 .oj{color:#1565c0;} .en{color:#2e7d32;}
 .viz svg{width:100%!important;height:auto;}
+.viz svg{overflow:visible;}
+.viz svg > * { transform: translateX(80px); }
 .cg3{background:#f9f9f9;border:1px solid #eee;
      padding:1rem;margin-top:1rem;
      font:14px/1.4 monospace;white-space:pre-wrap;

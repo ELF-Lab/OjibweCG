@@ -1,0 +1,36 @@
+# Simple example as seen in the "How CG3 enables dependency parsing" section of the overview. Tags only contain POS information.
+
+# Define tags (so brackets don't have to be used in rules)
+LIST N = N ;
+LIST V = V ;
+LIST PRON = PRON ;
+LIST DET = DET ;
+
+# Dependency tags to be added
+LIST det = @det ;
+LIST nsubj = @nsubj ;
+LIST obj = @obj ;
+
+
+### Rules to parse dependency links
+
+# Assign Determiner
+SETPARENT DET  TO (1 N) ; # If a noun is preceded by a determiner, set noun as parent to determiner.
+
+# Assign Subject
+SETPARENT PRON  TO (1 V) ; # If verb is preceded by a pronoun, set verb as parent to noun.
+
+# Assign Object
+SETPARENT N IF (-1 DET) TO (-2 V) ; # If a noun is preceded by a determiner, and two words to the left is a verb, set verb as parent of the noun.
+
+
+### Rules to assign relationship labels (same order as dependency rules above)
+
+# Determiner relation
+ADD det DET IF (1 N) ; # Add Determiner relation tag
+
+# Subject relation
+ADD nsubj PRON IF (1 V) ; # Add Subject relation tag
+
+# Object relation
+ADD obj N IF (-1 DET) (-2 V) ; # Add Object relation tag

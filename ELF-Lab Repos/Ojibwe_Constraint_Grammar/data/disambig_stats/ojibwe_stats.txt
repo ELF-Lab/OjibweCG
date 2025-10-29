@@ -1,0 +1,33 @@
+|-------------------|---------|
+| total words       | 131     |
+| readings before   | 191     |
+| readings after    | 131     |
+| analyses removed  |  60     |
+| ambiguity removed |   1     |
+| ambiguous before  |   0.435 |
+| ambiguous after   |   0     |
+
+| type    |   words |   before |   after |   removed |   avg_b |   avg_a |
+|---------|---------|----------|---------|-----------|---------|---------|
+| verb    |      59 |       65 |      58 |         7 |     1.1 |    0.98 |
+| pronoun |       2 |        2 |       2 |         0 |     1   |    1    |
+| noun    |      12 |       12 |      12 |         0 |     1   |    1    |
+| adverb  |      58 |       58 |      58 |         0 |     1   |    1    |
+| other   |      54 |       54 |       1 |        53 |     1   |    0.02 |
+
+|--------------|---|
+| lemma amb.   | 0 |
+| preverb amb. | 0 |
+| POS amb.     | 0 |
+| morpho amb.  | 0 |
+
+| top 50 tokens   | count   |
+|-----------------|---------|
+
+# POS-level patterns
+
+# Lemma patterns
+
+# Preverb patterns
+
+# Morphological patterns

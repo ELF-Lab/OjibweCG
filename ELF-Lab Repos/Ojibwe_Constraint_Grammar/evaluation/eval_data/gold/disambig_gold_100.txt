@@ -1485,4 +1485,3 @@
 	"gokokwaa" VII Ind Pos Neu 0SgSubj
 "<.>"
 	"PUNCT" 
-

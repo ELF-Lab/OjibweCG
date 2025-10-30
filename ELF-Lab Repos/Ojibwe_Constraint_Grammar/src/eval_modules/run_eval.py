@@ -3,7 +3,9 @@ import argparse, csv, re
 from pathlib import Path
 from typing import Optional
 
-from src.disambiguation import load_fst_parser, disambiguate
+from grammar_modules.disambiguation import disambiguate
+from grammar_modules.fst import load_fst_parser
+
 
 def _norm_join(chunks: list[str]) -> str:
     return "\n\n".join(ch.strip("\n").rstrip() for x in chunks for ch in [x]) + "\n"

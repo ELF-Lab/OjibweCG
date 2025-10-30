@@ -1,8 +1,8 @@
 from __future__ import annotations
 from pathlib import Path
 from typing import List, Union, Optional, Tuple
-from src.disambiguation import cg3_process_text
-from src.dependency import cg3_to_conllu_block, split_cg3_sentences, tokens_to_conllu
+from grammar_modules.disambiguation import cg3_process_text
+from grammar_modules.dependency import cg3_to_conllu_block, split_cg3_sentences, tokens_to_conllu
 import sys
 import re
 import rich

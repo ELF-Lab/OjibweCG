@@ -1,7 +1,7 @@
 from pathlib import Path
 from typing import Dict, List, Tuple, Iterable, Optional
 from collections import defaultdict
-from .data_io import parse_conllu
+from eval_modules.data_io import parse_conllu
 
 FOCUS_RELS = Iterable[str]
 

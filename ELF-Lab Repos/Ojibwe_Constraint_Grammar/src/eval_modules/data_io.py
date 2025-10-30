@@ -4,14 +4,9 @@ from pathlib import Path
 from typing import List, Dict, Tuple
 import csv, random
 
-from src.disambiguation import (
-    load_fst_parser,
-    tokenize,
-    fst_parse_sentence,
-    ojibwe_sentence_to_cg3_format,
-    PUNCTUATIONS,
-    PRESERVE_TOKEN,
-)
+from grammar_modules.disambiguation import tokenize, ojibwe_sentence_to_cg3_format, PUNCTUATIONS, PRESERVE_TOKEN
+
+from grammar_modules.fst import load_fst_parser, fst_parse_sentence
 
 # OPDRow model
 

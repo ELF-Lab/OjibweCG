@@ -4,8 +4,8 @@ from typing import Dict, List, Tuple
 import os
 from tabulate import tabulate  
 from fst_runtime.fst import Fst
-from src import disambiguation as D
-from src.disambiguation import (
+from grammar_modules import disambiguation as D
+from grammar_modules.disambiguation import (
     PUNCTUATIONS,
     PRESERVE_TOKEN,
     ojibwe_sentence_to_cg3_format,

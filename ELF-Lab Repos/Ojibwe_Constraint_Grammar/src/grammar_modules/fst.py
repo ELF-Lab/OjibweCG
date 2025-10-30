@@ -7,12 +7,19 @@ from pathlib import Path
 # dependency.py — adapter module to support Foma FST
 # ────────────────────────────────────────────────────────────────
 
+# Global variables
+# Path to fst
+# Paths to disambiguation and dependency grammars. Update if moved.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+FST_PATH = REPO_ROOT / "data" / "fst" / "ojibwe7.fomabin"
+
+
 class _Analysis:
     """Matches fst_runtime's item shape: provides .output_string"""
     def __init__(self, s: str) -> None:
         self.output_string = s
 
-class FomaFst:
+class Fst:
     """
     Minimal adapter so the rest of your pipeline can call:
        up_analysis(wordform) -> list[_Analysis]
@@ -40,15 +47,8 @@ def flookup(input_words, bin_path: str):
     outputlist = []
     input_str = '\n'.join(input_words) + '\n'  # ensure trailing newline
     if input_str.strip():
-        if platform.system() == 'Windows':
-            proc = subprocess.run(['flookup', bin_path, '-x'],
-                                  input=input_str, text=True, capture_output=True)
-            parsed = proc.stdout.strip()
-        else:
-            # simpler: pass input directly (no printf)
-            proc = subprocess.run(['flookup', bin_path, '-x'],
-                                  input=input_str, text=True, capture_output=True)
-            parsed = proc.stdout.strip()
+        proc = subprocess.run(['flookup', bin_path, '-x'], input=input_str, text=True, capture_output=True)
+        parsed = proc.stdout.strip()
 
         blocks = parsed.split('\n\n') if parsed else []
         for i, block in enumerate(blocks):
@@ -65,6 +65,54 @@ def flookup(input_words, bin_path: str):
     
 
 
+def fst_parse_word(input_word:str, fst_parser:Fst) -> list[str]:
+    """
+    Parse an Ojibwe word using a FST and return a list of analyses.
+
+    Parameters
+    ----------
+    input_word : str
+        The Ojibwe word to be analyzed.
+    fst_parser : Fst
+        An FST parser object that provides the `up_analysis` method for morphological analysis.
+
+    Returns
+    -------
+    list of str
+        A list of analysis strings produced by the FST for the given input word.
+
+    """
+    fst_analyses = fst_parser.up_analysis(wordform=input_word)
+    return [item.output_string
+            for item in fst_analyses
+            ] 
+    
+    
+def fst_parse_sentence(input_words:list[str], fst_parser:Fst) -> list:
+    """
+    Parse an Ojibwe sentence and return analyses for each word.
+
+    Parameters
+    ----------
+    input_words : list of str
+        A list of words representing the Ojibwe sentence to be parsed.
+    fst_parser : Fst
+        An FST (Finite State Transducer) parser instance used to analyze each word.
+
+    Returns
+    -------
+    list of dict
+        A list of dictionaries, each containing:
+            - 'word_form': str, the original word.
+            - 'fst_analyses': list, the analyses produced by the FST parser for the word.
+
+    """
+    return [{"word_form": word,
+             "fst_analyses": fst_parse_word(word, fst_parser=fst_parser)
+            }
+            for word in input_words
+            ]
+
 def is_flookup_available(bin_path: str) -> bool:
     """
     Check if flookup is installed in the system.
@@ -72,10 +120,20 @@ def is_flookup_available(bin_path: str) -> bool:
     Returns
     -------
     bool
-        `True` if flookup is installed and accessible, otherwise `False`.
+        True if flookup is installed and accessible, otherwise `False`.
     """
     print(f"FST file is {bin_path}")
     command = ['flookup', bin_path, "-h"]  
     output = subprocess.run(command, input='', capture_output=True, text=True)
     
     return output.returncode == 0 
+
+
+def load_fst_parser(binary_file_path="") -> Fst: 
+    """
+    Return a Foma compiled Fst (using flookup()). fst_runtime (.att files) deprecated.
+    """
+    if binary_file_path: 
+        return Fst(binary_file_path)
+    else:
+        return Fst(FST_PATH)

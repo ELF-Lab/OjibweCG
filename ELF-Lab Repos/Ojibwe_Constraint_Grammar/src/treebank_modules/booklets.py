@@ -16,13 +16,10 @@ except Exception:
         print(*a, **k)
 
 # local
-from src.disambiguation import (
-    disambiguate,
-    ojibwe_sentence_to_cg3_format,
-    load_fst_parser
-)
-from src.dependency import parse_dependencies
-from src.corpus import cg3_to_conllu_batch  # used by build-dep when --reparse is set
+from grammar_modules.disambiguation import disambiguate, ojibwe_sentence_to_cg3_format
+from grammar_modules.fst import load_fst_parser
+from grammar_modules.dependency import parse_dependencies
+from treebank_modules.corpus import cg3_to_conllu_batch  # used by build-dep when --reparse is set
 
 # ────────────────────────────────────────────────────────────────
 # booklets.py — build HTML visualization booklets
@@ -96,7 +93,7 @@ def build_dep_booklet_from_disamb(
     - Runs the dependency CG on each segment (using append_parent_block_as_segments in src.corpus)
     - Writes a CoNLL-U file and grouped HTML booklet (segments grouped by parent_id)
     """
-    from src.corpus import append_parent_block_as_segments  # local import to avoid cycles
+    from src.treebank_modules.corpus import append_parent_block_as_segments  # local import to avoid cycles
 
     ensure_usr_local_bin_in_path()
     try_import_spacy()

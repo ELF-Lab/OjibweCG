@@ -6,7 +6,8 @@ from typing import List
 
 from fst_runtime.fst import Fst
 from src.grammar_modules import disambiguation as D
-from src.grammar_modules.disambiguation import is_cg3_available, load_fst_parser
+from src.grammar_modules.disambiguation import is_cg3_available
+from src.grammar_modules.fst import load_fst_parser
 from src.grammar_modules.stats_disambiguation import disambiguate_with_stats, format_stats_report
 
 def _read_text(path: str | None, *, sent_split: bool) -> str:

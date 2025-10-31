@@ -188,7 +188,8 @@ data/CG3_rules/test_input.txt
 # spell check
 vscode/
 
-# testing notebook
+# testing notebooks
 src/testing.ipynb
+src/examples.ipynb
 src/processing-ambiguity-CG3-output.ipynb
 src/speaker_disambiguation.ipynb

@@ -241,10 +241,18 @@ SELECT:keep_gaa_gii (PVSub/gaa  PVTense/gii') ;
 
 
 # Phonological lemma disambiguation 
-# remove word ending in -wi (in favour of -∅ or -o)
+# remove lemma ending in -wi (in favour of -∅ or -o)
 REMOVE:remove_-wi ("(.*)wi"r) IF (0 ("$1"v) OR ("$1o"v));
 
-# remove word starting with n- (in favour of ∅-)
+# remove lemma starting with n- (in favour of ∅-)
 REMOVE:remove_n- ("n(.*)"r) IF (0 ("$1"v));
+
+# remove idiosyncratic lemma ambiguities
+REMOVE:doodooshaaboo ("doodooshaabo") IF (0 ("doodooshaaboo"));
+REMOVE:gaagaagiw ("gaagaagiw") IF (0 ("gaagaagi"));
+REMOVE:gaagaagiw ("mashkosi") IF (0 ("mashkosiw"));
+REMOVE:miinan ("miinan") IF (0 ("miin"));
+REMOVE:minopozh ("minopozh") IF (0 ("minop"));
+REMOVE:moonz ("moonz") IF (0 ("mooz"));
 
 

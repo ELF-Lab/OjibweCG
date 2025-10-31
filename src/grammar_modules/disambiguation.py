@@ -23,6 +23,11 @@ DEPENDENCY_PATH = REPO_ROOT / "data" / "grammars" / "dependency.cg3"
 
 
 ### --------Helper functions (used across the repository)---------
+def get_repo_root() -> Path:
+    """
+    Return a pathlib Path to the repository root.
+    """
+    return REPO_ROOT
 
 def get_disambiguation_path() -> Path:
     """

@@ -1,28 +1,16 @@
 from pathlib import Path
 import pytest
 
-<<<<<<< HEAD
-from src.disambiguation import disambiguate, load_fst_parser  
-=======
 from src.grammar_modules.disambiguation import disambiguate, get_disambiguation_path
 from src.grammar_modules.fst import load_fst_parser  
->>>>>>> 1050a15 (refactoring)
 from tests.util import load_blocks, dump_blocks, normalise
 
 # absolute paths (update if moving files around or changing directory/file names )
 ROOT      = Path(__file__).resolve().parents[1]          # project root
 DATA_DIR  = ROOT / "tests" / "data"
 
-<<<<<<< HEAD
-GRAMMAR   = (ROOT / "data" / "rules" / "disambiguation.cg3").as_posix() 
-FST_BIN   = ROOT / "data" / "fst" / "ojibwe.att"
-
-# load FST
-FST = load_fst_parser(str(FST_BIN))
-=======
 GRAMMAR = get_disambiguation_path()
 FST = load_fst_parser()
->>>>>>> 1050a15 (refactoring)
 
 # load test cases
 SOURCE   = load_blocks(DATA_DIR / "sentences.ojib")

@@ -9,8 +9,7 @@ This page is mainly an index to the repository and to the documentation. Linguis
 
 ## Repository Overview
 
-- [`data/`](./data) – Data and outputs generated from most of the code in the repository 
-- [`data-processing/`](./data-processing) – Just some data pre-processing code, will be moved later 
+- [`data/`](./data) – Data and outputs generated from most of the code in the repository
 - [`documentation/`](./documentation) – Documentation and examples
 - [`evaluation/`](./evaluation) – Creation of a "Gold standard" for both disambiguation and dependency parsing 
 - [`scripts/`](./scripts) – Collection of scripts for running the modules from the CLI 

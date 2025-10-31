@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
->>>>>>> 1050a15 (refactoring)
 # Ojibwe Constraint Grammar
 
 Welcome! This repository hosts the Ojibwe constraint grammar project.
@@ -28,22 +24,7 @@ This page is mainly an index to the repository and to the documentation. Linguis
 
 - [`01_overview.md`](documentation/01_overview.md) – project goals and scope  
 - [`02_usage.md`](documentation/02_usage.md) – installation and running examples  
-<<<<<<< HEAD
-- [IN PROGRESS] [`03_grammar_modules.md`](documentation/03_grammar_modules.md) – explanation of the 2 CG modules
-- [NOT COMPLETE] [`04_examples.md`](documentation/04_examples.md) – examples for disambiguation and dependency applications
-- [NOT COMPLETE] [`05_work_in_progress.md`](documentation/05_work_in_progress.md) – shows what are the main next steps and current limitations of the project
-- [NOT COMPLETE] [`06_references_and_credits.md`](documentation/06_references_and_credits.md) – summary of references and contributions to the project
-
-=======
-# CPSC330
-<<<<<<< HEAD
->>>>>>> 7e69ba6 (first commit)
-=======
-# CPSC330
->>>>>>> 7552c9f (first commit)
-=======
 - [WIP] [`03_grammar_modules.md`](documentation/03_grammar_modules.md) – explanation of the 2 CG modules
 - [WIP] [`04_examples.md`](documentation/04_examples.md) – examples for disambiguation and dependency applications
 - [WIP] [`05_work_in_progress.md`](documentation/05_work_in_progress.md) – shows what are the main next steps and current limitations of the project
 - [WIP] [`06_references_and_credits.md`](documentation/06_references_and_credits.md) – summary of references and contributions to the project
->>>>>>> 1050a15 (refactoring)

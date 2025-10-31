@@ -93,7 +93,7 @@ def build_dep_booklet_from_disamb(
     - Runs the dependency CG on each segment (using append_parent_block_as_segments in src.corpus)
     - Writes a CoNLL-U file and grouped HTML booklet (segments grouped by parent_id)
     """
-    from src.treebank_modules.corpus import append_parent_block_as_segments  # local import to avoid cycles
+    from treebank_modules.corpus import append_parent_block_as_segments
 
     ensure_usr_local_bin_in_path()
     try_import_spacy()

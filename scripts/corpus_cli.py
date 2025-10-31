@@ -1,7 +1,7 @@
 from __future__ import annotations
 import argparse
 from pathlib import Path
-from src.corpus import (
+from src.treebank_modules.corpus import (
     append_sentence, cg3_to_conllu_batch, validate_ud,
     delete_sentence
 )

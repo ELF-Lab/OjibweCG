@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 from typing import Optional, List
 
-from src.booklets import build_disambig_booklet, build_dep_booklet
+from src.treebank_modules.booklets import build_disambig_booklet, build_dep_booklet
 
 def make_parser() -> argparse.ArgumentParser:
     p = argparse.ArgumentParser(

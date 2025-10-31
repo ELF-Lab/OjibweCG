@@ -1,6 +1,6 @@
 import sys, argparse, pathlib
 from fst_runtime.fst import Fst
-from src.disambiguation import (
+from src.grammar_modules.disambiguation import (
     load_fst_parser, ojibwe_sentence_to_cg3_format,
     cg3_process_text, is_cg3_available
 )
@@ -22,7 +22,7 @@ def main():
     args = ap.parse_args()
 
     # allow override
-    from src import disambiguation as D
+    from src.grammar_modules import disambiguation as D
     D.CG3_NAME = args.cg3_name
 
     if not is_cg3_available():

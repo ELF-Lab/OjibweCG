@@ -5,9 +5,9 @@ from pathlib import Path
 from typing import List
 
 from fst_runtime.fst import Fst
-from src import disambiguation as D
-from src.disambiguation import is_cg3_available, load_fst_parser
-from src.stats_disambiguation import disambiguate_with_stats, format_stats_report
+from src.grammar_modules import disambiguation as D
+from src.grammar_modules.disambiguation import is_cg3_available, load_fst_parser
+from src.grammar_modules.stats_disambiguation import disambiguate_with_stats, format_stats_report
 
 def _read_text(path: str | None, *, sent_split: bool) -> str:
     """Return a single string. If sent_split=True, join lines with '\n' (keeps units)."""

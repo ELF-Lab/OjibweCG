@@ -1,17 +1,12 @@
 from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
-from typing import List, Dict, Iterable, Optional
+from typing import List, Dict, Tuple
 import csv, random
 
-from src.disambiguation import (
-    load_fst_parser,
-    tokenize,
-    fst_parse_sentence,
-    ojibwe_sentence_to_cg3_format,
-    PUNCTUATIONS,
-    PRESERVE_TOKEN,
-)
+from grammar_modules.disambiguation import tokenize, ojibwe_sentence_to_cg3_format, PUNCTUATIONS, PRESERVE_TOKEN
+
+from grammar_modules.fst import load_fst_parser, fst_parse_sentence
 
 # OPDRow model
 
@@ -130,3 +125,31 @@ def write_eval_artifacts(
         subset = rows[:100]
         write_tsv(subset, outdir / "sample_100.tsv")
         write_cg3(subset, fst, outdir / "sample_100.txt")
+
+def parse_conllu(path: Path) -> Dict[str, List[Tuple[str,str]]]:
+    """
+    Return mapping sent_id -> list of (form, deprel).
+    Skips MWT/empty nodes.
+    """
+    blocks = {}
+    cur_id, cur_tokens = None, []
+    for line in path.read_text(encoding="utf-8").splitlines():
+        line = line.rstrip("\n")
+        if not line:
+            if cur_id is not None:
+                blocks[cur_id] = cur_tokens
+            cur_id, cur_tokens = None, []
+            continue
+        if line.startswith("# sent_id"):
+            cur_id = line.split("=",1)[1].strip()
+            continue
+        if line.startswith("#"):
+            continue
+        cols = line.split("\t")
+        if not cols or "-" in cols[0] or "." in cols[0]:
+            continue
+        form, deprel = cols[1], cols[7]
+        cur_tokens.append((form, deprel))
+    if cur_id and cur_tokens:
+        blocks[cur_id] = cur_tokens
+    return blocks

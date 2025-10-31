@@ -1,5 +1,5 @@
-from fst_runtime.fst import Fst
-from src.foma_adapter import FomaFst
+from pathlib import Path
+from grammar_modules.fst import Fst, fst_parse_sentence, fst_parse_word
 import subprocess, re
 
 # ────────────────────────────────────────────────────────────────
@@ -16,66 +16,27 @@ PUNCTUATIONS = (
 )
 PRESERVE_TOKEN = "..." # keep ... as literal as in some sentences
 
+# Paths to disambiguation and dependency grammars. Update if moved.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DISAMBIGUATION_PATH = REPO_ROOT / "data" / "grammars" / "disambiguation.cg3"
+DEPENDENCY_PATH = REPO_ROOT / "data" / "grammars" / "dependency.cg3"
 
-def load_fst_parser(binary_file_path:str) -> Fst: 
+
+### --------Helper functions (used across the repository)---------
+
+def get_disambiguation_path() -> Path:
     """
-    If given .fomabin, return FomaFst (using flookup()).
-    Otherwise use fst_runtime for .att file. 
+    Return a pathlib Path to the disambiguation grammar.
     """
-    ext = binary_file_path.lower().rsplit(".", 1)[-1]
-    if ext in ("fomabin", "bin"):
-        return FomaFst(binary_file_path)
-    return Fst(binary_file_path)
+    return DISAMBIGUATION_PATH
 
-def fst_parse_word(input_word:str, fst_parser:Fst) -> list[str]:
+def get_dependency_path() -> Path:
     """
-    Parse an Ojibwe word using a FST and return a list of analyses.
-
-    Parameters
-    ----------
-    input_word : str
-        The Ojibwe word to be analyzed.
-    fst_parser : Fst
-        An FST parser object that provides the `up_analysis` method for morphological analysis.
-
-    Returns
-    -------
-    list of str
-        A list of analysis strings produced by the FST for the given input word.
-
+    Return a pathlib Path to the dependency grammar.
     """
-    fst_analyses = fst_parser.up_analysis(wordform=input_word)
-    return [item.output_string
-            for item in fst_analyses
-            ] 
+    return DEPENDENCY_PATH
+
     
-    
-def fst_parse_sentence(input_words:list[str], fst_parser:Fst) -> list:
-    """
-    Parse an Ojibwe sentence and return analyses for each word.
-
-    Parameters
-    ----------
-    input_words : list of str
-        A list of words representing the Ojibwe sentence to be parsed.
-    fst_parser : Fst
-        An FST (Finite State Transducer) parser instance used to analyze each word.
-
-    Returns
-    -------
-    list of dict
-        A list of dictionaries, each containing:
-            - 'word_form': str, the original word.
-            - 'fst_analyses': list, the analyses produced by the FST parser for the word.
-
-    """
-    return [{"word_form": word,
-             "fst_analyses": fst_parse_word(word, fst_parser=fst_parser)
-            }
-            for word in input_words
-            ]
-    
-
 
 def tokenize(ojibwe_sentence:str) -> list[str]:
     """

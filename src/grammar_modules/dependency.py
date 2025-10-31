@@ -1,7 +1,7 @@
 from __future__ import annotations
 from fst_runtime.fst import Fst
 from typing import List, Dict, Tuple, Optional
-from src.disambiguation import disambiguate, cg3_process_text
+from grammar_modules.disambiguation import disambiguate, cg3_process_text
 import re
 
 # ────────────────────────────────────────────────────────────────

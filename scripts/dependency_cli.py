@@ -1,7 +1,7 @@
 import sys, argparse, subprocess, tempfile, pathlib
-from src import disambiguation as D
+from src.grammar_modules import disambiguation as D
 from fst_runtime.fst import Fst
-from src.dependency import parse_cg3_block, tokens_to_conllu
+from src.grammar_modules.dependency import parse_cg3_block, tokens_to_conllu
 
 def main():
     ap = argparse.ArgumentParser(description="Run FST → CG3 disamb → CG3 dep → CoNLL-U")

@@ -182,6 +182,9 @@ data/CG3_rules/output.txt
 .gitignore
 data/CG3_rules/test_input.txt
 
+# local
+**/.DS_store
+
 # spell check
 vscode/
 

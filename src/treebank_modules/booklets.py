@@ -2,6 +2,7 @@ from __future__ import annotations
 from rich.progress import Progress
 from pathlib import Path
 from typing import List, Dict, Tuple, Iterable, Optional
+from grammar_modules.fst import Fst
 import os
 import re
 
@@ -229,13 +230,12 @@ def build_disambig_booklet(
     ojibwe_path: Path,
     english_path: Path,
     cg3_grammar_path: Path,
-    fst_path: Path,
+    fst: Fst,
     out_html_path: Path,
     html_title: str,
 ) -> None:
     ensure_usr_local_bin_in_path()
 
-    FST = load_fst_parser(str(fst_path))
     ojibwe  = load_lines(ojibwe_path)
     english = load_lines(english_path)
     assert_parallel(ojibwe, english)
@@ -244,8 +244,8 @@ def build_disambig_booklet(
     with Progress() as progress:
         task = progress.add_task("Parsing", total=len(ojibwe))
         for idx, (oj, en) in enumerate(zip(ojibwe, english), 1):
-            before = ojibwe_sentence_to_cg3_format(oj, FST)
-            after  = disambiguate(oj, str(cg3_grammar_path), FST)
+            before = ojibwe_sentence_to_cg3_format(oj, fst)
+            after  = disambiguate(oj, str(cg3_grammar_path), fst)
             rows.append({"no": idx, "oj": oj, "en": en, "before": before, "after": after})
 
             progress.update(task, advance=1)

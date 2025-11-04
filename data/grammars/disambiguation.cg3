@@ -50,6 +50,10 @@ SET NI_NID = (NI) OR (NID) ;
 SET AN_SPECIAL_PRON = (PRONIndf NA) OR (PRONInter NA) OR (PRONPret NA);
 LIST INAN_SPECIAL_PRON = (PRONIndf NI);
 
+# Verb types
+LIST ChCnj = ChCnj ;
+
+# Sets for RCs
 SET gaa_gii = (PVSub/gaa PVTense/gii') OR (PVSub/gaa PVTense/gii) ;
 LIST Pcp = Pcp ;
 SET RC = gaa_gii + Pcp ;
@@ -68,7 +72,7 @@ LIST DERIVATIONAL = Der/magad Aug/magad Dim Pej Reflex/dizo Recip/di;
 
 
 SET NOMINAL = NA_NAD OR NI_NID ;
-SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIO) ;
+SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIPL) OR (VIIPL) OR (VAIO) ;
 SET ADV = (ADVConj)  OR (ADVDisc) OR (ADVDub) OR (ADVGram) OR (ADVInter) OR (ADVLoc) OR (ADVMan) OR (ADVNeg) OR (ADVPred) OR (ADVQnt) OR (ADVTmp) OR (AVDDeg);
 SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR (PRONSim) OR (PRONPer) ;
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
@@ -105,6 +109,10 @@ SELECT:select_adv_loc TARGET (ADVLoc) ;
 SELECT:select_special_adv TARGET UNCONDITIONAL_ADVS ;
 
 REMOVE:rem_pl_for_impersonal_verbs (0PlSubj) IF (0 IMPERSONAL_VERB)  ;
+
+# Remove VAI / VII readings if we have VAIPL / VIIPL tags
+REMOVE:VAIPL_over_VAI (VAI) IF (0 (VAIPL)) ;
+REMOVE:VIIPL_over_VII (VII) IF (0 (VIIPL)) ;
 
 
 SECTION
@@ -209,8 +217,8 @@ SELECT:demonstrative_animacy_rule_2 (PRONDem NI) IF (1 (NI)) (NOT 1 (NA)) ;
 
 ### OTHER - Other (mostly idiosyncratic) ambiguity cases
 
-# aaniin - select ADVInter if close participle or ADV
-SELECT:aanin_1 ("aaniin" ADVInter) IF (1* (Pcp) BARRIER VERB) ;
+# aaniin - select ADVInter if close ChCnj or ADV
+SELECT:aanin_1 ("aaniin" ADVInter) IF (1* ChCnj BARRIER VERB) ;
 SELECT:aanin_2 ("aaniin" ADVInter) IF (1 ADV) ;
 
 

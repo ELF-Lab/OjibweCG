@@ -54,12 +54,14 @@ def flookup(input_words, bin_path: str):
         for i, block in enumerate(blocks):
             rhs_list = []
             for line in block.splitlines():
-                if '\t' not in line:
-                    continue
-                _, rhs = line.split('\t', 1)              # keep RHS only
-                rhs = rhs.strip()
+                if '\t' in line:
+                    _, rhs = line.split('\t', 1)              # keep RHS only
+                    rhs = rhs.strip()
+                else: 
+                    rhs = line
                 if rhs and rhs != '+?':                   # drop unknowns
                     rhs_list.append(rhs)
+                    
             outputlist.append({"word_form": input_words[i], "fst_analyses": rhs_list})
     return outputlist
     

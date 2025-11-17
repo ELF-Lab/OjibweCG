@@ -1,5 +1,5 @@
 from __future__ import annotations
-from fst_runtime.fst import Fst
+from pathlib import Path
 from typing import List, Dict, Tuple, Optional
 from grammar_modules.disambiguation import disambiguate, cg3_process_text
 import re
@@ -7,6 +7,10 @@ import re
 # ────────────────────────────────────────────────────────────────
 # dependency.py — parse CG3 output and build CoNLL-U rows
 # ────────────────────────────────────────────────────────────────
+
+# Paths to dependency grammar. Update if moved.
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DEPENDENCY_PATH = REPO_ROOT / "data" / "grammars" / "dependency.cg3"
 
 UNIVERSAL_UPOS = {
     "ADJ", "ADP", "ADV", "AUX", "CCONJ", "DET", "INTJ",
@@ -210,7 +214,7 @@ def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
         head_col = str(root_idx)          # attach to chosen root by default
         deprel = FALLBACK_REL
 
-        # Prefer CG3 head if it resolves *within the same segment*
+        # Prefer CG3 head if it resolves within the same segment
         head_idx = resolve_head_index(tok)
         if head_idx is not None:
             head_col = str(head_idx)

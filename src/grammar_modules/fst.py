@@ -28,13 +28,13 @@ class Fst:
     def __init__(self, bin_path: str) -> None:
         if not Path(bin_path).exists():
             raise FileNotFoundError(bin_path)
-        # Optional: sanity check that flookup can open it
+        # check that flookup can open the path
         _ = is_flookup_available(bin_path)
 
-        self._bin_path = bin_path  # kept for parity; your flookup uses a global path
+        self._bin_path = bin_path
 
     def up_analysis(self, wordform: str) -> List[_Analysis]:
-        # Use your flookup() on a single token
+        # Use flookup() on a single token
         rows = flookup([wordform], bin_path=self._bin_path)  # [{'word_form': ..., 'fst_analyses': [...]}]
         if not rows:
             return []

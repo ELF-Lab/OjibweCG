@@ -149,7 +149,7 @@ def parse_cg3_block(cg3_text: str) -> List[Dict]:
     flush_surface()
     return tokens
 
-def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
+def tokens_to_conllu(tokens: List[Dict], sent_id: int, eng_line: str = None) -> str:
     """
     Convert a sequence of token dicts into a CoNLL-U block.
 
@@ -261,18 +261,21 @@ def tokens_to_conllu(tokens: List[Dict], sent_id: int) -> str:
         ))
 
     text_line = " ".join(t.get("form") or "_" for t in tokens)
+    if eng_line is None:
+        eng_line = "No English translation."
     return (
         f"# sent_id = {sent_id}\n"
-        f"# text = {text_line}\n" +
+        f"# text = {text_line}\n" 
+        f"# eng = {eng_line}\n" +
         "\n".join("\t".join(r) for r in rows) + "\n\n"
     )
 
 
 
-def cg3_to_conllu_block(cg3_text: str, sent_id: int) -> str:
+def cg3_to_conllu_block(cg3_text: str, sent_id: int, en_line: str=None) -> str:
     """mini wrapper: CG3 text -> CoNLL-U block """
     tokens = parse_cg3_block(cg3_text)
-    return tokens_to_conllu(tokens, sent_id)
+    return tokens_to_conllu(tokens, sent_id, eng_line=en_line)
 
 
 def split_cg3_sentences(cg3_text: str) -> list[str]:

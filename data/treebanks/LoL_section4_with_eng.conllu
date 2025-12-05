@@ -1,5 +1,6 @@
 # sent_id = 1
 # text = zhaawanoowinini indizhinikaaz , miinawaa dash a'aw ogiishkimanisii indoodem .
+# eng =  My name is Zhaawanoowinini, and my clan is the Kingfisher.
 1	zhaawanoowinini	zhaawanoowinini	NOUN	NA|ProxSg|NOUN	_	2	dep	_	_
 2	indizhinikaaz	izhinikaazo	VERB	VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
 3	,	,	PUNCT	,	_	2	punct	_	_
@@ -12,6 +13,7 @@
 
 # sent_id = 2
 # text = imaa wenjibaayaan , imaa miskwaagamiwi-zaaga'iganiing , mii wenjiiwaad ingitiziimag apane .
+# eng = Where I am from, there at Red Lake, that’s where my parents were from.
 1	imaa	imaa	ADV	ADVLoc|ADV	_	2	obl	_	_
 2	wenjibaayaan	onjibaa	VERB	ChCnj|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
 3	,	,	PUNCT	,	_	2	punct	_	_
@@ -26,6 +28,7 @@
 
 # sent_id = 3
 # text = miinawaa dash a'aw nimaamaayiban , onow odoodeman migiziwan .
+# eng = And my late mother, she was of the Bald Eagle Clan.
 1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	0	root	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
 3	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
@@ -38,6 +41,7 @@
 
 # sent_id = 4
 # text = ganabaj a'aw nimishoomisiban zhaaganaashiiwakiing gii-onjibaa .
+# eng = My grandfather may have been from Canada.
 1	ganabaj	ganabaj	ADV	ADVMan|ADV	_	5	advmod	_	_
 2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
 3	nimishoomisiban	mishoomis	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	5	nsubj	_	_
@@ -47,12 +51,14 @@
 
 # sent_id = 5
 # text = gii-pi-izhaa omaa .
+# eng = He came here.
 1	gii-pi-izhaa	bi-izhaa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 2	omaa	omaa	ADV	ADVLoc|ADV	_	1	obl	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 6
 # text = aabiding igo ogii-mawidisaan onow ikwewan imaa obaashiing .
+# eng = One time he visited this woman there at Ponema.
 1	aabiding	aabiding	ADV	ADVTmp|ADV	_	0	root	_	_
 2	igo	igo	PART	PCEmph|PART	_	1	dep	_	_
 3	ogii-mawidisaan	ogii-mawidisaan	X	_	_	1	dep	_	_
@@ -64,6 +70,7 @@
 
 # sent_id = 7
 # text = mii gaa-ikidowaad ingitiziimag apane .
+# eng = That’s what my parents always said.
 1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
 2	gaa-ikidowaad	ikido	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
 3	ingitiziimag	gitiziim	NOUN	NAD|ProxPl|1SgPoss|NOUN	_	2	nsubj	_	_
@@ -72,6 +79,7 @@
 
 # sent_id = 8
 # text = aan noongom niwii-aadizooke .
+# eng =  And today I’m going to tell legends.
 1	aan	aan	X	_	_	3	dep	_	_
 2	noongom	noongom	ADV	ADVTmp|ADV	_	3	advmod	_	_
 3	niwii-aadizooke	aadizooke	VERB	PVTense/wii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
@@ -79,6 +87,7 @@
 
 # sent_id = 9
 # text = geyaabi biboonagad gomaa noongom .
+# eng = It’s still winter today.
 1	geyaabi	geyaabi	ADV	ADVTmp|ADV	_	2	advmod	_	_
 2	biboonagad	biboonagad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
 3	gomaa	gomaa	ADV	ADVDeg|ADV	_	4	advmod	_	_
@@ -87,6 +96,7 @@
 
 # sent_id = 10
 # text = mii dash noongom , mii wenji-izhichigewaad anishinaabegoban .
+# eng = And that’s how the Indians did things.
 1	mii	mii	ADV	ADVPred|ADV	_	6	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	6	dep	_	_
 3	noongom	noongom	ADV	ADVTmp|ADV	_	6	dep	_	_
@@ -98,6 +108,7 @@
 
 # sent_id = 11
 # text = anishinaabeg aadizookewag megwaa biboonong , megwaa biboong .
+# eng = Indians tell legends while it’s winter, in the midst of the winter.
 1	anishinaabeg	anishinaabe	NOUN	NA|ProxPl|NOUN	_	2	nsubj	_	_
 2	aadizookewag	aadizooke	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
 3	megwaa	megwaa	ADV	ADVTmp|ADV	_	2	advmod	_	_
@@ -109,6 +120,7 @@
 
 # sent_id = 12
 # text = aabiding giiwenh wayeshkad gii-pi-izhaawaad omaa chimookomaanag , imaa ingiwedog , gaawiin wiikaa ogii-waabamaasiiwaawaan chimookomaanan , anishinaabeg gaa-ayaawaad omaa .
+# eng =  Once when the white people first came here, these ones there, the Indians around here, they had never seen white men.
 1	aabiding	aabiding	ADV	ADVTmp|ADV	_	4	advmod	_	_
 2	giiwenh	giiwenh	PART	PCDisc|PART	_	4	discourse	_	_
 3	wayeshkad	wayeshkad	ADV	ADVTmp|ADV	_	4	advmod	_	_
@@ -131,6 +143,7 @@
 
 # sent_id = 13
 # text = mii dash aabiding a'aw inini ogii-inaan owiiwan , " megwaa dagwaagig . "
+# eng =  Then one time that man told his wife, “It’s the middle of autumn.
 1	mii	mii	ADV	ADVPred|ADV	_	6	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	6	dep	_	_
 3	aabiding	aabiding	ADV	ADVTmp|ADV	_	6	advmod	_	_
@@ -147,6 +160,7 @@
 
 # sent_id = 14
 # text = ogii-inaan owiiwan , " gizhenaab , niwii-kiiyose noongom .
+# eng = ” He told his wife, “Dear, I going to go hunting today.
 1	ogii-inaan	izhi	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
 2	owiiwan	wiiw	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	1	obj	_	_
 3	,	,	PUNCT	,	_	1	punct	_	_
@@ -159,6 +173,7 @@
 
 # sent_id = 15
 # text = mii imaa ningaabi'anong keyaa niwii-izhaa . "
+# eng = I am going to go there towards the west.
 1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
 2	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
 3	ningaabi'anong	ningaabi'anong	X	_	_	5	dep	_	_
@@ -169,6 +184,7 @@
 
 # sent_id = 16
 # text = " haaw , " ikido a'aw , " aaniish apii waa-pi-azhegiiweyan ? "
+# eng = ” “All right,” she says, “When will you come back?
 1	"	"	X	_	_	5	dep	_	_
 2	haaw	haaw	INTJ	PCInterj|INTJ	_	5	dep	_	_
 3	,	,	PUNCT	,	_	5	punct	_	_
@@ -185,6 +201,7 @@
 
 # sent_id = 17
 # text = " ajina sa go inga-ayaa imaa megwekob . "
+# eng = ” “I’ll be there in the bush for just a little while.
 1	"	"	PUNCT	"	_	5	punct	_	_
 2	ajina	ajina	ADV	ADVTmp|ADV	_	5	advmod	_	_
 3	sa	sa	PART	PCDisc|PART	_	5	discourse	_	_
@@ -197,6 +214,7 @@
 
 # sent_id = 18
 # text = gaa-izhi-maajaad a'aw inini babaa-giiyosed .
+# eng =  So that man left to go around hunting.
 1	gaa-izhi-maajaad	maajaa	VERB	PVTense/gii|PVRel/izhi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	0	root	_	_
 2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
 3	inini	inini	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
@@ -205,6 +223,7 @@
 
 # sent_id = 19
 # text = megwaa ayaad imaa ogii-noondawaan awiiya biidaasamosed .
+# eng = While he was out there, he heard someone approaching.
 1	megwaa	megwaa	ADV	ADVTmp|ADV	_	2	advmod	_	_
 2	ayaad	ayaa	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
@@ -215,6 +234,7 @@
 
 # sent_id = 20
 # text = mii dash , ogii-paabi'aan ji-dagoshininid onow -maagizhaa gaye gii-inendam , waawaashkeshiwan .
+# eng = Then, he waited for him to show up—-maybe, he thought, a deer.
 1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
 3	,	,	PUNCT	,	_	5	punct	_	_
@@ -230,6 +250,7 @@
 
 # sent_id = 21
 # text = wa , gaa-izhi-noogised ji-baabi'aad imaa , noomag igo gii-ayaa imaa .
+# eng = Wa, he stopped to wait for him there, hanging around there for a spell.
 1	wa	wa	PART	PCDisc|PART	_	3	dep	_	_
 2	,	,	PUNCT	,	_	3	punct	_	_
 3	gaa-izhi-noogised	noogise	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
@@ -244,6 +265,7 @@
 
 # sent_id = 22
 # text = miinawaa dash a'aw gaa-pi-izhaad imaa .
+# eng = And then he came there.
 1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	4	dep	_	_
@@ -253,6 +275,7 @@
 
 # sent_id = 23
 # text = ho wa , wii-waabamaad onow chimookomaanan imaa chi-goshko'igod onow a'aw .
+# eng = Ho wa, he was going to see that white man, as that [Indian] guy was shocked by him.
 1	ho	ho	X	_	_	4	dep	_	_
 2	wa	wa	PART	PCDisc|PART	_	4	dep	_	_
 3	,	,	PUNCT	,	_	4	punct	_	_
@@ -267,6 +290,7 @@
 
 # sent_id = 24
 # text = gaawiin wiikaa ogii-waabamaasiin chimookomaanan ji-bi-izhaang imaa .
+# eng = He had never seen a white man come there.
 1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
 2	wiikaa	wiikaa	ADV	ADVTmp|ADV	_	3	advmod	_	_
 3	ogii-waabamaasiin	waabam	VERB	PVTense/gii|VTA|Ind|Neg|Neu|3SgProxSubj|3SgObvObj|VERB	_	0	root	_	_
@@ -277,6 +301,7 @@
 
 # sent_id = 25
 # text = " hey , " a'aw chimookomaan gii-piibaagid , " you see anything today ? "
+# eng =  “Hey,” that white man yelled, “You see anything today?
 1	"	"	X	_	_	7	dep	_	_
 2	hey	hey	X	_	_	7	dep	_	_
 3	,	,	PUNCT	,	_	7	punct	_	_
@@ -295,6 +320,7 @@
 
 # sent_id = 26
 # text = ho wa , maagizhaa gaye a'aw anishinaabe , ganabaj ogii-kosaan iniw chimookomaanan .
+# eng = ” Ho wa, and maybe that Indian, perhaps he was afraid of that white man.
 1	ho	ho	X	_	_	10	dep	_	_
 2	wa	wa	PART	PCDisc|PART	_	10	dep	_	_
 3	,	,	PUNCT	,	_	10	punct	_	_
@@ -311,6 +337,7 @@
 
 # sent_id = 27
 # text = " ho , aaniish enendamaan ji-izhichigeyaan , " inendam wa'aw anishinaabe .
+# eng = “Ho, what can I think of to do,” thinks this Indian.
 1	"	"	X	_	_	5	dep	_	_
 2	ho	ho	X	_	_	5	dep	_	_
 3	,	,	X	_	_	5	dep	_	_
@@ -326,6 +353,7 @@
 
 # sent_id = 28
 # text = " mino-giizhigad noongom , eh , " gaa-izhi-inaad .
+# eng = “It’s a nice day today, eh,” he told him.
 1	"	"	PUNCT	"	_	2	punct	_	_
 2	mino-giizhigad	mino-giizhigad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
 3	noongom	noongom	ADV	ADVTmp|ADV	_	2	advmod	_	_
@@ -338,6 +366,7 @@
 
 # sent_id = 29
 # text = mii dash ezhi-ikidod a'aw chimookomaan , " jeez , it's a nice day out . "
+# eng = Then that white man says, “Jeez, it’s a nice day out.
 1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
 3	ezhi-ikidod	ikido	VERB	PVRel/izhi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	0	root	_	_
@@ -357,6 +386,7 @@
 
 # sent_id = 30
 # text = " eya' , " ikido a'aw anishinaabe .
+# eng = ” “Yup,” says that Indian.
 1	"	"	X	_	_	5	dep	_	_
 2	eya'	eya'	PART	PCDisc|PART	_	5	dep	_	_
 3	,	,	PUNCT	,	_	5	punct	_	_
@@ -368,6 +398,7 @@
 
 # sent_id = 31
 # text = ogii-waabandaan dakonang baashkizigan .
+# eng = He saw him holding a gun.
 1	ogii-waabandaan	waabandan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
 2	dakonang	dakonan	VERB	VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
 3	baashkizigan	baashkizigan	NOUN	NI|Sg|NOUN	_	2	obj	_	_
@@ -375,6 +406,7 @@
 
 # sent_id = 32
 # text = gaawiin wiikaa ogii-waabandanziin i'iw baashkizigan .
+# eng = He had never seen a gun.
 1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
 2	wiikaa	wiikaa	ADV	ADVTmp|ADV	_	3	advmod	_	_
 3	ogii-waabandanziin	waabandan	VERB	PVTense/gii|VTI|Ind|Neg|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
@@ -384,6 +416,7 @@
 
 # sent_id = 33
 # text = " awegonen o'ow gii-takonaman , " gaa-izhi-gagwejimaad wa'aw anishinaabe .
+# eng = “What’s this you’re holding,” this Indian asks him.
 1	"	"	PUNCT	"	_	4	punct	_	_
 2	awegonen	awegonen	PRON	PRONInter|NI|Sg|PRON	_	4	obj	_	_
 3	o'ow	o'ow	PRON	PRONDem|NI|Sg|PRON	_	4	obj	_	_
@@ -397,6 +430,7 @@
 
 # sent_id = 34
 # text = ogii-kagwejimaan onow chimookomaanan .
+# eng = He asked that white man.
 1	ogii-kagwejimaan	gagwejim	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
 2	onow	onow	PRON	PRONDem|NA|ObvSg|PRON	_	1	obj	_	_
 3	chimookomaanan	chimookomaanan	X	_	_	1	dep	_	_
@@ -404,6 +438,7 @@
 
 # sent_id = 35
 # text = " ya , it's a good day , " ikido a'aw chimookomaan .
+# eng = “Ya, it’s a good day,” says that white guy.
 1	"	"	X	_	_	10	dep	_	_
 2	ya	ya	X	_	_	10	dep	_	_
 3	,	,	X	_	_	10	dep	_	_
@@ -420,6 +455,7 @@
 
 # sent_id = 36
 # text = mii dash i'iw , booch igo abwezowag anishinaabe miinawaa a'aw chimookomaan .
+# eng = By then, they are really sweating—-the Indian and that white guy.
 1	mii	mii	ADV	ADVPred|ADV	_	7	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	7	dep	_	_
 3	i'iw	i'iw	PRON	PRONDem|NI|Sg|PRON	_	7	dep	_	_
@@ -435,6 +471,7 @@
 
 # sent_id = 37
 # text = miinawaa dash a'aw anishinaabe ogii-poodaan o'ow ojaanzhan imaa akiing i'iw , bingwiing imaa .
+# eng =  And then that Indian blew his nose there on the earth, in the sand there.
 1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	0	root	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
 3	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
@@ -452,6 +489,7 @@
 
 # sent_id = 38
 # text = ishkwaa-izhichiged , miinawaa dash o'ow chimookomaan gaa-izhichiged -omoshwens ogii-poodaan o'ow jaanzhan imaa .
+# eng = After he does this, then that white man does this—-he blew his nose there in his handkerchief.
 1	ishkwaa-izhichiged	izhichige	VERB	PVLex/ishkwaa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	miinawaa	miinawaa	ADV	ADVConj|ADV	_	1	dep	_	_
@@ -468,6 +506,7 @@
 
 # sent_id = 39
 # text = noomaya go ogii-inaan anishinaabe , " hey , " ogii-inaan , " akina gegoo ogoshkanaan a'aw chimookomaan , " odinaan .
+# eng =  Soon thereafter the Indian says to him, “Hey,” he tells him, “The white man keeps everything,” he says to him.
 1	noomaya	noomaya	ADV	ADVTmp|ADV	_	3	advmod	_	_
 2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
 3	ogii-inaan	izhi	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
@@ -492,6 +531,7 @@
 
 # sent_id = 40
 # text = aabiding giiwenh o'ow babaamaazhagaamed a'aw nenabozho enind , ogii-waabamaan biidaasamosed wiijanishinaaben .
+# eng =  This one time as that guy called Nenabozho was walking along the shore, he saw a fellow Indian walking towards him.
 1	aabiding	aabiding	ADV	ADVTmp|ADV	_	4	advmod	_	_
 2	giiwenh	giiwenh	PART	PCDisc|PART	_	4	discourse	_	_
 3	o'ow	o'ow	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
@@ -507,6 +547,7 @@
 
 # sent_id = 41
 # text = mii dash o'ow , ogii-naazikaagoon iniw anishinaaben .
+# eng = Then he was approached by that Indian.
 1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
 3	o'ow	o'ow	PRON	PRONDem|NI|Sg|PRON	_	5	dep	_	_
@@ -518,6 +559,7 @@
 
 # sent_id = 42
 # text = " nenabozho , " ikido anishinaabe , " giwii-kagwejimin gegoo . "
+# eng = “Nenabozho,” the Indian says, “I want to ask you something.
 1	"	"	X	_	_	5	dep	_	_
 2	nenabozho	nenabozho	X	_	_	5	dep	_	_
 3	,	,	PUNCT	,	_	5	punct	_	_
@@ -533,6 +575,7 @@
 
 # sent_id = 43
 # text = " ahaaw , " nenabozho gaa-izhi-nakwetawaad .
+# eng = ” “All right,” Nenabozho replies to him.
 1	"	"	X	_	_	6	dep	_	_
 2	ahaaw	ahaaw	INTJ	PCInterj|INTJ	_	6	dep	_	_
 3	,	,	X	_	_	6	dep	_	_
@@ -543,6 +586,7 @@
 
 # sent_id = 44
 # text = " aaniin wenji-nibwaakaayan , " ogii-kagwejimigoon iniw anishinaaben , wiijanishinaaben .
+# eng = “Why are you so smart,” he was asked by that Indian, his fellow Indian.
 1	"	"	X	_	_	3	dep	_	_
 2	aaniin	aaniin	ADV	ADVInter|ADV	_	3	dep	_	_
 3	wenji-nibwaakaayan	nibwaakaa	VERB	ChCnj|PVRel/onji|VAI|Cnj|Pos|Neu|2SgSubj|VERB	_	0	root	_	_
@@ -557,6 +601,7 @@
 
 # sent_id = 45
 # text = " haaw . " nenabozho gaa-izhi-inendang wii-inaad iniw anishinaaben , wiijanishinaaben .
+# eng =  “All right.
 1	"	"	X	_	_	6	dep	_	_
 2	haaw	haaw	INTJ	PCInterj|INTJ	_	6	dep	_	_
 3	.	.	PUNCT	.	_	6	punct	_	_
@@ -572,6 +617,7 @@
 
 # sent_id = 46
 # text = " apane sa niin niijii nimiijinan nibwaakaaminensan . "
+# eng = ” Nenabozho was thinking of what he wanted to tell that Indian, his fellow Indian.
 1	"	"	PUNCT	"	_	6	punct	_	_
 2	apane	apane	ADV	ADVTmp|ADV	_	6	advmod	_	_
 3	sa	sa	PART	PCDisc|PART	_	6	discourse	_	_
@@ -584,6 +630,7 @@
 
 # sent_id = 47
 # text = " oon , dagish waabanda'ishin wendinaman onow nibwaakaaminensan .
+# eng = “As for me, my friend, I always eat smart berries.
 1	"	"	PUNCT	"	_	5	punct	_	_
 2	oon	oon	X	_	_	5	dep	_	_
 3	,	,	PUNCT	,	_	5	punct	_	_
@@ -596,6 +643,7 @@
 
 # sent_id = 48
 # text = gaye niin niwii-nibwaakaa . "
+# eng = ” “Oh, please show me where you get these smart berries.
 1	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
 2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	3	nsubj	_	_
 3	niwii-nibwaakaa	nibwaakaa	VERB	PVTense/wii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
@@ -604,6 +652,7 @@
 
 # sent_id = 49
 # text = " haaw , " nenabozho gaa-izhi-inaaad , " daga wiijiwishin .
+# eng = I would like to be intelligent myself.
 1	"	"	X	_	_	0	root	_	_
 2	haaw	haaw	INTJ	PCInterj|INTJ	_	1	dep	_	_
 3	,	,	X	_	_	1	dep	_	_
@@ -618,6 +667,7 @@
 
 # sent_id = 50
 # text = giga-waabanda'in wendinamaan onow nibwaakaaminensan . "
+# eng = ” “Okay,” Nenabozho told him, “You come with me.
 1	giga-waabanda'in	waabanda'	VERB	PVTense/ga|VTA|Ind|Pos|Neu|1SgSubj|2SgObj|VERB	_	0	root	_	_
 2	wendinamaan	ondinan	VERB	ChCnj|VTI|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	1	dep	_	_
 3	onow	now	NOUN	NID|Sg|3SgProxPoss|NOUN	_	2	obj	_	_
@@ -627,6 +677,7 @@
 
 # sent_id = 51
 # text = mii dash megwekob gii-izhi-izhaawaad imaa .
+# eng =  Then they went off there in the bush.
 1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	megwekob	megwekob	ADV	ADVLoc|ADV	_	4	obl	_	_
@@ -636,6 +687,7 @@
 
 # sent_id = 52
 # text = megwaa bimosewaad , nenabozho gaa-mikang o'ow waaboozoo-miikanens .
+# eng = While they were walking along, Nenabozho finds this rabbit trail.
 1	megwaa	megwaa	ADV	ADVTmp|ADV	_	5	advmod	_	_
 2	bimosewaad	bimose	VERB	VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
 3	,	,	PUNCT	,	_	2	punct	_	_
@@ -647,6 +699,7 @@
 
 # sent_id = 53
 # text = " mii imaa wendinamaan nibwaakaaminensan , " ikido nenabozho imaa miiginaad onow nibwaakaaminensan gaa-izhi-miinaad bezhig owiijanishinaaben -a'aw waa-kikinoo'amawind .
+# eng = “I get the smart berries right there,” Nenabozho says there as he gives away the smart berries, giving one to his fellow Indian—-the one who was going to be taught a lesson.
 1	"	"	PUNCT	"	_	4	punct	_	_
 2	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
@@ -669,6 +722,7 @@
 
 # sent_id = 54
 # text = " daga zhakamon abezhig , " ikido nenabozho .
+# eng = “Put one in your mouth,” says Nenabozho.
 1	"	"	PUNCT	"	_	3	punct	_	_
 2	daga	daga	PART	PCDisc|PART	_	3	discourse	_	_
 3	zhakamon	zhakamo	VERB	VAI|Imp|Sim|2SgSubj|VERB	_	0	root	_	_
@@ -681,6 +735,7 @@
 
 # sent_id = 55
 # text = " ahaaw . "
+# eng = “Okay.
 1	"	"	X	_	_	0	root	_	_
 2	ahaaw	ahaaw	INTJ	PCInterj|INTJ	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
@@ -688,6 +743,7 @@
 
 # sent_id = 56
 # text = owiijanishinaaben gaa-izhi-zhakamod bezhig .
+# eng = ” His fellow Indian put one his mouth.
 1	owiijanishinaaben	owiijanishinaaben	X	_	_	2	dep	_	_
 2	gaa-izhi-zhakamod	zhakamo	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 3	bezhig	bezhig	NUM	NUM	_	2	dep	_	_
@@ -695,6 +751,7 @@
 
 # sent_id = 57
 # text = " ishte , " ikido owiijanishinaaben , " gaawiin aawaasinoon nibwaakaaminensan .
+# eng = “Ishte,” says his fellow Indian, “These aren’t smart berries.
 1	"	"	X	_	_	5	dep	_	_
 2	ishte	ishte	X	_	_	5	dep	_	_
 3	,	,	X	_	_	5	dep	_	_
@@ -710,6 +767,7 @@
 
 # sent_id = 58
 # text = waaboozoo-moowensan gosha . "
+# eng = These are damned rabbit turds.
 1	waaboozoo-moowensan	waaboozoo-moowensan	X	_	_	0	root	_	_
 2	gosha	gosha	PART	PCEmph|PART	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
@@ -717,12 +775,14 @@
 
 # sent_id = 59
 # text = " enh .
+# eng = ” “Yes.
 1	"	"	X	_	_	0	root	_	_
 2	enh	enh	PART	PCDisc|PART	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 60
 # text = enh , " ikido nenabozho , " miish o'ow gaye giin nibwaakaayan . "
+# eng = Yes,” says Nenabozho, “Then you’re getting smart yourself.
 1	enh	enh	PART	PCDisc|PART	_	4	dep	_	_
 2	,	,	X	_	_	4	dep	_	_
 3	"	"	X	_	_	4	dep	_	_
@@ -740,6 +800,7 @@
 
 # sent_id = 61
 # text = apane babaamosed a'aw nenabozho gii-pabaamose gii-ayaad omaa .
+# eng =  That Nenabozho walked all over when he was here, always walking around.
 1	apane	apane	ADV	ADVTmp|ADV	_	2	advmod	_	_
 2	babaamosed	babaamose	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 3	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	2	nsubj	_	_
@@ -751,6 +812,7 @@
 
 # sent_id = 62
 # text = mii dash o'ow ani-babaamosed gaa-izhi-miikawaad onow binesiwan , onow gii-naganaawaad omaamaayiwaa omaa .
+# eng = Then as he was walking around, he found these birds that had been left by their mother here.
 1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	o'ow	o'ow	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
@@ -767,6 +829,7 @@
 
 # sent_id = 63
 # text = gaa-izhi-gagwejimaad , " aaniish giinawaa ezhinikaazoyeg , " ogii-kagwejimaan a'aw nenabozho .
+# eng = So he asks them, “What are your names,” that Nenabozho asked them.
 1	gaa-izhi-gagwejimaad	gagwejim	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	"	"	PUNCT	"	_	1	punct	_	_
@@ -782,6 +845,7 @@
 
 # sent_id = 64
 # text = mii dash , ogii-nisidotaagoon i'iw ayaawid .
+# eng = Then, he was understood by them in his being [there].
 1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	,	,	PUNCT	,	_	4	punct	_	_
@@ -792,6 +856,7 @@
 
 # sent_id = 65
 # text = mii dash , gaawiin ogii-nakwetawaasiigoon onow binewan .
+# eng = But he wasn’t answered by those birds.
 1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
 3	,	,	PUNCT	,	_	1	punct	_	_
@@ -803,6 +868,7 @@
 
 # sent_id = 66
 # text = " gaawiin giwii-pooni'isiinooninim .
+# eng = “I’m not going to leave you alone.
 1	"	"	X	_	_	0	root	_	_
 2	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	1	dep	_	_
 3	giwii-pooni'isiinooninim	giwii-pooni'isiinooninim	X	_	_	1	dep	_	_
@@ -810,6 +876,7 @@
 
 # sent_id = 67
 # text = aaniish ezhinikaazoyeg ? "
+# eng = What are your names?
 1	aaniish	aaniish	ADV	ADVInter|ADV	_	2	dep	_	_
 2	ezhinikaazoyeg	izhinikaazo	VERB	ChCnj|VAI|Cnj|Pos|Neu|2PlSubj|VERB	_	0	root	_	_
 3	?	?	PUNCT	?	_	2	punct	_	_
@@ -817,6 +884,7 @@
 
 # sent_id = 68
 # text = mii dash binesiwag gaa-izhi-inaawaad , " bine indizhinikaazomin . "
+# eng = ” Then those birds told him, “We are called Bine.
 1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	binesiwag	binesi	NOUN	NA|ProxPl|NOUN	_	4	nsubj	_	_
@@ -830,12 +898,14 @@
 
 # sent_id = 69
 # text = " oon .
+# eng = ” “Oh.
 1	"	"	X	_	_	0	root	_	_
 2	oon	oon	X	_	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 70
 # text = inashke niin niizhing indizhinikaaz .
+# eng = Look, I have two names myself.
 1	inashke	inashke	PART	PCDisc|PART	_	4	discourse	_	_
 2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	4	nsubj	_	_
 3	niizhing	niizhing	ADV	ADVTmp|ADV	_	4	advmod	_	_
@@ -844,6 +914,7 @@
 
 # sent_id = 71
 # text = mii i'iw bezhig , nenabozho indizhinikaaz .
+# eng = For the first one, I am called Nenabozho.
 1	mii	mii	ADV	ADVPred|ADV	_	6	dep	_	_
 2	i'iw	i'iw	PRON	PRONDem|NI|Sg|PRON	_	6	dep	_	_
 3	bezhig	bezhig	NUM	NUM	_	6	dep	_	_
@@ -854,6 +925,7 @@
 
 # sent_id = 72
 # text = miinawaa dash bebaamosed gaye indizhinikaaz . "
+# eng = And I am also called Bebaamosed.
 1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	3	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
 3	bebaamosed	babaamose	VERB	ChCnj|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
@@ -864,6 +936,7 @@
 
 # sent_id = 73
 # text = " oon . "
+# eng = ” “Oh.
 1	"	"	X	_	_	0	root	_	_
 2	oon	oon	X	_	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
@@ -871,6 +944,7 @@
 
 # sent_id = 74
 # text = gaawiin ogii-nakwetawaasiigoonaan nenabozho .
+# eng = ” They didn’t answer Nenabozho.
 1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	0	root	_	_
 2	ogii-nakwetawaasiigoonaan	ogii-nakwetawaasiigoonaan	X	_	_	1	dep	_	_
 3	nenabozho	nenabozho	X	_	_	1	dep	_	_
@@ -878,6 +952,7 @@
 
 # sent_id = 75
 # text = " wiindamawishin ezhinikaazoyan .
+# eng = “Tell me what you are called.
 1	"	"	X	_	_	2	dep	_	_
 2	wiindamawishin	wiindamaw	VERB	VTA|Imp|Sim|2SgSubj|1SgObj|VERB	_	0	root	_	_
 3	ezhinikaazoyan	izhinikaazo	VERB	ChCnj|VAI|Cnj|Pos|Neu|2SgSubj|VERB	_	2	dep	_	_
@@ -885,6 +960,7 @@
 
 # sent_id = 76
 # text = niizhing akina awiiya adayaanaawaan izhinikaazowinan , " ogii-inaan nenabozho .
+# eng = Everyone has two names,” Nenabozho told them.
 1	niizhing	niizhing	ADV	ADVTmp|ADV	_	8	dep	_	_
 2	akina	akina	ADV	ADVQnt|ADV	_	8	dep	_	_
 3	awiiya	awiiya	PRON	PRONIndf|NA|PRON	_	8	dep	_	_
@@ -898,6 +974,7 @@
 
 # sent_id = 77
 # text = mii dash iniw binewan , " gawigoshko'iweshiinh indizhinikaazomin gaye niinawind , " gii-ikidowag .
+# eng = Then those partridges said, “We are also called Gawigoshko iweshiinh.
 1	mii	mii	ADV	ADVPred|ADV	_	8	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	8	dep	_	_
 3	iniw	iniw	DET	PRONDem|NA|ObvPl|DET	_	4	det	_	_
@@ -915,18 +992,21 @@
 
 # sent_id = 78
 # text = " sate !
+# eng =  “Sate!
 1	"	"	X	_	_	0	root	_	_
 2	sate	sate	X	_	_	1	dep	_	_
 3	!	!	PUNCT	!	_	1	punct	_	_
 
 # sent_id = 79
 # text = gaawiin giin .
+# eng = Not you.
 1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	0	root	_	_
 2	giin	giin	PRON	PRONPer|NA|2Sg|PRON	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 80
 # text = onzaam sa go gibi-wiiji'ininim , " gii-ikido a'aw nenabozho .
+# eng = I’ve been hanging around with you too long,” said that Nenabozho.
 1	onzaam	onzaam	ADV	ADVQnt|ADV	_	4	dep	_	_
 2	sa	sa	PART	PCDisc|PART	_	4	discourse	_	_
 3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
@@ -940,6 +1020,7 @@
 
 # sent_id = 81
 # text = mii gaa-izhi-zhaagode'enid gaa-izhi-miiziinaad onow sa binesiwan .
+# eng = Those birds were frightened as he crapped all over them.
 1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
 2	gaa-izhi-zhaagode'enid	zhaagode'e	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgObvSubj|VERB	_	0	root	_	_
 3	gaa-izhi-miiziinaad	gaa-izhi-miiziinaad	X	_	_	2	dep	_	_
@@ -950,6 +1031,7 @@
 
 # sent_id = 82
 # text = mii dash gaa-izhi-maajaad a'aw bebaamosed .
+# eng = Then that Bebaamosed took off.
 1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
 3	gaa-izhi-maajaad	maajaa	VERB	PVTense/gii|PVRel/izhi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	0	root	_	_
@@ -959,6 +1041,7 @@
 
 # sent_id = 83
 # text = megwaa , bimised a'aw ikwe-bine , gaa-izhi-booniid imaa .
+# eng =  In the meantime, that hen flew up and perched there.
 1	megwaa	megwaa	ADV	ADVTmp|ADV	_	3	dep	_	_
 2	,	,	PUNCT	,	_	3	punct	_	_
 3	bimised	bimise	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
@@ -971,6 +1054,7 @@
 
 # sent_id = 84
 # text = " wish , " ikido a'aw , " awenesh gaa-toodooneg owe gii-miiziinegwaa ? "
+# eng = “Wish,” she says, “Who did this to you, crapping all over you?
 1	"	"	X	_	_	5	dep	_	_
 2	wish	wish	X	_	_	5	dep	_	_
 3	,	,	PUNCT	,	_	5	punct	_	_
@@ -988,6 +1072,7 @@
 
 # sent_id = 85
 # text = " nenabozho , " gii-ikidowag oniijaanisan .
+# eng = ” “Nenabozho,” her kids said.
 1	"	"	X	_	_	5	dep	_	_
 2	nenabozho	nenabozho	X	_	_	5	dep	_	_
 3	,	,	X	_	_	5	dep	_	_
@@ -998,12 +1083,14 @@
 
 # sent_id = 86
 # text = " wha .
+# eng = “Wha.
 1	"	"	X	_	_	0	root	_	_
 2	wha	wha	X	_	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 87
 # text = inashke niin ge-doodawag .
+# eng = Just look at what I am going to do to him.
 1	inashke	inashke	PART	PCDisc|PART	_	3	discourse	_	_
 2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	3	nsubj	_	_
 3	ge-doodawag	doodaw	VERB	ChCnj|PVTense/daa|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
@@ -1011,6 +1098,7 @@
 
 # sent_id = 88
 # text = aaniish wenji-izhichiged ? "
+# eng = Why did he do this?
 1	aaniish	aaniish	ADV	ADVInter|ADV	_	2	dep	_	_
 2	wenji-izhichiged	izhichige	VERB	ChCnj|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 3	?	?	PUNCT	?	_	2	punct	_	_
@@ -1018,6 +1106,7 @@
 
 # sent_id = 89
 # text = " ingii-kagwejimigoonaan iwe ezhinikaazoyaang .
+# eng = ” “We were asked what our names were.
 1	"	"	X	_	_	4	dep	_	_
 2	ingii-kagwejimigoonaan	ingii-kagwejimigoonaan	X	_	_	4	dep	_	_
 3	iwe	iwe	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
@@ -1026,6 +1115,7 @@
 
 # sent_id = 90
 # text = mii dash , ingii-inaanaan , ingii-wiindamawaanaan ezhinikaazoyaang -bine miinawaa gawigoshko'iweshiinh . "
+# eng = Then, we told him, we told him what our names are—-Bine and Gawigoshko’iweshiinh.
 1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	,	,	X	_	_	4	dep	_	_
@@ -1041,6 +1131,7 @@
 
 # sent_id = 91
 # text = " mii dash , ingii-miiziinigoonaan omaa . "
+# eng = ” “Then he crapped all over us here.
 1	"	"	X	_	_	0	root	_	_
 2	mii	mii	ADV	ADVPred|ADV	_	1	dep	_	_
 3	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
@@ -1052,18 +1143,21 @@
 
 # sent_id = 92
 # text = " haaw .
+# eng = ” “All right.
 1	"	"	X	_	_	0	root	_	_
 2	haaw	haaw	INTJ	PCInterj|INTJ	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 93
 # text = inga-izhaa imaa .
+# eng = I am going there.
 1	inga-izhaa	izhaa	VERB	PVTense/ga|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
 2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 94
 # text = aaniish akeyaa gaa-izhaad imaa nenabozho ? "
+# eng = Which way did Nenabozho go there?
 1	aaniish	aaniish	ADV	ADVInter|ADV	_	3	dep	_	_
 2	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	3	obl	_	_
 3	gaa-izhaad	izhaa	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
@@ -1074,6 +1168,7 @@
 
 # sent_id = 95
 # text = " mii akeyaa imaa , ningaabi'anong gii-izhaa . "
+# eng = ” “That way there, he went towards the west.
 1	"	"	X	_	_	7	dep	_	_
 2	mii	mii	ADV	ADVPred|ADV	_	7	dep	_	_
 3	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	7	dep	_	_
@@ -1086,6 +1181,7 @@
 
 # sent_id = 96
 # text = mii dash a'aw ikwe-bine gaa-izhi-biini'aad oniijaanisan .
+# eng = ” Then that hen cleaned up her children.
 1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
 3	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	5	nsubj	_	_
@@ -1096,6 +1192,7 @@
 
 # sent_id = 97
 # text = megwaa biini'aad onow , bebaamosed -- enind nenabozho -megwaa bimosed a'aw gaa-izhi-waabamaad imaa iniw akiwenziiyan imaa namadabinid .
+# eng =  While she was cleaning them, Bebaamosed—-the one called Nenabozho—-while he was walking he saw an old man sitting there.
 1	megwaa	megwaa	ADV	ADVTmp|ADV	_	2	advmod	_	_
 2	biini'aad	biini'	VERB	VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
 3	onow	onow	PRON	PRONDem|NA|ObvSg|PRON	_	2	obj	_	_
@@ -1117,6 +1214,7 @@
 
 # sent_id = 98
 # text = odaanan dash owiidabimigoon imaa .
+# eng = And his daughter was sitting with him there.
 1	odaanan	daan	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	3	nsubj	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
 3	owiidabimigoon	wiidabim	VERB	VTA|Ind|Pos|Neu|3SgObvSubj|3SgProxObj|VERB	_	0	root	_	_
@@ -1125,6 +1223,7 @@
 
 # sent_id = 99
 # text = " aaniish wenji-namadabiyeg , " ogii-kagwejimaan nenabozho .
+# eng = “Why are you sitting,” Nenabozho asked them.
 1	"	"	X	_	_	3	dep	_	_
 2	aaniish	aaniish	ADV	ADVInter|ADV	_	3	dep	_	_
 3	wenji-namadabiyeg	namadabi	VERB	ChCnj|PVRel/onji|VAI|Cnj|Pos|Neu|2PlSubj|VERB	_	0	root	_	_
@@ -1136,6 +1235,7 @@
 
 # sent_id = 100
 # text = mii dash gaa-izhi-inaabid imaa giishkaabikokaaning imaa chi-waasa imaa enaabid .
+# eng = Then he glanced at the cliff there, looking a long way there [to the bottom].
 1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
 3	gaa-izhi-inaabid	inaabi	VERB	PVTense/gii|PVRel/izhi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	0	root	_	_
@@ -1149,6 +1249,7 @@
 
 # sent_id = 101
 # text = mii dash akiwenzii gaa-izhi-inaad nenabozhon , " mii awiiya ge-giishkitood ji-azhe-gwaashkwanid , mii awe ge-wiidigemaad onow indaanisan omaa . "
+# eng = Then that old man told Nenabozho, “Whoever shall be able to jump, he’s the one who will marry my daughter here.
 1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
@@ -1172,12 +1273,14 @@
 
 # sent_id = 102
 # text = owaabamaan odaanan .
+# eng = ” He sees the daughter.
 1	owaabamaan	waabam	VERB	VTA|Ind|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
 2	odaanan	daan	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	1	obj	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 103
 # text = " mii owe ge-izhichigeyaan , " gii-inendam nenabozho gaa-izhi-wiindamawaad onow akiwenziiyan , " niin sa go inga-wiidigemaa gidaanis .
+# eng = “That’s what I shall do,” Nenabozho thought as he told that old man, “I shall marry your daughter myself.
 1	"	"	X	_	_	4	dep	_	_
 2	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 3	owe	owe	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
@@ -1200,6 +1303,7 @@
 
 # sent_id = 104
 # text = inga-azhe-gwaashkwan owe omaa giishkaabikokaaning . "
+# eng = I am going to jump over this here precipice.
 1	inga-azhe-gwaashkwan	gwaashkwani	VERB	PVTense/ga|PVLex/azhe|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
 2	owe	owe	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
 3	omaa	omaa	ADV	ADVLoc|ADV	_	1	obl	_	_
@@ -1209,6 +1313,7 @@
 
 # sent_id = 105
 # text = mii dash ishkwe gaa-izhi-bimosed , noomag gii-niibawid imaa waabandang giishkaabikokaaning imaa gaa-izhi-chi-bimibatood imaa .
+# eng =  Then he walked back, standing for a little while there, looking at the cliff there, he ran really hard there.
 1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
 3	ishkwe	ishkwe	X	_	_	4	dep	_	_
@@ -1226,6 +1331,7 @@
 
 # sent_id = 106
 # text = jiigayi'ii imaa gaa-izhi-chi-noogised .
+# eng = He came to an abrupt stop right at the edge.
 1	jiigayi'ii	jiigayi'ii	ADV	ADVLoc|ADV	_	3	obl	_	_
 2	imaa	imaa	ADV	ADVLoc|ADV	_	3	dep	_	_
 3	gaa-izhi-chi-noogised	noogise	VERB	PVTense/gii|PVRel/izhi|PVLex/chi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	0	root	_	_
@@ -1233,6 +1339,7 @@
 
 # sent_id = 107
 # text = gegaa sa go gii-pangishin imaa biinjayi'ii imaa .
+# eng = He almost fell over there.
 1	gegaa	gegaa	ADV	ADVDeg|ADV	_	4	advmod	_	_
 2	sa	sa	PART	PCDisc|PART	_	4	discourse	_	_
 3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
@@ -1244,6 +1351,7 @@
 
 # sent_id = 108
 # text = wa hiyaa , gaa-izhi-waabamaad miinawaa odaanan .
+# eng = Wa hiyaa, he looked at [the old man’s] daughter again.
 1	wa	wa	PART	PCDisc|PART	_	4	dep	_	_
 2	hiyaa	hiyaa	X	_	_	4	dep	_	_
 3	,	,	PUNCT	,	_	4	punct	_	_
@@ -1254,6 +1362,7 @@
 
 # sent_id = 109
 # text = " niin sa go inga-wiidigemaa . "
+# eng = “I am going to marry her myself.
 1	"	"	PUNCT	"	_	5	punct	_	_
 2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	5	nsubj	_	_
 3	sa	sa	PART	PCDisc|PART	_	5	discourse	_	_
@@ -1264,6 +1373,7 @@
 
 # sent_id = 110
 # text = ishkweyaang go gaa-izhi-bimosed naanaagadawendang o'ow ge-izhichiged gaa-izhi-chi-bimibatood imaa miinawaa .
+# eng = ” Afterwards as he walked [away from the edge] reflecting on what he would do, he sprinted there again.
 1	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	3	obl	_	_
 2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
 3	gaa-izhi-bimosed	bimose	VERB	PVTense/gii|PVRel/izhi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|VERB	_	0	root	_	_
@@ -1277,6 +1387,7 @@
 
 # sent_id = 111
 # text = jiigayi'ii gaye gaa-izhi-chi-noogised gayesh .
+# eng = And he came to a stop right at the edge too.
 1	jiigayi'ii	jiigayi'ii	ADV	ADVLoc|ADV	_	3	obl	_	_
 2	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
 3	gaa-izhi-chi-noogised	noogise	VERB	ChCnj|PVTense/gii|PVRel/izhi|PVLex/chi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
@@ -1285,6 +1396,7 @@
 
 # sent_id = 112
 # text = gegaa go gii-pangishin imaa .
+# eng = He almost fell there.
 1	gegaa	gegaa	ADV	ADVDeg|ADV	_	3	advmod	_	_
 2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
 3	gii-pangishin	bangishin	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
@@ -1293,6 +1405,7 @@
 
 # sent_id = 113
 # text = " hiyaa , " ikido nenabozho , " niin sa go inga-wiidigemaa gidaanis , " ogii-inaan akiwenziiyan gaa-izhi-azhe-bimibatood .
+# eng = “Hiyaa,” says Nenabozho, “I’m going to marry your daughter myself,” he told that old man as he ran back.
 1	"	"	X	_	_	5	dep	_	_
 2	hiyaa	hiyaa	X	_	_	5	dep	_	_
 3	,	,	X	_	_	5	dep	_	_
@@ -1315,18 +1428,21 @@
 
 # sent_id = 114
 # text = gii-chi-inendam o'ow .
+# eng = He was really thinking hard.
 1	gii-chi-inendam	inendam	VERB	PVTense/gii|PVLex/chi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 2	o'ow	o'ow	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 115
 # text = " inga-izhichige .
+# eng = “I am going to do this.
 1	"	"	X	_	_	2	dep	_	_
 2	inga-izhichige	izhichige	VERB	PVTense/ga|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
 3	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 116
 # text = gaye niin sa go inga-giishkitoon ahe-gwaashkwaniwaanen , " gii-inendam a'aw nenabozho .
+# eng = I must be able to jump off myself,” that Nenabozho thought.
 1	gaye	gaye	ADV	ADVConj|ADV	_	9	dep	_	_
 2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	9	dep	_	_
 3	sa	sa	PART	PCDisc|PART	_	9	dep	_	_
@@ -1342,6 +1458,7 @@
 
 # sent_id = 117
 # text = jibwaa-ani-bimibatood , gaa-izhi-booniinid ikwe-binewan imaa jiigayi'ii giishkaabikokaaning .
+# eng =  Just before he ran, that hen perched there near the edge of the precipice.
 1	jibwaa-ani-bimibatood	bimibatoo	VERB	PVTense/jibwaa|PVDir/ani|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 2	,	,	PUNCT	,	_	1	punct	_	_
 3	gaa-izhi-booniinid	boonii	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgObvSubj|VERB	_	1	dep	_	_
@@ -1353,6 +1470,7 @@
 
 # sent_id = 118
 # text = mii gii-inendang a'aw ikwe-bine , " inga-goshko'aa a'aw nenabozho jibwaa-ani-gwaashkwanid imaa . "
+# eng = That hen thought, “I’m going to scare that Nenabozho before he jumps there.
 1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
 2	gii-inendang	inendam	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 3	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	2	nsubj	_	_
@@ -1369,6 +1487,7 @@
 
 # sent_id = 119
 # text = mii dash a'aw nenabozho gaa-izhi-chi-bimibatood imaa .
+# eng =  Then that Nenabozho really took a run for it there.
 1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
 2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
 3	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	5	nsubj	_	_
@@ -1379,6 +1498,7 @@
 
 # sent_id = 120
 # text = jiigayi'ii gaa-izhi-chi-noogised ; mii dash onow ikwe-binewan gaa-izhi-bazigwiinid , " papapapa . "
+# eng = Right at the edge he came to a halt; but that hen flew up like this, “Papapapa.
 1	jiigayi'ii	jiigayi'ii	ADV	ADVLoc|ADV	_	2	obl	_	_
 2	gaa-izhi-chi-noogised	noogise	VERB	ChCnj|PVTense/gii|PVRel/izhi|PVLex/chi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 3	;	;	PUNCT	;	_	2	punct	_	_
@@ -1395,6 +1515,7 @@
 
 # sent_id = 121
 # text = gaa-izhi-goshko'aad onow nenabozhon .
+# eng = ” She scared that Nenabozho.
 1	gaa-izhi-goshko'aad	goshko'	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
 2	onow	onow	PRON	PRONDem|NA|ObvSg|PRON	_	1	obj	_	_
 3	nenabozhon	nenabozhon	X	_	_	1	dep	_	_
@@ -1402,11 +1523,13 @@
 
 # sent_id = 122
 # text = hay' !
+# eng = Hai’!
 1	hay'	hay'	INTJ	PCInterj|INTJ	_	0	root	_	_
 2	!	!	PUNCT	!	_	1	punct	_	_
 
 # sent_id = 123
 # text = mii sa go .
+# eng = He fell right over the edge there.
 1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
 2	sa	sa	PART	PCDisc|PART	_	1	dep	_	_
 3	go	go	PART	PCDisc|PART	_	1	dep	_	_
@@ -1414,6 +1537,7 @@
 
 # sent_id = 124
 # text = gii-pangishin imaa biinjayi'ii .
+# eng = No English translation.
 1	gii-pangishin	bangishin	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
 2	imaa	imaa	ADV	ADVLoc|ADV	_	3	case	_	_
 3	biinjayi'ii	biinjayi'ii	ADV	ADVLoc|ADV	_	1	obl	_	_

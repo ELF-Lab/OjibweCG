@@ -46,6 +46,7 @@ def append_sentence(conllu_text: str,
 
 def cg3_to_conllu_batch(cg3_text: str,
                         corpus_path: Union[str, Path] = "ojibwe_treebank.conllu",
+                        en_line: str = None,
                         lang: str = "ud",
                         verbose: bool = True) -> None:
     """Parse CG3 text -> CoNLL-U, then append to corpus_path.
@@ -53,7 +54,7 @@ def cg3_to_conllu_batch(cg3_text: str,
     """
     p = Path(corpus_path)
     sent_id = 1 + (p.read_text(encoding="utf-8").count("\n\n") if p.exists() else 0)
-    conllu = cg3_to_conllu_block(cg3_text, sent_id)
+    conllu = cg3_to_conllu_block(cg3_text, sent_id, en_line=en_line)
     append_sentence(conllu, sent_id, p, verbose=verbose)
     
 

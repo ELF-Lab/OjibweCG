@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:lang="en" id="b1b90d247650488c8ded50fe12748280-0" class="displacy" width="550" height="287.0" direction="ltr" style="max-width: none; height: 287.0px; color: #000000; background: #ffffff; font-family: Arial; direction: ltr">
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="197.0">
+    <tspan class="displacy-word" fill="currentColor" x="100">ogii-ozhi'aawaan</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="100">Verb.3PlSubj.3ObvObj</tspan>
+</text>
+
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="197.0">
+    <tspan class="displacy-word" fill="currentColor" x="250">iniw</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="250">Dem.3Obv</tspan>
+</text>
+
+<text class="displacy-token" fill="currentColor" text-anchor="middle" y="197.0">
+    <tspan class="displacy-word" fill="currentColor" x="400">odaagiman</tspan>
+    <tspan class="displacy-tag" dy="2em" fill="currentColor" x="400">Noun.3Obv</tspan>
+</text>
+
+<g class="displacy-arrow">
+    <path class="displacy-arc" id="arrow-b1b90d247650488c8ded50fe12748280-0-0" stroke-width="2px" d="M112,152.0 112,102.0 400.0,102.0 400.0,152.0" fill="none" stroke="currentColor"/>
+    <text dy="1.25em" style="font-size: 0.8em; letter-spacing: 1px">
+        <textPath xlink:href="#arrow-b1b90d247650488c8ded50fe12748280-0-0" class="displacy-label" startOffset="50%" side="left" fill="currentColor" text-anchor="middle">obj</textPath>
+    </text>
+    <path class="displacy-arrowhead" d="M400.0,154.0 L404.0,146.0 396.0,146.0" fill="currentColor"/>
+</g>
+
+<g class="displacy-arrow">
+    <path class="displacy-arc" id="arrow-b1b90d247650488c8ded50fe12748280-0-1" stroke-width="2px" d="M262,152.0 262,127.0 397.0,127.0 397.0,152.0" fill="none" stroke="currentColor"/>
+    <text dy="1.25em" style="font-size: 0.8em; letter-spacing: 1px">
+        <textPath xlink:href="#arrow-b1b90d247650488c8ded50fe12748280-0-1" class="displacy-label" startOffset="50%" side="left" fill="currentColor" text-anchor="middle">det</textPath>
+    </text>
+    <path class="displacy-arrowhead" d="M397.0,154.0 L401.0,146.0 393.0,146.0" fill="currentColor"/>
+</g>
+</svg>

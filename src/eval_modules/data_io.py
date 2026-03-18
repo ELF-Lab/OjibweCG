@@ -117,8 +117,8 @@ def write_eval_artifacts(
     fst = load_fst_parser(str(fst_binary))
 
     # full
-    write_tsv(rows, outdir / "sample_300.tsv")
-    write_cg3(rows, fst, outdir / "sample_300.txt")
+    write_tsv(rows, outdir / "sample_500.tsv")
+    write_cg3(rows, fst, outdir / "sample_500.txt")
 
     # optional 100
     if write_100:

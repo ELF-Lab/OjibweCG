@@ -183,7 +183,7 @@ def visualise_conllu(corpus_path: Union[str, Path],
         sp_tok.head = doc[head_i]
 
     rich.print(f"[bold cyan]visualising sentence {sent_no} from {corpus_path.name}")
-    displacy.render(doc, style="dep", jupyter=True,
+    displacy.render(doc, style="dep", jupyter=False,
                     options={"compact": compact, "collapse_punct": collapse_punct})
 
 

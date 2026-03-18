@@ -34,14 +34,6 @@ def get_disambiguation_path() -> Path:
     """
     return DISAMBIGUATION_PATH
 
-def get_dependency_path() -> Path:
-    """
-    Return a pathlib Path to the dependency grammar.
-    """
-    return DEPENDENCY_PATH
-
-    
-
 def tokenize(ojibwe_sentence:str) -> list[str]:
     """
     Tokenize an Ojibwe sentence, separating punctuation symbols from words.

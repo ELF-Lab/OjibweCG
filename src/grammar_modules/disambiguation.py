@@ -16,10 +16,9 @@ PUNCTUATIONS = (
 )
 PRESERVE_TOKEN = "..." # keep ... as literal as in some sentences
 
-# Paths to disambiguation and dependency grammars. Update if moved.
+# Paths to disambiguation grammar. Update if moved.
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DISAMBIGUATION_PATH = REPO_ROOT / "data" / "grammars" / "disambiguation.cg3"
-DEPENDENCY_PATH = REPO_ROOT / "data" / "grammars" / "dependency.cg3"
 
 
 ### --------Helper functions (used across the repository)---------

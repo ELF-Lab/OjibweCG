@@ -3,8 +3,10 @@ from rich.progress import Progress
 from pathlib import Path
 from typing import List, Dict, Tuple, Iterable, Optional
 from grammar_modules.fst import Fst
+from conllu import parse_incr
 import os
 import re
+
 
 # third-party
 import jinja2
@@ -31,6 +33,7 @@ from treebank_modules.corpus import cg3_to_conllu_batch  # used by build-dep whe
 
 def load_lines(path: Path) -> List[str]:
     return [ln.rstrip("\n") for ln in path.read_text(encoding="utf8").splitlines() if ln.strip()]
+
 
 def ensure_usr_local_bin_in_path() -> None:
     os.environ["PATH"] += os.pathsep + "/usr/local/bin"
@@ -227,17 +230,24 @@ pre{background:#f9f9f9;border:1px solid #eee;
 </body></html>""")
 
 def build_disambig_booklet(
-    ojibwe_path: Path,
-    english_path: Path,
     cg3_grammar_path: Path,
     fst: Fst,
     out_html_path: Path,
     html_title: str,
+    ojibwe_lines: Optional[List[str]] = None,
+    english_lines: Optional[List[str]] = None,
+    ojibwe_path: Optional[Path] = None,
+    english_path: Optional[Path] = None,
 ) -> None:
     ensure_usr_local_bin_in_path()
 
-    ojibwe  = load_lines(ojibwe_path)
-    english = load_lines(english_path)
+    if ojibwe_lines is None and ojibwe_path is None:
+        raise ValueError("Need either ojibwe_lines or ojibwe_path, got neither.")
+    if english_lines is None and english_path is None:
+        raise ValueError("Need either english_lines or english_path, got neither.")
+    
+    ojibwe = load_lines(ojibwe_path) if ojibwe_path is not None else ojibwe_lines
+    english = load_lines(english_path) if english_path is not None else english_lines
     assert_parallel(ojibwe, english)
 
     rows = []
@@ -256,6 +266,23 @@ def build_disambig_booklet(
 
 
 # ---------- dependency booklet ----------
+
+def get_oj_from_conllu(conllu_path: Path) -> List[str]:
+    oj_sents = []
+    f = open(conllu_path, "r", encoding="utf-8")
+    for tokenlist in parse_incr(f):
+        oj_sents.append(tokenlist.metadata.get("text"))
+    return oj_sents   
+
+def get_en_from_conllu(conllu_path: Path) -> List[str]:
+    en_sents = []
+    f = open(conllu_path, "r", encoding="utf-8")
+    for tokenlist in parse_incr(f):
+        if tokenlist.metadata.get("eng") is None:
+            en_sents.append("No English translation")
+        else:
+            en_sents.append(tokenlist.metadata.get("eng"))
+    return en_sents   
 
 def assert_tree(doc):
     """Make sure there are no cycles in the conllu."""
@@ -344,11 +371,11 @@ figcaption{font-weight:bold;margin-bottom:.5rem;}
 
 def build_dep_booklet(
     treebank_path: Path,
-    ojibwe_path: Path,
-    english_path: Path,
     out_html_path: Path,
     html_title: str,
     *,
+    ojibwe_path: Path = None,
+    english_path: Path = None,
     reparse_with_cg3: bool = False,
     disamb_grammar_path: Optional[Path] = None,
     dep_grammar_path: Optional[Path] = None,
@@ -365,8 +392,21 @@ def build_dep_booklet(
     ensure_usr_local_bin_in_path()
     try_import_spacy()
 
-    ojibwe  = load_lines(ojibwe_path)
-    english = load_lines(english_path)
+    # Either 1) get the Ojibwe lines in the per-line .txt file or 
+    #        2) get the Ojibwe lines from the # text conllu metadata
+    if ojibwe_path is not None:
+        ojibwe = load_lines(ojibwe_path)
+    else:
+        ojibwe = get_oj_from_conllu(treebank_path)
+
+    # Either 1) get the Eng lines in the per-line .txt file or 
+    #        2) get the Eng lines from the # text .conllu metadata
+    #        3) If neither present, add "No English translation."
+    if english_path is not None:
+        english = load_lines(english_path) 
+    else:
+        english = get_en_from_conllu(treebank_path)
+
     assert_parallel(ojibwe, english)
 
     cg3_runs: List[str] = [None] * len(ojibwe)  # keep index alignment

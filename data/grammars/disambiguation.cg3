@@ -211,8 +211,8 @@ SELECT:noun_dem_rule_6 NI_NID + (Pl) IF (-1C (PRONDem NI Pl)) ;
 ## ANIMACY DISAMBIGUATION
 
 # For now only found demonstrative case with following noun
-SELECT:demonstrative_animacy_rule_1 (PRONDem NA) IF (1 (NA)) (NOT 1 (NI)) ;
-SELECT:demonstrative_animacy_rule_2 (PRONDem NI) IF (1 (NI)) (NOT 1 (NA)) ;
+SELECT:demonstrative_animacy_rule_1 (PRONDem NA) IF (1 NA_NAD) (NOT 1 NI_NID) ;
+SELECT:demonstrative_animacy_rule_2 (PRONDem NI) IF (1 NI_NID) (NOT 1 NA_NAD) ;
 
 
 ### OTHER - Other (mostly idiosyncratic) ambiguity cases

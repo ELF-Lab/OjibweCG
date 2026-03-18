@@ -1,4 +1,4 @@
 [General]
 input_files=# One file per line.\n# Use absolute paths.\n
 input_pipe="# Enter the path to either a single program or a whole chain separated with | that the input text or files can be sent through - or just have the chain provide input some other way.\n# A line break will be treated as a |\n# Only a single process is created, through which all text and files are sent sequentially.\n# On Linux and OS X, this is started via /bin/sh -c\n# On Windows this is started via cmd.exe /D /Q /C\n/usr/local/bin/cg-conv\n"
-input_text=\"<aaniin>\"\n\t\"aaniin\" ADVInter\n\t\"aaniin\" PCInterj\n\"<endashiwaad>\"\n\t\"dashiwag\" ChCnj VAIPL Cnj Pos Neu 3PlProxSubj\n\t\"dashi\" ChCnj VAI Cnj Pos Neu 3PlProxSubj\n\"<.>\"\n\t\"PUNCT\"
+input_text=\"<onow>\"\n\t\"now\" NID Sg 3SgProxPoss\n\t\"onow\" PRONDem NA ObvPl\n\t\"onow\" PRONDem NA ObvSg\n\t\"onow\" PRONDem NI Pl\n\"<odoodeman>\"\n\t\"doodem\" NAD ObvSg 3SgProxPoss\n\t\"doodem\" NAD ObvPl 3SgProxPoss\n\"<migiziwan>\"\n\t\"migizi\" NA ObvSg\n\t\"migizi\" NA ObvPl

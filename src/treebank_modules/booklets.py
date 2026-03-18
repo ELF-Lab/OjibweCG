@@ -291,7 +291,7 @@ def assert_tree(doc):
         cur  = tok
         while cur != cur.head:
             if cur in seen:
-                raise RuntimeError(f"Cycle involving «{tok.text}»")
+                raise RuntimeError(f"Cycle involving token \"{tok.text}\" in sentence \"{doc}\".")
             seen.add(cur)
             cur = cur.head
 
@@ -348,7 +348,19 @@ body{font-family:system-ui,Arial,sans-serif;margin:2rem;}
 figure{margin:2rem 0;padding:1rem;border:1px solid #ddd;border-radius:8px;}
 figcaption{font-weight:bold;margin-bottom:.5rem;}
 .oj{color:#1565c0;} .en{color:#2e7d32;}
-.viz svg{width:100%!important;height:auto;}
+.viz{
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: .5rem;
+  margin-top: .5rem;
+  max-height: 70vh;
+  overflow: auto;
+}
+.viz svg{
+  width: max-content !important;
+  height: auto !important;
+  display: block;
+}
 .cg3{background:#f9f9f9;border:1px solid #eee;
      padding:1rem;margin-top:1rem;
      font:14px/1.4 monospace;white-space:pre-wrap;

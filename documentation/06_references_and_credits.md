@@ -42,10 +42,6 @@ For questions or collaboration, please open an [issue](../../issues) or contact 
 
 ## How to Cite
 
-If you use this repository, please cite:
-
-Hammerly, C., Diederichsen, M. (2026). *Ojibwe Constraint Grammar Parsers* (Version 1.0.0). GitHub.  
-
-Also, you can check out the LREC proceedings paper based on this work: 
+Feel free to cite the LREC proceedings paper based on this work:
 
 Diederichsen, M., & Hammerly, C. (Accepted, February 2026). *Two Ojibwe Constraint Grammars: Morphological Disambiguation and Dependency Parsing*. In *Proceedings of the International Conference on Language Resources and Evaluation (LREC 2026)*.  

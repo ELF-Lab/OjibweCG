@@ -52,11 +52,10 @@ LIST INAN_SPECIAL_PRON = (PRONIndf NI);
 # Verb types
 LIST ChCnj = ChCnj ;
 
-# Sets for RCs
+# Variables for RCs
 SET gaa_gii = (PVSub/gaa PVTense/gii') OR (PVSub/gaa PVTense/gii) ;
 LIST Pcp = Pcp ;
 SET RC = gaa_gii + Pcp ;
-LIST RelCl = RelCl ;
 
 
 # locative advs that work as prepositions
@@ -84,7 +83,16 @@ LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "naawakwe"
 
 SET DIR_OBJ_VERB = VERB - DITRANSITIVE ;
 
-LIST SPEAKERS = NancyJones ;
+# List of dialects handled by the grammar.
+# NO: Northern Ojibwe.
+#		- RCs: either PCP or gaa- relativizer
+# SO: Southern Ojibwe. 
+#		- RCs: PCP relativizing strategy
+LIST DIALECTS = NO SO ;
+
+# List of variables for dialect-specific disambiguation
+## has_Pcp = has participle morphology for RC formation
+## has_gaa = has gaa- relativizer
 
 
 # --- IMPORTANT: Disambiguation/Depepndency Parsing boundary ---
@@ -93,9 +101,24 @@ LIST SPEAKERS = NancyJones ;
 SET CB = VERB - RC - IMPERSONAL_VERB ;
 
 SECTION
-### Speaker information
+### Dialect information
+## Currently only used to handle RC form ambiguity
 
-SETVARIABLE (speaker) (1) (NancyJones) ;
+# northern dialects use gaa-
+SETVARIABLE (has_gaa) (*) (NO) ;
+# southern dialects use 
+SETVARIABLE (has_Pcp) (*) (SO) ;
+
+
+## dialect-specific rules
+SECTION 
+
+# remove all Pcp readings if dialect uniquely uses the gaa-relativizer
+REMOVE:no_pcp_dialect (Pcp) IF (0 (VAR:has_gaa)) ;
+# remove all gaa- relativizer readings if dialect uniquely uses Pcp morphology
+REMOVE:no_gaa_dialect (PVSub/gaa) IF (0 (VAR:has_Pcp)) ;
+
+
 
 SECTION
 
@@ -112,6 +135,9 @@ REMOVE:rem_pl_for_impersonal_verbs (0PlSubj) IF (0 IMPERSONAL_VERB)  ;
 # Remove VAI / VII readings if we have VAIPL / VIIPL tags
 REMOVE:VAIPL_over_VAI (VAI) IF (0 (VAIPL)) ;
 REMOVE:VIIPL_over_VII (VII) IF (0 (VIIPL)) ;
+
+# Disambiguate dialect-specific RC forms
+REMOVE (PVSub/gaa) IF (0 (VAR:has_Pcp)) ;
 
 
 SECTION
@@ -163,6 +189,13 @@ SELECT:verb_animacy_rule_2 INAN_OBJECT IF ((-1* NI_NID BARRIER CB) OR (1* NI_NID
 SELECT:verb_animacy_rule_1 AN_SUBJECT IF ((-1* NA_NAD BARRIER CB) OR (1* NA_NAD BARRIER CB)) (NOT -1* NI_NID BARRIER CB) (NOT 1* NI_NID BARRIER CB) ;
 
 SELECT:verb_animacy_rule_2 INAN_SUBJECT IF ((-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) (NOT -1* NA_NAD BARRIER CB) (NOT 1* NA_NAD BARRIER CB) ;
+
+## VERB FORM DISAMBIGUATION
+
+# select ChCnj reading if main verb in wh-question
+SELECT:chcnj_if_q (ChCnj) IF (-1* (ADVInter) BARRIER VERB) ;
+# select ChCnj reading if only verb in the sentence
+SELECT:chcnj_if_only_verb (ChCnj) IF (NOT -1* VERB) (NOT 1* VERB) ;
 
 
 ### PRONOUNS - Rules to handle ambiguity of pronouns ###
@@ -261,5 +294,11 @@ REMOVE:gaagaagiw ("mashkosi") IF (0 ("mashkosiw"));
 REMOVE:miinan ("miinan") IF (0 ("miin"));
 REMOVE:minopozh ("minopozh") IF (0 ("minop"));
 REMOVE:moonz ("moonz") IF (0 ("mooz"));
+
+SECTION 
+# clean-up processing tags
+
+SUBSTITUTE:clean_dialect_tags DIALECTS (*) TARGET DIALECTS ;
+
 
 

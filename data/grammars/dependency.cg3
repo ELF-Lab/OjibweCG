@@ -111,10 +111,10 @@ SECTION
 ## Putting at the top of dependency parsing rules because the following rules will depend on additional morphological information
 
 ## Label Relative Clauses (RCs)
-# All cases of gaa-gii- are RCs
-ADD (RelCl) gaa_gii ;
-# Pcp are almost all RCs, expect for when used with question words
-ADD (RelCl) Pcp IF (NOT -1* (ADVInter) BARRIER VERB) ;
+# All unambiguous cases of PVSub/gaa- are RCs
+ADD (RelCl) (PVSub/gaa) IF (NOT 0 (ChCnj));
+# All unambiguous cases of Pcp are RCs
+ADD (RelCl) (Pcp) IF (NOT 0 (ChCnj)) ;
 
 
 
@@ -226,12 +226,12 @@ SETPARENT RelCl + PL_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3PlObvSubj) BARRIER CB
 SETPARENT RelCl + 0PL_ARGUMENT IF (NOT p (*)) TO (-1* (0PlSubj) BARRIER CB) ; ADD nsubj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
 
 # RELATIVE CLAUSE OBJECT
-SETPARENT RelCl + SG_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3SgProxObj) BARRIER CB) ; ADD nsubj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxObj)) ;
-SETPARENT RelCl + SG_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3SgObvObj) BARRIER CB) ; ADD nsubj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvObj)) ;
-SETPARENT RelCl + 0SG_ARGUMENT IF (NOT p (*)) TO (-1* (0SgObj) BARRIER CB) ; ADD nsubj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
-SETPARENT RelCl + PL_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3PlProxObj) BARRIER CB) ; ADD nsubj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxObj)) ;
-SETPARENT RelCl + PL_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3PlObvObj) BARRIER CB) ; ADD nsubj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvObj)) ;
-SETPARENT RelCl + 0PL_ARGUMENT IF (NOT p (*)) TO (-1* (0PlObj) BARRIER CB) ; ADD nsubj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
+SETPARENT RelCl + SG_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3SgProxObj) BARRIER CB) ; ADD obj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxObj)) ;
+SETPARENT RelCl + SG_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3SgObvObj) BARRIER CB) ; ADD obj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvObj)) ;
+SETPARENT RelCl + 0SG_ARGUMENT IF (NOT p (*)) TO (-1* (0SgObj) BARRIER CB) ; ADD obj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
+SETPARENT RelCl + PL_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3PlProxObj) BARRIER CB) ; ADD obj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxObj)) ;
+SETPARENT RelCl + PL_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3PlObvObj) BARRIER CB) ; ADD obj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvObj)) ;
+SETPARENT RelCl + 0PL_ARGUMENT IF (NOT p (*)) TO (-1* (0PlObj) BARRIER CB) ; ADD obj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
 
 ## OBLIQUES
 SETPARENT NOMINAL + (Loc) IF (NOT p (*)) TO (-1* VERB BARRIER CB) ; ADD obl NOMINAL + (Loc) IF (NOT 0 REL_LABEL) (p VERB) ;

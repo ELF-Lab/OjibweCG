@@ -16,6 +16,11 @@ PUNCTUATIONS = (
 )
 PRESERVE_TOKEN = "..." # keep ... as literal as in some sentences
 
+# dialects we are handling
+# SO = Southern Ojibwe (only PCP RC formation)
+# NO = Northern Ojibwe (both gaa- and PCP)
+DIALECTS = {"SO", "NO"}
+
 # Paths to disambiguation grammar. Update if moved.
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DISAMBIGUATION_PATH = REPO_ROOT / "data" / "grammars" / "disambiguation.cg3"
@@ -34,7 +39,11 @@ def get_disambiguation_path() -> Path:
     """
     return DISAMBIGUATION_PATH
 
+def is_dialect_handled(dialect:str):
+    return dialect in DIALECTS
+
 def tokenize(ojibwe_sentence:str) -> list[str]:
+
     """
     Tokenize an Ojibwe sentence, separating punctuation symbols from words.
 
@@ -140,7 +149,7 @@ def fst_output_to_cg3_format(fst_item: dict[str, list]) -> str:
 
     return output
     
-def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst, speaker: str | None = None) -> str:
+def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst, dialect: str | None = None) -> str:
     """
     Convert an Ojibwe sentence to CG3 (Constraint Grammar 3) format.
 
@@ -161,14 +170,14 @@ def ojibwe_sentence_to_cg3_format(ojibwe_sentence: str, fst: Fst, speaker: str |
     sentence_fst_outputs = fst_parse_sentence(input_words=tokens, fst_parser=fst)
     body = "\n".join(fst_output_to_cg3_format(x) for x in sentence_fst_outputs)
 
-    if speaker:
+    if dialect:
         lines = body.rstrip("\n").split("\n")
         if len(lines) >= 2 and lines[1].startswith("\t"):
-            lines[1] = f"{lines[1]} {speaker}"
+            lines[1] = f"{lines[1]} {dialect}"
         else:
             for i in range(1, len(lines)):
                 if lines[i].startswith("\t"):
-                    lines[i] = f"{lines[i]} {speaker}"
+                    lines[i] = f"{lines[i]} {dialect}"
                     break
         body = "\n".join(lines)
 
@@ -233,7 +242,7 @@ def sentence_has_ambiguity(sentence:str, fst: Fst) -> tuple:
     return (False, sentence_fst_outputs, None)
     
 
-def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False, by_speaker: bool = False, speaker: str | None = None) -> str:
+def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bool = False,  dialect: str | None = None) -> str:
     """
     Disambiguate a sentence using FST readings and CG3 rules.
 
@@ -253,10 +262,10 @@ def disambiguate(sentence: str, cg3_grammar_filepath: str, fst: Fst, verbose: bo
     str
         The disambiguated readings of the sentence.
     """
-    if by_speaker:
-        input_readings = ojibwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst, speaker=speaker)
-    else:
-        input_readings = ojibwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst)
+    if dialect:
+        if not is_dialect_handled(dialect):
+            raise ValueError(f"Inputted dialect: \"{dialect}\" not currently handled!")
+    input_readings = ojibwe_sentence_to_cg3_format(ojibwe_sentence=sentence, fst=fst, dialect=dialect)
     disambiguated_str = cg3_process_text(input_text=input_readings, cg3_grammar_filepath=cg3_grammar_filepath)
     if verbose:
         print("Before parsing:")

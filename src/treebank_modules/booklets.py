@@ -278,10 +278,11 @@ def get_en_from_conllu(conllu_path: Path) -> List[str]:
     en_sents = []
     f = open(conllu_path, "r", encoding="utf-8")
     for tokenlist in parse_incr(f):
-        if tokenlist.metadata.get("eng") is None:
+        en_translation = tokenlist.metadata.get("eng") or tokenlist.metadata.get("text_en_full")
+        if en_translation is None:
             en_sents.append("No English translation")
         else:
-            en_sents.append(tokenlist.metadata.get("eng"))
+            en_sents.append(en_translation)
     return en_sents   
 
 def assert_tree(doc):

@@ -20,6 +20,9 @@ UNIVERSAL_UPOS = {
 
 FALLBACK_REL = "dep"
 
+def get_dependency_path():
+    return DEPENDENCY_PATH
+
 
 def parse_cg3_block(cg3_text: str) -> List[Dict]:
     """

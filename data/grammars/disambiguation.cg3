@@ -109,17 +109,6 @@ SETVARIABLE (has_gaa) (*) (NO) ;
 # southern dialects use 
 SETVARIABLE (has_Pcp) (*) (SO) ;
 
-
-## dialect-specific rules
-SECTION 
-
-# remove all Pcp readings if dialect uniquely uses the gaa-relativizer
-REMOVE:no_pcp_dialect (Pcp) IF (0 (VAR:has_gaa)) ;
-# remove all gaa- relativizer readings if dialect uniquely uses Pcp morphology
-REMOVE:no_gaa_dialect (PVSub/gaa) IF (0 (VAR:has_Pcp)) ;
-
-
-
 SECTION
 
 ### Blanket constraints (context independent)
@@ -136,8 +125,14 @@ REMOVE:rem_pl_for_impersonal_verbs (0PlSubj) IF (0 IMPERSONAL_VERB)  ;
 REMOVE:VAIPL_over_VAI (VAI) IF (0 (VAIPL)) ;
 REMOVE:VIIPL_over_VII (VII) IF (0 (VIIPL)) ;
 
-# Disambiguate dialect-specific RC forms
-REMOVE (PVSub/gaa) IF (0 (VAR:has_Pcp)) ;
+
+## Dialect-specific rules (context independent)
+
+# remove all Pcp readings if dialect uniquely uses the gaa-relativizer
+REMOVE:no_pcp_dialect (Pcp) IF (0 (VAR:has_gaa)) ;
+# remove all gaa- relativizer readings if dialect uniquely uses Pcp morphology
+REMOVE:no_gaa_dialect (PVSub/gaa) IF (0 (VAR:has_Pcp)) ;
+
 
 
 SECTION
@@ -190,7 +185,7 @@ SELECT:verb_animacy_rule_1 AN_SUBJECT IF ((-1* NA_NAD BARRIER CB) OR (1* NA_NAD 
 
 SELECT:verb_animacy_rule_2 INAN_SUBJECT IF ((-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) (NOT -1* NA_NAD BARRIER CB) (NOT 1* NA_NAD BARRIER CB) ;
 
-## VERB FORM DISAMBIGUATION
+## VERB ORDER DISAMBIGUATION
 
 # select ChCnj reading if main verb in wh-question
 SELECT:chcnj_if_q (ChCnj) IF (-1* (ADVInter) BARRIER VERB) ;
@@ -208,6 +203,22 @@ SELECT:demonstrative_animacy_rule_2 (PRONDem NI) IF (1 NI_NID) (NOT 1 NA_NAD) ;
 
 
 ### NOUNS - Rules to handle ambiguity of nouns ###
+
+## Through Demonstratives
+
+## Following noun should agree with immediately preceding demontrastive. Performed in careful mode (C), so only disambiguates if the preceding demonstrative is unambiguous.
+
+SELECT:noun_dem_rule_1 NA_NAD + (ProxSg) IF (-1C (PRONDem NA ProxSg)) ;
+
+SELECT:noun_dem_rule_2 NA_NAD + (ProxPl) IF (-1C (PRONDem NA ProxPl)) ;
+
+SELECT:noun_dem_rule_3 NA_NAD + (ObvSg) IF (-1C (PRONDem NA ObvSg)) ;
+
+SELECT:noun_dem_rule_4 NA_NAD + (ObvPl) IF (-1C (PRONDem NA ObvPl)) ;
+
+SELECT:noun_dem_rule_5 NI_NID + (Sg) IF (-1C (PRONDem NI Sg)) ;
+
+SELECT:noun_dem_rule_6 NI_NID + (Pl) IF (-1C (PRONDem NI Pl)) ;
 
 ## Through verbal arguments
 
@@ -227,23 +238,6 @@ SELECT:noun_number_rule_4 NI_NID + (Pl) IF ((-1* 0PL_ARGUMENT BARRIER CB LINK NO
 SELECT:noun_animacy_rule_1 NA_NAD IF ((-1* AN_ARGUMENT BARRIER CB LINK NOT 0 INAN_ARGUMENT) OR (1* AN_ARGUMENT BARRIER CB LINK NOT 0 INAN_ARGUMENT)) ;
 
 SELECT:noun_animacy_rule_2 NI_NID IF ((-1* INAN_ARGUMENT BARRIER CB LINK NOT 0 AN_ARGUMENT) OR (1* INAN_ARGUMENT BARRIER CB LINK NOT 0 AN_ARGUMENT)) ;
-
-
-## Through Demonstratives
-
-## Following verb should agree with immediately preceding demontrastive. Performed in careful mode (C), so only disambiguates if the preceding demonstrative is unambiguous.
-
-SELECT:noun_dem_rule_1 NA_NAD + (ProxSg) IF (-1C (PRONDem NA ProxSg)) ;
-
-SELECT:noun_dem_rule_2 NA_NAD + (ProxPl) IF (-1C (PRONDem NA ProxPl)) ;
-
-SELECT:noun_dem_rule_3 NA_NAD + (ObvSg) IF (-1C (PRONDem NA ObvSg)) ;
-
-SELECT:noun_dem_rule_4 NA_NAD + (ObvPl) IF (-1C (PRONDem NA ObvPl)) ;
-
-SELECT:noun_dem_rule_5 NI_NID + (Sg) IF (-1C (PRONDem NI Sg)) ;
-
-SELECT:noun_dem_rule_6 NI_NID + (Pl) IF (-1C (PRONDem NI Pl)) ;
 
 
 

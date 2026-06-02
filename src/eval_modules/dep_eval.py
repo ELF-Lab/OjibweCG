@@ -32,8 +32,8 @@ def write_per_rel_table(per_rel: dict, rels: Iterable[str], out_path: Optional[P
     return table
 
 def eval_rels_detailed(
-    gold: Dict[str,List[Tuple[str,str]]],
-    sys: Dict[str,List[Tuple[str,str]]],
+    gold: Dict[str, dict],
+    sys: Dict[str, dict],
     focus_rels = FOCUS_RELS
 ):
     focus = set(focus_rels)
@@ -49,14 +49,18 @@ def eval_rels_detailed(
     per_sys  = defaultdict(int) # sys count for rel r
     per_corr = defaultdict(int) # correct count for rel r
 
-    for sid, g_toks in gold.items():
+    for sid, g_sent in gold.items():
         if sid not in sys: 
             continue
-        s_toks = sys[sid]
+
+        s_sent = sys[sid]
+        g_toks = g_sent["tokens"]
+        s_toks = s_sent["tokens"]
+
         L = min(len(g_toks), len(s_toks))
         for i in range(L):
-            _, g_rel = g_toks[i]
-            _, s_rel = s_toks[i]
+            g_rel = g_toks[i]["deprel"]
+            s_rel = s_toks[i]["deprel"]
 
             # update per-rel denominators
             if g_rel in focus: per_gold[g_rel] += 1

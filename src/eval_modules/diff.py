@@ -3,6 +3,7 @@ from typing import List, Dict
 from eval_modules.auto_contrast_eval import parse_cg3_file, Block, Token
 from eval_modules.data_io import parse_conllu
 import pandas as pd
+import re
 
 def diff_table(diffs, out_path: Path | None = None):
     df = pd.DataFrame(diffs)
@@ -22,7 +23,36 @@ def diff_table(diffs, out_path: Path | None = None):
 
     return df
 
-def compare_cg3_readings(old_path: Path, new_path: Path):
+def write_changed_cg3_blocks(new_path: Path, changed_sent_ids: set, out_path: Path):
+
+    content = new_path.read_text(encoding="utf-8")
+    raw_blocks = re.split(r"\n\s*\n", content)
+
+    selected_blocks = []
+
+    for raw_block in raw_blocks:
+        sent_id_match = re.search(
+            r"^#\s*sent_id\s*=\s*(.+?)\s*$",
+            raw_block,
+            flags=re.MULTILINE
+        )
+
+        if sent_id_match is None:
+            continue
+
+        sent_id = sent_id_match.group(1)
+
+        if sent_id in changed_sent_ids:
+            selected_blocks.append(raw_block.strip())
+
+    output = "\n\n".join(selected_blocks)
+
+    if selected_blocks:
+        output += "\n"
+
+    out_path.write_text(output, encoding="utf-8")
+
+def compare_cg3_readings(old_path: Path, new_path: Path, write_changed_blocks_path: Path | None = None):
     old_blocks = parse_cg3_file(old_path)
     new_blocks = parse_cg3_file(new_path)
 
@@ -30,6 +60,7 @@ def compare_cg3_readings(old_path: Path, new_path: Path):
     new_by_id = {block.sent_id: block for block in new_blocks}
 
     diffs = []
+    changed_sent_ids = set()
 
     for sent_id in old_by_id:
         old_block = old_by_id[sent_id]
@@ -45,15 +76,27 @@ def compare_cg3_readings(old_path: Path, new_path: Path):
             old_keys = {reading.key() for reading in old_tok.readings}
             new_keys = {reading.key() for reading in new_tok.readings}
 
-            if old_keys != new_keys:
-                    diffs.append({
-                        "sent_id": sent_id,
-                        "text": old_block.text,
-                        "token_idx": i + 1,
-                        "surface": old_tok.surface,
-                        "added": sorted(new_keys - old_keys),
-                        "removed": sorted(old_keys - new_keys),
-                    })
+            added = sorted(new_keys - old_keys)
+            removed = sorted(old_keys - new_keys)
+
+            if added or removed:
+                diffs.append({
+                    "sent_id": sent_id,
+                    "text": old_block.text,
+                    "token_idx": i + 1,
+                    "surface": old_tok.surface,
+                    "added": added,
+                    "removed": removed,
+                })
+                
+                changed_sent_ids.add(str(sent_id))
+    
+    if write_changed_blocks_path is not None:
+        write_changed_cg3_blocks(
+            new_path=new_path,
+            changed_sent_ids=changed_sent_ids,
+            out_path=write_changed_blocks_path
+        )
 
     return diffs
 

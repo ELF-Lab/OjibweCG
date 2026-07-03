@@ -6,7 +6,7 @@ The `test/` folder currently only contains tests for the disambiguation componen
 
 Disambiguation tests take an indexed list of unparsed Ojibwe sentences and, after parsing, compare them to the expected CG3 output.  
 
-These tests should be run when updates are made to data/rules/disambiguation.cg3 (LINK!) to ensure existing functionality is unchanged. 
+These tests should be run when updates are made to the [disambiguation grammar](../data/grammars/disambiguation.cg3) to ensure existing functionality is unchanged. 
 
 The expected output can be updated, and test cases can be added to sentences.ojib. 
 

@@ -2,6 +2,7 @@ from __future__ import annotations
 from dataclasses import dataclass
 from pathlib import Path
 from typing import List, Dict, Tuple
+from conllu import parse
 import csv, random
 
 from grammar_modules.disambiguation import tokenize, ojibwe_sentence_to_cg3_format, PUNCTUATIONS, PRESERVE_TOKEN
@@ -19,14 +20,22 @@ class OPDRow:
 
 # ---------------- I/O ----------------
 
-def read_opd_tsv(tsv_path: Path) -> List[OPDRow]:
+def read_opd_tsv(tsv_path: Path, has_id_col: bool = False) -> List[OPDRow]:
     rows: List[OPDRow] = []
     with open(tsv_path, newline="", encoding="utf-8") as f:
         r = csv.reader(f, delimiter="\t")
         header = next(r, None)
-        header_is_names = header and all(h.lower() in ("ojibwe","english","speaker","link") for h in header)
+
+        expected_headers = ("ojibwe", "english", "speaker", "link")
+        if has_id_col:
+            expected_headers = ("sent_id",) + expected_headers
+        
+        header_is_names = (header and all(h.strip().lower() in expected_headers for h in header))
 
         def to_row(cells: List[str]) -> OPDRow:
+            if has_id_col:
+                cells = cells[1:]
+
             c = (cells + ["", "", "", ""])[:4]
             return OPDRow(Ojibwe=c[0].strip(), English=c[1].strip(),
                           Speaker=c[2].strip(), Link=c[3].strip())
@@ -110,15 +119,22 @@ def write_eval_artifacts(
     rows: List[OPDRow],
     fst_binary: Path,
     outdir: Path,
-    write_100: bool = True,
+    filename: str,
+    write_tsv: bool = False,
+    write_100: bool = False,
 ) -> None:
-    """Write TSV + CG3 for the full set, and optionally a 100-sample subset."""
+    """CG3 for the full set, and optionally TSV and a 100-sample subset."""
     outdir.mkdir(parents=True, exist_ok=True)
     fst = load_fst_parser(str(fst_binary))
 
-    # full
-    write_tsv(rows, outdir / "sample_500.tsv")
-    write_cg3(rows, fst, outdir / "sample_500.txt")
+    # cg3
+    cg3_name = filename + ".txt"
+    write_cg3(rows, fst, outdir / cg3_name)
+
+    # tsv
+    if write_tsv:
+        tsv_name = filename + ".tsv"
+        write_tsv(rows, outdir / tsv_name)
 
     # optional 100
     if write_100:
@@ -126,30 +142,35 @@ def write_eval_artifacts(
         write_tsv(subset, outdir / "sample_100.tsv")
         write_cg3(subset, fst, outdir / "sample_100.txt")
 
-def parse_conllu(path: Path) -> Dict[str, List[Tuple[str,str]]]:
-    """
-    Return mapping sent_id -> list of (form, deprel).
-    Skips MWT/empty nodes.
-    """
+def parse_conllu(path: Path) -> Dict[str, dict]:
+    sentences = parse(path.read_text(encoding="utf-8"))
+
     blocks = {}
-    cur_id, cur_tokens = None, []
-    for line in path.read_text(encoding="utf-8").splitlines():
-        line = line.rstrip("\n")
-        if not line:
-            if cur_id is not None:
-                blocks[cur_id] = cur_tokens
-            cur_id, cur_tokens = None, []
-            continue
-        if line.startswith("# sent_id"):
-            cur_id = line.split("=",1)[1].strip()
-            continue
-        if line.startswith("#"):
-            continue
-        cols = line.split("\t")
-        if not cols or "-" in cols[0] or "." in cols[0]:
-            continue
-        form, deprel = cols[1], cols[7]
-        cur_tokens.append((form, deprel))
-    if cur_id and cur_tokens:
-        blocks[cur_id] = cur_tokens
+
+    for sent in sentences:
+        sent_id = sent.metadata.get("sent_id", "")
+        text = sent.metadata.get("text", "")
+
+        tokens = []
+
+        for tok in sent:
+            if not isinstance(tok["id"], int):
+                continue
+
+            tokens.append({
+                "id": tok["id"],
+                "form": tok["form"],
+                "lemma": tok["lemma"],
+                "upos": tok["upos"],
+                "xpos": tok["xpos"],
+                "feats": tok["feats"],
+                "head": tok["head"],
+                "deprel": tok["deprel"],
+            })
+
+        blocks[str(sent_id)] = {
+            "text": text,
+            "tokens": tokens,
+        }
+
     return blocks

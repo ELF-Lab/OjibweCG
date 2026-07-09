@@ -6,8 +6,8 @@
 "<'aw>"
 	"'aw" PRONDem NA ProxSg
 "<mitig>"
-	"mitig" NA ProxSg
 	"mitig" NI Sg
+	"mitig" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -22,8 +22,8 @@
 	"izhinaagozi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"izhinaagozi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 "<miskwaabiimagoons>"
-	"miskwaabiimag" NA Dim ProxSg
 	"miskwaabiimagoons" NA ProxSg
+	"miskwaabiimag" NA Dim ProxSg
 "<gaye>"
 	"gaye" ADVConj
 "<ezhibagizid>"
@@ -40,17 +40,19 @@
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<gaa-ojibinigod>"
-	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 0PlSubj 3SgProxObj
-	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 0SgSubj 3SgProxObj
-	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
-	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
 	"ojibinigo" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	"ojibizh" ChCnj PVTense/gii VTA Cnj Pos Neu 0PlSubj 3SgProxObj
 	"ojibinigo" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
-	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 0PlSubj 3SgProxObj
-	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 0SgSubj 3SgProxObj
-	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
-	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"ojibizh" PVTense/gii VTA Pcp Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+	"ojibizh" PVTense/gii VTA Pcp Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
 	"ojibinigo" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	"ojibizh" PVSub/gaa VTA Cnj Pos Neu 0PlSubj 3SgProxObj
 "<zhebaa>"
 	"zhebaa" ADVTmp
 "<.>"
@@ -60,15 +62,15 @@
 # text = Naawi-ziibi dananjige a'aw mooz.
 # eng = The moose is eating in the middle of the river.
 "<naawi-ziibi>"
-	"ziibi" PNLex/naawi NI Sg
 	"naawi-ziibi" ADVLoc
+	"ziibi" PNLex/naawi NI Sg
 "<dananjige>"
 	"dananjige" VAI Ind Pos Neu 3SgProxSubj
 "<a'aw>"
 	"a'aw" PRONDem NA ProxSg
 "<mooz>"
-	"moonz" NA ProxSg
 	"mooz" NA ProxSg
+	"moonz" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -134,8 +136,8 @@
 "<baamaa>"
 	"baamaa" ADVTmp
 "<bengobagaag>"
-	"bengobagaa" VII Cnj Pos Neu 0PlSubj
 	"bengobagaa" VII Cnj Pos Neu 0SgSubj
+	"bengobagaa" VII Cnj Pos Neu 0PlSubj
 "<giga-andawawinzomin>"
 	"andawawinzo" PVTense/ga VAI Ind Pos Neu InclSubj
 "<;>"
@@ -155,19 +157,19 @@
 "<giishpin>"
 	"giishpin" ADVGram
 "<ningishimaad>"
-	"ningishim" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"ningishim" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"ningishim" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<giboziganan>"
-	"gibozigan" NA ObvSg
-	"gibozigan" NA ObvPl
 	"gibozigan" NI Pl
+	"gibozigan" NA ObvPl
+	"gibozigan" NA ObvSg
 "<,>"
 	"PUNCT" 
 "<giga-ozaawaakizwaanaan>"
-	"ozaawaakizwi" PVTense/ga VTA Ind Pos Neu InclSubj 3SgProxObj
-	"ozaawaakizwi" PVTense/ga VTA Ind Pos Neu InclSubj 3SgObvObj
-	"ozaawaakiz" PVTense/ga VTA Ind Pos Neu InclSubj 3SgProxObj
 	"ozaawaakiz" PVTense/ga VTA Ind Pos Neu InclSubj 3SgObvObj
+	"ozaawaakiz" PVTense/ga VTA Ind Pos Neu InclSubj 3SgProxObj
+	"ozaawaakizwi" PVTense/ga VTA Ind Pos Neu InclSubj 3SgObvObj
+	"ozaawaakizwi" PVTense/ga VTA Ind Pos Neu InclSubj 3SgProxObj
 "<gibozigan>"
 	"gibozigan" NA ProxSg
 	"gibozigan" NI Sg
@@ -192,8 +194,8 @@
 	"nishwaaso-gikinoonowin" NUM
 	"gikinoonowin" PVQnt/nishwaaso ADVTmp
 "<ingii-ayaamin>"
-	"ayaan" PVTense/gii VTI Ind Pos Neu ExclSubj 0SgObj
 	"ayaan" PVTense/gii VTI Ind Pos Neu ExclSubj 0PlObj
+	"ayaan" PVTense/gii VTI Ind Pos Neu ExclSubj 0SgObj
 	"ayaa" PVTense/gii VAI Ind Pos Neu ExclSubj
 "<mashkodeng>"
 	"mashkode" NI Loc
@@ -216,8 +218,8 @@
 # text = Maagoshkan ji-gibichibizoyan.
 # eng = Step on your brakes to stop.
 "<maagoshkan>"
-	"maagoshkan" VTI Imp Sim 2SgSubj 0SgObj
 	"maagoshkan" VTI Imp Sim 2SgSubj 0PlObj
+	"maagoshkan" VTI Imp Sim 2SgSubj 0SgObj
 "<ji-gibichibizoyan>"
 	"gibichibizo" PVTense/ga VAI Cnj Pos Neu 2SgSubj
 	"gibichibizo" PVTense/daa VAI Cnj Pos Neu 2SgSubj
@@ -237,14 +239,14 @@
 "<gego>"
 	"gego" ADVNeg
 "<miijiken>"
-	"miijin" VTI Imp Prb 2SgSubj 0SgObj
 	"miijin" VTI Imp Prb 2SgSubj 0PlObj
+	"miijin" VTI Imp Prb 2SgSubj 0SgObj
 "<gaa-boozaag>"
-	"boozaa" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"boozaa" ChCnj PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"boozaa" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"boozaa" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
-	"boozaa" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 	"boozaa" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	"boozaa" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -254,8 +256,10 @@
 "<aandi>"
 	"aandi" ADVInter
 "<ezhidaabaadamawaad>"
-	"izhidaabaadamaw" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"izhidaabaadamaw" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"izhidaabaadamaw" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"izhidaabaadamaw" VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"izhidaabaadamaw" VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 "<.>"
 	"PUNCT" 
 
@@ -274,8 +278,8 @@
 # text = Ozhisidoon onaaganan. Mii zhigwa go wiiba ji-wiisiniyang.
 # eng = Set out the dishes. We're ready to eat.
 "<ozhisidoon>"
-	"ozhisidoon" VTI Imp Sim 2SgSubj 0SgObj
 	"ozhisidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"ozhisidoon" VTI Imp Sim 2SgSubj 0SgObj
 "<onaaganan>"
 	"onaagan" NI Pl
 "<.>"
@@ -300,12 +304,12 @@
 "<anaamaabik>"
 	"anaamaabik" ADVLoc
 "<ogii-izhi-gaanaan>"
-	"gaazh" PVTense/gii PVRel/izhi VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"gaazh" PVTense/gii PVRel/izhi VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"gaazh" PVTense/gii PVRel/izhi VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<ozhooniyaaman>"
 	"zhooniyaa" NI Poss Pl 3SgProxPoss
-	"zhooniyaa" NA Poss ObvSg 3SgProxPoss
 	"zhooniyaa" NA Poss ObvPl 3SgProxPoss
+	"zhooniyaa" NA Poss ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -327,8 +331,8 @@
 # text = Aaniin endashiwaad.
 # eng = How many are there of them?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<endashiwaad>"
 	"dashiwag" ChCnj VAIPL Cnj Pos Neu 3PlProxSubj
 	"dashi" ChCnj VAI Cnj Pos Neu 3PlProxSubj
@@ -363,8 +367,8 @@
 # text = Zhooniyaa nindayaawaa nizhooniyaa-mashkimodaang.
 # eng = I have money in my wallet
 "<zhooniyaa>"
-	"zhooniyaa" NI Sg
 	"zhooniyaa" NA ProxSg
+	"zhooniyaa" NI Sg
 "<nindayaawaa>"
 	"ayaaw" VTA Ind Pos Neu 1SgSubj 3SgProxObj
 "<nizhooniyaa-mashkimodaang>"
@@ -410,9 +414,9 @@
 "<mamaachaawan>"
 	"mamaachaawan" VIIPL Ind Pos Neu 0PlSubj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<makizinan>"
 	"makizin" NI Pl
 "<gaa-pi-miinigooyaan>"
@@ -428,8 +432,8 @@
 "<'i>"
 	"'i" PRONDem NI Sg
 "<ezhinaagwak>"
-	"izhinaagwad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"izhinaagwad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"izhinaagwad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"izhinaagwad" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -488,8 +492,8 @@
 "<maajijiwan>"
 	"maajijiwan" VII Ind Pos Neu 0SgSubj
 "<ziibiins>"
-	"ziibi" NI Dim Sg
 	"ziibiins" NI Sg
+	"ziibi" NI Dim Sg
 "<.>"
 	"PUNCT" 
 
@@ -497,11 +501,11 @@
 # text = Aaniin enakamigaag.
 # eng = What is the ground like?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<enakamigaag>"
-	"inakamigaa" ChCnj VII Cnj Pos Neu 0PlSubj
 	"inakamigaa" ChCnj VII Cnj Pos Neu 0SgSubj
+	"inakamigaa" ChCnj VII Cnj Pos Neu 0PlSubj
 	"inakamigaa" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -515,10 +519,10 @@
 "<ozaawaditewan>"
 	"ozaawadite" VII Ind Pos Neu 0PlSubj
 "<gii-ani-ishpi-dagwaagig>"
-	"ishpi-dagwaagin" PVTense/gii PVDir/ani VII Cnj Pos Neu 0PlSubj
-	"ishpi-dagwaagin" PVTense/gii PVDir/ani VII Cnj Pos Neu 0SgSubj
-	"dagwaagin" PVTense/gii PVDir/ani PVLex/ishpi VII Cnj Pos Neu 0PlSubj
 	"dagwaagin" PVTense/gii PVDir/ani PVLex/ishpi VII Cnj Pos Neu 0SgSubj
+	"dagwaagin" PVTense/gii PVDir/ani PVLex/ishpi VII Cnj Pos Neu 0PlSubj
+	"ishpi-dagwaagin" PVTense/gii PVDir/ani VII Cnj Pos Neu 0SgSubj
+	"ishpi-dagwaagin" PVTense/gii PVDir/ani VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -526,8 +530,8 @@
 # text = Mangitoon nawaj i' ishkwaandem imaa ataasoowigamigong.
 # eng = Make the door on that shed bigger.
 "<mangitoon>"
-	"mangitoon" VTI Imp Sim 2SgSubj 0SgObj
 	"mangitoon" VTI Imp Sim 2SgSubj 0PlObj
+	"mangitoon" VTI Imp Sim 2SgSubj 0SgObj
 "<nawaj>"
 	"nawaj" ADVDeg
 "<i'>"
@@ -547,10 +551,13 @@
 "<minomaasige>"
 	"minomaasige" VAI Ind Pos Neu 3SgProxSubj
 "<gaa-zaasakokwaadang>"
-	"zaasakokwaadan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"zaasakokwaadan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
-	"zaasakokwaadan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"zaasakokwaadan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"zaasakokwaadan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"zaasakokwaadan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"zaasakokwaadan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
 	"zaasakokwaadan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"zaasakokwaadan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<moozo-wiiyaas>"
 	"moozo-wiiyaas" NI Sg
 "<.>"
@@ -600,11 +607,11 @@
 "<gaye>"
 	"gaye" ADVConj
 "<ogikinoo'amawaan>"
-	"gikinoo'amaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"gikinoo'amaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"gikinoo'amaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<oozhisan>"
-	"oozhis" NAD ObvSg 3SgProxPoss
 	"oozhis" NAD ObvPl 3SgProxPoss
+	"oozhis" NAD ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -614,8 +621,8 @@
 "<oginibizhaan>"
 	"ginibizhan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
 "<wiiyaas>"
-	"iiyaas" NID Sg 3SgProxPoss
 	"wiiyaas" NI Sg
+	"iiyaas" NID Sg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 "<wawiinge>"
@@ -631,15 +638,15 @@
 "<gichi-wawiingezi>"
 	"wawiingezi" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
 "<gikinootawaad>"
-	"gikinootaw" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"gikinootaw" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"gikinootaw" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<migiziin>"
-	"migizi" NA ObvSg
 	"migizi" NA ObvPl
+	"migizi" NA ObvSg
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<ogichidaa>"
@@ -651,13 +658,13 @@
 # text = Maamaagon gibakwezhiganikaan jibwaa-biindaabika'wad wii-kiizhizwad.
 # eng = Knead your bannock before you put it in the oven and cook it.
 "<maamaagon>"
-	"maamaagon" VTA Imp Sim 2SgSubj 3PlProxObj
 	"maamaagon" VTA Imp Sim 2SgSubj 3SgProxObj
+	"maamaagon" VTA Imp Sim 2SgSubj 3PlProxObj
 "<gibakwezhiganikaan>"
 	"bakwezhiganikaan" NA ProxSg 2SgPoss
 "<jibwaa-biindaabika'wad>"
-	"biindaabika'" PVTense/jibwaa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
 	"biindaabika'wi" PVTense/jibwaa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"biindaabika'" PVTense/jibwaa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
 "<wii-kiizhizwad>"
 	"giizhizwi" PVTense/wii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
 "<.>"
@@ -673,8 +680,8 @@
 "<biibaagid>"
 	"biibaagi" VAI Cnj Pos Neu 3SgProxSubj
 "<gii-biidaabang>"
-	"biidaaban" PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"biidaaban" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"biidaaban" PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -682,11 +689,11 @@
 # text = Aaniin ezhi-zhaaganaashiiwinikaadeg.
 # eng = What's it called in English?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<ezhi-zhaaganaashiiwinikaadeg>"
-	"zhaaganaashiiwinikaade" ChCnj PVRel/izhi VII Cnj Pos Neu 0PlSubj
 	"zhaaganaashiiwinikaade" ChCnj PVRel/izhi VII Cnj Pos Neu 0SgSubj
+	"zhaaganaashiiwinikaade" ChCnj PVRel/izhi VII Cnj Pos Neu 0PlSubj
 	"zhaaganaashiiwinikaade" PVRel/izhi VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -722,9 +729,9 @@
 	"agaasaa" VII Aug/magad VII Ind Pos Neu 0PlSubj
 "<emikwaanensan>"
 	"emikwaanens" NI Pl
-	"emikwaan" NA Dim ObvSg
-	"emikwaan" NA Dim ObvPl
 	"emikwaan" NI Dim Pl
+	"emikwaan" NA Dim ObvPl
+	"emikwaan" NA Dim ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -736,21 +743,33 @@
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<mazina'igan>"
-	"mazina'igan" NA ProxSg
 	"mazina'igan" NI Sg
+	"mazina'igan" NA ProxSg
 "<gaa-wi-adaawanged>"
 	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj
-	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
 	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgProxHead
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"adaawangen" ChCnj PVTense/gii PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"adaawange" ChCnj PVTense/gii PVDir/wi VAI Cnj Pos Neu 3SgProxSubj
 	"adaawange" PVTense/gii PVDir/wi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj
-	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
 	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgProxHead
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"adaawangen" PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"adaawange" PVSub/gaa PVDir/wi VAI Cnj Pos Neu 3SgProxSubj
 "<.>"
 	"PUNCT" 
@@ -761,13 +780,14 @@
 "<wewiib>"
 	"wewiib" ADVMan
 "<gagwe-giizhitoon>"
-	"giizhitoon" PVLex/gagwe VTI Imp Sim 2SgSubj 0SgObj
 	"giizhitoon" PVLex/gagwe VTI Imp Sim 2SgSubj 0PlObj
+	"giizhitoon" PVLex/gagwe VTI Imp Sim 2SgSubj 0SgObj
 "<gaa-dazhiikaman>"
-	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 2SgSubj 0PlObj
-	"dazhiikan" PVSub/gaa VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"dazhiikan" PVTense/gii VTI Pcp Pos Neu 2SgSubj 0SgObj 0SgHead
 	"dazhiikan" PVSub/gaa VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"dazhiikan" PVSub/gaa VTI Cnj Pos Neu 2SgSubj 0SgObj
 "<gigikinoo'amaagoowin>"
 	"gikinoo'amaagoowin" NI Sg 2SgPoss
 "<.>"
@@ -779,15 +799,18 @@
 "<ogidaakiiwe>"
 	"ogidaakiiwe" VAI Ind Pos Neu 3SgProxSubj
 "<waa'-onzaabandang>"
-	"onzaabandan" ChCnj PVTense/wii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"onzaabandan" ChCnj PVTense/wii' VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"onzaabandan" ChCnj PVTense/wii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"onzaabandan" PVTense/wii' VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"onzaabandan" PVTense/wii' VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"onzaabandan" PVTense/wii' VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
 "<mashi>"
 	"mashi" ADVTmp
 "<ji-gashkadininig>"
-	"gashkadin" PVTense/ga VII Cnj Pos Neu 0SgObvSubj
 	"gashkadin" PVTense/ga VII Cnj Pos Neu 0PlObvSubj
-	"gashkadin" PVTense/daa VII Cnj Pos Neu 0SgObvSubj
+	"gashkadin" PVTense/ga VII Cnj Pos Neu 0SgObvSubj
 	"gashkadin" PVTense/daa VII Cnj Pos Neu 0PlObvSubj
+	"gashkadin" PVTense/daa VII Cnj Pos Neu 0SgObvSubj
 "<zaaga'igan>"
 	"zaaga'igan" NI Sg
 "<.>"
@@ -797,20 +820,20 @@
 # text = Aaniin epiitaagonagaag noongom gaa-biboong.
 # eng = How deep is the snow this winter?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiitaagonagaag>"
-	"apiitaagonagaa" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitaagonagaa" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitaagonagaa" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitaagonagaa" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<noongom>"
 	"noongom" ADVTmp
 "<gaa-biboong>"
-	"biboon" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"biboon" ChCnj PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"biboon" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"biboon" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
-	"biboon" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 	"biboon" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	"biboon" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -902,9 +925,9 @@
 "<atewan>"
 	"ate" VII Ind Pos Neu 0PlSubj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<misan>"
 	"mishi" NI Pl
 "<.>"
@@ -916,8 +939,8 @@
 "<o'omaa>"
 	"o'omaa" ADVLoc
 "<izhi-atoon>"
-	"atoon" PVRel/izhi VTI Imp Sim 2SgSubj 0SgObj
 	"atoon" PVRel/izhi VTI Imp Sim 2SgSubj 0PlObj
+	"atoon" PVRel/izhi VTI Imp Sim 2SgSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -927,8 +950,9 @@
 "<niwii'-naajibizotoon>"
 	"naajibizotoon" PVTense/wii' VTI Ind Pos Neu 1SgSubj 0SgObj
 "<waa'-naawakwe-miijiyaan>"
-	"naawakwe-miijin" ChCnj PVTense/wii' VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"naawakwe-miijin" ChCnj PVTense/wii' VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"naawakwe-miijin" ChCnj PVTense/wii' VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"naawakwe-miijin" PVTense/wii' VTI Pcp Pos Neu 1SgSubj 0SgObj 0SgHead
 "<.>"
 	"PUNCT" 
 
@@ -976,10 +1000,10 @@
 	"wiigwaasanakoons" NI Pl
 "<gokeyawikaagen>"
 	"gokeyawikaagen" VAIO Imp Sim 2SgSubj
-	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 3SgProx
-	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 3PlProx
-	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 0SgObj
 	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 0PlObj
+	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 0SgObj
+	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 3PlProx
+	"gokeyawikaagen" VAIO Imp Sim 2SgSubj 3SgProx
 "<waabooz>"
 	"waabooz" NA ProxSg
 "<ji-nagwaanad>"
@@ -1016,10 +1040,10 @@
 "<igo>"
 	"igo" PCEmph
 "<ji-aabijibiisaag>"
-	"aabijibiisaa" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"aabijibiisaa" PVTense/ga VII Cnj Pos Neu 0SgSubj
-	"aabijibiisaa" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"aabijibiisaa" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"aabijibiisaa" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	"aabijibiisaa" PVTense/daa VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 "<mii>"
@@ -1027,8 +1051,8 @@
 "<'i>"
 	"'i" PRONDem NI Sg
 "<waabang>"
-	"waaban" VII Cnj Pos Neu 0PlSubj
 	"waaban" VII Cnj Pos Neu 0SgSubj
+	"waaban" VII Cnj Pos Neu 0PlSubj
 "<bijiinag>"
 	"bijiinag" ADVTmp
 "<ji-gitigeying>"
@@ -1061,16 +1085,16 @@
 # text = Ogii-noonishkaanan aana-gii-kozikang iniwen makizinan a'awe nindaanis.
 # eng = My daughter didn't fit the shoes she tried on.
 "<ogii-noonishkaanan>"
-	"noonishkan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
-	"noonishkan" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
 	"noonishkan" PVTense/gii VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	"noonishkan" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"noonishkan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
 "<aana-gii-kozikang>"
-	"gozikan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"gozikan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"gozikan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<iniwen>"
-	"iniwen" PRONDem NA ObvPl
-	"iniwen" PRONDem NA ObvSg
 	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
 "<makizinan>"
 	"makizin" NI Pl
 "<a'awe>"
@@ -1086,8 +1110,8 @@
 "<aandi>"
 	"aandi" ADVInter
 "<wendaawanidiyeg>"
-	"ondaawazh" ChCnj VTA Recip/di VAI Cnj Pos Neu 2PlSubj 2PlObj
 	"ondaawanidiwag" ChCnj VAI Cnj Pos Neu 2PlSubj 2PlObj
+	"ondaawazh" ChCnj VTA Recip/di VAI Cnj Pos Neu 2PlSubj 2PlObj
 "<.>"
 	"PUNCT" 
 
@@ -1101,8 +1125,8 @@
 "<zhigwa>"
 	"zhigwa" ADVTmp
 "<ani-gashkiidibikak>"
-	"gashkiidibikad" PVDir/ani VII Cnj Pos Neu 0PlSubj
 	"gashkiidibikad" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	"gashkiidibikad" PVDir/ani VII Cnj Pos Neu 0PlSubj
 "<,>"
 	"PUNCT" 
 "<giiyaabi>"
@@ -1149,8 +1173,11 @@
 "<'i>"
 	"'i" PRONDem NI Sg
 "<gaa-tazhiikang>"
-	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"dazhiikan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"dazhiikan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"dazhiikan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"dazhiikan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
 "<anokii-mazina'igan>"
 	"anokii-mazina'igan" NI Sg
 "<.>"
@@ -1214,8 +1241,8 @@
 "<inaabiiginigewinini>"
 	"inaabiiginigewinini" NA ProxSg
 "<wii-o-dazhiikang>"
-	"dazhiikan" PVTense/wii PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"dazhiikan" PVTense/wii PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"dazhiikan" PVTense/wii PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<waasigani-biiwaabik>"
@@ -1269,12 +1296,16 @@
 # text = Aaniin ezhiwebinang ogiishkiboojigan gii-gawiboojiged. Odanibenaan ina.
 # eng = How doe she handle her saw when she's taking a tree down? Does she tilt it sideways?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<ezhiwebinang>"
-	"izhiwebinan" ChCnj VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"izhiwebinan" ChCnj VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"izhiwebinan" ChCnj VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"izhiwebin" ChCnj VTA Cnj Pos Neu InclSubj 3SgProxObj
+	"izhiwebinan" VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"izhiwebinan" VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"izhiwebinan" VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+	"izhiwebin" VTA Pcp Pos Neu InclSubj 3SgProxObj 3SgProxHead
 "<ogiishkiboojigan>"
 	"giishkiboojigan" NI Sg 3SgProxPoss
 "<gii-gawiboojiged>"
@@ -1283,8 +1314,8 @@
 	"PUNCT" 
 "<odanibenaan>"
 	"anibenan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"aniben" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"aniben" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"aniben" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<ina>"
 	"ina" PCDisc
 "<.>"
@@ -1294,9 +1325,9 @@
 # text = Boozin gibakwezhiganikaan. Doodooshaaboo-bimide aabajitoon.
 # eng = Grease your bannock. Use butter.
 "<boozin>"
-	"boozin" VTA Imp Sim 2SgSubj 3PlProxObj
-	"boozin" VTA Imp Sim 2SgSubj 3SgProxObj
 	"boozi" VAI Imp Sim 2SgSubj
+	"boozin" VTA Imp Sim 2SgSubj 3SgProxObj
+	"boozin" VTA Imp Sim 2SgSubj 3PlProxObj
 "<gibakwezhiganikaan>"
 	"bakwezhiganikaan" NA ProxSg 2SgPoss
 "<.>"
@@ -1304,8 +1335,8 @@
 "<doodooshaaboo-bimide>"
 	"doodooshaaboo-bimide" NI Sg
 "<aabajitoon>"
-	"aabajitoon" VTI Imp Sim 2SgSubj 0SgObj
 	"aabajitoon" VTI Imp Sim 2SgSubj 0PlObj
+	"aabajitoon" VTI Imp Sim 2SgSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -1328,8 +1359,8 @@
 # text = Gii-mizhakiise iwe waasigan.
 # eng = The lightning hit the ground.
 "<gii-mizhakiise>"
-	"mizhakiise" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 	"mizhakiise" PVTense/gii VII Ind Pos Neu 0SgSubj
+	"mizhakiise" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<waasigan>"
@@ -1343,8 +1374,8 @@
 "<giishpin>"
 	"giishpin" ADVGram
 "<aninaatigokaag>"
-	"aninaatigokaa" VII Cnj Pos Neu 0PlSubj
 	"aninaatigokaa" VII Cnj Pos Neu 0SgSubj
+	"aninaatigokaa" VII Cnj Pos Neu 0PlSubj
 "<,>"
 	"PUNCT" 
 "<giga-iskigamizigemin>"
@@ -1389,17 +1420,18 @@
 "<gaawiin>"
 	"gaawiin" ADVNeg
 "<ingii-gikendanziin>"
-	"gikendam" PVTense/gii VAI Ind Neg Neu 1SgSubj
 	"gikendan" PVTense/gii VTI Ind Neg Neu 1SgSubj 0SgObj
+	"gikendam" PVTense/gii VAI Ind Neg Neu 1SgSubj
 "<waa-izhichigeyaan>"
 	"izhichige" ChCnj PVTense/wii VAI Cnj Pos Neu 1SgSubj
 "<,>"
 	"PUNCT" 
 "<gaa-izhi-gagwejitooyaan>"
-	"gagwejitoon" ChCnj PVTense/gii PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"gagwejitoon" ChCnj PVTense/gii PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0PlObj
-	"gagwejitoon" PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"gagwejitoon" ChCnj PVTense/gii PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"gagwejitoon" PVTense/gii PVRel/izhi VTI Pcp Pos Neu 1SgSubj 0SgObj 0SgHead
 	"gagwejitoon" PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"gagwejitoon" PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -1463,18 +1495,18 @@
 # text = Ogii-minjinawe'aan ini wiiwan aana-wii-kanawaabinid wayiiba gii-ni-giiwewaad.
 # eng = When they went home early, he made his wife rueful because she had wanted to watch the goings on.
 "<ogii-minjinawe'aan>"
-	"minjinawe'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"minjinawe'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"minjinawe'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<wiiwan>"
-	"wiiw" NAD ObvSg 3SgProxPoss
 	"wiiw" NAD ObvPl 3SgProxPoss
+	"wiiw" NAD ObvSg 3SgProxPoss
 "<aana-wii-kanawaabinid>"
-	"ganawaabi" PVTense/aana PVTense/wii VAI Cnj Pos Neu 3SgObvSubj
 	"ganawaabi" PVTense/aana PVTense/wii VAI Cnj Pos Neu 3PlObvSubj
+	"ganawaabi" PVTense/aana PVTense/wii VAI Cnj Pos Neu 3SgObvSubj
 "<wayiiba>"
 	"wayiiba" ADVTmp
 "<gii-ni-giiwewaad>"
@@ -1501,15 +1533,15 @@
 # eng = He turned the bolt to tighten it.
 "<ogii-piimaskonaan>"
 	"biimaskonan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"biimaskon" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"biimaskon" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"biimaskon" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<'iw>"
 	"'iw" PRONDem NI Sg
 "<zagaakwa'igan>"
 	"zagaakwa'igan" NI Sg
 "<gii-mashkawaakwa'ang>"
-	"mashkawaakwa'an" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"mashkawaakwa'an" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"mashkawaakwa'an" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -1518,11 +1550,11 @@
 # eng = He's feeling around for his flashlight. | Did he find it?
 "<onandoojiinaan>"
 	"nandoojiinan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"nandoojiin" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"nandoojiin" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
-	"andoojiinan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"andoojiin" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"nandoojiin" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"andoojiin" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"andoojiin" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"andoojiinan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
 "<'iw>"
 	"'iw" PRONDem NI Sg
 "<biskanebijigaans>"
@@ -1531,8 +1563,8 @@
 	"PUNCT" 
 "<ogii-mikoojiinaan>"
 	"mikoojiinan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"mikoojiin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"mikoojiin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"mikoojiin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<ina>"
 	"ina" PCDisc
 "<?>"
@@ -1546,8 +1578,8 @@
 "<oshkiinaagwad>"
 	"oshkiinaagwad" VII Ind Pos Neu 0SgSubj
 "<gidoodaabaan>"
-	"odaabaan" NA ProxSg 2SgPoss
 	"odaabaan" NI Sg 2SgPoss
+	"odaabaan" NA ProxSg 2SgPoss
 "<.>"
 	"PUNCT" 
 
@@ -1557,8 +1589,8 @@
 "<indaga>"
 	"indaga" PCDisc
 "<awi-ikobidooyok>"
-	"ikobidoon" PVDir/awi VTI Imp Sim 2SgSubj 0SgObj
 	"ikobidoon" PVDir/awi VTI Imp Sim 2SgSubj 0PlObj
+	"ikobidoon" PVDir/awi VTI Imp Sim 2SgSubj 0SgObj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<jiimaanish>"
@@ -1624,8 +1656,8 @@
 "<gii-inaabi>"
 	"inaabi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<andawaabandang>"
-	"andawaabandan" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"andawaabandan" VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"andawaabandan" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<ogiboodiyegwaazon>"
 	"giboodiyegwaazon" NI Sg 3SgProxPoss
 "<.>"
@@ -1679,10 +1711,13 @@
 "<ogidig>"
 	"gidigw" NID Sg 3SgProxPoss
 "<gaa-bishagisidood>"
-	"bishagisidoon" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"bishagisidoon" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
-	"bishagisidoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"bishagisidoon" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"bishagisidoon" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"bishagisidoon" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"bishagisidoon" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
 	"bishagisidoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"bishagisidoon" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -1712,18 +1747,18 @@
 # text = Aaniin epiitweweg ishkodewidaabaan ba-noondaagwak.
 # eng = How loud is the train that's coming.
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiitweweg>"
-	"apiitwewe" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitwewe" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitwewe" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitwewe" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<ishkodewidaabaan>"
-	"ishkodewidaabaan" NA ProxSg
 	"ishkodewidaabaan" NI Sg
+	"ishkodewidaabaan" NA ProxSg
 "<ba-noondaagwak>"
-	"noondaagwad" ChCnj PVDir/bi VII Cnj Pos Neu 0PlSubj
 	"noondaagwad" ChCnj PVDir/bi VII Cnj Pos Neu 0SgSubj
+	"noondaagwad" ChCnj PVDir/bi VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -1753,8 +1788,8 @@
 # text = Giziidoone' daga a'aw abinoojiinh. Wiinidoone.
 # eng = Wipe that kid's mouth. It's dirty.
 "<giziidoone'>"
-	"giziidoone'" VTA Imp Sim 2SgSubj 3PlProxObj
 	"giziidoone'" VTA Imp Sim 2SgSubj 3SgProxObj
+	"giziidoone'" VTA Imp Sim 2SgSubj 3PlProxObj
 "<daga>"
 	"daga" PCDisc
 "<a'aw>"
@@ -1776,21 +1811,21 @@
 "<'i>"
 	"'i" PRONDem NI Sg
 "<waazh>"
-	"waazh" NI Sg
-	"waazhwi" VTA Imp Sim 2SgSubj 3PlProxObj
 	"waazhwi" VTA Imp Sim 2SgSubj 3SgProxObj
+	"waazhwi" VTA Imp Sim 2SgSubj 3PlProxObj
+	"waazh" NI Sg
 "<i'imaa>"
 	"i'imaa" ADVLoc
 "<endazhenid>"
-	"dazhe" ChCnj VAI Cnj Pos Neu 3SgObvSubj
 	"dazhe" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+	"dazhe" ChCnj VAI Cnj Pos Neu 3SgObvSubj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<boodaajibingwesiwan>"
-	"boodaajibingwesi" NA ObvSg
 	"boodaajibingwesi" NA ObvPl
+	"boodaajibingwesi" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -1800,8 +1835,8 @@
 "<odazhewidoon>"
 	"azhewidoon" VTI Ind Pos Neu 3SgProxSubj 0SgObj
 "<aana-gii-odaapinang>"
-	"odaapinan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"odaapinan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"odaapinan" PVTense/aana PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"odaapin" PVTense/aana PVTense/gii VTA Cnj Pos Neu InclSubj 3SgProxObj
 "<.>"
 	"PUNCT" 
@@ -1822,8 +1857,8 @@
 # text = Naanaagaji' asin ji-ozhaashaabikizid jibwaa-gabaayan.
 # eng = Make sure if the rock is slippery or not before you get off (the canoe).
 "<naanaagaji'>"
-	"naanaagaji'" VTA Imp Sim 2SgSubj 3PlProxObj
 	"naanaagaji'" VTA Imp Sim 2SgSubj 3SgProxObj
+	"naanaagaji'" VTA Imp Sim 2SgSubj 3PlProxObj
 "<asin>"
 	"asin" NA ProxSg
 "<ji-ozhaashaabikizid>"
@@ -1850,8 +1885,8 @@
 # text = Aaniin enigokwaabikizid.
 # eng = What size is it? How Big is it?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<enigokwaabikizid>"
 	"inigokwaabikizi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"inigokwaabikizi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
@@ -1874,11 +1909,11 @@
 # text = Aaniin epiitang jiimaan?
 # eng = How heavy is the boat?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiitang>"
-	"apiitan" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitan" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitan" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitan" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<jiimaan>"
 	"jiimaan" NI Sg
@@ -1915,15 +1950,15 @@
 "<maazhichigewag>"
 	"maazhichige" VAI Ind Pos Neu 3PlProxSubj
 "<ogimaakandawaad>"
-	"ogimaakandaw" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"ogimaakandaw" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"ogimaakandaw" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<iniwen>"
-	"iniwen" PRONDem NA ObvPl
-	"iniwen" PRONDem NA ObvSg
 	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
 "<endanakamigizinid>"
-	"danakamigizi" ChCnj VAI Cnj Pos Neu 3SgObvSubj
 	"danakamigizi" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+	"danakamigizi" ChCnj VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
 	"PUNCT" 
 
@@ -1931,9 +1966,9 @@
 # text = Odoozhisidoonan onaaganan waa-tananjigewaad.
 # eng = He's setting the table for the meal.
 "<odoozhisidoonan>"
-	"ozhisidoon" VTI Ind Pos Neu 3SgProxSubj 0PlObj
-	"ozhisidoon" VTI Ind Pos Neu 3SgObvSubj 0PlObj
 	"ozhisidoon" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	"ozhisidoon" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"ozhisidoon" VTI Ind Pos Neu 3SgProxSubj 0PlObj
 "<onaaganan>"
 	"onaagan" NI Pl
 "<waa-tananjigewaad>"
@@ -1945,13 +1980,13 @@
 # text = Ogiji-nibewin daningwaamo bizhiins.
 # eng = A cat is sleeping on the bed.
 "<ogiji-nibewin>"
-	"ogiji-nibewin" ADVLoc
 	"nibewin" PNLex/ogiji NI Sg
+	"ogiji-nibewin" ADVLoc
 "<daningwaamo>"
 	"daningwaamo" VAI Ind Pos Neu 3SgProxSubj
 "<bizhiins>"
-	"bizhiw" NA Dim ProxSg
 	"bizhiins" NA ProxSg
+	"bizhiw" NA Dim ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -1985,13 +2020,13 @@
 "<i'iw>"
 	"i'iw" PRONDem NI Sg
 "<odaabaan>"
-	"odaabaan" NA ProxSg
 	"odaabaan" NI Sg
+	"odaabaan" NA ProxSg
 "<gii-piigosemagadogwen>"
-	"biigose" PVTense/gii VAI Der/magad VII Cnj Pos Dub 0SgSubj
-	"biigose" PVTense/gii VAI Der/magad VII Cnj Pos Dub 0PlSubj
-	"biigose" PVTense/gii VII Aug/magad VII Cnj Pos Dub 0SgSubj
 	"biigose" PVTense/gii VII Aug/magad VII Cnj Pos Dub 0PlSubj
+	"biigose" PVTense/gii VII Aug/magad VII Cnj Pos Dub 0SgSubj
+	"biigose" PVTense/gii VAI Der/magad VII Cnj Pos Dub 0PlSubj
+	"biigose" PVTense/gii VAI Der/magad VII Cnj Pos Dub 0SgSubj
 "<.>"
 	"PUNCT" 
 
@@ -2031,8 +2066,8 @@
 # text = Aaniin apii waa'-oshkidaabaaneyan?
 # eng = When are you going to get a new car?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<apii>"
 	"apii" ADVTmp
 "<waa'-oshkidaabaaneyan>"
@@ -2044,8 +2079,8 @@
 # text = Zipobidoon gibabiinzikawaagan.
 # eng = Zip up your coat.
 "<zipobidoon>"
-	"zipobidoon" VTI Imp Sim 2SgSubj 0SgObj
 	"zipobidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"zipobidoon" VTI Imp Sim 2SgSubj 0SgObj
 "<gibabiinzikawaagan>"
 	"babiinzikawaagan" NI Sg 2SgPoss
 "<.>"
@@ -2070,8 +2105,8 @@
 # text = Gii-paashkikaamagadini imaa gii-miniiwizided.
 # eng = The blister on his foot ruptured.
 "<gii-paashkikaamagadini>"
-	"baashkikaa" PVTense/gii VAI Der/magad VII Ind Pos Neu 0SgObvSubj
 	"baashkikaa" PVTense/gii VII Aug/magad VII Ind Pos Neu 0SgObvSubj
+	"baashkikaa" PVTense/gii VAI Der/magad VII Ind Pos Neu 0SgObvSubj
 "<imaa>"
 	"imaa" ADVLoc
 "<gii-miniiwizided>"
@@ -2099,10 +2134,13 @@
 "<inendaagozi>"
 	"inendaagozi" VAI Ind Pos Neu 3SgProxSubj
 "<gaa-anokiitang>"
-	"anokiitan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"anokiitan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
-	"anokiitan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"anokiitan" ChCnj PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"anokiitan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"anokiitan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"anokiitan" PVTense/gii VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
 	"anokiitan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"anokiitan" PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<waakaa'igan>"
 	"waakaa'igan" NI Sg
 "<.>"
@@ -2112,29 +2150,31 @@
 # text = Gichi-zaasaakwe awe mindimooyenh epiichi-jiikimigod iniw dewe'iganan miinawaa negamonid.
 # eng = The old lady gave a loud war whoop she was so happy to hear the drum and the singers.
 "<gichi-zaasaakwe>"
-	"zaasaakwe" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
 	"zaasaakwe" PVLex/chi VAI Ind Pos Neu 2SgSubj
+	"zaasaakwe" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<mindimooyenh>"
 	"mindimooyenh" NA ProxSg
 "<epiichi-jiikimigod>"
-	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 0PlSubj 3SgProxObj
-	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 0SgSubj 3SgProxObj
-	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
 	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	"jiikim" ChCnj PVRel/apiichi VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+	"jiikim" PVRel/apiichi VTA Pcp Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+	"jiikim" PVRel/apiichi VTA Pcp Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<dewe'iganan>"
-	"dewe'igan" NA ObvSg
 	"dewe'igan" NA ObvPl
+	"dewe'igan" NA ObvSg
 "<miinawaa>"
 	"miinawaa" ADVConj
 "<negamonid>"
-	"nagamo" ChCnj VAI Cnj Pos Neu 3SgObvSubj
 	"nagamo" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+	"nagamo" ChCnj VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
 	"PUNCT" 
 
@@ -2218,8 +2258,8 @@
 "<anaamidaabaanaak>"
 	"anaamidaabaanaak" ADVLoc
 "<ashi>"
-	"ashi" VTA Imp Sim 2SgSubj 3PlProxObj
 	"ashi" VTA Imp Sim 2SgSubj 3SgProxObj
+	"ashi" VTA Imp Sim 2SgSubj 3PlProxObj
 	"ashi" ADVConj
 "<gidaagimag>"
 	"aagim" NA ProxPl 2SgPoss
@@ -2234,14 +2274,14 @@
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<gichi-aniibiish>"
-	"gichi-aniibiish" NI Sg
-	"aniib" PNLex/gichi NA Pej ProxSg
 	"aniibiish" PNLex/gichi NI Sg
-	"aniib" PNLex/chi NA Pej ProxSg 2SgPoss
+	"aniib" PNLex/gichi NA Pej ProxSg
 	"aniibiish" PNLex/chi NI Sg 2SgPoss
+	"aniib" PNLex/chi NA Pej ProxSg 2SgPoss
+	"gichi-aniibiish" NI Sg
 "<neboobiikaadeg>"
-	"naboobiikaade" ChCnj VII Cnj Pos Neu 0PlSubj
 	"naboobiikaade" ChCnj VII Cnj Pos Neu 0SgSubj
+	"naboobiikaade" ChCnj VII Cnj Pos Neu 0PlSubj
 	"naboobiikaade" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -2252,11 +2292,11 @@
 "<gaawiin>"
 	"gaawiin" ADVNeg
 "<ogii-piindiganaasiin>"
-	"biindigazh" PVTense/gii VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
 	"biindigazh" PVTense/gii VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+	"biindigazh" PVTense/gii VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
 "<aana-baapaagwaakwa'igenid>"
-	"baapaagwaakwa'ige" PVTense/aana VAI Cnj Pos Neu 3SgObvSubj
 	"baapaagwaakwa'ige" PVTense/aana VAI Cnj Pos Neu 3PlObvSubj
+	"baapaagwaakwa'ige" PVTense/aana VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
 	"PUNCT" 
 
@@ -2288,8 +2328,8 @@
 "<awiya>"
 	"awiya" PRONIndf NA
 "<obaabii'aan>"
-	"baabii'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"baabii'" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"baabii'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
 	"PUNCT" 
 
@@ -2299,8 +2339,8 @@
 "<ingii-adaamaa>"
 	"adaam" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
 "<ditibidaabaanan>"
-	"ditibidaabaan" NA ObvSg
 	"ditibidaabaan" NA ObvPl
+	"ditibidaabaan" NA ObvSg
 "<gaa-ayaad>"
 	"ayaa" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
 	"ayaa" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
@@ -2330,10 +2370,10 @@
 "<oniijaanisa'>"
 	"niijaanis" NAD ObvPl 3SgProxPoss
 "<ji-niibaashkaanid>"
-	"niibaashkaa" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
 	"niibaashkaa" PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
-	"niibaashkaa" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+	"niibaashkaa" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
 	"niibaashkaa" PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+	"niibaashkaa" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
 	"PUNCT" 
 
@@ -2369,10 +2409,10 @@
 "<naa>"
 	"naa" PCEmph
 "<aabita-niibing>"
-	"niibin" PVQnt/aabita VII Cnj Pos Neu 0PlSubj
-	"niibin" PVQnt/aabita VII Cnj Pos Neu 0SgSubj
-	"aabita-niibin" VII Cnj Pos Neu 0PlSubj
 	"aabita-niibin" VII Cnj Pos Neu 0SgSubj
+	"aabita-niibin" VII Cnj Pos Neu 0PlSubj
+	"niibin" PVQnt/aabita VII Cnj Pos Neu 0SgSubj
+	"niibin" PVQnt/aabita VII Cnj Pos Neu 0PlSubj
 "<gii-ojijise>"
 	"ojijise" PVTense/gii VII Ind Pos Neu 0SgSubj
 "<.>"
@@ -2386,10 +2426,10 @@
 "<aana-wii-pi-naanind>"
 	"naazh" PVTense/aana PVTense/wii PVDir/bi VTA Cnj Pos Neu XSubj 3SgProxObj
 "<ji-o-miigaadang>"
-	"miigaadan" PVTense/ga PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"miigaadan" PVTense/ga PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0PlObj
-	"miigaadan" PVTense/daa PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"miigaadan" PVTense/ga PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"miigaadan" PVTense/daa PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"miigaadan" PVTense/daa PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<ishkode>"
 	"ishkode" NI Sg
 "<.>"
@@ -2416,8 +2456,8 @@
 "<giishpin>"
 	"giishpin" ADVGram
 "<mikwaminaaniwang>"
-	"mikwaminaaniwan" VII Cnj Pos Neu 0PlSubj
 	"mikwaminaaniwan" VII Cnj Pos Neu 0SgSubj
+	"mikwaminaaniwan" VII Cnj Pos Neu 0PlSubj
 "<,>"
 	"PUNCT" 
 "<waabowayaan>"
@@ -2425,8 +2465,8 @@
 "<gidaa-badagwana'waa>"
 	"badagwana'" PVTense/daa VTA Ind Pos Neu 2SgSubj 3SgProxObj
 "<gidoodaabaan>"
-	"odaabaan" NA ProxSg 2SgPoss
 	"odaabaan" NI Sg 2SgPoss
+	"odaabaan" NA ProxSg 2SgPoss
 "<ji-maakishkoozosig>"
 	"maakishkoozo" PVTense/ga VAI Cnj Neg Neu 3SgProxSubj
 	"maakishkoozo" PVTense/daa VAI Cnj Neg Neu 3SgProxSubj
@@ -2461,10 +2501,13 @@
 "<ogii-bitaganaandaan>"
 	"bitaganaandan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
 "<gaa-onji-baasa'ang>"
-	"baasa'an" ChCnj PVTense/gii PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"baasa'an" ChCnj PVTense/gii PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0PlObj
-	"baasa'an" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"baasa'an" ChCnj PVTense/gii PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"baasa'an" PVTense/gii PVRel/onji VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"baasa'an" PVTense/gii PVRel/onji VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"baasa'an" PVTense/gii PVRel/onji VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
 	"baasa'an" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"baasa'an" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<i'iw>"
 	"i'iw" PRONDem NI Sg
 "<waasechigan>"
@@ -2478,11 +2521,11 @@
 "<indaga>"
 	"indaga" PCDisc
 "<ganawendamaw>"
-	"ganawendamaw" VTA Imp Sim 2SgSubj 3PlProxObj
 	"ganawendamaw" VTA Imp Sim 2SgSubj 3SgProxObj
+	"ganawendamaw" VTA Imp Sim 2SgSubj 3PlProxObj
 "<omidewayaanan>"
-	"midewayaan" NA ObvSg 3SgProxPoss
 	"midewayaan" NA ObvPl 3SgProxPoss
+	"midewayaan" NA ObvSg 3SgProxPoss
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<mindimooyenh>"
@@ -2497,8 +2540,8 @@
 	"biidoon" PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
 "<ingo-minikwaajigan>"
 	"ingo-minikwaajigan" NUM
-	"minikwaajigan" PNQnt/ingo NI Sg
 	"minikwaajigan" PVQnt/ingo ADVQnt
+	"minikwaajigan" PNQnt/ingo NI Sg
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<waasamoo-bimide>"
@@ -2513,15 +2556,15 @@
 "<akawe>"
 	"akawe" ADVTmp
 "<waaginan>"
-	"waaginan" VTI Imp Sim 2SgSubj 0SgObj
 	"waaginan" VTI Imp Sim 2SgSubj 0PlObj
+	"waaginan" VTI Imp Sim 2SgSubj 0SgObj
 "<mitigoon>"
+	"mitig" NI Pl
 	"mitig" NA ObvPl
 	"mitig" NA ObvSg
-	"mitig" NI Pl
 "<wii'-ozhitooyan>"
-	"ozhitoon" PVTense/wii' VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"ozhitoon" PVTense/wii' VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"ozhitoon" PVTense/wii' VTI Cnj Pos Neu 2SgSubj 0SgObj
 "<waaginogaan>"
 	"waaginogaan" NI Sg
 "<.>"
@@ -2533,20 +2576,20 @@
 "<wiineta>"
 	"wiineta" PRONPer NA 3Sg
 "<owenipazhi'aan>"
-	"wenipazhi'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"wenipazhi'" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"wenipazhi'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<maajiibizoni'aad>"
-	"maajiibizoni'" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"maajiibizoni'" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"maajiibizoni'" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<akikoonsan>"
-	"akik" NA Dim ObvSg
-	"akik" NA Dim ObvPl
-	"akikoons" NA ObvSg
 	"akikoons" NA ObvPl
+	"akikoons" NA ObvSg
+	"akik" NA Dim ObvPl
+	"akik" NA Dim ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -2580,8 +2623,8 @@
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<odaabaan>"
-	"odaabaan" NA ProxSg
 	"odaabaan" NI Sg
+	"odaabaan" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -2595,8 +2638,8 @@
 "<gwayak>"
 	"gwayak" ADVMan
 "<ekwaademagak>"
-	"ikwaade" ChCnj VII Aug/magad VII Cnj Pos Neu 0PlSubj
 	"ikwaade" ChCnj VII Aug/magad VII Cnj Pos Neu 0SgSubj
+	"ikwaade" ChCnj VII Aug/magad VII Cnj Pos Neu 0PlSubj
 	"ikwaade" VII Aug/magad VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -2645,8 +2688,8 @@
 "<odaakewin>"
 	"odaakewin" NI Sg
 "<gaa-piindigajigaadenig>"
-	"biindigajigaade" ChCnj PVTense/gii VII Cnj Pos Neu 0SgObvSubj
 	"biindigajigaade" ChCnj PVTense/gii VII Cnj Pos Neu 0PlObvSubj
+	"biindigajigaade" ChCnj PVTense/gii VII Cnj Pos Neu 0SgObvSubj
 	"biindigajigaade" PVTense/gii VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
 "<.>"
 	"PUNCT" 
@@ -2667,8 +2710,8 @@
 "<aandi>"
 	"aandi" ADVInter
 "<wendaanimak>"
-	"ondaanimad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"ondaanimad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"ondaanimad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"ondaanimad" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -2691,8 +2734,8 @@
 "<giimooj>"
 	"giimooj" ADVMan
 "<ogaganoonaan>"
-	"gaganoozh" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"gaganoozh" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"gaganoozh" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
 	"PUNCT" 
 
@@ -2700,20 +2743,24 @@
 # text = Odazhiikawaan iniw waawaashkeshiwan gaa-paashkizwaad.
 # eng = He's working on the deer he shot.
 "<odazhiikawaan>"
-	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<waawaashkeshiwan>"
-	"waawaashkeshi" NA ObvSg
 	"waawaashkeshi" NA ObvPl
+	"waawaashkeshi" NA ObvSg
 "<gaa-paashkizwaad>"
-	"baashkiz" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"baashkiz" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"baashkizwi" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"baashkizwi" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"baashkizwi" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"baashkiz" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"baashkiz" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"baashkizwi" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"baashkizwi" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+	"baashkiz" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"baashkiz" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 "<.>"
 	"PUNCT" 
 
@@ -2721,8 +2768,8 @@
 # text = Aaniin da naa aapidakamig ezhiwebak.
 # eng = Why in the hell is this happening?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<da>"
 	"da" PCDisc
 "<naa>"
@@ -2730,8 +2777,8 @@
 "<aapidakamig>"
 	"aapidakamig" PCDisc
 "<ezhiwebak>"
-	"izhiwebad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"izhiwebad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"izhiwebad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"izhiwebad" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -2744,8 +2791,8 @@
 "<'i>"
 	"'i" PRONDem NI Sg
 "<mazina'igan>"
-	"mazina'igan" NA ProxSg
 	"mazina'igan" NI Sg
+	"mazina'igan" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -2763,39 +2810,47 @@
 # text = Ogii-makamaan iniw oniijaanisan waagaakwad odaminwaagenid.
 # eng = He took away the axe his child was playing with.
 "<ogii-makamaan>"
-	"makam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"makam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"makam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<oniijaanisan>"
-	"niijaanis" NAD ObvSg 3SgProxPoss
 	"niijaanis" NAD ObvPl 3SgProxPoss
+	"niijaanis" NAD ObvSg 3SgProxPoss
 "<waagaakwad>"
-	"waagaakwad" NI Sg
 	"waagaakwad" VII Ind Pos Neu 0SgSubj
+	"waagaakwad" NI Sg
 "<odaminwaagenid>"
-	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj
-	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 3PlProxObj
-	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj
-	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
-	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 0PlObj
 	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj
-	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 3PlProxObj
-	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj
-	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
 	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 0PlObj
-	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj
-	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 3PlProxObj
-	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj
-	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
-	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 0PlObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj 0SgHead
+	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+	"odaminwaagen" VAIO Cnj Pos Neu 3PlObvSubj 3PlProxObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 0PlObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj 0SgHead
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
+	"odaminwaagen" VAIO Cnj Pos Neu 3SgObvSubj 3PlProxObj
 	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj
-	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 3PlProxObj
-	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj
-	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
 	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 0PlObj
+	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
+	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 0SgObj 0SgHead
+	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+	"odaminwaage" VAIO Cnj Pos Neu 3PlObvSubj 3PlProxObj
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 0PlObj
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 0SgObj 0SgHead
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
+	"odaminwaage" VAIO Cnj Pos Neu 3SgObvSubj 3PlProxObj
 "<.>"
 	"PUNCT" 
 
@@ -2824,8 +2879,7 @@
 "<igiw>"
 	"igiw" PRONDem NA ProxPl
 "<gaa-anibesewaad>"
-	"anibese" ChCnj PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
-	"anibese" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
+
 "<.>"
 	"PUNCT" 
 
@@ -2833,16 +2887,18 @@
 # text = Ona'itawaan oosan ezhi-gikinoo'amaagod.
 # eng = He listens to his father's teachings. / He minds his father's teachings.
 "<ona'itawaan>"
-	"na'itaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"na'itaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"na'itaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<oosan>"
-	"oos" NAD ObvSg 3SgProxPoss
 	"oos" NAD ObvPl 3SgProxPoss
+	"oos" NAD ObvSg 3SgProxPoss
 "<ezhi-gikinoo'amaagod>"
-	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 0PlSubj 3SgProxObj
-	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 0SgSubj 3SgProxObj
-	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
 	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	"gikinoo'amaw" ChCnj PVRel/izhi VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+	"gikinoo'amaw" PVRel/izhi VTA Pcp Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+	"gikinoo'amaw" PVRel/izhi VTA Pcp Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
 "<.>"
 	"PUNCT" 
 
@@ -2864,8 +2920,8 @@
 "<indaga>"
 	"indaga" PCDisc
 "<dawinamaw>"
-	"dawinamaw" VTA Imp Sim 2SgSubj 3PlProxObj
 	"dawinamaw" VTA Imp Sim 2SgSubj 3SgProxObj
+	"dawinamaw" VTA Imp Sim 2SgSubj 3PlProxObj
 "<'iw>"
 	"'iw" PRONDem NI Sg
 "<desa'on>"
@@ -2873,8 +2929,8 @@
 "<aw>"
 	"aw" PRONDem NA ProxSg
 "<niningwan>"
-	"ningwan" NAD ProxSg 1SgPoss
 	"ningwano" VAI Ind Pos Neu 1SgSubj
+	"ningwan" NAD ProxSg 1SgPoss
 "<.>"
 	"PUNCT" 
 "<mii>"
@@ -2882,17 +2938,17 @@
 "<imaa>"
 	"imaa" ADVLoc
 "<ge-izhi-bagidoomaad>"
-	"bagidoom" ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"bagidoom" ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"bagidoom" ChCnj PVTense/ga PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"bagidoom" ChCnj PVTense/ga PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"bagidoom" ChCnj PVTense/ga PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"bagidoom" ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"bagidoom" ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<waawaashkeshiwan>"
-	"waawaashkeshi" NA ObvSg
 	"waawaashkeshi" NA ObvPl
+	"waawaashkeshi" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -2902,8 +2958,8 @@
 "<ogijidaabaan>"
 	"ogijidaabaan" ADVLoc
 "<izhi-bimiwidoon>"
-	"bimiwidoon" PVRel/izhi VTI Imp Sim 2SgSubj 0SgObj
 	"bimiwidoon" PVRel/izhi VTI Imp Sim 2SgSubj 0PlObj
+	"bimiwidoon" PVRel/izhi VTI Imp Sim 2SgSubj 0SgObj
 "<gijiimaan>"
 	"jiimaan" NI Sg 2SgPoss
 "<.>"
@@ -2917,8 +2973,8 @@
 "<ininaandagoog>"
 	"ininaandag" NA ProxPl
 "<ozhitooyan>"
-	"ozhitoon" VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"ozhitoon" VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"ozhitoon" VTI Cnj Pos Neu 2SgSubj 0SgObj
 "<giwiigiwaam>"
 	"wiigiwaam" NI Sg 2SgPoss
 "<.>"
@@ -2946,8 +3002,8 @@
 "<midaaso-mininj>"
 	"midaaso-mininj" NUM
 "<nindakooz>"
-	"akoozi" VAI Ind Pos Neu 1SgSubj
 	"dakoozi" VAI Ind Pos Neu 1SgSubj
+	"akoozi" VAI Ind Pos Neu 1SgSubj
 "<.>"
 	"PUNCT" 
 
@@ -2957,15 +3013,16 @@
 "<weweni>"
 	"weweni" ADVMan
 "<ganawendamog>"
-	"ganawendan" VTI Imp Sim 2PlSubj 0SgObj
 	"ganawendan" VTI Imp Sim 2PlSubj 0PlObj
+	"ganawendan" VTI Imp Sim 2PlSubj 0SgObj
 "<'i>"
 	"'i" PRONDem NI Sg
 "<minisi>"
 	"minisi" NI Sg
 "<ebiitamong>"
-	"abiitan" ChCnj VTI Cnj Pos Neu InclSubj 0SgObj
 	"abiitan" ChCnj VTI Cnj Pos Neu InclSubj 0PlObj
+	"abiitan" ChCnj VTI Cnj Pos Neu InclSubj 0SgObj
+	"abiitan" VTI Pcp Pos Neu InclSubj 0SgObj 0SgHead
 "<.>"
 	"PUNCT" 
 
@@ -2975,9 +3032,9 @@
 "<aditewan>"
 	"adite" VII Ind Pos Neu 0PlSubj
 "<aniibiishan>"
-	"aniib" NA Pej ObvSg
-	"aniib" NA Pej ObvPl
 	"aniibiish" NI Pl
+	"aniib" NA Pej ObvPl
+	"aniib" NA Pej ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -2985,8 +3042,8 @@
 # text = Michi-niisaabiiginan jiimaan; onzaam mamaangaadigose.
 # eng = Just let the canoe down on a rope because the ruffles of the current are too big.
 "<michi-niisaabiiginan>"
-	"niisaabiiginan" PVLex/michi VTI Imp Sim 2SgSubj 0SgObj
 	"niisaabiiginan" PVLex/michi VTI Imp Sim 2SgSubj 0PlObj
+	"niisaabiiginan" PVLex/michi VTI Imp Sim 2SgSubj 0SgObj
 "<jiimaan>"
 	"jiimaan" NI Sg
 "<;>"
@@ -3002,19 +3059,19 @@
 # text = Ogii-naajidaabaanaan ini mitigoon gaa-kawaashinid.
 # eng = He went to drag in the trees that blew down.
 "<ogii-naajidaabaanaan>"
-	"naajidaabaazh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"naajidaabaazh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"naajidaabaazh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<mitigoon>"
+	"mitig" NI Pl
 	"mitig" NA ObvPl
 	"mitig" NA ObvSg
-	"mitig" NI Pl
 "<gaa-kawaashinid>"
-	"gawaashi" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgObvSubj
 	"gawaashi" ChCnj PVTense/gii VAI Cnj Pos Neu 3PlObvSubj
+	"gawaashi" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
 	"PUNCT" 
 
@@ -3060,17 +3117,21 @@
 # text = Ezhi-gizii'waad iniwen owiiniskiigomaanan a'aw gwiiwizens.
 # eng = The boy wiped the snot off his nose.
 "<ezhi-gizii'waad>"
-	"gizii'" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"gizii'" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"gizii'wi" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"gizii'wi" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"gizii'wi" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"gizii'" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"gizii'" ChCnj PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"gizii'wi" PVRel/izhi VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"gizii'wi" PVRel/izhi VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+	"gizii'" PVRel/izhi VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"gizii'" PVRel/izhi VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 "<iniwen>"
-	"iniwen" PRONDem NA ObvPl
-	"iniwen" PRONDem NA ObvSg
 	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
 "<owiiniskiigomaanan>"
-	"wiiniskiigomaan" NA ObvSg 3SgProxPoss
 	"wiiniskiigomaan" NA ObvPl 3SgProxPoss
+	"wiiniskiigomaan" NA ObvSg 3SgProxPoss
 "<a'aw>"
 	"a'aw" PRONDem NA ProxSg
 "<gwiiwizens>"
@@ -3082,8 +3143,8 @@
 # text = Zaagidin a'aw animosh.
 # eng = Let the dog out!
 "<zaagidin>"
-	"zaagidin" VTA Imp Sim 2SgSubj 3PlProxObj
 	"zaagidin" VTA Imp Sim 2SgSubj 3SgProxObj
+	"zaagidin" VTA Imp Sim 2SgSubj 3PlProxObj
 "<a'aw>"
 	"a'aw" PRONDem NA ProxSg
 "<animosh>"
@@ -3107,9 +3168,9 @@
 "<ogijayi'ii>"
 	"ogijayi'ii" ADVLoc
 "<endazhiging>"
-	"dazhigi" ChCnj VAI Cnj Pos Neu XSubj
-	"dazhigin" ChCnj VII Cnj Pos Neu 0PlSubj
 	"dazhigin" ChCnj VII Cnj Pos Neu 0SgSubj
+	"dazhigin" ChCnj VII Cnj Pos Neu 0PlSubj
+	"dazhigi" ChCnj VAI Cnj Pos Neu XSubj
 	"dazhigin" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<'iw>"
 	"'iw" PRONDem NI Sg
@@ -3122,23 +3183,23 @@
 # text = Mamigobidoon nooka'iiwagwaan gaa-mashkawaakwading, aanind wii-siiginaman gijiibaakwaanakikong.
 # eng = Rub the frozen pemmican (in the bag) to pour some out into your pot.
 "<mamigobidoon>"
-	"mamigobidoon" VTI Imp Sim 2SgSubj 0SgObj
 	"mamigobidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"mamigobidoon" VTI Imp Sim 2SgSubj 0SgObj
 "<nooka'iiwagwaan>"
 	"nooka'iiwagwaan" NI Sg
 "<gaa-mashkawaakwading>"
-	"mashkawaakwadin" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"mashkawaakwadin" ChCnj PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"mashkawaakwadin" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"mashkawaakwadin" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
-	"mashkawaakwadin" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 	"mashkawaakwadin" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	"mashkawaakwadin" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 "<,>"
 	"PUNCT" 
 "<aanind>"
 	"aanind" ADVQnt
 "<wii-siiginaman>"
-	"ziiginan" PVTense/wii VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"ziiginan" PVTense/wii VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"ziiginan" PVTense/wii VTI Cnj Pos Neu 2SgSubj 0SgObj
 "<gijiibaakwaanakikong>"
 	"jiibaakwaanakik" NA Loc 2SgPoss
 "<.>"
@@ -3162,8 +3223,8 @@
 # text = Boonitoon iwe. Gego babaamendangen.
 # eng = Leave it alone. Don't bother it.
 "<boonitoon>"
-	"boonitoon" VTI Imp Sim 2SgSubj 0SgObj
 	"boonitoon" VTI Imp Sim 2SgSubj 0PlObj
+	"boonitoon" VTI Imp Sim 2SgSubj 0SgObj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<.>"
@@ -3171,9 +3232,9 @@
 "<gego>"
 	"gego" ADVNeg
 "<babaamendangen>"
-	"babaamendam" VAI Imp Prb 2SgSubj
-	"babaamendan" VTI Imp Prb 2SgSubj 0SgObj
 	"babaamendan" VTI Imp Prb 2SgSubj 0PlObj
+	"babaamendan" VTI Imp Prb 2SgSubj 0SgObj
+	"babaamendam" VAI Imp Prb 2SgSubj
 "<.>"
 	"PUNCT" 
 
@@ -3195,12 +3256,13 @@
 # text = Giiwedaabaazh amik gaa-gii-tasoonad.
 # eng = Drag the beaver you trapped home.
 "<giiwedaabaazh>"
-	"giiwedaabaazh" VTA Imp Sim 2SgSubj 3PlProxObj
 	"giiwedaabaazh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"giiwedaabaazh" VTA Imp Sim 2SgSubj 3PlProxObj
 "<amik>"
 	"amik" NA ProxSg
 "<gaa-gii-tasoonad>"
 	"dasoozh" ChCnj PVTense/gii PVTense/gii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"dasoozh" PVTense/gii PVTense/gii VTA Pcp Pos Neu 2SgSubj 3SgProxObj 3SgProxHead
 	"dasoozh" PVSub/gaa PVTense/gii VTA Cnj Pos Neu 2SgSubj 3SgProxObj
 "<.>"
 	"PUNCT" 
@@ -3209,20 +3271,20 @@
 # text = Ogii-pigishkishimaan gii-paninaad iniw waabiganimoodayan.
 # eng = He dropped that jug and it fell to pieces.
 "<ogii-pigishkishimaan>"
-	"bigishkishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"bigishkishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bigishkishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<gii-paninaad>"
-	"banin" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"banin" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"banin" PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<waabiganimoodayan>"
-	"waabiganimooday" NA ObvSg
 	"waabiganimooday" NA ObvPl
+	"waabiganimooday" NA ObvSg
 "<.>"
-	"PUNCT"  
+	"PUNCT" 
 
 # sent_id = 200
 # text = Ogii-pookobidoon i'iw ozhibii'iganaak.
@@ -3232,8 +3294,8 @@
 "<i'iw>"
 	"i'iw" PRONDem NI Sg
 "<ozhibii'iganaak>"
-	"ozhibii'iganaak" NA ProxSg
 	"ozhibii'iganaak" NI Sg
+	"ozhibii'iganaak" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -3250,15 +3312,15 @@
 	"izhichige" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"izhichige" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 "<ozhi'aad>"
-	"ozhi'" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"ozhi'" VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"ozhi'" VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<bakwezhiganan>"
-	"bakwezhigan" NA ObvSg
 	"bakwezhigan" NA ObvPl
+	"bakwezhigan" NA ObvSg
 "<ge>"
 	"ge" ADVConj
 "<niin>"
@@ -3274,8 +3336,8 @@
 "<opimeya'ii>"
 	"opimeya'ii" ADVLoc
 "<ani-inaaboonodaa>"
-	"inaaboono" PVDir/ani VAI Imp Sim InclSubj
 	"inaaboono" PVDir/ani VAI Imp Del InclSubj
+	"inaaboono" PVDir/ani VAI Imp Sim InclSubj
 "<.>"
 	"PUNCT" 
 
@@ -3303,11 +3365,11 @@
 # text = Aaniin epiichi-gizhaateg.
 # eng = How hot is it?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiichi-gizhaateg>"
-	"gizhaate" ChCnj PVRel/apiichi VII Cnj Pos Neu 0PlSubj
 	"gizhaate" ChCnj PVRel/apiichi VII Cnj Pos Neu 0SgSubj
+	"gizhaate" ChCnj PVRel/apiichi VII Cnj Pos Neu 0PlSubj
 	"gizhaate" PVRel/apiichi VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -3316,19 +3378,19 @@
 # text = Odazhiikawaan odasabiin. Omegwaa-bagwa'waan.
 # eng = He's working on his nets. He's mending them.
 "<odazhiikawaan>"
-	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"dazhiikaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<odasabiin>"
-	"asab" NA ObvPl 3SgProxPoss
-	"asab" NA ObvSg 3SgProxPoss
 	"odasabii" VAI Imp Sim 2SgSubj
+	"asab" NA ObvSg 3SgProxPoss
+	"asab" NA ObvPl 3SgProxPoss
 "<.>"
 	"PUNCT" 
 "<omegwaa-bagwa'waan>"
-	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
-	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
-	"bagwa'wi" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"bagwa'wi" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bagwa'wi" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
+	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bagwa'" PVLex/megwaa VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
 	"PUNCT" 
 
@@ -3336,20 +3398,20 @@
 # text = Ogiishkizhamowaan iniw oosan omashkosiinsimini.
 # eng = He mowed his father's grass.
 "<ogiishkizhamowaan>"
-	"giishkizhamaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"giishkizhamaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"giishkizhamaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<oosan>"
-	"oos" NAD ObvSg 3SgProxPoss
 	"oos" NAD ObvPl 3SgProxPoss
+	"oos" NAD ObvSg 3SgProxPoss
 "<omashkosiinsimini>"
-	"mashkosi" NI Dim Poss Sg 3SgObvPoss
-	"mashkosi" NI Dim Poss Sg 3PlObvPoss
-	"mashkosi" NI Dim Poss Pl 3SgObvPoss
 	"mashkosi" NI Dim Poss Pl 3PlObvPoss
+	"mashkosi" NI Dim Poss Pl 3SgObvPoss
+	"mashkosi" NI Dim Poss Sg 3PlObvPoss
+	"mashkosi" NI Dim Poss Sg 3SgObvPoss
 "<.>"
 	"PUNCT" 
 
@@ -3361,9 +3423,9 @@
 "<.>"
 	"PUNCT" 
 "<bizindan>"
-	"bizindam" VAI Imp Sim 2SgSubj
-	"bizindan" VTI Imp Sim 2SgSubj 0SgObj
 	"bizindan" VTI Imp Sim 2SgSubj 0PlObj
+	"bizindan" VTI Imp Sim 2SgSubj 0SgObj
+	"bizindam" VAI Imp Sim 2SgSubj
 "<.>"
 	"PUNCT" 
 "<gaazhagens>"
@@ -3377,8 +3439,8 @@
 # text = Aaniin endaswewaanagakin.
 # eng = How many pairs of them are there?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<endaswewaanagakin>"
 	"daswewaanagadoon" ChCnj VIIPL Cnj Pos Neu 0PlSubj
 "<.>"
@@ -3402,8 +3464,8 @@
 "<indaga>"
 	"indaga" PCDisc
 "<o-wiidookaw>"
-	"wiidookaw" PVDir/o VTA Imp Sim 2SgSubj 3PlProxObj
 	"wiidookaw" PVDir/o VTA Imp Sim 2SgSubj 3SgProxObj
+	"wiidookaw" PVDir/o VTA Imp Sim 2SgSubj 3PlProxObj
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<nookomis>"
@@ -3418,12 +3480,13 @@
 # text = Ningii-kagwejikanidimin nishiime gaa-ni-izhi-gabikawid.
 # eng = Me and my sister were racing and she passed me.
 "<ningii-kagwejikanidimin>"
-	"gagwejikazh" PVTense/gii VTA Recip/di VAI Ind Pos Neu ExclSubj ExclObj
 	"gagwejikanidiwag" PVTense/gii VAI Ind Pos Neu ExclSubj ExclObj
+	"gagwejikazh" PVTense/gii VTA Recip/di VAI Ind Pos Neu ExclSubj ExclObj
 "<nishiime>"
 	"shiimey" NAD ProxSg 1SgPoss
 "<gaa-ni-izhi-gabikawid>"
 	"gabikaw" ChCnj PVTense/gii PVDir/ni PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+	"gabikaw" PVTense/gii PVDir/ni PVRel/izhi VTA Pcp Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
 	"gabikaw" PVSub/gaa PVDir/ni PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 1SgObj
 "<.>"
 	"PUNCT" 
@@ -3448,9 +3511,9 @@
 "<giishpin>"
 	"giishpin" ADVGram
 "<gikendanziwan>"
-	"gikendam" VAI Cnj Neg Neu 2SgSubj
-	"gikendan" VTI Cnj Neg Neu 2SgSubj 0SgObj
 	"gikendan" VTI Cnj Neg Neu 2SgSubj 0PlObj
+	"gikendan" VTI Cnj Neg Neu 2SgSubj 0SgObj
+	"gikendam" VAI Cnj Neg Neu 2SgSubj
 "<,>"
 	"PUNCT" 
 "<gidaa-gagwejimaa>"
@@ -3473,6 +3536,7 @@
 	"waasa" ADVLoc
 "<gaa-dazhi-gikinoo'amawind>"
 	"gikinoo'amaw" ChCnj PVTense/gii PVRel/dazhi VTA Cnj Pos Neu XSubj 3SgProxObj
+	"gikinoo'amaw" PVTense/gii PVRel/dazhi VTA Pcp Pos Neu XSubj 3SgProxObj 3SgProxHead
 	"gikinoo'amaw" PVSub/gaa PVRel/dazhi VTA Cnj Pos Neu XSubj 3SgProxObj
 "<.>"
 	"PUNCT" 
@@ -3481,8 +3545,8 @@
 "<ninga-ganoonaa>"
 	"ganoozh" PVTense/ga VTA Ind Pos Neu 1SgSubj 3SgProxObj
 "<onaagoshig>"
-	"onaagoshin" VII Cnj Pos Neu 0PlSubj
 	"onaagoshin" VII Cnj Pos Neu 0SgSubj
+	"onaagoshin" VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -3490,8 +3554,8 @@
 # text = Ozhiigizhan waa'-inigokwegakin gimakizinikaanan.
 # eng = Cut out the pattern for how big you want your moccasins to be.
 "<ozhiigizhan>"
-	"ozhiigizhan" VTI Imp Sim 2SgSubj 0SgObj
 	"ozhiigizhan" VTI Imp Sim 2SgSubj 0PlObj
+	"ozhiigizhan" VTI Imp Sim 2SgSubj 0SgObj
 "<waa'-inigokwegakin>"
 	"inigokwegad" ChCnj PVTense/wii' VII Cnj Pos Neu 0PlSubj
 	"inigokwegad" PVTense/wii' VII Pcp Pos Neu 0PlSubj 0PlHead
@@ -3504,8 +3568,8 @@
 # text = Gichi-gigizhebaawii.
 # eng = He wakes up real early.
 "<gichi-gigizhebaawii>"
-	"gigizhebaawii" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
 	"gigizhebaawii" PVLex/chi VAI Ind Pos Neu 2SgSubj
+	"gigizhebaawii" PVLex/gichi VAI Ind Pos Neu 3SgProxSubj
 "<.>"
 	"PUNCT" 
 
@@ -3558,23 +3622,23 @@
 # eng = She wrapped up her baby and put her to sleep. When she woke up, she unwrapped her.
 "<ogii-kashkiiginaan>"
 	"gashkiiginan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"gashkiigin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"gashkiigin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"gashkiigin" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<oniijaanisensan>"
-	"niijaanis" NAD Dim ObvSg 3SgProxPoss
 	"niijaanis" NAD Dim ObvPl 3SgProxPoss
+	"niijaanis" NAD Dim ObvSg 3SgProxPoss
 "<wii'-nibe'aad>"
-	"nibe'" PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"nibe'" PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"nibe'" PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
 	"PUNCT" 
 "<gii-goshkozinid>"
-	"goshkozi" PVTense/gii VAI Cnj Pos Neu 3SgObvSubj
 	"goshkozi" PVTense/gii VAI Cnj Pos Neu 3PlObvSubj
+	"goshkozi" PVTense/gii VAI Cnj Pos Neu 3SgObvSubj
 "<ogii'-aabiiginaan>"
 	"aabiiginan" PVTense/gii' VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"aabiigin" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"aabiigin" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"aabiigin" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
 	"PUNCT" 
 
@@ -3604,16 +3668,19 @@
 "<izhishimod>"
 	"izhishimo" VAI Cnj Pos Neu 3SgProxSubj
 "<iniwen>"
-	"iniwen" PRONDem NA ObvPl
-	"iniwen" PRONDem NA ObvSg
 	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
 "<gekinawaabamaad>"
-	"gikinawaabam" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"gikinawaabam" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"gikinawaabam" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"gikinawaabam" VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"gikinawaabam" VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 "<naaminid>"
-	"niimi" ChCnj VAI Cnj Pos Neu 3SgObvSubj
-	"niimi" ChCnj VAI Cnj Pos Neu 3PlObvSubj
 	"niimin" ChCnj VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+	"niimi" ChCnj VAI Cnj Pos Neu 3PlObvSubj
+	"niimi" ChCnj VAI Cnj Pos Neu 3SgObvSubj
+	"niimin" VTA Pcp Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
 "<.>"
 	"PUNCT" 
 
@@ -3626,8 +3693,8 @@
 	"iw" PRONDem NI Sg
 "<waasamoo-jiimaanens>"
 	"jiimaan" PNLex/waasamoo NI Dim Sg
-	"waasamoo-jiimaan" NI Dim Sg
 	"waasamoo-jiimaanens" NI Sg
+	"waasamoo-jiimaan" NI Dim Sg
 "<.>"
 	"PUNCT" 
 
@@ -3655,6 +3722,7 @@
 	"aaniish" ADVInter
 "<enaabamad>"
 	"inaabam" ChCnj VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"inaabam" VTA Pcp Pos Neu 2SgSubj 3SgProxObj 3SgProxHead
 "<.>"
 	"PUNCT" 
 
@@ -3670,14 +3738,14 @@
 "<jaagizowag>"
 	"jaagizo" VAI Ind Pos Neu 3PlProxSubj
 "<wenji-maazhibideg>"
-	"maazhibide" ChCnj PVRel/onji VII Cnj Pos Neu 0PlSubj
 	"maazhibide" ChCnj PVRel/onji VII Cnj Pos Neu 0SgSubj
+	"maazhibide" ChCnj PVRel/onji VII Cnj Pos Neu 0PlSubj
 	"maazhibide" PVRel/onji VII Pcp Pos Neu 0SgSubj 0SgHead
 "<'iw>"
 	"'iw" PRONDem NI Sg
 "<odaabaan>"
-	"odaabaan" NA ProxSg
 	"odaabaan" NI Sg
+	"odaabaan" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -3691,8 +3759,8 @@
 	"bishigwaakwii" PVTense/gii PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 	"bishigwaakwii" PVSub/gaa PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
 "<odaabaaning>"
-	"odaabaan" NI Loc
 	"odaabaan" NA Loc
+	"odaabaan" NI Loc
 "<.>"
 	"PUNCT" 
 
@@ -3714,8 +3782,8 @@
 "<imaa>"
 	"imaa" ADVLoc
 "<badakideg>"
-	"badakide" VII Cnj Pos Neu 0PlSubj
 	"badakide" VII Cnj Pos Neu 0SgSubj
+	"badakide" VII Cnj Pos Neu 0PlSubj
 "<i'iw>"
 	"i'iw" PRONDem NI Sg
 "<nibewigamig>"
@@ -3741,21 +3809,23 @@
 "<gidaa-gagwe-mikamawaa>"
 	"mikamaw" PVTense/daa PVLex/gagwe VTA Ind Pos Neu 2SgSubj 3SgProxObj
 "<odoodaabaanan>"
-	"odaabaan" NA ObvSg 3SgProxPoss
-	"odaabaan" NA ObvPl 3SgProxPoss
 	"odaabaan" NI Pl 3SgProxPoss
+	"odaabaan" NA ObvPl 3SgProxPoss
+	"odaabaan" NA ObvSg 3SgProxPoss
 "<gaa-gii'-wani'aad>"
-	"wani'" ChCnj PVTense/gii PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"wani'" ChCnj PVTense/gii PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"wani'" PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"wani'" ChCnj PVTense/gii PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"wani'" PVTense/gii PVTense/gii' VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"wani'" PVTense/gii PVTense/gii' VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"wani'" PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"wani'" PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
 	"PUNCT" 
 "<dakoniwewininiwag>"
 	"dakoniwewinini" NA ProxPl
 "<ogagwe-mikawaawaan>"
-	"mikaw" PVLex/gagwe VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
 	"mikaw" PVLex/gagwe VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	"mikaw" PVLex/gagwe VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
 "<.>"
 	"PUNCT" 
 
@@ -3789,8 +3859,8 @@
 	"biindige" ChCnj PVTense/gii PVRel/izhi VAI Cnj Pos Neu 1SgSubj
 	"biindige" PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj
 "<gii-kiizikamaan>"
-	"giizikan" PVTense/gii VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"giizikan" PVTense/gii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"giizikan" PVTense/gii VTI Cnj Pos Neu 1SgSubj 0SgObj
 "<nimakizinan>"
 	"makizin" NI Pl 1SgPoss
 "<.>"
@@ -3810,8 +3880,8 @@
 # text = Ginandawenimin ji-bi-giiweyan.
 # eng = I want you to come here.
 "<ginandawenimin>"
-	"andawenim" VTA Ind Pos Neu 1SgSubj 2SgObj
 	"nandawenim" VTA Ind Pos Neu 1SgSubj 2SgObj
+	"andawenim" VTA Ind Pos Neu 1SgSubj 2SgObj
 "<ji-bi-giiweyan>"
 	"giiwe" PVTense/ga PVDir/bi VAI Cnj Pos Neu 2SgSubj
 	"giiwe" PVTense/daa PVDir/bi VAI Cnj Pos Neu 2SgSubj
@@ -3826,8 +3896,8 @@
 "<abwewinaabik>"
 	"abwewinaabik" NI Sg
 "<zaasagokwaanag>"
-	"zaasagokwaazh" VTA Cnj Pos Neu 1SgSubj 3SgProxObj
 	"zaasagokwaan" NA ProxPl
+	"zaasagokwaazh" VTA Cnj Pos Neu 1SgSubj 3SgProxObj
 "<a'aw>"
 	"a'aw" PRONDem NA ProxSg
 "<bakwezhigan>"
@@ -3854,8 +3924,8 @@
 "<omaa>"
 	"omaa" ADVLoc
 "<bi-ina'oodoon>"
-	"ina'oodoon" PVDir/bi VTI Imp Sim 2SgSubj 0SgObj
 	"ina'oodoon" PVDir/bi VTI Imp Sim 2SgSubj 0PlObj
+	"ina'oodoon" PVDir/bi VTI Imp Sim 2SgSubj 0SgObj
 	"ina'oodoo" PVDir/bi VAI Imp Sim 2SgSubj
 "<.>"
 	"PUNCT" 
@@ -3866,10 +3936,10 @@
 "<aanawendaagozi>"
 	"aanawendaagozi" VAI Ind Pos Neu 3SgProxSubj
 "<ji-giizhitoopan>"
-	"giizhitoon" PVTense/ga VTI Cnj Pos Prt 3SgProxSubj 0SgObj
 	"giizhitoon" PVTense/ga VTI Cnj Pos Prt 3SgProxSubj 0PlObj
-	"giizhitoon" PVTense/daa VTI Cnj Pos Prt 3SgProxSubj 0SgObj
+	"giizhitoon" PVTense/ga VTI Cnj Pos Prt 3SgProxSubj 0SgObj
 	"giizhitoon" PVTense/daa VTI Cnj Pos Prt 3SgProxSubj 0PlObj
+	"giizhitoon" PVTense/daa VTI Cnj Pos Prt 3SgProxSubj 0SgObj
 "<waakaa'igan>"
 	"waakaa'igan" NI Sg
 "<;>"
@@ -3895,9 +3965,9 @@
 # text = Ogiziibiiginaanan waasechiganan.
 # eng = He's washing the windows.
 "<ogiziibiiginaanan>"
-	"giziibiiginan" VTI Ind Pos Neu 3SgProxSubj 0PlObj
-	"giziibiiginan" VTI Ind Pos Neu 3SgObvSubj 0PlObj
 	"giziibiiginan" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	"giziibiiginan" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"giziibiiginan" VTI Ind Pos Neu 3SgProxSubj 0PlObj
 "<waasechiganan>"
 	"waasechigan" NI Pl
 "<.>"
@@ -3907,8 +3977,8 @@
 # text = Waabang niwii'-naajiwanii'ige. Niwii'-maajiidoonan gokeyawan.
 # eng = Tomorrow I will check the traps. I will take some baits along.
 "<waabang>"
-	"waaban" VII Cnj Pos Neu 0PlSubj
 	"waaban" VII Cnj Pos Neu 0SgSubj
+	"waaban" VII Cnj Pos Neu 0PlSubj
 "<niwii'-naajiwanii'ige>"
 	"naajiwanii'ige" PVTense/wii' VAI Ind Pos Neu 1SgSubj
 "<.>"
@@ -3950,8 +4020,10 @@
 "<wiin>"
 	"wiin" PRONPer NA 3Sg
 "<epiitangimaad>"
-	"apiitangim" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"apiitangim" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"apiitangim" ChCnj VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"apiitangim" VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"apiitangim" VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 "<.>"
 	"PUNCT" 
 
@@ -4000,6 +4072,7 @@
 	"maanendam" VAI Ind Pos Neu 1SgSubj
 "<enaajimotawid>"
 	"inaajimotaw" ChCnj VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+	"inaajimotaw" VTA Pcp Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
 "<.>"
 	"PUNCT" 
 
@@ -4007,8 +4080,8 @@
 # text = Gabe-biboon noopimiing ningiishka'aakwe.
 # eng = I've been cutting pulp in the bush all winter long.
 "<gabe-biboon>"
-	"gabe-biboon" ADVTmp
 	"biboon" PVLex/gabe VII Ind Pos Neu 0SgSubj
+	"gabe-biboon" ADVTmp
 "<noopimiing>"
 	"noopimiing" ADVLoc
 "<ningiishka'aakwe>"
@@ -4032,8 +4105,8 @@
 # text = Andawaabandan i'iw gichi-gwaaba'igan.
 # eng = Look for the Big Dipper.
 "<andawaabandan>"
-	"andawaabandan" VTI Imp Sim 2SgSubj 0SgObj
 	"andawaabandan" VTI Imp Sim 2SgSubj 0PlObj
+	"andawaabandan" VTI Imp Sim 2SgSubj 0SgObj
 "<i'iw>"
 	"i'iw" PRONDem NI Sg
 "<gichi-gwaaba'igan>"
@@ -4081,8 +4154,8 @@
 "<ishke>"
 	"ishke" PCDisc
 "<gopiidaa>"
-	"gopii" VAI Imp Sim InclSubj
 	"gopii" VAI Imp Del InclSubj
+	"gopii" VAI Imp Sim InclSubj
 "<.>"
 	"PUNCT" 
 
@@ -4104,20 +4177,20 @@
 "<zhaangaso>"
 	"zhaangaso" NUM
 "<gii-ayaaw>"
-	"ayaaw" PVTense/gii VTA Imp Sim 2SgSubj 3PlProxObj
 	"ayaaw" PVTense/gii VTA Imp Sim 2SgSubj 3SgProxObj
+	"ayaaw" PVTense/gii VTA Imp Sim 2SgSubj 3PlProxObj
 "<...>"
 	"PUNCT" 
 "<ogii-ayaawaan>"
-	"ayaaw" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"ayaaw" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"ayaaw" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<animoonsan>"
-	"animoons" NA ObvSg
 	"animoons" NA ObvPl
+	"animoons" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -4125,8 +4198,8 @@
 # text = Onashkinatoon gibaashkizigan.
 # eng = Load your gun.
 "<onashkinatoon>"
-	"onashkinatoon" VTI Imp Sim 2SgSubj 0SgObj
 	"onashkinatoon" VTI Imp Sim 2SgSubj 0PlObj
+	"onashkinatoon" VTI Imp Sim 2SgSubj 0SgObj
 "<gibaashkizigan>"
 	"baashkizigan" NI Sg 2SgPoss
 "<.>"
@@ -4177,8 +4250,8 @@
 "<gego>"
 	"gego" ADVNeg
 "<waniikeken>"
-	"waniiken" VAIO Imp Prb 2SgSubj 0SgObj
 	"waniiken" VAIO Imp Prb 2SgSubj 0PlObj
+	"waniiken" VAIO Imp Prb 2SgSubj 0SgObj
 	"waniike" VAI Imp Prb 2SgSubj
 "<ji-izhiwidamaageyan>"
 	"izhiwidamaage" PVTense/ga VAI Cnj Pos Neu 2SgSubj
@@ -4188,8 +4261,8 @@
 "<.>"
 	"PUNCT" 
 "<waabang>"
-	"waaban" VII Cnj Pos Neu 0PlSubj
 	"waaban" VII Cnj Pos Neu 0SgSubj
+	"waaban" VII Cnj Pos Neu 0PlSubj
 "<da-giba'igaade>"
 	"giba'igaade" PVTense/ga VII Ind Pos Neu 0SgSubj
 "<ozhibii'igewigamig>"
@@ -4203,9 +4276,10 @@
 "<aaniish>"
 	"aaniish" ADVInter
 "<enendaman>"
-	"inendam" ChCnj VAI Cnj Pos Neu 2SgSubj
-	"inendan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"inendan" ChCnj VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"inendan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"inendam" ChCnj VAI Cnj Pos Neu 2SgSubj
+	"inendan" VTI Pcp Pos Neu 2SgSubj 0SgObj 0SgHead
 "<.>"
 	"PUNCT" 
 "<ambegish>"
@@ -4235,11 +4309,11 @@
 # text = Aaniin epiitoonagak jiimaan?
 # eng = How deep is the canoe?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiitoonagak>"
-	"apiitoonagad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitoonagad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitoonagad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitoonagad" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<jiimaan>"
 	"jiimaan" NI Sg
@@ -4272,13 +4346,13 @@
 "<ogii-pwaawibidoon>"
 	"bwaawibidoon" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0SgObj
 "<aana-wii-bakibidood>"
-	"bakibidoon" PVTense/aana PVTense/wii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"bakibidoon" PVTense/aana PVTense/wii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"bakibidoon" PVTense/aana PVTense/wii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<biiminakwaanens>"
-	"biiminakwaan" NI Dim Sg
 	"biiminakwaanens" NI Sg
+	"biiminakwaan" NI Dim Sg
 "<.>"
 	"PUNCT" 
 
@@ -4300,16 +4374,18 @@
 # text = Odabaagamizamawaan naboob waa'-ashamaad omishoomisan.
 # eng = She's warming up soup for her grandfather.
 "<odabaagamizamawaan>"
-	"abaagamizamaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"abaagamizamaw" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"abaagamizamaw" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<naboob>"
 	"naboob" NI Sg
 "<waa'-ashamaad>"
-	"asham" ChCnj PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"asham" ChCnj PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"asham" ChCnj PVTense/wii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"asham" PVTense/wii' VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"asham" PVTense/wii' VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 "<omishoomisan>"
-	"mishoomis" NAD ObvSg 3SgProxPoss
 	"mishoomis" NAD ObvPl 3SgProxPoss
+	"mishoomis" NAD ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -4325,8 +4401,9 @@
 "<'iw>"
 	"'iw" PRONDem NI Sg
 "<endawaabandaman>"
-	"andawaabandan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"andawaabandan" ChCnj VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"andawaabandan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"andawaabandan" VTI Pcp Pos Neu 2SgSubj 0SgObj 0SgHead
 "<.>"
 	"PUNCT" 
 
@@ -4402,11 +4479,11 @@
 # text = Aaniin epiitading.
 # eng = How thick is the ice? = "How far is it frozen?"
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiitading>"
-	"apiitadin" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitadin" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitadin" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitadin" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -4420,8 +4497,8 @@
 "<ani-ipide>"
 	"ipide" PVDir/ani VII Ind Pos Neu 0SgSubj
 "<naabikwaanens>"
-	"naabikwaan" NI Dim Sg
 	"naabikwaanens" NI Sg
+	"naabikwaan" NI Dim Sg
 "<.>"
 	"PUNCT" 
 
@@ -4453,8 +4530,8 @@
 "<onzaam>"
 	"onzaam" ADVQnt
 "<gii-gichi-noodin>"
-	"gichi-noodin" PVTense/gii VII Ind Pos Neu 0SgSubj
 	"noodin" PVTense/gii PVLex/gichi VII Ind Pos Neu 0SgSubj
+	"gichi-noodin" PVTense/gii VII Ind Pos Neu 0SgSubj
 "<.>"
 	"PUNCT" 
 
@@ -4464,9 +4541,9 @@
 "<wegodogwenan>"
 	"wegodogwenan" PRONDub NI Pl
 "<onowe>"
-	"onowe" PRONDem NA ObvPl
-	"onowe" PRONDem NA ObvSg
 	"onowe" PRONDem NI Pl
+	"onowe" PRONDem NA ObvSg
+	"onowe" PRONDem NA ObvPl
 "<dinominan>"
 	"dinomin" NI Pl
 "<.>"
@@ -4495,15 +4572,15 @@
 "<'iw>"
 	"'iw" PRONDem NI Sg
 "<ji-gashkitooyegiban>"
-	"gashkitoon" PVTense/ga VTI Cnj Pos Prt 2PlSubj 0SgObj
 	"gashkitoon" PVTense/ga VTI Cnj Pos Prt 2PlSubj 0PlObj
-	"gashkitoon" PVTense/daa VTI Cnj Pos Prt 2PlSubj 0SgObj
+	"gashkitoon" PVTense/ga VTI Cnj Pos Prt 2PlSubj 0SgObj
 	"gashkitoon" PVTense/daa VTI Cnj Pos Prt 2PlSubj 0PlObj
+	"gashkitoon" PVTense/daa VTI Cnj Pos Prt 2PlSubj 0SgObj
 "<ji-ozhitooyeg>"
-	"ozhitoon" PVTense/ga VTI Cnj Pos Neu 2PlSubj 0SgObj
 	"ozhitoon" PVTense/ga VTI Cnj Pos Neu 2PlSubj 0PlObj
-	"ozhitoon" PVTense/daa VTI Cnj Pos Neu 2PlSubj 0SgObj
+	"ozhitoon" PVTense/ga VTI Cnj Pos Neu 2PlSubj 0SgObj
 	"ozhitoon" PVTense/daa VTI Cnj Pos Neu 2PlSubj 0PlObj
+	"ozhitoon" PVTense/daa VTI Cnj Pos Neu 2PlSubj 0SgObj
 "<bakejiigaan>"
 	"bakejiigaan" NI Sg
 "<?>"
@@ -4527,11 +4604,11 @@
 "<waasechigan>"
 	"waasechigan" NI Sg
 "<gaa-onji-biindigebiisaag>"
-	"biindigebiisaa" ChCnj PVTense/gii PVRel/onji VII Cnj Pos Neu 0PlSubj
 	"biindigebiisaa" ChCnj PVTense/gii PVRel/onji VII Cnj Pos Neu 0SgSubj
+	"biindigebiisaa" ChCnj PVTense/gii PVRel/onji VII Cnj Pos Neu 0PlSubj
 	"biindigebiisaa" PVTense/gii PVRel/onji VII Pcp Pos Neu 0SgSubj 0SgHead
-	"biindigebiisaa" PVSub/gaa PVRel/onji VII Cnj Pos Neu 0PlSubj
 	"biindigebiisaa" PVSub/gaa PVRel/onji VII Cnj Pos Neu 0SgSubj
+	"biindigebiisaa" PVSub/gaa PVRel/onji VII Cnj Pos Neu 0PlSubj
 
 # sent_id = 284
 # text = Mishawagaam waasaashkaa.
@@ -4559,11 +4636,11 @@
 # text = Aaniin epogwak.
 # eng = How does it taste?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epogwak>"
-	"ipogwad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"ipogwad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"ipogwad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"ipogwad" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -4577,13 +4654,15 @@
 	"danaakizo" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
 	"danaakizo" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 "<gaa-wiidaakizoomaad>"
-	"wiidaakizoom" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"wiidaakizoom" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"wiidaakizoom" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"wiidaakizoom" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"wiidaakizoom" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"wiidaakizoom" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"wiidaakizoom" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"wiidaakizoom" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<ogimaakaanan>"
-	"ogimaakaan" NA ObvSg
 	"ogimaakaan" NA ObvPl
+	"ogimaakaan" NA ObvSg
 
 # sent_id = 288
 # text = Gii-nookide i'iw wiiyaas.
@@ -4593,8 +4672,8 @@
 "<i'iw>"
 	"i'iw" PRONDem NI Sg
 "<wiiyaas>"
-	"iiyaas" NID Sg 3SgProxPoss
 	"wiiyaas" NI Sg
+	"iiyaas" NID Sg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -4604,12 +4683,12 @@
 "<indaga>"
 	"indaga" PCDisc
 "<zagakisidoon>"
-	"zagakisidoon" VTI Imp Sim 2SgSubj 0SgObj
 	"zagakisidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"zagakisidoon" VTI Imp Sim 2SgSubj 0SgObj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<onaaganan>"
 	"onaagan" NI Pl
 "<.>"
@@ -4669,13 +4748,13 @@
 # text = Giwii-adaawange ina akikoons.
 # eng = Do you want to borrow a motor.
 "<giwii-adaawange>"
-	"adaawange" PVTense/wii VAI Ind Pos Neu 2SgSubj
 	"adaawangen" PVTense/wii VAIO Ind Pos Neu 2SgSubj
+	"adaawange" PVTense/wii VAI Ind Pos Neu 2SgSubj
 "<ina>"
 	"ina" PCDisc
 "<akikoons>"
-	"akik" NA Dim ProxSg
 	"akikoons" NA ProxSg
+	"akik" NA Dim ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -4696,19 +4775,25 @@
 	"minochige" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<gii-asanjigod>"
 	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj
-	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
 	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3SgProxHead
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"asanjigon" PVTense/gii VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"asanjigo" PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<ozhooniyaaman>"
 	"zhooniyaa" NI Poss Pl 3SgProxPoss
-	"zhooniyaa" NA Poss ObvSg 3SgProxPoss
 	"zhooniyaa" NA Poss ObvPl 3SgProxPoss
+	"zhooniyaa" NA Poss ObvSg 3SgProxPoss
 "<imaa>"
 	"imaa" ADVLoc
 "<zhooniyaawigamigong>"
@@ -4720,8 +4805,8 @@
 # text = Aaniin enaadizid?
 # eng = What kind of life does he lead?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<enaadizid>"
 	"inaadizi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"inaadizi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
@@ -4740,8 +4825,8 @@
 # text = Gichiwishkaa giwanii'igan.
 # eng = Your trap is stuck.
 "<gichiwishkaa>"
-	"gichiwishkaa" VAI Ind Pos Neu 3SgProxSubj
 	"gichiwishkaa" VII Ind Pos Neu 0SgSubj
+	"gichiwishkaa" VAI Ind Pos Neu 3SgProxSubj
 "<giwanii'igan>"
 	"wanii'igan" NI Sg 2SgPoss
 "<.>"
@@ -4831,15 +4916,15 @@
 # text = Gidaa-ozhiga'waa na awedi mitig.
 # eng = Can you tap that tree over there?
 "<gidaa-ozhiga'waa>"
-	"ozhiga'wi" PVTense/daa VTA Ind Pos Neu 2SgSubj 3SgProxObj
 	"ozhiga'" PVTense/daa VTA Ind Pos Neu 2SgSubj 3SgProxObj
+	"ozhiga'wi" PVTense/daa VTA Ind Pos Neu 2SgSubj 3SgProxObj
 "<na>"
 	"na" PCDisc
 "<awedi>"
 	"awedi" PRONDem NA ProxSg
 "<mitig>"
-	"mitig" NA ProxSg
 	"mitig" NI Sg
+	"mitig" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -4847,8 +4932,8 @@
 # text = Bebooninig gii-nitaawigi.
 # eng = She was born in the winter.
 "<bebooninig>"
-	"biboon" ChCnj VII Cnj Pos Neu 0SgObvSubj
 	"biboon" ChCnj VII Cnj Pos Neu 0PlObvSubj
+	"biboon" ChCnj VII Cnj Pos Neu 0SgObvSubj
 	"biboon" VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
 "<gii-nitaawigi>"
 	"nitaawigi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
@@ -4860,15 +4945,15 @@
 # eng = He's gathering up his potatoes.
 "<omaamiginaan>"
 	"maamiginan" VTI Ind Pos Neu 3SgProxSubj 0SgObj
-	"maamigin" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"maamigin" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"maamigin" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<odoopiniiman>"
-	"opin" NA Poss ObvSg 3SgProxPoss
 	"opin" NA Poss ObvPl 3SgProxPoss
+	"opin" NA Poss ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -4897,6 +4982,7 @@
 	"awenen" PRONInter NA ProxSg
 "<gaa'-inagimind>"
 	"inagim" ChCnj PVTense/gii' VTA Cnj Pos Neu XSubj 3SgProxObj
+	"inagim" PVTense/gii' VTA Pcp Pos Neu XSubj 3SgProxObj 3SgProxHead
 "<ji-ogimaakaaniwid>"
 	"ogimaakaaniwi" PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
 	"ogimaakaaniwi" PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
@@ -4945,8 +5031,8 @@
 "<babagiwayaaniigin>"
 	"babagiwayaaniigin" NI Sg
 "<gaa-piidooyin>"
-	"biidoon" ChCnj PVTense/gii VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"biidoon" ChCnj PVTense/gii VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"biidoon" ChCnj PVTense/gii VTI Cnj Pos Neu 2SgSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -4970,8 +5056,8 @@
 "<zhiishiibanwii-baashkizigan>"
 	"zhiishiibanwii-baashkizigan" NI Sg
 "<aabajitoon>"
-	"aabajitoon" VTI Imp Sim 2SgSubj 0SgObj
 	"aabajitoon" VTI Imp Sim 2SgSubj 0PlObj
+	"aabajitoon" VTI Imp Sim 2SgSubj 0SgObj
 "<andawishibeyan>"
 	"andawishibe" VAI Cnj Pos Neu 2SgSubj
 "<.>"
@@ -5006,6 +5092,7 @@
 	"inendam" PVTense/gii' VAI Ind Pos Neu 1SgSubj
 "<gaa-inaajimotawid>"
 	"inaajimotaw" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+	"inaajimotaw" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
 	"inaajimotaw" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 1SgObj
 "<.>"
 	"PUNCT" 
@@ -5044,8 +5131,8 @@
 # text = Bookwaabikiboodoon zaga'igan giishpin onzaam ginwaabikak.
 # eng = File the nail in half if it is too long.
 "<bookwaabikiboodoon>"
-	"bookwaabikiboodoon" VTI Imp Sim 2SgSubj 0SgObj
 	"bookwaabikiboodoon" VTI Imp Sim 2SgSubj 0PlObj
+	"bookwaabikiboodoon" VTI Imp Sim 2SgSubj 0SgObj
 "<zaga'igan>"
 	"zaga'igan" NI Sg
 "<giishpin>"
@@ -5053,8 +5140,8 @@
 "<onzaam>"
 	"onzaam" ADVQnt
 "<ginwaabikak>"
-	"ginwaabikad" VII Cnj Pos Neu 0PlSubj
 	"ginwaabikad" VII Cnj Pos Neu 0SgSubj
+	"ginwaabikad" VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -5062,11 +5149,11 @@
 # text = Aaniin epiitagoodeg.
 # eng = How high does it hang?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiitagoodeg>"
-	"apiitagoode" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitagoode" ChCnj VII Cnj Pos Neu 0SgSubj
+	"apiitagoode" ChCnj VII Cnj Pos Neu 0PlSubj
 	"apiitagoode" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -5105,8 +5192,8 @@
 "<omaa>"
 	"omaa" ADVLoc
 "<aana-gii-agoodooyaan>"
-	"agoodoon" PVTense/aana PVTense/gii VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"agoodoon" PVTense/aana PVTense/gii VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"agoodoon" PVTense/aana PVTense/gii VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"agoodoo" PVTense/aana PVTense/gii VAI Cnj Pos Neu 1SgSubj
 "<.>"
 	"PUNCT" 
@@ -5115,8 +5202,8 @@
 # text = Gaganoonidiwaad igi ininiwag waanda-wiinaajimowag naa.
 # eng = When the men are talking together, they talk real dirty.
 "<gaganoonidiwaad>"
-	"gaganoozh" VTA Recip/di VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
 	"gaganoonidiwag" VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
+	"gaganoozh" VTA Recip/di VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
 "<igi>"
 	"igi" PRONDem NA ProxPl
 "<ininiwag>"
@@ -5132,8 +5219,8 @@
 # text = Aaniin epiitizid gidaanis.
 # eng = How old is your daughter?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiitizid>"
 	"apiitizi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"apiitizi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
@@ -5150,14 +5237,16 @@
 "<animoshag>"
 	"animosh" NA ProxPl
 "<gaa-odaabii'aad>"
-	"odaabii'" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"odaabii'" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"odaabii'" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"odaabii'" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"odaabii'" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"odaabii'" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"odaabii'" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"odaabii'" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<gaa-maa'ishkang>"
 	"maa'ishkam" ChCnj PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
-	"maa'ishkam" PVTense/gii VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
 	"maa'ishkam" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+	"maa'ishkam" PVTense/gii VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
 	"maa'ishkam" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
 "<.>"
 	"PUNCT" 
@@ -5168,8 +5257,8 @@
 "<biinjinaagan>"
 	"biinjinaagan" ADVLoc
 "<atoon>"
-	"atoon" VTI Imp Sim 2SgSubj 0SgObj
 	"atoon" VTI Imp Sim 2SgSubj 0PlObj
+	"atoon" VTI Imp Sim 2SgSubj 0SgObj
 "<giwiikongewin>"
 	"wiikongewin" NI Sg 2SgPoss
 "<.>"
@@ -5181,15 +5270,15 @@
 "<onjida>"
 	"onjida" ADVMan
 "<ogii-moo'aan>"
-	"moo'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"moo'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"moo'" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniwen>"
-	"iniwen" PRONDem NA ObvPl
-	"iniwen" PRONDem NA ObvSg
 	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
 "<oshiimenyan>"
-	"shiimenhy" NAD ObvSg 3SgProxPoss
 	"shiimenhy" NAD ObvPl 3SgProxPoss
+	"shiimenhy" NAD ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -5200,15 +5289,19 @@
 	"giishpin" ADVGram
 "<odaminwaagesiwan>"
 	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj
-	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 3PlProxObj
-	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 3SgProxObj
-	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 0SgObj
 	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 0PlObj
+	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 0SgObj
+	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 0SgObj 0SgHead
+	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 3SgProxObj
+	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 3SgProxObj 3SgProxHead
+	"odaminwaagen" VAIO Cnj Neg Neu 2SgSubj 3PlProxObj
 	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj
-	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 3PlProxObj
-	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 3SgProxObj
-	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 0SgObj
 	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 0PlObj
+	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 0SgObj
+	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 0SgObj 0SgHead
+	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 3SgProxObj
+	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 3SgProxObj 3SgProxHead
+	"odaminwaage" VAIO Cnj Neg Neu 2SgSubj 3PlProxObj
 "<bikwaakwad>"
 	"bikwaakwad" NI Sg
 "<,>"
@@ -5223,15 +5316,15 @@
 # text = Miinooj igo niwii-odaabii'iwe ani-dibikak.
 # eng = I'm going to try to drive in the dark anyway.
 "<miinooj>"
-	"miinooj" ADVMan
 	"ishkwe-minis" ADVLoc
+	"miinooj" ADVMan
 "<igo>"
 	"igo" PCEmph
 "<niwii-odaabii'iwe>"
 	"odaabii'iwe" PVTense/wii VAI Ind Pos Neu 1SgSubj
 "<ani-dibikak>"
-	"dibikad" PVDir/ani VII Cnj Pos Neu 0PlSubj
 	"dibikad" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	"dibikad" PVDir/ani VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -5286,9 +5379,9 @@
 "<naajidaabiin>"
 	"naajidaabii" VAI Imp Sim 2SgSubj
 "<ashkaatigoon>"
+	"ashkaatig" NI Pl
 	"ashkaatig" NA ObvPl
 	"ashkaatig" NA ObvSg
-	"ashkaatig" NI Pl
 "<.>"
 	"PUNCT" 
 
@@ -5298,11 +5391,11 @@
 "<akawe>"
 	"akawe" ADVTmp
 "<waabandan>"
-	"waabandan" VTI Imp Sim 2SgSubj 0SgObj
 	"waabandan" VTI Imp Sim 2SgSubj 0PlObj
+	"waabandan" VTI Imp Sim 2SgSubj 0SgObj
 "<enaanimak>"
-	"inaanimad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"inaanimad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"inaanimad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"inaanimad" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<jibwaa-aazhawa'oyan>"
 	"aazhawa'o" PVTense/jibwaa VAI Cnj Pos Neu 2SgSubj
@@ -5345,8 +5438,8 @@
 # text = Gii-ziigwang agwaataawag miskwaadesiwag gii-ando-owaawanowaad.
 # eng = In the spring the mud turtles come ashore to lay their eggs.
 "<gii-ziigwang>"
-	"ziigwan" PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"ziigwan" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"ziigwan" PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<agwaataawag>"
 	"agwaataa" VAI Ind Pos Neu 3PlProxSubj
 "<miskwaadesiwag>"
@@ -5362,13 +5455,13 @@
 "<mitaabik>"
 	"mitaabik" ADVLoc
 "<dazhwegisidoon>"
-	"dazhwegisidoon" VTI Imp Sim 2SgSubj 0SgObj
 	"dazhwegisidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"dazhwegisidoon" VTI Imp Sim 2SgSubj 0SgObj
 "<ji-baateg>"
-	"baate" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"baate" PVTense/ga VII Cnj Pos Neu 0SgSubj
-	"baate" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"baate" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"baate" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	"baate" PVTense/daa VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -5382,8 +5475,8 @@
 "<go>"
 	"go" PCDisc
 "<indoojibwem>"
-	"ojibwemo" VAI Ind Pos Neu 1SgSubj
 	"ojibwe" NA Poss ProxSg 1SgPoss
+	"ojibwemo" VAI Ind Pos Neu 1SgSubj
 "<.>"
 	"PUNCT" 
 
@@ -5407,8 +5500,8 @@
 "<iwidi>"
 	"iwidi" ADVLoc
 "<apatwaadan>"
-	"apatwaadan" VTI Imp Sim 2SgSubj 0SgObj
 	"apatwaadan" VTI Imp Sim 2SgSubj 0PlObj
+	"apatwaadan" VTI Imp Sim 2SgSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -5427,10 +5520,10 @@
 # text = Gii-bimi-gichi-nooding, niibowa gii-kawaashiwag mitigoog.
 # eng = When a big wind came along, a lot of trees blew down.
 "<gii-bimi-gichi-nooding>"
-	"noodin" PVTense/gii PVDir/bimi PVLex/gichi VII Cnj Pos Neu 0PlSubj
-	"noodin" PVTense/gii PVDir/bimi PVLex/gichi VII Cnj Pos Neu 0SgSubj
-	"gichi-noodin" PVTense/gii PVDir/bimi VII Cnj Pos Neu 0PlSubj
 	"gichi-noodin" PVTense/gii PVDir/bimi VII Cnj Pos Neu 0SgSubj
+	"gichi-noodin" PVTense/gii PVDir/bimi VII Cnj Pos Neu 0PlSubj
+	"noodin" PVTense/gii PVDir/bimi PVLex/gichi VII Cnj Pos Neu 0SgSubj
+	"noodin" PVTense/gii PVDir/bimi PVLex/gichi VII Cnj Pos Neu 0PlSubj
 "<,>"
 	"PUNCT" 
 "<niibowa>"
@@ -5462,8 +5555,8 @@
 "<iwidi>"
 	"iwidi" ADVLoc
 "<awi-atoon>"
-	"atoon" PVDir/awi VTI Imp Sim 2SgSubj 0SgObj
 	"atoon" PVDir/awi VTI Imp Sim 2SgSubj 0PlObj
+	"atoon" PVDir/awi VTI Imp Sim 2SgSubj 0SgObj
 "<'i>"
 	"'i" PRONDem NI Sg
 "<apabiwin>"
@@ -5475,11 +5568,11 @@
 # text = Aaniin ezhiwebak agwajiing?
 # eng = What's it like outside?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<ezhiwebak>"
-	"izhiwebad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"izhiwebad" ChCnj VII Cnj Pos Neu 0SgSubj
+	"izhiwebad" ChCnj VII Cnj Pos Neu 0PlSubj
 	"izhiwebad" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<agwajiing>"
 	"agwajiing" ADVLoc
@@ -5492,8 +5585,8 @@
 "<wii-gichi-gisinaamagad>"
 	"gisinaa" PVTense/wii PVLex/gichi VII Aug/magad VII Ind Pos Neu 0SgSubj
 "<waabang>"
-	"waaban" VII Cnj Pos Neu 0PlSubj
 	"waaban" VII Cnj Pos Neu 0SgSubj
+	"waaban" VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -5501,8 +5594,8 @@
 # text = Agoozh igiw niizh.
 # eng = Hang those two.
 "<agoozh>"
-	"agoozh" VTA Imp Sim 2SgSubj 3PlProxObj
 	"agoozh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"agoozh" VTA Imp Sim 2SgSubj 3PlProxObj
 "<igiw>"
 	"igiw" PRONDem NA ProxPl
 "<niizh>"
@@ -5516,8 +5609,8 @@
 "<ingii-kashkaabika'aan>"
 	"gashkaabika'an" PVTense/gii VTI Ind Pos Neu 1SgSubj 0SgObj
 "<indoodaabaan>"
-	"odaabaan" NA ProxSg 1SgPoss
 	"odaabaan" NI Sg 1SgPoss
+	"odaabaan" NA ProxSg 1SgPoss
 "<degoshinaan>"
 	"dagoshin" ChCnj VAI Cnj Pos Neu 1SgSubj
 "<imaa>"
@@ -5531,8 +5624,8 @@
 # text = Aaniin epiichibizod.
 # eng = How fast is he driving?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<epiichibizod>"
 	"apiichibizo" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"apiichibizo" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
@@ -5546,11 +5639,11 @@
 	"naawaawigan" ADVLoc
 "<agokewan>"
 	"agoke" VII Ind Pos Neu 0PlSubj
-	"agoke" VAI Ind Pos Neu 3SgObvSubj
 	"agoke" VAI Ind Pos Neu 3PlObvSubj
+	"agoke" VAI Ind Pos Neu 3SgObvSubj
 "<ezigaan>"
-	"ezigaa" NA ObvSg
 	"ezigaa" NA ObvPl
+	"ezigaa" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -5558,8 +5651,8 @@
 # text = Gikinawaabam ezhichiged.
 # eng = Do what she does.
 "<gikinawaabam>"
-	"gikinawaabam" VTA Imp Sim 2SgSubj 3PlProxObj
 	"gikinawaabam" VTA Imp Sim 2SgSubj 3SgProxObj
+	"gikinawaabam" VTA Imp Sim 2SgSubj 3PlProxObj
 "<ezhichiged>"
 	"izhichige" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"izhichige" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
@@ -5570,8 +5663,8 @@
 # text = Biinzaabam akik.
 # eng = Look into  the pot.
 "<biinzaabam>"
-	"biinzaabam" VTA Imp Sim 2SgSubj 3PlProxObj
 	"biinzaabam" VTA Imp Sim 2SgSubj 3SgProxObj
+	"biinzaabam" VTA Imp Sim 2SgSubj 3PlProxObj
 "<akik>"
 	"akik" NA ProxSg
 "<.>"
@@ -5581,8 +5674,8 @@
 # text = Noondaagomotoon gidochigan.
 # eng = Play the radio!. = Turn on the radio.
 "<noondaagomotoon>"
-	"noondaagomotoon" VTI Imp Sim 2SgSubj 0SgObj
 	"noondaagomotoon" VTI Imp Sim 2SgSubj 0PlObj
+	"noondaagomotoon" VTI Imp Sim 2SgSubj 0SgObj
 "<gidochigan>"
 	"gidochigan" NI Sg
 "<.>"
@@ -5605,13 +5698,13 @@
 # text = Agokadoon 'i wiiyaas imaa abwaanaakong.
 # eng = Stick the meat on the spit.
 "<agokadoon>"
-	"agokadoon" VTI Imp Sim 2SgSubj 0SgObj
 	"agokadoon" VTI Imp Sim 2SgSubj 0PlObj
+	"agokadoon" VTI Imp Sim 2SgSubj 0SgObj
 "<'i>"
 	"'i" PRONDem NI Sg
 "<wiiyaas>"
-	"iiyaas" NID Sg 3SgProxPoss
 	"wiiyaas" NI Sg
+	"iiyaas" NID Sg 3SgProxPoss
 "<imaa>"
 	"imaa" ADVLoc
 "<abwaanaakong>"
@@ -5623,8 +5716,8 @@
 # text = Gii-noonashkine awe makwa aana-wii-piindigeyooded imaa waanzhing.
 # eng = That bear didn't fit when he tried to crawl into that den.
 "<gii-noonashkine>"
-	"noonashkine" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 	"noonashkine" PVTense/gii VII Ind Pos Neu 0SgSubj
+	"noonashkine" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<makwa>"
@@ -5662,17 +5755,17 @@
 "<gii-kiimoodanokii>"
 	"giimoodanokii" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<aana-gii-igod>"
-	"izhi" PVTense/aana PVTense/gii VTA Cnj Pos Neu 0PlSubj 3SgProxObj
-	"izhi" PVTense/aana PVTense/gii VTA Cnj Pos Neu 0SgSubj 3SgProxObj
-	"izhi" PVTense/aana PVTense/gii VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
 	"izhi" PVTense/aana PVTense/gii VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"izhi" PVTense/aana PVTense/gii VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"izhi" PVTense/aana PVTense/gii VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+	"izhi" PVTense/aana PVTense/gii VTA Cnj Pos Neu 0PlSubj 3SgProxObj
 "<ini>"
+	"ini" PRONDem NI Pl
 	"ini" PRONDem NA ObvPl
 	"ini" PRONDem NA ObvSg
-	"ini" PRONDem NI Pl
 "<mashkikiiwininiwan>"
-	"mashkikiiwinini" NA ObvSg
 	"mashkikiiwinini" NA ObvPl
+	"mashkikiiwinini" NA ObvSg
 "<ji-anokiisig>"
 	"anokii" PVTense/ga VAI Cnj Neg Neu 3SgProxSubj
 	"anokii" PVTense/daa VAI Cnj Neg Neu 3SgProxSubj
@@ -5731,9 +5824,9 @@
 "<nindaanis>"
 	"daanis" NAD ProxSg 1SgPoss
 "<obiizikaanan>"
-	"biizikan" VTI Ind Pos Neu 3SgProxSubj 0PlObj
-	"biizikan" VTI Ind Pos Neu 3SgObvSubj 0PlObj
 	"biizikan" VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	"biizikan" VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"biizikan" VTI Ind Pos Neu 3SgProxSubj 0PlObj
 "<oshkiinzhigokaanan>"
 	"oshkiinzhigokaanan" NI Pl
 "<odaabii'iwed>"
@@ -5773,14 +5866,20 @@
 	"miizh" PVTense/daa VTA Cnj Pos Neu XSubj 3SgProxObj
 "<zhooniyaan>"
 	"zhooniyaa" NI Pl
-	"zhooniyaa" NA ObvSg
 	"zhooniyaa" NA ObvPl
+	"zhooniyaa" NA ObvSg
 "<waa'-awi'aazod>"
 	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj
-	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
 	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 3SgProxHead
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"awi'aazon" ChCnj PVTense/wii' VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 "<imaa>"
 	"imaa" ADVLoc
 "<zhooniyaawigamigong>"
@@ -5792,19 +5891,19 @@
 # text = Gaa-niizhwaaso-diba'iganedinig  gii-kigizhebaa-wiisini a'awe akiwenzii.
 # eng = At seven o'clock that old man had his breakfast.
 "<gaa-niizhwaaso-diba'iganedinig>"
-	"niizhwaaso-diba'iganed" ChCnj PVTense/gii VII Cnj Pos Neu 0SgObvSubj
 	"niizhwaaso-diba'iganed" ChCnj PVTense/gii VII Cnj Pos Neu 0PlObvSubj
-	"diba'iganed" ChCnj PVTense/gii PVQnt/niizhwaaso VII Cnj Pos Neu 0SgObvSubj
+	"niizhwaaso-diba'iganed" ChCnj PVTense/gii VII Cnj Pos Neu 0SgObvSubj
 	"diba'iganed" ChCnj PVTense/gii PVQnt/niizhwaaso VII Cnj Pos Neu 0PlObvSubj
-	"niizhwaaso-diba'iganed" PVTense/gii VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+	"diba'iganed" ChCnj PVTense/gii PVQnt/niizhwaaso VII Cnj Pos Neu 0SgObvSubj
 	"diba'iganed" PVTense/gii PVQnt/niizhwaaso VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
-	"niizhwaaso-diba'iganed" PVSub/gaa VII Cnj Pos Neu 0SgObvSubj
-	"niizhwaaso-diba'iganed" PVSub/gaa VII Cnj Pos Neu 0PlObvSubj
-	"diba'iganed" PVSub/gaa PVQnt/niizhwaaso VII Cnj Pos Neu 0SgObvSubj
+	"niizhwaaso-diba'iganed" PVTense/gii VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
 	"diba'iganed" PVSub/gaa PVQnt/niizhwaaso VII Cnj Pos Neu 0PlObvSubj
+	"diba'iganed" PVSub/gaa PVQnt/niizhwaaso VII Cnj Pos Neu 0SgObvSubj
+	"niizhwaaso-diba'iganed" PVSub/gaa VII Cnj Pos Neu 0PlObvSubj
+	"niizhwaaso-diba'iganed" PVSub/gaa VII Cnj Pos Neu 0SgObvSubj
 "<gii-kigizhebaa-wiisini>"
-	"gigizhebaa-wiisini" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 	"wiisini" PVTense/gii PVLex/gigizhebaa VAI Ind Pos Neu 3SgProxSubj
+	"gigizhebaa-wiisini" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<a'awe>"
 	"a'awe" PRONDem NA ProxSg
 "<akiwenzii>"
@@ -5839,9 +5938,9 @@
 "<aabitoonag>"
 	"aabitoonag" ADVLoc
 "<gii-pawa'amaang>"
-	"bawa'am" PVTense/gii VAI Cnj Pos Neu ExclSubj
-	"bawa'an" PVTense/gii VTI Cnj Pos Neu ExclSubj 0SgObj
 	"bawa'an" PVTense/gii VTI Cnj Pos Neu ExclSubj 0PlObj
+	"bawa'an" PVTense/gii VTI Cnj Pos Neu ExclSubj 0SgObj
+	"bawa'am" PVTense/gii VAI Cnj Pos Neu ExclSubj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<manoomin>"
@@ -5855,8 +5954,8 @@
 "<ningii-pezhigookam>"
 	"bezhigookam" PVTense/gii VAI Ind Pos Neu 1SgSubj
 "<gii-baashkizwag>"
-	"baashkizwi" PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
 	"baashkiz" PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	"baashkizwi" PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
 "<waawaashkeshi>"
 	"waawaashkeshi" NA ProxSg
 "<.>"
@@ -5869,8 +5968,8 @@
 	"atoobaan" NI Loc
 	"atoobaan" NA Loc
 "<ngii-siiginaamin>"
-	"ziiginan" PVTense/gii VTI Ind Pos Neu ExclSubj 0SgObj
 	"ziiginan" PVTense/gii VTI Ind Pos Neu ExclSubj 0PlObj
+	"ziiginan" PVTense/gii VTI Ind Pos Neu ExclSubj 0SgObj
 "<i'iw>"
 	"i'iw" PRONDem NI Sg
 "<ozhiga'iganaaboo>"
@@ -5878,8 +5977,8 @@
 "<gii-naadoobiiyaan>"
 	"naadoobii" PVTense/gii VAI Cnj Pos Neu 1SgSubj
 "<ani-onaagoshig>"
-	"onaagoshin" PVDir/ani VII Cnj Pos Neu 0PlSubj
 	"onaagoshin" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	"onaagoshin" PVDir/ani VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -5887,10 +5986,10 @@
 # text = Amo daga igi oginiig.
 # eng = Please eat the tomatoes.
 "<amo>"
-	"amwi" VTA Imp Sim 2SgSubj 3PlProxObj
-	"amwi" VTA Imp Sim 2SgSubj 3SgProxObj
-	"amo" VTA Imp Sim 2SgSubj 3PlProxObj
 	"amo" VTA Imp Sim 2SgSubj 3SgProxObj
+	"amo" VTA Imp Sim 2SgSubj 3PlProxObj
+	"amwi" VTA Imp Sim 2SgSubj 3SgProxObj
+	"amwi" VTA Imp Sim 2SgSubj 3PlProxObj
 "<daga>"
 	"daga" PCDisc
 "<igi>"
@@ -5907,17 +6006,29 @@
 	"manezin" PVTense/gii VAIO Ind Pos Neu 3SgProxSubj
 "<gaa-onji-andodamaaged>"
 	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj
-	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
 	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgProxHead
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"andodamaagen" ChCnj PVTense/gii PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"andodamaage" ChCnj PVTense/gii PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
 	"andodamaage" PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj
-	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
-	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
 	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgProxHead
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"andodamaagen" PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
 	"andodamaage" PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
 "<iwe>"
 	"iwe" PRONDem NI Sg
@@ -5934,12 +6045,12 @@
 "<igo>"
 	"igo" PCEmph
 "<odawi'aan>"
-	"awi'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"awi'" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"awi'" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<zhooniyaan>"
 	"zhooniyaa" NI Pl
-	"zhooniyaa" NA ObvSg
 	"zhooniyaa" NA ObvPl
+	"zhooniyaa" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -5951,16 +6062,16 @@
 "<go>"
 	"go" PCDisc
 "<gaa-izhi-dabasaakwaag>"
-	"dabasaakwaa" ChCnj PVTense/gii PVRel/izhi VII Cnj Pos Neu 0PlSubj
 	"dabasaakwaa" ChCnj PVTense/gii PVRel/izhi VII Cnj Pos Neu 0SgSubj
+	"dabasaakwaa" ChCnj PVTense/gii PVRel/izhi VII Cnj Pos Neu 0PlSubj
 	"dabasaakwaa" PVTense/gii PVRel/izhi VII Pcp Pos Neu 0SgSubj 0SgHead
-	"dabasaakwaa" PVSub/gaa PVRel/izhi VII Cnj Pos Neu 0PlSubj
 	"dabasaakwaa" PVSub/gaa PVRel/izhi VII Cnj Pos Neu 0SgSubj
+	"dabasaakwaa" PVSub/gaa PVRel/izhi VII Cnj Pos Neu 0PlSubj
 "<gidaa-izhi-andawaabandaan>"
 	"andawaabandan" PVTense/daa PVRel/izhi VTI Ind Pos Neu 2SgSubj 0SgObj
 "<wiigob>"
-	"wiigob" NA ProxSg
 	"wiigob" NI Sg
+	"wiigob" NA ProxSg
 "<.>"
 	"PUNCT" 
 "<aapiji>"
@@ -5970,8 +6081,8 @@
 "<dinong>"
 	"dinong" ADVLoc
 "<gii-nibiiwakamigaag>"
-	"nibiiwakamigaa" PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"nibiiwakamigaa" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"nibiiwakamigaa" PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -5996,8 +6107,8 @@
 "<a'aw>"
 	"a'aw" PRONDem NA ProxSg
 "<giziingwe'on>"
-	"giziingwe'on" NA ProxSg
 	"giziingwe'on" NI Sg
+	"giziingwe'on" NA ProxSg
 	"giziingwe'o" VAI Imp Sim 2SgSubj
 "<.>"
 	"PUNCT" 
@@ -6006,8 +6117,8 @@
 # text = Aaniin enendaagozid.
 # eng = What do people think of h/? How is s/he regarded?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<enendaagozid>"
 	"inendaagozi" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"inendaagozi" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
@@ -6040,8 +6151,8 @@
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<bemiseg>"
-	"bimise" ChCnj VII Cnj Pos Neu 0PlSubj
 	"bimise" ChCnj VII Cnj Pos Neu 0SgSubj
+	"bimise" ChCnj VII Cnj Pos Neu 0PlSubj
 	"bimise" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<ishpiming>"
 	"ishpiming" ADVLoc
@@ -6066,9 +6177,9 @@
 "<.>"
 	"PUNCT" 
 "<bii'aadaa>"
-	"bii'" VTA Imp Sim InclSubj 3SgProxObj
-	"bii'" VTA Imp Sim InclSubj 3SgObvObj
 	"bii'" VTA Imp Sim InclSubj 3PlObvObj
+	"bii'" VTA Imp Sim InclSubj 3SgObvObj
+	"bii'" VTA Imp Sim InclSubj 3SgProxObj
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<.>"
@@ -6100,8 +6211,8 @@
 "<naa>"
 	"naa" PCEmph
 "<asham>"
-	"asham" VTA Imp Sim 2SgSubj 3PlProxObj
 	"asham" VTA Imp Sim 2SgSubj 3SgProxObj
+	"asham" VTA Imp Sim 2SgSubj 3PlProxObj
 "<a'awe>"
 	"a'awe" PRONDem NA ProxSg
 "<.>"
@@ -6123,15 +6234,15 @@
 # text = Ogii-aaboojishimaan iniw amikwayaanan.
 # eng = He set the beaver hide inside out.
 "<ogii-aaboojishimaan>"
-	"aaboojishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"aaboojishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"aaboojishim" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<amikwayaanan>"
-	"amikwayaan" NA ObvSg
 	"amikwayaan" NA ObvPl
+	"amikwayaan" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -6159,13 +6270,13 @@
 # text = Aaniin endasing iwe ziinzibaakwad.
 # eng = How much sugar is there?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<endasing>"
-	"dasinoon" ChCnj VII Cnj Pos Neu 0PlSubj
 	"dasinoon" ChCnj VII Cnj Pos Neu 0SgSubj
-	"dasin" ChCnj VII Cnj Pos Neu 0PlSubj
+	"dasinoon" ChCnj VII Cnj Pos Neu 0PlSubj
 	"dasin" ChCnj VII Cnj Pos Neu 0SgSubj
+	"dasin" ChCnj VII Cnj Pos Neu 0PlSubj
 	"dasinoon" VII Pcp Pos Neu 0SgSubj 0SgHead
 	"dasin" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<iwe>"
@@ -6199,26 +6310,26 @@
 "<i'>"
 	"i'" PRONDem NI Sg
 "<bemisemagadinig>"
-	"bimise" ChCnj VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
-	"bimise" ChCnj VAI Der/magad VII Cnj Pos Neu 0PlObvSubj
-	"bimise" ChCnj VII Aug/magad VII Cnj Pos Neu 0SgObvSubj
 	"bimise" ChCnj VII Aug/magad VII Cnj Pos Neu 0PlObvSubj
-	"bimise" VAI Der/magad VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+	"bimise" ChCnj VII Aug/magad VII Cnj Pos Neu 0SgObvSubj
+	"bimise" ChCnj VAI Der/magad VII Cnj Pos Neu 0PlObvSubj
+	"bimise" ChCnj VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
 	"bimise" VII Aug/magad VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+	"bimise" VAI Der/magad VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
 "<imaa>"
 	"imaa" ADVLoc
 "<bimi-ayaanig>"
-	"ayaa" PVDir/bimi VII Cnj Pos Neu 0SgObvSubj
-	"ayaa" PVDir/bimi VII Cnj Pos Neu 0PlObvSubj
-	"bimi-ayaa" VII Cnj Pos Neu 0SgObvSubj
 	"bimi-ayaa" VII Cnj Pos Neu 0PlObvSubj
+	"bimi-ayaa" VII Cnj Pos Neu 0SgObvSubj
+	"ayaa" PVDir/bimi VII Cnj Pos Neu 0PlObvSubj
+	"ayaa" PVDir/bimi VII Cnj Pos Neu 0SgObvSubj
 "<biinish>"
 	"biinish" ADVGram
 "<igo>"
 	"igo" PCEmph
 "<gii-ni-bishkwaabandang>"
-	"bishkwaabandan" PVTense/gii PVDir/ni VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"bishkwaabandan" PVTense/gii PVDir/ni VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"bishkwaabandan" PVTense/gii PVDir/ni VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -6232,8 +6343,8 @@
 "<gii-toodam>"
 	"doodam" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<gii-kawa'ang>"
-	"gawa'an" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"gawa'an" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"gawa'an" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<agwaakwa'igan>"
@@ -6245,13 +6356,13 @@
 # text = Indayaawaanaan awe dinowa gaazhagens gaa-biigwawed.
 # eng = We've got an angora cat.
 "<indayaawaanaan>"
-	"ayaaw" VTA Ind Pos Neu ExclSubj 3SgProxObj
 	"ayaaw" VTA Ind Pos Neu ExclSubj 3SgObvObj
+	"ayaaw" VTA Ind Pos Neu ExclSubj 3SgProxObj
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<dinowa>"
-	"dinowa" PRONSim NA ProxSg
 	"dinowa" PRONSim NI Sg
+	"dinowa" PRONSim NA ProxSg
 "<gaazhagens>"
 	"gaazhagens" NA ProxSg
 "<gaa-biigwawed>"
@@ -6329,8 +6440,8 @@
 "<aandi>"
 	"aandi" ADVInter
 "<epa'igod>"
-	"ipa'igo" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"apa'igo" ChCnj VAI Cnj Pos Neu 3SgProxSubj
+	"ipa'igo" ChCnj VAI Cnj Pos Neu 3SgProxSubj
 	"ipa'igo" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 	"apa'igo" VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 "<.>"
@@ -6352,9 +6463,9 @@
 "<nindaanis>"
 	"daanis" NAD ProxSg 1SgPoss
 "<ogii-kibozaanan>"
-	"gibozan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
-	"gibozan" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
 	"gibozan" PVTense/gii VTI Ind Pos Neu 3PlObvSubj 0PlObj
+	"gibozan" PVTense/gii VTI Ind Pos Neu 3SgObvSubj 0PlObj
+	"gibozan" PVTense/gii VTI Ind Pos Neu 3SgProxSubj 0PlObj
 "<okosimaanan>"
 	"okosimaan" NI Pl
 "<.>"
@@ -6367,6 +6478,7 @@
 	"ginwaabiigizi" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<gaa-waabamag>"
 	"waabam" ChCnj PVTense/gii VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	"waabam" PVTense/gii VTA Pcp Pos Neu 1SgSubj 3SgProxObj 3SgProxHead
 	"waabam" PVSub/gaa VTA Cnj Pos Neu 1SgSubj 3SgProxObj
 "<ginebig>"
 	"ginebig" NA ProxSg
@@ -6397,8 +6509,8 @@
 "<waawaashkeshiwag>"
 	"waawaashkeshi" NA ProxPl
 "<gii-biboong>"
-	"biboon" PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"biboon" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"biboon" PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -6408,8 +6520,9 @@
 "<wegonen>"
 	"wegonen" PRONInter NI Sg
 "<waa-ayaaman>"
-	"ayaan" ChCnj PVTense/wii VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"ayaan" ChCnj PVTense/wii VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"ayaan" ChCnj PVTense/wii VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"ayaan" PVTense/wii VTI Pcp Pos Neu 2SgSubj 0SgObj 0SgHead
 "<.>"
 	"PUNCT" 
 
@@ -6419,15 +6532,15 @@
 "<biinjitawag>"
 	"biinjitawag" ADVLoc
 "<gii-piindoodewan>"
-	"biindoode" PVTense/gii VAI Ind Pos Neu 3SgObvSubj
 	"biindoode" PVTense/gii VAI Ind Pos Neu 3PlObvSubj
+	"biindoode" PVTense/gii VAI Ind Pos Neu 3SgObvSubj
 "<iniwen>"
-	"iniwen" PRONDem NA ObvPl
-	"iniwen" PRONDem NA ObvSg
 	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
 "<zagimen>"
-	"zagime" NA ObvSg
 	"zagime" NA ObvPl
+	"zagime" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -6449,11 +6562,11 @@
 "<geyaabi>"
 	"geyaabi" ADVTmp
 "<owiijiiwaasiin>"
-	"wiijiiw" VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
 	"wiijiiw" VTA Ind Neg Neu 3SgProxSubj 3PlObvObj
+	"wiijiiw" VTA Ind Neg Neu 3SgProxSubj 3SgObvObj
 "<onaabeman>"
-	"naabem" NAD ObvSg 3SgProxPoss
 	"naabem" NAD ObvPl 3SgProxPoss
+	"naabem" NAD ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -6483,14 +6596,14 @@
 # text = Biiminan gaa-dakigamig.
 # eng = Turn on the cold water.
 "<biiminan>"
-	"biiminan" VTI Imp Sim 2SgSubj 0SgObj
 	"biiminan" VTI Imp Sim 2SgSubj 0PlObj
+	"biiminan" VTI Imp Sim 2SgSubj 0SgObj
 "<gaa-dakigamig>"
-	"dakigamin" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"dakigamin" ChCnj PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"dakigamin" ChCnj PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"dakigamin" PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead
-	"dakigamin" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 	"dakigamin" PVSub/gaa VII Cnj Pos Neu 0SgSubj
+	"dakigamin" PVSub/gaa VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -6512,8 +6625,8 @@
 # text = Awasi-minis niwii-tazhi-wewebanaabii.
 # eng = I want to go fishing on the other side of the island.
 "<awasi-minis>"
-	"awasi-minis" ADVLoc
 	"minis" PNLex/awasi NI Sg
+	"awasi-minis" ADVLoc
 "<niwii-tazhi-wewebanaabii>"
 	"wewebanaabii" PVTense/wii PVRel/dazhi VAI Ind Pos Neu 1SgSubj
 "<.>"
@@ -6580,14 +6693,14 @@
 # text = Gichi-niibowa indaana-gii-andodamaage zhooniyaa.
 # eng = I tried asking for a lot of money.
 "<gichi-niibowa>"
-	"gichi-niibowa" ADVQnt
 	"niibowa" PVLex/gichi ADVQnt
+	"gichi-niibowa" ADVQnt
 "<indaana-gii-andodamaage>"
-	"andodamaage" PVTense/aana PVTense/gii VAI Ind Pos Neu 1SgSubj
 	"andodamaagen" PVTense/aana PVTense/gii VAIO Ind Pos Neu 1SgSubj
+	"andodamaage" PVTense/aana PVTense/gii VAI Ind Pos Neu 1SgSubj
 "<zhooniyaa>"
-	"zhooniyaa" NI Sg
 	"zhooniyaa" NA ProxSg
+	"zhooniyaa" NI Sg
 "<.>"
 	"PUNCT" 
 
@@ -6611,15 +6724,15 @@
 "<imaa>"
 	"imaa" ADVLoc
 "<gii-noogibideg>"
-	"noogibide" PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"noogibide" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"noogibide" PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<naawikana>"
 	"naawikana" ADVLoc
 "<'iw>"
 	"'iw" PRONDem NI Sg
 "<odaabaan>"
-	"odaabaan" NA ProxSg
 	"odaabaan" NI Sg
+	"odaabaan" NA ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -6655,26 +6768,30 @@
 # text = Gii-kwiinawi-inendam gii-pi-wiindamawind gichi-aakozinid ookomisan.
 # eng = He didn't know what to think when they came and told him his grandmother was very ill.
 "<gii-kwiinawi-inendam>"
-	"gwiinawi-inendam" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 	"inendam" PVTense/gii PVLex/gwiinawi VAI Ind Pos Neu 3SgProxSubj
+	"gwiinawi-inendam" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<gii-pi-wiindamawind>"
 	"wiindamaw" PVTense/gii PVDir/bi VTA Cnj Pos Neu XSubj 3SgProxObj
 "<gichi-aakozinid>"
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 3PlProxObj
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 0PlObj
 	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 3PlProxObj
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj
-	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
 	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 0PlObj
-	"aakozi" PVLex/gichi VAI Cnj Pos Neu 3SgObvSubj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 0SgObj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 0SgObj 0SgHead
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3PlObvSubj 3PlProxObj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 0PlObj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 0SgObj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 0SgObj 0SgHead
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
+	"aakozin" PVLex/gichi VAIO Cnj Pos Neu 3SgObvSubj 3PlProxObj
 	"aakozi" PVLex/gichi VAI Cnj Pos Neu 3PlObvSubj
+	"aakozi" PVLex/gichi VAI Cnj Pos Neu 3SgObvSubj
 "<ookomisan>"
-	"ookomis" NAD ObvSg 3SgProxPoss
 	"ookomis" NAD ObvPl 3SgProxPoss
+	"ookomis" NAD ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -6682,11 +6799,11 @@
 # text = Gii-madweyaabikise gii-gashkaakwa'igaadeg iwe ishkwaandem.
 # eng = You can hear the clicking when they lock the door.
 "<gii-madweyaabikise>"
-	"madweyaabikise" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 	"madweyaabikise" PVTense/gii VII Ind Pos Neu 0SgSubj
+	"madweyaabikise" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<gii-gashkaakwa'igaadeg>"
-	"gashkaakwa'igaade" PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"gashkaakwa'igaade" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"gashkaakwa'igaade" PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<iwe>"
 	"iwe" PRONDem NI Sg
 "<ishkwaandem>"
@@ -6704,8 +6821,8 @@
 "<nimamoonan>"
 	"mamoon" VTI Ind Pos Neu 1SgSubj 0PlObj
 "<nimashkikiinsiman>"
-	"mashkiki" NI Dim Poss Pl 1SgPoss
 	"mashkikiins" NI Poss Pl 1SgPoss
+	"mashkiki" NI Dim Poss Pl 1SgPoss
 "<.>"
 	"PUNCT" 
 
@@ -6759,12 +6876,13 @@
 "<bimibizon>"
 	"bimibizo" VAI Imp Sim 2SgSubj
 "<gaa-gikendanziwan>"
-	"gikendam" ChCnj PVTense/gii VAI Cnj Neg Neu 2SgSubj
-	"gikendan" ChCnj PVTense/gii VTI Cnj Neg Neu 2SgSubj 0SgObj
 	"gikendan" ChCnj PVTense/gii VTI Cnj Neg Neu 2SgSubj 0PlObj
-	"gikendam" PVSub/gaa VAI Cnj Neg Neu 2SgSubj
-	"gikendan" PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0SgObj
+	"gikendan" ChCnj PVTense/gii VTI Cnj Neg Neu 2SgSubj 0SgObj
+	"gikendam" ChCnj PVTense/gii VAI Cnj Neg Neu 2SgSubj
+	"gikendan" PVTense/gii VTI Pcp Neg Neu 2SgSubj 0SgObj 0SgHead
 	"gikendan" PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0PlObj
+	"gikendan" PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0SgObj
+	"gikendam" PVSub/gaa VAI Cnj Neg Neu 2SgSubj
 "<zaaga'igan>"
 	"zaaga'igan" NI Sg
 "<.>"
@@ -6778,14 +6896,16 @@
 # text = Aaniin gaa'-inapinad waawaashkeshi gaa-gii'-agoonad. Gigii-piskaabiiginaan ina zhinoodaagan.
 # eng = How did you tie the deer you hung? Did you make a loop in the rope [so it will come down easily]?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<gaa'-inapinad>"
 	"inapizh" ChCnj PVTense/gii' VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"inapizh" PVTense/gii' VTA Pcp Pos Neu 2SgSubj 3SgProxObj 3SgProxHead
 "<waawaashkeshi>"
 	"waawaashkeshi" NA ProxSg
 "<gaa-gii'-agoonad>"
 	"agoozh" ChCnj PVTense/gii PVTense/gii' VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"agoozh" PVTense/gii PVTense/gii' VTA Pcp Pos Neu 2SgSubj 3SgProxObj 3SgProxHead
 	"agoozh" PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 2SgSubj 3SgProxObj
 "<.>"
 	"PUNCT" 
@@ -6802,14 +6922,14 @@
 # text = Bejibizowan odiba'igiiziswaanensan.
 # eng = His watch is running slow.
 "<bejibizowan>"
-	"bejibizo" VAI Cnj Pos Neu 2SgSubj
-	"bejibizo" VAI Ind Pos Neu 3SgObvSubj
 	"bejibizo" VAI Ind Pos Neu 3PlObvSubj
+	"bejibizo" VAI Ind Pos Neu 3SgObvSubj
+	"bejibizo" VAI Cnj Pos Neu 2SgSubj
 "<odiba'igiiziswaanensan>"
-	"diba'igiiziswaan" NA Dim ObvSg 3SgProxPoss
-	"diba'igiiziswaan" NA Dim ObvPl 3SgProxPoss
-	"diba'igiiziswaanens" NA ObvSg 3SgProxPoss
 	"diba'igiiziswaanens" NA ObvPl 3SgProxPoss
+	"diba'igiiziswaanens" NA ObvSg 3SgProxPoss
+	"diba'igiiziswaan" NA Dim ObvPl 3SgProxPoss
+	"diba'igiiziswaan" NA Dim ObvSg 3SgProxPoss
 "<.>"
 	"PUNCT" 
 
@@ -6829,18 +6949,18 @@
 # text = Ogii-bitaganaamaan iniw gwiiwizensan gii-apagidood 'i bikwaakwad.
 # eng = He accidentally hit the boy when he threw the ball.
 "<ogii-bitaganaamaan>"
-	"bitaganaam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"bitaganaam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"bitaganaam" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<gwiiwizensan>"
-	"gwiiwizens" NA ObvSg
 	"gwiiwizens" NA ObvPl
+	"gwiiwizens" NA ObvSg
 "<gii-apagidood>"
-	"apagidoon" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"apagidoon" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"apagidoon" PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<'i>"
 	"'i" PRONDem NI Sg
 "<bikwaakwad>"
@@ -6924,8 +7044,8 @@
 # text = Gabe-biboon biindig indayaa.
 # eng = I'm indoors all winter.
 "<gabe-biboon>"
-	"gabe-biboon" ADVTmp
 	"biboon" PVLex/gabe VII Ind Pos Neu 0SgSubj
+	"gabe-biboon" ADVTmp
 "<biindig>"
 	"biindig" ADVLoc
 "<indayaa>"
@@ -6944,6 +7064,7 @@
 	"gikenim" PVDir/bi VTA Ind Pos Neu 1SgSubj 3SgProxObj
 "<endazhimad>"
 	"dazhim" ChCnj VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+	"dazhim" VTA Pcp Pos Neu 2SgSubj 3SgProxObj 3SgProxHead
 "<noongom>"
 	"noongom" ADVTmp
 "<.>"
@@ -6967,16 +7088,16 @@
 # text = Ogii-wiinaan iniw mitigoon.
 # eng = He named that tree.
 "<ogii-wiinaan>"
-	"wiinzh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"wiinzh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"wiinzh" PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<mitigoon>"
+	"mitig" NI Pl
 	"mitig" NA ObvPl
 	"mitig" NA ObvSg
-	"mitig" NI Pl
 "<.>"
 	"PUNCT" 
 
@@ -6989,6 +7110,7 @@
 	"animosh" NA Pej ProxSg
 "<gaa-bi-gagwe-dakwamid>"
 	"dakwam" ChCnj PVTense/gii PVDir/bi PVLex/gagwe VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+	"dakwam" PVTense/gii PVDir/bi PVLex/gagwe VTA Pcp Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
 	"dakwam" PVSub/gaa PVDir/bi PVLex/gagwe VTA Cnj Pos Neu 3SgProxSubj 1SgObj
 "<.>"
 	"PUNCT" 
@@ -7088,10 +7210,10 @@
 "<ninga-gashkitoon>"
 	"gashkitoon" PVTense/ga VTI Ind Pos Neu 1SgSubj 0SgObj
 "<ji-ozhitoowaan>"
-	"ozhitoon" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"ozhitoon" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0PlObj
-	"ozhitoon" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"ozhitoon" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"ozhitoon" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"ozhitoon" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -7112,11 +7234,11 @@
 # text = Aaniin ekogamaag.
 # eng = How long is the lake?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<ekogamaag>"
-	"akogamaa" ChCnj VII Cnj Pos Neu 0PlSubj
 	"akogamaa" ChCnj VII Cnj Pos Neu 0SgSubj
+	"akogamaa" ChCnj VII Cnj Pos Neu 0PlSubj
 	"akogamaa" VII Pcp Pos Neu 0SgSubj 0SgHead
 "<.>"
 	"PUNCT" 
@@ -7127,9 +7249,10 @@
 "<aaniish>"
 	"aaniish" ADVInter
 "<enendaman>"
-	"inendam" ChCnj VAI Cnj Pos Neu 2SgSubj
-	"inendan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"inendan" ChCnj VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"inendan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"inendam" ChCnj VAI Cnj Pos Neu 2SgSubj
+	"inendan" VTI Pcp Pos Neu 2SgSubj 0SgObj 0SgHead
 "<gaa-gii-kagwejiminaan>"
 	"gagwejim" ChCnj PVTense/gii PVTense/gii VTA Cnj Pos Neu 1SgSubj 2SgObj
 	"gagwejim" PVSub/gaa PVTense/gii VTA Cnj Pos Neu 1SgSubj 2SgObj
@@ -7171,9 +7294,9 @@
 "<ingii-piiwiwebinaanan>"
 	"biiwiwebinan" PVTense/gii VTI Ind Pos Neu 1SgSubj 0PlObj
 "<iniwen>"
-	"iniwen" PRONDem NA ObvPl
-	"iniwen" PRONDem NA ObvSg
 	"iniwen" PRONDem NI Pl
+	"iniwen" PRONDem NA ObvSg
+	"iniwen" PRONDem NA ObvPl
 "<apikominaanan>"
 	"apikominaan" NI Pl
 "<.>"
@@ -7227,14 +7350,14 @@
 "<jibwaa-boozid>"
 	"boozi" PVTense/jibwaa VAI Cnj Pos Neu 3SgProxSubj
 "<gichi-odaabaanan>"
-	"gichi-odaabaan" NA ObvSg
-	"gichi-odaabaan" NA ObvPl
-	"odaabaan" PNLex/gichi NA ObvSg
-	"odaabaan" PNLex/gichi NA ObvPl
 	"odaabaan" PNLex/gichi NI Pl
-	"odaabaan" PNLex/chi NA ObvSg 2SgPoss
-	"odaabaan" PNLex/chi NA ObvPl 2SgPoss
+	"odaabaan" PNLex/gichi NA ObvPl
+	"odaabaan" PNLex/gichi NA ObvSg
 	"odaabaan" PNLex/chi NI Pl 2SgPoss
+	"odaabaan" PNLex/chi NA ObvPl 2SgPoss
+	"odaabaan" PNLex/chi NA ObvSg 2SgPoss
+	"gichi-odaabaan" NA ObvPl
+	"gichi-odaabaan" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -7252,8 +7375,8 @@
 # text = Atoon imaa nabagisagong.
 # eng = Put it on the board.
 "<atoon>"
-	"atoon" VTI Imp Sim 2SgSubj 0SgObj
 	"atoon" VTI Imp Sim 2SgSubj 0PlObj
+	"atoon" VTI Imp Sim 2SgSubj 0SgObj
 "<imaa>"
 	"imaa" ADVLoc
 "<nabagisagong>"
@@ -7265,11 +7388,11 @@
 # text = Bakam asabaabisens.
 # eng = Bite off the thread.
 "<bakam>"
-	"bakam" VTA Imp Sim 2SgSubj 3PlProxObj
 	"bakam" VTA Imp Sim 2SgSubj 3SgProxObj
+	"bakam" VTA Imp Sim 2SgSubj 3PlProxObj
 "<asabaabisens>"
-	"asabaabis" NA Dim ProxSg
 	"asabaabisens" NA ProxSg
+	"asabaabis" NA Dim ProxSg
 "<.>"
 	"PUNCT" 
 
@@ -7298,8 +7421,8 @@
 "<ogizhaabikizigan>"
 	"gizhaabikizigan" NI Sg 3SgProxPoss
 "<epiichi-dakatenig>"
-	"dakate" ChCnj PVRel/apiichi VII Cnj Pos Neu 0SgObvSubj
 	"dakate" ChCnj PVRel/apiichi VII Cnj Pos Neu 0PlObvSubj
+	"dakate" ChCnj PVRel/apiichi VII Cnj Pos Neu 0SgObvSubj
 	"dakate" PVRel/apiichi VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
 "<.>"
 	"PUNCT" 
@@ -7308,8 +7431,8 @@
 # text = Miigwechiwi' awe gaa-gaagiigidod.
 # eng = Thank the speaker.
 "<miigwechiwi'>"
-	"miigwechiwi'" VTA Imp Sim 2SgSubj 3PlProxObj
 	"miigwechiwi'" VTA Imp Sim 2SgSubj 3SgProxObj
+	"miigwechiwi'" VTA Imp Sim 2SgSubj 3PlProxObj
 "<awe>"
 	"awe" PRONDem NA ProxSg
 "<gaa-gaagiigidod>"
@@ -7347,11 +7470,11 @@
 "<amanj>"
 	"amanj" ADVDub
 "<gaa-izhiwebadogwen>"
-	"izhiwebad" ChCnj PVTense/gii VII Cnj Pos Dub 0SgSubj
 	"izhiwebad" ChCnj PVTense/gii VII Cnj Pos Dub 0PlSubj
+	"izhiwebad" ChCnj PVTense/gii VII Cnj Pos Dub 0SgSubj
 	"izhiwebad" PVTense/gii VII Pcp Pos Dub 0SgSubj 0SgHead
-	"izhiwebad" PVSub/gaa VII Cnj Pos Dub 0SgSubj
 	"izhiwebad" PVSub/gaa VII Cnj Pos Dub 0PlSubj
+	"izhiwebad" PVSub/gaa VII Cnj Pos Dub 0SgSubj
 "<iwidi>"
 	"iwidi" ADVLoc
 "<.>"
@@ -7361,15 +7484,15 @@
 # text = Zhingaatesidoon gimanoominim ji-bengwashkising.
 # eng = Spread out your rice so it can get dry.
 "<zhingaatesidoon>"
-	"zhingaatesidoon" VTI Imp Sim 2SgSubj 0SgObj
 	"zhingaatesidoon" VTI Imp Sim 2SgSubj 0PlObj
+	"zhingaatesidoon" VTI Imp Sim 2SgSubj 0SgObj
 "<gimanoominim>"
 	"manoomin" NI Poss Sg 2SgPoss
 "<ji-bengwashkising>"
-	"bengwashkisin" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"bengwashkisin" PVTense/ga VII Cnj Pos Neu 0SgSubj
-	"bengwashkisin" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"bengwashkisin" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"bengwashkisin" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	"bengwashkisin" PVTense/daa VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -7381,8 +7504,8 @@
 "<odizhiweba'aan>"
 	"izhiweba'an" VTI Ind Pos Neu 3SgProxSubj 0SgObj
 "<bikwaakwadoons>"
-	"bikwaakwad" NI Dim Sg
 	"bikwaakwadoons" NI Sg
+	"bikwaakwad" NI Dim Sg
 "<.>"
 	"PUNCT" 
 
@@ -7390,8 +7513,8 @@
 # text = Aaniin enataadiwaad.
 # eng = What kind of game are they playing?
 "<aaniin>"
-	"aaniin" ADVInter
 	"aaniin" PCInterj
+	"aaniin" ADVInter
 "<enataadiwaad>"
 	"inataadiwag" ChCnj VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj
 "<.>"
@@ -7401,8 +7524,8 @@
 # text = Giboz igiw opiniig.
 # eng = Bake the potatoes.
 "<giboz>"
-	"giboz" VTA Imp Sim 2SgSubj 3PlProxObj
 	"giboz" VTA Imp Sim 2SgSubj 3SgProxObj
+	"giboz" VTA Imp Sim 2SgSubj 3PlProxObj
 "<igiw>"
 	"igiw" PRONDem NA ProxPl
 "<opiniig>"
@@ -7426,18 +7549,18 @@
 # text = Mooshkinatoon gizhaabikizigan gabe-dibik ji-biskaneg.
 # eng = Fill the stove so the fire will go all night.
 "<mooshkinatoon>"
-	"mooshkinatoon" VTI Imp Sim 2SgSubj 0SgObj
 	"mooshkinatoon" VTI Imp Sim 2SgSubj 0PlObj
+	"mooshkinatoon" VTI Imp Sim 2SgSubj 0SgObj
 "<gizhaabikizigan>"
 	"gizhaabikizigan" NI Sg
 "<gabe-dibik>"
-	"gabe-dibik" ADVTmp
 	"dibik" PVLex/gabe ADVTmp
+	"gabe-dibik" ADVTmp
 "<ji-biskaneg>"
-	"biskane" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"biskane" PVTense/ga VII Cnj Pos Neu 0SgSubj
-	"biskane" PVTense/daa VII Cnj Pos Neu 0PlSubj
+	"biskane" PVTense/ga VII Cnj Pos Neu 0PlSubj
 	"biskane" PVTense/daa VII Cnj Pos Neu 0SgSubj
+	"biskane" PVTense/daa VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -7447,8 +7570,8 @@
 "<gii-kabenaage>"
 	"gabenaage" PVTense/gii VAI Ind Pos Neu 3SgProxSubj
 "<ge-zhooniyaansiwataaged>"
-	"zhooniyaansiwataage" ChCnj PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
 	"zhooniyaansiwataage" ChCnj PVTense/ga VAI Cnj Pos Neu 3SgProxSubj
+	"zhooniyaansiwataage" ChCnj PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
 "<.>"
 	"PUNCT" 
 
@@ -7456,20 +7579,20 @@
 # text = Ogii-kwiishkoshimaawaan igiw oshki-ininiwag iniw ikwezensan.
 # eng = The young men whistled at the girl.
 "<ogii-kwiishkoshimaawaan>"
-	"gwiishkoshim" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
 	"gwiishkoshim" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3PlObvObj
+	"gwiishkoshim" PVTense/gii VTA Ind Pos Neu 3PlProxSubj 3SgObvObj
 "<igiw>"
 	"igiw" PRONDem NA ProxPl
 "<oshki-ininiwag>"
 	"oshki-inini" NA ProxPl
 	"inini" PNLex/oshki NA ProxPl
 "<iniw>"
-	"iniw" PRONDem NA ObvPl
-	"iniw" PRONDem NA ObvSg
 	"iniw" PRONDem NI Pl
+	"iniw" PRONDem NA ObvSg
+	"iniw" PRONDem NA ObvPl
 "<ikwezensan>"
-	"ikwezens" NA ObvSg
 	"ikwezens" NA ObvPl
+	"ikwezens" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -7477,8 +7600,8 @@
 # text = Ani-bagakaabang giga-bi-odisininim.
 # eng = I'll be at your (pl.) place towards daylight
 "<ani-bagakaabang>"
-	"bagakaaban" PVDir/ani VII Cnj Pos Neu 0PlSubj
 	"bagakaaban" PVDir/ani VII Cnj Pos Neu 0SgSubj
+	"bagakaaban" PVDir/ani VII Cnj Pos Neu 0PlSubj
 "<giga-bi-odisininim>"
 	"odish" PVTense/ga PVDir/bi VTA Ind Pos Neu 1SgSubj 2PlObj
 "<.>"
@@ -7488,16 +7611,16 @@
 # text = Ogii'-agaasikonaan mishiiminan jibwaa-amwaad.
 # eng = She cut the apple into smaller pieces before she ate it.
 "<ogii'-agaasikonaan>"
-	"agaasikozh" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"agaasikozh" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"agaasikozh" PVTense/gii' VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<mishiiminan>"
-	"mishiimin" NA ObvSg
 	"mishiimin" NA ObvPl
+	"mishiimin" NA ObvSg
 "<jibwaa-amwaad>"
-	"amo" PVTense/jibwaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"amo" PVTense/jibwaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
-	"amwi" PVTense/jibwaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+	"amo" PVTense/jibwaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 	"amwi" PVTense/jibwaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+	"amwi" PVTense/jibwaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
 	"PUNCT" 
 
@@ -7509,10 +7632,10 @@
 "<indakiim>"
 	"aki" NI Poss Sg 1SgPoss
 "<ji-ganawendamaan>"
-	"ganawendan" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"ganawendan" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0PlObj
-	"ganawendan" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0SgObj
+	"ganawendan" PVTense/ga VTI Cnj Pos Neu 1SgSubj 0SgObj
 	"ganawendan" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0PlObj
+	"ganawendan" PVTense/daa VTI Cnj Pos Neu 1SgSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -7526,10 +7649,13 @@
 "<onagizh>"
 	"nagizhy" NID Sg 3SgProxPoss
 "<gaa-gii'-abwaadang>"
-	"abwaadan" ChCnj PVTense/gii PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"abwaadan" ChCnj PVTense/gii PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0PlObj
-	"abwaadan" PVSub/gaa PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"abwaadan" ChCnj PVTense/gii PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+	"abwaadan" PVTense/gii PVTense/gii' VTI Pcp Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+	"abwaadan" PVTense/gii PVTense/gii' VTI Pcp Pos Neu 3SgProxSubj 0SgObj 0SgHead
+	"abwaadan" PVTense/gii PVTense/gii' VTI Pcp Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
 	"abwaadan" PVSub/gaa PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"abwaadan" PVSub/gaa PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<.>"
 	"PUNCT" 
 
@@ -7547,20 +7673,21 @@
 # text = Ikoshim gidoodaabaan. Gigibishkaw waa'-izhi-asag nindoodaabaan.
 # eng = Move your car out of the way.! You're in my parking spot.
 "<ikoshim>"
-	"ikoshim" VTA Imp Sim 2SgSubj 3PlProxObj
 	"ikoshim" VTA Imp Sim 2SgSubj 3SgProxObj
+	"ikoshim" VTA Imp Sim 2SgSubj 3PlProxObj
 "<gidoodaabaan>"
-	"odaabaan" NA ProxSg 2SgPoss
 	"odaabaan" NI Sg 2SgPoss
+	"odaabaan" NA ProxSg 2SgPoss
 "<.>"
 	"PUNCT" 
 "<gigibishkaw>"
 	"gibishkaw" VTA Ind Pos Neu 2SgSubj 1SgObj
 "<waa'-izhi-asag>"
 	"ashi" ChCnj PVTense/wii' PVRel/izhi VTA Cnj Pos Neu 1SgSubj 3SgProxObj
+	"ashi" PVTense/wii' PVRel/izhi VTA Pcp Pos Neu 1SgSubj 3SgProxObj 3SgProxHead
 "<nindoodaabaan>"
-	"odaabaan" NA ProxSg 1SgPoss
 	"odaabaan" NI Sg 1SgPoss
+	"odaabaan" NA ProxSg 1SgPoss
 "<.>"
 	"PUNCT" 
 
@@ -7592,8 +7719,8 @@
 "<bijiinaago>"
 	"bijiinaago" ADVTmp
 "<gii-shakaagonagaag>"
-	"zhakaagonagaa" PVTense/gii VII Cnj Pos Neu 0PlSubj
 	"zhakaagonagaa" PVTense/gii VII Cnj Pos Neu 0SgSubj
+	"zhakaagonagaa" PVTense/gii VII Cnj Pos Neu 0PlSubj
 "<,>"
 	"PUNCT" 
 "<nindede>"
@@ -7617,8 +7744,8 @@
 "<gego>"
 	"gego" ADVNeg
 "<gibozwaaken>"
-	"giboz" VTA Imp Prb 2SgSubj 3SgProxObj
 	"giboz" VTA Imp Prb 2SgSubj 3PlProxObj
+	"giboz" VTA Imp Prb 2SgSubj 3SgProxObj
 "<a'aw>"
 	"a'aw" PRONDem NA ProxSg
 "<baaka'aakwe>"
@@ -7626,8 +7753,8 @@
 "<.>"
 	"PUNCT" 
 "<zaasakokwaazh>"
-	"zaasakokwaazh" VTA Imp Sim 2SgSubj 3PlProxObj
 	"zaasakokwaazh" VTA Imp Sim 2SgSubj 3SgProxObj
+	"zaasakokwaazh" VTA Imp Sim 2SgSubj 3PlProxObj
 "<.>"
 	"PUNCT" 
 
@@ -7641,8 +7768,9 @@
 "<gabeshiwin>"
 	"gabeshiwin" NI Sg
 "<endazhindaman>"
-	"dazhindan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
 	"dazhindan" ChCnj VTI Cnj Pos Neu 2SgSubj 0PlObj
+	"dazhindan" ChCnj VTI Cnj Pos Neu 2SgSubj 0SgObj
+	"dazhindan" VTI Pcp Pos Neu 2SgSubj 0SgObj 0SgHead
 "<.>"
 	"PUNCT" 
 
@@ -7684,8 +7812,8 @@
 "<imaa>"
 	"imaa" ADVLoc
 "<ziindaamagak>"
-	"ziindaa" VII Aug/magad VII Cnj Pos Neu 0PlSubj
 	"ziindaa" VII Aug/magad VII Cnj Pos Neu 0SgSubj
+	"ziindaa" VII Aug/magad VII Cnj Pos Neu 0PlSubj
 "<.>"
 	"PUNCT" 
 
@@ -7748,10 +7876,10 @@
 	"biiminakwaan" PNLex/gichi NI Sg
 	"biiminakwaan" PNLex/chi NI Sg 2SgPoss
 "<ji-bazigwiimagadinig>"
-	"bazigwii" PVTense/ga VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
 	"bazigwii" PVTense/ga VAI Der/magad VII Cnj Pos Neu 0PlObvSubj
-	"bazigwii" PVTense/daa VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
+	"bazigwii" PVTense/ga VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
 	"bazigwii" PVTense/daa VAI Der/magad VII Cnj Pos Neu 0PlObvSubj
+	"bazigwii" PVTense/daa VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
 "<.>"
 	"PUNCT" 
 
@@ -7778,8 +7906,8 @@
 	"gete-anishinaabe" NA ProxPl
 	"anishinaabe" PNLex/gete NA ProxPl
 "<wiidoopandiwag>"
-	"wiidoopam" VTA Recip/di VAI Ind Pos Neu 3PlProxSubj 3PlProxObj
 	"wiidoopandiwag" VAI Ind Pos Neu 3PlProxSubj 3PlProxObj
+	"wiidoopam" VTA Recip/di VAI Ind Pos Neu 3PlProxSubj 3PlProxObj
 "<.>"
 	"PUNCT" 
 
@@ -7787,11 +7915,11 @@
 # text = Omawinzwaanaan miskominan.
 # eng = He's picking raspberries.
 "<omawinzwaanaan>"
-	"mawinzwaazh" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 	"mawinzwaazh" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
+	"mawinzwaazh" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<miskominan>"
-	"miskomin" NA ObvSg
 	"miskomin" NA ObvPl
+	"miskomin" NA ObvSg
 "<.>"
 	"PUNCT" 
 
@@ -7801,16 +7929,17 @@
 "<ingii-tebaabamaa>"
 	"debaabam" PVTense/gii VTA Ind Pos Neu 1SgSubj 3SgProxObj
 "<biida'adood>"
-	"biida'adoon" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"biida'adoon" VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+	"biida'adoon" VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 	"biida'adoo" VAI Cnj Pos Neu 3SgProxSubj
 "<gaa-mazina'amawid>"
 	"mazina'amaw" ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+	"mazina'amaw" PVTense/gii VTA Pcp Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
 	"mazina'amaw" PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 1SgObj
 "<zhooniyaan>"
 	"zhooniyaa" NI Pl
-	"zhooniyaa" NA ObvSg
 	"zhooniyaa" NA ObvPl
+	"zhooniyaa" NA ObvSg
 "<gaa'-izhi-gaajibani'od>"
 	"gaajibani'o" ChCnj PVTense/gii' PVRel/izhi VAI Cnj Pos Neu 3SgProxSubj
 	"gaajibani'o" PVTense/gii' PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead

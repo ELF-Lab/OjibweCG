@@ -24,6 +24,7 @@
 "<gii-pimi-ayaagwen>"
 	"bimi-ayaa" PVTense/gii VAI Cnj Pos Dub 3SgProxSubj
 "<.>"
+	"PUNCT"
 
 ### 003
 "<gidanoonigoo>"
@@ -37,6 +38,7 @@
 "<oshki-aazhogan>"
 	"aazhogan" PNLex/oshki NI Sg
 "<.>"
+	"PUNCT"
 
 ### 004
 "<gidanoonigoo>"
@@ -50,6 +52,7 @@
 "<oshki-aazhogan>"
 	"aazhogan" PNLex/oshki NI Sg
 "<.>"
+	"PUNCT"
 
 ### 005
 "<giizhaa>"
@@ -61,6 +64,7 @@
 "<waabang>"
 	"waaban" VII Cnj Pos Neu 0SgSubj
 "<.>"
+	"PUNCT"
 
 ### 006
 "<onandawaabamaan>"
@@ -76,6 +80,7 @@
 	"waawaashkeshi" NA ObvPl
 	"waawaashkeshi" NA ObvSg
 "<.>"
+	"PUNCT"
 
 ### 007
 "<babiiskijiitaa>"
@@ -83,6 +88,7 @@
 "<babaa-ayaad>"
 	"babaa-ayaa" VAI Cnj Pos Neu 3SgProxSubj
 "<.>"
+	"PUNCT"
 
 ### 008
 "<gego>"
@@ -92,6 +98,7 @@
 "<gibaashkizigan>"
 	"baashkizigan" NI Sg 2SgPoss
 "<.>"
+	"PUNCT"
 
 ### 009
 "<waawaabiganoojiinyan>"
@@ -117,6 +124,7 @@
 "<miikanaang>"
 	"miikana" NI Loc
 "<.>"
+	"PUNCT"
 
 ### 011
 "<aazhawikana>"
@@ -131,6 +139,7 @@
 	"maanishtaanish" NA ObvPl
 	"maanishtaanish" NA ObvSg
 "<.>"
+	"PUNCT"
 
 ### 012
 "<mii>"
@@ -143,6 +152,7 @@
 	"inaagone" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
 	"inaagone" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 "<.>"
+	"PUNCT"
 
 ### 013
 "<baakibidoon>"
@@ -150,6 +160,7 @@
 "<waasechigan>"
 	"waasechigan" NI Sg
 "<.>"
+	"PUNCT"
 
 ### 014
 "<mii>"
@@ -165,6 +176,7 @@
 "<bi-waaseyaag>"
 	"waaseyaa" PVDir/bi VII Cnj Pos Neu 0SgSubj
 "<.>"
+	"PUNCT"
 
 ### 015
 "<odaanaang>"
@@ -179,6 +191,7 @@
 	"bimaagonebizo" PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
 	"bimaagonebizo" PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
 "<.>"
+	"PUNCT"
 
 ### 016
 "<zhebaa>"
@@ -186,12 +199,14 @@
 "<ingii-pi-aazhoge'adoo>"
 	"aazhoge'adoo" PVTense/gii PVDir/bi VAI Ind Pos Neu 1SgSubj
 "<.>"
+	"PUNCT"
 
 "<ishkwaa-naawakweg>"
 	"ishkwaa-naawakwe" VII Cnj Pos Neu 0SgSubj
 "<niwii'-ani-aazhoge'adoo>"
 	"aazhoge'adoo" PVTense/wii' PVDir/ani VAI Ind Pos Neu 1SgSubj
 "<.>"
+	"PUNCT"
 
 ### 017
 "<boozaabikinigan>"
@@ -201,6 +216,7 @@
 "<waasigani-bimideng>"
 	"waasigani-bimide" NI Loc
 "<.>"
+	"PUNCT"
 
 ### 018
 "<wiin>"
@@ -215,6 +231,7 @@
 	"daashkiboojigan" NA ObvPl
 	"daashkiboojigan" NA ObvSg
 "<.>"
+	"PUNCT"
 
 ### 019
 "<naazibiiwidoon>"
@@ -222,6 +239,7 @@
 "<waasigani-bimide-atoobaanan>"
 	"waasigani-bimide-atoobaan" NI Pl
 "<.>"
+	"PUNCT"
 
 ### 020
 "<apane>"
@@ -231,6 +249,7 @@
 "<waasigani-bimide-biiwaabik>"
 	"waasigani-bimide-biiwaabik" NI Sg
 "<.>"
+	"PUNCT"
 
 ### 021
 "<gabe-dibik>"
@@ -242,6 +261,7 @@
 "<gaa-waaswaawaad>"
 	"waaswaa" PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj
 "<.>"
+	"PUNCT"
 
 ### 022
 "<ningii-wanitoon>"
@@ -253,6 +273,7 @@
 "<wii-waaswaayaan>"
 	"waaswaa" PVTense/wii VAI Cnj Pos Neu 1SgSubj
 "<.>"
+	"PUNCT"
 
 ### 023
 "<ningii-pawaanig>"
@@ -265,6 +286,7 @@
 "<anishinaabe-wiinzowin>"
 	"anishinaabe-wiinzowin" NI Sg
 "<.>"
+	"PUNCT"
 
 ### 024
 "<odaana-gii-wewebiniketawaan>"
@@ -280,6 +302,7 @@
 	"bimibizo" PVSub/gaa VAI Cnj Pos Neu 3PlObvSubj
 	"bimibizo" PVSub/gaa VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
+	"PUNCT"
 
 ### 025
 "<bekaa>"
@@ -291,6 +314,7 @@
 "<zaaga'igan>"
 	"zaaga'igan" NI Sg
 "<.>"
+	"PUNCT"
 
 "<maagizhaa>"
 	"maagizhaa" ADVMan
@@ -307,6 +331,7 @@
 "<gidoozhibii'igaaz>"
 	"ozhibii'igaazo" VAI Ind Pos Neu 2SgSubj
 "<.>"
+	"PUNCT"
 
 ### 027
 "<onzaamiinowag>"
@@ -316,6 +341,7 @@
 "<noopimiing>"
 	"noopimiing" ADVLoc
 "<.>"
+	"PUNCT"
 
 "<gaye>"
 	"gaye" ADVConj
@@ -324,6 +350,7 @@
 "<gidaa-andawenjige>"
 	"andawenjige" PVTense/daa VAI Ind Pos Neu 2SgSubj
 "<.>"
+	"PUNCT"
 
 ### 028
 "<ogwiinawaabamaan>"
@@ -338,6 +365,7 @@
 	"nibinaadi" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
 	"nibinaadi" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
+	"PUNCT"
 
 ### 029
 "<bizaanad>"
@@ -345,12 +373,14 @@
 "<agwajiing>"
 	"agwajiing" ADVLoc
 "<.>"
+	"PUNCT"
 
 "<gaawiin>"
 	"gaawiin" ADVNeg
 "<noodinzinoon>"
 	"noodin" VII Ind Neg Neu 0SgSubj
 "<.>"
+	"PUNCT"
 
 ### 030
 "<waawaabiganoojiinyan>"
@@ -360,6 +390,7 @@
 	"zaaganem" VTA Ind Pos Neu 3SgProxSubj 3SgObvObj
 	"zaaganem" VTA Ind Pos Neu 3SgProxSubj 3PlObvObj
 "<.>"
+	"PUNCT"
 
 ### 031
 "<debinaak>"
@@ -369,6 +400,7 @@
 "<ningii-chiishada'ige>"
 	"jiishada'ige" PVTense/gii VAI Ind Pos Neu 1SgSubj
 "<.>"
+	"PUNCT"
 
 ### 032
 "<wiikwaasinjigan>"
@@ -378,6 +410,7 @@
 "<wii-chiishada'igeyan>"
 	"jiishada'ige" PVTense/wii VAI Cnj Pos Neu 2SgSubj
 "<.>"
+	"PUNCT"
 
 "<wiikwaasinoon>"
 	"wiikwaasin" VII Ind Pos Neu 0PlSubj
@@ -387,6 +420,7 @@
 "<michisag>"
 	"michisag" ADVLoc
 "<.>"
+	"PUNCT"
 
 ### 033
 "<awiya>"
@@ -396,6 +430,7 @@
 "<danwewezigewag>"
 	"danwewezige" VAI Ind Pos Neu 3PlProxSubj
 "<.>"
+	"PUNCT"
 
 ### 034
 "<biinjipwaagan>"
@@ -407,6 +442,7 @@
 "<asemaa>"
 	"asemaa" NA ProxSg
 "<.>"
+	"PUNCT"
 
 ### 035
 "<gaawiin>"
@@ -421,6 +457,7 @@
 	"niibaashkaa" PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
 	"niibaashkaa" PVTense/ga VAI Cnj Pos Neu 3SgObvSubj
 "<.>"
+	"PUNCT"
 
 ### 036
 "<ogii-paataanizhikawaan>"
@@ -433,6 +470,7 @@
 	"awesiinh" NA ObvPl
 	"awesiinh" NA ObvSg
 "<.>"
+	"PUNCT"
 
 ### 037
 "<onzaamiinowag>"
@@ -442,6 +480,7 @@
 "<noopimiing>"
 	"noopimiing" ADVLoc
 "<.>"
+	"PUNCT"
 
 "<gaye>"
 	"gaye" ADVConj
@@ -450,6 +489,7 @@
 "<gidaa-andawenjige>"
 	"andawenjige" PVTense/daa VAI Ind Pos Neu 2SgSubj
 "<.>"
+	"PUNCT"
 
 ### 038
 "<manoominiwazh>"
@@ -461,6 +501,7 @@
 	"bawa'an" PVSub/gaa PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0PlObj
 	"bawa'an" PVSub/gaa PVTense/gii VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<.>"
+	"PUNCT"
 
 ### 039
 "<dibikong>"
@@ -472,6 +513,7 @@
 "<ininiwag>"
 	"inini" NA ProxPl
 "<.>"
+	"PUNCT"
 
 "<bezhig>"
 	"bezhig" NUM
@@ -481,6 +523,7 @@
 	"nisaabaawe" PVTense/gii' VAI Ind Pos Neu 3SgProxSubj
 	"nisaabaawe" PVTense/gii' VII Ind Pos Neu 0SgSubj
 "<.>"
+	"PUNCT"
 
 ### 040
 "<mooz>"
@@ -489,12 +532,14 @@
 "<animibatoo>"
 	"animibatoo" VAI Ind Pos Neu 3SgProxSubj
 "<.>"
+	"PUNCT"
 
 "<jiigaakwaang>"
 	"jiigaakwaang" ADVLoc
 "<ani-apatoo>"
 	"apatoo" PVDir/ani VAI Ind Pos Neu 3SgProxSubj
 "<.>"
+	"PUNCT"
 
 ### 041
 "<mii>"
@@ -506,6 +551,7 @@
 "<manoomin>"
 	"manoomin" NI Sg
 "<.>"
+	"PUNCT"
 
 ### 042
 "<gego>"
@@ -514,16 +560,19 @@
 	"babaamenim" VTA Imp Prb 2SgSubj 3PlProxObj
 	"babaamenim" VTA Imp Prb 2SgSubj 3SgProxObj
 "<.>"
+	"PUNCT"
 
 "<megwaa>"
 	"megwaa" ADVTmp
 "<odaabaanike>"
 	"odaabaanike" VAI Ind Pos Neu 3SgProxSubj
 "<.>"
+	"PUNCT"
 
 "<giga-wanishkwe'aa>"
 	"wanishkwe'" PVTense/ga VTA Ind Pos Neu 2SgSubj 3SgProxObj
 "<.>"
+	"PUNCT"
 
 ### 043
 "<apane>"
@@ -537,6 +586,7 @@
 	"oozhis" NAD ObvPl 3SgProxPoss
 	"oozhis" NAD ObvSg 3SgProxPoss
 "<.>"
+	"PUNCT"
 
 ### 044
 "<niwii-amwaa>"
@@ -544,6 +594,7 @@
 "<aasamaakwa'igan>"
 	"aasamaakwa'igan" NA ProxSg
 "<.>"
+	"PUNCT"
 
 ### 045
 "<ogii-chiikitaan>"
@@ -555,6 +606,7 @@
 "<gaa-onji-naabinootang>"
 	"naabinootan" PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj
 "<.>"
+	"PUNCT"
 
 ### 046
 "<ninaabinootaan>"
@@ -564,6 +616,7 @@
 "<dibaajimowin>"
 	"dibaajimowin" NI Sg
 "<.>"
+	"PUNCT"
 
 "<gaawiin>"
 	"gaawiin" ADVNeg
@@ -572,12 +625,14 @@
 "<nindoodaya'iimisiin>"
 	"odaya'iimi" VAI Ind Neg Neu 1SgSubj
 "<.>"
+	"PUNCT"
 
 ### 047
 "<ando-bakinasabiidaa>"
 	"bakinasabii" PVLex/ando VAI Imp Del InclSubj
 	"bakinasabii" PVLex/ando VAI Imp Sim InclSubj
 "<.>"
+	"PUNCT"
 
 ### 048
 "<bijiinag>"
@@ -589,6 +644,7 @@
 "<giga-bakinasabiimin>"
 	"bakinasabii" PVTense/ga VAI Ind Pos Neu InclSubj
 "<.>"
+	"PUNCT"
 
 ### 049
 "<ogii-mikwaasenodawaawaan>"
@@ -605,6 +661,7 @@
 "<gii-inaatewebinigewaad>"
 	"inaatewebinige" PVTense/gii VAI Cnj Pos Neu 3PlProxSubj
 "<.>"
+	"PUNCT"
 
 ### 050
 "<niwii'-agwinjidoon>"
@@ -622,3 +679,4 @@
 "<nindabwewining>"
 	"abwewin" NI Loc 1SgPoss
 "<.>"
+	"PUNCT"

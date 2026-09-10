@@ -11,7 +11,7 @@ from pathlib import Path
 # Path to fst
 # Paths to disambiguation and dependency grammars. Update if moved.
 REPO_ROOT = Path(__file__).resolve().parents[2]
-FST_PATH = REPO_ROOT / "data" / "fst" / "ojibwe7.fomabin"
+FST_PATH = REPO_ROOT / "data" / "fst" / "ojibwe.fomabin"
 
 
 class _Analysis:

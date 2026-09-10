@@ -16,8 +16,9 @@ def write_sys_from_tsv(
     cg3_grammar: Path,
     fst_path: Path,
     text_col: str = "Ojibwe",
-    id_col: Optional[str] = "sent_id",
-    eng_col: Optional[str] = "eng",
+    id_col: Optional[str] = None,
+    eng_col: Optional[str] = "English",
+    speaker_col: Optional[str] = "Speaker",
 ):
     # Load FST once
     fst = load_fst_parser(str(fst_path))
@@ -42,12 +43,18 @@ def write_sys_from_tsv(
                 continue
             sid = get(row, id_col) or str(sid_auto)
             eng = get(row, eng_col)
+            speaker = get(row, speaker_col)
+
+            # map speaker to dialect
+            speaker_dialect_dict = {"nj": "NO", "es": "SO", "rg": "", "gh": "", "gj": "", "lw": "", "ls": ""}
+            dialect = speaker_dialect_dict[speaker]
 
             raw = disambiguate(
                 sentence=text.strip(),
                 cg3_grammar_filepath=str(cg3_grammar),
                 fst=fst,
                 verbose=False,
+                dialect=dialect
             )
 
             # remove any blank lines inside a sent_id block
@@ -58,6 +65,9 @@ def write_sys_from_tsv(
             headers = [f"# sent_id = {sid}", f"# text = {text.strip()}"]
             if eng:
                 headers.append(f"# eng = {eng.strip()}")
+            if speaker and speaker.strip():
+                headers.append(f"# speaker = {speaker.strip()}")
+
             rows_out.append("\n".join(headers + [body]).strip())
             sid_auto += 1
 

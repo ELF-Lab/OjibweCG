@@ -1,0 +1,553 @@
+sent_id	text	token_idx	surface	added	removed
+2	Gigikenimaa na ezhinaagozid miskwaabiimagoons gaye ezhibagizid.	2	na	"na	PCInterj"	
+2	Gigikenimaa na ezhinaagozid miskwaabiimagoons gaye ezhibagizid.	3	ezhinaagozid	"izhinaagozi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"izhinaagozi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+2	Gigikenimaa na ezhinaagozid miskwaabiimagoons gaye ezhibagizid.	6	ezhibagizid	"izhibagizi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"izhibagizi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+3	Nigichi-zegi'igonaan awe gaa-ojibinigod zhebaa.	3	gaa-ojibinigod	"ojibinigo	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+ojibinigo	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj
+ojibizh	PVTense/gii VTA Pcp/ChCnj Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+ojibizh	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
+ojibizh	VTA Pcp/PVSub/gaa Pos Neu 3PlObvSubj 3SgProxObj 3PlObvHead
+ojibizh	VTA Pcp/PVSub/gaa Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+ojibizh	VTA Pcp/PVSub/gaa Pos Neu 3SgObvSubj 3SgProxObj 3SgObvHead
+ojibizh	VTA Pcp/PVSub/gaa Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead"	"ojibinigo	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+ojibinigo	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+ojibizh	PVSub/gaa VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+ojibizh	PVSub/gaa VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+ojibizh	PVSub/gaa VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+ojibizh	PVSub/gaa VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj"
+10	Ingii-inaa ji-giiwed.	2	ji-giiwed	"giiwe	PVTense/ji VAI Cnj Pos Neu 3SgProxSubj"	"giiwe	PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+giiwe	PVTense/ga VAI Cnj Pos Neu 3SgProxSubj"
+12	Naawishkwaand namadabi animosh.	3	animosh	"anim	NA Pej ProxSg"	
+13	Maagoshkan ji-gibichibizoyan.	2	ji-gibichibizoyan	"gibichibizo	PVTense/ji VAI Cnj Pos Neu 2SgSubj"	"gibichibizo	PVTense/daa VAI Cnj Pos Neu 2SgSubj
+gibichibizo	PVTense/ga VAI Cnj Pos Neu 2SgSubj"
+14	Weweni inanjige'idizon. Gego miijiken gaa-boozaag.	6	gaa-boozaag	"boozaa	PVTense/gii VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead
+boozaa	VII Pcp/PVSub/gaa Pos Neu 0SgSubj 0SgHead"	"boozaa	PVSub/gaa VII Cnj Pos Neu 0PlSubj
+boozaa	PVSub/gaa VII Cnj Pos Neu 0SgSubj
+boozaa	PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead"
+15	Aandi ezhidaabaadamawaad.	2	ezhidaabaadamawaad	"izhidaabaadamaw	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+izhidaabaadamaw	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	
+16	Nibawaanaa bemaadizid.	2	bemaadizid	"bimaadizi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"bimaadizi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+17	Ozhisidoon onaaganan. Mii zhigwa go wiiba ji-wiisiniyang.	8	ji-wiisiniyang	"wiisini	PVTense/ji VAI Cnj Pos Neu InclSubj"	"wiisini	PVTense/daa VAI Cnj Pos Neu InclSubj
+wiisini	PVTense/ga VAI Cnj Pos Neu InclSubj"
+27	Mii 'i ezhinaagwak. Inashke!	3	ezhinaagwak	"izhinaagwad	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"izhinaagwad	VII Pcp Pos Neu 0SgSubj 0SgHead"
+28	NIngo-giizhik gii-o-gibaakwa'waa.	1	ningo-giizhik	"giizhik	PNQnt/ngo NA ProxSg 1SgPoss"	
+28	NIngo-giizhik gii-o-gibaakwa'waa.	2	gii-o-gibaakwa'waa	"gibaakwa'wi	PVTense/gii PVDir/o VTA Ind Pos Neu XSubj 3SgProxObj"	
+32	Aaniin enakamigaag.	2	enakamigaag	"inakamigaa	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"inakamigaa	VII Pcp Pos Neu 0SgSubj 0SgHead"
+35	Minomaasige gaa-zaasakokwaadang moozo-wiiyaas.	2	gaa-zaasakokwaadang	"zaasakokwaadan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+zaasakokwaadan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+zaasakokwaadan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+zaasakokwaadan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 0PlHead
+zaasakokwaadan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+zaasakokwaadan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 0SgHead
+zaasakokwaadan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	"zaasakokwaadan	PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+zaasakokwaadan	PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj"
+40	Gichi-wawiingezi gikinootawaad ini migiziin awe ogichidaa.	4	migiziin	"migizii	NA ObvPl
+migizii	NA ObvSg"	
+43	Aaniin ezhi-zhaaganaashiiwinikaadeg.	2	ezhi-zhaaganaashiiwinikaadeg	"zhaaganaashiiwinikaade	PVRel/izhi VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"zhaaganaashiiwinikaade	PVRel/izhi VII Pcp Pos Neu 0SgSubj 0SgHead"
+46	Onzaam agaasaamagadoon emikwaanensan.	2	agaasaamagadoon	"agaasaamagad	VII Ind Pos Neu 0PlSubj"	
+47	Gipagaamagad iwe mazina'igan gaa-wi-adaawanged.	4	gaa-wi-adaawanged	"adaawange	PVDir/wi VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj
+adaawange	PVTense/gii PVDir/wi VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 0PlHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 0SgHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3PlObvHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgObvHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+adaawangen	PVDir/wi VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxHead
+adaawangen	PVTense/gii PVDir/wi VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+adaawangen	PVTense/gii PVDir/wi VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+adaawangen	PVTense/gii PVDir/wi VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+adaawangen	PVTense/gii PVDir/wi VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+adaawangen	PVTense/gii PVDir/wi VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+adaawangen	PVTense/gii PVDir/wi VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"adaawange	PVSub/gaa PVDir/wi VAI Cnj Pos Neu 3SgProxSubj
+adaawange	PVTense/gii PVDir/wi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+adaawangen	PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj
+adaawangen	PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+adaawangen	PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+adaawangen	PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+adaawangen	PVSub/gaa PVDir/wi VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj"
+48	Wewiib gagwe-giizhitoon gaa-dazhiikaman gigikinoo'amaagoowin.	3	gaa-dazhiikaman	"dazhiikan	PVTense/gii VTI Pcp/ChCnj Pos Neu 2SgSubj 0SgObj 0SgHead
+dazhiikan	VTI Pcp/PVSub/gaa Pos Neu 2SgSubj 0PlObj 0PlHead
+dazhiikan	VTI Pcp/PVSub/gaa Pos Neu 2SgSubj 0SgObj 0SgHead"	"dazhiikan	PVSub/gaa VTI Cnj Pos Neu 2SgSubj 0PlObj
+dazhiikan	PVSub/gaa VTI Cnj Pos Neu 2SgSubj 0SgObj"
+49	Ogidaakiiwe waa'-onzaabandang mashi ji-gashkadininig zaaga'igan.	2	waa'-onzaabandang	"onzaabandan	PVTense/wii' VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+onzaabandan	PVTense/wii' VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+onzaabandan	PVTense/wii' VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	
+49	Ogidaakiiwe waa'-onzaabandang mashi ji-gashkadininig zaaga'igan.	4	ji-gashkadininig	"gashkadin	PVTense/ji VII Cnj Pos Neu 0PlObvSubj
+gashkadin	PVTense/ji VII Cnj Pos Neu 0SgObvSubj"	"gashkadin	PVTense/daa VII Cnj Pos Neu 0PlObvSubj
+gashkadin	PVTense/daa VII Cnj Pos Neu 0SgObvSubj
+gashkadin	PVTense/ga VII Cnj Pos Neu 0PlObvSubj
+gashkadin	PVTense/ga VII Cnj Pos Neu 0SgObvSubj"
+50	Aaniin epiitaagonagaag noongom gaa-biboong.	2	epiitaagonagaag	"apiitaagonagaa	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"apiitaagonagaa	VII Pcp Pos Neu 0SgSubj 0SgHead"
+50	Aaniin epiitaagonagaag noongom gaa-biboong.	4	gaa-biboong	"biboon	PVTense/gii VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead
+biboon	VII Pcp/PVSub/gaa Pos Neu 0SgSubj 0SgHead"	"biboon	PVSub/gaa VII Cnj Pos Neu 0PlSubj
+biboon	PVSub/gaa VII Cnj Pos Neu 0SgSubj
+biboon	PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead"
+52	Gaye giin na giwii-wiijiiw. Oodenaang niwii-izhaa.	3	na	"na	PCInterj"	
+58	Niwii'-naajibizotoon waa'-naawakwe-miijiyaan.	2	waa'-naawakwe-miijiyaan	"naawakwe-miijin	PVTense/wii' VTI Pcp/ChCnj Pos Neu 1SgSubj 0SgObj 0SgHead"	
+60	Gichi-neniibowa odaabajitoon 'i wiisagad 'a jiibaakwewinini jiibaakwed.	1	gichi-neniibowa	"gichi-neniibowa	ADVQnt"	
+61	Wiigwaasanakoonsan gokeyawikaagen waabooz ji-nagwaanad, maazhaa gaye bine.	4	ji-nagwaanad	"nagwaazh	PVTense/ji VTA Cnj Pos Neu 2SgSubj 3SgProxObj"	"nagwaazh	PVTense/daa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+nagwaazh	PVTense/ga VTA Cnj Pos Neu 2SgSubj 3SgProxObj"
+63	Mii ganabaj igo ji-aabijibiisaag. Mii 'i  waabang bijiinag ji-gitigeying	4	ji-aabijibiisaag	"aabijibiisaa	PVTense/ji VII Cnj Pos Neu 0PlSubj
+aabijibiisaa	PVTense/ji VII Cnj Pos Neu 0SgSubj"	"aabijibiisaa	PVTense/daa VII Cnj Pos Neu 0PlSubj
+aabijibiisaa	PVTense/daa VII Cnj Pos Neu 0SgSubj
+aabijibiisaa	PVTense/ga VII Cnj Pos Neu 0PlSubj
+aabijibiisaa	PVTense/ga VII Cnj Pos Neu 0SgSubj"
+63	Mii ganabaj igo ji-aabijibiisaag. Mii 'i  waabang bijiinag ji-gitigeying	10	ji-gitigeying	"gitige	PVTense/ji VAI Cnj Pos Neu InclSubj"	"gitige	PVTense/daa VAI Cnj Pos Neu InclSubj
+gitige	PVTense/ga VAI Cnj Pos Neu InclSubj"
+65	Ogii-noonishkaanan aana-gii-kozikang iniwen makizinan a'awe nindaanis.	6	nindaanis	"ndaanis	NAD ProxSg 1SgPoss"	
+70	Ogii-maajinizha'aan bijiinaago 'i gaa-tazhiikang anokii-mazina'igan.	4	gaa-tazhiikang	"dazhiikan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+dazhiikan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+dazhiikan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	
+71	Ogii-mashkawitoon i'iwe gaa-ikidod.	3	gaa-ikidod	"ikido	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+ikido	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"ikido	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+ikido	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+75	Gii-gichi-inandiwag animoshag gii-miigaadiwaad. Gii-kaashaabidewag.	2	animoshag	"anim	NA Pej ProxPl"	
+76	Aaniish ge omaa ba-onji-nanaamadabid wa'awe. | Aana go naa mawadishiwe.	1	aaniish	"aaniish	PCDisc"	
+77	Aaniin ezhiwebinang ogiishkiboojigan gii-gawiboojiged. Odanibenaan ina.	2	ezhiwebinang	"izhiwebin	VTA Pcp/ChCnj Pos Neu InclSubj 3SgProxObj 3SgProxHead
+izhiwebinan	VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+izhiwebinan	VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+izhiwebinan	VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	
+79	Onjida go ge giin ji-wiijitwaayan	5	ji-wiijitwaayan	"wiijitwaa	PVTense/ji VAI Cnj Pos Neu 2SgSubj"	"wiijitwaa	PVTense/daa VAI Cnj Pos Neu 2SgSubj
+wiijitwaa	PVTense/ga VAI Cnj Pos Neu 2SgSubj"
+82	Anaamakamig maa ingii-kaanaa nzhooniyaam.	2	maa	"maa	PCEmph"	
+84	Gaawiin ingii-gikendanziin waa-izhichigeyaan, gaa-izhi-gagwejitooyaan.	5	gaa-izhi-gagwejitooyaan	"gagwejitoon	PVRel/izhi VTI Pcp/PVSub/gaa Pos Neu 1SgSubj 0PlObj 0PlHead
+gagwejitoon	PVRel/izhi VTI Pcp/PVSub/gaa Pos Neu 1SgSubj 0SgObj 0SgHead
+gagwejitoon	PVTense/gii PVRel/izhi VTI Pcp/ChCnj Pos Neu 1SgSubj 0SgObj 0SgHead"	"gagwejitoon	PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0PlObj
+gagwejitoon	PVSub/gaa PVRel/izhi VTI Cnj Pos Neu 1SgSubj 0SgObj"
+85	Onji'idim anooj igo ji-doodawindwaa animoshag.	1	onji'idim	"onji'idim	VAI Ind Pos Neu 3SgProxSubj"	
+85	Onji'idim anooj igo ji-doodawindwaa animoshag.	4	ji-doodawindwaa	"doodaw	PVTense/ji VTA Cnj Pos Neu XSubj 3PlProxObj"	"doodaw	PVTense/daa VTA Cnj Pos Neu XSubj 3PlProxObj
+doodaw	PVTense/ga VTA Cnj Pos Neu XSubj 3PlProxObj"
+85	Onji'idim anooj igo ji-doodawindwaa animoshag.	5	animoshag	"anim	NA Pej ProxPl"	
+88	Awegwen igo gaa-mamadwetood agwajiing dibikong.	3	gaa-mamadwetood	"mamadwetoo	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+mamadwetoo	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"mamadwetoo	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+mamadwetoo	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+92	Onandoojiinaan 'iw biskanebijigaans.  | Ogii-mikoojiinaan ina?	3	biskanebijigaans	"biskanebijigan	NI Dim Sg"	
+99	Gichi-weweni ingii-piini'aa indoopwaagan.	1	gichi-weweni	"gichi-weweni	ADVMan"	
+102	Omashkikiikaadaan i'iw ogidig gaa-bishagisidood.	4	gaa-bishagisidood	"bishagisidoon	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+bishagisidoon	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+bishagisidoon	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+bishagisidoon	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 0PlHead
+bishagisidoon	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+bishagisidoon	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 0SgHead
+bishagisidoon	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	"bishagisidoon	PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+bishagisidoon	PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj"
+105	Aaniin epiitweweg ishkodewidaabaan ba-noondaagwak.	2	epiitweweg	"apiitwewe	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"apiitwewe	VII Pcp Pos Neu 0SgSubj 0SgHead"
+109	Ogii-mikaan 'i waazh i'imaa  endazhenid iniw boodaajibingwesiwan.	3	waazh	"waazh	VTA Imp Sim 2SgSubj 3PlProxObj
+waazh	VTA Imp Sim 2SgSubj 3SgProxObj"	
+112	Naanaagaji' asin ji-ozhaashaabikizid jibwaa-gabaayan.	3	ji-ozhaashaabikizid	"ozhaashaabikizi	PVTense/ji VAI Cnj Pos Neu 3SgProxSubj"	"ozhaashaabikizi	PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+ozhaashaabikizi	PVTense/ga VAI Cnj Pos Neu 3SgProxSubj"
+113	Indanokiitaage iwidi godagiing.	3	godagiing	"godagiing	ADVDeg"	
+114	Aaniin enigokwaabikizid.	2	enigokwaabikizid	"inigokwaabikizi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"inigokwaabikizi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+116	Aaniin epiitang jiimaan?	2	epiitang	"apiitan	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"apiitan	VII Pcp Pos Neu 0SgSubj 0SgHead"
+122	Mii go ji-anoonind miinawaa giishpin wawiingezid.	3	ji-anoonind	"anoozh	PVTense/ji VTA Cnj Pos Neu XSubj 3SgProxObj"	"anoozh	PVTense/daa VTA Cnj Pos Neu XSubj 3SgProxObj
+anoozh	PVTense/ga VTA Cnj Pos Neu XSubj 3SgProxObj"
+124	Mii zhigwa bimiinowaad igi nikag.	3	bimiinowaad	"biminizha'odiwag	VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj"	
+128	Ingii-andomaag igiw abinoojiinyag  ji-bi-odaminowaad.	4	ji-bi-odaminowaad	"odamino	PVTense/ji PVDir/bi VAI Cnj Pos Neu 3PlProxSubj"	"odamino	PVTense/daa PVDir/bi VAI Cnj Pos Neu 3PlProxSubj
+odamino	PVTense/ga PVDir/bi VAI Cnj Pos Neu 3PlProxSubj"
+131	Maamakaadakamig inendaagozi gaa-anokiitang waakaa'igan.	3	gaa-anokiitang	"anokiitan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+anokiitan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+anokiitan	PVTense/gii VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+anokiitan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 0PlHead
+anokiitan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+anokiitan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 0SgHead
+anokiitan	VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	"anokiitan	PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+anokiitan	PVSub/gaa VTI Cnj Pos Neu 3SgProxSubj 0SgObj"
+132	Gichi-zaasaakwe awe mindimooyenh epiichi-jiikimigod iniw dewe'iganan miinawaa negamonid.	4	epiichi-jiikimigod	"jiikim	PVRel/apiichi VTA Pcp/ChCnj Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+jiikim	PVRel/apiichi VTA Pcp/ChCnj Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead"	
+135	Bagama'amaazo. Ganabaj gii'-niiwezhiwewag gaa-bikwaakwadoonsikewaad.	5	gaa-bikwaakwadoonsikewaad	"bikwaakwadoonsike	VAI Pcp/PVSub/gaa Pos Neu 3PlProxSubj 3PlProxSubj"	"bikwaakwadoonsike	PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj"
+136	Aaniish enigokwaakozid.	1	aaniish	"aaniish	PCDisc"	
+136	Aaniish enigokwaakozid.	2	enigokwaakozid	"inigokwaakozi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"inigokwaakozi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+137	Onjishkawa'o gaa-biidakwazhiwed. Baamaa naagaj da-bi-bagamakwazhiwe.	2	gaa-biidakwazhiwed	"biidakwazhiwe	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+biidakwazhiwe	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"biidakwazhiwe	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+biidakwazhiwe	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+139	Oke-banaadad iwe gichi-aniibiish neboobiikaadeg.	4	neboobiikaadeg	"naboobiikaade	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"naboobiikaade	VII Pcp Pos Neu 0SgSubj 0SgHead"
+142	Jiigidaabaan namadabi nimaamaa. Ganabaj awiya obaabii'aan.	3	nimaamaa	"maamaa	NAD ProxSg 1SgPoss"	
+143	Ingii-adaamaa ditibidaabaanan gaa-ayaad.	3	gaa-ayaad	"ayaa	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+ayaa	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"ayaa	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+ayaa	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+145	Gaawiin obagidinaasii' oniijaanisa' ji-niibaashkaanid.	4	ji-niibaashkaanid	"niibaashkaa	PVTense/ji VAI Cnj Pos Neu 3PlObvSubj
+niibaashkaa	PVTense/ji VAI Cnj Pos Neu 3SgObvSubj"	"niibaashkaa	PVTense/daa VAI Cnj Pos Neu 3PlObvSubj
+niibaashkaa	PVTense/daa VAI Cnj Pos Neu 3SgObvSubj
+niibaashkaa	PVTense/ga VAI Cnj Pos Neu 3PlObvSubj
+niibaashkaa	PVTense/ga VAI Cnj Pos Neu 3SgObvSubj"
+149	Gii-kinjiba'iwe aana-wii-pi-naanind ji-o-miigaadang ishkode.	3	ji-o-miigaadang	"miigaadan	PVTense/ji PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+miigaadan	PVTense/ji PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj"	"miigaadan	PVTense/daa PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+miigaadan	PVTense/daa PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj
+miigaadan	PVTense/ga PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+miigaadan	PVTense/ga PVDir/o VTI Cnj Pos Neu 3SgProxSubj 0SgObj"
+151	Giishpin mikwaminaaniwang, waabowayaan gidaa-badagwana'waa gidoodaabaan ji-maakishkoozosig.	5	gidaa-badagwana'waa	"badagwana'wi	PVTense/daa VTA Ind Pos Neu 2SgSubj 3SgProxObj"	
+151	Giishpin mikwaminaaniwang, waabowayaan gidaa-badagwana'waa gidoodaabaan ji-maakishkoozosig.	7	ji-maakishkoozosig	"maakishkoozo	PVTense/ji VAI Cnj Neg Neu 3SgProxSubj"	"maakishkoozo	PVTense/daa VAI Cnj Neg Neu 3SgProxSubj
+maakishkoozo	PVTense/ga VAI Cnj Neg Neu 3SgProxSubj"
+154	Ogii-bitaganaandaan gaa-onji-baasa'ang i'iw waasechigan.	2	gaa-onji-baasa'ang	"baasa'an	PVRel/onji VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 0PlHead
+baasa'an	PVRel/onji VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+baasa'an	PVRel/onji VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 0SgHead
+baasa'an	PVRel/onji VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+baasa'an	PVTense/gii PVRel/onji VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+baasa'an	PVTense/gii PVRel/onji VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+baasa'an	PVTense/gii PVRel/onji VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	"baasa'an	PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+baasa'an	PVSub/gaa PVRel/onji VTI Cnj Pos Neu 3SgProxSubj 0SgObj"
+162	Mii 'iw gwayak ekwaademagak.	4	ekwaademagak	"ikwaade	VII Aug/magad VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"ikwaade	VII Aug/magad VII Pcp Pos Neu 0SgSubj 0SgHead"
+166	Omaanendaan i'iw odaakewin gaa-piindigajigaadenig.	4	gaa-piindigajigaadenig	"biindigajigaade	PVTense/gii VII Pcp/ChCnj Pos Neu 0SgObvSubj 0SgObvHead"	"biindigajigaade	PVTense/gii VII Pcp Pos Neu 0SgObvSubj 0SgObvHead"
+168	Aandi wendaanimak. | Oo, waasa maawiin ondaanimad.	2	wendaanimak	"ondaanimad	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"ondaanimad	VII Pcp Pos Neu 0SgSubj 0SgHead"
+170	Odazhiikawaan iniw waawaashkeshiwan gaa-paashkizwaad.	4	gaa-paashkizwaad	"baashkiz	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+baashkiz	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+baashkizwi	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+baashkizwi	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	
+171	Aaniin da naa aapidakamig ezhiwebak.	5	ezhiwebak	"izhiwebad	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"izhiwebad	VII Pcp Pos Neu 0SgSubj 0SgHead"
+175	Anokiikaazo awe getimishkid.	3	getimishkid	"gitimishki	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"gitimishki	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+176	Gii-onzaamibizowag imaa washkamonig igiw gaa-anibesewaad.	5	gaa-anibesewaad	"anibese	VAI Pcp/PVSub/gaa Pos Neu 3PlProxSubj 3PlProxSubj"	"anibese	PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj"
+177	Ona'itawaan oosan ezhi-gikinoo'amaagod.	3	ezhi-gikinoo'amaagod	"gikinoo'amaw	PVRel/izhi VTA Pcp/ChCnj Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+gikinoo'amaw	PVRel/izhi VTA Pcp/ChCnj Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead"	
+179	Indaga dawinamaw 'iw desa'on aw niningwan. Mii imaa ge-izhi-bagidoomaad iniw waawaashkeshiwan.	10	ge-izhi-bagidoomaad	"bagidoom	ChCnj PVTense/ge PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+bagidoom	ChCnj PVTense/ge PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj"	"bagidoom	ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+bagidoom	ChCnj PVTense/daa PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj
+bagidoom	ChCnj PVTense/ga PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+bagidoom	ChCnj PVTense/ga PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj"
+184	Weweni ganawendamog 'i minisi ebiitamong.	5	ebiitamong	"abiitan	VTI Pcp/ChCnj Pos Neu InclSubj 0SgObj 0SgHead"	
+191	Ezhi-gizii'waad iniwen owiiniskiigomaanan a'aw gwiiwizens.	1	ezhi-gizii'waad	"gizii'	PVRel/izhi VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+gizii'	PVRel/izhi VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+gizii'wi	PVRel/izhi VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+gizii'wi	PVRel/izhi VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	
+192	Zaagidin a'aw animosh.	3	animosh	"anim	NA Pej ProxSg"	
+193	Iw manoominashk, miish iwidi ogijayi'ii endazhiging 'iw manoomin.	7	endazhiging	"dazhigin	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"dazhigin	VII Pcp Pos Neu 0SgSubj 0SgHead"
+194	Mamigobidoon nooka'iiwagwaan gaa-mashkawaakwading, aanind wii-siiginaman gijiibaakwaanakikong.	3	gaa-mashkawaakwading	"mashkawaakwadin	PVTense/gii VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead
+mashkawaakwadin	VII Pcp/PVSub/gaa Pos Neu 0SgSubj 0SgHead"	"mashkawaakwadin	PVSub/gaa VII Cnj Pos Neu 0PlSubj
+mashkawaakwadin	PVSub/gaa VII Cnj Pos Neu 0SgSubj
+mashkawaakwadin	PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead"
+198	Giiwedaabaazh amik gaa-gii-tasoonad.	3	gaa-gii-tasoonad	"dasoozh	PVTense/gii PVTense/gii VTA Pcp/ChCnj Pos Neu 2SgSubj 3SgProxObj 3SgProxHead
+dasoozh	PVTense/gii VTA Pcp/PVSub/gaa Pos Neu 2SgSubj 3SgProxObj 3SgProxHead"	"dasoozh	PVSub/gaa PVTense/gii VTA Cnj Pos Neu 2SgSubj 3SgProxObj"
+201	Dibishkoo go naa ezhichiged ozhi'aad ini bakwezhiganan ge niin ezhichigeyaan.	4	ezhichiged	"izhichige	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"izhichige	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+205	Aaniin epiichi-gizhaateg.	2	epiichi-gizhaateg	"gizhaate	PVRel/apiichi VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"gizhaate	PVRel/apiichi VII Pcp Pos Neu 0SgSubj 0SgHead"
+207	Ogiishkizhamowaan iniw oosan omashkosiinsimini.	4	omashkosiinsimini	"mashkosiins	NI Poss Pl 3PlObvPoss
+mashkosiins	NI Poss Pl 3SgObvPoss
+mashkosiins	NI Poss Sg 3PlObvPoss
+mashkosiins	NI Poss Sg 3SgObvPoss"	
+209	Aaniin endaswewaanagakin.	2	endaswewaanagakin	"daswewaanagad	ChCnj VII Cnj Pos Neu 0PlSubj
+daswewaanagad	VII Pcp/ChCnj Pos Neu 0PlSubj 0PlHead"	
+210	Agaamikwam inaada'e nindede.	3	nindede	"ndedey	NAD ProxSg 1SgPoss"	
+211	Indaga o-wiidookaw awe nookomis baadaadagaaziid.	5	baadaadagaaziid	"biidaadagaazii	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"biidaadagaazii	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+212	Ningii-kagwejikanidimin nishiime gaa-ni-izhi-gabikawid.	3	gaa-ni-izhi-gabikawid	"gabikaw	PVDir/ni PVRel/izhi VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
+gabikaw	PVTense/gii PVDir/ni PVRel/izhi VTA Pcp/ChCnj Pos Neu 3SgProxSubj 1SgObj 3SgProxHead"	"gabikaw	PVSub/gaa PVDir/ni PVRel/izhi VTA Cnj Pos Neu 3SgProxSubj 1SgObj"
+215	Apane ninaanaagadawenimaa noozhis waasa gaa-dazhi-gikinoo'amawind. Ganabaj ninga-ganoonaa onaagoshig.	5	gaa-dazhi-gikinoo'amawind	"gikinoo'amaw	PVRel/dazhi VTA Pcp/PVSub/gaa Pos Neu XSubj 3SgProxObj 3SgProxHead
+gikinoo'amaw	PVTense/gii PVRel/dazhi VTA Pcp/ChCnj Pos Neu XSubj 3SgProxObj 3SgProxHead"	"gikinoo'amaw	PVSub/gaa PVRel/dazhi VTA Cnj Pos Neu XSubj 3SgProxObj"
+216	Ozhiigizhan waa'-inigokwegakin gimakizinikaanan.	2	waa'-inigokwegakin	"inigokwegad	PVTense/wii' VII Pcp/ChCnj Pos Neu 0PlSubj 0PlHead"	"inigokwegad	PVTense/wii' VII Pcp Pos Neu 0PlSubj 0PlHead"
+220	Gomaa go akogamaa.	1	gomaa	"gom	VTA Ind Pos Neu XSubj 3SgProxObj"	
+222	Mii gii-maajiibatood awe bebaamaajimod wii-niimi'iding.	4	bebaamaajimod	"babaamaajimo	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"babaamaajimo	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+222	Mii gii-maajiibatood awe bebaamaajimod wii-niimi'iding.	5	wii-niimi'iding	"niimi'idi	PVTense/wii VAI Cnj Pos Neu XSubj
+wii-niimi'idiwag	VAI Cnj Pos Neu XSubj XObj"	
+223	Giishpin izhishimod iniwen gekinawaabamaad naaminid.	4	gekinawaabamaad	"gikinawaabam	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+gikinawaabam	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	
+223	Giishpin izhishimod iniwen gekinawaabamaad naaminid.	5	naaminid	"niimin	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 1SgObj 3SgProxHead"	
+226	Aaniish enaabamad.	1	aaniish	"aaniish	PCDisc"	
+226	Aaniish enaabamad.	2	enaabamad	"inaabam	VTA Pcp/ChCnj Pos Neu 2SgSubj 3SgProxObj 3SgProxHead"	
+227	Ganabaj aanind biskanechigaansag jaagizowag wenji-maazhibideg 'iw odaabaan.	5	wenji-maazhibideg	"maazhibide	PVRel/onji VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"maazhibide	PVRel/onji VII Pcp Pos Neu 0SgSubj 0SgHead"
+228	Gii-pookozideshin gaa-gii-pishigwaakwiid odaabaaning.	2	gaa-gii-pishigwaakwiid	"bishigwaakwii	PVTense/gii PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+bishigwaakwii	PVTense/gii VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"bishigwaakwii	PVSub/gaa PVTense/gii VAI Cnj Pos Neu 3SgProxSubj
+bishigwaakwii	PVTense/gii PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+232	Gidaa-gagwe-mikamawaa odoodaabaanan gaa-gii'-wani'aad. Dakoniwewininiwag ogagwe-mikawaawaan.	3	gaa-gii'-wani'aad	"wani'	PVTense/gii PVTense/gii' VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+wani'	PVTense/gii PVTense/gii' VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+wani'	PVTense/gii' VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3PlObvHead
+wani'	PVTense/gii' VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+wani'	PVTense/gii' VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgObvHead
+wani'	PVTense/gii' VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	"wani'	PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+wani'	PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj"
+234	Agwajiing ningii-izhaa, gaa-izhi-giikajizidewajiyaan, gaa-izhi-biindigeyaan gii-kiizikamaan nimakizinan.	4	gaa-izhi-giikajizidewajiyaan		"giikajizidewaji	PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj"
+234	Agwajiing ningii-izhaa, gaa-izhi-giikajizidewajiyaan, gaa-izhi-biindigeyaan gii-kiizikamaan nimakizinan.	6	gaa-izhi-biindigeyaan		"biindige	PVSub/gaa PVRel/izhi VAI Cnj Pos Neu 1SgSubj"
+236	Ginandawenimin ji-bi-giiweyan.	2	ji-bi-giiweyan	"giiwe	PVTense/ji PVDir/bi VAI Cnj Pos Neu 2SgSubj"	"giiwe	PVTense/daa PVDir/bi VAI Cnj Pos Neu 2SgSubj
+giiwe	PVTense/ga PVDir/bi VAI Cnj Pos Neu 2SgSubj"
+238	Giinitamawind gidigoomin ji-gaagiigidoyang.	3	ji-gaagiigidoyang	"gaagiigido	PVTense/ji VAI Cnj Pos Neu InclSubj"	"gaagiigido	PVTense/daa VAI Cnj Pos Neu InclSubj
+gaagiigido	PVTense/ga VAI Cnj Pos Neu InclSubj"
+240	Aanawendaagozi ji-giizhitoopan waakaa'igan; onzaam gitimishki.	2	ji-giizhitoopan	"giizhitoon	PVTense/ji VTI Cnj Pos Prt 3SgProxSubj 0PlObj
+giizhitoon	PVTense/ji VTI Cnj Pos Prt 3SgProxSubj 0SgObj"	"giizhitoon	PVTense/daa VTI Cnj Pos Prt 3SgProxSubj 0PlObj
+giizhitoon	PVTense/daa VTI Cnj Pos Prt 3SgProxSubj 0SgObj
+giizhitoon	PVTense/ga VTI Cnj Pos Prt 3SgProxSubj 0PlObj
+giizhitoon	PVTense/ga VTI Cnj Pos Prt 3SgProxSubj 0SgObj"
+245	Aaniish wiin epiitangimaad.	1	aaniish	"aaniish	PCDisc"	
+245	Aaniish wiin epiitangimaad.	3	epiitangimaad	"apiitangim	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+apiitangim	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	
+249	Nimaanendam enaajimotawid.	2	enaajimotawid	"inaajimotaw	VTA Pcp/ChCnj Pos Neu 3SgProxSubj 1SgObj 3SgProxHead"	
+252	Andawaabandan i'iw gichi-gwaaba'igan.	3	gichi-gwaaba'igan	"gichi-gwaaba'igan	NI Sg"	
+255	Aandi endanaaniked	2	endanaaniked	"danaanike	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"danaanike	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+257	Mii 'iw gii-oniijaanisid awe gidayinaan. Zhaangaso gii-ayaaw...  ogii-ayaawaan iniw animoonsan.	12	animoonsan	"anim	NA Dim ObvPl
+anim	NA Dim ObvSg"	
+262	Gego waniikeken ji-izhiwidamaageyan gimakizinikaanan. Waabang da-giba'igaade ozhibii'igewigamig.	3	ji-izhiwidamaageyan	"izhiwidamaage	PVTense/ji VAI Cnj Pos Neu 2SgSubj"	"izhiwidamaage	PVTense/daa VAI Cnj Pos Neu 2SgSubj
+izhiwidamaage	PVTense/ga VAI Cnj Pos Neu 2SgSubj"
+263	Aaniish enendaman. | Ambegish.	1	aaniish	"aaniish	PCDisc"	
+263	Aaniish enendaman. | Ambegish.	2	enendaman	"inendan	VTI Pcp/ChCnj Pos Neu 2SgSubj 0SgObj 0SgHead"	
+265	Aaniin epiitoonagak jiimaan?	2	epiitoonagak	"apiitoonagad	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"apiitoonagad	VII Pcp Pos Neu 0SgSubj 0SgHead"
+266	Geyaabi babaamisewag aandegwag. Gaawiin mashi ando-biboonishisiiwag.	7	ando-biboonishisiiwag	"biboonishi	PVLex/nando VAI Ind Neg Neu 3PlProxSubj"	
+269	Odabaagamizamawaan naboob waa'-ashamaad omishoomisan.	3	waa'-ashamaad	"asham	PVTense/wii' VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+asham	PVTense/wii' VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	
+270	Iwidi ogidakamig ate 'iw endawaabandaman.	5	endawaabandaman	"andawaabandan	VTI Pcp/ChCnj Pos Neu 2SgSubj 0SgObj 0SgHead"	
+276	Aaniin epiitading.	2	epiitading	"apiitadin	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"apiitadin	VII Pcp Pos Neu 0SgSubj 0SgHead"
+281	Ogashkitoon ji-anokiid.	2	ji-anokiid	"anokii	PVTense/ji VAI Cnj Pos Neu 3SgProxSubj"	"anokii	PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+anokii	PVTense/ga VAI Cnj Pos Neu 3SgProxSubj"
+282	Mii na go 'iw ji-gashkitooyegiban ji-ozhitooyeg bakejiigaan? | Enh, ninitaawichigemin.	2	na	"na	PCInterj"	
+282	Mii na go 'iw ji-gashkitooyegiban ji-ozhitooyeg bakejiigaan? | Enh, ninitaawichigemin.	5	ji-gashkitooyegiban	"gashkitoon	PVTense/ji VTI Cnj Pos Prt 2PlSubj 0PlObj
+gashkitoon	PVTense/ji VTI Cnj Pos Prt 2PlSubj 0SgObj"	"gashkitoon	PVTense/daa VTI Cnj Pos Prt 2PlSubj 0PlObj
+gashkitoon	PVTense/daa VTI Cnj Pos Prt 2PlSubj 0SgObj
+gashkitoon	PVTense/ga VTI Cnj Pos Prt 2PlSubj 0PlObj
+gashkitoon	PVTense/ga VTI Cnj Pos Prt 2PlSubj 0SgObj"
+282	Mii na go 'iw ji-gashkitooyegiban ji-ozhitooyeg bakejiigaan? | Enh, ninitaawichigemin.	6	ji-ozhitooyeg	"ozhitoon	PVTense/ji VTI Cnj Pos Neu 2PlSubj 0PlObj
+ozhitoon	PVTense/ji VTI Cnj Pos Neu 2PlSubj 0SgObj"	"ozhitoon	PVTense/daa VTI Cnj Pos Neu 2PlSubj 0PlObj
+ozhitoon	PVTense/daa VTI Cnj Pos Neu 2PlSubj 0SgObj
+ozhitoon	PVTense/ga VTI Cnj Pos Neu 2PlSubj 0PlObj
+ozhitoon	PVTense/ga VTI Cnj Pos Neu 2PlSubj 0SgObj"
+283	Gii-paakaakosin iwe waasechigan gaa-onji-biindigebiisaag	4	gaa-onji-biindigebiisaag	"biindigebiisaa	PVRel/onji VII Pcp/PVSub/gaa Pos Neu 0SgSubj 0SgHead
+biindigebiisaa	PVTense/gii PVRel/onji VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"biindigebiisaa	PVSub/gaa PVRel/onji VII Cnj Pos Neu 0PlSubj
+biindigebiisaa	PVSub/gaa PVRel/onji VII Cnj Pos Neu 0SgSubj
+biindigebiisaa	PVTense/gii PVRel/onji VII Pcp Pos Neu 0SgSubj 0SgHead"
+286	Aaniin epogwak.	2	epogwak	"ipogwad	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"ipogwad	VII Pcp Pos Neu 0SgSubj 0SgHead"
+287	Aandi gaa-tanaakizod gaa-wiidaakizoomaad ogimaakaanan	2	gaa-tanaakizod	"danaakizo	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+danaakizwi	ChCnj PVTense/gii VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+danaakizwi	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 1SgObj 3SgProxHead"	"danaakizo	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+287	Aandi gaa-tanaakizod gaa-wiidaakizoomaad ogimaakaanan	3	gaa-wiidaakizoomaad	"wiidaakizoom	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+wiidaakizoom	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+wiidaakizoom	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3PlObvHead
+wiidaakizoom	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+wiidaakizoom	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgObvHead
+wiidaakizoom	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	"wiidaakizoom	PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+wiidaakizoom	PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj"
+292	Onzaamiinowag animoshag omaa ishkoniganing. Miziwe wiinichigewag.	1	onzaamiinowag	"onzaamiinowag	VAIPL Ind Pos Neu 3PlProxSubj"	
+292	Onzaamiinowag animoshag omaa ishkoniganing. Miziwe wiinichigewag.	2	animoshag	"anim	NA Pej ProxPl"	
+292	Onzaamiinowag animoshag omaa ishkoniganing. Miziwe wiinichigewag.	4	ishkoniganing	"ishkonigan	NA Loc"	
+296	Aaniin enaadizid?	2	enaadizid	"inaadizi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"inaadizi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+306	Gidaa-ozhiga'waa na awedi mitig.	2	na	"na	PCInterj"	
+307	Bebooninig gii-nitaawigi.	1	bebooninig	"biboon	VII Pcp/ChCnj Pos Neu 0SgObvSubj 0SgObvHead"	"biboon	VII Pcp Pos Neu 0SgObvSubj 0SgObvHead"
+310	Awenen gaa'-inagimind ji-ogimaakaaniwid.	2	gaa'-inagimind	"inagim	PVTense/gii' VTA Pcp/ChCnj Pos Neu XSubj 3SgProxObj 3SgProxHead"	
+310	Awenen gaa'-inagimind ji-ogimaakaaniwid.	3	ji-ogimaakaaniwid	"ogimaakaaniwi	PVTense/ji VAI Cnj Pos Neu 3SgProxSubj"	"ogimaakaaniwi	PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+ogimaakaaniwi	PVTense/ga VAI Cnj Pos Neu 3SgProxSubj"
+311	Gichi-mewinzha gii-izhaayaambaan oodenaang.	1	gichi-mewinzha	"gichi-mewinzha	ADVTmp"	
+312	Wiinge gaashaabide animosh. Ginibanjige gii-wiisinid.	3	animosh	"anim	NA Pej ProxSg"	
+317	Maamakaaj ingii'-inendam gaa-inaajimotawid.	3	gaa-inaajimotawid	"inaajimotaw	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
+inaajimotaw	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 1SgObj 3SgProxHead"	"inaajimotaw	PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 1SgObj"
+318	Nisayenh ganabaj bagidenimo. Gaawiin ogashkitoosiin geyaabi ji-wiisinid; onzaam gichi-aakozi.	8	ji-wiisinid	"wiisini	PVTense/ji VAI Cnj Pos Neu 3SgProxSubj"	"wiisini	PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+wiisini	PVTense/ga VAI Cnj Pos Neu 3SgProxSubj"
+320	Aaniin epiitagoodeg.	2	epiitagoodeg	"apiitagoode	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"apiitagoode	VII Pcp Pos Neu 0SgSubj 0SgHead"
+321	Niibowa gii-pinda'amoog igi giigoonyag. Niin dash ingii-paanizhwaag.	8	ingii-paanizhwaag	"baanizhwi	PVTense/gii VTA Ind Pos Neu 1SgSubj 3PlProxObj"	
+324	Aaniin epiitizid gidaanis.	2	epiitizid	"apiitizi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"apiitizi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+325	Niizhoopizowag animoshag gaa-odaabii'aad gaa-maa'ishkang.	2	animoshag	"anim	NA Pej ProxPl"	
+325	Niizhoopizowag animoshag gaa-odaabii'aad gaa-maa'ishkang.	3	gaa-odaabii'aad	"odaabii'	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+odaabii'	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+odaabii'	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3PlObvHead
+odaabii'	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+odaabii'	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgObvHead
+odaabii'	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead"	"odaabii'	PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3PlObvObj
+odaabii'	PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 3SgObvObj"
+325	Niizhoopizowag animoshag gaa-odaabii'aad gaa-maa'ishkang.	4	gaa-maa'ishkang	"maa'ishkam	PVTense/gii VAI Pcp/ChCnj Pos Neu 3PlProxSubj 3PlProxHead
+maa'ishkam	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+maa'ishkam	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"maa'ishkam	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+maa'ishkam	PVTense/gii VAI Pcp Pos Neu 3PlProxSubj 3PlProxHead
+maa'ishkam	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+332	Gii-onzaamibizo gaa-onji-bakobiibizod.	2	gaa-onji-bakobiibizod	"bakobiibizo	PVRel/onji VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj
+bakobiibizo	PVTense/gii PVRel/onji VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"bakobiibizo	PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+bakobiibizo	PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+333	Aandi ezhidaabiid.	2	ezhidaabiid	"izhidaabii	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"izhidaabii	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+335	Akawe waabandan enaanimak jibwaa-aazhawa'oyan.	3	enaanimak	"inaanimad	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"inaanimad	VII Pcp Pos Neu 0SgSubj 0SgHead"
+336	Mii 'i zhigwa aabito-diba'igan gaa-ako-bimwewebizod.	5	gaa-ako-bimwewebizod	"bimwewebizo	PVRel/ako VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj
+bimwewebizo	PVTense/gii PVRel/ako VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"bimwewebizo	PVSub/gaa PVRel/ako VAI Cnj Pos Neu 3SgProxSubj
+bimwewebizo	PVTense/gii PVRel/ako VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+338	Gii-ziigwang agwaataawag miskwaadesiwag gii-ando-owaawanowaad.	4	gii-ando-owaawanowaad	"owaawano	PVTense/gii PVLex/nando VAI Cnj Pos Neu 3PlProxSubj"	
+339	Mitaabik dazhwegisidoon ji-baateg.	3	ji-baateg	"baate	PVTense/ji VII Cnj Pos Neu 0PlSubj
+baate	PVTense/ji VII Cnj Pos Neu 0SgSubj"	"baate	PVTense/daa VII Cnj Pos Neu 0PlSubj
+baate	PVTense/daa VII Cnj Pos Neu 0SgSubj
+baate	PVTense/ga VII Cnj Pos Neu 0PlSubj
+baate	PVTense/ga VII Cnj Pos Neu 0SgSubj"
+341	Ogii-padakinaa' odaagima' jiigishkwaand.	1	ogii-padakinaa'	"badakin	PVTense/gii VTA Ind Pos Neu 3SgProxSubj 3PlObvObj"	
+343	Aandi endazhi-gaaskiziged.	2	endazhi-gaaskiziged	"gaaskizige	PVRel/dazhi VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"gaaskizige	PVRel/dazhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+347	Aaniin ezhiwebak agwajiing?	2	ezhiwebak	"izhiwebad	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"izhiwebad	VII Pcp Pos Neu 0SgSubj 0SgHead"
+350	Ingii-kashkaabika'aan indoodaabaan degoshinaan imaa endaayaan.	5	endaayaan	"endaa	VAI Cnj Pos Neu 1SgSubj"	
+351	Aaniin epiichibizod.	2	epiichibizod	"apiichibizo	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"apiichibizo	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+353	Gikinawaabam ezhichiged.	2	ezhichiged	"izhichige	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"izhichige	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+356	Gii-minozekwe awe oshki-ikwens.	3	oshki-ikwens	"oshki-ikwens	NA ProxSg"	
+360	Gii-kiimoodanokii aana-gii-igod ini mashkikiiwininiwan ji-anokiisig.	5	ji-anokiisig	"anokii	PVTense/ji VAI Cnj Neg Neu 3SgProxSubj"	"anokii	PVTense/daa VAI Cnj Neg Neu 3SgProxSubj
+anokii	PVTense/ga VAI Cnj Neg Neu 3SgProxSubj"
+362	Bezhig amik gidaa-gagwe-ishkonanaa endasingin amikwiishan miinawaa ji-ondaadiziwaad.	4	endasingin	"dasin	VII Pcp/ChCnj Pos Neu 0PlSubj 0PlHead
+dasinoon	VII Pcp/ChCnj Pos Neu 0PlSubj 0PlHead"	"dasin	VII Pcp Pos Neu 0PlSubj 0PlHead
+dasinoon	VII Pcp Pos Neu 0PlSubj 0PlHead"
+362	Bezhig amik gidaa-gagwe-ishkonanaa endasingin amikwiishan miinawaa ji-ondaadiziwaad.	7	ji-ondaadiziwaad	"ondaadizi	PVTense/ji VAI Cnj Pos Neu 3PlProxSubj"	"ondaadizi	PVTense/daa VAI Cnj Pos Neu 3PlProxSubj
+ondaadizi	PVTense/ga VAI Cnj Pos Neu 3PlProxSubj"
+363	Owidi ondaajimo nimaamaa.	3	nimaamaa	"maamaa	NAD ProxSg 1SgPoss"	
+364	Nindaanis obiizikaanan oshkiinzhigokaanan odaabii'iwed. Gaawiin aapiji waabisiin.	1	nindaanis	"ndaanis	NAD ProxSg 1SgPoss"	
+366	Andawendam ji-miinind zhooniyaan waa'-awi'aazod imaa zhooniyaawigamigong.	2	ji-miinind	"miizh	PVTense/ji VTA Cnj Pos Neu XSubj 3SgProxObj"	"miizh	PVTense/daa VTA Cnj Pos Neu XSubj 3SgProxObj
+miizh	PVTense/ga VTA Cnj Pos Neu XSubj 3SgProxObj"
+366	Andawendam ji-miinind zhooniyaan waa'-awi'aazod imaa zhooniyaawigamigong.	4	waa'-awi'aazod	"awi'aazo	ChCnj PVTense/wii' VAI Cnj Pos Neu 3SgProxSubj
+awi'aazo	PVTense/wii' VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+awi'aazon	PVTense/wii' VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+awi'aazon	PVTense/wii' VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+awi'aazon	PVTense/wii' VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+awi'aazon	PVTense/wii' VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+awi'aazon	PVTense/wii' VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+awi'aazon	PVTense/wii' VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	
+367	Gaa-niizhwaaso-diba'iganedinig  gii-kigizhebaa-wiisini a'awe akiwenzii.	1	gaa-niizhwaaso-diba'iganedinig	"diba'iganed	PVQnt/niizhwaaso VII Pcp/PVSub/gaa Pos Neu 0SgObvSubj 0SgObvHead
+diba'iganed	PVTense/gii PVQnt/niizhwaaso VII Pcp/ChCnj Pos Neu 0SgObvSubj 0SgObvHead
+niizhwaaso-diba'iganed	PVTense/gii VII Pcp/ChCnj Pos Neu 0SgObvSubj 0SgObvHead
+niizhwaaso-diba'iganed	VII Pcp/PVSub/gaa Pos Neu 0SgObvSubj 0SgObvHead"	"diba'iganed	PVSub/gaa PVQnt/niizhwaaso VII Cnj Pos Neu 0PlObvSubj
+diba'iganed	PVSub/gaa PVQnt/niizhwaaso VII Cnj Pos Neu 0SgObvSubj
+diba'iganed	PVTense/gii PVQnt/niizhwaaso VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+niizhwaaso-diba'iganed	PVSub/gaa VII Cnj Pos Neu 0PlObvSubj
+niizhwaaso-diba'iganed	PVSub/gaa VII Cnj Pos Neu 0SgObvSubj
+niizhwaaso-diba'iganed	PVTense/gii VII Pcp Pos Neu 0SgObvSubj 0SgObvHead"
+368	Mii imaa ataagewigamigong endanendaagozid.	4	endanendaagozid	"danendaagozi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"danendaagozi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+373	Gii-manezi gaa-onji-andodamaaged iwe ashandiwin.	2	gaa-onji-andodamaaged	"andodamaage	PVRel/onji VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj
+andodamaage	PVTense/gii PVRel/onji VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 0PlHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 0SgHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3PlObvHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgObvHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+andodamaagen	PVRel/onji VAIO Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxHead
+andodamaagen	PVTense/gii PVRel/onji VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+andodamaagen	PVTense/gii PVRel/onji VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+andodamaagen	PVTense/gii PVRel/onji VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+andodamaagen	PVTense/gii PVRel/onji VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3PlObvObj 3SgProxHead
+andodamaagen	PVTense/gii PVRel/onji VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3SgObvObj 3SgProxHead
+andodamaagen	PVTense/gii PVRel/onji VAIO Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"andodamaage	PVSub/gaa PVRel/onji VAI Cnj Pos Neu 3SgProxSubj
+andodamaage	PVTense/gii PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+andodamaagen	PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj
+andodamaagen	PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0PlObj
+andodamaagen	PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 0SgObj
+andodamaagen	PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3PlObvObj
+andodamaagen	PVSub/gaa PVRel/onji VAIO Cnj Pos Neu 3SgProxSubj 3SgObvObj"
+375	Dibi go gaa-izhi-dabasaakwaag gidaa-izhi-andawaabandaan wiigob. Aapiji go dinong gii-nibiiwakamigaag.	3	gaa-izhi-dabasaakwaag	"dabasaakwaa	PVRel/izhi VII Pcp/PVSub/gaa Pos Neu 0SgSubj 0SgHead
+dabasaakwaa	PVTense/gii PVRel/izhi VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"dabasaakwaa	PVSub/gaa PVRel/izhi VII Cnj Pos Neu 0PlSubj
+dabasaakwaa	PVSub/gaa PVRel/izhi VII Cnj Pos Neu 0SgSubj
+dabasaakwaa	PVTense/gii PVRel/izhi VII Pcp Pos Neu 0SgSubj 0SgHead"
+378	Aaniin enendaagozid.	2	enendaagozid	"inendaagozi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"inendaagozi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+380	Gichi-gezika gwekibide iwe bemiseg ishpiming.	4	bemiseg	"bimise	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"bimise	VII Pcp Pos Neu 0SgSubj 0SgHead"
+382	Bekaa. Bii'aadaa awe.	1	bekaa	"bekaa	PCInterj"	"bekaa	ADVMan"
+388	Aaniin endasing iwe ziinzibaakwad.	2	endasing	"dasin	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead
+dasinoon	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"dasin	VII Pcp Pos Neu 0SgSubj 0SgHead
+dasinoon	VII Pcp Pos Neu 0SgSubj 0SgHead"
+389	Indigo gii-nishkaadizi, initaagozi.	1	indigo	"digo	NA ProxSg 1SgPoss"	
+390	Chi-gabaya'ii ogii-kanawaabandaan i' bemisemagadinig imaa bimi-ayaanig biinish igo gii-ni-bishkwaabandang.	4	bemisemagadinig	"bimise	VAI Der/magad VII Pcp/ChCnj Pos Neu 0SgObvSubj 0SgObvHead
+bimise	VII Aug/magad VII Pcp/ChCnj Pos Neu 0SgObvSubj 0SgObvHead"	"bimise	VAI Der/magad VII Pcp Pos Neu 0SgObvSubj 0SgObvHead
+bimise	VII Aug/magad VII Pcp Pos Neu 0SgObvSubj 0SgObvHead"
+392	Indayaawaanaan awe dinowa gaazhagens gaa-biigwawed.	5	gaa-biigwawed	"biigwawe	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+biigwawe	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"biigwawe	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+biigwawe	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+396	Aandi epa'igod.	2	epa'igod	"apa'	ChCnj VTA Cnj Pos Neu 0PlSubj 3SgProxObj
+apa'	ChCnj VTA Cnj Pos Neu 0SgSubj 3SgProxObj
+apa'	ChCnj VTA Cnj Pos Neu 3PlObvSubj 3SgProxObj
+apa'	ChCnj VTA Cnj Pos Neu 3SgObvSubj 3SgProxObj
+apa'	VTA Pcp/ChCnj Pos Neu 3PlObvSubj 3SgProxObj 3SgProxHead
+apa'	VTA Pcp/ChCnj Pos Neu 3SgObvSubj 3SgProxObj 3SgProxHead
+apa'igo	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+ipa'igo	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"apa'igo	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead
+ipa'igo	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+398	Nindaanis ogii-kibozaanan okosimaanan.	1	nindaanis	"ndaanis	NAD ProxSg 1SgPoss"	
+399	Gii-kinwaabiigizi gaa-waabamag ginebig bijiinaago.	2	gaa-waabamag	"waabam	PVTense/gii VTA Pcp/ChCnj Pos Neu 1SgSubj 3SgProxObj 3SgProxHead
+waabam	VTA Pcp/PVSub/gaa Pos Neu 1SgSubj 3SgProxObj 3SgProxHead"	"waabam	PVSub/gaa VTA Cnj Pos Neu 1SgSubj 3SgProxObj"
+402	Wegonen waa-ayaaman.	2	waa-ayaaman	"ayaan	PVTense/wii VTI Pcp/ChCnj Pos Neu 2SgSubj 0SgObj 0SgHead"	
+407	Biiminan gaa-dakigamig.	2	gaa-dakigamig	"dakigamin	PVTense/gii VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead
+dakigamin	VII Pcp/PVSub/gaa Pos Neu 0SgSubj 0SgHead"	"dakigamin	PVSub/gaa VII Cnj Pos Neu 0PlSubj
+dakigamin	PVSub/gaa VII Cnj Pos Neu 0SgSubj
+dakigamin	PVTense/gii VII Pcp Pos Neu 0SgSubj 0SgHead"
+411	Gii-aakwendam gaa-izhishing gii-pangishing bijiinaago.	2	gaa-izhishing	"izhishin	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+izhishin	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"izhishin	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+izhishin	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+412	Ogidadewenamoog abinoojiinyag gaa-gaakaazootaadiwaad.	3	gaa-gaakaazootaadiwaad		"gaakaazootaadiwag	PVSub/gaa VAI Cnj Pos Neu 3PlProxSubj 3PlProxObj"
+415	Biindig apa'iwe gii-bangibiisaaninig.	3	gii-bangibiisaaninig	"bangibiisaan	PVTense/gii VII Cnj Pos Neu 0PlObvSubj
+bangibiisaan	PVTense/gii VII Cnj Pos Neu 0SgObvSubj"	
+418	Akawe ningii'-asemaake jibwaa-bi-maajiibizowaan endaayaan.	4	endaayaan	"endaa	VAI Cnj Pos Neu 1SgSubj"	
+423	Mii go wenda-baasoyaan. Gidayaawaa na asemaa.	6	na	"na	PCInterj"	
+425	Bekaa bimibizon gaa-gikendanziwan zaaga'igan. Maagizhaa giga-bitaabikishin	1	bekaa	"bekaa	PCInterj"	"bekaa	ADVMan"
+425	Bekaa bimibizon gaa-gikendanziwan zaaga'igan. Maagizhaa giga-bitaabikishin	3	gaa-gikendanziwan	"gikendan	PVTense/gii VTI Pcp/ChCnj Neg Neu 2SgSubj 0SgObj 0SgHead
+gikendan	VTI Pcp/PVSub/gaa Neg Neu 2SgSubj 0PlObj 0PlHead
+gikendan	VTI Pcp/PVSub/gaa Neg Neu 2SgSubj 0SgObj 0SgHead"	"gikendam	PVSub/gaa VAI Cnj Neg Neu 2SgSubj
+gikendan	PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0PlObj
+gikendan	PVSub/gaa VTI Cnj Neg Neu 2SgSubj 0SgObj"
+426	Aaniin gaa'-inapinad waawaashkeshi gaa-gii'-agoonad. Gigii-piskaabiiginaan ina zhinoodaagan.	2	gaa'-inapinad	"inapizh	PVTense/gii' VTA Pcp/ChCnj Pos Neu 2SgSubj 3SgProxObj 3SgProxHead"	
+426	Aaniin gaa'-inapinad waawaashkeshi gaa-gii'-agoonad. Gigii-piskaabiiginaan ina zhinoodaagan.	4	gaa-gii'-agoonad	"agoozh	PVTense/gii PVTense/gii' VTA Pcp/ChCnj Pos Neu 2SgSubj 3SgProxObj 3SgProxHead
+agoozh	PVTense/gii' VTA Pcp/PVSub/gaa Pos Neu 2SgSubj 3SgProxObj 3SgProxHead"	"agoozh	PVSub/gaa PVTense/gii' VTA Cnj Pos Neu 2SgSubj 3SgProxObj"
+430	Nindaana-gii-kagwejimaa ji-manisawid. Gaawiin idash mashi.	2	ji-manisawid	"manisaw	PVTense/ji VTA Cnj Pos Neu 3SgProxSubj 1SgObj"	"manisaw	PVTense/daa VTA Cnj Pos Neu 3SgProxSubj 1SgObj
+manisaw	PVTense/ga VTA Cnj Pos Neu 3SgProxSubj 1SgObj"
+434	Mii aangwaamas gii-odishiwed awe gaa-pabaamigamigwed apane.	5	gaa-pabaamigamigwed	"babaamigamigwe	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"babaamigamigwe	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+436	Mewinzha go imbi-gikenimaa endazhimad noongom.	4	endazhimad	"dazhim	VTA Pcp/ChCnj Pos Neu 2SgSubj 3SgProxObj 3SgProxHead"	
+439	Ningii-tangishkawaa animozhish gaa-bi-gagwe-dakwamid.	3	gaa-bi-gagwe-dakwamid	"dakwam	PVDir/bi PVLex/gagwe VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
+dakwam	PVTense/gii PVDir/bi PVLex/gagwe VTA Pcp/ChCnj Pos Neu 3SgProxSubj 1SgObj 3SgProxHead"	"dakwam	PVSub/gaa PVDir/bi PVLex/gagwe VTA Cnj Pos Neu 3SgProxSubj 1SgObj"
+440	Ozhichigaazowa' odaagima' waa'-ando-wanii'iged.	3	waa'-ando-wanii'iged	"wanii'ige	ChCnj PVTense/wii' PVLex/nando VAI Cnj Pos Neu 3SgProxSubj
+wanii'ige	PVTense/wii' PVLex/ando VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+wanii'ige	PVTense/wii' PVLex/nando VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"wanii'ige	PVTense/wii' PVLex/ando VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+445	Aandi endanagoodood.	2	endanagoodood	"danagoodoo	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"danagoodoo	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+446	Nindaanis giizizekwe.	1	nindaanis	"ndaanis	NAD ProxSg 1SgPoss"	
+447	Miinange ninga-gashkitoon ji-ozhitoowaan.	3	ji-ozhitoowaan	"ozhitoon	PVTense/ji VTI Cnj Pos Neu 1SgSubj 0PlObj
+ozhitoon	PVTense/ji VTI Cnj Pos Neu 1SgSubj 0SgObj"	"ozhitoon	PVTense/daa VTI Cnj Pos Neu 1SgSubj 0PlObj
+ozhitoon	PVTense/daa VTI Cnj Pos Neu 1SgSubj 0SgObj
+ozhitoon	PVTense/ga VTI Cnj Pos Neu 1SgSubj 0PlObj
+ozhitoon	PVTense/ga VTI Cnj Pos Neu 1SgSubj 0SgObj"
+448	Mii 'iw enikweshing.	3	enikweshing	"inikweshin	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"inikweshin	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+449	Aaniin ekogamaag.	2	ekogamaag	"akogamaa	VII Pcp/ChCnj Pos Neu 0SgSubj 0SgHead"	"akogamaa	VII Pcp Pos Neu 0SgSubj 0SgHead"
+450	Aaniish enendaman gaa-gii-kagwejiminaan.	1	aaniish	"aaniish	PCDisc"	
+450	Aaniish enendaman gaa-gii-kagwejiminaan.	2	enendaman	"inendan	VTI Pcp/ChCnj Pos Neu 2SgSubj 0SgObj 0SgHead"	
+450	Aaniish enendaman gaa-gii-kagwejiminaan.	3	gaa-gii-kagwejiminaan		"gagwejim	PVSub/gaa PVTense/gii VTA Cnj Pos Neu 1SgSubj 2SgObj"
+451	Indaga niizhozid biidamawishin awe mekadewaabiigizid zenibaa.	5	mekadewaabiigizid	"makadewaabiigizi	VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"makadewaabiigizi	VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+454	Wiisakwe gaakaabishiinh noondaagozid.	1	wiisakwe	"wiisakwe	VII Ind Pos Neu 0SgSubj"	
+460	Ingii-inaa ji-ikokwenid onzaam gii-kibabi.	2	ji-ikokwenid	"ikokweni	PVTense/ji VAI Cnj Pos Neu 3SgProxSubj"	"ikokweni	PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+ikokweni	PVTense/ga VAI Cnj Pos Neu 3SgProxSubj"
+461	Ogii-zaka'aan iw ogizhaabikizigan epiichi-dakatenig.	4	epiichi-dakatenig	"dakate	PVRel/apiichi VII Pcp/ChCnj Pos Neu 0SgObvSubj 0SgObvHead"	"dakate	PVRel/apiichi VII Pcp Pos Neu 0SgObvSubj 0SgObvHead"
+462	Miigwechiwi' awe gaa-gaagiigidod.	3	gaa-gaagiigidod	"gaagiigido	PVTense/gii VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+gaagiigido	VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj"	"gaagiigido	PVSub/gaa VAI Cnj Pos Neu 3SgProxSubj
+gaagiigido	PVTense/gii VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+463	Mii go ji-bwaanawi'ad aana-wii-gichiwinad. Ojaanimendam iwidi wii-azhegiiwed gaa-pi-onji-bazigwiid. Amanj gaa-izhiwebadogwen iwidi.	3	ji-bwaanawi'ad	"bwaanawi'	PVTense/ji VTA Cnj Pos Neu 2SgSubj 3SgProxObj"	"bwaanawi'	PVTense/daa VTA Cnj Pos Neu 2SgSubj 3SgProxObj
+bwaanawi'	PVTense/ga VTA Cnj Pos Neu 2SgSubj 3SgProxObj"
+463	Mii go ji-bwaanawi'ad aana-wii-gichiwinad. Ojaanimendam iwidi wii-azhegiiwed gaa-pi-onji-bazigwiid. Amanj gaa-izhiwebadogwen iwidi.	9	gaa-pi-onji-bazigwiid	"bazigwii	PVTense/gii PVDir/bi PVRel/onji VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"bazigwii	PVTense/gii PVDir/bi PVRel/onji VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"
+463	Mii go ji-bwaanawi'ad aana-wii-gichiwinad. Ojaanimendam iwidi wii-azhegiiwed gaa-pi-onji-bazigwiid. Amanj gaa-izhiwebadogwen iwidi.	12	gaa-izhiwebadogwen	"izhiwebad	PVTense/gii VII Pcp/ChCnj Pos Dub 0SgSubj 0SgHead
+izhiwebad	VII Pcp/PVSub/gaa Pos Dub 0PlSubj 0PlHead
+izhiwebad	VII Pcp/PVSub/gaa Pos Dub 0SgSubj 0SgHead"	"izhiwebad	PVSub/gaa VII Cnj Pos Dub 0PlSubj
+izhiwebad	PVSub/gaa VII Cnj Pos Dub 0SgSubj
+izhiwebad	PVTense/gii VII Pcp Pos Dub 0SgSubj 0SgHead"
+464	Zhingaatesidoon gimanoominim ji-bengwashkising.	3	ji-bengwashkising	"bengwashkisin	PVTense/ji VII Cnj Pos Neu 0PlSubj
+bengwashkisin	PVTense/ji VII Cnj Pos Neu 0SgSubj"	"bengwashkisin	PVTense/daa VII Cnj Pos Neu 0PlSubj
+bengwashkisin	PVTense/daa VII Cnj Pos Neu 0SgSubj
+bengwashkisin	PVTense/ga VII Cnj Pos Neu 0PlSubj
+bengwashkisin	PVTense/ga VII Cnj Pos Neu 0SgSubj"
+465	Mishawaagonag odizhiweba'aan bikwaakwadoons.	3	bikwaakwadoons	"bikwaakwadoons	NA ProxSg"	
+467	Giboz igiw opiniig.	1	giboz	"gibozwi	VTA Imp Sim 2SgSubj 3PlProxObj
+gibozwi	VTA Imp Sim 2SgSubj 3SgProxObj"	
+469	Mooshkinatoon gizhaabikizigan gabe-dibik ji-biskaneg.	4	ji-biskaneg	"biskane	PVTense/ji VII Cnj Pos Neu 0PlSubj
+biskane	PVTense/ji VII Cnj Pos Neu 0SgSubj"	"biskane	PVTense/daa VII Cnj Pos Neu 0PlSubj
+biskane	PVTense/daa VII Cnj Pos Neu 0SgSubj
+biskane	PVTense/ga VII Cnj Pos Neu 0PlSubj
+biskane	PVTense/ga VII Cnj Pos Neu 0SgSubj"
+470	Gii-kabenaage ge-zhooniyaansiwataaged.	2	ge-zhooniyaansiwataaged	"zhooniyaansiwataage	ChCnj PVTense/ge VAI Cnj Pos Neu 3SgProxSubj"	"zhooniyaansiwataage	ChCnj PVTense/daa VAI Cnj Pos Neu 3SgProxSubj
+zhooniyaansiwataage	ChCnj PVTense/ga VAI Cnj Pos Neu 3SgProxSubj"
+474	Nimiigaadaan indakiim ji-ganawendamaan.	3	ji-ganawendamaan	"ganawendan	PVTense/ji VTI Cnj Pos Neu 1SgSubj 0PlObj
+ganawendan	PVTense/ji VTI Cnj Pos Neu 1SgSubj 0SgObj"	"ganawendan	PVTense/daa VTI Cnj Pos Neu 1SgSubj 0PlObj
+ganawendan	PVTense/daa VTI Cnj Pos Neu 1SgSubj 0SgObj
+ganawendan	PVTense/ga VTI Cnj Pos Neu 1SgSubj 0PlObj
+ganawendan	PVTense/ga VTI Cnj Pos Neu 1SgSubj 0SgObj"
+475	Mitaagonag odapagidoon onagizh gaa-gii'-abwaadang.	4	gaa-gii'-abwaadang	"abwaadam	ChCnj PVTense/gii PVTense/gii' VAI Cnj Pos Neu 3SgProxSubj
+abwaadam	PVTense/gii PVTense/gii' VAI Pcp/ChCnj Pos Neu 3PlProxSubj 3PlProxHead
+abwaadam	PVTense/gii PVTense/gii' VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead
+abwaadam	PVTense/gii' VAI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 3SgProxSubj
+abwaadan	PVTense/gii PVTense/gii' VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+abwaadan	PVTense/gii PVTense/gii' VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 0SgHead
+abwaadan	PVTense/gii PVTense/gii' VTI Pcp/ChCnj Pos Neu 3SgProxSubj 0SgObj 3SgProxHead
+abwaadan	PVTense/gii' VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 0PlHead
+abwaadan	PVTense/gii' VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0PlObj 3SgProxHead
+abwaadan	PVTense/gii' VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 0SgHead
+abwaadan	PVTense/gii' VTI Pcp/PVSub/gaa Pos Neu 3SgProxSubj 0SgObj 3SgProxHead"	"abwaadan	PVSub/gaa PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0PlObj
+abwaadan	PVSub/gaa PVTense/gii' VTI Cnj Pos Neu 3SgProxSubj 0SgObj"
+477	Ikoshim gidoodaabaan. Gigibishkaw waa'-izhi-asag nindoodaabaan.	5	waa'-izhi-asag	"ashi	PVTense/wii' PVRel/izhi VTA Pcp/ChCnj Pos Neu 1SgSubj 3SgProxObj 3SgProxHead"	
+479	Bijiinaago gii-shakaagonagaag, nindede gii'-miikanaake. Noongom wawiinge baapaagadamon.	4	nindede	"ndedey	NAD ProxSg 1SgPoss"	
+480	Gego gibozwaaken a'aw  baaka'aakwe. Zaasakokwaazh.	2	gibozwaaken	"gibozwi	VTA Imp Prb 2SgSubj 3PlProxObj
+gibozwi	VTA Imp Prb 2SgSubj 3SgProxObj"	
+481	Biichaa 'i gabeshiwin endazhindaman.	4	endazhindaman	"dazhindan	VTI Pcp/ChCnj Pos Neu 2SgSubj 0SgObj 0SgHead"	
+485	Ningii-kichiwaabikishin ogiji-asin.	2	ogiji-asin	"ogiji-asin	ADVLoc"	
+488	Mamaandaawichigewinini ogii-naagotoon iwe gichi-biiminakwaan ji-bazigwiimagadinig.	5	ji-bazigwiimagadinig	"bazigwii	PVTense/ji VAI Der/magad VII Cnj Pos Neu 0PlObvSubj
+bazigwii	PVTense/ji VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
+bazigwiimagad	PVTense/ji VII Cnj Pos Neu 0PlObvSubj
+bazigwiimagad	PVTense/ji VII Cnj Pos Neu 0SgObvSubj"	"bazigwii	PVTense/daa VAI Der/magad VII Cnj Pos Neu 0PlObvSubj
+bazigwii	PVTense/daa VAI Der/magad VII Cnj Pos Neu 0SgObvSubj
+bazigwii	PVTense/ga VAI Der/magad VII Cnj Pos Neu 0PlObvSubj
+bazigwii	PVTense/ga VAI Der/magad VII Cnj Pos Neu 0SgObvSubj"
+492	Ingii-tebaabamaa biida'adood gaa-mazina'amawid zhooniyaan gaa'-izhi-gaajibani'od.	3	gaa-mazina'amawid	"mazina'amaw	PVTense/gii VTA Pcp/ChCnj Pos Neu 3SgProxSubj 1SgObj 3SgProxHead
+mazina'amaw	VTA Pcp/PVSub/gaa Pos Neu 3SgProxSubj 1SgObj 3SgProxHead"	"mazina'amaw	PVSub/gaa VTA Cnj Pos Neu 3SgProxSubj 1SgObj"
+492	Ingii-tebaabamaa biida'adood gaa-mazina'amawid zhooniyaan gaa'-izhi-gaajibani'od.	5	gaa'-izhi-gaajibani'od	"gaajibani'o	PVTense/gii' PVRel/izhi VAI Pcp/ChCnj Pos Neu 3SgProxSubj 3SgProxHead"	"gaajibani'o	PVTense/gii' PVRel/izhi VAI Pcp Pos Neu 3SgProxSubj 3SgProxHead"

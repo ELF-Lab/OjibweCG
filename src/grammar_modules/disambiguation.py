@@ -72,7 +72,7 @@ def tokenize(ojibwe_sentence:str) -> list[str]:
         if punct is not None:             
             tokens.append(punct)
         elif word is not None:            
-            tokens.append(word.lower())
+            tokens.append(word)
         else:                            
             tokens.append(PRESERVE_TOKEN)
 

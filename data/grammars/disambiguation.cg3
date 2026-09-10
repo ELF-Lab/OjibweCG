@@ -1,7 +1,7 @@
 # This is the disambiguation file for Anishinaabemowin (Ojibwe).
 
 # Define to set as sentence delimeters
-DELIMITERS = "<.>" "<,>" "<;>" "<:>" "<!>" "<?>" "<(>" "<)>" "<{>" "<}>" "<[>" "<]>" "<<>" "<>>" "<«>" "<»>" "<“>" "<”>" "<">" "<¶>";
+DELIMITERS = "<.>" "<;>" "<:>" "<!>" "<?>" "<¶>";
 
 # Verb arguments by number and obviation
 LIST SG_PROX_ARGUMENT = 3SgProxSubj 3SgProxObj ;
@@ -79,7 +79,7 @@ SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
 LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam" "diba'amaw" "andodamaw" "waawiindamaw" "mina'" "odaapinamaw" "ininamaw" ;
 
 # impersonal verbs 
-LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "naawakwe" "noodinzinoon" "diba'igane" "waaseyaa" "biidaaban" "ondaanimad" "mindookad" "giizhigad" "animikiikaa" "dagwaagin" "niibin" "naawakwe" "bagamibiisaan" "noodin" "ziigwan" "maajibiisaa" "ojiindiwi-giizhigad" "gisinaa" "bimaanimad" "onaabanad" "gibitaanimad" "mikwaminaaniwan" "gizhaate" "bagakaaban" "giizhigaate" "bapangibiisaa";
+LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "noodinzinoon" "diba'igane" "waaseyaa" "biidaaban" "ondaanimad" "mindookad" "giizhigad" "animikiikaa" "dagwaagin" "niibin" "naawakwe" "bagamibiisaan" "noodin" "ziigwan" "maajibiisaa" "ojiindiwi-giizhigad" "gisinaa" "bimaanimad" "onaabanad" "gibitaanimad" "mikwaminaaniwan" "gizhaate" "bagakaaban" "giizhigaate" "bapangibiisaa" "gimiwan";
 
 SET DIR_OBJ_VERB = VERB - DITRANSITIVE ;
 
@@ -119,7 +119,7 @@ SELECT:select_adv_loc TARGET (ADVLoc) ;
 ## Select adverbs from the special set
 SELECT:select_special_adv TARGET UNCONDITIONAL_ADVS ;
 
-REMOVE:rem_pl_for_impersonal_verbs (0PlSubj) IF (0 IMPERSONAL_VERB)  ;
+REMOVE:rem_pl_for_impersonal_verbs PL_INAN_SUBJECT IF (0 IMPERSONAL_VERB) ;
 
 # Remove VAI / VII readings if we have VAIPL / VIIPL tags
 REMOVE:VAIPL_over_VAI (VAI) IF (0 (VAIPL)) ;
@@ -169,11 +169,7 @@ SELECT:inanimate_obj_rule_2 PL_INAN_OBJECT IF ((-1* NI_NID + (Pl) BARRIER CB) OR
 
 
 
-## TODO: where to put this??
-# Remove VAIO tag if no NI/NID noun nearby
-REMOVE:vaio_rule_1 (VAIO) IF (NOT (-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) ;
-
-## ANIMACY DISAMBIGUATION
+## PARADIGM DISAMBIGUATION
 
 # Should solve VTA/VTI
 SELECT:verb_animacy_rule_1 AN_OBJECT IF ((-1* NA_NAD BARRIER CB) OR (1* NA_NAD BARRIER CB)) (NOT -1* NI_NID BARRIER CB) (NOT 1* NI_NID BARRIER CB) ;
@@ -184,6 +180,11 @@ SELECT:verb_animacy_rule_2 INAN_OBJECT IF ((-1* NI_NID BARRIER CB) OR (1* NI_NID
 SELECT:verb_animacy_rule_1 AN_SUBJECT IF ((-1* NA_NAD BARRIER CB) OR (1* NA_NAD BARRIER CB)) (NOT -1* NI_NID BARRIER CB) (NOT 1* NI_NID BARRIER CB) ;
 
 SELECT:verb_animacy_rule_2 INAN_SUBJECT IF ((-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) (NOT -1* NA_NAD BARRIER CB) (NOT 1* NA_NAD BARRIER CB) ;
+
+# Remove VAIO tag if no NI/NID noun nearby
+REMOVE:vaio_rule_1 (VAIO) IF (NOT (-1* NI_NID BARRIER CB) OR (1* NI_NID BARRIER CB)) ;
+
+
 
 ## VERB ORDER DISAMBIGUATION
 

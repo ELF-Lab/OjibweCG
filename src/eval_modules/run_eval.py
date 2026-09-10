@@ -46,15 +46,16 @@ def write_sys_from_tsv(
             speaker = get(row, speaker_col)
 
             # map speaker to dialect
-            speaker_dialect_dict = {"nj": "NO", "es": "SO", "rg": "", "gh": "", "gj": "", "lw": "", "ls": ""}
-            dialect = speaker_dialect_dict[speaker]
+            if speaker:
+                speaker_dialect_dict = {"nj": "NO", "es": "SO", "rg": "", "gh": "", "gj": "", "lw": "", "ls": "", "lsa": ""}
+                dialect = speaker_dialect_dict[speaker]
 
             raw = disambiguate(
                 sentence=text.strip(),
                 cg3_grammar_filepath=str(cg3_grammar),
                 fst=fst,
                 verbose=False,
-                dialect=dialect
+                dialect="" # setting to none for now
             )
 
             # remove any blank lines inside a sent_id block

@@ -1,7 +1,7 @@
 # This is the dependency parsing file for Anishinaabemowin (Ojibwe).
 
 # Define to set as sentence delimeters
-DELIMITERS = "<.>" "<,>" "<;>" "<:>" "<!>" "<?>" "<(>" "<)>" "<{>" "<}>" "<[>" "<]>" "<<>" "<>>" "<«>" "<»>" "<“>" "<”>" "<">" "<¶>";
+DELIMITERS = "<.>" "<;>" "<:>" "<!>" "<?>" "<¶>";
 
 # All dependencies we will use  ;
 LIST nsubj = @nsubj ;
@@ -17,7 +17,9 @@ LIST neg = @neg ;
 LIST acl:relcl = @acl:relcl ;
 LIST csubj = @csubj ;
 LIST ccomp = @ccomp ;
-LIST REL_LABEL = @nsubj @obj @iobj @det @obl @nummod @discourse @case @advmod @neg @acl:relcl @csubj @ccomp ;
+LIST conj = @conj ;
+LIST cc = @cc ;
+LIST REL_LABEL = @nsubj @obj @iobj @det @obl @nummod @discourse @case @advmod @neg @acl:relcl @csubj @ccomp @conj @cc;
 
 # Verb arguments by number and obviation
 LIST SG_PROX_ARGUMENT = 3SgProxSubj 3SgProxObj ;
@@ -55,6 +57,9 @@ SET INAN_OBJECT = SG_INAN_OBJECT OR PL_INAN_OBJECT ;
 
 SET INAN_ARGUMENT = INAN_SUBJECT OR INAN_OBJECT ;
 
+LIST PROXIMATE_NOMINAL = ProxSg ProxPl;
+LIST OBVIATIVE_NOMINAL = ObvSg ObvPl;
+LIST INANIMATE_NOMINAL = Sg Pl;
 
 SET NA_NAD = (NA) OR (NAD) ;
 SET NI_NID = (NI) OR (NID) ;
@@ -81,12 +86,17 @@ SET PREP_LOCS = ("o'omaa") OR ("omaa") OR ("i'imaa") OR ("imaa") OR ("i'iwidi") 
 SET UNCONDITIONAL_ADVS = ("debinaak") OR ("nising") OR ("niiwing") OR ("niizhing") OR ("dasing") ;
 
 
+# list of coordinators
+LIST COORDINATOR = "miinawaa" "ge" "gaye" "ashi" "gemaa";
+
+
 
 SET NOMINAL = NA_NAD OR NI_NID ;
 SET VERB = (VTA) OR (VAI) OR (VTI) OR (VII) OR (VAIPL) OR (VIIPL) OR (VAIO) ;
 SET ADV = (ADVConj)  OR (ADVDisc) OR (ADVDub) OR (ADVGram) OR (ADVInter) OR (ADVLoc) OR (ADVMan) OR (ADVNeg) OR (ADVPred) OR (ADVQnt) OR (ADVTmp) OR (ADVDeg);
 SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR (PRONSim) OR (PRONPer) ;
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
+SET PROPN = (NamePerson) OR (NamePlace) OR (NameVocative) ;
 
 # Ditransitives (not separating inherent from derived yet)
 LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam";
@@ -111,12 +121,10 @@ SECTION
 ## Putting at the top of dependency parsing rules because the following rules will depend on additional morphological information
 
 ## Label Relative Clauses (RCs)
-# All unambiguous cases of PVSub/gaa- are RCs
-ADD (RelCl) (PVSub/gaa) IF (NOT 0 (ChCnj));
-# All unambiguous cases of Pcp are RCs
-ADD (RelCl) (Pcp) IF (NOT 0 (ChCnj)) ;
-
-
+# All PVSub/gaa- lines are RCs
+ADD (RelCl) (PVSub/gaa) IF (NOT 0 (PVSub/gaa RelCl));
+# All Pcp lines RCs
+ADD (RelCl) (Pcp) IF (NOT 0 (Pcp RelCl)) ;
 
 
 ### ---DEPENENCY RULES START HERE--- ###
@@ -169,137 +177,233 @@ SETPARENT (NUM) IF (NOT p (*)) (NOT 1 (@det)) TO (1 NOMINAL) ; ADD nummod (NUM) 
 SETPARENT (NUM) IF (NOT p (*)) (1 (@det)) TO (2 NOMINAL) ; ADD nummod (NUM) IF (NOT 0 REL_LABEL) (p NOMINAL) ;
 
 
+SECTION 
 ### Argument Dependency - Rules to assign Verb - Noun/Pron dependency ###
 ### Caveat: If noun can depend on more than 1 verb, set relation for the left-side verb
+## RIGHT SIDE DEPENDENCIES
+
+# ANIMATE 3RD PERSON SUBJECT
+
+SETCHILD (3SgProxSubj) IF (NONE c (ProxSg)) (NEGATE -1** (ProxSg) BARRIER CB LINK NONE p (*)) TO (1**A (ProxSg) BARRIER CB LINK NONE p (*)); ADD nsubj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxSubj))  ;
+
+SETCHILD (3PlProxSubj) IF (NONE c (ProxPl)) (NEGATE -1** (ProxPl) BARRIER CB LINK NONE p (*)) TO (1**A (ProxPl) BARRIER CB LINK NONE p (*)); ADD nsubj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxSubj))  ;
+
+SETCHILD (3SgObvSubj) IF (NONE c (ObvSg)) (NEGATE -1** (ObvSg) BARRIER CB LINK NONE p (*)) TO (1**A (ObvSg) BARRIER CB LINK NONE p (*)); ADD nsubj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvSubj))   ;
+
+SETCHILD (3PlObvSubj) IF (NONE c (ObvPl)) (NEGATE -1** (ObvPl) BARRIER CB LINK NONE p (*)) TO (1**A (ObvPl) BARRIER CB LINK NONE p (*)); ADD nsubj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvSubj))   ;
+
+SETCHILD SG_AN_SUBJECT IF (NONE c (3Sg)) (NEGATE -1** (3Sg) BARRIER CB LINK NONE p (*)) TO (1**A (3Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_SUBJECT)  ;
+
+SETCHILD PL_AN_SUBJECT IF (NONE c (3Pl)) (NEGATE -1** (3Pl) BARRIER CB LINK NONE p (*)) TO (1**A (3Pl) BARRIER CB LINK NONE p (*)); ADD nsubj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_SUBJECT)  ;
+
+SETCHILD (AN_SUBJECT) IF (NONE c AN_SPECIAL_PRON) (NEGATE -1** AN_SPECIAL_PRON BARRIER CB LINK NONE p (*)) TO (1**A AN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD nsubj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p (AN_SUBJECT)) ;
+
+
+# ANIMATE NON-3RD PERSON SUBJECT
+
+SETCHILD (1SgSubj) IF (NONE c (1Sg)) (NEGATE -1** (1Sg) BARRIER CB LINK NONE p (*)) TO (1**A (1Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgSubj))  ;
+
+SETCHILD (2SgSubj) IF (NONE c (2Sg)) (NEGATE -1** (2Sg) BARRIER CB LINK NONE p (*)) TO (1**A (2Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgSubj))  ;
+
+SETCHILD (2PlSubj) IF (NONE c (2Pl)) (NEGATE -1** (2Pl) BARRIER CB LINK NONE p (*)) TO (1**A (2Pl) BARRIER CB LINK NONE p (*)); ADD nsubj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlSubj))  ;
+
+SETCHILD (ExclSubj) IF (NONE c (Excl)) (NEGATE -1** (Excl) BARRIER CB LINK NONE p (*)) TO (1**A (Excl) BARRIER CB LINK NONE p (*)); ADD nsubj (Excl) IF (NOT 0 REL_LABEL) (p (ExclSubj)) ;
+
+SETCHILD (InclSubj) IF (NONE c (Incl)) (NEGATE -1** (Incl) BARRIER CB LINK NONE p (*)) TO (1**A (Incl) BARRIER CB LINK NONE p (*)); ADD nsubj (Incl) IF (NOT 0 REL_LABEL) (p (InclSubj)) ;
+
+
+# ANIMATE 3RD PERSON OBJECT
+
+SETCHILD (3SgProxObj) IF (NONE c (ProxSg)) (NEGATE -1** (ProxSg) BARRIER CB LINK NONE p (*)) TO (1**A (ProxSg) BARRIER CB LINK NONE p (*)); ADD obj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxObj))   ;
+
+SETCHILD (3PlProxObj) IF (NONE c (ProxPl)) (NEGATE -1** (ProxPl) BARRIER CB LINK NONE p (*)) TO (1**A (ProxPl) BARRIER CB LINK NONE p (*)); ADD obj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxObj))   ;
+
+SETCHILD (3SgObvObj) IF (NONE c (ObvSg)) (NEGATE -1** (ObvSg) BARRIER CB LINK NONE p (*)) TO (1**A (ObvSg) BARRIER CB LINK NONE p (*)); ADD obj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvObj))    ;
+
+SETCHILD (3PlObvObj) IF (NONE c (ObvPl)) (NEGATE -1** (ObvPl) BARRIER CB LINK NONE p (*)) TO (1**A (ObvPl) BARRIER CB LINK NONE p (*)); ADD obj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvObj))    ;
+
+SETCHILD SG_AN_OBJECT IF (NONE c (3Sg)) (NEGATE -1** (3Sg) BARRIER CB LINK NONE p (*)) TO (1**A (3Sg) BARRIER CB LINK NONE p (*)); ADD obj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_OBJECT) ;
+
+SETCHILD PL_AN_OBJECT IF (NONE c (3Pl)) (NEGATE -1** (3Pl) BARRIER CB LINK NONE p (*)) TO (1**A (3Pl) BARRIER CB LINK NONE p (*)); ADD obj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_OBJECT) ;
+
+SETCHILD AN_OBJECT IF (NONE c AN_SPECIAL_PRON) (NEGATE -1** AN_SPECIAL_PRON BARRIER CB LINK NONE p (*)) TO (1**A AN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD obj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p AN_OBJECT) ;
+
+
+## ANIMATE NON-3RD PERSON OBJECT
+
+SETCHILD (1SgObj) IF (NONE c (1Sg)) (NEGATE -1** (1Sg) BARRIER CB LINK NONE p (*)) TO (1**A (1Sg) BARRIER CB LINK NONE p (*)); ADD obj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgObj))  ;
+
+SETCHILD (2SgObj) IF (NONE c (2Sg)) (NEGATE -1** (2Sg) BARRIER CB LINK NONE p (*)) TO (1**A (2Sg) BARRIER CB LINK NONE p (*)); ADD obj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgObj))  ;
+
+SETCHILD (2PlObj) IF (NONE c (2Pl)) (NEGATE -1** (2Pl) BARRIER CB LINK NONE p (*)) TO (1**A (2Pl) BARRIER CB LINK NONE p (*)); ADD obj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlObj))  ;
+
+SETCHILD (ExclObj) IF (NONE c (Excl)) (NEGATE -1** (Excl) BARRIER CB LINK NONE p (*)) TO (1**A (Excl) BARRIER CB LINK NONE p (*)); ADD obj (Excl) IF (NOT 0 REL_LABEL) (p (ExclObj)) ;
+
+SETCHILD (InclObj) IF (NONE c (Incl)) (NEGATE -1** (Incl) BARRIER CB LINK NONE p (*)) TO (1**A (Incl) BARRIER CB LINK NONE p (*)); ADD obj (Incl) IF (NOT 0 REL_LABEL) (p (InclObj)) ;
+
+
+# INANIMATE SUBJECT
+
+SETCHILD (0SgSubj) IF (NONE c (Sg)) (NEGATE -1** (Sg) BARRIER CB LINK NONE p (*)) TO (1**A (Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (Sg) IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
+
+SETCHILD (0PlSubj) IF (NONE c (Pl)) (NEGATE -1** (Pl) BARRIER CB LINK NONE p (*)) TO (1**A (Pl) BARRIER CB LINK NONE p (*)); ADD nsubj (Pl) IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
+
+SETCHILD INAN_SUBJECT IF (NONE c INAN_SPECIAL_PRON) (NEGATE -1** INAN_SPECIAL_PRON BARRIER CB LINK NONE p (*)) TO (1**A INAN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD nsubj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_SUBJECT) ;
+
+
+## INANIMATE OBJECT
+
+SETCHILD (0SgObj) IF (NONE c (Sg)) (NEGATE -1** (Sg) BARRIER CB LINK NONE p (*)) TO (1**A (Sg) BARRIER CB LINK NONE p (*)); ADD obj (Sg) IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
+
+SETCHILD (0PlObj) IF (NONE c (Pl)) (NEGATE -1** (Pl) BARRIER CB LINK NONE p (*)) TO (1**A (Pl) BARRIER CB LINK NONE p (*)); ADD obj (Pl) IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
+
+SETCHILD INAN_OBJECT IF (NONE c INAN_SPECIAL_PRON) (NEGATE -1** INAN_SPECIAL_PRON BARRIER CB LINK NONE p (*)) TO (1**A INAN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD obj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_OBJECT) ;
+
+
+# RELATIVE CLAUSE SUBJECT (Picked first to object, can lead to misparses)
+
+SETCHILD (3SgProxSubj) IF (NONE c RelCl + SG_PROX_ARGUMENT) (NEGATE -1** RelCl + SG_PROX_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + SG_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxSubj)) ;
+
+SETCHILD (3SgObvSubj) IF (NONE c RelCl + SG_OBV_ARGUMENT) (NEGATE -1** RelCl + SG_OBV_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + SG_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvSubj)) ;
+
+SETCHILD (0SgSubj) IF (NONE c RelCl + 0SG_ARGUMENT) (NEGATE -1** RelCl + 0SG_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + 0SG_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
+
+SETCHILD (3PlProxSubj) IF (NONE c RelCl + PL_PROX_ARGUMENT) (NEGATE -1** RelCl + PL_PROX_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + PL_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxSubj)) ;
+
+SETCHILD (3PlObvSubj) IF (NONE c RelCl + PL_OBV_ARGUMENT) (NEGATE -1** RelCl + PL_OBV_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + PL_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvSubj)) ;
+
+SETCHILD (0PlSubj) IF (NONE c RelCl + 0PL_ARGUMENT) (NEGATE -1** RelCl + 0PL_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + 0PL_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
+
+
+# RELATIVE CLAUSE OBJECT
+
+SETCHILD (3SgProxObj) IF (NONE c RelCl + SG_PROX_ARGUMENT) (NEGATE -1** RelCl + SG_PROX_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + SG_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxObj)) ;
+
+SETCHILD (3SgObvObj) IF (NONE c RelCl + SG_OBV_ARGUMENT) (NEGATE -1** RelCl + SG_OBV_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + SG_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvObj)) ;
+
+SETCHILD (0SgObj) IF (NONE c RelCl + 0SG_ARGUMENT) (NEGATE -1** RelCl + 0SG_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + 0SG_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
+
+SETCHILD (3PlProxObj) IF (NONE c RelCl + PL_PROX_ARGUMENT) (NEGATE -1** RelCl + PL_PROX_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + PL_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxObj)) ;
+
+SETCHILD (3PlObvObj) IF (NONE c RelCl + PL_OBV_ARGUMENT) (NEGATE -1** RelCl + PL_OBV_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + PL_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvObj)) ;
+
+SETCHILD (0PlObj) IF (NONE c RelCl + 0PL_ARGUMENT) (NEGATE -1** RelCl + 0PL_ARGUMENT BARRIER CB LINK NONE p (*)) TO (1**A RelCl + 0PL_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
+
+
 
 ## LEFT SIDE DEPENDENCIES
 
 # ANIMATE 3RD PERSON SUBJECT
-SETPARENT (ProxSg) IF (NOT p (*)) TO (-1* (3SgProxSubj)  BARRIER CB) ; ADD nsubj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxSubj))  ;
-SETPARENT (ProxPl) IF (NOT p (*)) TO (-1* (3PlProxSubj)  BARRIER CB) ; ADD nsubj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxSubj))  ;
-SETPARENT (ObvSg)  IF (NOT p (*)) TO (-1* (3SgObvSubj)   BARRIER CB) ; ADD nsubj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvSubj))   ;
-SETPARENT (ObvPl)  IF (NOT p (*)) TO (-1* (3PlObvSubj)   BARRIER CB) ; ADD nsubj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvSubj))   ;
-SETPARENT (3Sg)    IF (NOT p (*)) TO (-1* SG_AN_SUBJECT BARRIER CB)  ; ADD nsubj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_SUBJECT)  ;
-SETPARENT (3Pl)    IF (NOT p (*)) TO (-1* PL_AN_SUBJECT BARRIER CB)  ; ADD nsubj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_SUBJECT)  ;
-SETPARENT AN_SPECIAL_PRON IF (NOT p (*)) TO (-1* (AN_SUBJECT) BARRIER CB) ; ADD nsubj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p (AN_SUBJECT)) ;
+
+SETCHILD (3SgProxSubj) IF (NONE c (ProxSg)) TO (-1**A (ProxSg) BARRIER CB LINK NONE p (*)); ADD nsubj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxSubj))  ;
+
+SETCHILD (3PlProxSubj) IF (NONE c (ProxPl)) TO (-1**A (ProxPl) BARRIER CB LINK NONE p (*)); ADD nsubj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxSubj))  ;
+
+SETCHILD (3SgObvSubj) IF (NONE c (ObvSg)) TO (-1**A (ObvSg) BARRIER CB LINK NONE p (*)); ADD nsubj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvSubj))   ;
+
+SETCHILD (3PlObvSubj) IF (NONE c (ObvPl)) TO (-1**A (ObvPl) BARRIER CB LINK NONE p (*)); ADD nsubj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvSubj))   ;
+
+SETCHILD SG_AN_SUBJECT IF (NONE c (3Sg)) TO (-1**A (3Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_SUBJECT)  ;
+
+SETCHILD PL_AN_SUBJECT IF (NONE c (3Pl)) TO (-1**A (3Pl) BARRIER CB LINK NONE p (*)); ADD nsubj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_SUBJECT)  ;
+
+SETCHILD (AN_SUBJECT) IF (NONE c AN_SPECIAL_PRON) TO (-1**A AN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD nsubj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p (AN_SUBJECT)) ;
+
 
 # ANIMATE NON-3RD PERSON SUBJECT
-SETPARENT (1Sg) IF (NOT p (*)) TO (-1* (1SgSubj)  BARRIER CB) ; ADD nsubj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgSubj))  ;
-SETPARENT (2Sg) IF (NOT p (*)) TO (-1* (2SgSubj)  BARRIER CB) ; ADD nsubj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgSubj))  ;
-SETPARENT (2Pl) IF (NOT p (*)) TO (-1* (2PlSubj)  BARRIER CB) ; ADD nsubj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlSubj))  ;
-SETPARENT (Excl) IF (NOT p (*)) TO (-1* (ExclSubj) BARRIER CB) ; ADD nsubj (Excl) IF (NOT 0 REL_LABEL) (p (ExclSubj)) ;
-SETPARENT (Incl) IF (NOT p (*)) TO (-1* (InclSubj) BARRIER CB) ; ADD nsubj (Incl) IF (NOT 0 REL_LABEL) (p (InclSubj)) ;
+
+SETCHILD (1SgSubj) IF (NONE c (1Sg)) TO (-1**A (1Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgSubj))  ;
+
+SETCHILD (2SgSubj) IF (NONE c (2Sg)) TO (-1**A (2Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgSubj))  ;
+
+SETCHILD (2PlSubj) IF (NONE c (2Pl)) TO (-1**A (2Pl) BARRIER CB LINK NONE p (*)); ADD nsubj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlSubj))  ;
+
+SETCHILD (ExclSubj) IF (NONE c (Excl)) TO (-1**A (Excl) BARRIER CB LINK NONE p (*)); ADD nsubj (Excl) IF (NOT 0 REL_LABEL) (p (ExclSubj)) ;
+
+SETCHILD (InclSubj) IF (NONE c (Incl)) TO (-1**A (Incl) BARRIER CB LINK NONE p (*)); ADD nsubj (Incl) IF (NOT 0 REL_LABEL) (p (InclSubj)) ;
+
 
 # ANIMATE 3RD PERSON OBJECT
-SETPARENT (ProxSg) IF (NOT p (*)) TO (-1* (3SgProxObj)   BARRIER CB) ; ADD obj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxObj))   ;
-SETPARENT (ProxPl) IF (NOT p (*)) TO (-1* (3PlProxObj)   BARRIER CB) ; ADD obj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxObj))   ;
-SETPARENT (ObvSg)  IF (NOT p (*)) TO (-1* (3SgObvObj)    BARRIER CB) ; ADD obj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvObj))    ;
-SETPARENT (ObvPl)  IF (NOT p (*)) TO (-1* (3PlObvObj)    BARRIER CB) ; ADD obj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvObj))    ;
-SETPARENT (3Sg)    IF (NOT p (*)) TO (-1* SG_AN_OBJECT BARRIER CB) ; ADD obj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_OBJECT) ;
-SETPARENT (3Pl)    IF (NOT p (*)) TO (-1* PL_AN_OBJECT BARRIER CB) ; ADD obj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_OBJECT) ;
-SETPARENT AN_SPECIAL_PRON IF (NOT p (*)) TO (-1* AN_OBJECT BARRIER CB) ; ADD obj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p AN_OBJECT) ;
+
+SETCHILD (3SgProxObj) IF (NONE c (ProxSg)) TO (-1**A (ProxSg) BARRIER CB LINK NONE p (*)); ADD obj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxObj))   ;
+
+SETCHILD (3PlProxObj) IF (NONE c (ProxPl)) TO (-1**A (ProxPl) BARRIER CB LINK NONE p (*)); ADD obj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxObj))   ;
+
+SETCHILD (3SgObvObj) IF (NONE c (ObvSg)) TO (-1**A (ObvSg) BARRIER CB LINK NONE p (*)); ADD obj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvObj))    ;
+
+SETCHILD (3PlObvObj) IF (NONE c (ObvPl)) TO (-1**A (ObvPl) BARRIER CB LINK NONE p (*)); ADD obj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvObj))    ;
+
+SETCHILD SG_AN_OBJECT IF (NONE c (3Sg)) TO (-1**A (3Sg) BARRIER CB LINK NONE p (*)); ADD obj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_OBJECT) ;
+
+SETCHILD PL_AN_OBJECT IF (NONE c (3Pl)) TO (-1**A (3Pl) BARRIER CB LINK NONE p (*)); ADD obj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_OBJECT) ;
+
+SETCHILD AN_OBJECT IF (NONE c AN_SPECIAL_PRON) TO (-1**A AN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD obj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p AN_OBJECT) ;
+
 
 ## ANIMATE NON-3RD PERSON OBJECT
-SETPARENT (1Sg) IF (NOT p (*)) TO (-1* (1SgObj)  BARRIER CB) ; ADD obj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgObj))  ;
-SETPARENT (2Sg) IF (NOT p (*)) TO (-1* (2SgObj)  BARRIER CB) ; ADD obj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgObj))  ;
-SETPARENT (2Pl) IF (NOT p (*)) TO (-1* (2PlObj)  BARRIER CB) ; ADD obj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlObj))  ;
-SETPARENT (Excl) IF (NOT p (*)) TO (-1* (ExclObj) BARRIER CB) ; ADD obj (Excl) IF (NOT 0 REL_LABEL) (p (ExclObj)) ;
-SETPARENT (Incl) IF (NOT p (*)) TO (-1* (InclObj) BARRIER CB) ; ADD obj (Incl) IF (NOT 0 REL_LABEL) (p (InclObj)) ;
+
+SETCHILD (1SgObj) IF (NONE c (1Sg)) TO (-1**A (1Sg) BARRIER CB LINK NONE p (*)); ADD obj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgObj))  ;
+
+SETCHILD (2SgObj) IF (NONE c (2Sg)) TO (-1**A (2Sg) BARRIER CB LINK NONE p (*)); ADD obj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgObj))  ;
+
+SETCHILD (2PlObj) IF (NONE c (2Pl)) TO (-1**A (2Pl) BARRIER CB LINK NONE p (*)); ADD obj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlObj))  ;
+
+SETCHILD (ExclObj) IF (NONE c (Excl)) TO (-1**A (Excl) BARRIER CB LINK NONE p (*)); ADD obj (Excl) IF (NOT 0 REL_LABEL) (p (ExclObj)) ;
+
+SETCHILD (InclObj) IF (NONE c (Incl)) TO (-1**A (Incl) BARRIER CB LINK NONE p (*)); ADD obj (Incl) IF (NOT 0 REL_LABEL) (p (InclObj)) ;
+
 
 # INANIMATE SUBJECT
-SETPARENT (Sg) IF (NOT p (*)) TO (-1* (0SgSubj) BARRIER CB) ; ADD nsubj (Sg) IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
-SETPARENT (Pl) IF (NOT p (*)) TO (-1* (0PlSubj) BARRIER CB) ; ADD nsubj (Pl) IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
-SETPARENT INAN_SPECIAL_PRON IF (NOT p (*)) TO (-1* INAN_SUBJECT BARRIER CB) ; ADD nsubj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_SUBJECT) ;
+
+SETCHILD (0SgSubj) IF (NONE c (Sg)) TO (-1**A (Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (Sg) IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
+
+SETCHILD (0PlSubj) IF (NONE c (Pl)) TO (-1**A (Pl) BARRIER CB LINK NONE p (*)); ADD nsubj (Pl) IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
+
+SETCHILD INAN_SUBJECT IF (NONE c INAN_SPECIAL_PRON) TO (-1**A INAN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD nsubj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_SUBJECT) ;
+
 
 ## INANIMATE OBJECT
-SETPARENT (Sg) IF (NOT p (*)) TO (-1* (0SgObj) BARRIER CB) ; ADD obj (Sg) IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
-SETPARENT (Pl) IF (NOT p (*)) TO (-1* (0PlObj) BARRIER CB) ; ADD obj (Pl) IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
-SETPARENT INAN_SPECIAL_PRON IF (NOT p (*)) TO (-1* INAN_OBJECT BARRIER CB) ; ADD obj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_OBJECT) ;
+
+SETCHILD (0SgObj) IF (NONE c (Sg)) TO (-1**A (Sg) BARRIER CB LINK NONE p (*)); ADD obj (Sg) IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
+
+SETCHILD (0PlObj) IF (NONE c (Pl)) TO (-1**A (Pl) BARRIER CB LINK NONE p (*)); ADD obj (Pl) IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
+
+SETCHILD INAN_OBJECT IF (NONE c INAN_SPECIAL_PRON) TO (-1**A INAN_SPECIAL_PRON BARRIER CB LINK NONE p (*)); ADD obj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_OBJECT) ;
 
 
 # RELATIVE CLAUSE SUBJECT (Picked first to object, can lead to misparses)
-SETPARENT RelCl + SG_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3SgProxSubj) BARRIER CB) ; ADD nsubj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxSubj)) ;
-SETPARENT RelCl + SG_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3SgObvSubj) BARRIER CB) ; ADD nsubj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvSubj)) ;
-SETPARENT RelCl + 0SG_ARGUMENT IF (NOT p (*)) TO (-1* (0SgSubj) BARRIER CB) ; ADD nsubj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
-SETPARENT RelCl + PL_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3PlProxSubj) BARRIER CB) ; ADD nsubj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxSubj)) ;
-SETPARENT RelCl + PL_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3PlObvSubj) BARRIER CB) ; ADD nsubj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvSubj)) ;
-SETPARENT RelCl + 0PL_ARGUMENT IF (NOT p (*)) TO (-1* (0PlSubj) BARRIER CB) ; ADD nsubj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
+
+SETCHILD (3SgProxSubj) IF (NONE c RelCl + SG_PROX_ARGUMENT) TO (-1**A RelCl + SG_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxSubj)) ;
+
+SETCHILD (3SgObvSubj) IF (NONE c RelCl + SG_OBV_ARGUMENT) TO (-1**A RelCl + SG_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvSubj)) ;
+
+SETCHILD (0SgSubj) IF (NONE c RelCl + 0SG_ARGUMENT) TO (-1**A RelCl + 0SG_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
+
+SETCHILD (3PlProxSubj) IF (NONE c RelCl + PL_PROX_ARGUMENT) TO (-1**A RelCl + PL_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxSubj)) ;
+
+SETCHILD (3PlObvSubj) IF (NONE c RelCl + PL_OBV_ARGUMENT) TO (-1**A RelCl + PL_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvSubj)) ;
+
+SETCHILD (0PlSubj) IF (NONE c RelCl + 0PL_ARGUMENT) TO (-1**A RelCl + 0PL_ARGUMENT BARRIER CB LINK NONE p (*)); ADD nsubj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
+
 
 # RELATIVE CLAUSE OBJECT
-SETPARENT RelCl + SG_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3SgProxObj) BARRIER CB) ; ADD obj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxObj)) ;
-SETPARENT RelCl + SG_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3SgObvObj) BARRIER CB) ; ADD obj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvObj)) ;
-SETPARENT RelCl + 0SG_ARGUMENT IF (NOT p (*)) TO (-1* (0SgObj) BARRIER CB) ; ADD obj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
-SETPARENT RelCl + PL_PROX_ARGUMENT IF (NOT p (*)) TO (-1* (3PlProxObj) BARRIER CB) ; ADD obj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxObj)) ;
-SETPARENT RelCl + PL_OBV_ARGUMENT IF (NOT p (*)) TO (-1* (3PlObvObj) BARRIER CB) ; ADD obj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvObj)) ;
-SETPARENT RelCl + 0PL_ARGUMENT IF (NOT p (*)) TO (-1* (0PlObj) BARRIER CB) ; ADD obj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
+
+SETCHILD (3SgProxObj) IF (NONE c RelCl + SG_PROX_ARGUMENT) TO (-1**A RelCl + SG_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxObj)) ;
+
+SETCHILD (3SgObvObj) IF (NONE c RelCl + SG_OBV_ARGUMENT) TO (-1**A RelCl + SG_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvObj)) ;
+
+SETCHILD (0SgObj) IF (NONE c RelCl + 0SG_ARGUMENT) TO (-1**A RelCl + 0SG_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
+
+SETCHILD (3PlProxObj) IF (NONE c RelCl + PL_PROX_ARGUMENT) TO (-1**A RelCl + PL_PROX_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxObj)) ;
+
+SETCHILD (3PlObvObj) IF (NONE c RelCl + PL_OBV_ARGUMENT) TO (-1**A RelCl + PL_OBV_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvObj)) ;
+
+SETCHILD (0PlObj) IF (NONE c RelCl + 0PL_ARGUMENT) TO (-1**A RelCl + 0PL_ARGUMENT BARRIER CB LINK NONE p (*)); ADD obj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
 
 ## OBLIQUES
 SETPARENT NOMINAL + (Loc) IF (NOT p (*)) TO (-1* VERB BARRIER CB) ; ADD obl NOMINAL + (Loc) IF (NOT 0 REL_LABEL) (p VERB) ;
 
-## RIGHT SIDE DEPENDENCIES
-
-# ANIMATE 3RD PERSON SUBJECT
-SETPARENT (ProxSg) IF (NOT p (*)) TO (1* (3SgProxSubj)  BARRIER CB) ; ADD nsubj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxSubj))  ;
-SETPARENT (ProxPl) IF (NOT p (*)) TO (1* (3PlProxSubj)  BARRIER CB) ; ADD nsubj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxSubj))  ;
-SETPARENT (ObvSg)  IF (NOT p (*)) TO (1* (3SgObvSubj)   BARRIER CB) ; ADD nsubj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvSubj))   ;
-SETPARENT (ObvPl)  IF (NOT p (*)) TO (1* (3PlObvSubj)   BARRIER CB) ; ADD nsubj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvSubj))   ;
-SETPARENT (3Sg)    IF (NOT p (*)) TO (1* SG_AN_SUBJECT BARRIER CB) ; ADD nsubj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_SUBJECT) ;
-SETPARENT (3Pl)    IF (NOT p (*)) TO (1* PL_AN_SUBJECT BARRIER CB) ; ADD nsubj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_SUBJECT) ;
-SETPARENT AN_SPECIAL_PRON IF (NOT p (*)) TO (1* AN_SUBJECT BARRIER CB) ; ADD nsubj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p AN_SUBJECT) ;
-
-# ANIMATE NON-3RD PERSON SUBJECT
-SETPARENT (1Sg) IF (NOT p (*)) TO (1* (1SgSubj)  BARRIER CB) ; ADD nsubj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgSubj))  ;
-SETPARENT (2Sg) IF (NOT p (*)) TO (1* (2SgSubj)  BARRIER CB) ; ADD nsubj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgSubj))  ;
-SETPARENT (2Pl) IF (NOT p (*)) TO (1* (2PlSubj)  BARRIER CB) ; ADD nsubj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlSubj))  ;
-SETPARENT (Excl) IF (NOT p (*)) TO (1* (ExclSubj) BARRIER CB) ; ADD nsubj (Excl) IF (NOT 0 REL_LABEL) (p (ExclSubj)) ;
-SETPARENT (Incl) IF (NOT p (*)) TO (1* (InclSubj) BARRIER CB) ; ADD nsubj (Incl) IF (NOT 0 REL_LABEL) (p (InclSubj)) ;
-
-# ANIMATE 3RD PERSON OBJECT
-SETPARENT (ProxSg) IF (NOT p (*)) TO (1* (3SgProxObj)   BARRIER CB) ; ADD obj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxObj))   ;
-SETPARENT (ProxPl) IF (NOT p (*)) TO (1* (3PlProxObj)   BARRIER CB) ; ADD obj (ProxPl) IF (NOT 0 REL_LABEL) (p (3PlProxObj))   ;
-SETPARENT (ObvSg)  IF (NOT p (*)) TO (1* (3SgObvObj)    BARRIER CB) ; ADD obj (ObvSg)  IF (NOT 0 REL_LABEL) (p (3SgObvObj))    ;
-SETPARENT (ObvPl)  IF (NOT p (*)) TO (1* (3PlObvObj)    BARRIER CB) ; ADD obj (ObvPl)  IF (NOT 0 REL_LABEL) (p (3PlObvObj))    ;
-SETPARENT (3Sg)    IF (NOT p (*)) TO (1* SG_AN_OBJECT BARRIER CB) ; ADD obj (3Sg)    IF (NOT 0 REL_LABEL) (p SG_AN_OBJECT) ;
-SETPARENT (3Pl)    IF (NOT p (*)) TO (1* PL_AN_OBJECT BARRIER CB) ; ADD obj (3Pl)    IF (NOT 0 REL_LABEL) (p PL_AN_OBJECT) ;
-SETPARENT AN_SPECIAL_PRON IF (NOT p (*)) TO (1* AN_OBJECT BARRIER CB) ; ADD obj AN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p AN_OBJECT) ;
-
-# ANIMATE NON-3RD PERSON OBJECT
-SETPARENT (1Sg) IF (NOT p (*)) TO (1* (1SgObj)  BARRIER CB) ; ADD obj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgObj))  ;
-SETPARENT (2Sg) IF (NOT p (*)) TO (1* (2SgObj)  BARRIER CB) ; ADD obj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgObj))  ;
-SETPARENT (2Pl) IF (NOT p (*)) TO (1* (2PlObj)  BARRIER CB) ; ADD obj (2Pl) IF (NOT 0 REL_LABEL) (p (2PlObj))  ;
-SETPARENT (Excl) IF (NOT p (*)) TO (1* (ExclObj) BARRIER CB) ; ADD obj (Excl) IF (NOT 0 REL_LABEL) (p (ExclObj)) ;
-SETPARENT (Incl) IF (NOT p (*)) TO (1* (InclObj) BARRIER CB) ; ADD obj (Incl) IF (NOT 0 REL_LABEL) (p (InclObj)) ;
-
-# INANIMATE SUBJECT
-SETPARENT (Sg) IF (NOT p (*)) TO (1* (0SgSubj) BARRIER CB) ; ADD nsubj (Sg) IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
-SETPARENT (Pl) IF (NOT p (*)) TO (1* (0PlSubj) BARRIER CB) ; ADD nsubj (Pl) IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
-SETPARENT INAN_SPECIAL_PRON IF (NOT p (*)) TO (1* INAN_SUBJECT BARRIER CB) ; ADD nsubj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_SUBJECT) ;
-
-# INANIMATE OBJECT
-SETPARENT (Sg) IF (NOT p (*)) TO (1* (0SgObj) BARRIER CB) ; ADD obj (Sg) IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
-SETPARENT (Pl) IF (NOT p (*)) TO (1* (0PlObj) BARRIER CB) ; ADD obj (Pl) IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
-SETPARENT INAN_SPECIAL_PRON IF (NOT p (*)) TO (1* INAN_OBJECT BARRIER CB) ; ADD obj INAN_SPECIAL_PRON IF (NOT 0 REL_LABEL) (p INAN_OBJECT) ;
-
-# RELATIVE CLAUSE SUBJECT (Picked first to object, can lead to misparses)
-SETPARENT RelCl + SG_PROX_ARGUMENT IF (NOT p (*)) TO (1* (3SgProxSubj) BARRIER CB) ; ADD nsubj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxSubj)) ;
-SETPARENT RelCl + SG_OBV_ARGUMENT IF (NOT p (*)) TO (1* (3SgObvSubj) BARRIER CB) ; ADD nsubj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvSubj)) ;
-SETPARENT RelCl + 0SG_ARGUMENT IF (NOT p (*)) TO (1* (0SgSubj) BARRIER CB) ; ADD nsubj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
-SETPARENT RelCl + PL_PROX_ARGUMENT IF (NOT p (*)) TO (1* (3PlProxSubj) BARRIER CB) ; ADD nsubj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxSubj)) ;
-SETPARENT RelCl + PL_OBV_ARGUMENT IF (NOT p (*)) TO (1* (3PlObvSubj) BARRIER CB) ; ADD nsubj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvSubj)) ;
-SETPARENT RelCl + 0PL_ARGUMENT IF (NOT p (*)) TO (1* (0PlSubj) BARRIER CB) ; ADD nsubj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlSubj)) ;
-
-# RELATIVE CLAUSE OBJECT
-SETPARENT RelCl + SG_PROX_ARGUMENT IF (NOT p (*)) TO (1* (3SgProxObj) BARRIER CB) ; ADD nsubj RelCl + SG_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgProxObj)) ;
-SETPARENT RelCl + SG_OBV_ARGUMENT IF (NOT p (*)) TO (1* (3SgObvObj) BARRIER CB) ; ADD nsubj RelCl + SG_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3SgObvObj)) ;
-SETPARENT RelCl + 0SG_ARGUMENT IF (NOT p (*)) TO (1* (0SgObj) BARRIER CB) ; ADD nsubj RelCl + 0SG_ARGUMENT IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
-SETPARENT RelCl + PL_PROX_ARGUMENT IF (NOT p (*)) TO (1* (3PlProxObj) BARRIER CB) ; ADD nsubj RelCl + PL_PROX_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlProxObj)) ;
-SETPARENT RelCl + PL_OBV_ARGUMENT IF (NOT p (*)) TO (1* (3PlObvObj) BARRIER CB) ; ADD nsubj RelCl + PL_OBV_ARGUMENT IF (NOT 0 REL_LABEL) (p (3PlObvObj)) ;
-SETPARENT RelCl + 0PL_ARGUMENT IF (NOT p (*)) TO (1* (0PlObj) BARRIER CB) ; ADD nsubj RelCl + 0PL_ARGUMENT IF (NOT 0 REL_LABEL) (p (0PlObj)) ;
-
-# OBLIQUES
 SETPARENT NOMINAL + (Loc) IF (NOT p (*)) TO (1* VERB BARRIER CB) ; ADD obl NOMINAL + (Loc) IF (NOT 0 REL_LABEL) (p VERB) ;
-
-
 
 ### DITRANSITIVE ARGUMENTS
 
@@ -361,16 +465,33 @@ SETPARENT ("gego") IF (NOT p (*)) TO (1* (Prb)) ; ADD neg ("gego") IF (NOT 0 REL
 SETPARENT PART IF (NOT p (*)) TO ((-1* VERB) OR (1* VERB)) ; ADD discourse PART IF (NOT 0 REL_LABEL) (p VERB) ;
 
 
+### Coordination (Conj) Rules
+# 
+# Proximate coordination
+SETPARENT COORDINATOR IF (-1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) (1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) TO (1* NOMINAL); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOMINAL); 
+# Obviative coordination
+SETPARENT COORDINATOR IF (-1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) (1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) TO (1* NOMINAL); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOMINAL);
+
+SETPARENT NOMINAL IF (c COORDINATOR) TO (-1* NOMINAL); ADD conj NOMINAL IF (NOT 0 REL_LABEL) (p NOMINAL); 
+
+### Idiosyncratic rules (some could be generalizable, but not attempted) 
+# To handle  (g)akina gegoo, gaawiin gegoo, (g)akina awiiya, gaawiin awiiya
+SETPARENT (ADVQnt) TO (1 (PRONIndf)); ADD advmod (ADVQnt) IF (p (PRONIndf));
+
+
 ### --- CLEANUP + POST-PROCESSING ---
 AFTER-SECTIONS cleanup;
 
-SUBSTITUTE:remove_rc_tag (RelCl) (*) TARGET (RelCl) ;
+#SUBSTITUTE:remove_rc_tag (RelCl) (*) TARGET (RelCl) ;
 
 ### Help with post-processing (Adding tags for CoNLL-U conversion)
 ADD:Is_Noun (NOUN) TARGET NOMINAL IF (NOT 0 PRON) (NOT 0 (NOUN)) ;
+ADD:Is_Propn (PROPN) TARGET PROPN IF (NOT 0 PRON) (NOT 0 (PROPN)) ;
 ADD:Is_Det (DET) TARGET (PRONDem) IF (1 (NOUN)) (NOT 0 (DET)) ;
 ADD:Is_Pron (PRON) TARGET PRON IF (NOT 0 (DET)) (NOT 0 (PRON)) ;
 ADD:Is_Verb (VERB) TARGET VERB (NOT 0 (VERB)) ;
 ADD:Is_Adv (ADV) TARGET ADV (NOT 0 (ADV)) ;
 ADD:Is_Part (PART) TARGET PART (NOT 0 (PART));
 ADD:Is_Intj (INTJ) TARGET (PCInterj) (NOT 0 (INTJ));
+ADD:Is_CConj (CCONJ) TARGET COORDINATOR IF (0 cc);
+

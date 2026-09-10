@@ -1,7 +1,7 @@
 from __future__ import annotations
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
-from grammar_modules.disambiguation import disambiguate, cg3_process_text
+from grammar_modules.disambiguation import disambiguate, cg3_process_text, ojibwe_sentence_to_cg3_format, tokenize
 import re
 
 # ────────────────────────────────────────────────────────────────
@@ -320,6 +320,62 @@ def split_cg3_sentences(cg3_text: str) -> list[str]:
     return segs
 
 
+STREAM_FLUSH = "<STREAMCMD:FLUSH>"
+
+
+def split_cg3_by_token_counts(cg3_text: str, token_counts: list[int],) -> list[str]:
+    cohorts: list[list[str]] = []
+    current_cohort: list[str] = []
+
+    for line in cg3_text.splitlines():
+        stripped = line.strip()
+
+        if stripped == STREAM_FLUSH:
+            continue
+
+        is_surface = (
+            stripped.startswith('"<')
+            and stripped.endswith('>"')
+        )
+
+        if is_surface:
+            if current_cohort:
+                cohorts.append(current_cohort)
+
+            current_cohort = [line]
+
+        elif current_cohort:
+            current_cohort.append(line)
+
+    if current_cohort:
+        cohorts.append(current_cohort)
+
+    expected_tokens = sum(token_counts)
+
+    if len(cohorts) != expected_tokens:
+        raise RuntimeError(
+            "CG3 changed the number of cohorts: "
+            f"expected {expected_tokens}, got {len(cohorts)}."
+        )
+
+    segments = []
+    offset = 0
+
+    for token_count in token_counts:
+        sentence_cohorts = cohorts[offset:offset + token_count]
+        offset += token_count
+
+        segment = "\n".join(
+            line
+            for cohort in sentence_cohorts
+            for line in cohort
+        ).rstrip()
+
+        segments.append(segment + "\n\n")
+
+    return segments
+
+
 
 def parse_dependencies(sentence: str, dependency_grammar: str, disambiguation_grammar: str, fst: Fst, verbose: bool = False):
     """
@@ -351,6 +407,67 @@ def parse_dependencies(sentence: str, dependency_grammar: str, disambiguation_gr
 
     return dependencies
 
+def parse_dependencies_batch(sentences: list[str], dependency_grammar: str, disambiguation_grammar: str, fst: Fst, verbose: bool = False) -> list[str]:
+    if not sentences:
+        return []
+
+    token_counts = [
+        len(tokenize(sentence))
+        for sentence in sentences
+    ]
+
+    if any(count == 0 for count in token_counts):
+        raise ValueError("Cannot batch an empty tokenized sentence.")
+
+    input_blocks = [
+        ojibwe_sentence_to_cg3_format(
+            ojibwe_sentence=sentence,
+            fst=fst,
+        )
+        for sentence in sentences
+    ]
+
+    # Flush at original corpus boundaries
+    combined_input = "".join(
+        block.rstrip("\n")
+        + f"\n{STREAM_FLUSH}\n"
+        for block in input_blocks
+    )
+
+    disambiguated = cg3_process_text(
+        input_text=combined_input,
+        cg3_grammar_filepath=disambiguation_grammar,
+    )
+
+    # Recover original corpus segmentation
+    disambiguated_segments = split_cg3_by_token_counts(
+        disambiguated,
+        token_counts,
+    )
+
+    dependency_input = "".join(
+        segment.rstrip("\n")
+        + f"\n{STREAM_FLUSH}\n"
+        for segment in disambiguated_segments
+    )
+
+    dependency_output = cg3_process_text(
+        input_text=dependency_input,
+        cg3_grammar_filepath=dependency_grammar,
+    )
+
+    dependency_segments = split_cg3_by_token_counts(
+        dependency_output,
+        token_counts,
+    )
+
+    if verbose:
+        print(f"# input sentences: {len(sentences)}")
+        print(f"# expected cohorts: {sum(token_counts)}")
+        print(f"# dependency segments: {len(dependency_segments)}")
+
+    return dependency_segments
+
 
 __all__ = [
     "UNIVERSAL_UPOS",
@@ -360,4 +477,5 @@ __all__ = [
     "cg3_to_conllu_block",
     "split_cg3_sentences",
     "parse_dependencies",
+    "parse_dependencies_batch",
 ]

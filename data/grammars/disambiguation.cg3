@@ -1,7 +1,7 @@
 # This is the disambiguation file for Anishinaabemowin (Ojibwe).
 
 # Define to set as sentence delimeters
-DELIMITERS = "<.>" "<,>" "<;>" "<:>" "<!>" "<?>" "<(>" "<)>" "<{>" "<}>" "<[>" "<]>" "<<>" "<>>" "<«>" "<»>" "<“>" "<”>" "<">" "<¶>";
+DELIMITERS = "<.>" "<;>" "<:>" "<!>" "<?>" "<¶>";
 
 # Verb arguments by number and obviation
 LIST SG_PROX_ARGUMENT = 3SgProxSubj 3SgProxObj ;

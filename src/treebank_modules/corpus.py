@@ -1,8 +1,22 @@
 from __future__ import annotations
 from pathlib import Path
-from typing import List, Union, Optional, Tuple
-from grammar_modules.disambiguation import cg3_process_text
-from grammar_modules.dependency import cg3_to_conllu_block, split_cg3_sentences, tokens_to_conllu
+from itertools import islice
+from typing import List, Union, Optional, Tuple, Iterable, Iterator
+from grammar_modules.disambiguation import (
+    DISAMBIGUATION_PATH,
+    cg3_process_text,
+    tokenize,
+)
+from grammar_modules.dependency import (
+    DEPENDENCY_PATH,
+    cg3_to_conllu_block,
+    parse_dependencies_batch,
+    split_cg3_sentences,
+)
+from grammar_modules.fst import (
+    Fst,
+    load_fst_parser,
+)
 import sys
 import re
 import rich
@@ -13,36 +27,22 @@ import subprocess
 # ────────────────────────────────────────────────────────────────
 
 
-def append_sentence(conllu_text: str,
-                    sent_id: int,
-                    corpus_path: Union[str, Path] = "ojibwe_treebank.conllu",
-                    verbose: bool = True
-                    ) -> Optional[int]:
-    """Append one CoNLL-U sentence if its # text = is new; return id used.
-    Duplicate detection is by exact # text = match.
-    """
+def append_sentence(conllu_text: str, sent_id: int, corpus_path: Union[str, Path] = "ojibwe_treebank.conllu", verbose: bool = False) -> int:
     corpus_path = Path(corpus_path)
-    m = re.search(r"^#\s*text\s*=\s*(.+)$", conllu_text, flags=re.M)
-    if not m:
-        print("❌ append_sentence: missing '# text ='")
-        return None
-    new_text_line = m.group(1).strip()
 
-    existing = corpus_path.read_text(encoding="utf-8") if corpus_path.exists() else ""
-    for block in re.split(r"\n\s*\n", existing.strip()):
-        mm_text = re.search(r"^#\s*text\s*=\s*(.+)$", block, flags=re.M)
-        if mm_text and mm_text.group(1).strip() == new_text_line:
-            mm_id = re.search(r"^#\s*sent_id\s*=\s*(.+)$", block, flags=re.M)
-            dup_id = int(mm_id.group(1)) if mm_id else "?"
-            if verbose:
-                print(f"⚠️  sentence already in {corpus_path} with sent_id {dup_id}")
-            return dup_id
+    # exactly one blank line after the sentence block
+    conllu_block = conllu_text.rstrip() + "\n\n"
 
-    corpus_path.write_text(existing + conllu_text if existing else conllu_text, encoding="utf-8")
+    with corpus_path.open(
+        mode="a",
+        encoding="utf-8",
+    ) as corpus_file:
+        corpus_file.write(conllu_block)
+
     if verbose:
-        print(f"✓ appended sentence #{sent_id} to {corpus_path.name}")
-    return sent_id
+        print(f"Appended sentence #{sent_id} to {corpus_path.name}")
 
+    return sent_id
 
 def cg3_to_conllu_batch(cg3_text: str,
                         corpus_path: Union[str, Path] = "ojibwe_treebank.conllu",
@@ -119,7 +119,6 @@ def append_parent_block_as_segments(
             print(f"✓ appended {len(new_blocks)} segment(s) for parent g{parent_index} → {corpus_path.name}")
 
     return used
-
 
 
 
@@ -218,10 +217,118 @@ def delete_sentence(corpus_path: Union[str, Path],
     return True
 
 
+def _batched(iterable: Iterable, batch_size: int) -> Iterator[list]:
+    iterator = iter(iterable)
+    while batch := list(islice(iterator, batch_size)):
+        yield batch
+
+
+def build_treebank_from_xml_sentences(
+    sentences: Iterable[tuple[str, str]],
+    corpus_path: Union[str, Path],
+    *,
+    fst: Optional[Fst] = None,
+    batch_size: int = 500,
+    dependency_grammar: Union[str, Path] = DEPENDENCY_PATH,
+    disambiguation_grammar: Union[str, Path] = DISAMBIGUATION_PATH,
+    verbose: bool = True,
+) -> int:
+    corpus_path = Path(corpus_path)
+    corpus_path.parent.mkdir(parents=True, exist_ok=True)
+
+    dependency_grammar = str(dependency_grammar)
+    disambiguation_grammar = str(disambiguation_grammar)
+
+    if fst is None:
+        fst = load_fst_parser()
+
+
+    existing_text = (
+        corpus_path.read_text(encoding="utf-8")
+        if corpus_path.exists()
+        else ""
+    )
+
+    existing_ids = [
+        int(match)
+        for match in re.findall(
+            r"^#\s*sent_id\s*=\s*(\d+)\s*$",
+            existing_text,
+            flags=re.MULTILINE,
+        )
+    ]
+
+    next_sent_id = max(existing_ids, default=0) + 1
+    num_sentences = 0
+
+    with corpus_path.open("a", encoding="utf-8") as corpus_file:
+        if existing_text and not existing_text.endswith("\n\n"):
+            corpus_file.write("\n\n")
+
+        for batch_number, sentence_batch in enumerate(
+            _batched(sentences, batch_size),
+            start=1,
+        ):
+            batch_tokens = [
+                token
+                for ojibwe_text, _ in sentence_batch
+                for token in tokenize(ojibwe_text)
+            ]
+
+            # One FST lookup for all unseen forms in the batch.
+            fst.preload(batch_tokens)
+
+            dependency_blocks = parse_dependencies_batch(
+                sentences=[
+                    ojibwe_text
+                    for ojibwe_text, _ in sentence_batch
+                ],
+                dependency_grammar=dependency_grammar,
+                disambiguation_grammar=disambiguation_grammar,
+                fst=fst,
+            )
+
+            conllu_blocks = []
+
+            for dependency_block, (_, english_text) in zip(
+                dependency_blocks,
+                sentence_batch,
+                strict=True,
+            ):
+                conllu = cg3_to_conllu_block(
+                    dependency_block,
+                    next_sent_id,
+                    en_line=english_text,
+                )
+
+                conllu_blocks.append(
+                    conllu.rstrip() + "\n\n"
+                )
+
+                next_sent_id += 1
+                num_sentences += 1
+
+            corpus_file.write("".join(conllu_blocks))
+
+            if verbose:
+                print(
+                    f"Processed batch {batch_number}: "
+                    f"{num_sentences} sentences added."
+                )
+
+    if verbose:
+        print(
+            f"Added {num_sentences} sentences to "
+            f"{corpus_path.name}."
+        )
+
+    return num_sentences
+
 __all__ = [
     "append_sentence",
     "cg3_to_conllu_batch",
     "validate_ud",
     "visualise_conllu",
     "delete_sentence",
+    "build_treebank_from_xml_sentences",
 ]

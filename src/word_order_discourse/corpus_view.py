@@ -327,19 +327,6 @@ def analyze_corpus(
         "arguments": arguments,
     }
 
-def get_argument_observations(
-    corpus_path: str | Path,
-    relations: tuple[str, ...] = ("nsubj", "obj", "iobj"),
-) -> list[dict]:
-    return analyze_corpus(corpus_path, relations=relations)["arguments"]
-
-
-def get_predicate_observations(
-    corpus_path: str | Path,
-    relations: tuple[str, ...] = ("nsubj", "obj"),
-) -> list[dict]:
-    return analyze_corpus(corpus_path, relations=relations)["predicates"]
-
 __all__ = [
     "analyze_corpus",
 ]

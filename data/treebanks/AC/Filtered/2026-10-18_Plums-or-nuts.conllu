@@ -1,0 +1,3985 @@
+# sent_id = 1
+# text = mii dash iwidi gii-pabaa-ayaawaad ingoji a'aw nimaamaayiban miinawaa indedeyiban .
+# eng = MY MOTHER AND FATHER USED TO TRAVEL ALL AROUND.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-pabaa-ayaawaad	ayaaw	VERB	PVTense/gii|PVDir/babaa|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+5	ingoji	ingoji	ADV	ADVDeg|ADV	_	4	advmod	_	_
+6	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	7	det	_	_
+7	nimaamaayiban	maamaay	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	4	nsubj	_	_
+8	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	9	cc	_	_
+9	indedeyiban	dedey	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	7	conj	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 2
+# text = gegoo ko gii-izhichige aw indedeyiban .
+# eng = There is something my father used to do.
+1	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	3	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	gii-izhichige	izhichige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	indedeyiban	dedey	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 3
+# text = ogii-kimoodinan zhooniyaan imaa zhooniyaawigamigong mii gaa-izhichiged baashkizigan ko ogii-aabajitoon .
+# eng = He stole money from banks, that's what he did, using a gun when he did it.
+1	ogii-kimoodinan	gimoodin	VERB	PVTense/gii|VAIO|Ind|Pos|Neu|3SgProxSubj|0PlObj|VERB	_	0	root	_	_
+2	zhooniyaan	zhooniyaa	NOUN	NA|ObvPl|NOUN	_	1	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	zhooniyaawigamigong	zhooniyaawigamig	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+5	mii	mii	ADV	ADVPred|ADV	_	1	dep	_	_
+6	gaa-izhichiged	izhichige	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|RelCl|VERB	_	1	nsubj	_	_
+7	baashkizigan	baashkizigan	NOUN	NI|Sg|NOUN	_	9	obj	_	_
+8	ko	ko	PART	PCAsp|PART	_	6	discourse	_	_
+9	ogii-aabajitoon	aabajitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	1	dep	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 4
+# text = mii dash imaa ingoding bimi-ayaawaad ingiw dakoniwewininiwag ogii-nisidawinawaawaan iniw indedeyibaniin .
+# eng = Then this one time the police came along, and they recognized my dad.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+4	ingoding	ingoding	ADV	ADVTmp|ADV	_	5	advmod	_	_
+5	bimi-ayaawaad	bimi-ayaa	VERB	VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+6	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	7	det	_	_
+7	dakoniwewininiwag	dakoniwewinini	NOUN	NA|ProxPl|NOUN	_	5	nsubj	_	_
+8	ogii-nisidawinawaawaan	nisidawinaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	5	dep	_	_
+9	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	10	det	_	_
+10	indedeyibaniin	dedey	NOUN	NAD|Pret|ObvSg|1SgPoss|NOUN	_	8	obj	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 5
+# text = miish imaa gaa-izhi-ganawaabamaawaad ,
+# eng = They were watching him for a while, I don't know how long.
+1	miish	miish	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-izhi-ganawaabamaawaad	ganawaabam	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 6
+# text = namanj minik .
+# eng = They were watching him for a while, I don't know how long.
+1	namanj	namanj	ADV	ADVDub|ADV	_	0	root	_	_
+2	minik	minik	ADV	ADVQnt|ADV	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 7
+# text = miish gaa-izhi-ganoonaawaad aanind bakaan dakoniwewininiwag gii-pi-izhaawaad ogii-pi-gibishkaagowaan imaa .
+# eng = So those cops called for backup, and when backup arrived, they blocked him in.
+1	miish	miish	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-izhi-ganoonaawaad	ganoozh	VERB	PVSub/gaa|PVRel/izhi|VTA|Cnj|Pos|Neu|3PlProxSubj|3PlObvObj|RelCl|VERB	_	0	root	_	_
+3	aanind	aanind	ADV	ADVQnt|ADV	_	2	dep	_	_
+4	bakaan	bakaan	ADV	ADVMan|ADV	_	2	advmod	_	_
+5	dakoniwewininiwag	dakoniwewinini	NOUN	NA|ProxPl|NOUN	_	2	nsubj	_	_
+6	gii-pi-izhaawaad	bi-izhaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	2	dep	_	_
+7	ogii-pi-gibishkaagowaan	gibishkaw	VERB	PVTense/gii|PVDir/bi|VTA|Ind|Pos|Neu|3PlObvSubj|3PlProxObj|VERB	_	2	dep	_	_
+8	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 8
+# text = mii dash imaa gii-kashkaabika'igaazod a'aw indedeyiban mii maajiinind .
+# eng = And then my dad was handcuffed and taken away.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-kashkaabika'igaazod	gashkaabika'igaazo	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	indedeyiban	dedey	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	4	nsubj	_	_
+7	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+8	maajiinind	maajiizh	VERB	VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	4	dep	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 9
+# text = mii dash gaye niin nimaamaayiban gaa-izhi-mamigaazod .
+# eng = Then they took me and my mom too.
+1	mii	mii	ADV	ADVPred|ADV	_	6	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	6	dep	_	_
+3	gaye	gaye	ADV	ADVConj|ADV	_	6	dep	_	_
+4	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	6	dep	_	_
+5	nimaamaayiban	maamaay	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	6	nsubj	_	_
+6	gaa-izhi-mamigaazod	mamigaazo	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 10
+# text = ingii-ningodwaaso-giiziswagiz .
+# eng = I was six months old.
+1	ingii-ningodwaaso-giiziswagiz	ningodwaaso-giiziswagizi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 11
+# text = mii iwidi nimaamaa gewiin gaa-izhiwinind endazhi-ganawenimindwaa ingiw ikwewag .
+# eng = So, they took my mom to the women's shelter.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	5	obl	_	_
+3	nimaamaa	maamaa	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	5	obj	_	_
+4	gewiin	gewiin	PRON	PRONPer|NA|3Sg|PRON	_	5	dep	_	_
+5	gaa-izhiwinind	izhiwizh	VERB	ChCnj|PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+6	endazhi-ganawenimindwaa	ganawenim	VERB	ChCnj|PVRel/dazhi|VTA|Cnj|Pos|Neu|XSubj|3PlProxObj|VERB	_	5	dep	_	_
+7	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	8	det	_	_
+8	ikwewag	ikwe	NOUN	NA|ProxPl|NOUN	_	6	obj	_	_
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 12
+# text = miish aw indedeyiban gaa-izhi-gibaakwa'ond ,
+# eng = Then my father was locked up, for good.
+1	miish	miish	ADV	ADVPred|ADV	_	4	dep	_	_
+2	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	indedeyiban	dedey	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	4	obj	_	_
+4	gaa-izhi-gibaakwa'ond	gibaakwa'	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 13
+# text = gii-aapidaakwa'waa dash .
+# eng = Then my father was locked up, for good.
+1	gii-aapidaakwa'waa	aapidaakwa'	VERB	PVTense/gii|VTA|Ind|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 14
+# text = gii-maajaad iwidi akeyaa Waashtanong gii-izhaad .
+# eng = He headed out for Washington.
+1	gii-maajaad	maajaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	Waashtanong	Waashtanong	PROPN	NamePlace|PROPN	_	1	dep	_	_
+5	gii-izhaad	izhaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 15
+# text = namanj minik gaa-tazhitaagwen aw ishkodewidaabaan gii-tagoshing iwidi maagizhaa nisogon ,
+# eng = I don't know how long it took him for the train to arrive, three maybe four days.
+1	namanj	namanj	ADV	ADVDub|ADV	_	3	dep	_	_
+2	minik	minik	ADV	ADVQnt|ADV	_	3	dep	_	_
+3	gaa-tazhitaagwen	dazhitaa	VERB	PVTense/gii|VAI|Pcp|Pos|Dub|3SgProxSubj|3SgProxHead|RelCl|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	ishkodewidaabaan	ishkodewidaabaan	NOUN	NA|ProxSg|NOUN	_	6	nsubj	_	_
+6	gii-tagoshing	dagoshin	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+7	iwidi	iwidi	ADV	ADVLoc|ADV	_	6	obl	_	_
+8	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	6	advmod	_	_
+9	nisogon	ningashkobiis	VERB	VTA|Ind|Pos|Neu|0SgSubj|1SgObj|VERB	_	3	dep	_	_
+10	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 16
+# text = niiwogon .
+# eng = I don't know how long it took him for the train to arrive, three maybe four days.
+1	niiwogon	niiwogon	NUM	NUM	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 17
+# text = mii dash iwidi gii-paa-nandawaabamid gii-paa-nandawaabamaad ge iniw nimaamaayan aandi endazhi-minjiminimind .
+# eng = Then he went around looking all over for me there, and he looked for where my mother was being held too, where she was being cared for.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-paa-nandawaabamid	andawaabam	VERB	PVTense/gii|PVDir/baa|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+5	gii-paa-nandawaabamaad	andawaabam	VERB	PVTense/gii|PVDir/baa|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	4	dep	_	_
+6	ge	ge	ADV	ADVConj|ADV	_	4	dep	_	_
+7	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	8	det	_	_
+8	nimaamaayan	maamaay	NOUN	NAD|ObvSg|1SgPoss|NOUN	_	5	obj	_	_
+9	aandi	aandi	ADV	ADVInter|ADV	_	4	dep	_	_
+10	endazhi-minjiminimind	minjimin	VERB	ChCnj|PVRel/dazhi|VTA|Cnj|Pos|Neu|XSubj|3PlObvObj|VERB	_	4	dep	_	_
+11	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 18
+# text = mii gii-paa-nandawaabamaad nimaamaayibaniin aandi gaa-tazhi-minjiminigaazonid .
+# eng = Then when he found her, he told her, “I'm going to take him home to stay with those elders in Aazhoomog.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gii-paa-nandawaabamaad	andawaabam	VERB	PVTense/gii|PVDir/baa|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+3	nimaamaayibaniin	maamaay	NOUN	NAD|Pret|ObvSg|1SgPoss|NOUN	_	2	obj	_	_
+4	aandi	aandi	ADV	ADVInter|ADV	_	2	dep	_	_
+5	gaa-tazhi-minjiminigaazonid	minjiminigaazo	VERB	ChCnj|PVTense/gii|PVRel/dazhi|VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 19
+# text = mii imaa gaa-onji-maajii-nitaawigiyaan ,
+# eng = So that's how my upbringing began, that is how those elders began to raise me.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-onji-maajii-nitaawigiyaan	nitaawigi	VERB	ChCnj|PVTense/gii|PVRel/onji|PVLex/maajii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 20
+# text = mii gaa-onji-maajii-nitaawigi'iwaad ingiw chi-aya'aag .
+# eng = So that's how my upbringing began, that is how those elders began to raise me.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-onji-maajii-nitaawigi'iwaad	nitaawigi'	VERB	ChCnj|PVTense/gii|PVRel/onji|PVLex/maajii|VTA|Cnj|Pos|Neu|3PlProxSubj|1SgObj|VERB	_	0	root	_	_
+3	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	4	det	_	_
+4	chi-aya'aag	aya'aa	NOUN	PNLex/chi|NA|ProxPl|NOUN	_	2	nsubj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 21
+# text = nashke ,
+# eng = You see, they didn't speak very much English either.
+1	nashke	nashke	INTJ	PCInterj|INTJ	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 22
+# text = gaawiin aapiji gii-shaaganaashiimosiiwag gaye .
+# eng = You see, they didn't speak very much English either.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+2	aapiji	aapiji	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	gii-shaaganaashiimosiiwag	zhaaganaashiimo	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3PlProxSubj|VERB	_	0	root	_	_
+4	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 23
+# text = mii dash imaa gaa-onji-nitaawigiyaan ingiw chi-aya'aag gii-pami'iwaad .
+# eng = That there is how I grew up with those elders having adopted me.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+4	gaa-onji-nitaawigiyaan	nitaawigi	VERB	PVSub/gaa|PVRel/onji|VAI|Cnj|Pos|Neu|1SgSubj|RelCl|VERB	_	0	root	_	_
+5	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	6	det	_	_
+6	chi-aya'aag	aya'aa	NOUN	PNLex/chi|NA|ProxPl|NOUN	_	7	nsubj	_	_
+7	gii-pami'iwaad	bami'	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3PlProxSubj|1SgObj|VERB	_	4	dep	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 24
+# text = nashke ,
+# eng = You see, sometime a year later my mother was allowed to come back.
+1	nashke	nashke	INTJ	PCInterj|INTJ	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 25
+# text = ingoding igo gaa-ningo-biboonagak mii iw gii-pagidinind aw nimaamaayiban da-bi-azhegiiwed .
+# eng = You see, sometime a year later my mother was allowed to come back.
+1	ingoding	ingoding	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	gaa-ningo-biboonagak	ningo-biboonagad	VERB	ChCnj|PVTense/gii|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+4	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+5	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	3	nsubj	_	_
+6	gii-pagidinind	bagidin	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	3	dep	_	_
+7	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	8	det	_	_
+8	nimaamaayiban	maamaay	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	6	obj	_	_
+9	da-bi-azhegiiwed	azhegiiwe	VERB	PVTense/da|PVDir/bi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 26
+# text = mii dash gaa-pi-dagoshing nimaamaayiban omaa gii-pi-wiij'ayaawaad iniw chi-aya'aan ajina .
+# eng = Then after my mom arrived here, she stayed with those elders for a little while.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
+3	gaa-pi-dagoshing	dagoshin	VERB	PVTense/gii|PVDir/bi|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|RelCl|VERB	_	0	root	_	_
+4	nimaamaayiban	maamaay	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	6	nsubj	_	_
+5	omaa	omaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	gii-pi-wiij'ayaawaad	wiij'ayaaw	VERB	PVTense/gii|PVDir/bi|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	3	dep	_	_
+7	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	8	det	_	_
+8	chi-aya'aan	aya'aa	NOUN	PNLex/chi|NA|ObvSg|NOUN	_	6	obj	_	_
+9	ajina	ajina	ADV	ADVTmp|ADV	_	6	advmod	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 27
+# text = gego babaamenimaaken a'aw gwiiwizens niinawind omaa inga-bami'aanaan .
+# eng = Don't worry about this little boy; we will raise him.
+1	gego	gego	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	babaamenimaaken	babaamenim	VERB	VTA|Imp|Prb|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	gwiiwizens	gwiiwizens	NOUN	NA|ProxSg|NOUN	_	2	obj	_	_
+5	niinawind	niinawind	PRON	PRONPer|NA|Excl|PRON	_	7	nsubj	_	_
+6	omaa	omaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+7	inga-bami'aanaan	bami'	VERB	PVTense/ga|VTA|Ind|Pos|Neu|ExclSubj|3SgProxObj|VERB	_	2	dep	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 28
+# text = miish geget iwidi chi-oodenaang miinawaa gii-paa-nandawanokiid .
+# eng = So sure enough, she went to the big city again to look for work.
+1	miish	miish	ADV	ADVPred|ADV	_	6	dep	_	_
+2	geget	geget	ADV	ADVMan|ADV	_	6	advmod	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	case	_	_
+4	chi-oodenaang	oodena	NOUN	PNLex/chi|NI|Loc|NOUN	_	6	obl	_	_
+5	miinawaa	miinawaa	ADV	ADVConj|ADV	_	6	dep	_	_
+6	gii-paa-nandawanokiid	andawanokii	VERB	PVTense/gii|PVDir/baa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 29
+# text = gii-mikwanokii iwidi miinawaa endazhi-ozhichigaadenig wiiwakwaanan ,
+# eng = She found work over there again ina hat-making factory; that is what she did for work.
+1	gii-mikwanokii	mikwanokii	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	miinawaa	miinawaa	ADV	ADVConj|ADV	_	1	dep	_	_
+4	endazhi-ozhichigaadenig	ozhichigaade	VERB	ChCnj|PVRel/dazhi|VII|Cnj|Pos|Neu|0PlObvSubj|VERB	_	1	dep	_	_
+5	wiiwakwaanan	wiiwakwaan	NOUN	NI|Pl|NOUN	_	1	dep	_	_
+6	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 30
+# text = mii iwidi akeyaa gii-anokiid .
+# eng = She found work over there again ina hat-making factory; that is what she did for work.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-anokiid	anokii	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 31
+# text = aaniish mii iw ,
+# eng = We saw her there while she was working.
+1	aaniish	aaniish	PART	PCDisc|PART	_	0	root	_	_
+2	mii	mii	ADV	ADVPred|ADV	_	1	dep	_	_
+3	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 32
+# text = mii iwidi gii-waabamangid mii iwidi megwaa anokiid .
+# eng = We saw her there while she was working.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gii-waabamangid	waabam	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|ExclSubj|3SgProxObj|VERB	_	0	root	_	_
+4	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+5	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+6	megwaa	megwaa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+7	anokiid	anokii	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 33
+# text = mii miinawaa idi gii-mikawaad iniw ininiwan gii-wiidigemaad ,
+# eng = It is there that she found another man and married him, one that treated her good.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	miinawaa	miinawaa	ADV	ADVConj|ADV	_	4	dep	_	_
+3	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
+4	gii-mikawaad	mikaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+5	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	6	det	_	_
+6	ininiwan	inini	NOUN	NA|ObvSg|NOUN	_	4	obj	_	_
+7	gii-wiidigemaad	wiidigem	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	4	dep	_	_
+8	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 34
+# text = gaa-mino-doodaagojin .
+# eng = It is there that she found another man and married him, one that treated her good.
+1	gaa-mino-doodaagojin	mino-doodaw	VERB	PVTense/gii|VTA|Pcp|Pos|Neu|3PlObvSubj|3SgProxObj|3PlObvHead|RelCl|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 35
+# text = indayaawaag dash nishiimeyag ,
+# eng = I have younger siblings.
+1	indayaawaag	ayaaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	nishiimeyag	shiimey	NOUN	NAD|ProxPl|1SgPoss|NOUN	_	1	obj	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 36
+# text = nishiimeyag indayaawaag .
+# eng = I have younger siblings.
+1	nishiimeyag	shiimey	NOUN	NAD|ProxPl|1SgPoss|NOUN	_	2	obj	_	_
+2	indayaawaag	ayaaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 37
+# text = mii iw dash imaa bizaan gii-ayayaayaan gii-pami'iwaad ingiw chi-aya'aag .
+# eng = I stayed content being adopted by those elders.
+1	mii	mii	ADV	ADVPred|ADV	_	6	dep	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	6	dep	_	_
+3	dash	dash	ADV	ADVConj|ADV	_	6	dep	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+5	bizaan	bizaan	ADV	ADVMan|ADV	_	6	advmod	_	_
+6	gii-ayayaayaan	ayayaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+7	gii-pami'iwaad	bami'	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3PlProxSubj|1SgObj|VERB	_	6	dep	_	_
+8	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	9	det	_	_
+9	chi-aya'aag	aya'aa	NOUN	PNLex/chi|NA|ProxPl|NOUN	_	7	nsubj	_	_
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 38
+# text = ingoding maagizhaa go ingoji maagizhaa gaa-niizhwaaso-biboonagiziwaanen ,
+# eng = Sometime when I was around seven years old, a car pulled in one day.
+1	ingoding	ingoding	ADV	ADVTmp|ADV	_	6	advmod	_	_
+2	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	6	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	6	discourse	_	_
+4	ingoji	ingoji	ADV	ADVDeg|ADV	_	5	advmod	_	_
+5	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	6	advmod	_	_
+6	gaa-niizhwaaso-biboonagiziwaanen	niizhwaaso-biboonagizi	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Dub|1SgSubj|VERB	_	0	root	_	_
+7	,	,	PUNCT	,	_	6	punct	_	_
+
+# sent_id = 39
+# text = gaawiin ,
+# eng = Sometime when I was around seven years old, a car pulled in one day.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 40
+# text = maagizhaa ningodwaaso-biboonagiziwaanen gii-pi-bagamibizod imaa aw odaabaan aabiding .
+# eng = Sometime when I was around seven years old, a car pulled in one day.
+1	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	ningodwaaso-biboonagiziwaanen	ningodwaaso-biboonagizi	VERB	VAI|Cnj|Pos|Dub|1SgSubj|VERB	_	0	root	_	_
+3	gii-pi-bagamibizod	bagamibizo	VERB	PVTense/gii|PVDir/bi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	3	nsubj	_	_
+7	aabiding	aabiding	ADV	ADVTmp|ADV	_	3	advmod	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 41
+# text = gaawiin ge ingii-nitaa-zhaaganaashiimosiin .
+# eng = I wasn't very fluent in English, either.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	3	dep	_	_
+3	ingii-nitaa-zhaaganaashiimosiin	zhaaganaashiimo	VERB	PVTense/gii|PVLex/nitaa|VAI|Ind|Neg|Neu|1SgSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 42
+# text = miinawaa ge gaawiin besho imaa ingii-ayaasiimin ishkoniganing .
+# eng = We also didn't live very close to the reservation.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	6	dep	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	6	dep	_	_
+3	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	6	neg	_	_
+4	besho	besho	ADV	ADVLoc|ADV	_	6	obl	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	ingii-ayaasiimin	ayaan	VERB	PVTense/gii|VTI|Ind|Neg|Neu|ExclSubj|0PlObj|VERB	_	0	root	_	_
+7	ishkoniganing	ishkonigan	NOUN	NI|Loc|NOUN	_	6	obl	_	_
+8	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 43
+# text = bakaan imaa awas bangii ingii-taamin .
+# eng = We lived just a little way off.
+1	bakaan	bakaan	ADV	ADVMan|ADV	_	5	advmod	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+3	awas	awas	PART	PCDisc|PART	_	5	discourse	_	_
+4	bangii	bangii	ADV	ADVQnt|ADV	_	5	dep	_	_
+5	ingii-taamin	daa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 44
+# text = gaawiin ge ingii-nitaa-agindaasosiin gaawiin ge ingii-nitaa-zhaaganaashiimosiin .
+# eng = | couldn't read very well, and I couldn't speak very good English.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	3	dep	_	_
+3	ingii-nitaa-agindaasosiin	agindaaso	VERB	PVTense/gii|PVLex/nitaa|VAI|Ind|Neg|Neu|1SgSubj|VERB	_	0	root	_	_
+4	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	6	neg	_	_
+5	ge	ge	ADV	ADVConj|ADV	_	3	dep	_	_
+6	ingii-nitaa-zhaaganaashiimosiin	zhaaganaashiimo	VERB	PVTense/gii|PVLex/nitaa|VAI|Ind|Neg|Neu|1SgSubj|VERB	_	3	dep	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 45
+# text = mii dash imaa gii-ni-maajii-nitaa-zhaaganaashiimoyaan bangii .
+# eng = That's where I started to become good at speaking English a little bit.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-ni-maajii-nitaa-zhaaganaashiimoyaan	zhaaganaashiimo	VERB	PVTense/gii|PVDir/ni|PVLex/maajii|PVLex/nitaa|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	bangii	bangii	ADV	ADVQnt|ADV	_	4	dep	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 46
+# text = gii-mazinaakizo imaa ikwezens izhinoo'waad iniw gaazhagensan bimibatoonid .
+# eng = There was a picture of a girl pointing at a cat running.
+1	gii-mazinaakizo	mazinaakizo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	ikwezens	ikwezens	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	izhinoo'waad	izhinoo'wi	VERB	VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	1	dep	_	_
+5	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	6	det	_	_
+6	gaazhagensan	gaazhagens	NOUN	NA|ObvSg|NOUN	_	4	obj	_	_
+7	bimibatoonid	bimibatoo	VERB	VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	1	dep	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 47
+# text = niibawiwan dash imaa ganabaj omaamaayan mazinaakizon mazinaakizonid .
+# eng = I think it might have been her mother standing there in the picture.
+1	niibawiwan	niibawi	VERB	VAI|Ind|Pos|Neu|3PlObvSubj|VERB	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	ganabaj	ganabaj	ADV	ADVMan|ADV	_	1	advmod	_	_
+5	omaamaayan	maamaay	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	1	nsubj	_	_
+6	mazinaakizon	mazinaakizon	NOUN	NI|Sg|NOUN	_	1	dep	_	_
+7	mazinaakizonid	mazinaakizo	VERB	VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	1	dep	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 48
+# text = niganawaabandaan iw miinawaa iniw ozhibii'igaansan imaa gaa-agoodegin niwaabandaan miinawaa iw mazina'igan gaa-agindamaang .
+# eng = ” Wa.
+1	niganawaabandaan	ganawaabandan	VERB	VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	4	cc	_	_
+4	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	2	det	_	_
+5	ozhibii'igaansan	ozhibii'igan	NOUN	NI|Dim|Pl|NOUN	_	7	nsubj	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	8	obl	_	_
+7	gaa-agoodegin	agoode	VERB	PVSub/gaa|VII|Cnj|Pos|Neu|0PlSubj|RelCl|VERB	_	6	acl:relcl	_	_
+8	niwaabandaan	waabandan	VERB	VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	1	dep	_	_
+9	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	10	cc	_	_
+10	iw	iw	DET	PRONDem|NI|Sg|DET	_	5	det	_	_
+11	mazina'igan	mazina'igan	NOUN	NI|Sg|NOUN	_	8	obj	_	_
+12	gaa-agindamaang	agindan	VERB	PVSub/gaa|VTI|Cnj|Pos|Neu|ExclSubj|0SgObj|RelCl|VERB	_	11	acl:relcl	_	_
+13	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 49
+# text = mii eta go gaa-mikwendamaan gabe-giizhik .
+# eng = That's all I remembered all day long.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	eta	eta	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+4	gaa-mikwendamaan	mikwendan	VERB	ChCnj|PVTense/gii|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+5	gabe-giizhik	gabe-giizhik	ADV	ADVTmp|ADV	_	4	advmod	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 50
+# text = mii eta go chi-ganawaabamid .
+# eng = ” she said.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	eta	eta	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+4	chi-ganawaabamid	ganawaabam	VERB	PVLex/chi|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 51
+# text = daga naa booni' aw gaazhagenzhish .
+# eng = “See the cat run,” I said to her.
+1	daga	daga	PART	PCDisc|PART	_	3	discourse	_	_
+2	naa	naa	PART	PCEmph|PART	_	3	discourse	_	_
+3	booni'	booni'	VERB	VTA|Imp|Sim|2SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	gaazhagenzhish	gaazhagens	NOUN	NA|Pej|ProxSg|NOUN	_	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 52
+# text = gaawiin ge wiikaa ingii-wanendanziin iw ojibwemowin .
+# eng = I never did forget the Ojibwe language either.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	4	neg	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	4	dep	_	_
+3	wiikaa	wiikaa	ADV	ADVTmp|ADV	_	4	advmod	_	_
+4	ingii-wanendanziin	wanendan	VERB	PVTense/gii|VTI|Ind|Neg|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+5	iw	iw	DET	PRONDem|NI|Sg|DET	_	6	det	_	_
+6	ojibwemowin	ojibwemowin	NOUN	NI|Sg|NOUN	_	4	obj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 53
+# text = mii dash ow gii-nitaa-zhaaganaashiimoyaan akina gegoo .
+# eng = This is how I became fluent in English.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	ow	ow	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
+4	gii-nitaa-zhaaganaashiimoyaan	zhaaganaashiimo	VERB	PVTense/gii|PVLex/nitaa|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	akina	akina	ADV	ADVQnt|ADV	_	6	advmod	_	_
+6	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	4	dep	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 54
+# text = gaawiin gidaa-doodaagosiinaan giinawind gimanidoominaan ,
+# eng = ” “Why the heck are you saying that?
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	gidaa-doodaagosiinaan	doodaw	VERB	PVTense/daa|VTA|Ind|Neg|Neu|3SgProxSubj|InclObj|VERB	_	0	root	_	_
+3	giinawind	giinawind	PRON	PRONPer|NA|Incl|PRON	_	2	obj	_	_
+4	gimanidoominaan	manidoo	NOUN	NA|Poss|ProxSg|InclPoss|NOUN	_	2	nsubj	_	_
+5	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 55
+# text = gizhawenimigonaan .
+# eng = ” “Why the heck are you saying that?
+1	gizhawenimigonaan	zhawenim	VERB	VTA|Ind|Pos|Neu|3SgProxSubj|InclObj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 56
+# text = mii wenji-bagidinang giinawind aw asemaa wenji-biindaakoonang aw manidoo da-ganawenimigooyang .
+# eng = ” “Don't you even believe him and dont go back there!
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	wenji-bagidinang	bagidinan	VERB	ChCnj|PVRel/onji|VTI|Cnj|Pos|Neu|3SgProxSubj|0PlObj|VERB	_	0	root	_	_
+3	giinawind	giinawind	PRON	PRONPer|NA|Incl|PRON	_	6	nsubj	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	asemaa	asemaa	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+6	wenji-biindaakoonang	biindaakoozh	VERB	PVRel/onji|VTA|Pcp|Pos|Neu|InclSubj|3SgProxObj|3SgProxHead|RelCl|VERB	_	5	acl:relcl	_	_
+7	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	8	det	_	_
+8	manidoo	manidoo	NOUN	NA|ProxSg|NOUN	_	6	obj	_	_
+9	da-ganawenimigooyang	ganawenim	VERB	PVTense/da|VTA|Cnj|Pos|Neu|XSubj|InclObj|VERB	_	2	dep	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 57
+# text = mii dash imaa gii-maajii-zegiziyaan imaa .
+# eng = So that is where I started getting scared.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-maajii-zegiziyaan	zegizi	VERB	PVTense/gii|PVLex/maajii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 58
+# text = ginwenzh ingii-izhichige iw .
+# eng = For a long time I did this.
+1	ginwenzh	ginwenzh	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	ingii-izhichige	izhichige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+3	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 59
+# text = bebakaan gigii-izhi-miinigoomin ,
+# eng = We were given different things, different ways to practice our spiritualities.
+1	bebakaan	bebakaan	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gigii-izhi-miinigoomin	miizh	VERB	PVTense/gii|PVRel/izhi|VTA|Ind|Pos|Neu|XSubj|InclObj|VERB	_	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 60
+# text = bebakaan gigii-izhi-miinigoomin da-izhitwaayang .
+# eng = We were given different things, different ways to practice our spiritualities.
+1	bebakaan	bebakaan	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gigii-izhi-miinigoomin	miizh	VERB	PVTense/gii|PVRel/izhi|VTA|Ind|Pos|Neu|XSubj|InclObj|VERB	_	0	root	_	_
+3	da-izhitwaayang	izhitwaa	VERB	PVTense/da|VAI|Cnj|Pos|Neu|InclSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 61
+# text = mii ge bebakaan gigii-izhi-miinigoomin da-inweyang .
+# eng = And we were given different languages.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	4	dep	_	_
+3	bebakaan	bebakaan	ADV	ADVMan|ADV	_	4	advmod	_	_
+4	gigii-izhi-miinigoomin	miizh	VERB	PVTense/gii|PVRel/izhi|VTA|Ind|Pos|Neu|XSubj|InclObj|VERB	_	0	root	_	_
+5	da-inweyang	inwe	VERB	PVTense/da|VAI|Cnj|Pos|Neu|InclSubj|VERB	_	4	dep	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 62
+# text = mii akeyaa gaa-izhi-nitaawigiyaan .
+# eng = Here it turns out that is the Chi-mookomaan's way.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-izhi-nitaawigiyaan	nitaawigi	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 63
+# text = anooj ko ogii-inaawaan iniw chi-mookomaanan ingiw anishinaabeg mewinzha .
+# eng = THE ANISHINAABE PEOPLE USED TO SAY ALL KINDS OF things to the Chi-mookomaan a long time ago.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	ogii-inaawaan	izhi	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	0	root	_	_
+4	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	5	det	_	_
+5	chi-mookomaanan	mookomaan	NOUN	PNLex/chi|NI|Pl|NOUN	_	3	dep	_	_
+6	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	7	det	_	_
+7	anishinaabeg	anishinaabe	NOUN	NA|ProxPl|NOUN	_	3	nsubj	_	_
+8	mewinzha	mewinzha	ADV	ADVTmp|ADV	_	3	advmod	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 64
+# text = shke imaa gii-ayaa imaa adaawewinini imaa aazhoomog besho .
+# eng = See, there was a storekeeper over near Aazhoomog.
+1	shke	shke	PART	PCDisc|PART	_	3	discourse	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gii-ayaa	ayaa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	adaawewinini	adaawewinini	NOUN	NA|ProxSg|NOUN	_	3	nsubj	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+7	aazhoomog	aazhoomon	VERB	VII|Cnj|Pos|Neu|0SgSubj|VERB	_	3	dep	_	_
+8	besho	besho	ADV	ADVLoc|ADV	_	7	obl	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 65
+# text = anooj ko gii-ikido aw chi-mookomaanish ,
+# eng = That ol' white guy would say all kinds of things, always asking the Shinaabs about something.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	gii-ikido	ikido	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	3	nsubj	_	_
+5	chi-mookomaanish	mookomaan	NOUN	PNLex/chi|NI|Pej|Sg|NOUN	_	3	dep	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 66
+# text = apane gagwejimaad gegoo anishinaaben gegoo .
+# eng = That ol' white guy would say all kinds of things, always asking the Shinaabs about something.
+1	apane	apane	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gagwejimaad	gagwejim	VERB	VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+3	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	2	dep	_	_
+4	anishinaaben	anishinaabe	NOUN	NA|ObvSg|NOUN	_	2	obj	_	_
+5	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 67
+# text = chi-ganawaabamigod iniw ko iniw anishinaaben apane gaa-ikidod .
+# eng = ” Wa.
+1	chi-ganawaabamigod	ganawaabam	VERB	PVLex/chi|VTA|Cnj|Pos|Neu|0PlSubj|3SgProxObj|VERB	_	0	root	_	_
+2	iniw	iniw	PRON	PRONDem|NA|ObvSg|PRON	_	1	dep	_	_
+3	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+4	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	5	det	_	_
+5	anishinaaben	anishinaabe	NOUN	NA|ObvPl|NOUN	_	1	dep	_	_
+6	apane	apane	ADV	ADVTmp|ADV	_	1	advmod	_	_
+7	gaa-ikidod	ikido	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|RelCl|VERB	_	1	obj	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 68
+# text = aabiding ge ingoji ingii-ashi-bezhigo-biboonagiz ganabaj maagizhaa ashi-niizho-biboonagiziyaan ,
+# eng = ONE TIME I WAS ELEVEN YEARS OLD, OR MAYBE WHEN I was twelve years old, I took a gun, a 22-caliber rifle, with me as I went around out there in the woods, in the springtime.
+1	aabiding	aabiding	ADV	ADVTmp|ADV	_	4	advmod	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	4	dep	_	_
+3	ingoji	ingoji	ADV	ADVDeg|ADV	_	2	advmod	_	_
+4	ingii-ashi-bezhigo-biboonagiz	biboonagizi	VERB	PVTense/gii|PVQnt/ashi-bezhigo|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	ganabaj	ganabaj	ADV	ADVMan|ADV	_	4	advmod	_	_
+6	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	4	advmod	_	_
+7	ashi-niizho-biboonagiziyaan	biboonagizi	VERB	PVQnt/ashi-niizho|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	4	dep	_	_
+8	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 69
+# text = gaa-izhi-mamooyaan iw baashkizigaans iw niishtana ashi-niizh enigokwaag ,
+# eng = ONE TIME I WAS ELEVEN YEARS OLD, OR MAYBE WHEN I was twelve years old, I took a gun, a 22-caliber rifle, with me as I went around out there in the woods, in the springtime.
+1	gaa-izhi-mamooyaan	mamoon	VERB	PVSub/gaa|PVRel/izhi|VTI|Cnj|Pos|Neu|1SgSubj|0SgObj|RelCl|VERB	_	0	root	_	_
+2	iw	iw	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	baashkizigaans	baashkizigaans	NOUN	NI|Sg|NOUN	_	7	nsubj	_	_
+4	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+5	niishtana	niishtana	NUM	NUM	_	1	dep	_	_
+6	ashi-niizh	ashi-niizh	NUM	NUM	_	1	dep	_	_
+7	enigokwaag	inigokwaa	VERB	ChCnj|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+8	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 70
+# text = megwayaak baa-ayaayaan imaa ,
+# eng = ONE TIME I WAS ELEVEN YEARS OLD, OR MAYBE WHEN I was twelve years old, I took a gun, a 22-caliber rifle, with me as I went around out there in the woods, in the springtime.
+1	megwayaak	megwayaak	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	baa-ayaayaan	ayaa	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	2	obl	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 71
+# text = ziigwang .
+# eng = ONE TIME I WAS ELEVEN YEARS OLD, OR MAYBE WHEN I was twelve years old, I took a gun, a 22-caliber rifle, with me as I went around out there in the woods, in the springtime.
+1	ziigwang	ziigwan	VERB	VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 72
+# text = gaa-izhi-waabamag aw akakojiish .
+# eng = Then I saw a woodchuck.
+1	gaa-izhi-waabamag	waabam	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	akakojiish	akakojiish	NOUN	NA|ProxSg|NOUN	_	1	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 73
+# text = imbaa-wiijiiwaa indayish .
+# eng = I have my dog along with me.
+1	imbaa-wiijiiwaa	wiijiiw	VERB	PVDir/baa|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	indayish	day	NOUN	NAD|Pej|ProxSg|1SgPoss|NOUN	_	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 74
+# text = miish imaa chi-mitig imaa badakizod mii imaa biinjayi'ii imaa ,
+# eng = There's a big tree standing there and inside of it, in the hollow, that woodchuck goes crawling in there.
+1	miish	miish	ADV	ADVPred|ADV	_	5	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+3	chi-mitig	mitig	NOUN	PNLex/chi|NA|ProxSg|NOUN	_	5	nsubj	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+5	badakizod	badakizo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+6	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+7	imaa	imaa	ADV	ADVLoc|ADV	_	8	case	_	_
+8	biinjayi'ii	biinjayi'ii	ADV	ADVLoc|ADV	_	5	obl	_	_
+9	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+10	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 75
+# text = wiimbizinid mii imaa gii-piindigeyooded aw akakojiish .
+# eng = There's a big tree standing there and inside of it, in the hollow, that woodchuck goes crawling in there.
+1	wiimbizinid	wiimbizi	VERB	VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	0	root	_	_
+2	mii	mii	ADV	ADVPred|ADV	_	1	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gii-piindigeyooded	biindigeyoode	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	akakojiish	akakojiish	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 76
+# text = ninoondawaa igo omaa ingoji go besho go omaa biinjayi'ii imaa mitigong niikimod a'aw akakojiish .
+# eng = I can hear him somewhere, somewhere close inside of the tree that woodchuck is growling.
+1	ninoondawaa	noondaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	igo	igo	PART	PCEmph|PART	_	1	discourse	_	_
+3	omaa	omaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	ingoji	ingoji	ADV	ADVDeg|ADV	_	3	advmod	_	_
+5	go	go	PART	PCDisc|PART	_	1	discourse	_	_
+6	besho	besho	ADV	ADVLoc|ADV	_	1	obl	_	_
+7	go	go	PART	PCDisc|PART	_	1	discourse	_	_
+8	omaa	omaa	ADV	ADVLoc|ADV	_	9	case	_	_
+9	biinjayi'ii	biinjayi'ii	ADV	ADVLoc|ADV	_	1	obl	_	_
+10	imaa	imaa	ADV	ADVLoc|ADV	_	11	case	_	_
+11	mitigong	mitig	NOUN	NA|Loc|NOUN	_	1	obl	_	_
+12	niikimod	niikimo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+13	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	14	det	_	_
+14	akakojiish	akakojiish	NOUN	NA|ProxSg|NOUN	_	12	nsubj	_	_
+15	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 77
+# text = miish imaa indayish endazhi-migid .
+# eng = So, there's my ol' dog just barking.
+1	miish	miish	ADV	ADVPred|ADV	_	4	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	indayish	day	NOUN	NAD|Pej|ProxSg|1SgPoss|NOUN	_	4	nsubj	_	_
+4	endazhi-migid	migi	VERB	ChCnj|PVRel/dazhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 78
+# text = gaa-izhi-biinjinikeniyaan imaa wii-nandoojiinamaan iw ozow ,
+# eng = So I stick my arm in there wanting to feel around for his tail, and that woodchuck bit me.
+1	gaa-izhi-biinjinikeniyaan	biinjinikeni	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	wii-nandoojiinamaan	andoojiinan	VERB	PVTense/wii|VTI|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	1	dep	_	_
+4	iw	iw	DET	PRONDem|NI|Sg|DET	_	5	det	_	_
+5	ozow	zow	NOUN	NID|Sg|3SgProxPoss|NOUN	_	3	obj	_	_
+6	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 79
+# text = gaa-izhi-gichi-dakwamid a'aw akakojiish .
+# eng = So I stick my arm in there wanting to feel around for his tail, and that woodchuck bit me.
+1	gaa-izhi-gichi-dakwamid	dakwam	VERB	ChCnj|PVTense/gii|PVRel/izhi|PVLex/gichi|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	akakojiish	akakojiish	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 80
+# text = imbwaanawi'aa dash imaa da-bi-zaagidooded .
+# eng = ” So, I told her what I had did, “He ran inside the hollow of a tree, he slid inside there.
+1	imbwaanawi'aa	bwaanawi'	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	da-bi-zaagidooded	zaagidoode	VERB	PVTense/da|PVDir/bi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 81
+# text = wa ,
+# eng = Wa, that is something that that old lady taught me.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 82
+# text = mii sa gegoo gii-gikinoo'amawid aw mindimooyenyiban ,
+# eng = Wa, that is something that that old lady taught me.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	sa	sa	PART	PCDisc|PART	_	4	discourse	_	_
+3	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	4	dep	_	_
+4	gii-gikinoo'amawid	gikinoo'amaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	mindimooyenyiban	mindimooyenh	NOUN	NA|Pret|ProxSg|NOUN	_	4	nsubj	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 83
+# text = geget igo ingii-wiisagininjii igo ginwenzh .
+# eng = Wa, that is something that that old lady taught me.
+1	geget	geget	ADV	ADVMan|ADV	_	3	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	ingii-wiisagininjii	wiisagininjii	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+5	ginwenzh	ginwenzh	ADV	ADVTmp|ADV	_	3	advmod	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 84
+# text = miish aw anooj gegoo gaa-paa-wiijiiwag gii-izhichigeyaang megwayaak apane ingii-paa-ayaamin apane go .
+# eng = We would do all kinds of things when I went around with him, we were always out in the woods, always.
+1	miish	miish	ADV	ADVPred|ADV	_	5	dep	_	_
+2	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	5	obj	_	_
+3	anooj	anooj	ADV	ADVQnt|ADV	_	4	advmod	_	_
+4	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	5	dep	_	_
+5	gaa-paa-wiijiiwag	wiijiiw	VERB	ChCnj|PVTense/gii|PVDir/baa|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+6	gii-izhichigeyaang	izhichige	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	5	dep	_	_
+7	megwayaak	megwayaak	ADV	ADVLoc|ADV	_	6	obl	_	_
+8	apane	apane	ADV	ADVTmp|ADV	_	6	advmod	_	_
+9	ingii-paa-ayaamin	ayaan	VERB	PVTense/gii|PVDir/baa|VTI|Ind|Pos|Neu|ExclSubj|0PlObj|VERB	_	5	dep	_	_
+10	apane	apane	ADV	ADVTmp|ADV	_	9	advmod	_	_
+11	go	go	PART	PCDisc|PART	_	9	discourse	_	_
+12	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 85
+# text = mii go mii dash igo azhigwa ani-dibikaabaminaagwak ,
+# eng = And then, when it started getting real dark out, they would whistle for us to come back home.
+1	mii	mii	ADV	ADVPred|ADV	_	7	dep	_	_
+2	go	go	PART	PCDisc|PART	_	7	discourse	_	_
+3	mii	mii	ADV	ADVPred|ADV	_	7	dep	_	_
+4	dash	dash	ADV	ADVConj|ADV	_	7	dep	_	_
+5	igo	igo	PART	PCEmph|PART	_	7	discourse	_	_
+6	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	7	advmod	_	_
+7	ani-dibikaabaminaagwak	dibikaabaminaagwad	VERB	PVDir/ani|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+
+# sent_id = 86
+# text = gii-kwiishkoshimigooyaang da-bi-giiweyaang .
+# eng = And then, when it started getting real dark out, they would whistle for us to come back home.
+1	gii-kwiishkoshimigooyaang	gwiishkoshim	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|ExclObj|VERB	_	0	root	_	_
+2	da-bi-giiweyaang	giiwe	VERB	PVTense/da|PVDir/bi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 87
+# text = ingii-minwendaamin iw megwayaak .
+# eng = We loved it out in the woods.
+1	ingii-minwendaamin	minwendan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|ExclSubj|0SgObj|VERB	_	0	root	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	megwayaak	megwayaak	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 88
+# text = apane ge ingii-pi-wiiji'ayaawidimin ,
+# eng = We always lived together, always.
+1	apane	apane	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	3	dep	_	_
+3	ingii-pi-wiiji'ayaawidimin	wiiji'ayaaw	VERB	PVTense/gii|PVDir/bi|VTA|Recip/di|VAI|Ind|Pos|Neu|ExclSubj|ExclObj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 89
+# text = apane .
+# eng = We always lived together, always.
+1	apane	apane	ADV	ADVTmp|ADV	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 90
+# text = apane ge aano-wii-kagwe-aada'wag awegodogwen igo booch igo da-gagwe-aada'od .
+# eng = Every time I wanted to beat him at something, it didnt matter what it was, he just had to try to outdo me.
+1	apane	apane	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	3	dep	_	_
+3	aano-wii-kagwe-aada'wag	aada'	VERB	PVTense/aano|PVTense/wii|PVLex/gagwe|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	awegodogwen	awegodogwen	PRON	PRONDub|NI|Sg|PRON	_	3	dep	_	_
+5	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+6	booch	booch	ADV	ADVMan|ADV	_	3	advmod	_	_
+7	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+8	da-gagwe-aada'od	aada'	VERB	PVTense/da|PVLex/gagwe|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	3	dep	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 91
+# text = mii ezhichiged a'aw .
+# eng = ” “Well, I do.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	ezhichiged	izhichige	VERB	ChCnj|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	2	nsubj	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 92
+# text = nimikwendaan aabiding imaa chi-bebezhigooganzhiiwigamig gii-ayaamagad imaa gii-padakide jiigayi'ii endaayaang ,
+# eng = I remember this one time there was a big barn there it stood next to our house, but all of the tar paper had blown off.
+1	nimikwendaan	mikwendan	VERB	VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	aabiding	aabiding	ADV	ADVTmp|ADV	_	1	advmod	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	chi-bebezhigooganzhiiwigamig	bebezhigooganzhiiwigamig	NOUN	PNLex/chi|NI|Sg|NOUN	_	1	obj	_	_
+5	gii-ayaamagad	ayaamagad	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+7	gii-padakide	badakide	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+8	jiigayi'ii	jiigayi'ii	ADV	ADVLoc|ADV	_	7	obl	_	_
+9	endaayaang	daa	VERB	ChCnj|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	1	dep	_	_
+10	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 93
+# text = akina dash iw chi-mazina'igan imaa gii-pakweyaasin .
+# eng = I remember this one time there was a big barn there it stood next to our house, but all of the tar paper had blown off.
+1	akina	akina	ADV	ADVQnt|ADV	_	6	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	6	dep	_	_
+3	iw	iw	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	chi-mazina'igan	mazina'igan	NOUN	PNLex/chi|NI|Sg|NOUN	_	6	nsubj	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	gii-pakweyaasin	bakweyaasin	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 94
+# text = ezhi-zhiibaayaag bebezhigooganzhiiwigamig .
+# eng = You could see through that barn.
+1	ezhi-zhiibaayaag	zhiibaayaa	VERB	ChCnj|PVRel/izhi|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	bebezhigooganzhiiwigamig	bebezhigooganzhiiwigamig	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 95
+# text = gaawiin niin ingii-tebibinigoosiin .
+# eng = ” So, he jumps off from there, jumping out from the upstairs area.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	3	obj	_	_
+3	ingii-tebibinigoosiin	debibin	VERB	PVTense/gii|VTA|Ind|Neg|Neu|XSubj|1SgObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 96
+# text = miinawaa ge ingiw mitigoog ,
+# eng = And the trees too, we knew the trees really well.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	0	root	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	1	dep	_	_
+3	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	4	det	_	_
+4	mitigoog	mitig	NOUN	NA|ProxPl|NOUN	_	1	dep	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 97
+# text = ingii-waanda-gikenimaanaanig ingiw mitigoog .
+# eng = And the trees too, we knew the trees really well.
+1	ingii-waanda-gikenimaanaanig	gikenim	VERB	PVTense/gii|PVLex/waanda|VTA|Ind|Pos|Neu|ExclSubj|3PlProxObj|VERB	_	0	root	_	_
+2	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	3	det	_	_
+3	mitigoog	mitig	NOUN	NA|ProxPl|NOUN	_	1	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 98
+# text = noomaya imaa ingii-o-waabamaanaanig ingiw mitigoog ,
+# eng = We saw those trees there recently, the ones we climbed, and those trees are just small, but a long time ago we used to think they were really high, thar those trees were real tall.
+1	noomaya	noomaya	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	ingii-o-waabamaanaanig	waabam	VERB	PVTense/gii|PVDir/o|VTA|Ind|Pos|Neu|ExclSubj|3PlProxObj|VERB	_	0	root	_	_
+4	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	5	det	_	_
+5	mitigoog	mitig	NOUN	NA|ProxPl|NOUN	_	3	obj	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 99
+# text = gaa-akwaandawaanangijig ,
+# eng = We saw those trees there recently, the ones we climbed, and those trees are just small, but a long time ago we used to think they were really high, thar those trees were real tall.
+1	gaa-akwaandawaanangijig	akwaandawaazh	VERB	PVTense/gii|VTA|Pcp|Pos|Neu|ExclSubj|3PlProxObj|3PlProxHead|RelCl|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 100
+# text = waanda-agaashiinyiwag ingiw mitigoog chi-mewinzha dash ko ingii-inendaamin chi-ishpiming ,
+# eng = We saw those trees there recently, the ones we climbed, and those trees are just small, but a long time ago we used to think they were really high, thar those trees were real tall.
+1	waanda-agaashiinyiwag	agaashiinyi	VERB	PVLex/waanda|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	3	det	_	_
+3	mitigoog	mitig	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+4	chi-mewinzha	mewinzha	ADV	PVLex/chi|ADVTmp|ADV	_	1	advmod	_	_
+5	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+6	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+7	ingii-inendaamin	inendan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|ExclSubj|0PlObj|VERB	_	1	dep	_	_
+8	chi-ishpiming	ishpiming	ADV	PVLex/chi|ADVLoc|ADV	_	7	obl	_	_
+9	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 101
+# text = gii-chi-ginooziwaad ingiw mitigoog .
+# eng = We saw those trees there recently, the ones we climbed, and those trees are just small, but a long time ago we used to think they were really high, thar those trees were real tall.
+1	gii-chi-ginooziwaad	ginoozi	VERB	PVTense/gii|PVTense/ji|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	3	det	_	_
+3	mitigoog	mitig	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 102
+# text = gaawiin dash ,
+# eng = But they're not; they are only about ten feet tall.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 103
+# text = ingoji go ,
+# eng = But they're not; they are only about ten feet tall.
+1	ingoji	ingoji	ADV	ADVDeg|ADV	_	0	root	_	_
+2	go	go	PART	PCDisc|PART	_	1	dep	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 104
+# text = ingoji go midaasozid eta go omaa akooziwag .
+# eng = But they're not; they are only about ten feet tall.
+1	ingoji	ingoji	ADV	ADVDeg|ADV	_	7	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	7	discourse	_	_
+3	midaasozid	midaasozid	NUM	NUM	_	7	dep	_	_
+4	eta	eta	ADV	ADVDeg|ADV	_	7	advmod	_	_
+5	go	go	PART	PCDisc|PART	_	7	discourse	_	_
+6	omaa	omaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+7	akooziwag	akoozi	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+8	.	.	PUNCT	.	_	7	punct	_	_
+
+# sent_id = 105
+# text = gewiin apane gii-pi-ojibwemotawaa gaye wiin ,
+# eng = Of course they always spoke Ojibwe to him too he too knows the Ojibwe language, my older brother.
+1	gewiin	gewiin	PRON	PRONPer|NA|3Sg|PRON	_	3	obj	_	_
+2	apane	apane	ADV	ADVTmp|ADV	_	3	advmod	_	_
+3	gii-pi-ojibwemotawaa	ojibwemotaw	VERB	PVTense/gii|PVDir/bi|VTA|Ind|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+4	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
+5	wiin	wiin	PRON	PRONPer|NA|3Sg|PRON	_	3	dep	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 106
+# text = ogikendaan gewiin iw ojibwemowin ,
+# eng = Of course they always spoke Ojibwe to him too he too knows the Ojibwe language, my older brother.
+1	ogikendaan	gikendan	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	gewiin	gewiin	PRON	PRONPer|NA|3Sg|PRON	_	1	nsubj	_	_
+3	iw	iw	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	ojibwemowin	ojibwemowin	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 107
+# text = aw nisayenh .
+# eng = Of course they always spoke Ojibwe to him too he too knows the Ojibwe language, my older brother.
+1	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	0	root	_	_
+2	nisayenh	sayeny	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 108
+# text = geget ogashkitoon gewiin azhigwa gaagiigidod ,
+# eng = He is capable, too, for when he has to speak, to speak Ojibwe.
+1	geget	geget	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	ogashkitoon	gashkitoon	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+3	gewiin	gewiin	PRON	PRONPer|NA|3Sg|PRON	_	2	nsubj	_	_
+4	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+5	gaagiigidod	gaagiigido	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 109
+# text = da-ojibwemod .
+# eng = He is capable, too, for when he has to speak, to speak Ojibwe.
+1	da-ojibwemod	ojibwemo	VERB	PVTense/da|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 110
+# text = mii iw .
+# eng = That's it.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 111
+# text = gizhaagamide gii-izhi-wiinaa .
+# eng = They called him Gizhaagamide [Hot Water].
+1	gizhaagamide	gizhaagamide	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	gii-izhi-wiinaa	izhi-wiinzh	VERB	PVTense/gii|VTA|Ind|Pos|Neu|XSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 112
+# text = anooj ko gii-izhichige aw akiwenzii anooj ko gii-inaajimo gaye .
+# eng = He used to do all kinds of stuff, and he always had some stories to tell.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	gii-izhichige	izhichige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	3	nsubj	_	_
+6	anooj	anooj	ADV	ADVQnt|ADV	_	3	dep	_	_
+7	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+8	gii-inaajimo	inaajimo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+9	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 113
+# text = apane gii-pima'adoo miikanaang chi-miikanaang gii-pima'adood .
+# eng = He was always walking along the road, walking down the highways.
+1	apane	apane	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gii-pima'adoo	bima'adoo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	miikanaang	miikana	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+4	chi-miikanaang	miikana	NOUN	PNLex/chi|NI|Loc|NOUN	_	2	obl	_	_
+5	gii-pima'adood	bima'adoon	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|3SgProxSubj|0PlObj|VERB	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 114
+# text = meta go meta go gichi-babiinzikawaagan gii-piitookonayed namanj maagizhaa niizhwewaan gaa-piizikawaagwen giboodiyegwaazonan niswewaan .
+# eng = He wore a big winter parka with layers on, I don't know how many, maybe three or four pairs of pants.
+1	meta	meta	ADV	ADVMan|ADV	_	6	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	6	discourse	_	_
+3	meta	meta	ADV	ADVMan|ADV	_	6	advmod	_	_
+4	go	go	PART	PCDisc|PART	_	6	discourse	_	_
+5	gichi-babiinzikawaagan	babiinzikawaagan	NOUN	PNLex/chi|NI|Sg|2SgPoss|NOUN	_	6	dep	_	_
+6	gii-piitookonayed	biitookonaye	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+7	namanj	namanj	ADV	ADVDub|ADV	_	6	dep	_	_
+8	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	6	advmod	_	_
+9	niizhwewaan	niizhwewaan	NUM	NUM	_	6	dep	_	_
+10	gaa-piizikawaagwen	biizikaw	VERB	PVTense/gii|VTA|Pcp|Pos|Dub|3SgProxSubj|3SgObvObj|3SgProxHead|RelCl|VERB	_	11	acl:relcl	_	_
+11	giboodiyegwaazonan	giboodiyegwaazon	NOUN	NA|ObvSg|NOUN	_	6	dep	_	_
+12	niswewaan	niswewaan	NUM	NUM	_	6	dep	_	_
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 115
+# text = mii dash ko onjida gaa-izhi-gibaakwa'ond ,
+# eng = And he used to get locked up on purpose, doing whatever to get locked up so that he wouldnt freeze to death when it was wintertime.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
+3	ko	ko	PART	PCAsp|PART	_	5	discourse	_	_
+4	onjida	onjida	ADV	ADVMan|ADV	_	5	advmod	_	_
+5	gaa-izhi-gibaakwa'ond	gibaakwa'	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+6	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 116
+# text = gegoo gaa-ayizhichiged da-gibaakwa'ond da-gawajisig azhigwa imaa bibooninig .
+# eng = And he used to get locked up on purpose, doing whatever to get locked up so that he wouldnt freeze to death when it was wintertime.
+1	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	2	dep	_	_
+2	gaa-ayizhichiged	ayizhichige	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|RelCl|VERB	_	0	root	_	_
+3	da-gibaakwa'ond	gibaakwa'	VERB	PVTense/da|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	2	dep	_	_
+4	da-gawajisig	gawaji	VERB	PVTense/da|VAI|Cnj|Neg|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+5	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	4	advmod	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+7	bibooninig	biboon	VERB	VII|Cnj|Pos|Neu|0SgObvSubj|VERB	_	2	dep	_	_
+8	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 117
+# text = ingii-noondawaa go gii-tibaajimod .
+# eng = No English translation.
+1	ingii-noondawaa	noondaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	go	go	PART	PCDisc|PART	_	1	discourse	_	_
+3	gii-tibaajimod	dibaajimo	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 118
+# text = gegoo inga-izhichige inga-gibaakwa'ogoo dash gabe-biboon miinawaa gaawiin indaa-gawajisiin .
+# eng = I'm going to do some-thing; I'm going to get locked up for the winter.
+1	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	2	dep	_	_
+2	inga-izhichige	izhichige	VERB	PVTense/ga|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+3	inga-gibaakwa'ogoo	gibaakwa'	VERB	PVTense/ga|VTA|Ind|Pos|Neu|XSubj|1SgObj|VERB	_	2	dep	_	_
+4	dash	dash	ADV	ADVConj|ADV	_	2	dep	_	_
+5	gabe-biboon	gabe-biboon	ADV	ADVTmp|ADV	_	3	advmod	_	_
+6	miinawaa	miinawaa	ADV	ADVConj|ADV	_	2	dep	_	_
+7	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	8	neg	_	_
+8	indaa-gawajisiin	gawaji	VERB	PVTense/daa|VAI|Ind|Neg|Neu|1SgSubj|VERB	_	2	dep	_	_
+9	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 119
+# text = gegaa go gaye gii-nitaa-zhaaganaashiimo a'aw akiwenzii ,
+# eng = That old man could speak pretty good English, that Hot Water.
+1	gegaa	gegaa	ADV	ADVDeg|ADV	_	4	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	gaye	gaye	ADV	ADVConj|ADV	_	4	dep	_	_
+4	gii-nitaa-zhaaganaashiimo	zhaaganaashiimo	VERB	PVTense/gii|PVLex/nitaa|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 120
+# text = gizhaagamide .
+# eng = That old man could speak pretty good English, that Hot Water.
+1	gizhaagamide	gizhaagamide	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 121
+# text = iwidi gaa-ni-dagoshing idi jiigi-oodena mii iwidi chi-mitigong gii-aatwaakwabid gii-maminikwed .
+# eng = Then after he gets to the edge of town, he sits down against a tree and drinks his bottle up.
+1	iwidi	iwidi	ADV	ADVLoc|ADV	_	8	obl	_	_
+2	gaa-ni-dagoshing	dagoshin	VERB	PVSub/gaa|PVDir/ni|VAI|Cnj|Pos|Neu|3SgProxSubj|RelCl|VERB	_	0	root	_	_
+3	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	2	dep	_	_
+4	jiigi-oodena	jiigi-oodena	ADV	ADVLoc|ADV	_	2	obl	_	_
+5	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+6	iwidi	iwidi	ADV	ADVLoc|ADV	_	7	case	_	_
+7	chi-mitigong	mitig	NOUN	PNLex/chi|NA|Loc|NOUN	_	2	obl	_	_
+8	gii-aatwaakwabid	aatwaakwabi	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+9	gii-maminikwed	maminikwe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+10	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 122
+# text = azhigwa-sh igo geget bi-bagamibizowan imaa dakoniwewininiwan .
+# eng = And now sure enough, the cops come rolling up.
+1	azhigwa-sh	azhigwa	ADV	ADVTmp|CL/ADVConj/dash|ADV	_	4	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	4	discourse	_	_
+3	geget	geget	ADV	ADVMan|ADV	_	4	advmod	_	_
+4	bi-bagamibizowan	bagamibizo	VERB	PVDir/bi|VAI|Ind|Pos|Neu|3PlObvSubj|VERB	_	0	root	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+6	dakoniwewininiwan	dakoniwewinini	NOUN	NA|ObvSg|NOUN	_	4	nsubj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 123
+# text = mii gii-takonind .
+# eng = He was then arrested.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gii-takonind	dakon	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 124
+# text = hay' mii gaawiin ,
+# eng = ” No chance, he was arrested.
+1	hay'	hay'	INTJ	PCInterj|INTJ	_	0	root	_	_
+2	mii	mii	ADV	ADVPred|ADV	_	1	dep	_	_
+3	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 125
+# text = mii gii-takonind .
+# eng = ” No chance, he was arrested.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gii-takonind	dakon	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 126
+# text = mii gaa-te-aabawaanig miinawaa apii gii-saaga'ang ,
+# eng = When the weather was warm enough, that is when he came out.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-te-aabawaanig	aabawaa	VERB	ChCnj|PVTense/gii|PVLex/de|VII|Cnj|Pos|Neu|0PlObvSubj|VERB	_	0	root	_	_
+3	miinawaa	miinawaa	ADV	ADVConj|ADV	_	2	dep	_	_
+4	apii	apii	ADV	ADVTmp|ADV	_	2	advmod	_	_
+5	gii-saaga'ang	zaaga'am	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 127
+# text = mii gaawiin gii-kawajisiin imaa gaa-pibooninig .
+# eng = When the weather was warm enough, that is when he came out.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+3	gii-kawajisiin	gawaji	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	gaa-pibooninig	biboon	VERB	PVTense/gii|VII|Pcp|Pos|Neu|0SgObvSubj|0SgObvHead|RelCl|VERB	_	4	acl:relcl	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 128
+# text = miish imaa gaa-pi-izhaad imaa jiigibiig .
+# eng = Then he came down to the shore.
+1	miish	miish	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-pi-izhaad	bi-izhaa	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	jiigibiig	jiigibiig	ADV	ADVLoc|ADV	_	3	obl	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 129
+# text = gii-ayaawag ko imaa anishinaabeg gaa-tazhi-maminikwewaad imaa jiigibiig .
+# eng = There used to be some Shinaabs that would drink there along the shore.
+1	gii-ayaawag	ayaa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	anishinaabeg	anishinaabe	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+5	gaa-tazhi-maminikwewaad	maminikwe	VERB	ChCnj|PVTense/gii|PVRel/dazhi|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	1	dep	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	case	_	_
+7	jiigibiig	jiigibiig	ADV	ADVLoc|ADV	_	5	obl	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 130
+# text = ogii-ayaawaan asemaan miinawaa mazina'igaansan .
+# eng = He had tobacco and rolling papers.
+1	ogii-ayaawaan	ayaaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+2	asemaan	asemaa	NOUN	NA|ObvSg|NOUN	_	1	obj	_	_
+3	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	4	cc	_	_
+4	mazina'igaansan	mazina'igan	NOUN	NA|Dim|ObvPl|NOUN	_	2	conj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 131
+# text = gaa-izhi-noondawag iwidi opime-ayi'ii akeyaa gewiin imaa aw baa-gwaakwaashkwanid aw chi-misajidamoo ,
+# eng = Then I heard him over there off to the side, there was a big gray squirrel jumping around, jumping around from tree to tree.
+1	gaa-izhi-noondawag	noondaw	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	opime-ayi'ii	opime-ayi'ii	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+5	gewiin	gewiin	PRON	PRONPer|NA|3Sg|PRON	_	8	nsubj	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+7	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	1	obj	_	_
+8	baa-gwaakwaashkwanid	gwaakwaashkwani	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+9	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	10	det	_	_
+10	chi-misajidamoo	misajidamoo	NOUN	PNLex/chi|NA|ProxSg|NOUN	_	1	dep	_	_
+11	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 132
+# text = baa-gwaakwaashkwanid imaa anooj imaa mitigong .
+# eng = Then I heard him over there off to the side, there was a big gray squirrel jumping around, jumping around from tree to tree.
+1	baa-gwaakwaashkwanid	gwaakwaashkwani	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	anooj	anooj	ADV	ADVQnt|ADV	_	1	dep	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	mitigong	mitig	NOUN	NA|Loc|NOUN	_	1	obl	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 133
+# text = eshkam igo besho bi-gwaakwaashkwani aw chi-misajidamoowish ,
+# eng = It just so happens that he tell right where that owl was sleeping there, landing on hts neck, He woke up that owl, and that owl took off just fast, He was gone, headed toward the other side of the lake, and still holding on was the squirrel over there, then he was gone, and I lost sight of him.
+1	eshkam	eshkam	ADV	ADVDeg|ADV	_	4	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	4	discourse	_	_
+3	besho	besho	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	bi-gwaakwaashkwani	gwaakwaashkwani	VERB	PVDir/bi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	chi-misajidamoowish	misajidamoo	NOUN	PNLex/chi|NA|Pej|ProxSg|NOUN	_	4	nsubj	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 134
+# text = gaa-izhi-bishigwaakwiid .
+# eng = It just so happens that he tell right where that owl was sleeping there, landing on hts neck, He woke up that owl, and that owl took off just fast, He was gone, headed toward the other side of the lake, and still holding on was the squirrel over there, then he was gone, and I lost sight of him.
+1	gaa-izhi-bishigwaakwiid	bishigwaakwii	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 135
+# text = mii maa na'idaa imaa nibaanid iniw gookooko'oon gii-pangishing imaa ,
+# eng = ”
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	maa	maa	ADV	ADVLoc|ADV	_	5	obl	_	_
+3	na'idaa	na'idaa	ADV	ADVTmp|ADV	_	5	advmod	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+5	nibaanid	nibaa	VERB	VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	0	root	_	_
+6	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	7	det	_	_
+7	gookooko'oon	gookooko'oo	NOUN	NA|ObvSg|NOUN	_	5	nsubj	_	_
+8	gii-pangishing	bangishin	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	5	dep	_	_
+9	imaa	imaa	ADV	ADVLoc|ADV	_	8	obl	_	_
+10	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 136
+# text = okweganaang .
+# eng = ”
+1	okweganaang	kwegan	NOUN	NID|Loc|3SgProxPoss|NOUN	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 137
+# text = gaa-izhi-amazikawaad ini gookooko'oon chi-bazigwa'od aw gookooko'oo .
+# eng = No English translation.
+1	gaa-izhi-amazikawaad	amazikaw	VERB	PVSub/gaa|PVRel/izhi|VTA|Cnj|Pos|Neu|3SgProxSubj|3SgObvObj|RelCl|VERB	_	0	root	_	_
+2	ini	ini	DET	PRONDem|NA|ObvPl|DET	_	3	det	_	_
+3	gookooko'oon	gookooko'oo	NOUN	NA|ObvPl|NOUN	_	1	dep	_	_
+4	chi-bazigwa'od	bazigwa'o	VERB	PVLex/chi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	gookooko'oo	gookooko'oo	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 138
+# text = apane iwidi akeyaa agaami-zaaga'igan ,
+# eng = No English translation.
+1	apane	apane	ADV	ADVTmp|ADV	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	1	dep	_	_
+4	agaami-zaaga'igan	agaami-zaaga'igan	ADV	ADVLoc|ADV	_	1	dep	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 139
+# text = mii iwidi geyaabi ani-minjimaakwiid aw ,
+# eng = No English translation.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	geyaabi	geyaabi	ADV	ADVTmp|ADV	_	4	advmod	_	_
+4	ani-minjimaakwiid	minjimaakwii	VERB	PVDir/ani|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	4	nsubj	_	_
+6	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 140
+# text = aw ajidamoowish iwidi akeyaa .
+# eng = No English translation.
+1	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	0	root	_	_
+2	ajidamoowish	ajidamoo	NOUN	NA|Pej|ProxSg|NOUN	_	1	dep	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	case	_	_
+4	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 141
+# text = mii gaa-inaajimod .
+# eng = That is how he told the story.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-inaajimod	inaajimo	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 142
+# text = gaye niin idi agaaming ingii-dazhi-maminikwe iwidi .
+# eng = That gray squirrel that held on to an owl and rode across the water.
+1	gaye	gaye	ADV	ADVConj|ADV	_	5	dep	_	_
+2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	5	nsubj	_	_
+3	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	5	dep	_	_
+4	agaaming	agaaming	ADV	ADVLoc|ADV	_	5	obl	_	_
+5	ingii-dazhi-maminikwe	maminikwe	VERB	PVTense/gii|PVRel/dazhi|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+6	iwidi	iwidi	ADV	ADVLoc|ADV	_	5	obl	_	_
+7	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 143
+# text = ingii-aatwaakwab gaye imaa mitigong .
+# eng = ” “Yup, yup,” one of those Shinaabs said, “I saw him flying over here.
+1	ingii-aatwaakwab	aatwaakwabi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	mitigong	mitig	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 144
+# text = ingii-waabamaa aw chi-gookooko'oo biijibizod .
+# eng = I was on the other side of the lake too drinking over there.
+1	ingii-waabamaa	waabam	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	chi-gookooko'oo	gookooko'oo	NOUN	PNLex/chi|NA|ProxSg|NOUN	_	1	obj	_	_
+4	biijibizod	biijibizo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 145
+# text = gegoo go imaa bi-agokeni imaa opikwanaang .
+# eng = And I was sitting against a tree.
+1	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	4	nsubj	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	bi-agokeni	agoke	VERB	PVDir/bi|VII|Ind|Pos|Neu|0SgObvSubj|VERB	_	0	root	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	case	_	_
+6	opikwanaang	pikwan	NOUN	NID|Loc|3SgProxPoss|NOUN	_	4	obl	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 146
+# text = akina ingiw akiwenziiyag gii-piindaakwewag mewinzha .
+# eng = ALL OF THOSE OLD MEN CHEWED TOBACCO A LONG TIME ago.
+1	akina	akina	ADV	ADVQnt|ADV	_	4	dep	_	_
+2	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	3	det	_	_
+3	akiwenziiyag	akiwenzii	NOUN	NA|ProxPl|NOUN	_	4	nsubj	_	_
+4	gii-piindaakwewag	biindaakwe	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+5	mewinzha	mewinzha	ADV	ADVTmp|ADV	_	4	advmod	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 147
+# text = mii iwidi gii-minikwewaad .
+# eng = That is where they were drinking.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gii-minikwewaad	minikwe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 148
+# text = giiwashkwebiiwag .
+# eng = They were drunk.
+1	giiwashkwebiiwag	giiwashkwebii	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 149
+# text = ogii-kiiwashkwebiishkaagonaawaa ko iw zhingobaaboo .
+# eng = They used to get drunk on beer.
+1	ogii-kiiwashkwebiishkaagonaawaa	giiwashkwebiishkaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|0SgSubj|3PlObvObj|VERB	_	0	root	_	_
+2	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+3	iw	iw	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	zhingobaaboo	zhingobaaboo	NOUN	NI|Sg|NOUN	_	1	nsubj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 150
+# text = gaa-izhi-gonabibizowaad imaa ingiw akiwenziiyag .
+# eng = Then those old men rolled their car in the ditch.
+1	gaa-izhi-gonabibizowaad	gonabibizo	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	4	det	_	_
+4	akiwenziiyag	akiwenzii	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 151
+# text = aabiding maa jiigi-zaaga'igan ingii-taamin ,
+# eng = WE ONCE WERE LIVING BY A LAKE, A RATHER BIG LAKE.
+1	aabiding	aabiding	ADV	ADVTmp|ADV	_	4	advmod	_	_
+2	maa	maa	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	jiigi-zaaga'igan	jiigi-zaaga'igan	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	ingii-taamin	daa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 152
+# text = chi-zaaga'igan igo .
+# eng = WE ONCE WERE LIVING BY A LAKE, A RATHER BIG LAKE.
+1	chi-zaaga'igan	zaaga'igan	NOUN	PNLex/chi|NI|Sg|NOUN	_	0	root	_	_
+2	igo	igo	PART	PCEmph|PART	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 153
+# text = gaa-izhi-maajaayaang aw niwiiji'aagan ,
+# eng = So we headed out, my friend and I, rowing around at night, going around fishing.
+1	gaa-izhi-maajaayaang	maajaa	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	niwiiji'aagan	wiiji'aagan	NOUN	NA|ProxSg|1SgPoss|NOUN	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 154
+# text = baamishkaayaang idi niibaa-dibik ,
+# eng = So we headed out, my friend and I, rowing around at night, going around fishing.
+1	baamishkaayaang	biimishkaa	VERB	ChCnj|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+3	niibaa-dibik	niibaa-dibik	ADV	ADVTmp|ADV	_	1	advmod	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 155
+# text = baa-wewebanaabiiyaang .
+# eng = So we headed out, my friend and I, rowing around at night, going around fishing.
+1	baa-wewebanaabiiyaang	wewebanaabii	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 156
+# text = chi-gigizheb ko gii-koshkozi aw akiwenziiyiban .
+# eng = That old man used to get up early in the morning.
+1	chi-gigizheb	gigizheb	ADV	PVLex/chi|ADVTmp|ADV	_	3	advmod	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	gii-koshkozi	goshkozi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	akiwenziiyiban	akiwenzii	NOUN	NA|Pret|ProxSg|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 157
+# text = chi-biibaagid gaa-izhi-azhegiiweyaang iwidi .
+# eng = He was hollering so we went back over there.
+1	chi-biibaagid	biibaagi	VERB	PVLex/chi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaa-izhi-azhegiiweyaang	azhegiiwe	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	1	dep	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	2	obl	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 158
+# text = mii gegaa gii-pakite'od aw akiwenzii gaa-takonang mitigoons .
+# eng = That old man almost hit me with the stick he was carrying.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	gegaa	gegaa	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	gii-pakite'od	bakite'	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	3	nsubj	_	_
+6	gaa-takonang	dakonan	VERB	PVTense/gii|VTI|Pcp|Pos|Neu|3SgProxSubj|0SgObj|0SgHead|RelCl|VERB	_	5	acl:relcl	_	_
+7	mitigoons	mitigoons	NOUN	NI|Sg|NOUN	_	6	obj	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 159
+# text = gizhaagamide gaa-izhi-izhaad iwidi ,
+# eng = GIZHAAGAMIDE WENT OVER TO WHERE HIS LITTLE SISTER lived.
+1	gizhaagamide	gizhaagamide	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	gaa-izhi-izhaad	izhaa	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	2	obl	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 160
+# text = gaa-izhi-izhaad iwidi gaa-taanid iniw oshiimeyan .
+# eng = GIZHAAGAMIDE WENT OVER TO WHERE HIS LITTLE SISTER lived.
+1	gaa-izhi-izhaad	izhaa	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-taanid	daa	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	1	dep	_	_
+4	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	5	det	_	_
+5	oshiimeyan	shiimey	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 161
+# text = biindiged imaa waakaa'iganing gaawiin awiya gii-ayaasiiwan .
+# eng = When he went into the house there wasn't anybody there.
+1	biindiged	biindige	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	case	_	_
+3	waakaa'iganing	waakaa'igan	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+4	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	6	neg	_	_
+5	awiya	awiya	PRON	PRONIndf|NA|PRON	_	1	dep	_	_
+6	gii-ayaasiiwan	ayaa	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3PlObvSubj|VERB	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 162
+# text = aw akiwenziiyiban gaa-nitaawigi'id apane ko ogii-tazhimaan ini bezhig anishinaaben .
+# eng = THAT OLD MAN THAT RAISED ME WOULD ALWAYS TALK about this one Shinaab.
+1	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	2	det	_	_
+2	akiwenziiyiban	akiwenzii	NOUN	NA|Pret|ProxSg|NOUN	_	3	dep	_	_
+3	gaa-nitaawigi'id	nitaawigi'	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|RelCl|VERB	_	0	root	_	_
+4	apane	apane	ADV	ADVTmp|ADV	_	3	advmod	_	_
+5	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+6	ogii-tazhimaan	dazhim	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	3	dep	_	_
+7	ini	ini	PRON	PRONDem|NA|ObvPl|PRON	_	9	det	_	_
+8	bezhig	bezhig	NUM	NUM	_	9	nummod	_	_
+9	anishinaaben	anishinaabe	NOUN	NA|ObvSg|NOUN	_	6	obj	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 163
+# text = na !
+# eng = ” After all, I was just a little boy, “Who is this Joe Shabaiash that is going after money?
+1	na	na	PART	PCDisc|PART	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 164
+# text = gaawiin ge gegoo gii-ikidosiin aw mindimooyenh .
+# eng = See!
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	4	neg	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	4	dep	_	_
+3	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	4	dep	_	_
+4	gii-ikidosiin	ikido	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	mindimooyenh	mindimooyenh	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 165
+# text = gii-paataniinowan ini oniijaanisan .
+# eng = He had a whole bunch of kids.
+1	gii-paataniinowan	baataniinowag	VERB	PVTense/gii|VAIPL|Ind|Pos|Neu|3PlObvSubj|VERB	_	0	root	_	_
+2	ini	ini	DET	PRONDem|NA|ObvPl|DET	_	3	det	_	_
+3	oniijaanisan	niijaanis	NOUN	NAD|ObvPl|3SgProxPoss|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 166
+# text = anishaa ikidowag mamiikwaanaawaad iniw owiitaawaan .
+# eng = “Oh, they're brothers-in-law, Anishinaabe men brag about their brothers-in-law, that's what they do.
+1	anishaa	anishaa	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	ikidowag	ikido	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+3	mamiikwaanaawaad	mamiikwaazh	VERB	VTA|Cnj|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	2	dep	_	_
+4	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	5	det	_	_
+5	owiitaawaan	iitaaw	NOUN	NAD|ObvSg|3PlProxPoss|NOUN	_	3	obj	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 167
+# text = anooj ko gii-izhichigewag ingiw anishinaabeg .
+# eng = THE ANISHINAABE USED TO DO ALL KINDS OF STUFF.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	gii-izhichigewag	izhichige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+4	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	5	det	_	_
+5	anishinaabeg	anishinaabe	NOUN	NA|ProxPl|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 168
+# text = anooj ogii-toodawaawaan iniw owiitaawaan .
+# eng = They did all kinds of things to their brothers-in-law.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	2	dep	_	_
+2	ogii-toodawaawaan	doodaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	0	root	_	_
+3	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	4	det	_	_
+4	owiitaawaan	iitaaw	NOUN	NAD|ObvSg|3PlProxPoss|NOUN	_	2	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 169
+# text = shke iw indedeyiban ingii-waabamaa gaa-toodawaad iniw owiitaan .
+# eng = See, once I saw what my dad did to his brother-in-law.
+1	shke	shke	PART	PCDisc|PART	_	4	discourse	_	_
+2	iw	iw	DET	PRONDem|NI|Sg|DET	_	4	dep	_	_
+3	indedeyiban	dedey	NOUN	NAD|Pret|ProxSg|1SgPoss|NOUN	_	4	obj	_	_
+4	ingii-waabamaa	waabam	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+5	gaa-toodawaad	doodaw	VERB	PVTense/gii|VTA|Pcp|Pos|Neu|3SgProxSubj|3SgObvObj|3SgProxHead|RelCl|VERB	_	6	acl:relcl	_	_
+6	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	7	det	_	_
+7	owiitaan	iitaaw	NOUN	NAD|ObvPl|3SgProxPoss|NOUN	_	4	dep	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 170
+# text = megwaa giiwoseyaang ,
+# eng = While we were hunting, there wasn't any snow yet.
+1	megwaa	megwaa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	giiwoseyaang	giiwose	VERB	VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 171
+# text = gaawiin mashi goon gii-ayaasiin .
+# eng = While we were hunting, there wasn't any snow yet.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	4	neg	_	_
+2	mashi	mashi	ADV	ADVTmp|ADV	_	4	advmod	_	_
+3	goon	goon	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
+4	gii-ayaasiin	ayaa	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 172
+# text = azhigwa miinawaa biidaasamose gaa-kiizhiitaad .
+# eng = Now he's walking back toward us having finished.
+1	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	miinawaa	miinawaa	ADV	ADVConj|ADV	_	3	dep	_	_
+3	biidaasamose	biidaasamose	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	gaa-kiizhiitaad	giizhiitaa	VERB	PVTense/gii|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|RelCl|VERB	_	3	nsubj	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 173
+# text = gii-waanda-bangan ,
+# eng = It was really quiet, so then he pointed his gun in the air and fired it.
+1	gii-waanda-bangan	bangan	VERB	PVTense/gii|PVLex/waanda|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 174
+# text = gaa-izhi-izhinoo'ang obaashkizigan ishpiming gaa-izhi-madweziged .
+# eng = It was really quiet, so then he pointed his gun in the air and fired it.
+1	gaa-izhi-izhinoo'ang	izhinoo'an	VERB	PVSub/gaa|PVRel/izhi|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|RelCl|VERB	_	0	root	_	_
+2	obaashkizigan	baashkizigan	NOUN	NI|Sg|3SgProxPoss|NOUN	_	1	dep	_	_
+3	ishpiming	ishpiming	ADV	ADVLoc|ADV	_	1	obl	_	_
+4	gaa-izhi-madweziged	madwezige	VERB	PVSub/gaa|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|RelCl|VERB	_	1	nsubj	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 175
+# text = mii imaa gii-wiindamawaad da-o-niibawinid imaa gii-miiziid .
+# eng = That is where he told him to go stand, where he had taken a crap.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gii-wiindamawaad	wiindamaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+4	da-o-niibawinid	niibawi	VERB	PVTense/da|PVDir/o|VAI|Cnj|Pos|Neu|3PlObvSubj|VERB	_	3	dep	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	gii-miiziid	miizii	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 176
+# text = miish aw akiwenziiyiban akina gegoo baa-izhi-dakokaadang iw moo .
+# eng = That is where that old man was stepping all over in the crap.
+1	miish	miish	ADV	ADVPred|ADV	_	6	dep	_	_
+2	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	akiwenziiyiban	akiwenzii	NOUN	NA|Pret|ProxSg|NOUN	_	6	nsubj	_	_
+4	akina	akina	ADV	ADVQnt|ADV	_	5	advmod	_	_
+5	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	6	dep	_	_
+6	baa-izhi-dakokaadang	dakokaadan	VERB	PVDir/baa|PVRel/izhi|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+7	iw	iw	DET	PRONDem|NI|Sg|DET	_	8	det	_	_
+8	moo	moow	NOUN	NI|Sg|NOUN	_	6	obj	_	_
+9	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 177
+# text = akina go iniw omakizinan gaa-izhi-moowiwaninig .
+# eng = His shoes had crap all over them.
+1	akina	akina	ADV	ADVQnt|ADV	_	5	dep	_	_
+2	go	go	PART	PCDisc|PART	_	5	discourse	_	_
+3	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	4	det	_	_
+4	omakizinan	makizin	NOUN	NI|Pl|3SgProxPoss|NOUN	_	5	dep	_	_
+5	gaa-izhi-moowiwaninig	moowiwan	VERB	ChCnj|PVTense/gii|PVRel/izhi|VII|Cnj|Pos|Neu|0PlObvSubj|VERB	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 178
+# text = eko-baapiwaad iko .
+# eng = They used to laugh like hell.
+1	eko-baapiwaad	baapi	VERB	ChCnj|PVRel/ako|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	iko	iko	PART	PCAsp|PART	_	1	discourse	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 179
+# text = miish geget ingoding iidog a'aw gaa-azhe-izhaad a'aw bezhig omaa Misi-zaaga'iganing idi anishinaabe .
+# eng = So sure enough, one time this one Shinaab from here at Mille Lacs came back from over there.
+1	miish	miish	ADV	ADVPred|ADV	_	6	dep	_	_
+2	geget	geget	ADV	ADVMan|ADV	_	6	advmod	_	_
+3	ingoding	ingoding	ADV	ADVTmp|ADV	_	6	advmod	_	_
+4	iidog	iidog	PART	PCAsp|PART	_	6	discourse	_	_
+5	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	6	nsubj	_	_
+6	gaa-azhe-izhaad	izhaa	VERB	ChCnj|PVTense/gii|PVLex/azhe|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+7	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	6	dep	_	_
+8	bezhig	bezhig	NUM	NUM	_	6	dep	_	_
+9	omaa	omaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+10	Misi-zaaga'iganing	Misi-zaaga'iganing	PROPN	NamePlace|PROPN	_	6	dep	_	_
+11	idi	idi	DET	PRONDem|NI|Sg|DET	_	6	dep	_	_
+12	anishinaabe	anishinaabe	NOUN	NA|ProxSg|NOUN	_	6	dep	_	_
+13	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 180
+# text = wa !
+# eng = ”
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 181
+# text = ingii-waabamaa idi aw ikwe baa-agoojiged agoodood ani-giziibiiga'iged imaa .
+# eng = | saw the woman over there hanging out clothes; she was doing laundry.
+1	ingii-waabamaa	waabam	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+3	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	ikwe	ikwe	NOUN	NA|ProxSg|NOUN	_	1	obj	_	_
+5	baa-agoojiged	agoojige	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+6	agoodood	agoodoon	VERB	VTI|Cnj|Pos|Neu|3SgProxSubj|0PlObj|VERB	_	1	dep	_	_
+7	ani-giziibiiga'iged	giziibiiga'ige	VERB	PVDir/ani|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+8	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 182
+# text = mii dash igo ingoding gii-ishkwaa-niibing ingii-waabamaa aw ikwe .
+# eng = And then one time, when the summer was over, I saw that woman.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
+3	igo	igo	PART	PCEmph|PART	_	5	discourse	_	_
+4	ingoding	ingoding	ADV	ADVTmp|ADV	_	5	advmod	_	_
+5	gii-ishkwaa-niibing	niibin	VERB	PVTense/gii|PVLex/ishkwaa|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+6	ingii-waabamaa	waabam	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	5	dep	_	_
+7	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	8	det	_	_
+8	ikwe	ikwe	NOUN	NA|ProxSg|NOUN	_	6	obj	_	_
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 183
+# text = mii aw akiwenziiyiban gaa-nitaawigi'id mii iniw owiiyawen'enyan ,
+# eng = That was a namesake of the old man who raised me, his name was Biidaanimad.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	akiwenziiyiban	akiwenzii	NOUN	NA|Pret|ProxSg|NOUN	_	4	nsubj	_	_
+4	gaa-nitaawigi'id	nitaawigi'	VERB	ChCnj|PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+5	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+6	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	7	det	_	_
+7	owiiyawen'enyan	iiyawen'enhy	NOUN	NAD|ObvSg|3SgProxPoss|NOUN	_	4	dep	_	_
+8	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 184
+# text = biidaanimad wiin go gii-izhinikaazo .
+# eng = That was a namesake of the old man who raised me, his name was Biidaanimad.
+1	biidaanimad	biidaanimad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	wiin	wiin	PRON	PRONPer|NA|3Sg|PRON	_	4	nsubj	_	_
+3	go	go	PART	PCDisc|PART	_	1	discourse	_	_
+4	gii-izhinikaazo	izhinikaazo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 185
+# text = mii dash gaawiin gii-odoodaabaanisiiwag .
+# eng = And they didn't have a car.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	4	neg	_	_
+4	gii-odoodaabaanisiiwag	odoodaabaani	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3PlProxSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 186
+# text = gaawiin gii-odoodaabaanisiiwag mewinzha .
+# eng = They didn't have cars a long time ago.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	gii-odoodaabaanisiiwag	odoodaabaani	VERB	PVTense/gii|VAI|Ind|Neg|Neu|3PlProxSubj|VERB	_	0	root	_	_
+3	mewinzha	mewinzha	ADV	ADVTmp|ADV	_	2	advmod	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 187
+# text = apane gii-anookiid aw mindimooyenh da-izhiwinind adaawewigamigong .
+# eng = That old lady would always hire some-one to take her to the store.
+1	apane	apane	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gii-anookiid	anookii	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	mindimooyenh	mindimooyenh	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+5	da-izhiwinind	izhiwizh	VERB	PVTense/da|VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	2	dep	_	_
+6	adaawewigamigong	adaawewigamig	NOUN	NI|Loc|NOUN	_	5	obl	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 188
+# text = ogii-minwendaan ko gaye gii-maminikwed ,
+# eng = She liked to drink too, when she went to the store, when she went to town.
+1	ogii-minwendaan	minwendan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+3	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+4	gii-maminikwed	maminikwe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 189
+# text = izhaad adaawewigamigong oodenaang izhaad .
+# eng = She liked to drink too, when she went to the store, when she went to town.
+1	izhaad	izhaa	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	adaawewigamigong	adaawewigamig	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+3	oodenaang	oodena	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+4	izhaad	izhaa	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 190
+# text = miish sa aabiding dibi gaa-ondinaawaagwen maagizhaa gaa-adaawegwen aw akiwenziiyiban ,
+# eng = Then this once time, I don't know where they sot a car, maybe that old man had bought it.
+1	miish	miish	ADV	ADVPred|ADV	_	5	dep	_	_
+2	sa	sa	PART	PCDisc|PART	_	5	discourse	_	_
+3	aabiding	aabiding	ADV	ADVTmp|ADV	_	5	advmod	_	_
+4	dibi	dibi	ADV	ADVDub|ADV	_	5	dep	_	_
+5	gaa-ondinaawaagwen	ondin	VERB	PVSub/gaa|VTA|Cnj|Pos|Dub|3PlProxSubj|3SgObvObj|RelCl|VERB	_	0	root	_	_
+6	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	5	advmod	_	_
+7	gaa-adaawegwen	adaawen	VERB	PVSub/gaa|VAIO|Cnj|Pos|Dub|3SgProxSubj|3PlObvObj|RelCl|VERB	_	8	acl:relcl	_	_
+8	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	9	det	_	_
+9	akiwenziiyiban	akiwenzii	NOUN	NA|Pret|ProxSg|NOUN	_	5	dep	_	_
+10	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 191
+# text = iniw odaabaanan .
+# eng = Then this once time, I don't know where they sot a car, maybe that old man had bought it.
+1	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	0	root	_	_
+2	odaabaanan	odaabaan	NOUN	NI|Pl|NOUN	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 192
+# text = gojichigen !
+# eng = ” “Jeez, I don't know how to drive!
+1	gojichigen	gojichige	VERB	VAI|Imp|Sim|2SgSubj|VERB	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 193
+# text = booch igo gojichigeyan !
+# eng = ” “Aah!
+1	booch	booch	ADV	ADVMan|ADV	_	3	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	gojichigeyan	gojichige	VERB	VAI|Cnj|Pos|Neu|2SgSubj|VERB	_	0	root	_	_
+4	!	!	PUNCT	!	_	3	punct	_	_
+
+# sent_id = 194
+# text = miish ko imaa manoomin baa-gagwejibizod imaa ,
+# eng = So there is Manoomin, practic-ing driving there, and he's gradually driving further and further, with that old lady riding shotgun.
+1	miish	miish	ADV	ADVPred|ADV	_	5	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	5	discourse	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+4	manoomin	manoomin	NOUN	NI|Sg|NOUN	_	5	dep	_	_
+5	baa-gagwejibizod	gagwejibizo	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+7	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 195
+# text = eshkam igo waasa babaamibizo ,
+# eng = So there is Manoomin, practic-ing driving there, and he's gradually driving further and further, with that old lady riding shotgun.
+1	eshkam	eshkam	ADV	ADVDeg|ADV	_	4	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	4	discourse	_	_
+3	waasa	waasa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	babaamibizo	babaamibizo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 196
+# text = baa-wiidabimigod iniw mindimooyenyan ,
+# eng = So there is Manoomin, practic-ing driving there, and he's gradually driving further and further, with that old lady riding shotgun.
+1	baa-wiidabimigod	wiidabim	VERB	PVDir/baa|VTA|Cnj|Pos|Neu|0PlSubj|3SgProxObj|VERB	_	0	root	_	_
+2	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	3	det	_	_
+3	mindimooyenyan	mindimooyenh	NOUN	NA|ObvSg|NOUN	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 197
+# text = gaawiin gii-nitaa-zhaaganaashiimosiin aw mindimooyenh .
+# eng = So there is Manoomin, practic-ing driving there, and he's gradually driving further and further, with that old lady riding shotgun.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	gii-nitaa-zhaaganaashiimosiin	zhaaganaashiimo	VERB	PVTense/gii|PVLex/nitaa|VAI|Ind|Neg|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	mindimooyenh	mindimooyenh	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 198
+# text = gego gizhiikaaken !
+# eng = You drive, Manoomin!
+1	gego	gego	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	gizhiikaaken	gizhiikaa	VERB	VAI|Imp|Prb|2SgSubj|VERB	_	0	root	_	_
+3	!	!	PUNCT	!	_	2	punct	_	_
+
+# sent_id = 199
+# text = ani-giiwedaa !
+# eng = Whatever I drank gave me a belly-ache.
+1	ani-giiwedaa	giiwe	VERB	PVDir/ani|VAI|Imp|Del|InclSubj|VERB	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 200
+# text = nawaj bangii gizhiibizon !
+# eng = ” I don't know how far away they lived from there.
+1	nawaj	nawaj	ADV	ADVDeg|ADV	_	2	advmod	_	_
+2	bangii	bangii	ADV	ADVQnt|ADV	_	3	dep	_	_
+3	gizhiibizon	gizhiibizo	VERB	VAI|Imp|Sim|2SgSubj|VERB	_	0	root	_	_
+4	!	!	PUNCT	!	_	3	punct	_	_
+
+# sent_id = 201
+# text = iwidi madwetood imaa miiziiwigamigong .
+# eng = There she was heard doing her business in the bathroom.
+1	iwidi	iwidi	ADV	ADVLoc|ADV	_	2	obl	_	_
+2	madwetood	madwetoo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	miiziiwigamigong	miiziiwigamig	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 202
+# text = onjida gidoodaw iw ,
+# eng = You did this to me on purpose, Manoomin!
+1	onjida	onjida	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gidoodaw	doodaw	VERB	VTA|Ind|Pos|Neu|2SgSubj|1SgObj|VERB	_	0	root	_	_
+3	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	2	dep	_	_
+4	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 203
+# text = manoomin !
+# eng = You did this to me on purpose, Manoomin!
+1	manoomin	manoomin	NOUN	NI|Sg|NOUN	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 204
+# text = mii eta go iw jiibaakwewigamig miinawaa iw abiiwigamig miinawaa ,
+# eng = There was only a kitchen and a living room and there was my bedroom.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	eta	eta	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	1	dep	_	_
+4	iw	iw	DET	PRONDem|NI|Sg|DET	_	5	det	_	_
+5	jiibaakwewigamig	jiibaakwewigamig	NOUN	NI|Sg|NOUN	_	1	dep	_	_
+6	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	7	cc	_	_
+7	iw	iw	DET	PRONDem|NI|Sg|DET	_	5	det	_	_
+8	abiiwigamig	abiiwigamig	NOUN	NI|Sg|NOUN	_	1	dep	_	_
+9	miinawaa	miinawaa	ADV	ADVConj|ADV	_	1	dep	_	_
+10	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 205
+# text = miinawaa imaa gii-ayaamagad ninibewigamig .
+# eng = There was only a kitchen and a living room and there was my bedroom.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gii-ayaamagad	ayaamagad	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+4	ninibewigamig	nibewigamig	NOUN	NI|Sg|1SgPoss|NOUN	_	3	nsubj	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 206
+# text = gaawiin dash ishkwaandem gii-ayaamagasinoon imaa nibewigamigong .
+# eng = But there wasn't a door to my bedroom.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	4	neg	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	ishkwaandem	ishkwaandem	NOUN	NI|Sg|NOUN	_	4	nsubj	_	_
+4	gii-ayaamagasinoon	ayaamagad	VERB	PVTense/gii|VII|Ind|Neg|Neu|0SgSubj|VERB	_	0	root	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	case	_	_
+6	nibewigamigong	nibewigamig	NOUN	NI|Loc|NOUN	_	4	obl	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 207
+# text = mii iwidi mizhisha abiitawind ninibaagan gii-ateg .
+# eng = My bed was in the next room, right out in plain sight.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	mizhisha	mizhisha	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	abiitawind	abiitaw	VERB	VTA|Cnj|Pos|Neu|XSubj|3SgProxObj|VERB	_	0	root	_	_
+5	ninibaagan	nibaagan	NOUN	NI|Sg|1SgPoss|NOUN	_	6	nsubj	_	_
+6	gii-ateg	ate	VERB	PVTense/gii|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	4	dep	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 208
+# text = gaa-izhi-bawaajigeyaan iidog ,
+# eng = So I must have been dreaming, that we were driving along.
+1	gaa-izhi-bawaajigeyaan	bawaajige	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	iidog	iidog	PART	PCAsp|PART	_	1	discourse	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 209
+# text = bimibizoyaang .
+# eng = So I must have been dreaming, that we were driving along.
+1	bimibizoyaang	bimibizo	VERB	VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 210
+# text = niwiidabimaa imaa bezhig inini niigaan odaabaaning .
+# eng = I was sitting up front in the car with a man.
+1	niwiidabimaa	wiidabim	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	bezhig	bezhig	NUM	NUM	_	4	nummod	_	_
+4	inini	inini	NOUN	NA|ProxSg|NOUN	_	1	obj	_	_
+5	niigaan	niigaan	ADV	ADVLoc|ADV	_	6	case	_	_
+6	odaabaaning	odaabaan	NOUN	NA|Loc|NOUN	_	1	obl	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 211
+# text = miinawaa ingiw ikwewag idi ,
+# eng = And there were women, some girls sitting in the back there.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	0	root	_	_
+2	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	3	det	_	_
+3	ikwewag	ikwe	NOUN	NA|ProxPl|NOUN	_	1	dep	_	_
+4	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 212
+# text = ikwezensag iwidi ishkweyaang namadabiwag .
+# eng = And there were women, some girls sitting in the back there.
+1	ikwezensag	ikwezens	NOUN	NA|ProxPl|NOUN	_	4	nsubj	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	namadabiwag	namadabi	VERB	VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 213
+# text = ganawaabandamaan iw epiichibizod aw odaabaan ,
+# eng = As I look to see how fast the car is going, it is now going almost a hundred, and we're driving up a big hill there.
+1	ganawaabandamaan	ganawaabandan	VERB	VTI|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	epiichibizod	apiichibizo	VERB	VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|RelCl|VERB	_	4	acl:relcl	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	1	dep	_	_
+6	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 214
+# text = mii zhigwa gegaa ningodwaak ,
+# eng = As I look to see how fast the car is going, it is now going almost a hundred, and we're driving up a big hill there.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	1	dep	_	_
+3	gegaa	gegaa	ADV	ADVDeg|ADV	_	2	advmod	_	_
+4	ningodwaak	ningodwaak	NUM	NUM	_	1	dep	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 215
+# text = chi-ogidaakiiwebizoyaang imaa .
+# eng = As I look to see how fast the car is going, it is now going almost a hundred, and we're driving up a big hill there.
+1	chi-ogidaakiiwebizoyaang	ogidaakiiwebizo	VERB	PVLex/chi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 216
+# text = mii eta go chi-baapiwaad ingiw ishkweyaang nemadabijig imaa .
+# eng = The ones in the back seat are just cracking up laugh-ing.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	eta	eta	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+4	chi-baapiwaad	baapi	VERB	PVLex/chi|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+5	ingiw	ingiw	PRON	PRONDem|NA|ProxPl|PRON	_	4	nsubj	_	_
+6	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	4	obl	_	_
+7	nemadabijig	namadabi	VERB	VAI|Pcp|Pos|Neu|3PlProxSubj|3PlProxHead|RelCl|VERB	_	4	dep	_	_
+8	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+9	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 217
+# text = gaa-izhi-amajiseyaan .
+# eng = And then I wake up.
+1	gaa-izhi-amajiseyaan	amajise	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 218
+# text = ingwana go naa ningaanjida'aan iw ninibaagan .
+# eng = Here it turns out that I'm pushing my bed.
+1	ingwana	ingwana	PART	PCDisc|PART	_	4	discourse	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	naa	naa	PART	PCEmph|PART	_	4	discourse	_	_
+4	ningaanjida'aan	gaanjida'an	VERB	VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+5	iw	iw	DET	PRONDem|NI|Sg|DET	_	6	det	_	_
+6	ninibaagan	nibaagan	NOUN	NI|Sg|1SgPoss|NOUN	_	4	obj	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 219
+# text = ingiw dash gaa-paapijig imaa ishkweyaang ,
+# eng = The ones who were laughing in the back, there in the back, they must have been those women over to visit; they were there to see my mom.
+1	ingiw	ingiw	PRON	PRONDem|NA|ProxPl|PRON	_	3	nsubj	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
+3	gaa-paapijig	baapi	VERB	PVTense/gii|VAI|Pcp|Pos|Neu|3PlProxSubj|3PlProxHead|RelCl|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	3	obl	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 220
+# text = mii iwidi ishkweyaang akeyaa ,
+# eng = The ones who were laughing in the back, there in the back, they must have been those women over to visit; they were there to see my mom.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	1	dep	_	_
+4	akeyaa	akeyaa	ADV	ADVLoc|ADV	_	1	dep	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 221
+# text = gii-pi-mawadishiwewaad iidog ingiw ikwewag gii-pi-waabamaawaad iniw nimaamaayibaniin .
+# eng = The ones who were laughing in the back, there in the back, they must have been those women over to visit; they were there to see my mom.
+1	gii-pi-mawadishiwewaad	mawadishiwe	VERB	PVTense/gii|PVDir/bi|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	iidog	iidog	PART	PCAsp|PART	_	1	discourse	_	_
+3	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	4	det	_	_
+4	ikwewag	ikwe	NOUN	NA|ProxPl|NOUN	_	1	nsubj	_	_
+5	gii-pi-waabamaawaad	waabam	VERB	PVTense/gii|PVDir/bi|VTA|Cnj|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	1	dep	_	_
+6	iniw	iniw	DET	PRONDem|NA|ObvSg|DET	_	7	det	_	_
+7	nimaamaayibaniin	maamaay	NOUN	NAD|Pret|ObvSg|1SgPoss|NOUN	_	5	obj	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 222
+# text = manised .
+# eng = And for all of it, I was able to go along with him.
+1	manised	manise	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 223
+# text = akina gegoo ,
+# eng = No English translation.
+1	akina	akina	ADV	ADVQnt|ADV	_	0	root	_	_
+2	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	1	dep	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 224
+# text = geshkitooyaan da-wiijiiwag .
+# eng = No English translation.
+1	geshkitooyaan	gashkitoon	VERB	ChCnj|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+2	da-wiijiiwag	wiijiiw	VERB	PVTense/da|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 225
+# text = anooj ko gegoo ingii-paa-waabanda'ig imaa megwayaak ,
+# eng = He went around showing me all kinds of things out there in the woods, the plants, and the trees.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	4	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	4	discourse	_	_
+3	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	4	iobj	_	_
+4	ingii-paa-waabanda'ig	waabanda'	VERB	PVTense/gii|PVDir/baa|VTA|Ind|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	case	_	_
+6	megwayaak	megwayaak	ADV	ADVLoc|ADV	_	4	obl	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 226
+# text = iniw ge zayaagakiigin ,
+# eng = He went around showing me all kinds of things out there in the woods, the plants, and the trees.
+1	iniw	iniw	PRON	PRONDem|NI|Pl|PRON	_	3	nsubj	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	3	dep	_	_
+3	zayaagakiigin	zaagakii	VERB	ChCnj|VII|Cnj|Pos|Neu|0PlSubj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 227
+# text = miinawaa ingiw mitigoog .
+# eng = He went around showing me all kinds of things out there in the woods, the plants, and the trees.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	0	root	_	_
+2	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	3	det	_	_
+3	mitigoog	mitig	NOUN	NA|ProxPl|NOUN	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 228
+# text = gaa-izhi-ishkwaa-ayaad a'aw akiwenzii .
+# eng = Then that old man passed away.
+1	gaa-izhi-ishkwaa-ayaad	ishkwaa-ayaa	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 229
+# text = ingoding igo aabiding imaa odaabaan bi-noogishkaa imaa ,
+# eng = Then this one time a car stopped by there, next to the house.
+1	ingoding	ingoding	ADV	ADVTmp|ADV	_	6	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	6	discourse	_	_
+3	aabiding	aabiding	ADV	ADVTmp|ADV	_	6	advmod	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+5	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	6	nsubj	_	_
+6	bi-noogishkaa	noogishkaa	VERB	PVDir/bi|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+7	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+8	,	,	PUNCT	,	_	6	punct	_	_
+
+# sent_id = 230
+# text = jiigayi'ii waakaa'iganing .
+# eng = Then this one time a car stopped by there, next to the house.
+1	jiigayi'ii	jiigayi'ii	ADV	ADVLoc|ADV	_	0	root	_	_
+2	waakaa'iganing	waakaa'igan	NOUN	NI|Loc|NOUN	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 231
+# text = gabaawaad ingiw ,
+# eng = When they got out of the car, they were rather elderly, that old man and old lady came inside.
+1	gabaawaad	gabaa	VERB	VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	ingiw	ingiw	PRON	PRONDem|NA|ProxPl|PRON	_	1	nsubj	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 232
+# text = chi-aya'aawiwag igo ,
+# eng = When they got out of the car, they were rather elderly, that old man and old lady came inside.
+1	chi-aya'aawiwag	aya'aawi	VERB	PVLex/chi|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	igo	igo	PART	PCEmph|PART	_	1	discourse	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 233
+# text = bi-biindiged a'aw akiwenzii miinawaa mindimooyenh .
+# eng = When they got out of the car, they were rather elderly, that old man and old lady came inside.
+1	bi-biindiged	biindige	VERB	PVDir/bi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	1	nsubj	_	_
+4	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	5	cc	_	_
+5	mindimooyenh	mindimooyenh	NOUN	NA|ProxSg|NOUN	_	3	conj	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 234
+# text = mii gii-mawadisidiwaad ,
+# eng = So they visited for a while, and then they headed out.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gii-mawadisidiwaad	mawadisidiwag	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3PlProxSubj|3PlProxObj|VERB	_	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 235
+# text = miish imaa gaa-ni-izhi-maajaawaad .
+# eng = So they visited for a while, and then they headed out.
+1	miish	miish	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-ni-izhi-maajaawaad	maajaa	VERB	ChCnj|PVTense/gii|PVDir/ni|PVRel/izhi|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 236
+# text = mii imaa wapii gii-naniibikimid aw mindimooyenh gaa-nitaawigi'id .
+# eng = That is when that old lady that raised me really scolded me.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	wapii	wapii	ADV	ADVTmp|ADV	_	4	advmod	_	_
+4	gii-naniibikimid	naniibikim	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	mindimooyenh	mindimooyenh	NOUN	NA|ProxSg|NOUN	_	4	nsubj	_	_
+7	gaa-nitaawigi'id	nitaawigi'	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|RelCl|VERB	_	6	acl:relcl	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 237
+# text = nashke dash omaa ,
+# eng = Now you see, when someone comes here, you don't even know it.
+1	nashke	nashke	INTJ	PCInterj|INTJ	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	omaa	omaa	ADV	ADVLoc|ADV	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 238
+# text = noongom omaa awiya bi-izhaad ,
+# eng = Now you see, when someone comes here, you don't even know it.
+1	noongom	noongom	ADV	ADVTmp|ADV	_	4	advmod	_	_
+2	omaa	omaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	awiya	awiya	PRON	PRONIndf|NA|PRON	_	4	dep	_	_
+4	bi-izhaad	bi-izhaa	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 239
+# text = mii gaawiin gigikendanziin .
+# eng = Now you see, when someone comes here, you don't even know it.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	3	neg	_	_
+3	gigikendanziin	gikendan	VERB	VTI|Ind|Neg|Neu|2SgSubj|0SgObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 240
+# text = mii ingwana gaa-paa-onji-wiijiiwag aw akiwenzii ,
+# eng = It turns out that is why I always went along with rhat old man, why he was always with me, teaching me about everything.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	ingwana	ingwana	PART	PCDisc|PART	_	3	discourse	_	_
+3	gaa-paa-onji-wiijiiwag	wiijiiw	VERB	ChCnj|PVTense/gii|PVDir/baa|PVRel/onji|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	3	obj	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 241
+# text = gaa-paa-onji-wiijiiwid ,
+# eng = It turns out that is why I always went along with rhat old man, why he was always with me, teaching me about everything.
+1	gaa-paa-onji-wiijiiwid	wiijiiw	VERB	ChCnj|PVTense/gii|PVDir/baa|PVRel/onji|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 242
+# text = aw gii-gikinoo'amawid akina gegoo .
+# eng = It turns out that is why I always went along with rhat old man, why he was always with me, teaching me about everything.
+1	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	2	nsubj	_	_
+2	gii-gikinoo'amawid	gikinoo'amaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+3	akina	akina	ADV	ADVQnt|ADV	_	4	advmod	_	_
+4	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 243
+# text = mii iw gaawiin ingii-pizindawaasiin aw akiwenzii ,
+# eng = I didn't listen to that old man, because I was too busy out in the woods playing around, checking out all kinds of things.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
+3	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	4	neg	_	_
+4	ingii-pizindawaasiin	bizindaw	VERB	PVTense/gii|VTA|Ind|Neg|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	akiwenzii	akiwenzii	NOUN	NA|ProxSg|NOUN	_	4	obj	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 244
+# text = onzaam ingii-ondamiz niin megwayaak gii-paa-dazhitaayaan ,
+# eng = I didn't listen to that old man, because I was too busy out in the woods playing around, checking out all kinds of things.
+1	onzaam	onzaam	ADV	ADVQnt|ADV	_	2	dep	_	_
+2	ingii-ondamiz	ondamizi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+3	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	2	nsubj	_	_
+4	megwayaak	megwayaak	ADV	ADVLoc|ADV	_	2	obl	_	_
+5	gii-paa-dazhitaayaan	dazhitaa	VERB	PVTense/gii|PVDir/baa|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	2	dep	_	_
+6	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 245
+# text = anooj gegoo baa-waawaabandamaan .
+# eng = I didn't listen to that old man, because I was too busy out in the woods playing around, checking out all kinds of things.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	2	advmod	_	_
+2	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	3	obj	_	_
+3	baa-waawaabandamaan	waawaabandan	VERB	PVDir/baa|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 246
+# text = gaawiin ingii-pizindawaasiin .
+# eng = I wasn't lis-rening to him.
+1	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	2	neg	_	_
+2	ingii-pizindawaasiin	bizindaw	VERB	PVTense/gii|VTA|Ind|Neg|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 247
+# text = mii gomaa minik ezhi-mikwendamaan gii-naniibikimid aw mindimooyenh .
+# eng = That is all I remember about when that old lady scolded me.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	gomaa	gomaa	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	minik	minik	ADV	ADVQnt|ADV	_	4	dep	_	_
+4	ezhi-mikwendamaan	mikwendan	VERB	ChCnj|PVRel/izhi|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+5	gii-naniibikimid	naniibikim	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	4	dep	_	_
+6	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	7	det	_	_
+7	mindimooyenh	mindimooyenh	NOUN	NA|ProxSg|NOUN	_	5	nsubj	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 248
+# text = shke ,
+# eng = See, I have sons, I had eight sons.
+1	shke	shke	PART	PCDisc|PART	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 249
+# text = indayaawaag ingozisag ,
+# eng = See, I have sons, I had eight sons.
+1	indayaawaag	ayaaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+2	ingozisag	gozis	NOUN	NAD|ProxPl|1SgPoss|NOUN	_	1	obj	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 250
+# text = indayaawaag ongow ,
+# eng = See, I have sons, I had eight sons.
+1	indayaawaag	ayaaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+2	ongow	ongow	PRON	PRONDem|NA|ProxPl|PRON	_	1	obj	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 251
+# text = gii-ishwaachiwag ingozisag .
+# eng = See, I have sons, I had eight sons.
+1	gii-ishwaachiwag	ishwaachiwag	VERB	PVTense/gii|VAIPL|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+2	ingozisag	gozis	NOUN	NAD|ProxPl|1SgPoss|NOUN	_	1	nsubj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 252
+# text = gii-niso-biboonagizi gii-paa-waawiijiiwid idi megwayaak ,
+# eng = He was three when he started hunting with me out in the woods, when I taught him about tracking, to track deer.
+1	gii-niso-biboonagizi	niso-biboonagizi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gii-paa-waawiijiiwid	waawiijiiw	VERB	PVTense/gii|PVDir/baa|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	1	dep	_	_
+3	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+4	megwayaak	megwayaak	ADV	ADVLoc|ADV	_	2	obl	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 253
+# text = gii-gikinoo'amawag da-nandokawechiged ,
+# eng = He was three when he started hunting with me out in the woods, when I taught him about tracking, to track deer.
+1	gii-gikinoo'amawag	gikinoo'amaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	da-nandokawechiged	nandokawechige	VERB	PVTense/da|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 254
+# text = da-nandokawe'aad waawaashkeshiwan .
+# eng = He was three when he started hunting with me out in the woods, when I taught him about tracking, to track deer.
+1	da-nandokawe'aad	andokawe'	VERB	PVTense/da|VTA|Cnj|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+2	waawaashkeshiwan	waawaashkeshi	NOUN	NA|ObvSg|NOUN	_	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 255
+# text = geget minwendam baa-giiwosed a'aw .
+# eng = Oh yeah, he likes to hunt that one.
+1	geget	geget	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	minwendam	minwendam	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	baa-giiwosed	giiwose	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	3	nsubj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 256
+# text = gegoo oga-gikendaan naagaj .
+# eng = That is something he will know later on.
+1	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	2	obj	_	_
+2	oga-gikendaan	gikendan	VERB	PVTense/ga|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+3	naagaj	naagaj	ADV	ADVQnt|ADV	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 257
+# text = nashke ge a'aw ,
+# eng = You see, it is him, that boy, my son, he is a good singer too.
+1	nashke	nashke	INTJ	PCInterj|INTJ	_	0	root	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	1	dep	_	_
+3	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 258
+# text = gwiiwizens ,
+# eng = You see, it is him, that boy, my son, he is a good singer too.
+1	gwiiwizens	gwiiwizens	NOUN	NA|ProxSg|NOUN	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 259
+# text = ingozis ,
+# eng = You see, it is him, that boy, my son, he is a good singer too.
+1	ingozis	gozis	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 260
+# text = nitaa-nagamo gaye .
+# eng = You see, it is him, that boy, my son, he is a good singer too.
+1	nitaa-nagamo	nagamo	VERB	PVLex/nitaa|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 261
+# text = zhaagwenimo dash wii-nagamod .
+# eng = But he is shy about it when it comes to sing-ing.
+1	zhaagwenimo	zhaagwenimo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	wii-nagamod	nagamo	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 262
+# text = nimbizindawaa ko odaabaaning nagamod naa imaa onibewigamigong nagamod ko .
+# eng = I always listen to him singing in the car and there in his bedroom, he always sings.
+1	nimbizindawaa	bizindaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+3	odaabaaning	odaabaan	NOUN	NA|Loc|NOUN	_	1	obl	_	_
+4	nagamod	nagamo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	naa	naa	PART	PCEmph|PART	_	4	discourse	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	case	_	_
+7	onibewigamigong	nibewigamig	NOUN	NI|Loc|3SgProxPoss|NOUN	_	4	obl	_	_
+8	nagamod	nagamo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+9	ko	ko	PART	PCAsp|PART	_	8	discourse	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 263
+# text = miinawaa ge idi aaningodinong iniw mide-nagamonan ge omiikwa'aanan ,
+# eng = Sometimes too, over there, he'll come out with Mide songs from when he went over to where they do Midewiwin.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	8	dep	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	8	dep	_	_
+3	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	8	dep	_	_
+4	aaningodinong	aaningodinong	ADV	ADVTmp|ADV	_	8	advmod	_	_
+5	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	6	det	_	_
+6	mide-nagamonan	mide-nagamon	NOUN	NI|Pl|NOUN	_	8	obj	_	_
+7	ge	ge	ADV	ADVConj|ADV	_	8	dep	_	_
+8	omiikwa'aanan	miikwa'an	VERB	VTI|Ind|Pos|Neu|3PlObvSubj|0PlObj|VERB	_	0	root	_	_
+9	,	,	PUNCT	,	_	8	punct	_	_
+
+# sent_id = 264
+# text = gii-paa-izhaad iwidi endazhi-midewing .
+# eng = Sometimes too, over there, he'll come out with Mide songs from when he went over to where they do Midewiwin.
+1	gii-paa-izhaad	izhaa	VERB	PVTense/gii|PVDir/baa|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	endazhi-midewing	midewi	VERB	ChCnj|PVRel/dazhi|VAI|Cnj|Pos|Neu|XSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 265
+# text = niibowa ogikendaanan iniw nagamonan ,
+# eng = He knows lots of songs, but he is bashful about singing them.
+1	niibowa	niibowa	ADV	ADVQnt|ADV	_	2	dep	_	_
+2	ogikendaanan	gikendan	VERB	VTI|Ind|Pos|Neu|3PlObvSubj|0PlObj|VERB	_	0	root	_	_
+3	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	4	det	_	_
+4	nagamonan	nagamon	NOUN	NI|Pl|NOUN	_	2	obj	_	_
+5	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 266
+# text = zhaagwenimo dash wii-nagamod .
+# eng = He knows lots of songs, but he is bashful about singing them.
+1	zhaagwenimo	zhaagwenimo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	wii-nagamod	nagamo	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 267
+# text = indoojibwemotawaa ko omaa ayaayaang .
+# eng = I always speak Ojibwe to him when we are together.
+1	indoojibwemotawaa	ojibwemotaw	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+3	omaa	omaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	ayaayaang	ayaa	VERB	VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 268
+# text = miish ongow aanind gaawiin indoojibwemotawaasiwaanaanig .
+# eng = Some of them we do not speak Ojibwe to.
+1	miish	miish	ADV	ADVPred|ADV	_	5	dep	_	_
+2	ongow	ongow	PRON	PRONDem|NA|ProxPl|PRON	_	5	obj	_	_
+3	aanind	aanind	ADV	ADVQnt|ADV	_	5	dep	_	_
+4	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	5	neg	_	_
+5	indoojibwemotawaasiwaanaanig	ojibwemotaw	VERB	VTA|Ind|Neg|Neu|ExclSubj|3PlProxObj|VERB	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 269
+# text = ingii-wanichige niin ,
+# eng = I made that mistake, by not teaching that to my sons.
+1	ingii-wanichige	wanichige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	1	nsubj	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 270
+# text = iw gii-gikinoo'amawaasiwagwaa ingiw ingozisag .
+# eng = I made that mistake, by not teaching that to my sons.
+1	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	2	dep	_	_
+2	gii-gikinoo'amawaasiwagwaa	gikinoo'amaw	VERB	PVTense/gii|VTA|Cnj|Neg|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+3	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	4	det	_	_
+4	ingozisag	gozis	NOUN	NAD|ProxPl|1SgPoss|NOUN	_	2	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 271
+# text = ingii-nitaa-bami'aasiig .
+# eng = That is all I want to tell you.
+1	ingii-nitaa-bami'aasiig	bami'	VERB	PVTense/gii|PVLex/nitaa|VTA|Ind|Neg|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 272
+# text = mii omaa minik ezhi-wiindamoonaan .
+# eng = No English translation.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	omaa	omaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	minik	minik	ADV	ADVQnt|ADV	_	4	dep	_	_
+4	ezhi-wiindamoonaan	wiindamaw	VERB	ChCnj|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|2SgObj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 273
+# text = gaa-izhi-adaaweyaang zhingobaaboo da-ni-maajiidooyaang .
+# eng = So we bought some beer to take along with us.
+1	gaa-izhi-adaaweyaang	adaawen	VERB	PVSub/gaa|PVRel/izhi|VAIO|Cnj|Pos|Neu|ExclSubj|0SgObj|RelCl|VERB	_	0	root	_	_
+2	zhingobaaboo	zhingobaaboo	NOUN	NI|Sg|NOUN	_	3	obj	_	_
+3	da-ni-maajiidooyaang	maajiidoon	VERB	PVTense/da|PVDir/ni|VTI|Cnj|Pos|Neu|ExclSubj|0SgObj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 274
+# text = zhigwa gaa-kibaakwa'igaadeg mii zhigwa maajiibizoyaang .
+# eng = Then once the bar closed we headed out.
+1	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gaa-kibaakwa'igaadeg	gibaakwa'igaade	VERB	ChCnj|PVTense/gii|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+4	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+5	maajiibizoyaang	maajiibizo	VERB	VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	2	dep	_	_
+6	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 275
+# text = ayaamagad imaa ,
+# eng = ” “Oh, over there,” he says.
+1	ayaamagad	ayaamagad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 276
+# text = besho iniw adoopowinan .
+# eng = ” “Oh, over there,” he says.
+1	besho	besho	ADV	ADVLoc|ADV	_	0	root	_	_
+2	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	3	det	_	_
+3	adoopowinan	adoopowin	NOUN	NI|Pl|NOUN	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 277
+# text = mii ingwana ojaanzhish ,
+# eng = ” “Yeah, I hear him.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	ingwana	ingwana	PART	PCDisc|PART	_	1	dep	_	_
+3	ojaanzhish	jaanzh	NOUN	NID|Pej|Sg|3SgProxPoss|NOUN	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 278
+# text = nwaandaagwadinig .
+# eng = ” “Yeah, I hear him.
+1	nwaandaagwadinig	noondaagwad	VERB	ChCnj|VII|Cnj|Pos|Neu|0PlObvSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 279
+# text = mii ojaanzhing wenji-gwiishkoshid imaa .
+# eng = He was whistling from his nose.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	ojaanzhing	jaanzh	NOUN	NID|Loc|3SgProxPoss|NOUN	_	3	obl	_	_
+3	wenji-gwiishkoshid	gwiishkoshi	VERB	ChCnj|PVRel/onji|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 280
+# text = bizindawag ,
+# eng = As I listened to him, here that was what we heard.
+1	bizindawag	bizindaw	VERB	VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 281
+# text = mii ingwana aw gaa-noondamaang .
+# eng = As I listened to him, here that was what we heard.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	ingwana	ingwana	PART	PCDisc|PART	_	4	discourse	_	_
+3	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	4	dep	_	_
+4	gaa-noondamaang	noondan	VERB	ChCnj|PVTense/gii|VTI|Cnj|Pos|Neu|ExclSubj|0PlObj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 282
+# text = nawaj igo ingii-kagiibaadenimaa ,
+# eng = I THOUGHT he was rather foolish, he was better at everything, according to him at least.
+1	nawaj	nawaj	ADV	ADVDeg|ADV	_	3	advmod	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	ingii-kagiibaadenimaa	gagiibaadenim	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 283
+# text = mii dash nawaj wiin akina gegoo gii-nitaawichige ,
+# eng = I THOUGHT he was rather foolish, he was better at everything, according to him at least.
+1	mii	mii	ADV	ADVPred|ADV	_	7	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	7	dep	_	_
+3	nawaj	nawaj	ADV	ADVDeg|ADV	_	2	advmod	_	_
+4	wiin	wiin	PRON	PRONPer|NA|3Sg|PRON	_	7	nsubj	_	_
+5	akina	akina	ADV	ADVQnt|ADV	_	6	advmod	_	_
+6	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	7	dep	_	_
+7	gii-nitaawichige	nitaawichige	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+8	,	,	PUNCT	,	_	7	punct	_	_
+
+# sent_id = 284
+# text = gii-inwaazo .
+# eng = I THOUGHT he was rather foolish, he was better at everything, according to him at least.
+1	gii-inwaazo	inwaazo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 285
+# text = ingii-kosaa go bangii ,
+# eng = I was leery of him a little bit; I thought he was dangerous.
+1	ingii-kosaa	goshi	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	go	go	PART	PCDisc|PART	_	1	discourse	_	_
+3	bangii	bangii	ADV	ADVQnt|ADV	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 286
+# text = ingii-naniizaanenimaa .
+# eng = I was leery of him a little bit; I thought he was dangerous.
+1	ingii-naniizaanenimaa	naniizaanenim	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 287
+# text = jiigi-zaaga'igan ko imaa ingii-tazhi-nitaawigimin aanawi go ogii-nitaawitoon iw jiimaanens .
+# eng = We grew up by the lake.
+1	jiigi-zaaga'igan	jiigi-zaaga'igan	ADV	ADVLoc|ADV	_	4	obl	_	_
+2	ko	ko	PART	PCAsp|PART	_	4	discourse	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	ingii-tazhi-nitaawigimin	nitaawigi	VERB	PVTense/gii|PVRel/dazhi|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+5	aanawi	aanawi	ADV	ADVMan|ADV	_	4	advmod	_	_
+6	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+7	ogii-nitaawitoon	nitaawitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	4	dep	_	_
+8	iw	iw	DET	PRONDem|NI|Sg|DET	_	9	det	_	_
+9	jiimaanens	jiimaan	NOUN	NI|Dim|Sg|NOUN	_	7	obj	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 288
+# text = naa go gaye niin ingii-nitaawitoon .
+# eng = He did know a little about canoeing.
+1	naa	naa	PART	PCEmph|PART	_	5	discourse	_	_
+2	go	go	PART	PCDisc|PART	_	5	discourse	_	_
+3	gaye	gaye	ADV	ADVConj|ADV	_	5	dep	_	_
+4	niin	niin	PRON	PRONPer|NA|1Sg|PRON	_	5	nsubj	_	_
+5	ingii-nitaawitoon	nitaawitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 289
+# text = gaa-izhi-booziyaang idi jiimaaning idi niigaan wii-onabiyaan azhigwa ,
+# eng = So I got into the boat, toward the front, and I'm getting ready to sit down, I was sitting still, Waiting for him to get in.
+1	gaa-izhi-booziyaang	boozi	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	idi	idi	DET	PRONDem|NI|Sg|DET	_	3	det	_	_
+3	jiimaaning	jiimaan	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+4	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+5	niigaan	niigaan	ADV	ADVLoc|ADV	_	1	obl	_	_
+6	wii-onabiyaan	onabi	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	1	dep	_	_
+7	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	6	advmod	_	_
+8	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 290
+# text = bizaanabiyaan nibaabii'aa imaa da-boozid gaye wiin .
+# eng = So I got into the boat, toward the front, and I'm getting ready to sit down, I was sitting still, Waiting for him to get in.
+1	bizaanabiyaan	bizaanabi	VERB	VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	nibaabii'aa	baabii'	VERB	VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	da-boozid	boozi	VERB	PVTense/da|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+5	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+6	wiin	wiin	PRON	PRONPer|NA|3Sg|PRON	_	4	nsubj	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 291
+# text = geget gagiibaadizi a'aw akiwenzhiiyish .
+# eng = Yes, that old man is foolish.
+1	geget	geget	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	gagiibaadizi	gagiibaadizi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	akiwenzhiiyish	akiwenzii	NOUN	NA|Pej|ProxSg|NOUN	_	2	nsubj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 292
+# text = mii dash gaa-izhi-ishkosed gomaa minik aw zhooniyaa .
+# eng = I hada bunch of money left over.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
+3	gaa-izhi-ishkosed	ishkose	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	gomaa	gom	VERB	VTA|Ind|Pos|Neu|XSubj|3SgProxObj|VERB	_	3	dep	_	_
+5	minik	minik	ADV	ADVQnt|ADV	_	3	dep	_	_
+6	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	7	det	_	_
+7	zhooniyaa	zhooniyaa	NOUN	NA|ProxSg|NOUN	_	4	obj	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 293
+# text = gii-piboon gaye gii-gichi-gisinaa .
+# eng = ” “Okay, then.
+1	gii-piboon	biboon	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+3	gii-gichi-gisinaa	gisinaa	VERB	PVTense/gii|PVLex/gichi|VII|Ind|Pos|Neu|0SgSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 294
+# text = mii gaa-izhi-ishkwaa-anokiimagak iw ebizigemagak .
+# eng = So then the heater quit working.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-izhi-ishkwaa-anokiimagak	ishkwaa-anokii	VERB	PVSub/gaa|PVRel/izhi|VAI|Der/magad|VII|Cnj|Pos|Neu|0SgSubj|RelCl|VERB	_	0	root	_	_
+3	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	2	dep	_	_
+4	ebizigemagak	abizige	VERB	VAI|Der/magad|VII|Pcp|Pos|Neu|0SgSubj|0SgHead|RelCl|VERB	_	3	acl:relcl	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 295
+# text = mii azhigwa giikajiyaang babaamibizoyaang imaa .
+# eng = Now we were getting cold driving around.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+3	giikajiyaang	giikaji	VERB	VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+4	babaamibizoyaang	babaamibizo	VERB	VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	3	dep	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 296
+# text = namanj gaa-izhichigewaangen imaa gaa-izhi-baakaakonangid aw odaabaan imaa ishkweyaang gii-atemagad imaa chi-makak .
+# eng = I don't know what we were doing, but we opened the trunk and there was a big box sitting in there.
+1	namanj	namanj	ADV	ADVDub|ADV	_	2	dep	_	_
+2	gaa-izhichigewaangen	izhichige	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Dub|ExclSubj|VERB	_	0	root	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gaa-izhi-baakaakonangid	baakaakon	VERB	PVSub/gaa|PVRel/izhi|VTA|Cnj|Pos|Neu|ExclSubj|3SgProxObj|RelCl|VERB	_	5	acl:relcl	_	_
+5	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	2	dep	_	_
+7	imaa	imaa	ADV	ADVLoc|ADV	_	8	case	_	_
+8	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	4	obl	_	_
+9	gii-atemagad	atemagad	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	2	dep	_	_
+10	imaa	imaa	ADV	ADVLoc|ADV	_	9	obl	_	_
+11	chi-makak	makak	NOUN	PNLex/chi|NI|Sg|NOUN	_	9	nsubj	_	_
+12	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 297
+# text = mewinzha ko gii-niimi'idiwaad imaa niimi'idiiwigamigong ,
+# eng = A LONG TIME AGO WHEN THEY USED TO HAVE DANCES at the dance hall, we used to watch from the outside.
+1	mewinzha	mewinzha	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	gii-niimi'idiwaad	niimi'idiwag	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3PlProxSubj|3PlProxObj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	niimi'idiiwigamigong	niimi'idiiwigamig	NOUN	NI|Loc|NOUN	_	3	obl	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 298
+# text = mii maa agwajiing gaa-onzaabiyaang .
+# eng = A LONG TIME AGO WHEN THEY USED TO HAVE DANCES at the dance hall, we used to watch from the outside.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	maa	maa	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	agwajiing	agwajiing	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gaa-onzaabiyaang	onzaabi	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 299
+# text = wa ,
+# eng = Wa, I noticed a girl I had never seen before that had gone inside there, and she was cute too.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 300
+# text = ingii-mayaginawaa awiya ikwezens imaa gaa-piindiged ,
+# eng = Wa, I noticed a girl I had never seen before that had gone inside there, and she was cute too.
+1	ingii-mayaginawaa	mayaginaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	awiya	awiya	PRON	PRONIndf|NA|PRON	_	1	dep	_	_
+3	ikwezens	ikwezens	NOUN	NA|ProxSg|NOUN	_	1	obj	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+5	gaa-piindiged	biindige	VERB	PVTense/gii|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|RelCl|VERB	_	4	acl:relcl	_	_
+6	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 301
+# text = waanda-jiikinaagozi gaye .
+# eng = Wa, I noticed a girl I had never seen before that had gone inside there, and she was cute too.
+1	waanda-jiikinaagozi	jiikinaagozi	VERB	PVLex/waanda|VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 302
+# text = wa .
+# eng = Wa.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 303
+# text = mii iw waawiizhaandiwaad imaa biindig ,
+# eng = ” I thought while they were exchanging blankets with each other there inside during the ladies' dance.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	3	dep	_	_
+3	waawiizhaandiwaad	waawiizhaandiwag	VERB	VAI|Cnj|Pos|Neu|3PlProxSubj|3PlProxObj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	biindig	biindig	ADV	ADVLoc|ADV	_	3	obl	_	_
+6	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 304
+# text = ikwe-niimi'iding .
+# eng = ” I thought while they were exchanging blankets with each other there inside during the ladies' dance.
+1	ikwe-niimi'iding	ikwe-niimi'idiwag	VERB	VAI|Cnj|Pos|Neu|XSubj|XObj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 305
+# text = gaa-o-izhi-booziyaan imaa indoodaabaaning imaa nawaj wii-minikweyaan .
+# eng = So I got in my car and drank some more.
+1	gaa-o-izhi-booziyaan	boozi	VERB	ChCnj|PVTense/gii|PVDir/o|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	case	_	_
+3	indoodaabaaning	odaabaan	NOUN	NA|Loc|1SgPoss|NOUN	_	1	obl	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+5	nawaj	nawaj	ADV	ADVDeg|ADV	_	4	advmod	_	_
+6	wii-minikweyaan	minikwen	VERB	PVTense/wii|VAIO|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 306
+# text = gaa-izhi-maaminonendamaan apabaadamaan ow waabooyaanish imaa indoodaabaaning .
+# eng = I then realized I was sitting on an old blanket there inside of my car.
+1	gaa-izhi-maaminonendamaan	maaminonendan	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+2	apabaadamaan	apabaadan	VERB	VTI|Cnj|Pos|Neu|1SgSubj|0SgObj|VERB	_	1	dep	_	_
+3	ow	ow	DET	PRONDem|NI|Sg|DET	_	4	det	_	_
+4	waabooyaanish	waabooyaan	NOUN	NI|Pej|Sg|NOUN	_	2	obj	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	case	_	_
+6	indoodaabaaning	odaabaan	NOUN	NI|Loc|1SgPoss|NOUN	_	2	obl	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 307
+# text = mii imaa gaa-onji-gikenimag dash .
+# eng = That is how I got to know her.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-onji-gikenimag	gikenim	VERB	ChCnj|PVTense/gii|PVRel/onji|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 308
+# text = miinawaa gaa-ishkwaa-nagamong miinawaa bezhig imaa gii-pi-azhe-miizhid .
+# eng = After the song was over, she came and gave me another one back.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	2	dep	_	_
+2	gaa-ishkwaa-nagamong	nagamo	VERB	ChCnj|PVTense/gii|PVLex/ishkwaa|VAI|Cnj|Pos|Neu|XSubj|VERB	_	0	root	_	_
+3	miinawaa	miinawaa	ADV	ADVConj|ADV	_	2	dep	_	_
+4	bezhig	bezhig	NUM	NUM	_	2	dep	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+6	gii-pi-azhe-miizhid	azhe-miizh	VERB	PVTense/gii|PVDir/bi|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	2	dep	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 309
+# text = awegodogwen gaa-miizhigwen maagizhaa bezhigwaabik .
+# eng = I don't know what it was that she gave me; maybe it was a dollar.
+1	awegodogwen	awegodogwen	PRON	PRONDub|NI|Sg|PRON	_	2	iobj	_	_
+2	gaa-miizhigwen	miizh	VERB	ChCnj|PVTense/gii|VTA|Cnj|Pos|Dub|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+3	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	2	advmod	_	_
+4	bezhigwaabik	bezhigwaabik	NOUN	NA|ProxSg|NOUN	_	2	nsubj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 310
+# text = mii gii-wiijishimotawag ,
+# eng = So I danced with her and that is how I started to know her then.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gii-wiijishimotawag	wiijishimotaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 311
+# text = mii imaa gaa-onji-gikenimag dash .
+# eng = So I danced with her and that is how I started to know her then.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gaa-onji-gikenimag	gikenim	VERB	ChCnj|PVTense/gii|PVRel/onji|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 312
+# text = mii gii-nagadenimag aw ikwezens .
+# eng = I had gotten myself acquainted with that girl.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gii-nagadenimag	nagadenim	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+3	aw	aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	ikwezens	ikwezens	NOUN	NA|ProxSg|NOUN	_	2	obj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 313
+# text = mii iw .
+# eng = That's it.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 314
+# text = anooj ko ingii-inanokii iwidi gaa-tazhi-nitaawigiyaan wii-kashki'agwaa ingiw zhooniyaansag .
+# eng = I USED TO DO ALL KINDS OF WORK OVER WHERE I WAS raised to earn that money.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+3	ingii-inanokii	inanokii	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	iwidi	iwidi	ADV	ADVLoc|ADV	_	5	obl	_	_
+5	gaa-tazhi-nitaawigiyaan	nitaawigi	VERB	ChCnj|PVTense/gii|PVRel/dazhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	3	dep	_	_
+6	wii-kashki'agwaa	gashki'	VERB	PVTense/wii|VTA|Cnj|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	3	dep	_	_
+7	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	8	det	_	_
+8	zhooniyaansag	zhooniyaans	NOUN	NA|ProxPl|NOUN	_	6	obj	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 315
+# text = shke ingoji go ingii-ashi-naano-biboonagiz ingii-ayaawaa go gayat gaye odaabaan .
+# eng = See, sometime when I was around fifteen years old, I already had a car.
+1	shke	shke	PART	PCDisc|PART	_	4	discourse	_	_
+2	ingoji	ingoji	ADV	ADVDeg|ADV	_	4	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+4	ingii-ashi-naano-biboonagiz	biboonagizi	VERB	PVTense/gii|PVQnt/ashi-naano|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	ingii-ayaawaa	ayaaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	4	dep	_	_
+6	go	go	PART	PCDisc|PART	_	5	discourse	_	_
+7	gayat	gayat	ADV	ADVTmp|ADV	_	5	advmod	_	_
+8	gaye	gaye	ADV	ADVConj|ADV	_	4	dep	_	_
+9	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	5	obj	_	_
+10	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 316
+# text = zhigwa wayaabaninig gaye wiin idi bagamibizo ,
+# eng = So there is when I told him where we would be peeling pulp.
+1	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	wayaabaninig	waaban	VERB	ChCnj|VII|Cnj|Pos|Neu|0SgObvSubj|VERB	_	0	root	_	_
+3	gaye	gaye	ADV	ADVConj|ADV	_	2	dep	_	_
+4	wiin	wiin	PRON	PRONPer|NA|3Sg|PRON	_	6	nsubj	_	_
+5	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	2	dep	_	_
+6	bagamibizo	bagamibizo	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+7	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 317
+# text = gaa-noogitaad imaa ,
+# eng = So there is when I told him where we would be peeling pulp.
+1	gaa-noogitaad	noogitaa	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 318
+# text = gewiin gabaad ,
+# eng = So there is when I told him where we would be peeling pulp.
+1	gewiin	gewiin	PRON	PRONPer|NA|3Sg|PRON	_	2	nsubj	_	_
+2	gabaad	gabaa	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 319
+# text = onawapwaan gaye odayaan .
+# eng = So there is when I told him where we would be peeling pulp.
+1	onawapwaan	nawapwaan	NOUN	NI|Sg|3SgProxPoss|NOUN	_	3	obj	_	_
+2	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
+3	odayaan	ayaan	VERB	VTI|Ind|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 320
+# text = mii omaa besho imaa gii-izhaayaang jiigikana imaa okwaakoshinoog ingiw azaadiinsag .
+# eng = So then in the morning, he came pulling up; he stopped there, he sot out of the car and he had his lunch too.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	omaa	omaa	ADV	ADVLoc|ADV	_	3	case	_	_
+3	besho	besho	ADV	ADVLoc|ADV	_	5	obl	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	obl	_	_
+5	gii-izhaayaang	izhaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+6	jiigikana	jiigikana	ADV	ADVLoc|ADV	_	5	obl	_	_
+7	imaa	imaa	ADV	ADVLoc|ADV	_	8	obl	_	_
+8	okwaakoshinoog	okwaakoshinoog	VERB	VAIPL|Ind|Pos|Neu|3PlProxSubj|VERB	_	5	dep	_	_
+9	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	10	det	_	_
+10	azaadiinsag	azaadi	NOUN	NA|Dim|ProxPl|NOUN	_	8	nsubj	_	_
+11	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 321
+# text = niwaanda-dadaatabiimin gaye .
+# eng = ” Wa.
+1	niwaanda-dadaatabiimin	dadaatabii	VERB	PVLex/waanda|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 322
+# text = zhigwa gaa-pimibizod odaabaan zhigwa miinawaa biidaasamosed .
+# eng = ” And after the car went by he came walking back.
+1	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gaa-pimibizod	bimibizo	VERB	PVTense/gii|VAI|Pcp|Pos|Neu|3SgProxSubj|3SgProxHead|RelCl|VERB	_	0	root	_	_
+3	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	6	nsubj	_	_
+4	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+5	miinawaa	miinawaa	ADV	ADVConj|ADV	_	2	dep	_	_
+6	biidaasamosed	biidaasamose	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+7	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 323
+# text = miinawaa maajitaayaang miinawaa mii zhigwa biidwewebizod bezhig odaabaan miinawaa imaa maajiibatood da-o-gawishimwebagizod idi megwayaak .
+# eng = ” I didn't think any-thing of it.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	2	dep	_	_
+2	maajitaayaang	maajitaa	VERB	VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	miinawaa	miinawaa	ADV	ADVConj|ADV	_	2	dep	_	_
+4	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+5	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+6	biidwewebizod	biidwewebizo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+7	bezhig	bezhig	NUM	NUM	_	8	nummod	_	_
+8	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	6	nsubj	_	_
+9	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	13	cc	_	_
+10	imaa	imaa	ADV	ADVLoc|ADV	_	11	obl	_	_
+11	maajiibatood	maajiibatoo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+12	da-o-gawishimwebagizod	gawishimwebagizo	VERB	PVTense/da|PVDir/o|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+13	idi	idi	PRON	PRONDem|NI|Sg|PRON	_	8	conj	_	_
+14	megwayaak	megwayaak	ADV	ADVLoc|ADV	_	12	obl	_	_
+15	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 324
+# text = ganabaj eta go ningo-giizhik ingii-wiidookaag .
+# eng = I think it was only one day he helped me.
+1	ganabaj	ganabaj	ADV	ADVMan|ADV	_	5	advmod	_	_
+2	eta	eta	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	5	discourse	_	_
+4	ningo-giizhik	giizhik	NOUN	PNQnt/ngo|NA|ProxSg|1SgPoss|NOUN	_	5	nsubj	_	_
+5	ingii-wiidookaag	wiidookaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+6	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 325
+# text = meta go ningo-giizhik gii-wiidookawid .
+# eng = It was only one day that he helped me.
+1	meta	meta	ADV	ADVMan|ADV	_	4	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	4	discourse	_	_
+3	ningo-giizhik	giizhik	NOUN	PNQnt/ngo|NA|ProxSg|1SgPoss|NOUN	_	4	nsubj	_	_
+4	gii-wiidookawid	wiidookaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|3SgProxSubj|1SgObj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 326
+# text = miinawaa go ge weweni ko ingii-aabaakawizimin ko aaningodinong gegoo wii-izhichigeyaang .
+# eng = We'd come to our senses now and then with what we were doing.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	6	dep	_	_
+2	go	go	PART	PCDisc|PART	_	6	discourse	_	_
+3	ge	ge	ADV	ADVConj|ADV	_	6	dep	_	_
+4	weweni	weweni	ADV	ADVMan|ADV	_	6	advmod	_	_
+5	ko	ko	PART	PCAsp|PART	_	6	discourse	_	_
+6	ingii-aabaakawizimin	aabaakawizi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+7	ko	ko	PART	PCAsp|PART	_	6	discourse	_	_
+8	aaningodinong	aaningodinong	ADV	ADVTmp|ADV	_	6	advmod	_	_
+9	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	6	dep	_	_
+10	wii-izhichigeyaang	izhichige	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	6	dep	_	_
+11	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 327
+# text = azhigwa sa aabiding azhigwa wii-maajitaawaad wii-manoominikewaad ,
+# eng = Now one time, when they were getting ready for ricing, we too were getting ready to go ricing on Friday.
+1	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	5	advmod	_	_
+2	sa	sa	PART	PCDisc|PART	_	5	discourse	_	_
+3	aabiding	aabiding	ADV	ADVTmp|ADV	_	5	advmod	_	_
+4	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	5	advmod	_	_
+5	wii-maajitaawaad	maajitaa	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+6	wii-manoominikewaad	manoominike	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	5	dep	_	_
+7	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 328
+# text = gaye niinawind gaa-izhi-ozhiitaayaang wii-manoominikeyaang gaa-naano-giizhigak .
+# eng = Now one time, when they were getting ready for ricing, we too were getting ready to go ricing on Friday.
+1	gaye	gaye	ADV	ADVConj|ADV	_	3	dep	_	_
+2	niinawind	niinawind	PRON	PRONPer|NA|Excl|PRON	_	3	nsubj	_	_
+3	gaa-izhi-ozhiitaayaang	ozhiitaa	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+4	wii-manoominikeyaang	manoominike	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	3	dep	_	_
+5	gaa-naano-giizhigak	naano-giizhigad	VERB	ChCnj|PVTense/gii|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	3	dep	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 329
+# text = booch dash akawe gii-naano-giizhigak ,
+# eng = We'd absolutely have to, on Fridays; we'd just have to go out drinking, hitting the bars all over.
+1	booch	booch	ADV	ADVMan|ADV	_	4	advmod	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	akawe	akawe	ADV	ADVTmp|ADV	_	4	advmod	_	_
+4	gii-naano-giizhigak	naano-giizhigad	VERB	PVTense/gii|VII|Cnj|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 330
+# text = booch dash akawe gii-paa-minikweyaang ,
+# eng = We'd absolutely have to, on Fridays; we'd just have to go out drinking, hitting the bars all over.
+1	booch	booch	ADV	ADVMan|ADV	_	4	advmod	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	akawe	akawe	ADV	ADVTmp|ADV	_	4	advmod	_	_
+4	gii-paa-minikweyaang	minikwe	VERB	PVTense/gii|PVDir/baa|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+5	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 331
+# text = bebakaan ziiginigewigamigoon baa-baabiindigeyaang .
+# eng = We'd absolutely have to, on Fridays; we'd just have to go out drinking, hitting the bars all over.
+1	bebakaan	bebakaan	ADV	ADVMan|ADV	_	3	advmod	_	_
+2	ziiginigewigamigoon	ziiginigewigamig	NOUN	NI|Pl|NOUN	_	3	dep	_	_
+3	baa-baabiindigeyaang	baabiindigewag	VERB	PVDir/baa|VAIPL|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 332
+# text = mii gaa-izhi-azhegiiweyaang gii-o-gawibiiyaang .
+# eng = We're going ricing tomorrow.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-izhi-azhegiiweyaang	azhegiiwe	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	gii-o-gawibiiyaang	gawibii	VERB	PVTense/gii|PVDir/o|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	2	dep	_	_
+4	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 333
+# text = gii-izhaayaang iwidi zaaga'iganing waa-tazhi-bawa'amaang .
+# eng = So then we went home and passed out.
+1	gii-izhaayaang	izhaa	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	zaaga'iganing	zaaga'igan	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+4	waa-tazhi-bawa'amaang	bawa'an	VERB	ChCnj|PVTense/wii|PVRel/dazhi|VTI|Cnj|Pos|Neu|ExclSubj|0PlObj|VERB	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 334
+# text = noopiming imaa apatooyaan imaa nendawaabandamaan waa-tazhi-zaaga'amaan .
+# eng = ” “What the heck?
+1	noopiming	noopiming	ADV	ADVLoc|ADV	_	3	obl	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	apatooyaan	apatoo	VERB	VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+5	nendawaabandamaan	nandawaabandan	VERB	VTI|Pcp|Pos|Neu|1SgSubj|0SgObj|0SgHead|RelCl|VERB	_	4	acl:relcl	_	_
+6	waa-tazhi-zaaga'amaan	zaaga'am	VERB	ChCnj|PVTense/wii|PVRel/dazhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	3	dep	_	_
+7	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 335
+# text = mii azhigwa sa geget gaa-ani-naazhwebinag nigiboodiyegwaazonish ,
+# eng = ” “I have to use the bathroom, I think I have the runs.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	5	advmod	_	_
+3	sa	sa	PART	PCDisc|PART	_	5	discourse	_	_
+4	geget	geget	ADV	ADVMan|ADV	_	5	advmod	_	_
+5	gaa-ani-naazhwebinag	naazhwebin	VERB	ChCnj|PVTense/gii|PVDir/ani|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+6	nigiboodiyegwaazonish	giboodiyegwaazon	NOUN	NA|Pej|ProxSg|1SgPoss|NOUN	_	5	obj	_	_
+7	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 336
+# text = biitooshkiganish .
+# eng = ” “I have to use the bathroom, I think I have the runs.
+1	biitooshkiganish	biitooshkigan	NOUN	NI|Pej|Sg|NOUN	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 337
+# text = wa !
+# eng = ” “Alrighty then.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 338
+# text = mii ezhi-noondawagwaa baapiwaad iwidi .
+# eng = ” “I'm crapping on bees here.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	ezhi-noondawagwaa	noondaw	VERB	ChCnj|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+3	baapiwaad	baapi	VERB	VAI|Cnj|Pos|Neu|3PlProxSubj|VERB	_	2	dep	_	_
+4	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 339
+# text = wa !
+# eng = ” Then those bees left me alone, they had put me in some serious pain, I was hurting from those bees stinging and poking me.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 340
+# text = gomaa minik-sh imaa ingii-kashkitoomin iw manoomin ,
+# eng = We were able to get a little bit of rice, a decent amount.
+1	gomaa	gomaa	ADV	ADVDeg|ADV	_	2	advmod	_	_
+2	minik-sh	minik	ADV	ADVQnt|CL/ADVConj/dash|ADV	_	4	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	ingii-kashkitoomin	gashkitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|ExclSubj|0SgObj|VERB	_	0	root	_	_
+5	iw	iw	DET	PRONDem|NI|Sg|DET	_	6	det	_	_
+6	manoomin	manoomin	NOUN	NI|Sg|NOUN	_	4	obj	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 341
+# text = gomaa minik .
+# eng = We were able to get a little bit of rice, a decent amount.
+1	gomaa	gomaa	ADV	ADVDeg|ADV	_	0	root	_	_
+2	minik	minik	ADV	ADVQnt|ADV	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 342
+# text = gaa-izhi-agwaataayaang .
+# eng = ” “Okay,” he said.
+1	gaa-izhi-agwaataayaang	agwaataa	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 343
+# text = mii zhigwa gii-piinitooyaang iw jiimaan akina manoomin gii-atooyaang iw imaa mashkimodaang .
+# eng = Then we made our way back to shore.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+3	gii-piinitooyaang	biinitoon	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|ExclSubj|0SgObj|VERB	_	0	root	_	_
+4	iw	iw	DET	PRONDem|NI|Sg|DET	_	5	det	_	_
+5	jiimaan	jiimaan	NOUN	NI|Sg|NOUN	_	3	obj	_	_
+6	akina	akina	ADV	ADVQnt|ADV	_	3	dep	_	_
+7	manoomin	manoomin	NOUN	NI|Sg|NOUN	_	8	obj	_	_
+8	gii-atooyaang	atoon	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|ExclSubj|0SgObj|VERB	_	3	dep	_	_
+9	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	3	dep	_	_
+10	imaa	imaa	ADV	ADVLoc|ADV	_	11	case	_	_
+11	mashkimodaang	mashkimod	NOUN	NI|Loc|NOUN	_	8	obl	_	_
+12	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 344
+# text = geget sa go ningodooshkin ganage go naa ingii-kashkitoomin .
+# eng = Now we cleaned out the boat, putting all of the rice into a bag.
+1	geget	geget	ADV	ADVMan|ADV	_	8	advmod	_	_
+2	sa	sa	PART	PCDisc|PART	_	8	discourse	_	_
+3	go	go	PART	PCDisc|PART	_	8	discourse	_	_
+4	ningodooshkin	ningodooshkin	NUM	NUM	_	8	dep	_	_
+5	ganage	ganage	ADV	ADVMan|ADV	_	8	advmod	_	_
+6	go	go	PART	PCDisc|PART	_	8	discourse	_	_
+7	naa	naa	PART	PCEmph|PART	_	8	discourse	_	_
+8	ingii-kashkitoomin	gashkitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|ExclSubj|0PlObj|VERB	_	0	root	_	_
+9	.	.	PUNCT	.	_	8	punct	_	_
+
+# sent_id = 345
+# text = zhigwa gaa-tagoshinaang di endaayaang ,
+# eng = When we had arrived over at our house, he ran inside to tell everybody.
+1	zhigwa	zhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gaa-tagoshinaang	dagoshin	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	di	di	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	2	dep	_	_
+4	endaayaang	daa	VERB	ChCnj|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	2	dep	_	_
+5	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 346
+# text = oonh yay biindigebatood akina awiya imaa endaayaang o-wiindamaaged .
+# eng = When we had arrived over at our house, he ran inside to tell everybody.
+1	oonh	oonh	PART	PCDisc|PART	_	3	discourse	_	_
+2	yay	yay	INTJ	PCInterj|INTJ	_	3	dep	_	_
+3	biindigebatood	biindigebatoo	VERB	VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	akina	akina	ADV	ADVQnt|ADV	_	5	advmod	_	_
+5	awiya	awiya	PRON	PRONIndf|NA|PRON	_	3	dep	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+7	endaayaang	daa	VERB	ChCnj|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	3	dep	_	_
+8	o-wiindamaaged	wiindamaage	VERB	PVDir/o|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+9	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 347
+# text = namanj iidog ge gaa-onji-izhiwebiziwaagwen imaa .
+# eng = Into the bathroom I went, now wanting to take a shower, I pulled down my pants and found seventeen bees there that had died.
+1	namanj	namanj	ADV	ADVDub|ADV	_	4	dep	_	_
+2	iidog	iidog	PART	PCAsp|PART	_	4	discourse	_	_
+3	ge	ge	ADV	ADVConj|ADV	_	4	dep	_	_
+4	gaa-onji-izhiwebiziwaagwen	izhiwebizi	VERB	ChCnj|PVTense/gii|PVRel/onji|VAI|Cnj|Pos|Dub|3PlProxSubj|VERB	_	0	root	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 348
+# text = miinawaa ge ingii-paagish ,
+# eng = | wondered what had happened to them.
+1	miinawaa	miinawaa	ADV	ADVConj|ADV	_	3	dep	_	_
+2	ge	ge	ADV	ADVConj|ADV	_	3	dep	_	_
+3	ingii-paagish	baagishi	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 349
+# text = giziibiigazheyaan .
+# eng = | wondered what had happened to them.
+1	giziibiigazheyaan	giziibiigazhe	VERB	VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 350
+# text = gegaa go ingii-aakoziishkaagoog ingiw aamoog .
+# eng = I was just swelled up too, when I took a shower.
+1	gegaa	gegaa	ADV	ADVDeg|ADV	_	3	advmod	_	_
+2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
+3	ingii-aakoziishkaagoog	aakoziishkaw	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3PlProxSubj|1SgObj|VERB	_	0	root	_	_
+4	ingiw	ingiw	DET	PRONDem|NA|ProxPl|DET	_	5	det	_	_
+5	aamoog	aamoo	NOUN	NA|ProxPl|NOUN	_	3	nsubj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 351
+# text = wa .
+# eng = Well, it was one dollar per pound.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 352
+# text = gii-ayaamagad imaa ziiginigewigamigong imaa ishkoniganing bezhig .
+# eng = ” “Okay,” he said.
+1	gii-ayaamagad	ayaamagad	VERB	PVTense/gii|VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	case	_	_
+3	ziiginigewigamigong	ziiginigewigamig	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	ishkoniganing	ishkonigan	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+6	bezhig	bezhig	NUM	NUM	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 353
+# text = mii iw bezhig gaa-izhiwebiziyaan gii-minikweyaan .
+# eng = That's one thing that happened to me when I was drinking.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
+3	bezhig	bezhig	NUM	NUM	_	4	dep	_	_
+4	gaa-izhiwebiziyaan	izhiwebizi	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	gii-minikweyaan	minikwe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	4	dep	_	_
+6	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 354
+# text = anooj igo bakaan indaa-dadibaajim omaa gaa-izhiwebiziyaan gii-minikweyaan .
+# eng = I could tell all kinds of stories about what happened to me when I was drinking.
+1	anooj	anooj	ADV	ADVQnt|ADV	_	4	dep	_	_
+2	igo	igo	PART	PCEmph|PART	_	4	discourse	_	_
+3	bakaan	bakaan	ADV	ADVMan|ADV	_	4	advmod	_	_
+4	indaa-dadibaajim	dadibaajimo	VERB	PVTense/daa|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	omaa	omaa	ADV	ADVLoc|ADV	_	7	obl	_	_
+6	gaa-izhiwebiziyaan	izhiwebizi	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|1SgSubj|RelCl|VERB	_	5	acl:relcl	_	_
+7	gii-minikweyaan	minikwe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	4	dep	_	_
+8	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 355
+# text = meta go minik .
+# eng = That's enough.
+1	meta	meta	ADV	ADVMan|ADV	_	0	root	_	_
+2	go	go	PART	PCDisc|PART	_	1	dep	_	_
+3	minik	minik	ADV	ADVQnt|ADV	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 356
+# text = wii-izhaayaan iwidi chi-oodenaang ,
+# eng = WHEN I WANT TO GO TO THE BIG CITY, I FIRST TAKE MY car to the garage.
+1	wii-izhaayaan	izhaa	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	case	_	_
+3	chi-oodenaang	oodena	NOUN	PNLex/chi|NI|Loc|NOUN	_	1	obl	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 357
+# text = akawe indoodaabaan gaa-izhi-izhiwinag imaa odaabaanikewigamigong .
+# eng = WHEN I WANT TO GO TO THE BIG CITY, I FIRST TAKE MY car to the garage.
+1	akawe	akawe	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	indoodaabaan	odaabaan	NOUN	NA|ProxSg|1SgPoss|NOUN	_	3	obj	_	_
+3	gaa-izhi-izhiwinag	izhiwizh	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	odaabaanikewigamigong	odaabaanikewigamig	NOUN	NI|Loc|NOUN	_	3	obl	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 358
+# text = ogii-aanjitoonaawaa iw akawe bimide .
+# eng = First of all, they changed the oil.
+1	ogii-aanjitoonaawaa	aanjitoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|3PlProxSubj|0SgObj|VERB	_	0	root	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	obj	_	_
+3	akawe	akawe	ADV	ADVTmp|ADV	_	1	advmod	_	_
+4	bimide	bimide	NOUN	NI|Sg|NOUN	_	1	dep	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 359
+# text = gaa-kiizhi'aawaad ,
+# eng = When they have finished, I got a car wash.
+1	gaa-kiizhi'aawaad	giizhi'	VERB	ChCnj|PVTense/gii|VTA|Cnj|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 360
+# text = gaa-o-izhi-giziibiiginag indoodaabaan .
+# eng = When they have finished, I got a car wash.
+1	gaa-o-izhi-giziibiiginag	giziibiigin	VERB	ChCnj|PVTense/gii|PVDir/o|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	indoodaabaan	odaabaan	NOUN	NA|ProxSg|1SgPoss|NOUN	_	1	obj	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 361
+# text = azhigwa sa eni-maajiibizoyaan ,
+# eng = Then when I started off, driving along, I had a blowout.
+1	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	sa	sa	PART	PCDisc|PART	_	3	discourse	_	_
+3	eni-maajiibizoyaan	maajiibizo	VERB	ChCnj|PVDir/ani|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 362
+# text = bimibizoyaan ,
+# eng = Then when I started off, driving along, I had a blowout.
+1	bimibizoyaan	bimibizo	VERB	VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 363
+# text = gaa-izhi-baashkijiisijigeyaan .
+# eng = Then when I started off, driving along, I had a blowout.
+1	gaa-izhi-baashkijiisijigeyaan	baashkijiisijige	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 364
+# text = mii opime-ayi'ii weweni gaa-izhi-ipizoyaan imaa miikanaang .
+# eng = I carefully pulled over onto the shoulder of the road.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	opime-ayi'ii	opime-ayi'ii	ADV	ADVLoc|ADV	_	4	obl	_	_
+3	weweni	weweni	ADV	ADVMan|ADV	_	4	advmod	_	_
+4	gaa-izhi-ipizoyaan	ipizo	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	case	_	_
+6	miikanaang	miikana	NOUN	NI|Loc|NOUN	_	4	obl	_	_
+7	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 365
+# text = imaa ishkweyaang namanjinikaang ,
+# eng = It was there in the rear, driver's side, that had blown out.
+1	imaa	imaa	ADV	ADVLoc|ADV	_	0	root	_	_
+2	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	3	case	_	_
+3	namanjinikaang	namanjinik	NOUN	NI|Loc|NOUN	_	1	dep	_	_
+4	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 366
+# text = mii imaa gii-paashkijiishing .
+# eng = It was there in the rear, driver's side, that had blown out.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gii-paashkijiishing	baashkijiishin	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 367
+# text = mii gaa-izhi-baakaakonamaan imaa ishkweyaang ,
+# eng = I then opened up the trunk, where the tools are kept.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-izhi-baakaakonamaan	baakaakonan	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	2	obl	_	_
+5	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 368
+# text = ateg iniw aabajichiganan .
+# eng = I then opened up the trunk, where the tools are kept.
+1	ateg	ate	VERB	VII|Cnj|Pos|Neu|0PlSubj|VERB	_	0	root	_	_
+2	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	3	det	_	_
+3	aabajichiganan	aabajichigan	NOUN	NI|Pl|NOUN	_	1	nsubj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 369
+# text = gaa-izhi-mamag a'aw ombaakwa'igan .
+# eng = I then took out the jack.
+1	gaa-izhi-mamag	mami	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	3	det	_	_
+3	ombaakwa'igan	ombaakwa'igan	NOUN	NA|ProxSg|NOUN	_	1	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 370
+# text = mii dash imaa anaamidaabaan gii-shegonag a'aw ombaakwa'igan ,
+# eng = And underneath the car is where I snugly fit the jack, and I took out the tire iron.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	anaamidaabaan	anaamidaabaan	ADV	ADVLoc|ADV	_	5	obl	_	_
+5	gii-shegonag	zhegon	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+6	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	7	det	_	_
+7	ombaakwa'igan	ombaakwa'igan	NOUN	NA|ProxSg|NOUN	_	5	obj	_	_
+8	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 371
+# text = gii-mamooyaan iniw biiwaabikoon ayaabajichigaadegin .
+# eng = And underneath the car is where I snugly fit the jack, and I took out the tire iron.
+1	gii-mamooyaan	mamoon	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+2	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	3	det	_	_
+3	biiwaabikoon	biiwaabik	NOUN	NI|Pl|NOUN	_	1	obj	_	_
+4	ayaabajichigaadegin	aabajichigaade	VERB	VII|Pcp|Pos|Neu|0PlSubj|0PlHead|RelCl|VERB	_	3	acl:relcl	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 372
+# text = azhigwa gii-shegosidooyaan imaa ombaakwa'iganing .
+# eng = Now I fit the iron there in the jack.
+1	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	2	advmod	_	_
+2	gii-shegosidooyaan	zhegosidoon	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	case	_	_
+4	ombaakwa'iganing	ombaakwa'igan	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 373
+# text = bangii igo ingii-ombaakwa'waa a'aw odaabaan .
+# eng = I jacked up the car a little bit.
+1	bangii	bangii	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	igo	igo	PART	PCEmph|PART	_	3	discourse	_	_
+3	ingii-ombaakwa'waa	ombaakwa'	VERB	PVTense/gii|VTA|Ind|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	5	det	_	_
+5	odaabaan	odaabaan	NOUN	NA|ProxSg|NOUN	_	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 374
+# text = gaa-keshawa'amaan ,
+# eng = After loosening them up, I then carefully jacked the car up all the way.
+1	gaa-keshawa'amaan	geshawa'an	VERB	ChCnj|PVTense/gii|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 375
+# text = mii akina gaa-izhi-ombaakwa'wag weweni .
+# eng = After loosening them up, I then carefully jacked the car up all the way.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	akina	akina	ADV	ADVQnt|ADV	_	3	dep	_	_
+3	gaa-izhi-ombaakwa'wag	ombaakwa'	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+4	weweni	weweni	ADV	ADVMan|ADV	_	3	advmod	_	_
+5	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 376
+# text = gaa-ombaakwa'wag ,
+# eng = After jack-ing up the car, I took off the lug nuts and took off the tire that had blown.
+1	gaa-ombaakwa'wag	ombaakwa'	VERB	ChCnj|PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 377
+# text = mii dash gii-pakwajibidooyaan iniw biimiskonigaansan gii-mamag a'aw ozid gaa-paashkijiishing .
+# eng = After jack-ing up the car, I took off the lug nuts and took off the tire that had blown.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
+3	gii-pakwajibidooyaan	bakwajibidoon	VERB	PVTense/gii|VTI|Cnj|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+4	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	5	det	_	_
+5	biimiskonigaansan	biimiskonigan	NOUN	NI|Dim|Pl|NOUN	_	3	obj	_	_
+6	gii-mamag	mami	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	3	dep	_	_
+7	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	6	obj	_	_
+8	ozid	zid	NOUN	NID|Sg|3SgProxPoss|NOUN	_	3	dep	_	_
+9	gaa-paashkijiishing	baashkijiishin	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	3	dep	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 378
+# text = bangii go ingii-mashkawibidoonan .
+# eng = I only tightened them a little.
+1	bangii	bangii	ADV	ADVQnt|ADV	_	3	dep	_	_
+2	go	go	PART	PCDisc|PART	_	3	discourse	_	_
+3	ingii-mashkawibidoonan	mashkawibidoon	VERB	PVTense/gii|VTI|Ind|Pos|Neu|1SgSubj|0PlObj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 379
+# text = mii dash miinawaa gaa-izhi-mamag a'aw ombaakwa'igan ,
+# eng = I then took the jack and returned it to its place in the trunk, wiping off my hands and getting back into the car, and motored off again.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	miinawaa	miinawaa	ADV	ADVConj|ADV	_	4	dep	_	_
+4	gaa-izhi-mamag	mami	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+5	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	6	det	_	_
+6	ombaakwa'igan	ombaakwa'igan	NOUN	NA|ProxSg|NOUN	_	4	obj	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 380
+# text = gii-azhe-asag imaa odaabaaning ataasowining ,
+# eng = I then took the jack and returned it to its place in the trunk, wiping off my hands and getting back into the car, and motored off again.
+1	gii-azhe-asag	azhe-ashi	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	case	_	_
+3	odaabaaning	odaabaan	NOUN	NA|Loc|NOUN	_	1	obl	_	_
+4	ataasowining	ataasowin	NOUN	NI|Loc|NOUN	_	1	obl	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 381
+# text = gii-kaasiininjiiyaan miinawaa gii-pooziyaan imaa odaabaaning ,
+# eng = I then took the jack and returned it to its place in the trunk, wiping off my hands and getting back into the car, and motored off again.
+1	gii-kaasiininjiiyaan	gaasiininjii	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	miinawaa	miinawaa	ADV	ADVConj|ADV	_	1	dep	_	_
+3	gii-pooziyaan	boozi	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	1	dep	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	odaabaaning	odaabaan	NOUN	NA|Loc|NOUN	_	3	obl	_	_
+6	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 382
+# text = gii-ni-maajiibizoyaan .
+# eng = I then took the jack and returned it to its place in the trunk, wiping off my hands and getting back into the car, and motored off again.
+1	gii-ni-maajiibizoyaan	maajiibizo	VERB	PVTense/gii|PVDir/ni|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 383
+# text = azhigwa oodenaang gaa-tagoshinaan ,
+# eng = When arriving in the city, I stopped off at the garage.
+1	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	3	advmod	_	_
+2	oodenaang	oodena	NOUN	NI|Loc|NOUN	_	3	obl	_	_
+3	gaa-tagoshinaan	dagoshin	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	,	,	PUNCT	,	_	3	punct	_	_
+
+# sent_id = 384
+# text = odaabaanikewigamigong imaa ingii-noogishkaa .
+# eng = When arriving in the city, I stopped off at the garage.
+1	odaabaanikewigamigong	odaabaanikewigamig	NOUN	NI|Loc|NOUN	_	3	obl	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	ingii-noogishkaa	noogishkaa	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+4	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 385
+# text = gii-mamag a'aw ozid imaa ishkweyaang odaabaaning gaa-paashkijiishing .
+# eng = I took out the tire from the trunk, the one that had blown out.
+1	gii-mamag	mami	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+2	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	1	obj	_	_
+3	ozid	zid	NOUN	NID|Sg|3SgProxPoss|NOUN	_	1	dep	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	5	case	_	_
+5	ishkweyaang	ishkweyaang	ADV	ADVLoc|ADV	_	6	case	_	_
+6	odaabaaning	odaabaan	NOUN	NA|Loc|NOUN	_	1	obl	_	_
+7	gaa-paashkijiishing	baashkijiishin	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|3SgProxSubj|VERB	_	1	dep	_	_
+8	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 386
+# text = mii dash imaa gaa-izhi-noominang i'iw agokiwasigan ,
+# eng = “I can patch it.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	imaa	imaa	ADV	ADVLoc|ADV	_	4	obl	_	_
+4	gaa-izhi-noominang	noominan	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+5	i'iw	i'iw	DET	PRONDem|NI|Sg|DET	_	6	det	_	_
+6	agokiwasigan	agokiwasigan	NOUN	NI|Sg|NOUN	_	4	obj	_	_
+7	,	,	PUNCT	,	_	4	punct	_	_
+
+# sent_id = 387
+# text = gaa-izhi-atood imaa bagwa'igan .
+# eng = “I can patch it.
+1	gaa-izhi-atood	atoon	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+2	imaa	imaa	ADV	ADVLoc|ADV	_	1	obl	_	_
+3	bagwa'igan	bagwa'igan	NOUN	NI|Sg|NOUN	_	1	obj	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 388
+# text = mii dash gaa-izhi-atood imaa bagwa'igan .
+# eng = He then applied the cement, putting it there on the patch.
+1	mii	mii	ADV	ADVPred|ADV	_	3	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	3	dep	_	_
+3	gaa-izhi-atood	atoon	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	0	root	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	3	obl	_	_
+5	bagwa'igan	bagwa'igan	NOUN	NI|Sg|NOUN	_	3	obj	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 389
+# text = nisimidana ashi-niswi dibaabiishkoojigan ogii-izhi-boodaajii'waan .
+# eng = He then put the tire back onto its rim.
+1	nisimidana	nisimidana	NUM	NUM	_	4	dep	_	_
+2	ashi-niswi	ashi-niswi	NUM	NUM	_	3	nummod	_	_
+3	dibaabiishkoojigan	dibaabiishkoojigan	NUM	NUM	_	4	dep	_	_
+4	ogii-izhi-boodaajii'waan	boodaajii'	VERB	PVTense/gii|PVRel/izhi|VTA|Ind|Pos|Neu|3SgProxSubj|3PlObvObj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 390
+# text = mii iw dash miinawaa gaa-o-izhi-azhe-asag imaa odaabaaning ozid .
+# eng = And then I put my tire back on my car.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	5	dep	_	_
+3	dash	dash	ADV	ADVConj|ADV	_	5	dep	_	_
+4	miinawaa	miinawaa	ADV	ADVConj|ADV	_	5	dep	_	_
+5	gaa-o-izhi-azhe-asag	azhe-ashi	VERB	ChCnj|PVTense/gii|PVDir/o|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+6	imaa	imaa	ADV	ADVLoc|ADV	_	7	case	_	_
+7	odaabaaning	odaabaan	NOUN	NA|Loc|NOUN	_	5	obl	_	_
+8	ozid	zid	NOUN	NID|Sg|3SgProxPoss|NOUN	_	5	dep	_	_
+9	.	.	PUNCT	.	_	5	punct	_	_
+
+# sent_id = 391
+# text = gaa-izhi-miinag idash i'iw gwayaashkwesing zhooniyaa-mazina'igan gii-ozhibii'amawag .
+# eng = He charged me thirty-five dollars to patch my tire.
+1	gaa-izhi-miinag	miizh	VERB	PVSub/gaa|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|RelCl|VERB	_	0	root	_	_
+2	idash	idash	ADV	ADVConj|ADV	_	1	dep	_	_
+3	i'iw	i'iw	PRON	PRONDem|NI|Sg|PRON	_	1	iobj	_	_
+4	gwayaashkwesing	gwaashkwesin	VERB	VII|Pcp|Pos|Neu|0SgSubj|0SgHead|RelCl|VERB	_	3	acl:relcl	_	_
+5	zhooniyaa-mazina'igan	zhooniyaa-mazina'igan	NOUN	NI|Sg|NOUN	_	1	iobj	_	_
+6	gii-ozhibii'amawag	ozhibii'amaw	VERB	PVTense/gii|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	1	dep	_	_
+7	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 392
+# text = mii dash iw gii-pi-maajiibizoyaan .
+# eng = I then took back off heading this way.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
+4	gii-pi-maajiibizoyaan	maajiibizo	VERB	PVTense/gii|PVDir/bi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 393
+# text = mii iw .
+# eng = That's it.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 394
+# text = mii ko mewinzha ko gii-minikweyaang gii-kwiiwizensiwiyaang ,
+# eng = WHEN WE USED TO DRINK WHEN WE WERE YOUNG ouys, when we were young men out drinking around, we used to meet up together, anywhere, alongside of the road too, where we would drink.
+1	mii	mii	ADV	ADVPred|ADV	_	5	dep	_	_
+2	ko	ko	PART	PCAsp|PART	_	5	discourse	_	_
+3	mewinzha	mewinzha	ADV	ADVTmp|ADV	_	5	advmod	_	_
+4	ko	ko	PART	PCAsp|PART	_	5	discourse	_	_
+5	gii-minikweyaang	minikwe	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+6	gii-kwiiwizensiwiyaang	gwiiwizensiwi	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	5	dep	_	_
+7	,	,	PUNCT	,	_	5	punct	_	_
+
+# sent_id = 395
+# text = gii-oshki-ininiiwiyaang baa-minikweyaang ,
+# eng = WHEN WE USED TO DRINK WHEN WE WERE YOUNG ouys, when we were young men out drinking around, we used to meet up together, anywhere, alongside of the road too, where we would drink.
+1	gii-oshki-ininiiwiyaang	oshki-ininiiwi	VERB	PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+2	baa-minikweyaang	minikwe	VERB	PVDir/baa|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	1	dep	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 396
+# text = ingii-nakweshkodaadimin ko dibi igo imaa jiigikana ko gaa-tazhi-maminikweyaang .
+# eng = WHEN WE USED TO DRINK WHEN WE WERE YOUNG ouys, when we were young men out drinking around, we used to meet up together, anywhere, alongside of the road too, where we would drink.
+1	ingii-nakweshkodaadimin	nakweshkodaadiwag	VERB	PVTense/gii|VAI|Ind|Pos|Neu|ExclSubj|ExclObj|VERB	_	0	root	_	_
+2	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+3	dibi	dibi	ADV	ADVDub|ADV	_	1	dep	_	_
+4	igo	igo	PART	PCEmph|PART	_	1	discourse	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	6	case	_	_
+6	jiigikana	jiigikana	ADV	ADVLoc|ADV	_	1	obl	_	_
+7	ko	ko	PART	PCAsp|PART	_	1	discourse	_	_
+8	gaa-tazhi-maminikweyaang	maminikwe	VERB	ChCnj|PVTense/gii|PVRel/dazhi|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	1	dep	_	_
+9	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 397
+# text = wa !
+# eng = ” they would say.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	!	!	PUNCT	!	_	1	punct	_	_
+
+# sent_id = 398
+# text = oonh yay gomaa minik ko gii-tasoozowag .
+# eng = Oh, there were several that would get hit.
+1	oonh	oonh	PART	PCDisc|PART	_	3	discourse	_	_
+2	yay	yay	INTJ	PCInterj|INTJ	_	6	dep	_	_
+3	gomaa	gomaa	ADV	ADVDeg|ADV	_	4	advmod	_	_
+4	minik	minik	ADV	ADVQnt|ADV	_	6	dep	_	_
+5	ko	ko	PART	PCAsp|PART	_	3	discourse	_	_
+6	gii-tasoozowag	dasoozo	VERB	PVTense/gii|VAI|Ind|Pos|Neu|3PlProxSubj|VERB	_	0	root	_	_
+7	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 399
+# text = wa .
+# eng = Wa.
+1	wa	wa	PART	PCDisc|PART	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 400
+# text = aaningodinong ko gaawiin ingii-tasoozosiimin .
+# eng = Sometimes we wouldn't get hit.
+1	aaningodinong	aaningodinong	ADV	ADVTmp|ADV	_	4	advmod	_	_
+2	ko	ko	PART	PCAsp|PART	_	4	discourse	_	_
+3	gaawiin	gaawiin	ADV	ADVNeg|ADV	_	4	neg	_	_
+4	ingii-tasoozosiimin	dasoozo	VERB	PVTense/gii|VAI|Ind|Neg|Neu|ExclSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 401
+# text = ingii-kiishkindibe'odizomin igo gaye igo .
+# eng = We used to cut each other's heads too.
+1	ingii-kiishkindibe'odizomin	giishkindibe'	VERB	PVTense/gii|VTA|Reflex/dizo|VAI|Ind|Pos|Neu|ExclSubj|ExclObj|VERB	_	0	root	_	_
+2	igo	igo	PART	PCEmph|PART	_	1	discourse	_	_
+3	gaye	gaye	ADV	ADVConj|ADV	_	1	dep	_	_
+4	igo	igo	PART	PCEmph|PART	_	1	discourse	_	_
+5	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 402
+# text = mii gaa-izhichigeyaang iwidi neyaashiing .
+# eng = That's what we did over there at Mille Lacs, or wherever.
+1	mii	mii	ADV	ADVPred|ADV	_	2	dep	_	_
+2	gaa-izhichigeyaang	izhichige	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|ExclSubj|VERB	_	0	root	_	_
+3	iwidi	iwidi	ADV	ADVLoc|ADV	_	4	case	_	_
+4	neyaashiing	neyaashi	NOUN	NI|Loc|NOUN	_	2	obl	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 403
+# text = dibi igo .
+# eng = No English translation.
+1	dibi	dibi	ADV	ADVDub|ADV	_	0	root	_	_
+2	igo	igo	PART	PCEmph|PART	_	1	dep	_	_
+3	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 404
+# text = nashke anooj ogii-inaawaan iniw chi-mookomaanishan .
+# eng = You see, they told the white man all kinds of crazy things.
+1	nashke	nashke	INTJ	PCInterj|INTJ	_	3	dep	_	_
+2	anooj	anooj	ADV	ADVQnt|ADV	_	3	dep	_	_
+3	ogii-inaawaan	izhi	VERB	PVTense/gii|VTA|Ind|Pos|Neu|3PlProxSubj|3PlObvObj|VERB	_	0	root	_	_
+4	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	5	det	_	_
+5	chi-mookomaanishan	mookomaan	NOUN	PNLex/chi|NI|Pej|Pl|NOUN	_	3	dep	_	_
+6	.	.	PUNCT	.	_	3	punct	_	_
+
+# sent_id = 405
+# text = geget zanagad i'iw maajaa'iweng .
+# eng = INDEED, DOING FUNERALS IS HARD.
+1	geget	geget	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	zanagad	zanagad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	i'iw	i'iw	PRON	PRONDem|NI|Sg|PRON	_	2	nsubj	_	_
+4	maajaa'iweng	maajaa'iwe	VERB	VAI|Cnj|Pos|Neu|XSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 406
+# text = geget wawiingezi a'aw niitaawis .
+# eng = My cousin is very thorough.
+1	geget	geget	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	wawiingezi	wawiingezi	VERB	VAI|Ind|Pos|Neu|3SgProxSubj|VERB	_	0	root	_	_
+3	a'aw	a'aw	DET	PRONDem|NA|ProxSg|DET	_	4	det	_	_
+4	niitaawis	iitaawis	NOUN	NAD|ProxSg|1SgPoss|NOUN	_	2	nsubj	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 407
+# text = gaa-izhi-izhaayaan iwidi gii-o-maajaa'iweyaan .
+# eng = “Yeah.
+1	gaa-izhi-izhaayaan	izhaa	VERB	ChCnj|PVTense/gii|PVRel/izhi|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+2	iwidi	iwidi	ADV	ADVLoc|ADV	_	3	obl	_	_
+3	gii-o-maajaa'iweyaan	maajaa'iwe	VERB	PVTense/gii|PVDir/o|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	1	dep	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 408
+# text = mii dash iw gaa-izhichigeyaan .
+# eng = So that's what I did.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	4	dep	_	_
+4	gaa-izhichigeyaan	izhichige	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+5	.	.	PUNCT	.	_	4	punct	_	_
+
+# sent_id = 409
+# text = mii dash igo imaa azhigwa niibawiyaan azhigwa imaa wii-maajitaayaan .
+# eng = Now I'm standing up ready to get started.
+1	mii	mii	ADV	ADVPred|ADV	_	6	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	6	dep	_	_
+3	igo	igo	PART	PCEmph|PART	_	6	discourse	_	_
+4	imaa	imaa	ADV	ADVLoc|ADV	_	6	obl	_	_
+5	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	6	advmod	_	_
+6	niibawiyaan	niibawi	VERB	VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	0	root	_	_
+7	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	6	advmod	_	_
+8	imaa	imaa	ADV	ADVLoc|ADV	_	9	obl	_	_
+9	wii-maajitaayaan	maajitaa	VERB	PVTense/wii|VAI|Cnj|Pos|Neu|1SgSubj|VERB	_	6	dep	_	_
+10	.	.	PUNCT	.	_	6	punct	_	_
+
+# sent_id = 410
+# text = mii dash azhigwa gii-ni-waawiindamawag a'aw waa-maajaa'ag ge-ni-izhinang iw miikanens akina gegoo iniw editegin ;
+# eng = SO then I started to tell the one I was sending off about the journey and everything he will see on that path: the fruits, the strawberries, blueberries, raspber-ries.
+1	mii	mii	ADV	ADVPred|ADV	_	4	dep	_	_
+2	dash	dash	ADV	ADVConj|ADV	_	4	dep	_	_
+3	azhigwa	azhigwa	ADV	ADVTmp|ADV	_	4	advmod	_	_
+4	gii-ni-waawiindamawag	waawiindamaw	VERB	PVTense/gii|PVDir/ni|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|VERB	_	0	root	_	_
+5	a'aw	a'aw	PRON	PRONDem|NA|ProxSg|PRON	_	4	obj	_	_
+6	waa-maajaa'ag	maajaa'	VERB	PVTense/wii|VTA|Pcp|Pos|Neu|1SgSubj|3SgProxObj|3SgProxHead|RelCl|VERB	_	5	acl:relcl	_	_
+7	ge-ni-izhinang	izhinan	VERB	ChCnj|PVTense/ge|PVDir/ni|VTI|Cnj|Pos|Neu|3SgProxSubj|0SgObj|VERB	_	4	dep	_	_
+8	iw	iw	DET	PRONDem|NI|Sg|DET	_	9	det	_	_
+9	miikanens	miikanens	NOUN	NI|Sg|NOUN	_	7	obj	_	_
+10	akina	akina	ADV	ADVQnt|ADV	_	11	advmod	_	_
+11	gegoo	gegoo	PRON	PRONIndf|NI|PRON	_	13	nsubj	_	_
+12	iniw	iniw	PRON	PRONDem|NI|Pl|PRON	_	4	dep	_	_
+13	editegin	adite	VERB	VII|Pcp|Pos|Neu|0PlSubj|0PlHead|RelCl|VERB	_	12	acl:relcl	_	_
+14	;	;	PUNCT	;	_	4	punct	_	_
+
+# sent_id = 411
+# text = iniw ode'iminan ,
+# eng = SO then I started to tell the one I was sending off about the journey and everything he will see on that path: the fruits, the strawberries, blueberries, raspber-ries.
+1	iniw	iniw	DET	PRONDem|NI|Pl|DET	_	0	root	_	_
+2	ode'iminan	ode'imin	NOUN	NI|Pl|NOUN	_	1	dep	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 412
+# text = miinan ,
+# eng = SO then I started to tell the one I was sending off about the journey and everything he will see on that path: the fruits, the strawberries, blueberries, raspber-ries.
+1	miinan	miin	NOUN	NI|Pl|NOUN	_	0	root	_	_
+2	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 413
+# text = miskominan .
+# eng = SO then I started to tell the one I was sending off about the journey and everything he will see on that path: the fruits, the strawberries, blueberries, raspber-ries.
+1	miskominan	miskomin	NOUN	NA|ObvSg|NOUN	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 414
+# text = gaa-izhi-wanenimagwaa .
+# eng = I had forgotten them.
+1	gaa-izhi-wanenimagwaa	wanenim	VERB	ChCnj|PVTense/gii|PVRel/izhi|VTA|Cnj|Pos|Neu|1SgSubj|3PlProxObj|VERB	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 415
+# text = maagizhaa bagesaanag maagizhaa bagaanag ,
+# eng = Maybe they are bagesaanag or bagaanag, I forgot.
+1	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	0	root	_	_
+2	bagesaanag	bagesaan	NOUN	NA|ProxPl|NOUN	_	1	dep	_	_
+3	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	1	dep	_	_
+4	bagaanag	bagaan	NOUN	NA|ProxPl|NOUN	_	1	dep	_	_
+5	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 416
+# text = ingii-wanendaan sa go .
+# eng = Maybe they are bagesaanag or bagaanag, I forgot.
+1	ingii-wanendaan	wanendan	VERB	PVTense/gii|VTI|Ind|Pos|Neu|1SgSubj|0SgObj|VERB	_	0	root	_	_
+2	sa	sa	PART	PCDisc|PART	_	1	discourse	_	_
+3	go	go	PART	PCDisc|PART	_	1	discourse	_	_
+4	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 417
+# text = namanj gaa-ikidowaanen maagizhaa gaa-kwayakogiizhwewaanen maagizhaa bagesaanag ingii-ikid miinawaa ge maagizhaa bagaanag ingii-ikid ,
+# eng = I wonder what I said.
+1	namanj	namanj	ADV	ADVDub|ADV	_	2	dep	_	_
+2	gaa-ikidowaanen	ikido	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Dub|1SgSubj|VERB	_	0	root	_	_
+3	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	2	advmod	_	_
+4	gaa-kwayakogiizhwewaanen	gwayakogiizhwe	VERB	ChCnj|PVTense/gii|VAI|Cnj|Pos|Dub|1SgSubj|VERB	_	2	dep	_	_
+5	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	4	advmod	_	_
+6	bagesaanag	bagesaan	NOUN	NA|ProxPl|NOUN	_	2	dep	_	_
+7	ingii-ikid	ikido	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	2	dep	_	_
+8	miinawaa	miinawaa	ADV	ADVConj|ADV|CCONJ	_	11	cc	_	_
+9	ge	ge	ADV	ADVConj|ADV|CCONJ	_	11	cc	_	_
+10	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	7	advmod	_	_
+11	bagaanag	bagaan	NOUN	NA|ProxPl|NOUN	_	6	conj	_	_
+12	ingii-ikid	ikido	VERB	PVTense/gii|VAI|Ind|Pos|Neu|1SgSubj|VERB	_	2	dep	_	_
+13	,	,	PUNCT	,	_	2	punct	_	_
+
+# sent_id = 418
+# text = namanj .
+# eng = I wonder what I said.
+1	namanj	namanj	ADV	ADVDub|ADV	_	0	root	_	_
+2	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 419
+# text = namanj igo ,
+# eng = I wonder what I had fed the one that I sent off Maybe it was plums, maybe it was nuts I fed him.
+1	namanj	namanj	ADV	ADVDub|ADV	_	0	root	_	_
+2	igo	igo	PART	PCEmph|PART	_	1	dep	_	_
+3	,	,	PUNCT	,	_	1	punct	_	_
+
+# sent_id = 420
+# text = awegodogwen gaa-ashamaawagen aw gaa-maajaa'ag .
+# eng = I wonder what I had fed the one that I sent off Maybe it was plums, maybe it was nuts I fed him.
+1	awegodogwen	awegodogwen	PRON	PRONDub|NI|Sg|PRON	_	2	iobj	_	_
+2	gaa-ashamaawagen	asham	VERB	PVSub/gaa|VTA|Cnj|Pos|Dub|1SgSubj|3SgProxObj|RelCl|VERB	_	0	root	_	_
+3	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	2	dep	_	_
+4	gaa-maajaa'ag	maajaa'	VERB	PVSub/gaa|VTA|Cnj|Pos|Neu|1SgSubj|3SgProxObj|RelCl|VERB	_	3	acl:relcl	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 421
+# text = mii eta go minik imaa .
+# eng = That's all for that one.
+1	mii	mii	ADV	ADVPred|ADV	_	0	root	_	_
+2	eta	eta	ADV	ADVDeg|ADV	_	1	advmod	_	_
+3	go	go	PART	PCDisc|PART	_	1	dep	_	_
+4	minik	minik	ADV	ADVQnt|ADV	_	1	dep	_	_
+5	imaa	imaa	ADV	ADVLoc|ADV	_	1	dep	_	_
+6	.	.	PUNCT	.	_	1	punct	_	_
+
+# sent_id = 422
+# text = geget zanagad iw ezhichigeng .
+# eng = Indeed it is hard for one to do that.
+1	geget	geget	ADV	ADVMan|ADV	_	2	advmod	_	_
+2	zanagad	zanagad	VERB	VII|Ind|Pos|Neu|0SgSubj|VERB	_	0	root	_	_
+3	iw	iw	PRON	PRONDem|NI|Sg|PRON	_	2	nsubj	_	_
+4	ezhichigeng	izhichige	VERB	ChCnj|VAI|Cnj|Pos|Neu|XSubj|VERB	_	2	dep	_	_
+5	.	.	PUNCT	.	_	2	punct	_	_
+
+# sent_id = 423
+# text = awegodogwen gaa-ashamaawagen aw gaa-maajaad maagizhaa bagaanan maagizhaa bagesaanan ?
+# eng = I wonder what it was that I had fed to the one that had departed; maybe it was nuts or maybe it was plums?
+1	awegodogwen	awegodogwen	PRON	PRONDub|NI|Sg|PRON	_	2	iobj	_	_
+2	gaa-ashamaawagen	asham	VERB	PVSub/gaa|VTA|Cnj|Pos|Dub|1SgSubj|3SgProxObj|RelCl|VERB	_	0	root	_	_
+3	aw	aw	PRON	PRONDem|NA|ProxSg|PRON	_	2	dep	_	_
+4	gaa-maajaad	maajaa	VERB	PVSub/gaa|VAI|Cnj|Pos|Neu|3SgProxSubj|RelCl|VERB	_	3	acl:relcl	_	_
+5	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	4	advmod	_	_
+6	bagaanan	bagaan	NOUN	NA|ObvSg|NOUN	_	2	dep	_	_
+7	maagizhaa	maagizhaa	ADV	ADVMan|ADV	_	4	advmod	_	_
+8	bagesaanan	bagesaan	NOUN	NA|ObvSg|NOUN	_	2	dep	_	_
+9	?	?	PUNCT	?	_	2	punct	_	_
+

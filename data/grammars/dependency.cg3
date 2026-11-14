@@ -1,7 +1,7 @@
 # This is the dependency parsing file for Anishinaabemowin (Ojibwe).
 
 # Define to set as sentence delimeters
-DELIMITERS = "<.>" "<,>" "<;>" "<:>" "<!>" "<?>" "<¶>";
+DELIMITERS = "<.>" "<;>" "<:>" "<!>" "<?>" "<¶>";
 
 # All dependencies we will use  ;
 LIST nsubj = @nsubj ;
@@ -68,6 +68,10 @@ SET NI_NID = (NI) OR (NID) ;
 SET AN_SPECIAL_PRON = (PRONIndf NA) OR (PRONInter NA) OR (PRONPret NA);
 LIST INAN_SPECIAL_PRON = (PRONIndf NI);
 
+SET 2PRON = ("giin") OR ("giinawaa");
+SET EXCL_PRON = ("niin") OR ("niinawind");
+SET INCL_PRON = ("giinawind");
+
 # Verb types
 LIST ChCnj = ChCnj ;
 
@@ -87,7 +91,7 @@ SET UNCONDITIONAL_ADVS = ("debinaak") OR ("nising") OR ("niiwing") OR ("niizhing
 
 
 # list of coordinators
-LIST COORDINATOR = "miinawaa" "ge" "gaye" "ashi" "gemaa";
+LIST COORDINATOR = "miinawaa" "ge" "gaye" "ashi" "gemaa" "igaye" "<,>";
 
 
 
@@ -97,6 +101,8 @@ SET ADV = (ADVConj)  OR (ADVDisc) OR (ADVDub) OR (ADVGram) OR (ADVInter) OR (ADV
 SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR (PRONSim) OR (PRONPer) ;
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
 SET PROPN = (NamePerson) OR (NamePlace) OR (NameVocative) ;
+SET NOM_OR_PRON = NOMINAL OR (PRONPer);
+DELIMIT ("<,>") IF (NEGATE -1 NOM_OR_PRON LINK 2 NOM_OR_PRON) ;
 
 # Ditransitives (not separating inherent from derived yet)
 LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam";
@@ -176,13 +182,68 @@ SETPARENT (NUM) IF (NOT p (*)) (NOT 1 (@det)) TO (1 NOMINAL) ; ADD nummod (NUM) 
 # Because UD does not allow det to have children, if (Num)-(Dem)-(N) relationship present, set num relationship directly to Noun.
 SETPARENT (NUM) IF (NOT p (*)) (1 (@det)) TO (2 NOMINAL) ; ADD nummod (NUM) IF (NOT 0 REL_LABEL) (p NOMINAL) ;
 
+### Coordination (Conj) Rules
+# Proximate coordination
+SETPARENT COORDINATOR IF (-1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER NOM_OR_PRON) (1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER NOM_OR_PRON) TO (1* NOM_OR_PRON); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOM_OR_PRON); 
+# Obviative coordination
+SETPARENT COORDINATOR IF (-1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER NOM_OR_PRON) (1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER NOM_OR_PRON) TO (1* NOM_OR_PRON); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOM_OR_PRON);
+
+# Obviation changes, but coordinated with "miinawaa" or "gaye" between every member of the list
+SETPARENT ("miinawaa") IF (-1* NOM_OR_PRON BARRIER NOM_OR_PRON LINK c ("miinawaa")) (1* NOM_OR_PRON BARRIER NOM_OR_PRON) TO (1* NOM_OR_PRON); ADD cc ("miinawaa") IF (NOT 0 REL_LABEL) (p NOM_OR_PRON);
+SETPARENT ("gaye") IF (-1* NOM_OR_PRON BARRIER NOM_OR_PRON LINK c ("gaye")) (1* NOM_OR_PRON BARRIER NOM_OR_PRON) TO (1* NOM_OR_PRON); ADD cc ("gaye") IF (NOT 0 REL_LABEL) (p NOM_OR_PRON);
+
+
+SETPARENT NOM_OR_PRON IF (c COORDINATOR) TO (-1* NOM_OR_PRON); ADD conj NOM_OR_PRON IF (NOT 0 REL_LABEL) (p NOM_OR_PRON); 
+
+# Deal with cases where nominals are right next to each other. Only done with prox+prox and obv+obv.
+SETPARENT PROXIMATE_NOMINAL TO (-1* PROXIMATE_NOMINAL); ADD conj PROXIMATE_NOMINAL IF (NOT 0 REL_LABEL) (p PROXIMATE_NOMINAL);
+SETPARENT OBVIATIVE_NOMINAL TO (-1* OBVIATIVE_NOMINAL); ADD conj OBVIATIVE_NOMINAL IF (NOT 0 REL_LABEL) (p OBVIATIVE_NOMINAL);
+
+# Side-by-side inaminates could be subject/object, so only coordinate them if it is already in a list (e.g. NID gaye NID NID)
+SETPARENT INANIMATE_NOMINAL TO (-1* INANIMATE_NOMINAL + (@conj)); ADD conj INANIMATE_NOMINAL IF (NOT 0 REL_LABEL) (p INANIMATE_NOMINAL);
+
+
+
+ADD (has_conj) NOM_OR_PRON IF (c (@conj));
 
 SECTION 
 ### Argument Dependency - Rules to assign Verb - Noun/Pron dependency ###
 ### Caveat: If noun can depend on more than 1 verb, set relation for the left-side verb
 ## RIGHT SIDE DEPENDENCIES
 
+
+## CONJOINED NP ARGUMENTS
+SET COORD_PROX = PROXIMATE_NOMINAL + (has_conj);
+SET COORD_OBV = OBVIATIVE_NOMINAL + (has_conj);
+SET COORD_INAN = INANIMATE_NOMINAL + (has_conj);
+        
 # ANIMATE 3RD PERSON SUBJECT
+
+### Prox subjects
+SETCHILD REPEAT (3PlProxSubj)
+    TO (-1**A COORD_PROX BARRIER CB LINK NONE p (*));
+    ADD nsubj COORD_PROX
+        IF (NOT 0 REL_LABEL)
+        (p (3PlProxSubj));
+
+SETCHILD REPEAT (3PlProxSubj)
+    TO (1**A COORD_PROX BARRIER CB LINK NONE p (*));
+    ADD nsubj COORD_PROX
+        IF (NOT 0 REL_LABEL)
+        (p (3PlProxSubj));
+
+### Obv subjects
+SETCHILD REPEAT (3PlObvSubj)
+    TO (-1**A COORD_OBV BARRIER CB LINK NONE p (*));
+    ADD nsubj COORD_OBV
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvSubj));
+
+SETCHILD REPEAT (3PlObvSubj)
+    TO (1**A COORD_OBV BARRIER CB LINK NONE p (*));
+    ADD nsubj COORD_OBV
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvSubj));
 
 SETCHILD (3SgProxSubj) IF (NONE c nsubj) (NEGATE -1** (ProxSg) BARRIER CB LINK NONE p (*)) TO (1**A (ProxSg) BARRIER CB LINK NONE p (*)); ADD nsubj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxSubj))  ;
 
@@ -201,7 +262,33 @@ SETCHILD (AN_SUBJECT) IF (NONE c nsubj) (NEGATE -1** AN_SPECIAL_PRON BARRIER CB 
 
 # ANIMATE NON-3RD PERSON SUBJECT
 
+# niin/niinawaa + other nominals
+SETCHILD REPEAT (ExclSubj) 
+    TO (-1**A EXCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj EXCL_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (ExclSubj));
+
+SETCHILD REPEAT (ExclSubj)
+    TO (1**A EXCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj EXCL_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (ExclSubj));
+
 SETCHILD (1SgSubj) IF (NONE c nsubj) (NEGATE -1** (1Sg) BARRIER CB LINK NONE p (*)) TO (1**A (1Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgSubj))  ;
+
+# giin/giinawaa + other nominals
+SETCHILD REPEAT (2PlSubj)
+    TO (-1**A 2PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj 2PRON
+        IF (NOT 0 REL_LABEL)
+        (p (2PlSubj));
+
+SETCHILD REPEAT (2PlSubj)
+    TO (1**A 2PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj 2PRON
+        IF (NOT 0 REL_LABEL)
+        (p (2PlSubj));
 
 SETCHILD (2SgSubj) IF (NONE c nsubj) (NEGATE -1** (2Sg) BARRIER CB LINK NONE p (*)) TO (1**A (2Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgSubj))  ;
 
@@ -209,10 +296,48 @@ SETCHILD (2PlSubj) IF (NONE c nsubj) (NEGATE -1** (2Pl) BARRIER CB LINK NONE p (
 
 SETCHILD (ExclSubj) IF (NONE c nsubj) (NEGATE -1** (Excl) BARRIER CB LINK NONE p (*)) TO (1**A (Excl) BARRIER CB LINK NONE p (*)); ADD nsubj (Excl) IF (NOT 0 REL_LABEL) (p (ExclSubj)) ;
 
+SETCHILD REPEAT (InclSubj) 
+    TO (-1**A INCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj INCL_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (InclSubj));
+
+SETCHILD REPEAT (InclSubj)
+    TO (1**A INCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj INCL_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (InclSubj));
+
 SETCHILD (InclSubj) IF (NONE c nsubj) (NEGATE -1** (Incl) BARRIER CB LINK NONE p (*)) TO (1**A (Incl) BARRIER CB LINK NONE p (*)); ADD nsubj (Incl) IF (NOT 0 REL_LABEL) (p (InclSubj)) ;
 
 
 # ANIMATE 3RD PERSON OBJECT
+
+### Prox objects
+SETCHILD REPEAT (3PlProxObj)
+    TO (-1**A COORD_PROX BARRIER CB LINK NONE p (*));
+    ADD obj COORD_PROX
+        IF (NOT 0 REL_LABEL)
+        (p (3PlProxObj));
+
+SETCHILD REPEAT (3PlProxObj)
+    TO (1**A COORD_PROX BARRIER CB LINK NONE p (*));
+    ADD obj COORD_PROX
+        IF (NOT 0 REL_LABEL)
+        (p (3PlProxObj));
+
+### Obviative objects
+SETCHILD REPEAT (3PlObvObj)
+    TO (-1**A (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj COORD_OBV
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvObj));
+
+SETCHILD REPEAT (3PlObvObj)
+    TO (1**A (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj COORD_OBV
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvObj));
 
 SETCHILD (3SgProxObj) IF (NONE c obj) (NEGATE -1** (ProxSg) BARRIER CB LINK NONE p (*)) TO (1**A (ProxSg) BARRIER CB LINK NONE p (*)); ADD obj (ProxSg) IF (NOT 0 REL_LABEL) (p (3SgProxObj))   ;
 
@@ -231,7 +356,31 @@ SETCHILD AN_OBJECT IF (NONE c obj) (NEGATE -1** AN_SPECIAL_PRON BARRIER CB LINK 
 
 ## ANIMATE NON-3RD PERSON OBJECT
 
+SETCHILD REPEAT (ExclObj) 
+    TO (-1**A EXCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj EXCL_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (ExclSubj));
+
+SETCHILD REPEAT (ExclObj)
+    TO (1**A EXCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj EXCL_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (ExclSubj));
+
 SETCHILD (1SgObj) IF (NONE c obj) (NEGATE -1** (1Sg) BARRIER CB LINK NONE p (*)) TO (1**A (1Sg) BARRIER CB LINK NONE p (*)); ADD obj (1Sg) IF (NOT 0 REL_LABEL) (p (1SgObj))  ;
+
+SETCHILD REPEAT (2PlObj) 
+    TO (-1**A 2PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj 2PRON
+        IF (NOT 0 REL_LABEL)
+        (p (2PlObj));
+
+SETCHILD REPEAT (2PlObj)
+    TO (1**A 2PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj 2PRON
+        IF (NOT 0 REL_LABEL)
+        (p (2PlObj));
 
 SETCHILD (2SgObj) IF (NONE c obj) (NEGATE -1** (2Sg) BARRIER CB LINK NONE p (*)) TO (1**A (2Sg) BARRIER CB LINK NONE p (*)); ADD obj (2Sg) IF (NOT 0 REL_LABEL) (p (2SgObj))  ;
 
@@ -239,10 +388,32 @@ SETCHILD (2PlObj) IF (NONE c obj) (NEGATE -1** (2Pl) BARRIER CB LINK NONE p (*))
 
 SETCHILD (ExclObj) IF (NONE c obj) (NEGATE -1** (Excl) BARRIER CB LINK NONE p (*)) TO (1**A (Excl) BARRIER CB LINK NONE p (*)); ADD obj (Excl) IF (NOT 0 REL_LABEL) (p (ExclObj)) ;
 
+SETCHILD REPEAT (InclObj) 
+    TO (-1**A INCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj INCL_PRON
+        (p (InclObj));
+
+SETCHILD REPEAT (InclObj)
+    TO (1**A INCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj INCL_PRON
+        (p (InclObj));
+
 SETCHILD (InclObj) IF (NONE c obj) (NEGATE -1** (Incl) BARRIER CB LINK NONE p (*)) TO (1**A (Incl) BARRIER CB LINK NONE p (*)); ADD obj (Incl) IF (NOT 0 REL_LABEL) (p (InclObj)) ;
 
 
 # INANIMATE SUBJECT
+
+SETCHILD REPEAT (0PlSubj)
+    TO (-1**A (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj COORD_INAN
+        IF (NOT 0 REL_LABEL)
+        (p (0PlSubj));
+
+SETCHILD REPEAT (0PlSubj)
+    TO (1**A (has_conj) BARRIER CB LINK NONE p (*));
+    ADD nsubj (has_conj)
+        IF (NOT 0 REL_LABEL)
+        (p (0PlSubj));
 
 SETCHILD (0SgSubj) IF (NONE c nsubj) (NEGATE -1** (Sg) BARRIER CB LINK NONE p (*)) TO (1**A (Sg) BARRIER CB LINK NONE p (*)); ADD nsubj (Sg) IF (NOT 0 REL_LABEL) (p (0SgSubj)) ;
 
@@ -252,6 +423,18 @@ SETCHILD INAN_SUBJECT IF (NONE c nsubj) (NEGATE -1** INAN_SPECIAL_PRON BARRIER C
 
 
 ## INANIMATE OBJECT
+
+SETCHILD REPEAT (0PlObj)
+    TO (-1**A (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj (has_conj)
+        IF (NOT 0 REL_LABEL)
+        (p (0PlObj));
+
+SETCHILD REPEAT (0PlObj)
+    TO (1**A (has_conj) BARRIER CB LINK NONE p (*));
+    ADD obj (has_conj)
+        IF (NOT 0 REL_LABEL)
+        (p (0PlObj));
 
 SETCHILD (0SgObj) IF (NONE c obj) (NEGATE -1** (Sg) BARRIER CB LINK NONE p (*)) TO (1**A (Sg) BARRIER CB LINK NONE p (*)); ADD obj (Sg) IF (NOT 0 REL_LABEL) (p (0SgObj)) ;
 
@@ -413,6 +596,9 @@ SETPARENT NOMINAL + (Loc) IF (NOT p (*)) TO (1* VERB BARRIER CB) ; ADD obl NOMIN
 SETPARENT NOMINAL IF (NOT p (*)) TO ((-1* DITRANSITIVE - RC BARRIER CB) OR (1* DITRANSITIVE - RC BARRIER CB)) ; ADD iobj NOMINAL IF (NOT 0 REL_LABEL) (p DITRANSITIVE - RC) ;
 
 
+
+
+
 ### Other Dependencies - adverbs, particles ###
 
 
@@ -465,14 +651,6 @@ SETPARENT ("gego") IF (NOT p (*)) TO (1* (Prb)) ; ADD neg ("gego") IF (NOT 0 REL
 SETPARENT PART IF (NOT p (*)) TO ((-1* VERB) OR (1* VERB)) ; ADD discourse PART IF (NOT 0 REL_LABEL) (p VERB) ;
 
 
-### Coordination (Conj) Rules
-# 
-# Proximate coordination
-SETPARENT COORDINATOR IF (-1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) (1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) TO (1* NOMINAL); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOMINAL); 
-# Obviative coordination
-SETPARENT COORDINATOR IF (-1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) (1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL BARRIER NOMINAL) TO (1* NOMINAL); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOMINAL);
-
-SETPARENT NOMINAL IF (c COORDINATOR) TO (-1* NOMINAL); ADD conj NOMINAL IF (NOT 0 REL_LABEL) (p NOMINAL); 
 
 ### Idiosyncratic rules (some could be generalizable, but not attempted) 
 # To handle  (g)akina gegoo, gaawiin gegoo, (g)akina awiiya, gaawiin awiiya
@@ -481,6 +659,7 @@ SETPARENT (ADVQnt) TO (1 (PRONIndf)); ADD advmod (ADVQnt) IF (p (PRONIndf));
 
 ### --- CLEANUP + POST-PROCESSING ---
 AFTER-SECTIONS cleanup;
+SUBSTITUTE (has_conj) (*) TARGET (has_conj);
 
 #SUBSTITUTE:remove_rc_tag (RelCl) (*) TARGET (RelCl) ;
 

@@ -104,7 +104,7 @@ SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR 
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
 SET PROPN = (NamePerson) OR (NamePlace) OR (NameVocative) ;
 SET NOM_OR_PRON = NOMINAL OR (PRONPer);
-DELIMIT ("<,>") IF (NEGATE -1 NOM_OR_PRON LINK 2 NOM_OR_PRON) ;
+DELIMIT ("<,>") IF (-1* VERB) (1* VERB) ;
 
 # Ditransitives (not separating inherent from derived yet)
 LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam";

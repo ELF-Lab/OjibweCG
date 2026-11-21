@@ -104,7 +104,6 @@ SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR 
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
 SET PROPN = (NamePerson) OR (NamePlace) OR (NameVocative) ;
 SET NOM_OR_PRON = NOMINAL OR (PRONPer);
-DELIMIT ("<,>") IF (-1* VERB) (1* VERB) ;
 
 # Ditransitives (not separating inherent from derived yet)
 LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam";
@@ -120,8 +119,7 @@ SET DIR_OBJ_VERB = VERB - DITRANSITIVE ;
 # CURRENT ASSUMPTION: EVERY V that isn't a RC or a VII (change to only impersonal verbs later?) is a clause boundary
 SET CB = VERB - RC - (VII) ;
 SET COORDB = (*) - PART - (PRONDem) - (Oxford);
-
-
+DELIMIT ("<,>") IF (-1* CB) (1* CB) ;
 
 
 

@@ -104,6 +104,8 @@ SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR 
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
 SET PROPN = (NamePerson) OR (NamePlace) OR (NameVocative) ;
 SET NOM_OR_PRON = NOMINAL OR (PRONPer);
+SET ORDER = (Ind) OR (Cnj) OR (ChCnj) OR (Imp);
+SET ORDER2 = (Ind) OR (Cnj) OR (ChCnj) OR (Imp);
 
 # Ditransitives (not separating inherent from derived yet)
 LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam";
@@ -112,6 +114,8 @@ LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam"
 LIST IMPERSONAL_VERB = "waaban" "diba'iganeyaa" "onaagoshin" "biboon" "naawakwe" "noodinzinoon" "diba'igane" "waaseyaa" "biidaaban" "ondaanimad" "mindookad" "giizhigad" "animikiikaa" "dagwaagin" "niibin" "naawakwe" "bagamibiisaan" "noodin" "ziigwan" "maajibiisaa" "ojiindiwi-giizhigad" "gisinaa" "bimaanimad" "onaabanad" "gibitaanimad" "mikwaminaaniwan" "gizhaate" "bagakaaban" "giizhigaate" "bapangibiisaa";
 
 SET DIR_OBJ_VERB = VERB - DITRANSITIVE ;
+SET SUBJECT = AN_SUBJECT OR INAN_SUBJECT OR (PRONPer);
+SET OBJECT = AN_OBJECT OR INAN_OBJECT OR (PRONPer);
 
 
 # --- IMPORTANT: Disambiguation/Depepndency Parsing boundary ---
@@ -119,8 +123,12 @@ SET DIR_OBJ_VERB = VERB - DITRANSITIVE ;
 # CURRENT ASSUMPTION: EVERY V that isn't a RC or a VII (change to only impersonal verbs later?) is a clause boundary
 SET CB = VERB - RC - (VII) ;
 SET COORDB = (*) - PART - (PRONDem) - (Oxford);
-DELIMIT ("<,>") IF (-1* CB) (1* CB) ;
-
+DELIMIT ("<,>")
+    IF (NEGATE -1* NOM_OR_PRON LINK 1* NOM_OR_PRON)
+       (NEGATE -1* VERB + $$SUBJECT + $$ORDER
+               LINK 1*x VERB + $$SUBJECT + $$ORDER)
+       (NEGATE -1* VERB + $$OBJECT + $$ORDER2
+               LINK 1*x VERB + $$OBJECT + $$ORDER2) ;
 
 
 SECTION
@@ -214,7 +222,7 @@ SECTION
 ## RIGHT SIDE DEPENDENCIES
 
 
-## CONJOINED NP ARGUMENTS
+## COORDINATED NP ARGUMENTS
 SET COORD_PROX = PROXIMATE_NOMINAL + (has_conj);
 SET COORD_OBV = OBVIATIVE_NOMINAL + (has_conj);
 SET COORD_INAN = INANIMATE_NOMINAL + (has_conj);
@@ -598,7 +606,24 @@ SETPARENT NOMINAL + (Loc) IF (NOT p (*)) TO (1* VERB BARRIER CB) ; ADD obl NOMIN
 SETPARENT NOMINAL IF (NOT p (*)) TO ((-1* DITRANSITIVE - RC BARRIER CB) OR (1* DITRANSITIVE - RC BARRIER CB)) ; ADD iobj NOMINAL IF (NOT 0 REL_LABEL) (p DITRANSITIVE - RC) ;
 
 
+## COORDINATED VPs
 
+SETPARENT COORDINATOR IF (-1* VERB + $$SUBJECT + $$ORDER BARRIER nsubj) (1* VERB + $$SUBJECT + $$ORDER BARRIER nsubj) TO (1* VERB + $$SUBJECT + $$ORDER);
+SETPARENT COORDINATOR IF (-1* VERB + $$OBJECT + $$ORDER BARRIER obj) (1* VERB + $$OBJECT + $$ORDER BARRIER obj) TO (1* VERB + $$OBJECT + $$ORDER);
+
+ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p VERB);
+
+SETPARENT VERB + $$SUBJECT + $$ORDER 
+    IF (c COORDINATOR) TO (-1* VERB + $$SUBJECT + $$ORDER); 
+ADD conj VERB + $$SUBJECT + $$ORDER IF (NOT 0 REL_LABEL) (p VERB + $$SUBJECT + $$ORDER); 
+SETPARENT VERB + $$OBJECT + $$ORDER 
+    IF (c COORDINATOR) TO (-1* VERB + $$OBJECT + $$ORDER); 
+ADD conj VERB + $$OBJECT + $$ORDER IF (NOT 0 REL_LABEL) (p VERB + $$OBJECT + $$ORDER); 
+ADD (has_conj) VERB IF (c (@conj));
+
+SET V_HEAD = VERB + (has_conj) - conj ; 
+SETPARENT nsubj IF (p VERB + conj) TO (pp V_HEAD); # set nsubj to head verb
+SETPARENT obj IF (p VERB + conj) TO (pp V_HEAD); # set obj to head verb
 
 
 ### Other Dependencies - adverbs, particles ###
@@ -662,6 +687,7 @@ SETPARENT (ADVQnt) TO (1 (PRONIndf)); ADD advmod (ADVQnt) IF (p (PRONIndf));
 ### --- CLEANUP + POST-PROCESSING ---
 AFTER-SECTIONS cleanup;
 SUBSTITUTE (has_conj) (*) TARGET (has_conj);
+SUBSTITUTE (@cc) (*) TARGET ("<,>");
 
 #SUBSTITUTE:remove_rc_tag (RelCl) (*) TARGET (RelCl) ;
 

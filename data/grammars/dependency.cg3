@@ -104,8 +104,8 @@ SET PRON = (PRONDem) OR (PRONDub) OR (PRONIndf) OR (PRONInter) OR (PRONPret) OR 
 SET PART = (PCEmph) OR (PCDisc) OR (PCAsp) ;
 SET PROPN = (NamePerson) OR (NamePlace) OR (NameVocative) ;
 SET NOM_OR_PRON = NOMINAL OR (PRONPer);
-SET ORDER = (Ind) OR (Cnj) OR (ChCnj) OR (Imp);
-SET ORDER2 = (Ind) OR (Cnj) OR (ChCnj) OR (Imp);
+SET ORDER = (Ind) OR (Cnj AND NOT ChCnj) OR (ChCnj) OR (Imp);
+SET ORDER2 = (Ind) OR (Cnj AND NOT ChCnj) OR (ChCnj) OR (Imp);
 
 # Ditransitives (not separating inherent from derived yet)
 LIST DITRANSITIVE = "gimoodim" "izhibii'amaw" "miizh" "awi'" "mikamaw" "adaawam" “niindaa'” "asham" "maajiidaw" "waabanda'" "ganawendamaw" "adaawetamaw" "adaam";
@@ -122,13 +122,14 @@ SET OBJECT = AN_OBJECT OR INAN_OBJECT OR (PRONPer);
 # TODO: update this systematically
 # CURRENT ASSUMPTION: EVERY V that isn't a RC or a VII (change to only impersonal verbs later?) is a clause boundary
 SET CB = VERB - RC - (VII) ;
-SET COORDB = (*) - PART - (PRONDem) - (Oxford);
-DELIMIT ("<,>")
-    IF (NEGATE -1* NOM_OR_PRON LINK 1* NOM_OR_PRON)
-       (NEGATE -1* VERB + $$SUBJECT + $$ORDER
-               LINK 1*x VERB + $$SUBJECT + $$ORDER)
-       (NEGATE -1* VERB + $$OBJECT + $$ORDER2
-               LINK 1*x VERB + $$OBJECT + $$ORDER2) ;
+SET COORDB = VERB OR ADV OR PRON OR PROPN - PART - (PRONDem) - (Oxford);
+SET COORD_VERB = VERB - RC - (PREVERB);
+DELIMIT ("<,>") - (Oxford)
+    IF (NEGATE -1* NOM_OR_PRON BARRIER COORDB LINK 1*x NOM_OR_PRON BARRIER COORDB)
+       (NEGATE -1* COORD_VERB + $$SUBJECT + $$ORDER BARRIER CB
+               LINK 1*x COORD_VERB + $$SUBJECT + $$ORDER BARRIER CB)
+       (NEGATE -1* COORD_VERB + $$OBJECT + $$ORDER2 BARRIER CB
+               LINK 1*x COORD_VERB + $$OBJECT + $$ORDER2 BARRIER CB) ;
 
 
 SECTION
@@ -194,9 +195,9 @@ SETPARENT (NUM) IF (NOT p (*)) (1 (@det)) TO (2 NOMINAL) ; ADD nummod (NUM) IF (
 ### Coordination (Conj) Rules
 
 # Proximate coordination
-SETPARENT COORDINATOR IF (-1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER COORDB) (1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER COORDB) TO (1* NOM_OR_PRON); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOM_OR_PRON); 
+SETPARENT COORDINATOR IF (-1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) OR (Loc) BARRIER COORDB) (1* PROXIMATE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) OR (Loc) BARRIER COORDB) TO (1* NOM_OR_PRON); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOM_OR_PRON); 
 # Obviative coordination
-SETPARENT COORDINATOR IF (-1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER COORDB) (1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) BARRIER COORDB) TO (1* NOM_OR_PRON); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOM_OR_PRON);
+SETPARENT COORDINATOR IF (-1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) OR (Loc) BARRIER COORDB) (1* OBVIATIVE_NOMINAL OR INANIMATE_NOMINAL OR (PRONPer) OR (Loc) BARRIER COORDB) TO (1* NOM_OR_PRON); ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p NOM_OR_PRON);
 
 # Obviation changes, but coordinated with "miinawaa" or "gaye" between every member of the list
 SETPARENT ("miinawaa") IF (-1* NOM_OR_PRON BARRIER COORDB LINK c ("miinawaa")) (1* NOM_OR_PRON BARRIER COORDB) TO (1* NOM_OR_PRON); ADD cc ("miinawaa") IF (NOT 0 REL_LABEL) (p NOM_OR_PRON);
@@ -243,15 +244,38 @@ SETCHILD REPEAT (3PlProxSubj)
         (p (3PlProxSubj));
 
 ### Obv subjects
-SETCHILD REPEAT (3PlObvSubj)
-    TO (-1**A COORD_OBV BARRIER CB LINK NONE p (*));
+
+SETCHILD REPEAT (3PlObvSubj) 
+    TO (-1**AX COORD_OBV BARRIER CB
+        LINK NONE p (*)) ;
     ADD nsubj COORD_OBV
         IF (NOT 0 REL_LABEL)
         (p (3PlObvSubj));
 
-SETCHILD REPEAT (3PlObvSubj)
-    TO (1**A COORD_OBV BARRIER CB LINK NONE p (*));
+SETCHILD REPEAT (3PlObvSubj) 
+    TO (-1**AX COORD_OBV BARRIER CB
+        LINK NONE p (*)) ;
     ADD nsubj COORD_OBV
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvSubj));
+
+# A list with one obviative makes the whole arg obviative
+
+SETCHILD REPEAT (3PlObvSubj)
+    TO (-1**AX NOM_OR_PRON BARRIER CB
+        LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*)
+        LINK NONE p (*)) ;
+    ADD nsubj NOM_OR_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvSubj));
+
+SETCHILD REPEAT (3PlObvSubj)
+    TO (1**AX NOM_OR_PRON BARRIER CB
+        LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*)
+        LINK NONE p (*)) ;
+    ADD nsubj NOM_OR_PRON
         IF (NOT 0 REL_LABEL)
         (p (3PlObvSubj));
 
@@ -338,14 +362,32 @@ SETCHILD REPEAT (3PlProxObj)
 
 ### Obviative objects
 SETCHILD REPEAT (3PlObvObj)
-    TO (-1**A (has_conj) BARRIER CB LINK NONE p (*));
-    ADD obj COORD_OBV
+    TO (-1**A COORD_OBV BARRIER CB LINK NONE p (*));
+    ADD obj COORD_PROX
         IF (NOT 0 REL_LABEL)
         (p (3PlObvObj));
 
 SETCHILD REPEAT (3PlObvObj)
-    TO (1**A (has_conj) BARRIER CB LINK NONE p (*));
+    TO (1**A COORD_OBV BARRIER CB LINK NONE p (*));
     ADD obj COORD_OBV
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvObj));
+
+SETCHILD REPEAT (3PlObvObj) 
+    TO (-1**AX NOM_OR_PRON BARRIER CB
+        LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*)
+        LINK NONE p (*)) ;
+    ADD obj NOM_OR_PRON
+        IF (NOT 0 REL_LABEL)
+        (p (3PlObvObj));
+
+SETCHILD REPEAT (3PlObvObj)
+        TO (-1**AX NOM_OR_PRON BARRIER CB
+        LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*)
+        LINK NONE p (*)) ;
+    ADD obj NOM_OR_PRON
         IF (NOT 0 REL_LABEL)
         (p (3PlObvObj));
 
@@ -607,23 +649,22 @@ SETPARENT NOMINAL IF (NOT p (*)) TO ((-1* DITRANSITIVE - RC BARRIER CB) OR (1* D
 
 
 ## COORDINATED VPs
+SETPARENT COORDINATOR IF (-1* COORD_VERB + $$SUBJECT + $$ORDER BARRIER nsubj) (1* COORD_VERB + $$SUBJECT + $$ORDER BARRIER nsubj) TO (1* COORD_VERB + $$SUBJECT + $$ORDER);
+SETPARENT COORDINATOR IF (-1* COORD_VERB + $$OBJECT + $$ORDER BARRIER obj) (1* COORD_VERB + $$OBJECT + $$ORDER BARRIER obj) TO (1* COORD_VERB + $$OBJECT + $$ORDER);
 
-SETPARENT COORDINATOR IF (-1* VERB + $$SUBJECT + $$ORDER BARRIER nsubj) (1* VERB + $$SUBJECT + $$ORDER BARRIER nsubj) TO (1* VERB + $$SUBJECT + $$ORDER);
-SETPARENT COORDINATOR IF (-1* VERB + $$OBJECT + $$ORDER BARRIER obj) (1* VERB + $$OBJECT + $$ORDER BARRIER obj) TO (1* VERB + $$OBJECT + $$ORDER);
-
-ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p VERB);
-
-SETPARENT VERB + $$SUBJECT + $$ORDER 
-    IF (c COORDINATOR) TO (-1* VERB + $$SUBJECT + $$ORDER); 
-ADD conj VERB + $$SUBJECT + $$ORDER IF (NOT 0 REL_LABEL) (p VERB + $$SUBJECT + $$ORDER); 
-SETPARENT VERB + $$OBJECT + $$ORDER 
+ADD cc COORDINATOR IF (NOT 0 REL_LABEL) (p COORD_VERB);
+ 
+SETPARENT COORD_VERB + $$SUBJECT + $$ORDER 
+    IF (c COORDINATOR) TO (-1* COORD_VERB + $$SUBJECT + $$ORDER); 
+ADD conj COORD_VERB + $$SUBJECT + $$ORDER IF (NOT 0 REL_LABEL) (p COORD_VERB + $$SUBJECT + $$ORDER); 
+SETPARENT COORD_VERB + $$OBJECT + $$ORDER 
     IF (c COORDINATOR) TO (-1* VERB + $$OBJECT + $$ORDER); 
-ADD conj VERB + $$OBJECT + $$ORDER IF (NOT 0 REL_LABEL) (p VERB + $$OBJECT + $$ORDER); 
+ADD conj COORD_VERB + $$OBJECT + $$ORDER IF (NOT 0 REL_LABEL) (p COORD_VERB + $$OBJECT + $$ORDER); 
 ADD (has_conj) VERB IF (c (@conj));
 
-SET V_HEAD = VERB + (has_conj) - conj ; 
-SETPARENT nsubj IF (p VERB + conj) TO (pp V_HEAD); # set nsubj to head verb
-SETPARENT obj IF (p VERB + conj) TO (pp V_HEAD); # set obj to head verb
+SET V_HEAD = COORD_VERB + (has_conj) - conj ; 
+SETPARENT nsubj IF (p COORD_VERB + conj) TO (pp V_HEAD); # set nsubj to head verb
+SETPARENT obj IF (p COORD_VERB + conj) TO (pp V_HEAD); # set obj to head verb
 
 
 ### Other Dependencies - adverbs, particles ###

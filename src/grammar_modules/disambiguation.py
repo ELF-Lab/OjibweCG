@@ -1,5 +1,5 @@
 from pathlib import Path
-from grammar_modules.fst import Fst, fst_parse_sentence, fst_parse_word
+from src.grammar_modules.fst import Fst, fst_parse_sentence, fst_parse_word
 import subprocess, re
 
 # ────────────────────────────────────────────────────────────────

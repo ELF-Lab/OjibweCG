@@ -246,15 +246,13 @@ SETCHILD REPEAT (3PlProxSubj)
 ### Obv subjects
 
 SETCHILD REPEAT (3PlObvSubj) 
-    TO (-1**AX COORD_OBV BARRIER CB
-        LINK NONE p (*)) ;
+    TO (-1**A COORD_OBV BARRIER CB LINK NONE p (*)) ;
     ADD nsubj COORD_OBV
         IF (NOT 0 REL_LABEL)
         (p (3PlObvSubj));
 
 SETCHILD REPEAT (3PlObvSubj) 
-    TO (-1**AX COORD_OBV BARRIER CB
-        LINK NONE p (*)) ;
+    TO (-1**A COORD_OBV BARRIER CB LINK NONE p (*)) ;
     ADD nsubj COORD_OBV
         IF (NOT 0 REL_LABEL)
         (p (3PlObvSubj));
@@ -262,19 +260,15 @@ SETCHILD REPEAT (3PlObvSubj)
 # A list with one obviative makes the whole arg obviative
 
 SETCHILD REPEAT (3PlObvSubj)
-    TO (-1**AX NOM_OR_PRON BARRIER CB
-        LINK cc OBVIATIVE_NOMINAL + conj
-        LINK 0x (*)
-        LINK NONE p (*)) ;
+    TO (-1**AX NOM_OR_PRON BARRIER CB LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*) LINK NONE p (*)) ;
     ADD nsubj NOM_OR_PRON
         IF (NOT 0 REL_LABEL)
         (p (3PlObvSubj));
 
 SETCHILD REPEAT (3PlObvSubj)
-    TO (1**AX NOM_OR_PRON BARRIER CB
-        LINK cc OBVIATIVE_NOMINAL + conj
-        LINK 0x (*)
-        LINK NONE p (*)) ;
+    TO (1**AX NOM_OR_PRON BARRIER CB LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*) LINK NONE p (*)) ;
     ADD nsubj NOM_OR_PRON
         IF (NOT 0 REL_LABEL)
         (p (3PlObvSubj));
@@ -374,19 +368,15 @@ SETCHILD REPEAT (3PlObvObj)
         (p (3PlObvObj));
 
 SETCHILD REPEAT (3PlObvObj) 
-    TO (-1**AX NOM_OR_PRON BARRIER CB
-        LINK cc OBVIATIVE_NOMINAL + conj
-        LINK 0x (*)
-        LINK NONE p (*)) ;
+    TO (-1**AX NOM_OR_PRON BARRIER CB LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*) LINK NONE p (*)) ;
     ADD obj NOM_OR_PRON
         IF (NOT 0 REL_LABEL)
         (p (3PlObvObj));
 
 SETCHILD REPEAT (3PlObvObj)
-        TO (-1**AX NOM_OR_PRON BARRIER CB
-        LINK cc OBVIATIVE_NOMINAL + conj
-        LINK 0x (*)
-        LINK NONE p (*)) ;
+    TO (-1**AX NOM_OR_PRON BARRIER CB LINK cc OBVIATIVE_NOMINAL + conj
+        LINK 0x (*) LINK NONE p (*)) ;
     ADD obj NOM_OR_PRON
         IF (NOT 0 REL_LABEL)
         (p (3PlObvObj));
@@ -443,11 +433,13 @@ SETCHILD (ExclObj) IF (NONE c obj) (NEGATE -1** (Excl) BARRIER CB LINK NONE p (*
 SETCHILD REPEAT (InclObj) 
     TO (-1**A INCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
     ADD obj INCL_PRON
+        IF (NOT 0 REL_LABEL)
         (p (InclObj));
 
 SETCHILD REPEAT (InclObj)
     TO (1**A INCL_PRON + (has_conj) BARRIER CB LINK NONE p (*));
     ADD obj INCL_PRON
+        IF (NOT 0 REL_LABEL)
         (p (InclObj));
 
 SETCHILD (InclObj) IF (NONE c obj) (NEGATE -1** (Incl) BARRIER CB LINK NONE p (*)) TO (1**A (Incl) BARRIER CB LINK NONE p (*)); ADD obj (Incl) IF (NOT 0 REL_LABEL) (p (InclObj)) ;
